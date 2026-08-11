@@ -1,15 +1,32 @@
 {
-  "name": "kpss",
+  "name": "kpss-defterim",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "KPSS Defterim — Genel Yetenek & Genel Kültür Tam Çalışma Föyü",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "format": "prettier --write \"src/**/*.{ts,css}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,css}\"",
+    "test": "vitest",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm run test:unit && npm run build"
   },
   "devDependencies": {
-    "typescript": "~6.0.2",
-    "vite": "^8.2.0"
+    "@playwright/test": "^1.52.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "@vitest/coverage-v8": "^3.2.1",
+    "eslint": "^9.27.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.5.3",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.1"
   }
 }
