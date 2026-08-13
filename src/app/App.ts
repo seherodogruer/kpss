@@ -26,6 +26,7 @@ import { SidebarService } from '@features/settings/SidebarService';
 import type { DrawingToolState } from '@drawing/models/DrawingTypes';
 import { DrawingEngine } from '@drawing/DrawingEngine';
 import { DrawingToolbar } from '@drawing/DrawingToolbar';
+import { runLegacyMigration } from '@drawing/LegacyMigration';
 import {
   toDateStr,
   parseDate,
@@ -138,6 +139,13 @@ export class App {
     this.plannerService.init();
     this.sidebarService.init();
     this.searchService.buildIndex();
+
+    // Run legacy PNG → IndexedDB migration (non-blocking)
+    runLegacyMigration().then((result) => {
+      if (!result.skipped) {
+        logger.info(`Legacy migration: ${result.migrated} migrated, ${result.failed} failed`);
+      }
+    }).catch(() => { /* migration is best-effort */ });
 
     // Build UI
     this.buildTOC();
