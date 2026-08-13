@@ -6,9 +6,140 @@
     <meta name="theme-color" content="#c9a24b" />
     <title>KPSS Defterim — Genel Yetenek &amp; Genel Kültür Tam Çalışma Föyü</title>
     <meta name="description" content="KPSS Genel Yetenek ve Genel Kültür derslerini tek bir dijital defterde çalış. Türkçe, Matematik, Tarih, Coğrafya, Vatandaşlık konuları, çalışma planlayıcısı ve not defteri." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Patrick+Hand&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] },
+        options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
   </head>
   <body>
-    <div id="app"></div>
+    <!-- Top Announcement Banner -->
+    <div class="top-banner" id="topBanner">
+      📘 KPSS Defterim — Genel Yetenek &amp; Genel Kültür ✨ hedef: tam puan
+    </div>
+
+    <!-- Mobile Sidebar Toggle Button -->
+    <button class="open-sidebar-btn" id="openSidebarBtn" title="Menüyü Göster" aria-label="Konu menüsünü göster" aria-expanded="false" aria-controls="sidebar">☰</button>
+
+    <!-- Mobile Backdrop Overlay -->
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <!-- Main App Shell -->
+    <div class="app" id="app">
+      <!-- Sidebar Navigation -->
+      <aside class="sidebar" id="sidebar" aria-label="Konu listesi">
+        <div class="sidebar-header">
+          <button class="close-sidebar-btn" id="closeSidebarBtn" title="Menüyü Gizle" aria-label="Konu menüsünü gizle">✕</button>
+          <h1>📘 KPSS Defterim</h1>
+          <p>Türkçe · Matematik · Tarih · Coğrafya · Vatandaşlık · Güncel</p>
+        </div>
+
+        <div class="search-wrap">
+          <label for="searchInput" class="visually-hidden">Konu ara</label>
+          <input type="text" id="searchInput" placeholder="🔍 Konu ve içerik ara..." autocomplete="off" />
+          <button class="search-clear-btn" id="searchClearBtn" title="Aramayı temizle" aria-label="Aramayı temizle" style="display:none;">✕</button>
+          <button class="theme-toggle-btn" id="themeToggleBtn" title="Tema Seç" aria-label="Tema seçici paneli aç/kapa" aria-expanded="false">🎨</button>
+        </div>
+
+        <!-- Theme Selector Panel -->
+        <div class="theme-panel" id="themePanel" role="listbox" aria-label="Tema seçenekleri">
+          <h3>📒 Defter Teması</h3>
+          <!-- Theme options will be rendered by ThemeUI -->
+        </div>
+
+        <!-- Search Results Panel -->
+        <div class="search-results-panel" id="searchResultsPanel" role="listbox" aria-label="Arama sonuçları"></div>
+
+        <!-- Hedef Tahtam Navigation -->
+        <div class="hedef-nav-item" id="hedefNavItem" role="button" tabindex="0" aria-label="Hedef Tahtam - Çalışma Planlayıcısı">
+          🎯 Hedef Tahtam
+        </div>
+        <div class="sidebar-divider"></div>
+
+        <!-- Status Summary -->
+        <div class="status-summary empty" id="statusSummary">
+          <span><span class="dot-legend completed"></span> <span id="completedCount">0</span> Çalışıldı</span>
+          <span><span class="dot-legend review"></span> <span id="reviewCount">0</span> Tekrar</span>
+        </div>
+
+        <!-- Table of Contents -->
+        <nav class="toc" id="toc" aria-label="Konu içindekiler">
+          <!-- TOC will be built dynamically -->
+        </nav>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="content-wrap" id="contentWrap" role="main">
+        <!-- Search Navigation Bar -->
+        <div class="search-nav-bar" id="searchNavBar">
+          <button class="search-nav-btn" id="searchPrevBtn" title="Önceki eşleşme" aria-label="Önceki eşleşme">◂</button>
+          <span class="search-nav-counter" id="searchNavCounter">0 / 0</span>
+          <button class="search-nav-btn" id="searchNextBtn" title="Sonraki eşleşme" aria-label="Sonraki eşleşme">▸</button>
+          <button class="search-nav-close" id="searchNavClose" title="Aramayı kapat" aria-label="Arama vurgularını temizle">✕</button>
+        </div>
+
+        <!-- Content Header -->
+        <div class="content-header" id="contentHeader">
+          <h2 id="contentTitle"></h2>
+          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+            <div class="status-picker" id="statusPicker" style="display:none;">
+              <button class="status-picker-btn" id="statusBtnCompleted" title="Çalışıldı olarak işaretle">✓ Çalışıldı</button>
+              <button class="status-picker-btn" id="statusBtnReview" title="Tekrar edilecek olarak işaretle">↻ Tekrar</button>
+            </div>
+            <button class="print-btn" id="printBtn" onclick="window.print()" style="display:none;">🖨️ Yazdır</button>
+          </div>
+        </div>
+
+        <!-- Page Wrapper -->
+        <div class="page-wrapper" id="pageWrapper" style="display:none;">
+          <div class="notebook-page" id="notebookPage">
+            <canvas class="draw-canvas" id="drawCanvas"></canvas>
+            <div class="notebook-content" id="notebookContent"></div>
+          </div>
+        </div>
+
+        <!-- Welcome Screen -->
+        <div class="welcome" id="welcomeScreen">
+          <h2>📘 KPSS Defterim'e Hoş Geldin!</h2>
+          <p>Sol menüden bir konu seçerek çalışmaya başla.<br/>
+          🎯 Hedef Tahtam ile haftalık çalışma planı oluşturabilirsin.</p>
+        </div>
+
+        <!-- Hedef Tahtam Container -->
+        <div class="hedef-tahtam" id="hedefTahtam" style="display:none;"></div>
+
+        <!-- Lock Page (for unbuilt topics) -->
+        <div class="lock-page" id="lockPage" style="display:none;">
+          <h2>🔒 Konu Hazırlanıyor</h2>
+          <p>Bu konu henüz hazırlanmadı.<br/>Yakında eklenecek!</p>
+        </div>
+      </main>
+    </div>
+
+    <!-- Drawing Toolbar (will be activated in Phase 5+) -->
+    <div class="note-toolbar" id="noteToolbar" style="display:none;"></div>
+
+    <!-- Hedef Confirm Dialog -->
+    <div class="hedef-confirm-dialog" id="hedefConfirmDialog">
+      <div class="hedef-confirm-inner">
+        <p id="hedefConfirmText"></p>
+        <div class="hedef-confirm-btns">
+          <button id="hedefConfirmYes" class="date-picker-confirm">Evet</button>
+          <button id="hedefConfirmNo" class="date-picker-cancel">Hayır</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Konu Havuzu Mobile Modal -->
+    <div class="konu-havuzu-modal-overlay" id="konuHavuzuOverlay">
+      <div class="konu-havuzu-modal" id="konuHavuzuModal"></div>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

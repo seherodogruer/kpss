@@ -1,0 +1,10 @@
+/**
+ * KPSS Defterim — Main Stylesheet Entry Point
+ *
+ * Imports all CSS in correct cascade order.
+ * Original CSS is preserved 1:1 from the monolithic HTML to ensure
+ * pixel-perfect visual compatibility during migration.
+ */
+
+/* Original CSS from KPSS_Defterim_Birlesik.html — all themes, layout, components */
+@import './original.css';
