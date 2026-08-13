@@ -23,6 +23,9 @@ import { SearchService } from '@features/search/SearchService';
 import type { SearchResult } from '@features/search/SearchService';
 import { PlannerService } from '@features/planner/PlannerService';
 import { SidebarService } from '@features/settings/SidebarService';
+import type { DrawingToolState } from '@drawing/models/DrawingTypes';
+import { DrawingEngine } from '@drawing/DrawingEngine';
+import { DrawingToolbar } from '@drawing/DrawingToolbar';
 import {
   toDateStr,
   parseDate,
@@ -44,6 +47,12 @@ export class App {
   private readonly searchService: SearchService;
   private readonly plannerService: PlannerService;
   private readonly sidebarService: SidebarService;
+
+  // Drawing
+  private readonly drawToolState: DrawingToolState;
+  private readonly drawingEngine: DrawingEngine;
+  private readonly drawingToolbar: DrawingToolbar;
+  private resizeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
 
   // State
   private currentTopicId: number | null = null;
@@ -104,6 +113,16 @@ export class App {
     this.searchService = new SearchService();
     this.plannerService = new PlannerService(this.storage, this.eventBus);
     this.sidebarService = new SidebarService(this.storage);
+
+    // Drawing system
+    this.drawToolState = {
+      mode: 'pen',
+      penColor: '#1c2f5e',
+      highlightColor: '#ffe500',
+      widthLevel: 'thick',
+    };
+    this.drawingEngine = new DrawingEngine(this.drawToolState);
+    this.drawingToolbar = new DrawingToolbar(this.drawToolState, this.drawingEngine);
   }
 
   /** Initialize the entire application */
@@ -125,6 +144,9 @@ export class App {
     this.renderThemePanel();
     this.updateStatusSummary();
     this.applySidebarState();
+
+    // Init drawing toolbar
+    this.drawingToolbar.init();
 
     // Bind events
     this.bindEvents();
@@ -316,6 +338,8 @@ export class App {
       this.dom.contentTitle.textContent = topic.title;
       this.dom.statusPicker.style.display = 'none';
       this.dom.printBtn.style.display = 'none';
+      this.drawingToolbar.hide();
+      this.drawingEngine.destroy();
     } else {
       // Built topic
       this.dom.pageWrapper.style.display = 'block';
@@ -323,6 +347,8 @@ export class App {
       this.dom.contentTitle.textContent = topic.title;
       this.dom.statusPicker.style.display = 'flex';
       this.dom.printBtn.style.display = 'inline-flex';
+      const drawToggleBtn = document.getElementById('drawToggleBtn');
+      if (drawToggleBtn) drawToggleBtn.style.display = 'inline-flex';
       this.renderStatusPicker(id);
 
       // Scroll to top
@@ -335,7 +361,19 @@ export class App {
       // Trigger MathJax typesetting if available
       const mathjax = (window as unknown as Record<string, unknown>).MathJax as { typesetPromise?: () => Promise<void> } | undefined;
       if (mathjax?.typesetPromise) {
-        mathjax.typesetPromise().catch(() => {/* ignore MathJax errors */});
+        mathjax.typesetPromise().then(() => {
+          this.setupCanvasForTopic(id);
+        }).catch(() => {
+          this.setupCanvasForTopic(id);
+        });
+      } else {
+        // Setup canvas after a short delay for layout settlement
+        setTimeout(() => this.setupCanvasForTopic(id), 60);
+      }
+
+      // Show toolbar if it was visible
+      if (this.drawingToolbar.isVisible()) {
+        this.drawingToolbar.show();
       }
     }
 
@@ -343,6 +381,13 @@ export class App {
       topicId: id,
       previousTopicId: prevId,
     });
+  }
+
+  // ─────────────────── Canvas Setup ───────────────────
+
+  private setupCanvasForTopic(topicId: number): void {
+    this.drawingEngine.destroy();
+    this.drawingEngine.setup(topicId);
   }
 
   // ─────────────────── Solutions Accordion ───────────────────
@@ -714,6 +759,8 @@ export class App {
     this.dom.printBtn.style.display = 'none';
     this.dom.contentTitle.textContent = '🎯 Hedef Tahtam';
     this.dom.hedefTahtam.style.display = 'block';
+    this.drawingToolbar.hide();
+    this.drawingEngine.destroy();
 
     this.refreshPlannerView();
   }
@@ -1148,6 +1195,27 @@ export class App {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         this.showHedefTahtam();
+      }
+    });
+
+    // Drawing toggle button (in content header)
+    const drawToggleBtn = document.getElementById('drawToggleBtn');
+    if (drawToggleBtn) {
+      drawToggleBtn.addEventListener('click', () => this.drawingToolbar.toggle());
+    }
+
+    // Canvas resize on window resize
+    window.addEventListener('resize', () => {
+      if (this.currentTopicId !== null) {
+        const topic = getTopicById(this.currentTopicId);
+        if (topic?.built) {
+          if (this.resizeDebounceTimer) clearTimeout(this.resizeDebounceTimer);
+          this.resizeDebounceTimer = setTimeout(() => {
+            if (this.currentTopicId !== null) {
+              this.setupCanvasForTopic(this.currentTopicId);
+            }
+          }, 200);
+        }
       }
     });
   }
