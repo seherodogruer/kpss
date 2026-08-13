@@ -12,7 +12,7 @@
 import { LocalStorageAdapter } from '@core/storage/LocalStorageAdapter';
 import { isMobileLayout } from '@core/utils/dom';
 import type { DrawingToolState, ToolbarState, DrawMode, WidthLevel } from './models/DrawingTypes';
-import { PEN_COLORS, HIGHLIGHT_COLORS } from './models/DrawingTypes';
+import { PEN_COLORS, PEN_COLOR_LABELS, HIGHLIGHT_COLORS, HIGHLIGHT_COLOR_LABELS } from './models/DrawingTypes';
 import type { DrawingEngine } from './DrawingEngine';
 
 const TOOLBAR_POS_KEY = 'kpss-defterim-toolbar-pos';
@@ -60,6 +60,8 @@ export class DrawingToolbar {
     if (!this.toolbar) return;
     this.visible = true;
     this.toolbar.style.display = 'flex';
+    const toggleBtn = document.getElementById('drawToggleBtn');
+    if (toggleBtn) { toggleBtn.style.background = '#1a5fd6'; toggleBtn.style.color = '#fff'; }
   }
 
   /** Hide toolbar */
@@ -67,6 +69,8 @@ export class DrawingToolbar {
     if (!this.toolbar) return;
     this.visible = false;
     this.toolbar.style.display = 'none';
+    const toggleBtn = document.getElementById('drawToggleBtn');
+    if (toggleBtn) { toggleBtn.style.background = '#e8f4fd'; toggleBtn.style.color = '#1a5fd6'; }
   }
 
   /** Toggle toolbar visibility */
@@ -84,54 +88,55 @@ export class DrawingToolbar {
     const el = document.createElement('div');
     el.className = 'note-toolbar';
     el.id = 'noteToolbar';
+    el.setAttribute('aria-label', 'Çizim araçları');
     this.populateToolbar(el);
     return el;
   }
 
   private populateToolbar(el: HTMLElement): void {
-    // Build pen color buttons
+    // Build pen color buttons with Turkish labels
     const penColorBtns = PEN_COLORS.map((c, i) =>
-      `<button class="color-btn${i === 0 ? ' active' : ''}" data-color="${c}" style="background:${c}" title="${c}" aria-label="Kalem rengi: ${c}"></button>`
+      `<button class="color-btn${i === 0 ? ' active' : ''}" data-color="${c}" style="background:${c}" title="${PEN_COLOR_LABELS[i]}" aria-label="${PEN_COLOR_LABELS[i]} kalem"></button>`
     ).join('');
 
-    // Build highlight color buttons
+    // Build highlight color buttons with Turkish labels
     const hlColorBtns = HIGHLIGHT_COLORS.map((c, i) =>
-      `<button class="color-btn${i === 0 ? ' active' : ''}" data-color="${c}" style="background:${c}" title="${c}" aria-label="Fosforlu renk: ${c}"></button>`
+      `<button class="color-btn${i === 0 ? ' active' : ''}" data-color="${c}" style="background:${c}" title="${HIGHLIGHT_COLOR_LABELS[i]} fosforlu" aria-label="${HIGHLIGHT_COLOR_LABELS[i]} fosforlu"></button>`
     ).join('');
 
     el.innerHTML = `
       <div class="toolbar-handle" id="toolbarHandle">
-        <span>✏️ Not Defteri</span>
+        <span>🖊️ Çizim Araçları</span>
         <div style="display:flex;gap:4px;align-items:center;">
-          <span class="save-indicator" id="saveIndicator">💾 Kaydedildi</span>
-          <button class="toolbar-collapse-btn" id="toolbarCollapseBtn" aria-expanded="true" title="Daralt/Genişlet">▾</button>
-          <button class="toolbar-collapse-btn" id="toolbarCloseBtn" title="Kapat" aria-label="Çizim araç çubuğunu kapat">✕</button>
+          <button class="toolbar-collapse-btn" id="toolbarCollapseBtn" title="Küçült/Büyüt" aria-label="Araç çubuğunu küçült veya büyüt" aria-expanded="true">▾</button>
+          <button class="toolbar-collapse-btn" id="toolbarCloseBtn" title="Çizim aracını kapat" aria-label="Çizim aracını kapat">✕</button>
         </div>
       </div>
-      <div class="toolbar-body">
-        <div class="tool-hint">🖊 Kalem veya Apple Pencil ile çizin. Parmak her zaman kaydırır.</div>
+      <div class="toolbar-body" id="toolbarBody">
+        <div class="tool-hint">✍️ Apple Pencil / kalem ile sayfaya çiz — parmakla her zaman kaydırabilirsin.</div>
         <div class="tool-row">
           <button class="tool-btn active" data-mode="pen" aria-pressed="true">✏️ Kalem</button>
           <button class="tool-btn" data-mode="highlight" aria-pressed="false">🖍️ Fosforlu</button>
-          <button class="tool-btn" data-mode="eraser" aria-pressed="false">🧹 Silgi</button>
+          <button class="tool-btn" data-mode="eraser" aria-pressed="false">🧽 Silgi</button>
         </div>
+        <div class="tool-row-label">Kalem Rengi</div>
         <div class="tool-row" id="colorGroupPen">
-          <div class="tool-row-label">Kalem Rengi</div>
           ${penColorBtns}
         </div>
-        <div class="tool-row" id="colorGroupHighlight" style="display:none">
-          <div class="tool-row-label" id="highlightColorLabel">Fosforlu Renk</div>
+        <div class="tool-row-label" id="highlightColorLabel" style="display:none;">Fosforlu Rengi</div>
+        <div class="tool-row" id="colorGroupHighlight" style="display:none;">
           ${hlColorBtns}
         </div>
+        <div class="tool-row-label">Uç Kalınlığı</div>
         <div class="tool-row" id="widthGroup">
-          <div class="tool-row-label">Kalınlık</div>
           <button class="tool-btn" data-width="thin" aria-pressed="false">İnce</button>
           <button class="tool-btn" data-width="medium" aria-pressed="false">Orta</button>
           <button class="tool-btn active" data-width="thick" aria-pressed="true">Kalın</button>
           <button class="tool-btn" data-width="xthick" aria-pressed="false">Çok Kalın</button>
         </div>
         <div class="tool-row">
-          <button class="tool-btn clear-btn" id="clearBtn" title="Tüm çizimleri sil">🗑️ Temizle</button>
+          <button class="tool-btn clear-btn" id="clearBtn">🗑️ Sayfayı Temizle</button>
+          <span class="save-indicator" id="saveIndicator" role="status">✓ Kaydedildi</span>
         </div>
       </div>
     `;
@@ -156,8 +161,10 @@ export class DrawingToolbar {
 
         const penGroup = this.toolbar!.querySelector('#colorGroupPen') as HTMLElement;
         const hlGroup = this.toolbar!.querySelector('#colorGroupHighlight') as HTMLElement;
+        const hlLabel = this.toolbar!.querySelector('#highlightColorLabel') as HTMLElement;
         if (penGroup) penGroup.style.display = mode === 'pen' ? 'flex' : 'none';
         if (hlGroup) hlGroup.style.display = mode === 'highlight' ? 'flex' : 'none';
+        if (hlLabel) hlLabel.style.display = mode === 'highlight' ? 'block' : 'none';
       });
     });
 

@@ -31,15 +31,26 @@ export const HL_WIDTHS: Record<WidthLevel, number> = {
 /** Eraser fixed width */
 export const ERASER_WIDTH = 22;
 
-/** Available pen colors */
+/** Available pen colors (matching original app) */
 export const PEN_COLORS = [
-  '#1c2f5e', '#c0392b', '#2a6aa0', '#5b2d8e', '#d4730e',
-  '#1a7a3a', '#000000', '#5a5a5a',
+  '#1c2f5e', '#000000', '#1a5fd6', '#8a1414', '#1f6b2f',
+  '#6a2fa0', '#e07a1a', '#d6448a', '#6b3f1d',
 ] as const;
 
-/** Available highlighter colors */
+/** Pen color labels (Turkish) */
+export const PEN_COLOR_LABELS = [
+  'Lacivert', 'Siyah', 'Mavi', 'Kırmızı', 'Yeşil',
+  'Mor', 'Turuncu', 'Pembe', 'Kahverengi',
+] as const;
+
+/** Available highlighter colors (matching original app) */
 export const HIGHLIGHT_COLORS = [
-  '#ffe500', '#7aff7a', '#7ac8ff', '#ff7ac8', '#ffb87a',
+  '#ffe500', '#7CFC00', '#ff6fae', '#ffa733', '#33d4ff',
+] as const;
+
+/** Highlight color labels (Turkish) */
+export const HIGHLIGHT_COLOR_LABELS = [
+  'Sarı', 'Yeşil', 'Pembe', 'Turuncu', 'Mavi',
 ] as const;
 
 /** Drawing point with optional pressure */
