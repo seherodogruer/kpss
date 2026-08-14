@@ -23,9 +23,9 @@ import { SearchService } from '@features/search/SearchService';
 import type { SearchResult } from '@features/search/SearchService';
 import { PlannerService } from '@features/planner/PlannerService';
 import { SidebarService } from '@features/settings/SidebarService';
-import type { DrawingToolState } from '@drawing/models/DrawingTypes';
-import { DrawingEngine } from '@drawing/DrawingEngine';
-import { DrawingToolbar } from '@drawing/DrawingToolbar';
+import { DrawingService } from '@drawing/application/DrawingService';
+import { FloatingPenButton } from '@drawing/ui/FloatingPenButton';
+import { CompactToolbar } from '@drawing/ui/CompactToolbar';
 import { runLegacyMigration } from '@drawing/LegacyMigration';
 import {
   toDateStr,
@@ -49,11 +49,10 @@ export class App {
   private readonly plannerService: PlannerService;
   private readonly sidebarService: SidebarService;
 
-  // Drawing
-  private readonly drawToolState: DrawingToolState;
-  private readonly drawingEngine: DrawingEngine;
-  private readonly drawingToolbar: DrawingToolbar;
-  private resizeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
+  // Drawing (v2 — Digital Ink Engine)
+  private readonly drawingService = new DrawingService();
+  private readonly fab = new FloatingPenButton();
+  private readonly drawingToolbar = new CompactToolbar();
 
   // State
   private currentTopicId: number | null = null;
@@ -115,15 +114,6 @@ export class App {
     this.plannerService = new PlannerService(this.storage, this.eventBus);
     this.sidebarService = new SidebarService(this.storage);
 
-    // Drawing system
-    this.drawToolState = {
-      mode: 'pen',
-      penColor: '#1c2f5e',
-      highlightColor: '#ffe500',
-      widthLevel: 'thick',
-    };
-    this.drawingEngine = new DrawingEngine(this.drawToolState);
-    this.drawingToolbar = new DrawingToolbar(this.drawToolState, this.drawingEngine);
   }
 
   /** Initialize the entire application */
@@ -153,8 +143,8 @@ export class App {
     this.updateStatusSummary();
     this.applySidebarState();
 
-    // Init drawing toolbar
-    this.drawingToolbar.init();
+    // Init drawing system (v2 — FAB + Toolbar)
+    this.initDrawingUI();
 
     // Bind events
     this.bindEvents();
@@ -346,8 +336,7 @@ export class App {
       this.dom.contentTitle.textContent = topic.title;
       this.dom.statusPicker.style.display = 'none';
       this.dom.printBtn.style.display = 'none';
-      this.drawingToolbar.hide();
-      this.drawingEngine.destroy();
+      this.hideDrawingUI();
     } else {
       // Built topic
       this.dom.pageWrapper.style.display = 'block';
@@ -355,8 +344,8 @@ export class App {
       this.dom.contentTitle.textContent = topic.title;
       this.dom.statusPicker.style.display = 'flex';
       this.dom.printBtn.style.display = 'inline-flex';
-      const drawToggleBtn = document.getElementById('drawToggleBtn');
-      if (drawToggleBtn) drawToggleBtn.style.display = 'inline-flex';
+      // FAB is always visible when a topic is shown
+      this.fab.show();
       this.renderStatusPicker(id);
 
       // Scroll to top
@@ -379,10 +368,7 @@ export class App {
         setTimeout(() => this.setupCanvasForTopic(id), 60);
       }
 
-      // Show toolbar if it was visible
-      if (this.drawingToolbar.isVisible()) {
-        this.drawingToolbar.show();
-      }
+      // Toolbar state is preserved by DrawingService
     }
 
     this.eventBus.emit('topic:changed', {
@@ -391,11 +377,52 @@ export class App {
     });
   }
 
-  // ─────────────────── Canvas Setup ───────────────────
+  // ─────────────────── Canvas Setup (v2) ───────────────────
 
   private setupCanvasForTopic(topicId: number): void {
-    this.drawingEngine.destroy();
-    this.drawingEngine.setup(topicId);
+    const pageEl = this.dom.notebookPage;
+    this.drawingService.init(topicId, pageEl).catch((err) => {
+      logger.warn('Drawing init failed', err);
+    });
+  }
+
+  // ─────────────────── Drawing UI (v2) ───────────────────
+
+  private initDrawingUI(): void {
+    // Mount FAB
+    this.fab.mount();
+    this.fab.onClick(() => this.toggleDrawingToolbar());
+
+    // Mount toolbar
+    this.drawingToolbar.mount({
+      onToolSelect: (tool) => this.drawingService.updateToolState({ activeTool: tool }),
+      onUndo: () => { this.drawingService.undo(); this.drawingToolbar.updateButtonStates(); },
+      onRedo: () => { this.drawingService.redo(); this.drawingToolbar.updateButtonStates(); },
+      onClearAll: () => this.drawingService.clearCurrentPage(),
+      onCollapse: () => this.toggleDrawingToolbar(),
+      canUndo: () => this.drawingService.canUndo,
+      canRedo: () => this.drawingService.canRedo,
+      getToolState: () => this.drawingService.getToolState(),
+    });
+
+    // Listen to history changes for button states
+    this.drawingService.onHistoryChange(() => this.drawingToolbar.updateButtonStates());
+  }
+
+  private toggleDrawingToolbar(): void {
+    if (this.drawingToolbar.isVisible()) {
+      this.drawingToolbar.hide();
+      this.fab.show();
+    } else {
+      this.drawingToolbar.show(this.fab.getPosition());
+      this.fab.hide();
+    }
+  }
+
+  private hideDrawingUI(): void {
+    this.drawingToolbar.hide();
+    this.fab.hide();
+    this.drawingService.destroy().catch(() => { /* cleanup failure is non-critical */ });
   }
 
   // ─────────────────── Solutions Accordion ───────────────────
@@ -796,8 +823,7 @@ export class App {
     this.dom.printBtn.style.display = 'none';
     this.dom.contentTitle.textContent = '🎯 Hedef Tahtam';
     this.dom.hedefTahtam.style.display = 'block';
-    this.drawingToolbar.hide();
-    this.drawingEngine.destroy();
+    this.hideDrawingUI();
 
     this.refreshPlannerView();
   }
@@ -1235,25 +1261,6 @@ export class App {
       }
     });
 
-    // Drawing toggle button (in content header)
-    const drawToggleBtn = document.getElementById('drawToggleBtn');
-    if (drawToggleBtn) {
-      drawToggleBtn.addEventListener('click', () => this.drawingToolbar.toggle());
-    }
-
-    // Canvas resize on window resize
-    window.addEventListener('resize', () => {
-      if (this.currentTopicId !== null) {
-        const topic = getTopicById(this.currentTopicId);
-        if (topic?.built) {
-          if (this.resizeDebounceTimer) clearTimeout(this.resizeDebounceTimer);
-          this.resizeDebounceTimer = setTimeout(() => {
-            if (this.currentTopicId !== null) {
-              this.setupCanvasForTopic(this.currentTopicId);
-            }
-          }, 200);
-        }
-      }
-    });
+    // Drawing: resize is handled by CanvasManager's ResizeObserver
   }
 }
