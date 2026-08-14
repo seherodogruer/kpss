@@ -99,6 +99,15 @@ function generateEntryId(): string {
  *
  * When a new action is pushed, the redo stack is cleared.
  */
+/** Input type for push — entries without auto-generated fields */
+export type HistoryInput =
+  | Omit<AddEntry, 'id' | 'timestamp'>
+  | Omit<DeleteEntry, 'id' | 'timestamp'>
+  | Omit<TransformEntry, 'id' | 'timestamp'>
+  | Omit<RecolorEntry, 'id' | 'timestamp'>
+  | Omit<ClearEntry, 'id' | 'timestamp'>
+  | Omit<SplitEntry, 'id' | 'timestamp'>;
+
 export class History {
   private undoStack: HistoryEntry[] = [];
   private redoStack: HistoryEntry[] = [];
@@ -110,7 +119,7 @@ export class History {
   }
 
   /** Push a new action onto the undo stack */
-  push(entry: Omit<HistoryEntry, 'id' | 'timestamp'>): void {
+  push(entry: HistoryInput): void {
     const fullEntry = {
       ...entry,
       id: generateEntryId(),
