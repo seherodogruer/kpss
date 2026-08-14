@@ -402,36 +402,65 @@ export class App {
 
   private enhanceSolutions(): void {
     const content = this.dom.notebookContent;
-    const solutionParagraphs = content.querySelectorAll('p');
+    const blocks = content.querySelectorAll('.soru-blok');
 
-    solutionParagraphs.forEach((p) => {
-      const text = p.textContent ?? '';
-      if (!/^(Çözüm|ÇÖZÜM|çözüm)\s*[:：]/i.test(text)) return;
-      if (p.parentElement?.classList.contains('cozum-wrap')) return;
+    blocks.forEach((block, idx) => {
+      const el = block as HTMLElement;
+      if (el.dataset.cozumReady) return;
 
-      // Wrap in accordion
-      const wrapper = document.createElement('div');
-      wrapper.className = 'cozum-wrap';
+      const paragraphs = block.querySelectorAll('p');
+      let solutionP: HTMLParagraphElement | null = null;
+
+      for (const p of paragraphs) {
+        const firstStrong = p.querySelector('strong');
+        if (firstStrong && firstStrong.textContent?.trim().startsWith('Çözüm')) {
+          solutionP = p;
+          break;
+        }
+      }
+
+      if (!solutionP) return;
+
+      el.dataset.cozumReady = '1';
+
+      const wrap = document.createElement('div');
+      wrap.className = 'cozum-wrap';
+      const wrapId = 'cozum-' + idx + '-' + Math.random().toString(36).slice(2, 8);
+      wrap.id = wrapId;
+      solutionP.parentNode?.insertBefore(wrap, solutionP);
+      wrap.appendChild(solutionP);
 
       const btn = document.createElement('button');
+      btn.type = 'button';
       btn.className = 'cozum-toggle-btn';
       btn.setAttribute('aria-expanded', 'false');
-      btn.innerHTML = '<span class="chev">▶</span> Çözümü Göster';
-
-      p.parentNode?.insertBefore(btn, p);
-      p.parentNode?.insertBefore(wrapper, p);
-      wrapper.appendChild(p);
+      btn.setAttribute('aria-controls', wrapId);
+      btn.innerHTML = '<span class="chev">▶</span><span class="btn-label">Çözümü Göster</span>';
+      wrap.parentNode?.insertBefore(btn, wrap);
 
       btn.addEventListener('click', () => {
-        const isOpen = wrapper.classList.toggle('open');
-        btn.setAttribute('aria-expanded', String(isOpen));
-        btn.innerHTML = isOpen
-          ? '<span class="chev">▶</span> Çözümü Gizle'
-          : '<span class="chev">▶</span> Çözümü Göster';
+        const isOpen = wrap.classList.contains('open');
+        const label = btn.querySelector('.btn-label');
+
         if (isOpen) {
-          wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
+          // Close: set current height first, then animate to 0
+          wrap.style.maxHeight = wrap.scrollHeight + 'px';
+          requestAnimationFrame(() => { wrap.style.maxHeight = '0px'; });
+          wrap.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+          if (label) label.textContent = 'Çözümü Göster';
         } else {
-          wrapper.style.maxHeight = '0';
+          // Open: animate to scrollHeight, then remove maxHeight constraint
+          wrap.classList.add('open');
+          wrap.style.maxHeight = wrap.scrollHeight + 'px';
+          btn.setAttribute('aria-expanded', 'true');
+          if (label) label.textContent = 'Çözümü Gizle';
+
+          const onEnd = () => {
+            if (wrap.classList.contains('open')) wrap.style.maxHeight = 'none';
+            wrap.removeEventListener('transitionend', onEnd);
+          };
+          wrap.addEventListener('transitionend', onEnd);
         }
       });
     });
