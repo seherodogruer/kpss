@@ -169,7 +169,7 @@ export class FloatingPenButton {
     const vh = window.innerHeight;
 
     let newRight = this.dragStartRight - dx;
-    let newBottom = this.dragStartBottom + dy;
+    let newBottom = this.dragStartBottom - dy;
 
     // Clamp to viewport
     newRight = Math.max(VIEWPORT_MARGIN, Math.min(vw - FAB_SIZE - VIEWPORT_MARGIN, newRight));

@@ -37,6 +37,7 @@ export class PointerHandler {
   private drawing = false;
   private activePointerId: number | null = null;
   private fingerDrawing = false;
+  private cachedRect: DOMRect | null = null;
 
   // Bound handler references for cleanup
   private boundDown: ((e: PointerEvent) => void) | null = null;
@@ -110,6 +111,9 @@ export class PointerHandler {
     // Capture the pointer for reliable tracking
     try { this.target?.setPointerCapture(e.pointerId); } catch { /* ignore */ }
 
+    // Cache rect once per stroke to avoid layout thrashing
+    this.cachedRect = this.target?.getBoundingClientRect() ?? null;
+
     const point = this.extractPoint(e);
     this.callbacks?.onStrokeStart(point);
   }
@@ -135,6 +139,7 @@ export class PointerHandler {
 
     this.drawing = false;
     this.activePointerId = null;
+    this.cachedRect = null;
 
     // Release pointer capture
     try { this.target?.releasePointerCapture(e.pointerId); } catch { /* ignore */ }
@@ -162,7 +167,7 @@ export class PointerHandler {
   private extractPoint(e: PointerEvent): RawPointerPoint {
     if (!this.target) return { x: 0, y: 0, pressure: 0, timestamp: 0, pointerType: 'mouse' };
 
-    const rect = this.target.getBoundingClientRect();
+    const rect = this.cachedRect ?? this.target.getBoundingClientRect();
     return {
       x: e.clientX - rect.left,
       y: e.clientY - rect.top,

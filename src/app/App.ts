@@ -396,6 +396,9 @@ export class App {
     // Mount toolbar
     this.drawingToolbar.mount({
       onToolSelect: (tool) => this.drawingService.updateToolState({ activeTool: tool }),
+      onPenTypeChange: (type) => this.drawingService.updateToolState({ activeTool: { kind: 'pen', type } }),
+      onColorChange: (hex) => this.drawingService.updateToolState({ color: hex }),
+      onWidthChange: (level) => this.drawingService.updateToolState({ width: level }),
       onUndo: () => { this.drawingService.undo(); this.drawingToolbar.updateButtonStates(); },
       onRedo: () => { this.drawingService.redo(); this.drawingToolbar.updateButtonStates(); },
       onClearAll: () => this.drawingService.clearCurrentPage(),

@@ -7,8 +7,9 @@
  */
 
 import { createLogger } from '@core/logging/Logger';
-import type { DrawingToolState, ActiveTool } from '@drawing/domain/ToolTypes';
+import type { DrawingToolState, ActiveTool, PenToolType, WidthPreset } from '@drawing/domain/ToolTypes';
 import type { FabPosition } from '@drawing/infrastructure/SettingsStorage';
+import { ToolSettingsPopover } from './ToolSettingsPopover';
 
 const logger = createLogger('CompactToolbar');
 
@@ -38,6 +39,9 @@ const ICONS = {
 
 export interface CompactToolbarCallbacks {
   onToolSelect(tool: ActiveTool): void;
+  onPenTypeChange?(type: PenToolType): void;
+  onColorChange?(hex: string): void;
+  onWidthChange?(level: WidthPreset): void;
   onUndo(): void;
   onRedo(): void;
   onClearAll(): void;
@@ -51,6 +55,9 @@ export class CompactToolbar {
   private el: HTMLElement | null = null;
   private callbacks: CompactToolbarCallbacks | null = null;
   private visible = false;
+  private popover: ToolSettingsPopover | null = null;
+  private penButton: HTMLButtonElement | null = null;
+  private lastPenType: PenToolType = 'ball-pen';
 
   /** Mount toolbar to DOM */
   mount(callbacks: CompactToolbarCallbacks): void {
@@ -71,6 +78,27 @@ export class CompactToolbar {
 
     // Prevent pointer events from falling through to canvas
     toolbar.addEventListener('pointerdown', (e) => e.stopPropagation());
+
+    // Mount popover
+    this.popover = new ToolSettingsPopover();
+    this.popover.mount({
+      onPenTypeChange: (type) => {
+        this.lastPenType = type;
+        this.callbacks?.onPenTypeChange?.(type);
+        this.callbacks?.onToolSelect({ kind: 'pen', type });
+        this.updateButtonStates();
+      },
+      onColorChange: (hex) => {
+        this.callbacks?.onColorChange?.(hex);
+        this.updateColorDot();
+      },
+      onWidthChange: (level) => {
+        this.callbacks?.onWidthChange?.(level);
+      },
+      getCurrentColor: () => this.callbacks?.getToolState().color ?? '#1c2f5e',
+      getCurrentPenType: () => this.lastPenType,
+      getCurrentWidth: () => this.callbacks?.getToolState().width ?? 'medium',
+    });
 
     logger.debug('Toolbar mounted');
   }
@@ -116,6 +144,7 @@ export class CompactToolbar {
 
   /** Remove from DOM */
   unmount(): void {
+    this.popover?.unmount();
     this.el?.remove();
     this.el = null;
   }
@@ -124,7 +153,7 @@ export class CompactToolbar {
 
   private buildButtons(container: HTMLElement): void {
     const tools: ToolButton[] = [
-      { id: 'pen', label: 'Kalem', ariaLabel: 'Kalem', svg: ICONS.ballPen, action: () => this.selectTool({ kind: 'pen', type: 'ball-pen' }) },
+      { id: 'pen', label: 'Kalem', ariaLabel: 'Kalem', svg: ICONS.ballPen, action: () => this.handlePenClick() },
       { id: 'highlighter', label: 'Fosforlu', ariaLabel: 'Fosforlu Kalem', svg: ICONS.highlighter, action: () => this.selectTool({ kind: 'pen', type: 'highlighter' }) },
       { id: 'magic', label: 'Sihirli', ariaLabel: 'Sihirli Kalem', svg: ICONS.magic, action: () => this.selectTool({ kind: 'pen', type: 'magic-pen' }) },
       { id: 'eraser', label: 'Silgi', ariaLabel: 'Silgi', svg: ICONS.eraser, action: () => this.selectTool({ kind: 'eraser', mode: 'stroke' }) },
@@ -138,6 +167,12 @@ export class CompactToolbar {
       btn.dataset.tool = tool.id;
       btn.title = tool.label;
       container.appendChild(btn);
+
+      // Save reference for pen button (for color dot and popover)
+      if (tool.id === 'pen') {
+        this.penButton = btn;
+        this.addColorDot(btn);
+      }
     }
 
     // Separator
@@ -188,8 +223,41 @@ export class CompactToolbar {
   }
 
   private selectTool(tool: ActiveTool): void {
+    this.popover?.hide();
     this.callbacks?.onToolSelect(tool);
     this.updateButtonStates();
+  }
+
+  private handlePenClick(): void {
+    const state = this.callbacks?.getToolState();
+    const isPenActive = state?.activeTool.kind === 'pen'
+      && state.activeTool.type !== 'highlighter'
+      && state.activeTool.type !== 'magic-pen';
+
+    if (isPenActive && this.penButton) {
+      // Already on pen tool — toggle popover
+      const rect = this.penButton.getBoundingClientRect();
+      this.popover?.toggle(rect);
+    } else {
+      // Switch to pen tool
+      this.popover?.hide();
+      this.selectTool({ kind: 'pen', type: this.lastPenType });
+    }
+  }
+
+  private addColorDot(btn: HTMLButtonElement): void {
+    const dot = document.createElement('span');
+    dot.className = 'color-dot';
+    dot.style.backgroundColor = this.callbacks?.getToolState().color ?? '#1c2f5e';
+    btn.appendChild(dot);
+  }
+
+  private updateColorDot(): void {
+    if (!this.penButton) return;
+    const dot = this.penButton.querySelector('.color-dot') as HTMLElement | null;
+    if (dot) {
+      dot.style.backgroundColor = this.callbacks?.getToolState().color ?? '#1c2f5e';
+    }
   }
 
   private handleClear(): void {

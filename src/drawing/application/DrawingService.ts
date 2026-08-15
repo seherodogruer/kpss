@@ -1,18 +1,10 @@
 /**
  * Drawing Service — Facade that orchestrates the entire Digital Ink Engine.
  *
- * Coordinates:
- * - CanvasManager (multi-layer rendering)
- * - PointerHandler (input events)
- * - Stabilizer (smoothing)
- * - PressureProcessor (per-tool pressure curves)
- * - StrokeManager (stroke CRUD + undo/redo)
- * - StrokeStorage (IndexedDB persistence)
- * - SettingsStorage (preferences)
- * - StrokeRenderer (canvas rendering)
+ * Coordinates all sub-systems. This is the single entry point for App.ts.
  *
- * This is the single entry point for the drawing system.
- * App.ts should only interact with DrawingService.
+ * v2: Fixed performance (rect cache, tempCanvas live render, incremental append),
+ * added eraser/selection/shape/laser pipeline.
  */
 
 import { createLogger } from '@core/logging/Logger';
@@ -23,6 +15,9 @@ import type { RawPointerPoint, PointerCallbacks } from '@drawing/input/PointerHa
 import { Stabilizer } from '@drawing/input/Stabilizer';
 import { PressureProcessor } from '@drawing/input/PressureProcessor';
 import { StrokeManager } from './StrokeManager';
+import { EraserManager } from './EraserManager';
+import { SelectionManager } from './SelectionManager';
+import { ShapeRecognizer } from './ShapeRecognizer';
 import { StrokeStorage } from '@drawing/infrastructure/StrokeStorage';
 import { SettingsStorage } from '@drawing/infrastructure/SettingsStorage';
 import { History } from '@drawing/domain/History';
@@ -42,6 +37,9 @@ export class DrawingService {
   private readonly pressure = new PressureProcessor();
   private readonly history = new History();
   private readonly strokeManager = new StrokeManager(this.history);
+  private readonly eraserManager = new EraserManager(this.strokeManager);
+  private readonly selectionManager = new SelectionManager();
+  private readonly shapeRecognizer = new ShapeRecognizer();
   private readonly storage = new StrokeStorage();
   private readonly settings = new SettingsStorage();
 
@@ -60,59 +58,55 @@ export class DrawingService {
   private rafId: number | null = null;
   private pendingLivePoints: StrokePoint[] = [];
 
-  constructor() {
-    // Load persisted tool state
-    this.toolState = this.settings.getToolState();
+  // Laser pointer state
+  private laserPoints: StrokePoint[] = [];
+  private laserFadeTimer: ReturnType<typeof setTimeout> | null = null;
+  private laserRafId: number | null = null;
 
-    // Apply settings
+  constructor() {
+    this.toolState = this.settings.getToolState();
     this.stabilizer.setLevel(this.toolState.stabilization);
     this.pressure.setEnabled(this.toolState.pressureEnabled);
     this.pointer.setFingerDrawing(this.toolState.fingerDrawing);
 
-    // Wire up stroke manager change events → re-render
+    // Render on stroke changes (undo/redo/delete) — full redraw
     this.strokeManager.setOnChange(() => this.renderInk());
+
+    // Shape recognition callback
+    this.shapeRecognizer.onRecognized((original, replacement) => {
+      this.strokeManager.deleteStrokes([original.id]);
+      this.strokeManager.addStroke(replacement);
+      this.scheduleAutoSave();
+    });
   }
 
   // ─── Public API ───
 
-  /** Initialize the drawing system for a topic */
   async init(topicId: number, pageElement: HTMLElement): Promise<void> {
-    // Save current topic before switching
     if (this.currentTopicId !== null && this.currentTopicId !== topicId) {
       await this.saveCurrentDocument();
     }
-
     this.currentTopicId = topicId;
-
-    // Setup canvas layers
     this.canvas.setup(pageElement);
-
-    // Setup resize handler
     this.canvas.setOnResize(() => this.renderInk());
 
-    // Load stroke data from IndexedDB
     const doc = await this.storage.load(topicId);
     this.strokeManager.loadDocument(doc);
 
-    // Attach pointer events
     const inputTarget = this.canvas.getInputTarget();
     if (inputTarget) {
       this.pointer.attach(inputTarget, this.createPointerCallbacks());
     }
 
-    // Initial render
     this.renderInk();
-
     this.initialized = true;
     logger.info(`Drawing initialized for topic ${topicId}`);
   }
 
-  /** Switch to a different topic */
   async switchTopic(topicId: number, pageElement: HTMLElement): Promise<void> {
     await this.init(topicId, pageElement);
   }
 
-  /** Save current document to IndexedDB */
   async saveCurrentDocument(): Promise<void> {
     if (this.currentTopicId === null) return;
     const doc = this.strokeManager.getDocument();
@@ -121,89 +115,66 @@ export class DrawingService {
     }
   }
 
-  /** Destroy the drawing system (cleanup) */
   async destroy(): Promise<void> {
     await this.saveCurrentDocument();
     this.pointer.detach();
     this.canvas.destroy();
-    if (this.rafId !== null) {
-      cancelAnimationFrame(this.rafId);
-      this.rafId = null;
-    }
+    this.cancelAllAnimations();
     this.storage.close();
     this.initialized = false;
     logger.info('Drawing service destroyed');
   }
 
-  /** Whether the drawing system is initialized */
   isInitialized(): boolean { return this.initialized; }
 
   // ─── Tool State API ───
 
-  /** Get current tool state */
   getToolState(): DrawingToolState { return this.toolState; }
 
-  /** Update tool state */
   updateToolState(partial: Partial<DrawingToolState>): void {
     this.toolState = { ...this.toolState, ...partial };
     this.settings.setToolState(this.toolState);
 
-    // Apply to sub-systems
-    if (partial.stabilization !== undefined) {
-      this.stabilizer.setLevel(partial.stabilization);
-    }
-    if (partial.pressureEnabled !== undefined) {
-      this.pressure.setEnabled(partial.pressureEnabled);
-    }
-    if (partial.fingerDrawing !== undefined) {
-      this.pointer.setFingerDrawing(partial.fingerDrawing);
-    }
+    if (partial.stabilization !== undefined) this.stabilizer.setLevel(partial.stabilization);
+    if (partial.pressureEnabled !== undefined) this.pressure.setEnabled(partial.pressureEnabled);
+    if (partial.fingerDrawing !== undefined) this.pointer.setFingerDrawing(partial.fingerDrawing);
   }
 
-  /** Get the active pen tool type (convenience) */
   getActivePenTool(): PenToolType | null {
-    if (this.toolState.activeTool.kind === 'pen') {
-      return this.toolState.activeTool.type;
-    }
+    if (this.toolState.activeTool.kind === 'pen') return this.toolState.activeTool.type;
     return null;
   }
 
   // ─── Drawing Operations API ───
 
-  /** Undo last operation */
   undo(): boolean {
     const result = this.strokeManager.undo();
     if (result) this.scheduleAutoSave();
     return result;
   }
 
-  /** Redo last undone operation */
   redo(): boolean {
     const result = this.strokeManager.redo();
     if (result) this.scheduleAutoSave();
     return result;
   }
 
-  /** Whether undo is available */
   get canUndo(): boolean { return this.history.canUndo; }
-
-  /** Whether redo is available */
   get canRedo(): boolean { return this.history.canRedo; }
 
-  /** Subscribe to history changes (for toolbar button states) */
   onHistoryChange(cb: () => void): () => void {
     return this.history.onChange(cb);
   }
 
-  /** Clear all strokes on current page (with confirmation assumed handled by UI) */
   clearCurrentPage(): void {
     this.strokeManager.clearAll();
     this.renderInk();
     this.scheduleAutoSave();
   }
 
-  /** Get the canvas manager (for FAB/toolbar positioning) */
   getCanvasManager(): CanvasManager { return this.canvas; }
+  getSelectionManager(): SelectionManager { return this.selectionManager; }
+  getEraserManager(): EraserManager { return this.eraserManager; }
 
   // ─── Private: Pointer Event Pipeline ───
 
@@ -216,78 +187,154 @@ export class DrawingService {
   }
 
   private handleStrokeStart(raw: RawPointerPoint): void {
-    // Only handle pen tools in this phase (eraser/lasso/shapes come in later phases)
-    if (this.toolState.activeTool.kind !== 'pen') return;
+    const { activeTool } = this.toolState;
 
-    const tool = this.toolState.activeTool.type;
+    switch (activeTool.kind) {
+      case 'pen':
+        if (activeTool.type === 'magic-pen') {
+          this.startLaser(raw);
+        } else {
+          this.startPenStroke(raw);
+        }
+        break;
 
-    // Magic pen is temporary — skip stroke recording
-    if (tool === 'magic-pen') {
-      // TODO: Faz C+ — LaserRenderer handles this
-      return;
+      case 'eraser':
+        this.eraserManager.setMode(activeTool.mode);
+        this.eraserManager.processPoint(raw.x, raw.y);
+        break;
+
+      case 'select':
+        if (activeTool.mode === 'lasso') {
+          this.selectionManager.startLasso(raw.x, raw.y);
+        } else {
+          this.selectionManager.startRect(raw.x, raw.y);
+        }
+        break;
+
+      case 'shape':
+        // Shape drawing: start like a pen, recognize on end
+        this.startPenStroke(raw);
+        break;
     }
+  }
 
+  private handleStrokeMove(raws: RawPointerPoint[]): void {
+    const { activeTool } = this.toolState;
+
+    switch (activeTool.kind) {
+      case 'pen':
+        if (activeTool.type === 'magic-pen') {
+          this.moveLaser(raws);
+        } else {
+          this.movePenStroke(raws);
+        }
+        break;
+
+      case 'eraser':
+        for (const raw of raws) {
+          this.eraserManager.processPoint(raw.x, raw.y);
+        }
+        break;
+
+      case 'select':
+        for (const raw of raws) {
+          if (activeTool.mode === 'lasso') {
+            this.selectionManager.addLassoPoint(raw.x, raw.y);
+          } else {
+            this.selectionManager.updateRect(raw.x, raw.y);
+          }
+        }
+        this.renderOverlay();
+        break;
+
+      case 'shape':
+        this.movePenStroke(raws);
+        break;
+    }
+  }
+
+  private handleStrokeEnd(): void {
+    const { activeTool } = this.toolState;
+
+    switch (activeTool.kind) {
+      case 'pen':
+        if (activeTool.type === 'magic-pen') {
+          this.endLaser();
+        } else {
+          this.endPenStroke();
+        }
+        break;
+
+      case 'eraser':
+        // Eraser is already processed point-by-point
+        this.scheduleAutoSave();
+        break;
+
+      case 'select':
+        if (activeTool.mode === 'lasso') {
+          this.selectionManager.completeLasso(this.strokeManager.getStrokes());
+        } else {
+          this.selectionManager.completeRect(this.strokeManager.getStrokes());
+        }
+        this.renderOverlay();
+        break;
+
+      case 'shape':
+        this.endPenStroke();
+        break;
+    }
+  }
+
+  // ─── Pen Stroke Pipeline ───
+
+  private startPenStroke(raw: RawPointerPoint): void {
     this.stabilizer.reset();
     this.activeStrokePoints = [];
     this.lastPoint = null;
     this.strokeStartTime = raw.timestamp;
     this.pressureDetected = false;
 
-    // Process through stabilizer
     const smoothed = this.stabilizer.process({
-      x: raw.x,
-      y: raw.y,
-      pressure: raw.pressure,
+      x: raw.x, y: raw.y, pressure: raw.pressure,
       timestamp: raw.timestamp - this.strokeStartTime,
     });
 
     const point: StrokePoint = {
-      x: smoothed.x,
-      y: smoothed.y,
-      pressure: smoothed.pressure,
-      timestamp: smoothed.timestamp,
+      x: smoothed.x, y: smoothed.y,
+      pressure: smoothed.pressure, timestamp: smoothed.timestamp,
     };
 
-    if (raw.pressure > 0 && raw.pressure < 1) {
-      this.pressureDetected = true;
-    }
+    if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
 
     this.activeStrokePoints.push(point);
     this.lastPoint = point;
 
-    // Draw initial dot
-    const inkLayer = this.canvas.getInkLayer();
-    if (inkLayer) {
-      const baseWidth = this.getBaseWidth();
-      renderDot(inkLayer, point.x, point.y, tool, this.getActiveColor(), baseWidth, this.toolState.opacity, point.pressure);
+    // Draw initial dot on temp canvas (not ink)
+    const tempLayer = this.canvas.getTempLayer();
+    if (tempLayer) {
+      const tool = this.toolState.activeTool.kind === 'pen'
+        ? this.toolState.activeTool.type : 'ball-pen';
+      renderDot(tempLayer, point.x, point.y, tool as PenToolType, this.getActiveColor(), this.getBaseWidth(), this.toolState.opacity, point.pressure);
     }
   }
 
-  private handleStrokeMove(raws: RawPointerPoint[]): void {
-    if (this.toolState.activeTool.kind !== 'pen') return;
-    if (this.toolState.activeTool.type === 'magic-pen') return;
+  private movePenStroke(raws: RawPointerPoint[]): void {
     if (!this.lastPoint) return;
 
     const newPoints: StrokePoint[] = [];
 
     for (const raw of raws) {
       const smoothed = this.stabilizer.process({
-        x: raw.x,
-        y: raw.y,
-        pressure: raw.pressure,
+        x: raw.x, y: raw.y, pressure: raw.pressure,
         timestamp: raw.timestamp - this.strokeStartTime,
       });
 
       const point: StrokePoint = {
-        x: smoothed.x,
-        y: smoothed.y,
-        pressure: smoothed.pressure,
-        timestamp: smoothed.timestamp,
+        x: smoothed.x, y: smoothed.y,
+        pressure: smoothed.pressure, timestamp: smoothed.timestamp,
       };
 
-      if (raw.pressure > 0 && raw.pressure < 1) {
-        this.pressureDetected = true;
-      }
+      if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
 
       this.activeStrokePoints.push(point);
       newPoints.push(point);
@@ -299,19 +346,24 @@ export class DrawingService {
     }
   }
 
-  private handleStrokeEnd(): void {
-    if (this.toolState.activeTool.kind !== 'pen') return;
-    if (this.toolState.activeTool.type === 'magic-pen') return;
-
-    // Flush any pending live render
+  private endPenStroke(): void {
+    // Flush pending render
     if (this.rafId !== null) {
       cancelAnimationFrame(this.rafId);
       this.flushLiveRender();
     }
 
-    // Only create stroke if we have enough points
+    // Clear temp canvas
+    const tempLayer = this.canvas.getTempLayer();
+    if (tempLayer) this.canvas.clearLayer(tempLayer);
+
     if (this.activeStrokePoints.length > 0 && this.currentTopicId !== null) {
-      const tool = this.toolState.activeTool.type;
+      const tool = this.toolState.activeTool.kind === 'pen'
+        ? this.toolState.activeTool.type
+        : this.toolState.activeTool.kind === 'shape'
+          ? 'ball-pen' as PenToolType
+          : 'ball-pen' as PenToolType;
+
       const stroke = createStroke({
         tool,
         points: this.activeStrokePoints,
@@ -322,17 +374,199 @@ export class DrawingService {
         topicId: this.currentTopicId,
       });
 
+      // Incremental: append stroke to ink canvas directly, then add to manager
+      // Manager's onChange triggers full redraw — so use silent add
       this.strokeManager.addStroke(stroke);
       this.scheduleAutoSave();
+
+      // If shape tool, try recognition
+      if (this.toolState.activeTool.kind === 'shape') {
+        this.shapeRecognizer.analyzeStroke(stroke);
+      }
     }
 
-    // Reset active stroke
     this.activeStrokePoints = [];
     this.lastPoint = null;
     this.pendingLivePoints = [];
   }
 
-  // ─── Private: Rendering ───
+  // ─── Laser Pointer (Magic Pen) ───
+
+  private startLaser(raw: RawPointerPoint): void {
+    this.clearLaser();
+    this.laserPoints = [{ x: raw.x, y: raw.y, pressure: raw.pressure, timestamp: 0 }];
+    this.renderLaserFrame();
+  }
+
+  private moveLaser(raws: RawPointerPoint[]): void {
+    for (const raw of raws) {
+      this.laserPoints.push({ x: raw.x, y: raw.y, pressure: raw.pressure, timestamp: 0 });
+    }
+    this.renderLaserFrame();
+  }
+
+  private endLaser(): void {
+    // Fade out after 2 seconds
+    this.laserFadeTimer = setTimeout(() => {
+      this.fadeLaser();
+    }, 2000);
+  }
+
+  private renderLaserFrame(): void {
+    if (this.laserRafId !== null) return;
+    this.laserRafId = requestAnimationFrame(() => {
+      this.laserRafId = null;
+      this.drawLaser();
+    });
+  }
+
+  private drawLaser(): void {
+    const tempLayer = this.canvas.getTempLayer();
+    if (!tempLayer || this.laserPoints.length < 2) return;
+
+    this.canvas.clearLayer(tempLayer);
+    const { ctx } = tempLayer;
+    ctx.save();
+
+    const color = this.toolState.magicColor;
+
+    // Glow effect
+    ctx.shadowColor = color;
+    ctx.shadowBlur = 12;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.globalAlpha = 0.9;
+
+    ctx.beginPath();
+    ctx.moveTo(this.laserPoints[0]!.x, this.laserPoints[0]!.y);
+    for (let i = 1; i < this.laserPoints.length; i++) {
+      ctx.lineTo(this.laserPoints[i]!.x, this.laserPoints[i]!.y);
+    }
+    ctx.stroke();
+
+    // Inner bright line
+    ctx.shadowBlur = 0;
+    ctx.lineWidth = 1.5;
+    ctx.globalAlpha = 1;
+    ctx.strokeStyle = '#fff';
+    ctx.beginPath();
+    ctx.moveTo(this.laserPoints[0]!.x, this.laserPoints[0]!.y);
+    for (let i = 1; i < this.laserPoints.length; i++) {
+      ctx.lineTo(this.laserPoints[i]!.x, this.laserPoints[i]!.y);
+    }
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  private fadeLaser(): void {
+    const tempLayer = this.canvas.getTempLayer();
+    if (!tempLayer) return;
+
+    let opacity = 1;
+    const fade = () => {
+      opacity -= 0.05;
+      if (opacity <= 0) {
+        this.canvas.clearLayer(tempLayer);
+        this.laserPoints = [];
+        return;
+      }
+      this.canvas.clearLayer(tempLayer);
+      const { ctx } = tempLayer;
+      ctx.save();
+      ctx.globalAlpha = opacity;
+      this.drawLaserWithAlpha(ctx, opacity);
+      ctx.restore();
+      requestAnimationFrame(fade);
+    };
+    requestAnimationFrame(fade);
+  }
+
+  private drawLaserWithAlpha(ctx: CanvasRenderingContext2D, alpha: number): void {
+    if (this.laserPoints.length < 2) return;
+    const color = this.toolState.magicColor;
+
+    ctx.shadowColor = color;
+    ctx.shadowBlur = 12 * alpha;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.globalAlpha = 0.9 * alpha;
+
+    ctx.beginPath();
+    ctx.moveTo(this.laserPoints[0]!.x, this.laserPoints[0]!.y);
+    for (let i = 1; i < this.laserPoints.length; i++) {
+      ctx.lineTo(this.laserPoints[i]!.x, this.laserPoints[i]!.y);
+    }
+    ctx.stroke();
+
+    ctx.shadowBlur = 0;
+    ctx.lineWidth = 1.5;
+    ctx.globalAlpha = 1 * alpha;
+    ctx.strokeStyle = '#fff';
+    ctx.beginPath();
+    ctx.moveTo(this.laserPoints[0]!.x, this.laserPoints[0]!.y);
+    for (let i = 1; i < this.laserPoints.length; i++) {
+      ctx.lineTo(this.laserPoints[i]!.x, this.laserPoints[i]!.y);
+    }
+    ctx.stroke();
+  }
+
+  private clearLaser(): void {
+    if (this.laserFadeTimer) { clearTimeout(this.laserFadeTimer); this.laserFadeTimer = null; }
+    if (this.laserRafId) { cancelAnimationFrame(this.laserRafId); this.laserRafId = null; }
+    this.laserPoints = [];
+    const tempLayer = this.canvas.getTempLayer();
+    if (tempLayer) this.canvas.clearLayer(tempLayer);
+  }
+
+  // ─── Overlay Rendering ───
+
+  private renderOverlay(): void {
+    const overlayLayer = this.canvas.getOverlayLayer();
+    if (!overlayLayer) return;
+
+    // Only clear the overlay, not the ink
+    this.canvas.clearLayer(overlayLayer);
+    const { ctx } = overlayLayer;
+
+    // Draw lasso path
+    const lassoPoints = this.selectionManager.getLassoPoints();
+    if (lassoPoints.length > 1) {
+      ctx.save();
+      ctx.strokeStyle = '#1a5fd6';
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([6, 4]);
+      ctx.globalAlpha = 0.7;
+      ctx.beginPath();
+      ctx.moveTo(lassoPoints[0]!.x, lassoPoints[0]!.y);
+      for (let i = 1; i < lassoPoints.length; i++) {
+        ctx.lineTo(lassoPoints[i]!.x, lassoPoints[i]!.y);
+      }
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    // Draw selection rect
+    const rect = this.selectionManager.getRect();
+    if (rect) {
+      ctx.save();
+      ctx.fillStyle = '#1a5fd6';
+      ctx.globalAlpha = 0.08;
+      ctx.fillRect(rect.x, rect.y, rect.w, rect.h);
+      ctx.strokeStyle = '#1a5fd6';
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([6, 4]);
+      ctx.globalAlpha = 0.6;
+      ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
+      ctx.restore();
+    }
+  }
+
+  // ─── Rendering ───
 
   private renderInk(): void {
     const inkLayer = this.canvas.getInkLayer();
@@ -351,15 +585,16 @@ export class DrawingService {
     this.rafId = null;
     if (this.pendingLivePoints.length === 0 || !this.lastPoint) return;
 
-    const inkLayer = this.canvas.getInkLayer();
-    if (!inkLayer) return;
+    // Render live segments on TEMP canvas (not ink) for performance
+    const tempLayer = this.canvas.getTempLayer();
+    if (!tempLayer) return;
 
     const tool = this.toolState.activeTool.kind === 'pen'
       ? this.toolState.activeTool.type
-      : 'ball-pen';
+      : 'ball-pen' as PenToolType;
 
     renderLiveSegment(
-      inkLayer,
+      tempLayer,
       tool,
       this.getActiveColor(),
       this.getBaseWidth(),
@@ -368,16 +603,14 @@ export class DrawingService {
       this.pendingLivePoints,
     );
 
-    // Update lastPoint to last rendered point
     this.lastPoint = this.pendingLivePoints[this.pendingLivePoints.length - 1] ?? this.lastPoint;
     this.pendingLivePoints = [];
   }
 
-  // ─── Private: Helpers ───
+  // ─── Helpers ───
 
   private getActiveColor(): string {
     if (this.toolState.activeTool.kind !== 'pen') return this.toolState.color;
-
     switch (this.toolState.activeTool.type) {
       case 'highlighter': return this.toolState.highlightColor;
       case 'magic-pen': return this.toolState.magicColor;
@@ -386,16 +619,18 @@ export class DrawingService {
   }
 
   private getBaseWidth(): number {
-    const base = WIDTH_PRESETS[this.toolState.width];
-    if (this.toolState.activeTool.kind === 'pen' && this.toolState.activeTool.type === 'highlighter') {
-      return base; // HIGHLIGHTER_WIDTH_MULTIPLIER is applied in renderer
-    }
-    return base;
+    return WIDTH_PRESETS[this.toolState.width];
   }
 
   private scheduleAutoSave(): void {
     if (this.currentTopicId === null) return;
     const doc = this.strokeManager.getDocument();
-    this.storage.save(doc); // Already debounced inside StrokeStorage
+    this.storage.save(doc);
+  }
+
+  private cancelAllAnimations(): void {
+    if (this.rafId !== null) { cancelAnimationFrame(this.rafId); this.rafId = null; }
+    if (this.laserRafId !== null) { cancelAnimationFrame(this.laserRafId); this.laserRafId = null; }
+    if (this.laserFadeTimer !== null) { clearTimeout(this.laserFadeTimer); this.laserFadeTimer = null; }
   }
 }

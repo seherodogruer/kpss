@@ -113,7 +113,9 @@ export class CanvasManager {
 
     this.dpr = window.devicePixelRatio || 1;
     this.cssWidth = this.pageElement.offsetWidth;
-    this.cssHeight = this.pageElement.scrollHeight;
+    // Use scrollHeight but cap at a reasonable max to avoid enormous canvases
+    const rawHeight = this.pageElement.scrollHeight;
+    this.cssHeight = Math.min(rawHeight, 8000);
 
     // Update container size
     if (this.container) {
