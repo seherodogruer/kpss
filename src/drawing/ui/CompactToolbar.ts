@@ -154,9 +154,9 @@ export class CompactToolbar {
   private buildButtons(container: HTMLElement): void {
     const tools: ToolButton[] = [
       { id: 'pen', label: 'Kalem', ariaLabel: 'Kalem', svg: ICONS.ballPen, action: () => this.handlePenClick() },
-      { id: 'highlighter', label: 'Fosforlu', ariaLabel: 'Fosforlu Kalem', svg: ICONS.highlighter, action: () => this.selectTool({ kind: 'pen', type: 'highlighter' }) },
-      { id: 'magic', label: 'Sihirli', ariaLabel: 'Sihirli Kalem', svg: ICONS.magic, action: () => this.selectTool({ kind: 'pen', type: 'magic-pen' }) },
-      { id: 'eraser', label: 'Silgi', ariaLabel: 'Silgi', svg: ICONS.eraser, action: () => this.selectTool({ kind: 'eraser', mode: 'stroke' }) },
+      { id: 'highlighter', label: 'Fosforlu', ariaLabel: 'Fosforlu Kalem', svg: ICONS.highlighter, action: () => this.handleToolClick('highlighter', { kind: 'pen', type: 'highlighter' }) },
+      { id: 'magic', label: 'Sihirli', ariaLabel: 'Sihirli Kalem', svg: ICONS.magic, action: () => this.handleToolClick('magic', { kind: 'pen', type: 'magic-pen' }) },
+      { id: 'eraser', label: 'Silgi', ariaLabel: 'Silgi', svg: ICONS.eraser, action: () => this.handleToolClick('eraser', { kind: 'eraser', mode: 'point' }) },
       { id: 'lasso', label: 'Kement', ariaLabel: 'Kement Seçimi', svg: ICONS.lasso, action: () => this.selectTool({ kind: 'select', mode: 'lasso' }) },
       { id: 'shapes', label: 'Şekil', ariaLabel: 'Şekiller', svg: ICONS.shapes, action: () => this.selectTool({ kind: 'shape', shape: 'rectangle' }) },
     ];
@@ -168,11 +168,13 @@ export class CompactToolbar {
       btn.title = tool.label;
       container.appendChild(btn);
 
-      // Save reference for pen button (for color dot and popover)
+      // Save button references
       if (tool.id === 'pen') {
         this.penButton = btn;
         this.addColorDot(btn);
       }
+      // Store all tool buttons for popover positioning
+      (btn as any)._toolId = tool.id;
     }
 
     // Separator
@@ -242,6 +244,24 @@ export class CompactToolbar {
       // Switch to pen tool
       this.popover?.hide();
       this.selectTool({ kind: 'pen', type: this.lastPenType });
+    }
+  }
+
+  private handleToolClick(toolId: string, tool: ActiveTool): void {
+    const state = this.callbacks?.getToolState();
+    const isActive = this.isToolActive(toolId, state!);
+
+    if (isActive) {
+      // Already active — toggle popover for settings
+      const btn = this.el?.querySelector(`.dt-btn[data-tool="${toolId}"]`) as HTMLElement | null;
+      if (btn) {
+        const rect = btn.getBoundingClientRect();
+        this.popover?.toggle(rect);
+      }
+    } else {
+      // Switch to this tool
+      this.popover?.hide();
+      this.selectTool(tool);
     }
   }
 

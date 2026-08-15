@@ -34,12 +34,13 @@ export interface EraserSettings {
   size: EraserSize;
 }
 
-export type EraserSize = 'small' | 'medium' | 'large';
+export type EraserSize = 'small' | 'medium' | 'large' | 'xlarge';
 
 export const ERASER_SIZES: Record<EraserSize, number> = {
   small: 8,
-  medium: 16,
-  large: 28,
+  medium: 20,
+  large: 40,
+  xlarge: 70,
 };
 
 // ─── Selection ───
@@ -125,10 +126,10 @@ export interface PressureCurve {
 }
 
 export const PRESSURE_CURVES: Record<PenToolType, PressureCurve> = {
-  'ball-pen':    { min: 0.85, max: 1.15, exponent: 1.0 },   // subtle
-  'fountain':    { min: 0.4,  max: 2.0,  exponent: 0.8 },   // responsive
-  'brush':       { min: 0.2,  max: 3.0,  exponent: 0.6 },   // dramatic
-  'pencil':      { min: 0.6,  max: 1.4,  exponent: 1.0 },   // moderate
+  'ball-pen':    { min: 0.92, max: 1.08, exponent: 1.0 },   // nearly flat — consistent
+  'fountain':    { min: 0.3,  max: 2.2,  exponent: 0.7 },   // responsive, elegant flow
+  'brush':       { min: 0.15, max: 3.5,  exponent: 0.5 },   // dramatic calligraphy
+  'pencil':      { min: 0.5,  max: 1.5,  exponent: 0.9 },   // moderate with texture
   'highlighter': { min: 0.8,  max: 1.2,  exponent: 1.0 },   // minimal
   'magic-pen':   { min: 0.9,  max: 1.1,  exponent: 1.0 },   // nearly fixed
 };
@@ -166,5 +167,5 @@ export const DEFAULT_TOOL_STATE: DrawingToolState = {
   scribbleErase: false,
   lastToolMemory: true,
   magicPen: { ...DEFAULT_MAGIC_SETTINGS },
-  eraser: { mode: 'stroke', size: 'medium' },
+  eraser: { mode: 'point', size: 'medium' },
 };

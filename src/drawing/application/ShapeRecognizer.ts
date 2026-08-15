@@ -19,8 +19,8 @@ const logger = createLogger('ShapeRecognizer');
 
 const HOLD_DELAY_MS = 500;
 const LINE_DEVIATION_THRESHOLD = 0.08; // 8% of length
-const CIRCLE_FIT_THRESHOLD = 0.15;     // 15% deviation from ideal
-const RECT_ANGLE_THRESHOLD = 25;       // degrees from 90°
+const CIRCLE_FIT_THRESHOLD = 0.10;     // 10% deviation from ideal (was 15% — too aggressive)
+const RECT_ANGLE_THRESHOLD = 20;       // degrees from 90° (was 25°)
 const MIN_STROKE_POINTS = 5;
 
 export interface RecognitionResult {
@@ -99,22 +99,22 @@ export class ShapeRecognizer {
       return { recognized: true, shape: 'line', replacement };
     }
 
-    // Try circle/ellipse
-    if (this.isCircle(points)) {
-      const replacement = this.createCircle(stroke);
-      return { recognized: true, shape: 'circle', replacement };
-    }
-
-    // Try rectangle
+    // Try rectangle BEFORE circle (rectangles can be mistaken for circles)
     if (this.isRectangle(points)) {
       const replacement = this.createRectangle(stroke);
       return { recognized: true, shape: 'rectangle', replacement };
     }
 
-    // Try triangle
+    // Try triangle BEFORE circle
     if (this.isTriangle(points)) {
       const replacement = this.createTriangle(stroke);
       return { recognized: true, shape: 'triangle', replacement };
+    }
+
+    // Try circle/ellipse (only after ruling out polygons)
+    if (this.isCircle(points)) {
+      const replacement = this.createCircle(stroke);
+      return { recognized: true, shape: 'circle', replacement };
     }
 
     return { recognized: false };
@@ -205,10 +205,24 @@ export class ShapeRecognizer {
 
     const closeDist = distance(first.x, first.y, last.x, last.y);
     const pathLen = this.pathLength(points);
-    if (closeDist > pathLen * 0.2) return false;
+    if (closeDist > pathLen * 0.25) return false;
 
     const corners = this.findCorners(points);
-    return corners.length >= 3 && corners.length <= 4;
+    // Triangle has exactly 3 corners
+    if (corners.length < 3 || corners.length > 4) return false;
+
+    // Verify the 3 corners form reasonable angles (not too flat)
+    const top3 = corners.slice(0, 3);
+    for (let i = 0; i < 3; i++) {
+      const prev = top3[(i + 2) % 3]!;
+      const curr = top3[i]!;
+      const next = top3[(i + 1) % 3]!;
+      const angle = this.angleBetween(prev, curr, next);
+      // Triangle angles should be roughly between 20° and 160°
+      if (angle < 15 || angle > 165) return false;
+    }
+
+    return true;
   }
 
   // ─── Shape Creation ───
@@ -329,7 +343,9 @@ export class ShapeRecognizer {
   private findCorners(points: StrokePoint[]): StrokePoint[] {
     if (points.length < 5) return [];
     const corners: StrokePoint[] = [];
-    const windowSize = Math.max(3, Math.floor(points.length / 15));
+    const windowSize = Math.max(3, Math.floor(points.length / 12));
+    const pathLen = this.pathLength(points);
+    const minCornerDist = Math.max(15, pathLen * 0.08);
 
     for (let i = windowSize; i < points.length - windowSize; i++) {
       const prev = points[i - windowSize]!;
@@ -337,9 +353,9 @@ export class ShapeRecognizer {
       const next = points[i + windowSize]!;
       const angle = this.angleBetween(prev, curr, next);
 
-      if (angle < 150) {
+      if (angle < 140) {
         // Potential corner — check it's far enough from previous
-        if (corners.length === 0 || distance(curr.x, curr.y, corners[corners.length - 1]!.x, corners[corners.length - 1]!.y) > 20) {
+        if (corners.length === 0 || distance(curr.x, curr.y, corners[corners.length - 1]!.x, corners[corners.length - 1]!.y) > minCornerDist) {
           corners.push(curr);
         }
       }

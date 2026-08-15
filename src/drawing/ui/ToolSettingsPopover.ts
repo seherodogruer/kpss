@@ -147,19 +147,38 @@ export class ToolSettingsPopover {
     this.el.style.display = 'block';
     this.updateActiveStates();
 
-    // Position below the toolbar, aligned to ref
     const vw = window.innerWidth;
-    let left = refRect.left;
-    const top = refRect.bottom + 8;
-
-    // Keep within viewport
+    const vh = window.innerHeight;
     const popoverWidth = 280;
+    const popoverHeight = this.el.scrollHeight || 380;
+
+    let left = refRect.left;
+    // Keep within viewport horizontally
     if (left + popoverWidth > vw - 8) {
       left = vw - popoverWidth - 8;
     }
+    left = Math.max(8, left);
+
+    // Check if there's enough space below
+    const spaceBelow = vh - refRect.bottom - 8;
+    const spaceAbove = refRect.top - 8;
+
+    let top: number;
+    if (spaceBelow >= popoverHeight || spaceBelow >= spaceAbove) {
+      // Open downward
+      top = refRect.bottom + 8;
+      this.el.classList.remove('popover-up');
+      this.el.classList.add('popover-down');
+    } else {
+      // Open upward
+      top = refRect.top - popoverHeight - 8;
+      top = Math.max(8, top);
+      this.el.classList.remove('popover-down');
+      this.el.classList.add('popover-up');
+    }
 
     this.el.style.position = 'fixed';
-    this.el.style.left = Math.max(8, left) + 'px';
+    this.el.style.left = left + 'px';
     this.el.style.top = top + 'px';
     this.el.style.zIndex = '10002';
   }

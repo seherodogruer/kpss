@@ -379,11 +379,20 @@
     0 2px 8px rgba(0, 0, 0, 0.06);
   padding: 12px;
   z-index: 10002;
-  animation: popover-in 0.15s ease;
+  animation: popover-down-in 0.15s ease;
 }
 
-@keyframes popover-in {
+.tool-popover.popover-up {
+  animation: popover-up-in 0.15s ease;
+}
+
+@keyframes popover-down-in {
   from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popover-up-in {
+  from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
 

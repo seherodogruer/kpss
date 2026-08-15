@@ -63,6 +63,9 @@ export class DrawingService {
   private laserFadeTimer: ReturnType<typeof setTimeout> | null = null;
   private laserRafId: number | null = null;
 
+  // Velocity pressure simulation
+  private prevRawPoint: { x: number; y: number; t: number } | null = null;
+
   constructor() {
     this.toolState = this.settings.getToolState();
     this.stabilizer.setLevel(this.toolState.stabilization);
@@ -299,12 +302,16 @@ export class DrawingService {
       timestamp: raw.timestamp - this.strokeStartTime,
     });
 
+    if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
+
+    // Simulate pressure for mouse/touch (no real pressure data)
+    const effectivePressure = this.getEffectivePressure(raw);
     const point: StrokePoint = {
       x: smoothed.x, y: smoothed.y,
-      pressure: smoothed.pressure, timestamp: smoothed.timestamp,
+      pressure: effectivePressure, timestamp: smoothed.timestamp,
     };
 
-    if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
+    this.prevRawPoint = { x: raw.x, y: raw.y, t: raw.timestamp };
 
     this.activeStrokePoints.push(point);
     this.lastPoint = point;
@@ -329,12 +336,15 @@ export class DrawingService {
         timestamp: raw.timestamp - this.strokeStartTime,
       });
 
+      if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
+
+      const effectivePressure = this.getEffectivePressure(raw);
       const point: StrokePoint = {
         x: smoothed.x, y: smoothed.y,
-        pressure: smoothed.pressure, timestamp: smoothed.timestamp,
+        pressure: effectivePressure, timestamp: smoothed.timestamp,
       };
 
-      if (raw.pressure > 0 && raw.pressure < 1) this.pressureDetected = true;
+      this.prevRawPoint = { x: raw.x, y: raw.y, t: raw.timestamp };
 
       this.activeStrokePoints.push(point);
       newPoints.push(point);
@@ -632,5 +642,35 @@ export class DrawingService {
     if (this.rafId !== null) { cancelAnimationFrame(this.rafId); this.rafId = null; }
     if (this.laserRafId !== null) { cancelAnimationFrame(this.laserRafId); this.laserRafId = null; }
     if (this.laserFadeTimer !== null) { clearTimeout(this.laserFadeTimer); this.laserFadeTimer = null; }
+  }
+
+  /**
+   * Get effective pressure — returns real pressure for stylus,
+   * or simulated velocity-based pressure for mouse/touch.
+   *
+   * Slow movement → high pressure (thick line)
+   * Fast movement → low pressure (thin line)
+   */
+  private getEffectivePressure(raw: RawPointerPoint): number {
+    // Real pressure data available (stylus/Apple Pencil)
+    if (raw.pressure > 0 && raw.pressure < 1) {
+      return raw.pressure;
+    }
+
+    // No pressure data — simulate from velocity
+    if (!this.prevRawPoint) return 0.5; // default mid-pressure for first point
+
+    const dx = raw.x - this.prevRawPoint.x;
+    const dy = raw.y - this.prevRawPoint.y;
+    const dt = Math.max(1, raw.timestamp - this.prevRawPoint.t);
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    const velocity = dist / dt; // px per ms
+
+    // Map velocity to pressure: slow = 0.8 (heavy), fast = 0.2 (light)
+    // Typical mouse speeds: 0.5-5 px/ms
+    const normalizedVelocity = Math.min(1, velocity / 3);
+    const pressure = 0.8 - normalizedVelocity * 0.6;
+
+    return Math.max(0.1, Math.min(0.9, pressure));
   }
 }

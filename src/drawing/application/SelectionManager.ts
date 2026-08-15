@@ -143,25 +143,24 @@ export class SelectionManager {
 
   // ─── Private ───
 
-  /** Check if a stroke's center is inside the lasso polygon */
+  /** Check if any of a stroke's points are inside the lasso polygon */
   private isStrokeInsideLasso(stroke: StrokeData): boolean {
     const points = getTransformedPoints(stroke);
     if (points.length === 0) return false;
 
-    // Check if the majority of stroke points are inside
-    let insideCount = 0;
-    const checkInterval = Math.max(1, Math.floor(points.length / 10));
-    let totalChecked = 0;
+    // Check every Nth point for performance, but use smaller interval
+    const checkInterval = Math.max(1, Math.floor(points.length / 30));
 
     for (let i = 0; i < points.length; i += checkInterval) {
       const p = points[i]!;
       if (this.pointInPolygon(p.x, p.y, this.lassoPoints)) {
-        insideCount++;
+        return true; // Any point inside → select
       }
-      totalChecked++;
     }
 
-    return insideCount > totalChecked / 2;
+    // Also check last point
+    const last = points[points.length - 1]!;
+    return this.pointInPolygon(last.x, last.y, this.lassoPoints);
   }
 
   /** Point-in-polygon test (ray casting algorithm) */
