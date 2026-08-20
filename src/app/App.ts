@@ -443,7 +443,7 @@ export class App {
 
       for (const p of paragraphs) {
         const firstStrong = p.querySelector('strong');
-        if (firstStrong && firstStrong.textContent?.trim().startsWith('Çözüm')) {
+        if (firstStrong && firstStrong.textContent?.trim().includes('Çözüm')) {
           solutionP = p;
           break;
         }
@@ -458,7 +458,13 @@ export class App {
       const wrapId = 'cozum-' + idx + '-' + Math.random().toString(36).slice(2, 8);
       wrap.id = wrapId;
       solutionP.parentNode?.insertBefore(wrap, solutionP);
-      wrap.appendChild(solutionP);
+      
+      let curr = solutionP as Node | null;
+      while (curr) {
+        const next = curr.nextSibling;
+        wrap.appendChild(curr);
+        curr = next;
+      }
 
       const btn = document.createElement('button');
       btn.type = 'button';
