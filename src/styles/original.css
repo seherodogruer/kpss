@@ -155,7 +155,7 @@
   .toc::-webkit-scrollbar{width:10px;}
   .toc::-webkit-scrollbar-thumb{background:var(--sidebar-border); border-radius:6px;}
   .cat-block{ margin-bottom:6px; }
-  .cat-title{ font-family:'Caveat', cursive; font-weight:700; font-size:1.35rem; padding:10px 16px 4px 16px; color:var(--cat-title-color); position:sticky; top:0; background:var(--sidebar-bg); border-bottom:1px solid var(--sidebar-border); z-index:1; }
+  .cat-title{ font-family:'Caveat', cursive; font-weight:700; font-size:1.35rem; padding:10px 16px 4px 16px; color:var(--cat-title-color); position:sticky; top:0; background:var(--sidebar-bg); border-bottom:1px solid var(--sidebar-border);  }
   .topic-item{ display:flex; align-items:baseline; gap:8px; padding:10px 16px 10px 22px; cursor:pointer; font-size:1.02rem; line-height:1.25; border-bottom:1px dotted var(--sidebar-border); color:var(--ink-soft); transition: background 0.12s ease; }
   .topic-item .num{ font-family:'Kalam', cursive; font-weight:700; color:var(--topic-num-color); min-width:20px; }
   .topic-item .topic-item-text{ flex:1; min-width:0; }
@@ -223,7 +223,7 @@
   .draw-canvas{ position:absolute; top:0; left:0; touch-action: pan-y; z-index:4; cursor:crosshair; mix-blend-mode: multiply; }
   html[data-theme="gece"] .draw-canvas{ mix-blend-mode: screen; }
 
-  .notebook-content{ font-family:'Kalam', cursive; font-size:1.15rem; color:var(--ink); position:relative; z-index:1; }
+  .notebook-content{ font-family:'Kalam', cursive; font-size:1.15rem; color:var(--ink); position:relative;  }
   .notebook-content > *:first-child{ margin-top:0; }
   .notebook-content h2{ font-family:'Caveat', cursive; font-size:1.8rem; line-height:1.15; color:var(--h2-strong-color);
     background: linear-gradient(120deg, var(--highlight-yellow) 0%, var(--highlight-yellow) 100%); background-repeat:no-repeat; background-size: 100% 0.55em; background-position: 0 78%; display:inline-block; margin:34px 0 10px 0; padding: 0 6px; }
@@ -262,7 +262,7 @@
   /* Çözüm accordion (runtime-injected, wraps existing solution <p> without altering its content) */
   .cozum-toggle-btn{ display:inline-flex; align-items:center; gap:6px; font-family:'Patrick Hand', cursive; font-size:0.95rem;
     background:var(--paper-dark); border:1.5px solid var(--soru-blok-border); color:var(--ink); padding:5px 12px; border-radius:999px;
-    cursor:pointer; margin:4px 0 2px 0; }
+    cursor:pointer; margin:4px 0 2px 0; position:relative; z-index:20; }
   .cozum-toggle-btn:hover{ background:var(--highlight-yellow); }
   .cozum-toggle-btn .chev{ display:inline-block; transition: transform 0.2s ease; }
   .cozum-toggle-btn[aria-expanded="true"] .chev{ transform: rotate(90deg); }
