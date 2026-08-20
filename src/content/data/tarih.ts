@@ -6795,135 +6795,6756 @@ export const tarihTopics: readonly TopicDefinition[] = [
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Mondros Ateşkes Antlaşması ve İşgaller',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Mondros Mütarekesi, 7. Madde, Wilson İlkeleri, Gizli Antlaşmalar, İşgaller, 19 Mayıs 1919)<\\/h3>
+<hr />
+
+<h2>1. Konuya Giriş<\\/h2>
+<p>Önceki konuda altı farklı cephede savaşan Osmanlı'nın nasıl yıprandığını görmüştük. Çanakkale'deki destansı direnişe, Suriye-Filistin ve Irak cephelerindeki mücadelelere rağmen, savaşın genel gidişatı Osmanlı'yı Mondros Ateşkesi'ne sürükledi. İşte bu konu, o ateşkesin imzalanmasıyla başlayan karanlık günleri ve o karanlığın içinden doğacak olan kurtuluş ışığını anlatıyor.</p>
+<p>Bu konu KPSS Tarih'in en kritik eşiklerinden biridir. Neden mi? Çünkü <strong>Mondros'un maddeleri (özellikle 7. madde)</strong>, <strong>işgal bölgeleri</strong> ve <strong>Wilson İlkeleri</strong> ile <strong>Gizli Antlaşmalar</strong> her yıl ÖSYM'nin radarındadır. ÖSYM burada sana sadece ezber sormaz; Mondros'un maddelerinin nasıl fiili işgallere zemin hazırladığını, gizli antlaşmalarla Wilson İlkeleri arasındaki o büyük çelişkiyi yorumlamanı ister.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu, Osmanlı tarihinden Milli Mücadele dönemine geçişin köprüsüdür. Mondros ile yıkılan bir imparatorluğun küllerinden, 19 Mayıs 1919'da Samsun'da filizlenecek olan yeni bir devletin temellerine giden yoldur.</p></div>
+
+<h2>2. Büyük Resim<\\/h2>
+<p>Önceki konunun sonunda müttefiklerin birer birer havlu attığını, cephelerin çöktüğünü konuşmuştuk. Şimdi bu büyük resmi üç ana aşamada görmelisin:</p>
+<ul>
+<li><strong>1. Aşama (Teslimiyet):</strong> İttifak devletlerinin çöküşüyle Osmanlı'nın çaresiz kalıp Mondros Ateşkesi'ni imzalaması.</li>
+<li><strong>2. Aşama (Karanlık):</strong> Ateşkesin o meşhur 7. maddesi bahane edilerek Anadolu'nun dört bir yanının işgal edilmeye başlanması.</li>
+<li><strong>3. Aşama (Uyanış):</strong> İşgallere karşı halkın tepkisi ve Mustafa Kemal'in 19 Mayıs 1919'da Samsun'a ayak basarak Milli Mücadele ateşini yakması.</li>
+</ul>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Bu Konu Hangi Sürecin Parçası?</span><p>Mondros ve işgaller dönemi, Osmanlı Devleti'nin fiilen sona erdiği ve Türk milletinin bağımsızlık savaşı (Milli Mücadele) için uyanışa geçtiği o kritik ara dönemdir. Yani çöküş ile dirilişin kesişim noktasıdır!</p></div>
+
+<h2>3. Sıfırdan Tam Konu Anlatımı<\\/h2>
+
+<h3>3.1. Savaşın sonu: Osmanlı neden ateşkes istemek zorunda kaldı?<\\/h3>
+<p>Eylül 1918'de Bulgaristan'ın savaştan çekilmesi Osmanlı için sonun başlangıcı oldu. Neden mi? Çünkü Bulgaristan aradan çekilince Osmanlı ile müttefiki Almanya arasındaki kara bağlantısı koptu. Zaten Çanakkale hariç diğer tüm cephelerde yenilgi alınmış, Brest-Litovsk ile doğuda kazanılan topraklar bile anlamını yitirmişti. Savaşın baş mimarları olan İttihat ve Terakki liderleri (Enver, Talat, Cemal Paşalar) ülkeyi terk etmek zorunda kaldı. Yerine Ahmet İzzet Paşa hükümeti kuruldu ve İtilaf Devletleri'nden ateşkes istemekten başka çare kalmadı.</p>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Bağlantıyı Kur</span><p>Önceki konuda gördüğümüz çok cepheli savaş Osmanlı'yı öylesine tüketmişti ki, ordu mevcudu erimiş, halk perişan olmuştu. Masaya oturulduğunda Osmanlı'nın elinde pazarlık yapacak hiçbir güç kalmamıştı.</p></div>
+
+<h3>3.2. Mondros Ateşkes Antlaşması (30 Ekim 1918)<\\/h3>
+<p>Antlaşma, Ege Denizi'ndeki Limni Adası'nın Mondros Limanı'nda, İngiliz Agamemnon zırhlısında imzalandı. Osmanlı'yı Bahriye Nazırı <strong>Rauf (Orbay) Bey</strong> temsil ederken, karşı tarafta İtilaf Devletleri adına İngiliz <strong>Amiral Calthorpe</strong> vardı. Toplam 25 maddelik bu antlaşma, aslında bir ateşkesten çok teslimiyet belgesidir.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Mondros'un En Kritik Maddeleri</span>
+<p>KPSS için şu maddeleri adın gibi bilmelisin:</p>
+<ul>
+<li><strong>7. Madde (EN KRİTİK):</strong> "İtilaf Devletleri, güvenliklerini tehdit edecek bir durum ortaya çıkarsa, herhangi bir stratejik noktayı işgal edebilir." <em>(Bu madde, Anadolu'nun işgaline hukuki bir kılıf hazırlamıştır. Sınırı, şartı yoktur; en tehlikeli maddedir!)</em></li>
+<li><strong>24. Madde:</strong> "Doğu Anadolu'daki 6 vilayette (Vilayet-i Sitte: Erzurum, Van, Harput, Diyarbakır, Sivas, Bitlis) karışıklık çıkarsa, İtilaf Devletleri bu illeri işgal edebilecek." <em>(Amaç bu bölgede bir Ermeni devleti kurmaktır.)</em></li>
+<li>Boğazlar İtilaf Devletleri'ne açılacak ve kontrol onlara geçecek.</li>
+<li>Osmanlı ordusu terhis edilecek, silahlar ve cephane teslim edilecek.</li>
+<li>Tüm ulaşım ve haberleşme (telgraf hatları, demiryolları) araçları İtilaf Devletleri'nin kontrolüne bırakılacak.</li>
+</ul>
+</div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ ÖSYM'nin En Sevdiği Tuzak</span><p>ÖSYM sana 7. madde ile 24. maddeyi sık sık karşılaştırır veya farklı formatlarda sorar. Unutma; 7. madde <strong>tüm Anadolu'nun işgaline</strong> kapı aralarken, 24. madde özel olarak <strong>Doğu Anadolu'da bir Ermeni devleti</strong> kurma amacına hizmet eder.</p></div>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Neden Fiilen Sona Erdi?</span><p>Ordusu dağıtılmış, ulaşımı ve iletişimi elinden alınmış, başkenti ve boğazları kontrol altına alınmış bir devletin bağımsızlığından söz edilebilir mi? Edilemez. Bu yüzden Mondros, Osmanlı'yı fiilen bağımsız bir devlet olmaktan çıkarmıştır.</p></div>
+
+<h3>3.3. Wilson İlkeleri: Söylem mi, gerçek mi?<\\/h3>
+<p>Ocak 1918'de ABD Başkanı Woodrow Wilson, savaşı bitirmek ve kalıcı barışı sağlamak iddiasıyla 14 ilke yayınladı. İttifak devletlerinin barışa razı olmasında (ve Mondros'un imzalanmasında) bu ilkelerin yarattığı sahte umut çok etkilidir.</p>
+<p>Osmanlı'yı ilgilendiren en önemli ilke şuydu: <strong>"Osmanlı Devleti'nin Türk olan bölgelerinde egemenlik güvence altına alınmalı; Türk olmayan milletlere de kendi kendini yönetme (self-determinasyon) hakkı tanınmalıdır."</strong></p>
+<p>Ayrıca bu ilkeler gizli diplomasiyi reddediyor (açık diplomasi), boğazların dünya ticaretine açık olmasını savunuyordu.</p>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Söylem ve Gerçek</span><p>Wilson İlkeleri kağıt üzerinde çok adil durur. Hatta Osmanlı devlet adamları "Nasıl olsa çoğunlukta olduğumuz yerler bizde kalacak" diye rehavete bile kapılmıştır. Ama İtilaf Devletleri bu ilkeleri kendi çıkarlarına göre, istedikleri gibi esnetmişlerdir. Yani aslında uygulanan bir şey olmamıştır.</p></div>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 İleriye Dönük İpucu</span><p>Wilson İlkeleri'nin "Türklerin çoğunlukta olduğu yerler onlara bırakılmalı" ilkesi, ileride göreceğimiz <strong>Misak-ı Milli'nin</strong> mantıksal temellerinden birini oluşturacaktır. Türk milleti bağımsızlık mücadelesini bu haklı gerekçeye de dayandıracaktır.</p></div>
+
+<h3>3.4. Gizli antlaşmalar: Osmanlı topraklarının paylaşımı<\\/h3>
+<p>İtilaf Devletleri, Wilson'un o "adil" ilkelerini yayınlamasından çok önce, savaş sırasında kendi aralarında Osmanlı topraklarını paylaştıkları gizli antlaşmalar yapmışlardı bile:</p>
+<ul>
+<li><strong>Sykes-Picot Antlaşması (1916):</strong> İngiltere ve Fransa arasında, Ortadoğu'nun (Arap toprakları, Suriye, Irak) paylaşılmasıdır. En meşhur gizli antlaşmadır.</li>
+<li><strong>İstanbul ve Boğazlar Antlaşması (1915):</strong> İngiltere ve Fransa'nın, Rusya'ya İstanbul ve Boğazları vaat ettiği antlaşmadır. (Rusya savaştan çekilince bu plan suya düştü).</li>
+<li><strong>Saint Jean de Maurienne (1917):</strong> İtalya'ya Batı Anadolu (İzmir ve çevresi) vaat edildi.</li>
+<li><strong>Balfour Deklarasyonu (1917):</strong> İngiltere'nin Filistin'de bir Yahudi devleti kurulmasını destekleyeceğini ilan etmesidir.</li>
+</ul>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Önemli Detay</span><p>Bu antlaşmalar gösteriyor ki, Osmanlı topraklarının paylaşımı savaş sonrasında aniden ortaya çıkmış bir fikir değil, <strong>savaş devam ederken masa başında planlanmış</strong> bir stratejidir.</p></div>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Büyük Çelişki</span><p>Wilson İlkeleri "gizli antlaşma yapılmayacak, milletler kendi kaderini tayin edecek" derken, Sykes-Picot ve diğer gizli antlaşmalar halkların fikrini hiç sormadan toprakları cetvelle bölüyordu. Bu durum ABD'nin idealleriyle İtilaf Devletleri'nin emperyalist gerçekliği arasındaki devasa çelişkidir.</p></div>
+
+<h3>3.5. Paris Barış Konferansı (Ocak 1919)<\\/h3>
+<p>Savaş bittikten sonra galip devletler, yenilen devletlerle yapılacak antlaşmaların şartlarını belirlemek ve dünyayı yeniden dizayn etmek için Paris'te toplandılar. Osmanlı topraklarının paylaşımı da burada tekrar masaya yatırıldı.</p>
+<p>Bu konferansın Osmanlı açısından en kritik kararı şuydu: Savaş sırasında gizli antlaşmalarla İtalya'ya söz verilen <strong>İzmir ve çevresi, İngiltere'nin oyunlarıyla Yunanistan'a bırakıldı</strong>. Çünkü İngiltere, Doğu Akdeniz'de güçlü bir İtalya yerine, kendi kontrolünde zayıf bir Yunanistan'ı tercih ediyordu. İtilaf Devletleri arasındaki ilk büyük görüş ayrılığı burada ortaya çıktı. Ayrıca, sömürgeciliğin yerini alan "manda ve himaye" (mandater sistem) fikri de burada resmileşti.</p>
+
+<h3>3.6. İşgallerin başlaması: Kim nereyi işgal etti?<\\/h3>
+<p>Mondros imzalanır imzalanmaz o meşhur 7. madde devreye sokuldu ve işgaller başladı:</p>
+<ul>
+<li><strong>İstanbul'un fiili işgali (13 Kasım 1918):</strong> İtilaf donanması İstanbul'a gelip demir attı. Henüz resmî bir el koyma olmasa da başkent fiilen İtilaf devletlerinin kontrolüne girdi. (Mustafa Kemal'in "Geldikleri gibi giderler" sözünü tam da bugün, bu gemilere bakarak söylediğini unutma!)</li>
+<li><strong>İngiliz İşgalleri:</strong> Musul, Urfa, Antep, Maraş, Batum. İngilizler, Ortadoğu'nun petrol zengini bölgelerini hemen ele geçirdiler.</li>
+<li><strong>Fransız İşgalleri:</strong> Adana, Mersin, Hatay (Çukurova bölgesi). Daha sonra İngilizler, aralarındaki anlaşma gereği Antep, Maraş ve Urfa'yı da Fransızlara devretti.</li>
+<li><strong>İtalyan İşgalleri:</strong> Antalya, Konya ve Muğla çevresi. Paris Barış Konferansı'nda İzmir'i Yunanlara kaptırdıkları için oldukça isteksiz ve kırgındılar.</li>
+<li><strong>Yunan İşgali (15 Mayıs 1919):</strong> İzmir ve çevresi. Bu işgal, diğerlerinden farklı olarak geçici değil, tamamen "ilhak" (kendi topraklarına katma) amacı taşıyordu. Bu yüzden Türk milleti için bardağı taşıran son damla oldu.</li>
+</ul>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 İzmir'in İşgali Neden Çok Kritik?</span><p>Diğer işgaller halkı rahatsız etse de, Yunanistan'ın İzmir'i işgal edip katliamlara başlaması halkın sabrını taşırdı. Bu işgal, Anadolu'da Milli Mücadele'nin fitilini ateşleyen, bölgesel direnişleri ulusal bir uyanışa çeviren en büyük travmadır. Hasan Tahsin'in sıktığı ilk kurşun, bu işgale karşı onurlu bir direnişin sembolüdür.</p></div>
+
+<table>
+<thead>
+<tr>
+<th>Bölge</th>
+<th>İşgalci Devlet</th>
+<th>Tarih</th>
+<th>KPSS Notu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Musul</td>
+<td>İngiltere</td>
+<td>Kasım 1918</td>
+<td>Mondros sonrası ilk işgal edilen Osmanlı toprağıdır.</td>
+</tr>
+<tr>
+<td>Antalya / Konya</td>
+<td>İtalya</td>
+<td>1919</td>
+<td>İzmir'i alamadıkları için hevesleri kırıktı. Halkla pek çatışmadılar.</td>
+</tr>
+<tr>
+<td>Adana / Hatay</td>
+<td>Fransa</td>
+<td>1918-1919</td>
+<td>Ermeni çetelerle işbirliği yaparak bölge halkına zulmettiler.</td>
+</tr>
+<tr>
+<td>Urfa, Antep, Maraş</td>
+<td>Önce İngiltere, sonra Fransa</td>
+<td>1919</td>
+<td>Güney cephesindeki o muazzam destansı direnişlerin yaşanacağı bölgelerdir.</td>
+</tr>
+<tr>
+<td>İzmir</td>
+<td>Yunanistan</td>
+<td>15 Mayıs 1919</td>
+<td>Milli bilincin uyandığı, Kuvâ-yı Milliye ruhunun doğduğu yerdir.</td>
+</tr>
+</tbody>
+</table>
+
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ İşgal Devri Tuzağı</span><p>ÖSYM şaşırtmayı sever: Antep, Maraş ve Urfa <strong>önce İngilizler</strong> tarafından işgal edilmiş, daha sonra aralarındaki paylaşım antlaşması güncellenerek <strong>Fransızlara devredilmiştir</strong>. Sorularda "Fransızların ilk işgal ettiği yerlerdendir" derse düşme!</p></div>
+
+<h3>3.7. İşgallere karşı ilk tepkiler ve Mustafa Kemal'in Samsun'a çıkışı<\\/h3>
+<p>İşgaller başladığında Padişah ve İstanbul Hükümeti sessiz kalmayı, İtilaf Devletleri'ni kızdırmamayı tercih etti. Ancak Türk halkı aynı fikirde değildi. İşgallere karşı <strong>Reddi İlhak</strong> cemiyetleri kuruldu, protesto mitingleri düzenlendi (Özellikle İstanbul'daki Sultanahmet, Fatih, Üsküdar mitingleri çok ünlüdür).</p>
+<p>Tüm bunlar olurken, Anadolu'da kalıcı bir kurtuluş planı yapan biri vardı. <strong>19 Mayıs 1919</strong> tarihinde, görünürde 9. Ordu Müfettişi olarak (bölgedeki Türk-Rum çatışmalarını önlemek ve Türklerin elindeki silahları toplamak gibi resmi bir görevle) Samsun'a ayak basan <strong>Mustafa Kemal Paşa</strong>, aslında yepyeni bir devrin kapısını aralıyordu.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 19 Mayıs'ın Anlamı</span><p>19 Mayıs 1919, Kurtuluş Savaşı'nın (Milli Mücadele'nin) fiili başlangıç tarihidir. Mustafa Kemal'in Samsun'a çıkışıyla birlikte, bölgesel kurtuluş çabaları ulusal bir stratejiye dönüşmeye başlayacaktır.</p></div>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Görev ve Amaç Farkı</span><p>Mustafa Kemal'in resmi görevi "bölgeyi sakinleştirmek ve Osmanlı ordusunun elindeki silahları İtilaf Devletlerine teslim etmek" iken; asıl amacı "halkı örgütlemek, milli bilinci uyandırmak ve topyekûn bir bağımsızlık savaşı başlatmak" idi.</p></div>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Sonraki Konuya Köprü</span><p>Samsun'a çıkışla başlayan bu süreç, bir sonraki konuda detaylıca göreceğimiz Havza, Amasya, Erzurum ve Sivas gibi kongreler silsilesinin ve <strong>Kuvâ-yı Milliye</strong> hareketinin başlangıç noktasıdır.</p></div>
+
+<hr />
+
+<h2>4. Sebep-Sonuç Analizi<\\/h2>
+
+<h3>Mondros Ateşkes Antlaşması'nın imzalanma nedenleri ve sonuçları<\\/h3>
+<ul>
+<li><strong>Neden oldu?</strong> I. Dünya Savaşı'nda müttefiklerin yenilmesi, Osmanlı'nın insan ve silah gücünün tükenmesi, Wilson İlkelerine duyulan güven.</li>
+<li><strong>Nasıl gelişti?</strong> Bulgaristan'ın çekilmesiyle Osmanlı yalnız kaldı, İzzet Paşa hükümeti ateşkes istedi ve Limni adasında antlaşma imzalandı.</li>
+<li><strong>Sonuçları neler oldu?</strong> Osmanlı fiilen sona erdi, ordusu terhis edildi, 7. ve 24. maddelerle işgallere hukuki zemin hazırlandı.</li>
+<li><strong>Bugüne etkisi:</strong> Türk milletinin kendi göbeğini kendi kesmesi gerektiğini, bağımsızlık için topyekûn bir savaştan başka çare olmadığını gösterdi.</li>
+</ul>
+
+<h3>7. Maddenin fiili işgallere dönüşmesi<\\/h3>
+<ul>
+<li><strong>Neden oldu?</strong> İtilaf Devletleri, gizli antlaşmalarla paylaştıkları bölgeleri yasal bir kılıfla ele geçirmek istiyordu.</li>
+<li><strong>Nasıl gelişti?</strong> "Güvenliğimiz tehdit altında" gibi asılsız bahaneler uydurarak limanlara, demiryollarına ve stratejik şehirlere asker çıkardılar.</li>
+<li><strong>Sonuçları neler oldu?</strong> İstanbul fiilen kontrol altına alındı; İngiliz, Fransız, İtalyan ve Yunan kuvvetleri Anadolu'yu parçaladı.</li>
+<li><strong>Bugüne etkisi:</strong> Yabancı güçlerin masa başı oyunlarıyla bir ülkenin nasıl yok edilebileceğinin en somut tarihi dersidir.</li>
+</ul>
+
+<h3>İzmir'in işgalinin Milli Mücadele'yi tetiklemesi<\\/h3>
+<ul>
+<li><strong>Neden oldu?</strong> İngiltere'nin İtalya yerine Yunanistan'ı desteklemesi ve Paris Barış Konferansı'nda alınan karar.</li>
+<li><strong>Nasıl gelişti?</strong> 15 Mayıs 1919'da Yunan ordusu İzmir'e çıktı, katliamlara başladı; Hasan Tahsin ilk kurşunu attı.</li>
+<li><strong>Sonuçları neler oldu?</strong> Halk mitinglerle ayağa kalktı, bölgesel direniş (Kuvâ-yı Milliye) hızla yayıldı. İtalya'ya duyulan öfke Yunanistan'a duyulan varoluşsal nefrete dönüştü.</li>
+<li><strong>Bugüne etkisi:</strong> Kurtuluş Savaşı'nın bir nevi "psikolojik başlangıcı" oldu; düşmanın niyetinin sömürü değil yok etme olduğunu halka net biçimde gösterdi.</li>
+</ul>
+
+<hr />
+
+<h2>5. Kronolojik Akış<\\/h2>
+
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Açıklama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1916</td>
+<td>Sykes-Picot Antlaşması</td>
+<td>Ortadoğu'nun İngiltere ve Fransa arasında paylaşıldığı en ünlü gizli antlaşma.</td>
+</tr>
+<tr>
+<td>1917</td>
+<td>Balfour Deklarasyonu</td>
+<td>İngiltere'nin Filistin'de Yahudi devleti kurulmasını desteklemesi.</td>
+</tr>
+<tr>
+<td>Ocak 1918</td>
+<td>Wilson İlkeleri</td>
+<td>ABD Başkanı'nın 14 ilkeyi açıklaması (Self-determinasyon vb.).</td>
+</tr>
+<tr>
+<td>30 Ekim 1918</td>
+<td>Mondros Ateşkesi</td>
+<td>Osmanlı'nın fiilen sona erdiği, işgallere zemin hazırlayan belge.</td>
+</tr>
+<tr>
+<td>1-3 Kasım 1918</td>
+<td>İttihatçı Liderlerin Kaçışı</td>
+<td>Enver, Talat ve Cemal Paşaların ülkeyi terk etmesi.</td>
+</tr>
+<tr>
+<td>13 Kasım 1918</td>
+<td>İstanbul'un Fiili İşgali</td>
+<td>İtilaf donanmasının İstanbul'a demirlemesi ("Geldikleri gibi giderler").</td>
+</tr>
+<tr>
+<td>18 Ocak 1919</td>
+<td>Paris Barış Konferansı</td>
+<td>İzmir'in Yunanistan'a bırakıldığı konferans.</td>
+</tr>
+<tr>
+<td>15 Mayıs 1919</td>
+<td>İzmir'in İşgali</td>
+<td>Yunan işgali; Milli Mücadele'nin halk nezdinde tetikleyicisi.</td>
+</tr>
+<tr>
+<td>19 Mayıs 1919</td>
+<td>Samsun'a Çıkış</td>
+<td>Mustafa Kemal'in Milli Mücadele'yi fiilen başlatması.</td>
+</tr>
+<tr>
+<td>16 Mart 1920</td>
+<td>İstanbul'un Resmen İşgali</td>
+<td><em>(İleride göreceğiz)</em> Mebusan Meclisi'nin dağıtılması ve işgalin resmiyet kazanması.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h2>6. Karşılaştırmalar<\\/h2>
+
+<h3>Mondros Ateşkesi ile Brest-Litovsk Antlaşması Karşılaştırması<\\/h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Mondros Ateşkes Antlaşması (1918)</th>
+<th>Brest-Litovsk Antlaşması (1918)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Genel Durum</strong></td>
+<td>Topyekûn yenilgi ve teslimiyet belgesidir.</td>
+<td>Savaş devam ederken kazanılmış nadir bir başarıdır.</td>
+</tr>
+<tr>
+<td><strong>Toprak Kaybı/Kazancı</strong></td>
+<td>Anadolu işgale açık hale gelmiş, fiili kayıplar başlamıştır.</td>
+<td>Osmanlı; Kars, Ardahan ve Batum'u (Elviye-i Selase) geri almıştır.</td>
+</tr>
+<tr>
+<td><strong>Osmanlı'nın Durumu</strong></td>
+<td>Bağımsızlığı elinden alınmış, ordusu terhis edilmiştir.</td>
+<td>Doğu cephesi güvence altına alınmış, Rusya tehdidi bitmiştir.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Wilson İlkeleri ile Gizli Antlaşmalar Karşılaştırması<\\/h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Wilson İlkeleri</th>
+<th>Gizli Antlaşmalar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Temel Felsefe</strong></td>
+<td>İdealist (Kağıt üzerinde adil ve barışçıl).</td>
+<td>Realpolitik ve Emperyalist (Sömürgeci).</td>
+</tr>
+<tr>
+<td><strong>Halkların Durumu</strong></td>
+<td>Milletlerin kendi kaderini tayin hakkını (self-determinasyon) savunur.</td>
+<td>Halkların ne istediği önemsenmez, topraklar masa başında cetvelle bölünür.</td>
+</tr>
+<tr>
+<td><strong>Uygulama</strong></td>
+<td>Uygulanmamış, İtilaf Devletlerince kendi çıkarlarına göre esnetilmiştir.</td>
+<td>Savaş sonrası Paris Barış Konferansı ve San Remo ile büyük ölçüde hayata geçirilmiştir.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>İşgalci Devletlerin İşgal Bölgeleri<\\/h3>
+<table>
+<thead>
+<tr>
+<th>Devlet</th>
+<th>İşgal Bölgesi</th>
+<th>Amaç</th>
+<th>KPSS Ayrıntısı</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>İngiltere</strong></td>
+<td>Musul, Boğazlar çevresi, ilk etapta Antep/Maraş/Urfa</td>
+<td>Petrol bölgelerini ve stratejik geçişleri kontrol etmek.</td>
+<td>Antep, Maraş ve Urfa'yı daha sonra Fransa'ya devretmiştir.</td>
+</tr>
+<tr>
+<td><strong>Fransa</strong></td>
+<td>Çukurova (Adana, Mersin), Hatay, Suriye</td>
+<td>Bölgenin zengin tarım arazilerini ve Suriye nüfuzunu sağlamak.</td>
+<td>İşgaller sırasında Ermeni İntikam Alaylarını kullanmışlardır.</td>
+</tr>
+<tr>
+<td><strong>İtalya</strong></td>
+<td>Antalya, Konya, Muğla</td>
+<td>Akdeniz'de güçlenmek.</td>
+<td>İzmir'i Yunanistan'a kaptırdıkları için İtilaf blokunda ilk çatlak burada oluşmuştur.</td>
+</tr>
+<tr>
+<td><strong>Yunanistan</strong></td>
+<td>İzmir ve Ege Bölgesi</td>
+<td>Megali İdea'yı (Büyük Yunanistan) gerçekleştirmek ve ilhak etmek.</td>
+<td>İşgalleri geçici değil, kalıcı (ilhak) amaçlıdır. Milli uyanışı başlatmıştır.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h2>7. Çok Sorulan Bilgiler<\\/h2>
+<p>İşte KPSS'de denemelerde ve gerçek sınavda karşına en çok çıkacak o kritik hap bilgiler:</p>
+<ul>
+<li><strong>Mondros'un 7. maddesi:</strong> Anadolu'nun işgaline hukuki zemin hazırlayan, antlaşmanın en tehlikeli maddesidir.</li>
+<li><strong>İmzalayan devlet adamı:</strong> Mondros'u Osmanlı adına Bahriye Nazırı Rauf (Orbay) Bey imzalamıştır.</li>
+<li><strong>Wilson İlkeleri ve Osmanlı:</strong> "Türklerin çoğunlukta olduğu yerler Türklere bırakılacak" maddesi, ileride Misak-ı Milli'ye dayanak olmuştur.</li>
+<li><strong>İzmir'in İşgali (15 Mayıs 1919):</strong> Milli bilinci uyandıran, bölgesel direnişleri topyekûn bir tepkiye dönüştüren en kritik olaydır.</li>
+<li><strong>Mustafa Kemal'in Samsun'a çıkışı (19 Mayıs 1919):</strong> Milli Mücadele'nin fiilen başladığı, Kurtuluş Savaşı'nın ilk adımıdır. 9. Ordu Müfettişi sıfatıyla gerçekleşmiştir.</li>
+<li><strong>Gizli antlaşmalar:</strong> Sykes-Picot (Ortadoğu paylaşımı) ve Balfour Deklarasyonu (Filistin'de Yahudi devleti) en çok sorulanlardır.</li>
+<li><strong>El değiştiren bölgeler:</strong> Antep, Maraş ve Urfa'nın önce İngilizler tarafından işgal edilip, daha sonra aralarındaki anlaşmayla Fransızlara devredildiği unutulmamalıdır.</li>
+<li><strong>İstanbul'un durumu:</strong> 13 Kasım 1918'de donanmanın gelmesi "fiili" işgaldir; meclisin basılıp tamamen el konulması (16 Mart 1920) ise "resmî" işgaldir. İkisi karıştırılmamalıdır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 ÖSYM Ne Sorar?</span><p>ÖSYM son yıllarda ezberden ziyade bağlantı kurmanı istiyor. Mondros'un imzalanmasıyla Wilson İlkeleri'nin yarattığı umut arasındaki ilişkiyi, İzmir'in işgali sonrasında halkın cemiyetler kurarak gösterdiği tepkiyi mutlaka analiz edebilmelisin. Özellikle <strong>"İşgallere karşı ilk tepki neden padişahtan değil de halktan (cemiyetler ve mitingler yoluyla) geldi?"</strong> kurgusu sorularda sıklıkla karşına çıkar.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları<\/h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>Mondros ile Sevr karıştırılır.</strong> Mondros bir <strong>ateşkes (mütareke)</strong> antlaşmasıdır (30 Ekim 1918); Sevr ise bir <strong>barış antlaşması</strong>dır (10 Ağustos 1920). Mondros savaşı durdurur, Sevr ise Osmanlı topraklarını resmen paylaştırır. İkisinin tarihi, niteliği ve sonuçları tamamen farklıdır. Soru kökünde "ateşkes" mi "barış antlaşması" mı sorulduğuna dikkat et.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>7. madde ile diğer maddeler karıştırılır.</strong> 7. madde "güvenlik" gerekçesiyle <strong>sınırsız ve belirsiz</strong> bir işgal hakkı verirken, diğer maddeler (silah teslimi, boğazların açılması, ordunun terhisi) <strong>spesifik ve somut</strong> yükümlülüklerdir. ÖSYM özellikle 7. maddenin "herhangi bir stratejik noktayı işgal edebilir" ifadesindeki belirsizliği sorgular — bu belirsizlik bilinçlidir çünkü işgallere sınırsız bir kapı açmak amaçlanmıştır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>Wilson İlkeleri'nin "gerçekten uygulandığı" sanılır.</strong> Wilson İlkeleri kağıt üzerinde self-determinasyon, açık diplomasi ve adil barış vadeder. Ancak İtilaf Devletleri bu ilkeleri kendi çıkarlarına göre yorumlamış, gizli antlaşmaları (Sykes-Picot, Balfour) uygulamaya devam etmiştir. ÖSYM bu çelişkiyi "aşağıdakilerden hangisi Wilson İlkeleri ile çelişir?" formatında sorar.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>İstanbul'un "13 Kasım 1918" fiili işgali ile "16 Mart 1920" resmen işgali karıştırılır.</strong> 13 Kasım 1918'de İtilaf donanması İstanbul'a gelip demir attı — bu fiili (de facto) bir kontroldür. 16 Mart 1920'de ise İngilizler Meclis-i Mebusan'ı basıp milletvekillerini tutukladı — bu resmen (de jure) işgaldir. ÖSYM bu iki tarihi ve nitelik farkını sık sık sorgular.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 5</span><p><strong>Güneydoğu'daki işgal devri karıştırılır.</strong> Antep, Maraş ve Urfa <strong>ÖNCE İngilizler</strong> tarafından işgal edilmiş, daha sonra İngiliz-Fransız arasındaki anlaşma güncellenerek bu bölgeler <strong>Fransızlara devredilmiştir</strong>. "Fransızlar bu bölgeleri ilk işgal eden devlettir" diyen bir seçenek görürsen tuzaktır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 6</span><p><strong>Brest-Litovsk ile geri alınan toprakların "kalıcı" olduğu sanılır.</strong> Önceki konuda öğrendiğimiz gibi, Osmanlı Brest-Litovsk Antlaşması (1918) ile Kars, Ardahan ve Batum'u geri almıştı. Ancak Mondros Ateşkesi sonrasında bu kazanımlar da geçersiz hale geldi — İtilaf Devletleri bu toprakları yeniden Osmanlı'nın elinden aldı. Yani Brest-Litovsk kazanımı <strong>geçici</strong> bir kazanımdı.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri<\/h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "MON-7" Kodu — Mondros'un 7. Maddesi</span><p>Mondros'un en kritik maddesi <strong>7</strong>'dir. "MON-7: Mondros'un 7'si kapıyı açar" — 7. madde, Anadolu'nun işgaline kapı açan o sınırsız maddedir. "Mon" derken "7"yi otomatik hatırla.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "RAUF" = "Rauf İmzaladı"</span><p>Mondros'u Osmanlı adına kim imzaladı? <strong>R</strong>auf (Orbay) Bey. "RAUF" kelimesini gördüğünde "Mondros'u imzalayan adam" diye düşün. Karşı taraftaki İngiliz ise "Amiral <strong>C</strong>althorpe" — "C" harfini "Calthorpe" ile eşleştir.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "15-19 Mayıs" — 4 Günde İki Dönüm Noktası</span><p><strong>15 Mayıs 1919:</strong> İzmir'in işgali (karanlığın zirvesi). <strong>19 Mayıs 1919:</strong> Mustafa Kemal'in Samsun'a çıkışı (kurtuluşun başlangıcı). Arada sadece <strong>4 gün</strong> var! "15'te yıkıldık, 19'da doğrulduk" diye hatırla. İkisi de Mayıs 1919.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "İFİY" — İşgalci Devletler</span><p>İşgalci devletleri hatırlamak için: <strong>İ</strong>ngiltere, <strong>F</strong>ransa, <strong>İ</strong>talya, <strong>Y</strong>unanistan = "İFİY". En çok yeri İngiltere, en büyük tepkiyi Yunanistan (İzmir işgali) aldı.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "SİB" = Sykes-Picot, İstanbul Antlaşması, Balfour</span><p>Üç önemli gizli antlaşmayı hatırlamak için "SİB" kodunu kullan: <strong>S</strong>ykes-Picot (Ortadoğu paylaşımı, 1916), <strong>İ</strong>stanbul Antlaşması (Rusya'ya İstanbul vaadi, 1915), <strong>B</strong>alfour Deklarasyonu (Yahudi devleti vaadi, 1917).</p></div>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Genel Teknik: "Çöküş Zinciri" ile Ezbersiz Öğrenme</span><p>Bu konunun tamamını tek bir zincirle hatırlayabilirsin: Cephelerde yenilgi → müttefiklerin çöküşü → Mondros imzalanması → 7. madde → işgaller başlaması → İzmir'in işgali → halkın tepkisi → Mustafa Kemal Samsun'a çıkış → Milli Mücadele. Zincirin herhangi bir halkasını unutursan, bir öncekinden mantık yürüterek hatırlayabilirsin.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti<\/h2>
+<blockquote><p>
+• <strong>Mondros Ateşkes Antlaşması (30 Ekim 1918):</strong> Limni Adası'nda, Rauf (Orbay) Bey tarafından imzalandı; 25 maddelik bu belge fiilen bir teslimiyet belgesidir.<br>
+• <strong>7. Madde (en kritik):</strong> "İtilaf Devletleri güvenliklerini tehdit edecek bir durum olursa herhangi bir stratejik noktayı işgal edebilir" — işgallerin hukuki dayanağı.<br>
+• <strong>24. Madde:</strong> Doğu Anadolu'daki 6 vilayette (Vilayet-i Sitte) karışıklık çıkarsa işgal hakkı — Ermeni devleti kurma amacı.<br>
+• <strong>Wilson İlkeleri (Ocak 1918):</strong> Self-determinasyon, açık diplomasi; Osmanlı'yı ilgilendiren ilke: Türk bölgelerinde egemenlik güvencesi. Pratikte uygulanmadı.<br>
+• <strong>Gizli antlaşmalar:</strong> Sykes-Picot (1916, Ortadoğu paylaşımı), İstanbul Antlaşması (1915, Rusya'ya İstanbul vaadi), Balfour Deklarasyonu (1917, Yahudi devleti vaadi).<br>
+• <strong>Paris Barış Konferansı (Ocak 1919):</strong> İzmir'in Yunanistan'a bırakılması kararı burada alındı.<br>
+• <strong>İşgaller:</strong> İngiltere → Musul, Antep, Maraş, Urfa (sonra Fransa'ya devir); Fransa → Adana, Mersin, Hatay; İtalya → Antalya, Konya; Yunanistan → İzmir (15 Mayıs 1919).<br>
+• <strong>İzmir'in işgali (15 Mayıs 1919):</strong> Milli bilinci uyandıran, Kuvâ-yı Milliye ruhunu doğuran en kritik olay. Hasan Tahsin'in ilk kurşunu.<br>
+• <strong>İstanbul'un işgali:</strong> 13 Kasım 1918 fiili, 16 Mart 1920 resmen.<br>
+• <strong>Mustafa Kemal'in Samsun'a çıkışı (19 Mayıs 1919):</strong> 9. Ordu Müfettişi sıfatıyla; gerçek amacı Milli Mücadele'yi başlatmak. Kurtuluş Savaşı'nın fiili başlangıcı.<br>
+• Süreç, bir sonraki konuda göreceğimiz Kuvâ-yı Milliye hareketi ve Kongreler sürecine taşınır.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar<\/h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Mondros:</strong> 30 Ekim 1918, Limni Adası, Rauf Orbay, 25 madde.<br>
+• <strong>7. Madde:</strong> Sınırsız işgal hakkı (en tehlikeli). <strong>24. Madde:</strong> Doğu Anadolu'da 6 vilayet (Ermeni devleti amacı).<br>
+• <strong>Wilson İlkeleri:</strong> Self-determinasyon, uygulanmadı. Gizli antlaşmalarla çelişir.<br>
+• <strong>Gizli antlaşmalar:</strong> Sykes-Picot (1916), İstanbul Ant. (1915), Balfour (1917).<br>
+• <strong>Paris Konferansı (Ocak 1919):</strong> İzmir → Yunanistan kararı.<br>
+• <strong>İşgalciler:</strong> İFİY (İngiltere-Fransa-İtalya-Yunanistan).<br>
+• <strong>İzmir işgali:</strong> 15 Mayıs 1919 (Yunanistan). Hasan Tahsin = ilk kurşun.<br>
+• <strong>Samsun'a çıkış:</strong> 19 Mayıs 1919 (Mustafa Kemal, 9. Ordu Müfettişi).<br>
+• <strong>İstanbul:</strong> 13 Kasım 1918 fiili / 16 Mart 1920 resmen.<br>
+• <strong>Antep-Maraş-Urfa:</strong> Önce İngiliz, sonra Fransız işgali.<br>
+• <strong>Brest-Litovsk kazanımları:</strong> Mondros sonrası geçersiz oldu.<br>
+• <strong>Mondros ≠ Sevr:</strong> Mondros = ateşkes (1918), Sevr = barış antlaşması (1920).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)<\/h2>
+
+<h3>🟢 Kolay Düzey (1-10)<\/h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Mondros Ateşkes Antlaşması hangi tarihte imzalanmıştır?</p>
+<p>A) 18 Mart 1915 &nbsp; B) 30 Ekim 1918 &nbsp; C) 19 Mayıs 1919 &nbsp; D) 10 Ağustos 1920</p>
+<p><strong>Çözüm:</strong> Mondros Ateşkes Antlaşması 30 Ekim 1918'de imzalanmıştır. A Çanakkale Deniz Zaferi'nin, C Samsun'a çıkışın, D Sevr Antlaşması'nın tarihidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Mondros Ateşkes Antlaşması'nı Osmanlı Devleti adına imzalayan kişi aşağıdakilerden hangisidir?</p>
+<p>A) Enver Paşa &nbsp; B) Mustafa Kemal &nbsp; C) Rauf (Orbay) Bey &nbsp; D) Ahmet İzzet Paşa</p>
+<p><strong>Çözüm:</strong> Mondros'u Osmanlı adına Bahriye Nazırı Rauf (Orbay) Bey imzalamıştır. Enver Paşa bu tarihte ülkeyi terk etmiştir, Ahmet İzzet Paşa ise dönemin sadrazamıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Mondros Ateşkes Antlaşması'nın en tehlikeli maddesi olarak kabul edilen ve İtilaf Devletleri'ne sınırsız işgal hakkı veren madde hangisidir?</p>
+<p>A) 1. Madde &nbsp; B) 7. Madde &nbsp; C) 12. Madde &nbsp; D) 24. Madde</p>
+<p><strong>Çözüm:</strong> 7. Madde, "güvenliklerini tehdit edecek bir durum ortaya çıkarsa herhangi bir stratejik noktayı işgal edebilir" ifadesiyle İtilaf Devletleri'ne sınırsız işgal hakkı vermiştir. 24. madde ise Doğu Anadolu'ya özeldir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>İzmir'i 15 Mayıs 1919'da işgal eden devlet aşağıdakilerden hangisidir?</p>
+<p>A) İngiltere &nbsp; B) Fransa &nbsp; C) İtalya &nbsp; D) Yunanistan</p>
+<p><strong>Çözüm:</strong> İzmir'i 15 Mayıs 1919'da Yunanistan işgal etmiştir. Bu işgal, Milli Mücadele'yi tetikleyen en kritik olaydır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Mustafa Kemal'in Milli Mücadele'yi başlatmak üzere Anadolu'ya geçtiği tarih aşağıdakilerden hangisidir?</p>
+<p>A) 30 Ekim 1918 &nbsp; B) 13 Kasım 1918 &nbsp; C) 15 Mayıs 1919 &nbsp; D) 19 Mayıs 1919</p>
+<p><strong>Çözüm:</strong> Mustafa Kemal, 19 Mayıs 1919'da 9. Ordu Müfettişi sıfatıyla Samsun'a çıkmıştır. Bu tarih, Milli Mücadele'nin fiili başlangıcı kabul edilir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>"Milletlerin kendi kaderini tayin hakkı (self-determinasyon)" ilkesini içeren 14 İlkeyi yayınlayan ABD Başkanı kimdir?</p>
+<p>A) Roosevelt &nbsp; B) Wilson &nbsp; C) Truman &nbsp; D) Lincoln</p>
+<p><strong>Çözüm:</strong> 14 İlkeyi Ocak 1918'de ABD Başkanı Woodrow Wilson yayınlamıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Ortadoğu'nun (özellikle Arap topraklarının) İngiltere ve Fransa arasında paylaşılmasını öngören gizli antlaşma aşağıdakilerden hangisidir?</p>
+<p>A) Balfour Deklarasyonu &nbsp; B) Sykes-Picot Antlaşması &nbsp; C) Brest-Litovsk Antlaşması &nbsp; D) Londra Antlaşması</p>
+<p><strong>Çözüm:</strong> Sykes-Picot Antlaşması (1916), İngiltere ve Fransa arasında Ortadoğu'nun paylaşılmasını öngören en ünlü gizli antlaşmadır. Balfour Deklarasyonu ise Filistin'de Yahudi devleti vaadiyle ilgilidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Mondros Ateşkes Antlaşması nerede imzalanmıştır?</p>
+<p>A) İstanbul &nbsp; B) Paris &nbsp; C) Limni Adası (Mondros Limanı) &nbsp; D) Ankara</p>
+<p><strong>Çözüm:</strong> Mondros Ateşkes Antlaşması, Ege Denizi'ndeki Limni Adası'nın Mondros Limanı'nda, İngiliz Agamemnon zırhlısında imzalanmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Çukurova bölgesini (Adana, Mersin, Hatay) işgal eden devlet aşağıdakilerden hangisidir?</p>
+<p>A) İngiltere &nbsp; B) Fransa &nbsp; C) İtalya &nbsp; D) Yunanistan</p>
+<p><strong>Çözüm:</strong> Çukurova bölgesini (Adana, Mersin, Hatay) Fransa işgal etmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Mondros Ateşkes Antlaşması'nın 24. maddesi aşağıdaki bölgelerden hangisiyle doğrudan ilgilidir?</p>
+<p>A) İstanbul ve Boğazlar &nbsp; B) İzmir ve Ege Bölgesi &nbsp; C) Doğu Anadolu'daki altı vilayet &nbsp; D) Çukurova bölgesi</p>
+<p><strong>Çözüm:</strong> 24. madde, Doğu Anadolu'daki altı vilayette (Vilayet-i Sitte) karışıklık çıkarsa işgal hakkı tanımaktadır. Amacı bu bölgede bir Ermeni devleti kurmaktır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)<\/h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Mondros Ateşkes Antlaşması'nın 7. maddesinin en tehlikeli yönü aşağıdakilerden hangisidir?</p>
+<p>A) Sadece İstanbul'un işgalini öngörmesi &nbsp; B) İtilaf Devletleri'ne sınırı ve koşulu belirsiz, sınırsız bir işgal hakkı vermesi &nbsp; C) Yalnızca ekonomik yaptırımlar içermesi &nbsp; D) Osmanlı ordusunu güçlendirmesi</p>
+<p><strong>Çözüm:</strong> 7. maddenin tehlikesi, "güvenlik" kavramının tanımsız bırakılmasıyla İtilaf Devletleri'ne diledikleri yeri, diledikleri zaman işgal edebilme hakkı vermesidir. Bu belirsizlik bilinçli olarak planlanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Wilson İlkeleri'nin Osmanlı Devleti'ni doğrudan ilgilendiren maddesi aşağıdakilerden hangisini öngörmektedir?</p>
+<p>A) Osmanlı topraklarının tamamının paylaşılmasını &nbsp; B) Türk bölgelerinde egemenliğin güvence altına alınmasını, Türk olmayan milletlere kendi kendini yönetme hakkı tanınmasını &nbsp; C) Osmanlı Devleti'nin tamamen ortadan kaldırılmasını &nbsp; D) Boğazların Rusya'ya bırakılmasını</p>
+<p><strong>Çözüm:</strong> Wilson İlkeleri, Türklerin çoğunlukta olduğu bölgelerde egemenliğin güvence altına alınmasını, Türk olmayan milletlere ise self-determinasyon hakkı verilmesini öngörür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>İstanbul'a İtilaf donanmasının geldiği 13 Kasım 1918 tarihi ile 16 Mart 1920 tarihi arasındaki temel fark aşağıdakilerden hangisidir?</p>
+<p>A) İkisi aynı olayın farklı adlarıdır &nbsp; B) 13 Kasım fiili (de facto) işgal, 16 Mart ise resmen (de jure) işgaldir &nbsp; C) 13 Kasım resmen, 16 Mart fiili işgaldir &nbsp; D) İkisinin de işgalle ilgisi yoktur</p>
+<p><strong>Çözüm:</strong> 13 Kasım 1918'de İtilaf donanmasının İstanbul'a gelmesi fiili bir kontrol iken, 16 Mart 1920'de Meclis-i Mebusan'ın basılması ve milletvekillerinin tutuklanması resmen işgalin başlangıcıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Antep, Maraş ve Urfa'nın işgal süreci hakkında aşağıdakilerden hangisi doğrudur?</p>
+<p>A) Bu bölgeleri doğrudan Fransa işgal etmiştir. &nbsp; B) Bu bölgeleri önce İngiltere işgal etmiş, sonra Fransa'ya devretmiştir. &nbsp; C) Bu bölgeler hiçbir zaman işgal edilmemiştir. &nbsp; D) Bu bölgeleri İtalya işgal etmiştir.</p>
+<p><strong>Çözüm:</strong> Antep, Maraş ve Urfa önce İngilizler tarafından işgal edilmiş, daha sonra İngiliz-Fransız arasındaki anlaşma güncellenerek Fransızlara devredilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Wilson İlkeleri'nin "gizli antlaşmalar yapılmayacak, açık diplomasi esas alınacak" ilkesi ile Sykes-Picot Antlaşması birlikte değerlendirildiğinde aşağıdaki çıkarımlardan hangisine ulaşılır?</p>
+<p>A) Wilson İlkeleri ve gizli antlaşmalar birbiriyle tamamen uyumludur. &nbsp; B) İtilaf Devletleri Wilson İlkeleri'ni savunurken, savaş sırasında yaptıkları gizli antlaşmalarla çelişkiye düşmüştür. &nbsp; C) Sykes-Picot bir gizli antlaşma değildir. &nbsp; D) Gizli antlaşmalar Wilson İlkeleri'nden sonra yapılmıştır.</p>
+<p><strong>Çözüm:</strong> Sykes-Picot (1916), Wilson İlkeleri'nden (Ocak 1918) önce yapılmış gizli bir paylaşım antlaşmasıdır. Wilson "gizli diplomasi yapılmayacak" derken, İtilaf Devletleri'nin zaten gizli antlaşmalar yapmış olması büyük bir çelişkidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Mondros Ateşkes Antlaşması'nın maddelerinin toplu olarak değerlendirilmesi (ordunun terhisi, silahların teslimi, boğazların açılması, ulaşım kontrolünün devredilmesi) sonucunda aşağıdaki yargılardan hangisine ulaşılabilir?</p>
+<p>A) Osmanlı Devleti askeri ve idari bağımsızlığını korumuştur. &nbsp; B) Osmanlı Devleti fiilen bağımsız bir devlet olmaktan çıkmıştır. &nbsp; C) Maddeler yalnızca ekonomik yaptırımlar içermektedir. &nbsp; D) Osmanlı ordusu güçlendirilmiştir.</p>
+<p><strong>Çözüm:</strong> Ordusu terhis edilmiş, silahları alınmış, ulaşım ve iletişimi kontrol altına alınmış, boğazları ve stratejik noktaları başkalarına bırakmış bir devletin bağımsızlığından söz edilemez. Mondros, Osmanlı'yı fiilen bağımsız bir devlet olmaktan çıkarmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Önceki konuda öğrendiğimiz Brest-Litovsk Antlaşması ile geri alınan Kars, Ardahan ve Batum topraklarının Mondros sonrasındaki akıbeti hakkında aşağıdakilerden hangisi doğrudur?</p>
+<p>A) Bu topraklar kalıcı olarak Osmanlı'da kalmıştır. &nbsp; B) Mondros sonrası bu kazanımlar geçersiz hale gelmiş, topraklar yeniden kaybedilmiştir. &nbsp; C) Bu topraklar Fransa'ya devredilmiştir. &nbsp; D) Bu toprakların Brest-Litovsk ile bir ilgisi yoktur.</p>
+<p><strong>Çözüm:</strong> Brest-Litovsk ile kazanılan Kars, Ardahan ve Batum, Mondros Ateşkesi sonrasında geçersiz hale gelmiş ve bu topraklar yeniden Osmanlı'nın elinden çıkmıştır. Yani bu kazanım geçici bir kazanımdı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>İzmir'in 15 Mayıs 1919'da Yunanistan tarafından işgal edilmesinin Milli Mücadele açısından en önemli sonucu aşağıdakilerden hangisidir?</p>
+<p>A) İşgalin hiçbir tepkiye yol açmaması &nbsp; B) Bölgesel direnişlerin topyekûn bir ulusal uyanışa dönüşmesini sağlaması &nbsp; C) İstanbul Hükümeti'nin savaş ilan etmesi &nbsp; D) İtalya'nın Anadolu'dan çekilmesi</p>
+<p><strong>Çözüm:</strong> İzmir'in işgali, özellikle Yunanistan'ın ilhak amacı taşıması nedeniyle, Türk halkını derinden sarsmış ve bölgesel direnişlerin topyekûn bir milli uyanışa dönüşmesini tetiklemiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Aşağıdakilerden hangisi Mondros Ateşkes Antlaşması ile Sevr Barış Antlaşması arasındaki temel farkı en doğru şekilde ifade eder?</p>
+<p>A) İkisi de aynı nitelikteki belgelerdir. &nbsp; B) Mondros bir ateşkes (mütareke), Sevr ise bir barış antlaşmasıdır; Mondros savaşı durdurur, Sevr toprakları resmen paylaştırır. &nbsp; C) Sevr, Mondros'dan önce imzalanmıştır. &nbsp; D) Mondros bir barış antlaşması, Sevr ise ateşkestir.</p>
+<p><strong>Çözüm:</strong> Mondros (1918) bir ateşkes antlaşmasıdır ve savaşı durdurur. Sevr (1920) ise bir barış antlaşmasıdır ve Osmanlı topraklarını resmen paylaştırır. İkisinin niteliği, tarihi ve kapsamı farklıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Paris Barış Konferansı'nda İzmir'in Yunanistan'a bırakılmasının, İtilaf bloğu içindeki en doğrudan sonucu aşağıdakilerden hangisidir?</p>
+<p>A) Fransa'nın bloktan ayrılması &nbsp; B) İtalya'nın tepki göstererek İtilaf bloğunda ilk büyük çatlağın oluşması &nbsp; C) İngiltere'nin Yunanistan'la ilişkilerini kesmesi &nbsp; D) ABD'nin savaşa girmesi</p>
+<p><strong>Çözüm:</strong> Gizli antlaşmalarla İzmir İtalya'ya vaat edilmişti. Paris Konferansı'nda bu bölgenin Yunanistan'a bırakılması İtalya'yı kızdırmış ve İtilaf bloğundaki ilk ciddi çatlağı oluşturmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)<\/h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Mondros Ateşkes Antlaşması'nın maddeleri bir bütün olarak değerlendirildiğinde (ordunun terhisi, silahların teslimi, boğazların açılması, ulaşım kontrolü, 7. madde ile sınırsız işgal hakkı), bu antlaşmanın gerçek niteliği hakkında aşağıdaki çıkarımlardan hangisi en kapsamlıdır?</p>
+<p>A) Yalnızca askeri bir ateşkestir. &nbsp; B) Kağıt üzerinde ateşkes olsa da, fiilen Osmanlı Devleti'nin bağımsızlığını ortadan kaldıran bir teslimiyet belgesidir. &nbsp; C) Osmanlı'ya toprak kazandırmıştır. &nbsp; D) Yalnızca boğazlarla ilgili düzenlemeler içerir.</p>
+<p><strong>Çözüm:</strong> Mondros, ateşkes adı altında Osmanlı'nın askeri, idari ve coğrafi bağımsızlığını bütünüyle ortadan kaldıran, 7. maddesiyle de sınırsız işgale zemin hazırlayan fiili bir teslimiyet belgesidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Wilson İlkeleri'ndeki "self-determinasyon" kavramı, Türk tarafı açısından hem avantaj hem dezavantaj taşımaktadır. Aşağıdakilerden hangisi bu ikiliği en doğru açıklar?</p>
+<p>A) Self-determinasyon Türkler için yalnızca dezavantajdır. &nbsp; B) Türklerin çoğunlukta olduğu bölgelerin Türklere bırakılması avantajken, azınlıkların da kendi devletlerini kurma hakkı elde etmesi (Ermeni, Kürt devleti talepleri) dezavantajdır. &nbsp; C) Self-determinasyon yalnızca Türklere avantaj sağlamıştır. &nbsp; D) Bu kavramın Türk tarafıyla hiçbir ilgisi yoktur.</p>
+<p><strong>Çözüm:</strong> Self-determinasyon ilkesi, Türklerin çoğunlukta olduğu yerlerin Türk egemenliğinde kalmasını destekler (avantaj); ancak aynı ilke, Osmanlı topraklarındaki azınlıkların da bağımsızlık talebinde bulunmasına hukuki zemin hazırlar (dezavantaj). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Mondros Ateşkes Antlaşması'nın 7. maddesinin "İtilaf Devletleri, güvenliklerini tehdit edecek bir durum ortaya çıkarsa" ifadesindeki belirsizlik ile diğer maddelerin (örneğin "silahlar teslim edilecek") spesifik olması birlikte değerlendirildiğinde, aşağıdaki yargılardan hangisine ulaşılır?</p>
+<p>A) Tüm maddeler aynı derecede belirsizdir. &nbsp; B) 7. madde, kasıtlı olarak belirsiz bırakılmış, böylece İtilaf Devletleri'ne istedikleri yeri işgal etme esnekliği sağlanmıştır; diğer maddeler ise somut yükümlülüklerdir. &nbsp; C) 7. maddenin diğer maddelerden hiçbir farkı yoktur. &nbsp; D) Belirsizlik bir tesadüftür, kasıtlı değildir.</p>
+<p><strong>Çözüm:</strong> 7. maddenin belirsizliği kasıtlıdır — "güvenlik tehdidi" kavramı tanımlanmamış, böylece İtilaf Devletleri herhangi bir bahaneyle herhangi bir yeri işgal edebilme esnekliğini elde etmiştir. Diğer maddeler ise somut ve sınırlı yükümlülüklerdir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Gizli antlaşmaların (Sykes-Picot 1916, İstanbul Antlaşması 1915) Wilson İlkeleri'nden (Ocak 1918) önce yapılmış olması, aşağıdakilerden hangisini gösterir?</p>
+<p>A) Wilson İlkeleri gizli antlaşmaları geçersiz kılmıştır. &nbsp; B) İtilaf Devletleri'nin Osmanlı topraklarını paylaşma planı, savaşın sonunu beklemeden, savaş devam ederken yapılmıştır — Wilson İlkeleri bu planları durdurmamıştır. &nbsp; C) Gizli antlaşmalar Wilson İlkeleri'nin bir parçasıdır. &nbsp; D) Bu kronolojinin hiçbir önemi yoktur.</p>
+<p><strong>Çözüm:</strong> Gizli antlaşmaların Wilson İlkeleri'nden önce yapılmış olması, İtilaf Devletleri'nin Osmanlı topraklarını paylaşma stratejisini savaş devam ederken planladığını ve Wilson İlkeleri'nin bu planları fiilen durdurmadığını gösterir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>İşgallere karşı halkın tepkisinin (mitingler, Redd-i İlhak hareketi, cemiyetler) padişahtan ve İstanbul Hükümeti'nden değil de doğrudan halktan gelmesi, aşağıdaki çıkarımlardan hangisini destekler?</p>
+<p>A) Padişah ve hükümet halktan daha güçlüydü. &nbsp; B) Merkezi otoritenin çaresizliği karşısında, halk kendi iradesini örgütleyerek milli bir direniş hareketi başlatmıştır — bu da ileride Milli Mücadele'nin halkın iradesiyle yürütülmesinin temelini oluşturmuştur. &nbsp; C) Halkın hiçbir tepkisi olmamıştır. &nbsp; D) İstanbul Hükümeti işgallere karşı savaş ilan etmiştir.</p>
+<p><strong>Çözüm:</strong> İstanbul Hükümeti'nin işgallere boyun eğmesi karşısında halkın cemiyetler ve mitinglerle kendi tepkisini örgütlemesi, Milli Mücadele'nin bir devlet projesi değil halk iradesi hareketi olduğunun ilk işaretleridir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Bu konunun bir önceki konu olan "I. Dünya Savaşı ve Osmanlı Cepheleri" ile en güçlü bağlantısı aşağıdakilerden hangisidir?</p>
+<p>A) İki konunun hiçbir ilgisi yoktur. &nbsp; B) I. Dünya Savaşı'nda birden fazla cephede yıpranma, müttefiklerin çöküşü ve İttihat ve Terakki liderlerinin kaçışı, Osmanlı'yı Mondros'u kabul etmek zorunda bırakmıştır — savaşın sonuçları doğrudan bu konunun başlangıcını şekillendirmiştir. &nbsp; C) Mondros, I. Dünya Savaşı'ndan önce imzalanmıştır. &nbsp; D) I. Dünya Savaşı'nda hiçbir kayıp yaşanmamıştır.</p>
+<p><strong>Çözüm:</strong> Önceki konudaki çok cepheli yıpranma, müttefik çöküşü ve İttihatçı kadronun kaçışı, Osmanlı'yı Mondros'u kabul etmeye mecbur bırakmıştır. İki konu arasındaki köprü budur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>İşgal bölgelerinin dağılımı (İngiltere: petrol bölgeleri ve stratejik geçişler; Fransa: Çukurova ve Suriye; İtalya: Akdeniz kıyıları; Yunanistan: İzmir) birlikte değerlendirildiğinde, aşağıdaki genellemelerden hangisi yapılabilir?</p>
+<p>A) İşgaller rastgele yapılmıştır. &nbsp; B) Her devlet kendi stratejik, ekonomik ve siyasi çıkarlarına uygun bölgeleri işgal etmiştir — bu da işgallerin tesadüfi değil, planlı ve çıkar odaklı olduğunu gösterir. &nbsp; C) Tüm devletler aynı bölgeyi işgal etmek istemiştir. &nbsp; D) İşgallerin ekonomik bir boyutu yoktur.</p>
+<p><strong>Çözüm:</strong> İngiltere'nin petrol bölgelerine, Fransa'nın Suriye hinterlandına, İtalya'nın Akdeniz kıyılarına, Yunanistan'ın Megali İdea kapsamında İzmir'e yönelmesi, işgallerin planlı ve çıkar odaklı olduğunu gösterir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Mondros Ateşkes Antlaşması hakkında aşağıdaki ifadelerden hangisi <strong>söylenemez</strong>?</p>
+<p>A) Osmanlı Devleti'ni fiilen bağımsız bir devlet olmaktan çıkarmıştır. &nbsp; B) 7. maddesi İtilaf Devletleri'ne sınırsız işgal hakkı vermiştir. &nbsp; C) Osmanlı ordusunun güçlenmesini sağlamıştır. &nbsp; D) Limni Adası'nda imzalanmıştır.</p>
+<p><strong>Çözüm:</strong> Mondros, Osmanlı ordusunun terhis edilmesini ve silahlarının teslim edilmesini öngörmüştür — yani tam tersi, orduyu zayıflatmıştır. "Güçlenmesini sağlamıştır" ifadesi kesinlikle yanlıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Bu konunun bir sonraki konu olan "Kuvâ-yı Milliye ve Cemiyetler Dönemi" ile en güçlü bağlantısı aşağıdakilerden hangisidir?</p>
+<p>A) İki konunun hiçbir ilgisi yoktur. &nbsp; B) Mondros sonrası işgallerin yarattığı tepki ve Mustafa Kemal'in Samsun'a çıkışıyla başlayan süreç, bir sonraki konuda göreceğimiz Kuvâ-yı Milliye hareketinin ve halkın örgütlü direnişinin doğrudan zeminini oluşturmuştur. &nbsp; C) Kuvâ-yı Milliye hareketi Mondros'dan önce başlamıştır. &nbsp; D) Cemiyetler İstanbul Hükümeti tarafından kurulmuştur.</p>
+<p><strong>Çözüm:</strong> İşgallerin yarattığı varoluşsal tehdit ve 19 Mayıs 1919'da Samsun'a çıkışla başlayan süreç, Kuvâ-yı Milliye hareketinin ve kongreler sürecinin doğrudan zeminini oluşturmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Bu konunun KPSS açısından öğrenciye kazandırması gereken en temel beceri aşağıdakilerden hangisidir?</p>
+<p>A) Sadece tarihleri ezberleme &nbsp; B) Mondros maddelerini, gizli antlaşmaları, Wilson İlkeleri'ni ve işgal sürecini birbirleriyle nedensel ilişki içinde analiz edebilme; söylem ile gerçek arasındaki çelişkiyi görebilme &nbsp; C) Sadece işgalci devletlerin isimlerini bilme &nbsp; D) Yalnızca Mustafa Kemal'in biyografisini ezberleme</p>
+<p><strong>Çözüm:</strong> Bu konunun özü, Mondros-Wilson-gizli antlaşmalar-işgaller dörtgenini nedensel bir bütün olarak kavrayabilmek ve söylem (Wilson İlkeleri) ile gerçek (gizli antlaşmalar ve işgaller) arasındaki çelişkiyi analiz edebilmektir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler<\/h2>
+<p>Aşağıda yukarıdaki 30 sorunun her biri için doğru cevap, doğru olma gerekçesi, diğer seçeneklerin neden elendiği, sorunun ölçtüğü kazanım ve ÖSYM'nin bu tip sorularla neyi test ettiği ayrıntılı biçimde açıklanmıştır.</p>
+
+<p><strong>Soru 1 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Mondros 30 Ekim 1918'de imzalanmıştır. <em>Diğer seçenekler:</em> A Çanakkale Deniz Zaferi (1915), C Samsun'a çıkış (1919), D Sevr Antlaşması (1920) tarihleridir. <em>Kazanım:</em> Temel tarih-olay eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Kronolojik çapa noktalarını bilme. <em>Dikkat:</em> Mondros (1918) ile Sevr (1920) tarihlerini karıştırma.</p>
+
+<p><strong>Soru 2 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Rauf (Orbay) Bey, Bahriye Nazırı olarak Mondros'u imzalamıştır. <em>Diğer seçenekler:</em> A ülkeden kaçmıştır, B henüz Milli Mücadele öncesi dönemdedir, D dönemin sadrazamıdır ama imzacı değildir. <em>Kazanım:</em> Kişi-olay eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Doğru kişiyi doğru olayla ilişkilendirme. <em>Dikkat:</em> Rauf Orbay'ı ileride Sivas Kongresi ile de karıştırma.</p>
+
+<p><strong>Soru 3 — Doğru cevap: B.</strong> <em>Neden doğru:</em> 7. madde sınırsız işgal hakkı verir. <em>Diğer seçenekler:</em> A ve C spesifik maddeler değildir bu bağlamda, D ise Doğu Anadolu'ya özel bir maddedir. <em>Kazanım:</em> Madde numarası-içerik eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Mondros'un en tehlikeli maddesini bilme. <em>Dikkat:</em> 7. madde ile 24. maddeyi karıştırma; 7. madde genel, 24. madde bölgeseldir.</p>
+
+<p><strong>Soru 4 — Doğru cevap: D.</strong> <em>Neden doğru:</em> İzmir'i Yunanistan işgal etmiştir. <em>Diğer seçenekler:</em> A, B, C farklı bölgeleri işgal eden devletlerdir. <em>Kazanım:</em> İşgal bölgesi-devlet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> En kritik işgali ve işgalci devleti bilme. <em>Dikkat:</em> İzmir'in İtalya'ya vaat edilip Yunanistan'a verildiğini karıştırma.</p>
+
+<p><strong>Soru 5 — Doğru cevap: D.</strong> <em>Neden doğru:</em> 19 Mayıs 1919, Samsun'a çıkış tarihidir. <em>Diğer seçenekler:</em> A Mondros, B İstanbul'un fiili işgali, C İzmir'in işgali tarihidir. <em>Kazanım:</em> Milli Mücadele'nin başlangıç tarihini bilme. <em>ÖSYM ne ölçüyor:</em> Kronolojik çapa noktalarını bilme. <em>Dikkat:</em> 15 Mayıs (İzmir işgali) ile 19 Mayıs (Samsun) karıştırılır — ikisi de Mayıs 1919'dur.</p>
+
+<p><strong>Soru 6 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Wilson, 14 İlkeyi yayınlayan ABD başkanıdır. <em>Diğer seçenekler:</em> A, C, D farklı dönemlerin ABD başkanlarıdır. <em>Kazanım:</em> Kişi-belge eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Temel tarihsel kişilikleri bilme. <em>Dikkat:</em> Wilson'un ilkeleri ile uygulamanın farklı olduğunu unutma.</p>
+
+<p><strong>Soru 7 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Sykes-Picot, Ortadoğu'nun İngiltere-Fransa paylaşımıdır. <em>Diğer seçenekler:</em> A Yahudi devleti vaadidir, C Rusya ile yapılmıştır, D farklı bir antlaşmadır. <em>Kazanım:</em> Gizli antlaşma-içerik eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Gizli antlaşmaların içeriğini bilme. <em>Dikkat:</em> Sykes-Picot ile Balfour'u karıştırma; biri toprak paylaşımı, diğeri devlet vaadi.</p>
+
+<p><strong>Soru 8 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Limni Adası'nın Mondros Limanı'nda imzalanmıştır. <em>Diğer seçenekler:</em> A, B, D yanlış coğrafyalardır. <em>Kazanım:</em> Yer-olay eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Antlaşma adının coğrafi kaynağını bilme. <em>Dikkat:</em> Antlaşmanın adı zaten imza yerini verir: Mondros = Mondros Limanı.</p>
+
+<p><strong>Soru 9 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Çukurova bölgesini Fransa işgal etmiştir. <em>Diğer seçenekler:</em> A, C, D farklı bölgelerin işgalcileridir. <em>Kazanım:</em> Bölge-devlet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> İşgal coğrafyasını bilme. <em>Dikkat:</em> Fransa'nın Çukurova'yı doğrudan, Antep-Maraş-Urfa'yı ise İngilizlerden devralarak işgal ettiğini karıştırma.</p>
+
+<p><strong>Soru 10 — Doğru cevap: C.</strong> <em>Neden doğru:</em> 24. madde Doğu Anadolu'daki 6 vilayetle (Vilayet-i Sitte) ilgilidir. <em>Diğer seçenekler:</em> A, B, D farklı bölgelerdir. <em>Kazanım:</em> Madde-bölge eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> 7. madde ile 24. maddenin hedef bölgelerini ayırt edebilme. <em>Dikkat:</em> 7. madde tüm Anadolu, 24. madde sadece Doğu Anadolu (6 vilayet) ile ilgilidir.</p>
+
+<p><strong>Soru 11 — Doğru cevap: B.</strong> <em>Neden doğru:</em> "Güvenlik" kavramının tanımsız bırakılması, sınırsız işgale zemin hazırlar. <em>Diğer seçenekler:</em> A dar kapsamlıdır, C ve D tamamen yanlıştır. <em>Kazanım:</em> Hukuki belirsizliğin siyasi sonucunu analiz edebilme. <em>ÖSYM ne ölçüyor:</em> Bir maddenin ifadesindeki kasıtlı boşluğu kavrayabilme. <em>Dikkat:</em> "En tehlikeli" sorularında maddenin somut içeriğini değil, potansiyel etkisini düşün.</p>
+
+<p><strong>Soru 12 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Wilson İlkeleri Türk bölgelerinde egemenlik güvencesi ve Türk olmayanlara self-determinasyon öngörür. <em>Diğer seçenekler:</em> A ve C aşırı uçlardır, D yanlıştır. <em>Kazanım:</em> Wilson İlkeleri'nin Osmanlı boyutunu kavrama. <em>ÖSYM ne ölçüyor:</em> İlkenin dengeli yapısını (hem avantaj hem dezavantaj) görebilme. <em>Dikkat:</em> Bu ilkeyi Misak-ı Milli ile ilişkilendirebilmelisin.</p>
+
+<p><strong>Soru 13 — Doğru cevap: B.</strong> <em>Neden doğru:</em> 13 Kasım fiili, 16 Mart resmen işgaldir. <em>Diğer seçenekler:</em> A ikisini eşitler (yanlış), C ters çevirir, D tamamen yanlıştır. <em>Kazanım:</em> Fiili-resmi ayrımını kavrama. <em>ÖSYM ne ölçüyor:</em> İnce tarihsel ayrımları bilme. <em>Dikkat:</em> Bu ayrım konunun en klasik tuzaklarından biridir.</p>
+
+<p><strong>Soru 14 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Devir sırası: önce İngiliz, sonra Fransız. <em>Diğer seçenekler:</em> A sıralamayı yanlış verir, C ve D tarihsel olarak yanlıştır. <em>Kazanım:</em> İşgal sıralamasını bilme. <em>ÖSYM ne ölçüyor:</em> Devir işlemini ve sıralamasını bilme. <em>Dikkat:</em> Bu bilgi, ileride Güney Cephesi direnişini (Antep, Maraş, Urfa savunması) anlamak için de kritiktir.</p>
+
+<p><strong>Soru 15 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Sykes-Picot Wilson'dan önce yapılmıştır ve açık diplomasi ilkesiyle çelişir. <em>Diğer seçenekler:</em> A çelişkiyi yok sayar, C yanlış bir nitelendirmedir, D kronolojik olarak yanlıştır. <em>Kazanım:</em> Söylem-gerçek çelişkisini analiz edebilme. <em>ÖSYM ne ölçüyor:</em> İki belgeyi karşılaştırıp tutarsızlık tespit edebilme. <em>Dikkat:</em> Bu çelişki konunun en çok sorulan analitik sorusudur.</p>
+
+<p><strong>Soru 16 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Maddeler toplu değerlendirilince bağımsızlığın ortadan kalktığı görülür. <em>Diğer seçenekler:</em> A, C, D metinle çelişir. <em>Kazanım:</em> Birden fazla maddeyi sentezleyip genel bir yargıya ulaşabilme. <em>ÖSYM ne ölçüyor:</em> Bütünsel analiz becerisi. <em>Dikkat:</em> "Toplu değerlendirildiğinde" ifadesi, tek bir maddeye değil tüm maddelerin ortak etkisine odaklanmanı gerektirir.</p>
+
+<p><strong>Soru 17 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Brest-Litovsk kazanımları Mondros sonrası geçersiz olmuştur. <em>Diğer seçenekler:</em> A "kalıcı" der (yanlış), C ve D ilgisizdir. <em>Kazanım:</em> Konular arası bağlantı kurabilme. <em>ÖSYM ne ölçüyor:</em> Önceki konudaki bir kazanımın bu konudaki akıbetini bilme. <em>Dikkat:</em> Bu, önceki konu ile bu konu arasındaki en önemli köprü sorularından biridir.</p>
+
+<p><strong>Soru 18 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İzmir'in işgali bölgesel direnişleri topyekûn uyanışa çevirmiştir. <em>Diğer seçenekler:</em> A, C, D tarihsel gerçeklerle çelişir. <em>Kazanım:</em> İzmir işgalinin Milli Mücadele açısından anlamını kavrama. <em>ÖSYM ne ölçüyor:</em> Bir olayın dönüştürücü etkisini analiz edebilme. <em>Dikkat:</em> İzmir işgali, tüm işgaller içinde Milli Mücadele'yi tetikleyen en kritik olaydır.</p>
+
+<p><strong>Soru 19 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Mondros ateşkes, Sevr barış antlaşmasıdır; nitelikleri farklıdır. <em>Diğer seçenekler:</em> A eşitler (yanlış), C kronolojik olarak yanlış, D ters tanımlar. <em>Kazanım:</em> Ateşkes-barış antlaşması ayrımını kavrama. <em>ÖSYM ne ölçüyor:</em> Belge türlerini ayırt edebilme (bkz. Tuzak 1). <em>Dikkat:</em> Mondros (mütareke=ateşkes), Sevr (sulh=barış) ayrımını mutlaka pekiştir.</p>
+
+<p><strong>Soru 20 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İzmir'in İtalya yerine Yunanistan'a verilmesi İtalya'yı kızdırmıştır. <em>Diğer seçenekler:</em> A, C, D gerçekleşmemiş olgulardır. <em>Kazanım:</em> İtilaf bloğundaki çatlağı bilme. <em>ÖSYM ne ölçüyor:</em> Müttefik blok içindeki çıkar çatışmalarını analiz edebilme. <em>Dikkat:</em> İtalya'nın bu kırgınlığı ileride Milli Mücadele döneminde Türk tarafına yakınlaşmasında etkili olacaktır.</p>
+
+<p><strong>Soru 21 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Tüm maddeler birlikte fiili bir teslimiyeti gösterir. <em>Diğer seçenekler:</em> A dar kapsamlı, C ve D tamamen yanlıştır. <em>Kazanım:</em> Çok bileşenli bir belgeyi sentezleyip nitelendirme. <em>ÖSYM ne ölçüyor:</em> Yüksek seviye sentez becerisi. <em>Dikkat:</em> "En kapsamlı" soran sorularda en geniş ve en doğru seçeneği tercih et.</p>
+
+<p><strong>Soru 22 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Self-determinasyon hem Türk çoğunluğu korur hem azınlık taleplerini meşrulaştırır. <em>Diğer seçenekler:</em> A ve C tek boyutlu, D ilgisizdir. <em>Kazanım:</em> Bir kavramın çift yönlü etkisini analiz edebilme. <em>ÖSYM ne ölçüyor:</em> Avantaj-dezavantaj ikiliğini görebilme. <em>Dikkat:</em> Bu ikiliği Misak-ı Milli'nin mantığını anlamak için de kullanacaksın.</p>
+
+<p><strong>Soru 23 — Doğru cevap: B.</strong> <em>Neden doğru:</em> 7. maddenin belirsizliği kasıtlıdır ve sınırsız esneklik sağlar. <em>Diğer seçenekler:</em> A tüm maddeleri eşitler (yanlış), C farkı yok sayar, D kasıtlılığı reddeder. <em>Kazanım:</em> Hukuki metnin arkasındaki siyasi niyeti çözümleyebilme. <em>ÖSYM ne ölçüyor:</em> İleri düzey metin analizi. <em>Dikkat:</em> "Belirsizlik tesadüf müdür kasıt mıdır?" sorusu bu konunun en analitik sorularından biridir.</p>
+
+<p><strong>Soru 24 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Gizli antlaşmalar Wilson'dan önce yapılmıştır, Wilson bunları durdurmamıştır. <em>Diğer seçenekler:</em> A geçersiz kılma iddiası gerçekleşmemiştir, C ve D ilgisiz veya yanlıştır. <em>Kazanım:</em> Kronolojik sıralama ile neden-sonuç bağlantısı kurma. <em>ÖSYM ne ölçüyor:</em> İki belgenin kronolojik ilişkisinden çıkarım yapabilme. <em>Dikkat:</em> Kronoloji sorularında "önce ne yapıldı" bilgisi sonucu belirler.</p>
+
+<p><strong>Soru 25 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Halkın örgütlenmesi Milli Mücadele'nin halk iradesi hareketi olduğunu gösterir. <em>Diğer seçenekler:</em> A, C, D metinle çelişir. <em>Kazanım:</em> Tepki kaynağının siyasi anlamını çözümleme. <em>ÖSYM ne ölçüyor:</em> Toplumsal dinamikleri analiz edebilme. <em>Dikkat:</em> "Kim tepki gösterdi" sorusu aslında "otorite neredeydi" sorusunun cevabını da verir.</p>
+
+<p><strong>Soru 26 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Savaşın sonuçları doğrudan Mondros'u şekillendirmiştir. <em>Diğer seçenekler:</em> A, C, D metinle çelişir. <em>Kazanım:</em> Konular arası nedensel köprüyü görme. <em>ÖSYM ne ölçüyor:</em> Müfredatın akışını bütünsel kavrayabilme. <em>Dikkat:</em> Bir sonraki konuya geçmeden önce bu köprüyü (savaş yıpranması → ateşkes) iyi kavra.</p>
+
+<p><strong>Soru 27 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İşgal bölgeleri devletlerin stratejik çıkarlarını yansıtır. <em>Diğer seçenekler:</em> A rastgelelik iddiası yanlış, C ve D gerçeklerle çelişir. <em>Kazanım:</em> İşgal coğrafyasından stratejik çıkarım yapabilme. <em>ÖSYM ne ölçüyor:</em> Coğrafi dağılımı analiz edip genelleme yapabilme. <em>Dikkat:</em> İşgal haritasını çıkar odaklı düşünmek, ezberden çok daha kalıcıdır.</p>
+
+<p><strong>Soru 28 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Mondros orduyu güçlendirmemiş, tam tersi terhis etmiştir. <em>Diğer seçenekler:</em> A, B, D doğru ifadelerdir. <em>Kazanım:</em> "Söylenemez" formatında dört seçeneği tek tek doğrulayabilme. <em>ÖSYM ne ölçüyor:</em> Dikkatli okuma ve ters mantık yürütme. <em>Dikkat:</em> "Söylenemez/yanlıştır" sorularında her seçeneği ayrı ayrı kontrol et.</p>
+
+<p><strong>Soru 29 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İşgal tepkisi ve Samsun çıkışı Kuvâ-yı Milliye'nin zeminini oluşturur. <em>Diğer seçenekler:</em> A, C, D metinle çelişir. <em>Kazanım:</em> Bu konu ile sonraki konu arasındaki köprüyü görebilme. <em>ÖSYM ne ölçüyor:</em> Müfredatın bütünsel akışını kavrayabilme. <em>Dikkat:</em> Bir sonraki konuya geçmeden önce bu köprüyü (işgaller → halk tepkisi → Kuvâ-yı Milliye) iyi kavra.</p>
+
+<p><strong>Soru 30 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Konunun amacı nedensel ilişkileri ve söylem-gerçek çelişkisini analiz edebilmektir. <em>Diğer seçenekler:</em> A, C, D yüzeysel ezber yaklaşımlarıdır. <em>Kazanım:</em> Konunun genel öğrenme amacını içselleştirme. <em>ÖSYM ne ölçüyor:</em> Ezber değil çok boyutlu analiz becerisi. <em>Dikkat:</em> Bu son soru, konuyu nasıl ÇALIŞMAN gerektiğinin özetidir.</p>
+
+\` },`,
   },
   {
     id: 60,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Kuvâ-yı Milliye ve Cemiyetler Dönemi',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Milis Güçler, Milli Cemiyetler, Azınlık Cemiyetleri, Manda ve Himaye, Bölgesel Direniş)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Önceki konuda Mondros Ateşkesi'nin o meşhur 7. maddesiyle Anadolu'nun dört bir yanının nasıl işgal edilmeye başlandığını ve İzmir'in Yunanlılar tarafından işgalinin (15 Mayıs 1919) bardağı taşıran son damla olduğunu görmüştük. Peki, ordusu dağıtılmış, silahları elinden alınmış, padişahı ve hükümeti işgallere karşı sessiz kalan bir halk ne yapar? İşte bu konu, o halkın "kendi göbeğini kendi kesmeye" karar verdiği, kendi silahlı birliklerini ve cemiyetlerini kurduğu o uyanış dönemini anlatıyor.</p>
+<p>KPSS'de bu konu adeta bir eşleştirme ve ayırt etme oyunudur. ÖSYM burada sana <strong>hangi cemiyetin hangi bölgeyi savunduğunu</strong>, hangilerinin <strong>milli (yararlı)</strong> hangilerinin <strong>zararlı</strong> olduğunu sorar. İsimleri birbirine benzeyen, ismi yararlı gibi durup aslında zararlı olan cemiyetleri (tuzakları) ayırt edebilmek bu konunun en kritik becerisidir.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu dönem, Kurtuluş Savaşı'nın "sivil, dağınık ve bölgesel" hazırlık aşamasıdır. Burada kurulan o küçük, bölgesel cemiyetlerin tümü, ileride tek bir çatı altında birleşecek ve Milli Mücadele'nin asıl motor gücünü oluşturacaktır.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Tarihin akışını bir nehir gibi düşün. Mondros ile Osmanlı devleti bir baraj gibi çökmüş, işgal suları Anadolu'yu basmaya başlamıştı. İstanbul Hükümeti (merkezi otorite) bu suları durdurmak yerine boyun eğmeyi seçti. İşte o anda halk, kendi köylerini, kasabalarını, şehirlerini savunmak için küçük setler örmeye başladı. Bu setlerin silahlı olanlarına <strong>Kuvâ-yı Milliye</strong>, siyasi ve örgütleyici olanlarına ise <strong>Milli Cemiyetler</strong> diyoruz.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Bu Konu Hangi Sürecin Parçası?</span><p>Bu konu "Bölgesel Direniş" sürecidir. Her cemiyet sadece kendi bölgesini kurtarmaya çalışır. Henüz "tüm yurdu birlikte kurtaralım" bilinci tam oturmamıştır. Bir sonraki konuda (Kongreler Süreci) Mustafa Kemal'in gelip tüm bu dağınık parçaları nasıl tek bir "ulusal" yumruk haline getirdiğini göreceğiz. O yüzden bu konuyu "Sivas Kongresi'nin hammaddesi" olarak düşün.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Direnişin Silahlı Yüzü: Kuvâ-yı Milliye Nedir?</h3>
+<p>Mondros'un orduları terhis eden (dağıtan) maddesi yüzünden Anadolu savunmasız kalmıştı. İşgaller başlayıp, bir de üzerine Rum ve Ermeni çeteleri köylere saldırmaya başlayınca halk kendi silahlı milis güçlerini kurdu. Buna <strong>Kuvâ-yı Milliye (Milli Kuvvetler)</strong> denir.</p>
+<p><strong>Özellikleri nelerdir?</strong> Düzensizdirler, askeri disiplinden yoksundurlar, ihtiyaçlarını (bazen zorla) halktan karşılarlar, "vur-kaç" taktiğiyle (gerilla) savaşırlar. Başlarında genellikle bir subay veya yerel bir efe/zeybek (Demirci Mehmet Efe, Çerkez Ethem, Yörük Ali Efe gibi) bulunur.</p>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Kendine Sor</span><p>Kuvâ-yı Milliye düşmanı tamamen yurttan atabilir mi? Atamaz. Çünkü düzenli bir ordu değillerdir. Amaçları düşmanı yavaşlatmak, yıpratmak ve düzenli ordu kurulana kadar halka zaman kazandırmaktır. Görevlerini de layıkıyla yapmışlardır.</p></div>
+
+<h3>3.2. Yararlı (Milli) Cemiyetler</h3>
+<p>Bu cemiyetler işgallere karşı basın-yayın yoluyla, mitinglerle ve gerektiğinde silahlı mücadeleyle bölgelerini savunan vatansever örgütlerdir. Temel özellikleri <strong>bölgesel (yerel)</strong> olmalarıdır.</p>
+<ul>
+<li><strong>Trakya-Paşaeli Müdafaa-i Hukuk Cemiyeti:</strong> Kurulan ilk yararlı cemiyettir. Doğu Trakya'yı Yunan işgalinden (Mavri Mira'nın faaliyetlerinden) korumayı amaçlar. Hatta Osmanlı yıkılırsa burada yeni bir devlet kurmayı bile düşünmüşlerdir.</li>
+<li><strong>İzmir Müdafaa-i Hukuk ve Redd-i İlhak Cemiyeti:</strong> İzmir ve çevresinin Yunanistan'a verilmesini (ilhak edilmesini) engellemek için kurulmuştur. Balıkesir ve Alaşehir kongrelerini düzenlemişlerdir.</li>
+<li><strong>Trabzon Muhafaza-i Hukuk-ı Milliye Cemiyeti:</strong> Karadeniz bölgesinde bir Pontus Rum Devleti kurulmasını engellemek için çalışmıştır. Erzurum Kongresi'nin toplanmasına da destek vermiştir.</li>
+<li><strong>Doğu Anadolu (Vilayet-i Şarkiye) Müdafaa-i Hukuk Cemiyeti:</strong> Doğu'da bir Ermeni devleti (Mondros'un 24. maddesindeki tehlike) kurulmasını önlemek için çalışmıştır. Fransızca "Le Pays" (Vatan), "Hadisat" ve "Albayrak" gazetelerini çıkarmışlardır. <em>Erzurum Kongresi'ni toplayan ana cemiyettir.</em></li>
+<li><strong>Kilikyalılar Cemiyeti:</strong> Çukurova (Adana ve çevresi) bölgesini Fransız ve Ermeni işgaline karşı savunmuştur. İstanbul'da kurulup bölgede faaliyet göstermiştir.</li>
+<li><strong>Milli Kongre Cemiyeti:</strong> Diğerlerinden çok farklıdır. Bölgesel değil <strong>ulusal</strong> kurtuluşu savunmuş, silahlı mücadele yerine <strong>basın-yayın</strong> (propaganda) yolunu kullanmış, Türklerin haklı davasını dünyaya duyurmaya çalışmıştır. "Kuvâ-yı Milliye" tabirini ilk kullanan (Dr. Esat Işık raporu) cemiyettir.</li>
+<li><strong>Anadolu Kadınları Müdafaa-i Vatan Cemiyeti:</strong> Mustafa Kemal'in isteği üzerine Sivas'ta (Melek Reşit Hanım önderliğinde) kurulmuş, orduya para ve eşya yardımı toplamıştır.</li>
+</ul>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Kilikyalılar Tuzağı</span><p>KPSS'nin en meşhur tuzağıdır. "Kilikyalılar" ismi sanki bir Ermeni veya Rum cemiyetiymiş, zararlıymış gibi tınlar. Oysa Kilikya, Çukurova'nın antik adıdır. <strong>Kilikyalılar Cemiyeti YARARLI bir cemiyettir!</strong></p></div>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Mantığını Kur: Basın-Yayın İstisnası</span><p>Tüm cemiyetler bölgesel kurtuluş için silahlanırken, <strong>Milli Kongre Cemiyeti</strong> sadece basın-yayın yoluyla ulusal bir mücadele yürütmüştür. Sorularda "basın-yayın", "Dr. Esat Işık" veya "ulusal hedef" kelimelerini görürsen cevap Milli Kongre'dir.</p></div>
+
+<h3>3.3. Zararlı Cemiyetler (Azınlıkların Kurdukları)</h3>
+<p>Osmanlı içindeki Rumlar, Ermeniler ve Yahudiler tarafından kurulan, İtilaf Devletleri'nden destek alan cemiyetlerdir. Ortak amaçları Osmanlı'yı parçalayıp kendi bağımsız devletlerini kurmaktır (Mondros'un 7. maddesine işgal bahanesi yaratmak için karışıklık çıkarırlar).</p>
+<ul>
+<li><strong>Rumların Kurdukları:</strong>
+  <ul>
+  <li><strong>Mavri Mira (Kara Gün):</strong> Bizans İmparatorluğu'nu yeniden kurmayı (Megali İdea) amaçlar. Patrik hane tarafından desteklenir. En tehlikeli Rum cemiyetidir.</li>
+  <li><strong>Etnik-i Eterya:</strong> 1814'te kurulan eski bir cemiyettir, Mavri Mira ile aynı amacı taşır.</li>
+  <li><strong>Pontus Rum:</strong> Trabzon ve Doğu Karadeniz merkezli bir Pontus devleti kurmayı hedefler.</li>
+  </ul>
+</li>
+<li><strong>Ermenilerin Kurdukları:</strong>
+  <ul>
+  <li><strong>Hınçak ve Taşnak:</strong> Doğu Anadolu ve Çukurova'da (Kilikya) bağımsız bir Ermeni devleti kurmayı (Megali Ermenistan) amaçlarlar. Fransızlarla işbirliği yapmışlardır.</li>
+  </ul>
+</li>
+<li><strong>Yahudilerin Kurdukları:</strong>
+  <ul>
+  <li><strong>Maccabi ve Alyans İsrailit:</strong> Toprak talebinden ziyade, Filistin'de kurulacak bir Yahudi devleti için zemin hazırlamak ve Yahudilerin ekonomik haklarını korumak için çalışmışlardır.</li>
+  </ul>
+</li>
+</ul>
+
+<h3>3.4. Zararlı Cemiyetler (Milli Varlığa Düşman Olanlar)</h3>
+<p>İşte en trajik bölüm burasıdır. Bu cemiyetleri kuranlar Türk ve Müslümandır (azınlık değildir). Ancak kurtuluşu milli bir direnişte değil, padişaha körü körüne itaatte veya güçlü bir devletin sömürgesine (mandasına) girmekte bulmuşlardır.</p>
+<ul>
+<li><strong>İngiliz Muhipleri (Sevenleri) Cemiyeti:</strong> Kurtuluşun ancak İngiltere'nin mandasına (korumasına) girmekle mümkün olacağını savunanlar. (Sadrazam Damat Ferit bile üyedir).</li>
+<li><strong>Wilson Prensipleri Cemiyeti:</strong> Kurtuluşun Amerikan (ABD) mandasına girmekle mümkün olacağını savunan aydınlar (Halide Edip gibi isimler de başlarda buradadır, sonra hatasını anlayıp Milli Mücadele'ye katılır).</li>
+<li><strong>Sulh ve Selamet-i Osmaniye Fırkası:</strong> Kurtuluşun sadece Padişah ve Halifenin emirlerine sıkı sıkıya uymakla geleceğini savunanlar.</li>
+<li><strong>Teali İslam Cemiyeti:</strong> Kurtuluşu halifeliğe ve ümmetçiliğe sarılmakta görenler. Milli Mücadele'ye karşı fetvalar yayınlamışlardır.</li>
+<li><strong>Kürt Teali Cemiyeti:</strong> Wilson İlkeleri'ne dayanarak Doğu'da ayrı bir devlet kurmayı amaçlayan cemiyet (İngiliz desteklidir).</li>
+<li><strong>Hürriyet ve İtilaf Fırkası:</strong> İttihat ve Terakki'nin ezeli düşmanıdır, Milli Mücadele'yi İttihatçı bir hareket olarak gördüğü için şiddetle karşı çıkmıştır.</li>
+</ul>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ İsim Tuzağına Düşme</span><p>"Sulh ve Selamet" (Barış ve Kurtuluş) ile "Teali İslam" (İslam'ın Yükselişi) isimleri kulağa çok yararlı, çok iyi niyetli geliyor değil mi? ÖSYM de tam bunu bildiği için sorar! İsimleri yararlı gibi dursa da, bunlar Milli Mücadele'ye, yani Mustafa Kemal'e karşı çıkan <strong>ZARARLI</strong> cemiyetlerdir.</p></div>
+
+<h3>3.5. Manda ve Himaye Tartışmaları</h3>
+<p>Savaş yorgunu halkın ve bazı aydınların bağımsızlığa olan inancı zayıftı. "İngiltere veya ABD gibi devasa güçleri savaşarak yenemeyiz, en iyisi onların koruması (mandası) altına girip hayatta kalalım" diyorlardı. Milli Mücadele, sadece düşman ordularına karşı değil, bu "teslimiyetçi" psikolojiye karşı da verilmiş bir savaştır. Manda ve himaye fikri ileride Erzurum Kongresi'nde ilk kez reddedilecek, Sivas Kongresi'nde ise kesin olarak tarihe gömülecektir.</p>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Bağlantı Kur</span><p>Bir önceki konuda işlediğimiz Wilson İlkeleri (kendi kaderini tayin hakkı) hem azınlıkların ayrı devlet kurma hevesini (zararlı cemiyetleri) kışkırtmış, hem de Amerikan mandasını savunanların (Wilson Prensipleri Cemiyeti) temel dayanağı olmuştur. Yani kağıt üzerindeki o idealist ilkeler, Anadolu'da büyük bir kaosa yol açmıştır.</p></div>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+
+<h3>İstanbul Hükümeti'nin sessizliği ve işgaller</h3>
+<ul>
+<li><strong>Neden oldu?</strong> Mondros sonrası İtilaf Devletleri'nin Anadolu'yu işgale başlaması ve Padişah/Hükümetin İtilaf devletlerini kızdırmamak için halka "sakin olun, direnmeyin" çağrısı yapması.</li>
+<li><strong>Nasıl gelişti?</strong> Ordusu terhis edilen ve devletten yardım göremeyen halk, kendi güvenliğini sağlamak için silahlandı ve cemiyetler kurdu.</li>
+<li><strong>Sonuçları neler oldu?</strong> Kuvâ-yı Milliye ve bölgesel direniş ruhu (Milli Cemiyetler) doğdu.</li>
+<li><strong>Bugüne etkisi:</strong> Kurtuluş Savaşı'nın bir devlet organizasyonuyla değil, doğrudan tabandan gelen bir "halk hareketi" ile başladığını gösterir.</li>
+</ul>
+
+<h3>Milli Cemiyetlerin bölgesel kalması</h3>
+<ul>
+<li><strong>Neden oldu?</strong> Ulaşım ve iletişimin kısıtlı olması, Mondros yüzünden telgraflara el konulması ve herkesin öncelikle acil tehdit altındaki "kendi yurdunu" (şehrini) kurtarmak istemesi.</li>
+<li><strong>Nasıl gelişti?</strong> Doğu Anadolu cemiyeti Ermenilerle, Trabzon cemiyeti Rumlarla, İzmir cemiyeti Yunanlılarla tek başlarına mücadele etmeye çalıştı.</li>
+<li><strong>Sonuçları neler oldu?</strong> Direnişin gücü bölündü, düşmanı yurttan tamamen atacak ulusal bir güç oluşamadı.</li>
+<li><strong>Bugüne etkisi:</strong> Mustafa Kemal'in en büyük dehasının, bu dağınık enerjiyi Sivas Kongresi'nde tek bir çatı altında birleştirerek "ulusal bir güç" yaratması olduğunu bize öğretir.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Açıklama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ekim 1918</td>
+<td>Mondros'un İmzalanması</td>
+<td>Anadolu'nun savunmasız kalması, ordunun terhisi.</td>
+</tr>
+<tr>
+<td>Kasım 1918</td>
+<td>Trakya-Paşaeli Cemiyeti'nin Kurulması</td>
+<td>İşgallere karşı kurulan ilk yararlı (milli) cemiyettir.</td>
+</tr>
+<tr>
+<td>Kasım 1918</td>
+<td>Milli Kongre Cemiyeti'nin Kurulması</td>
+<td>Silahla değil basın-yayınla mücadele eden ulusal cemiyet.</td>
+</tr>
+<tr>
+<td>Mayıs 1919</td>
+<td>İzmir'in İşgali (15 Mayıs)</td>
+<td>Milli bilincin uyanması ve Redd-i İlhak Cemiyeti'nin eylemleri.</td>
+</tr>
+<tr>
+<td>Eylül 1919</td>
+<td>Sivas Kongresi (İleride işlenecek)</td>
+<td>Tüm milli cemiyetlerin Anadolu ve Rumeli Müdafaa-i Hukuk çatısında birleşmesi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+
+<h3>Yararlı (Milli) Cemiyetler ile Zararlı (Milli Varlığa Düşman) Cemiyetler Karşılaştırması</h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Yararlı Cemiyetler (Müdafaa-i Hukuk, Redd-i İlhak vb.)</th>
+<th>Milli Varlığa Düşman Cemiyetler (İngiliz Muhipleri, Sulh ve Selamet vb.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kurucular</strong></td>
+<td>Anadolu halkı, yerel eşraf, vatansever aydınlar.</td>
+<td>İstanbul'daki bazı aydınlar, İtilaf yanlısı bürokratlar, halifeciler.</td>
+</tr>
+<tr>
+<td><strong>Temel Felsefe</strong></td>
+<td>"Ya istiklal ya ölüm" — Tam bağımsızlık veya bölgesel kurtuluş.</td>
+<td>"Biz tek başımıza kurtulamayız, büyük bir devlete sığınalım veya Padişah'a itaat edelim."</td>
+</tr>
+<tr>
+<td><strong>Milli Mücadele'ye Bakış</strong></td>
+<td>Milli Mücadele'nin temel altyapısını oluştururlar.</td>
+<td>Milli Mücadele'yi, Ankara'yı ve Mustafa Kemal'i yasadışı bir isyan olarak görürler.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Kuvâ-yı Milliye ile Düzenli Ordu Karşılaştırması (Kısa Bakış)</h3>
+<table>
+<thead>
+<tr>
+<th>Özellik</th>
+<th>Kuvâ-yı Milliye</th>
+<th>Düzenli Ordu (İleride kurulacak)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Disiplin</strong></td>
+<td>Gevşek, şefin (Efe'nin) kuralları geçerli.</td>
+<td>Sıkı askeri hiyerarşi ve devlet kanunları.</td>
+</tr>
+<tr>
+<td><strong>Savaş Taktiği</strong></td>
+<td>Vur-kaç, gerilla savaşı, düşmanı yıpratma.</td>
+<td>Meydan muharebesi, taarruz, topyekûn savunma.</td>
+</tr>
+<tr>
+<td><strong>Nihai Hedef</strong></td>
+<td>Düşmanı yavaşlatmak, zaman kazandırmak.</td>
+<td>Düşmanı kesin olarak yurttan atmak.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<p>Denemelerde ve KPSS'de doğrudan bilgi veya eşleştirme olarak karşına çıkacak hap bilgiler:</p>
+<ul>
+<li><strong>Kilikyalılar Cemiyeti:</strong> Çukurova (Adana) bölgesini Fransızlara ve Ermenilere karşı savunan YARARLI bir cemiyettir. İsmine aldanıp zararlı sanma.</li>
+<li><strong>Milli Kongre Cemiyeti:</strong> Bölgesel değil ulusal mücadeleyi savunan, Dr. Esat Işık önderliğinde basın-yayın faaliyetlerine odaklanan, "Kuvâ-yı Milliye" ismini kullanan ilk cemiyettir.</li>
+<li><strong>Mavri Mira:</strong> Megali İdea (Büyük Yunanistan ve Bizans'ı diriltme) hedefiyle kurulan en tehlikeli Rum cemiyetidir.</li>
+<li><strong>Pontus Rum:</strong> Karadeniz'de (Trabzon merkezli) bağımsız bir devlet kurmayı hedefler, bunlara karşı Trabzon Muhafaza-i Hukuk Cemiyeti mücadele etmiştir.</li>
+<li><strong>İngiliz Muhipleri ve Wilson Prensipleri:</strong> Manda ve himayeciliği savunan, Türklerin kurduğu zararlı cemiyetlerdir.</li>
+<li><strong>Doğu Anadolu (Vilayet-i Şarkiye) Müdafaa-i Hukuk:</strong> Le Pays, Hadisat ve Albayrak gazetelerini çıkararak Doğu'daki Ermeni tehlikesine karşı mücadele etmiştir. Erzurum Kongresi'nin mimarıdır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Son Yıllardaki Eğilim</span><p>ÖSYM son yıllarda sadece "hangi cemiyet nerede" diye değil, cemiyetlerin <strong>genel özellikleri</strong> üzerinden soru soruyor. Örneğin "Milli cemiyetlerin hepsi Sivas'ta birleştirilmiştir" veya "Başlangıçta bölgesel niteliklidirler" gibi kavramsal özellikleri bilip bilmediğini test ediyor.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>Kilikyalılar Cemiyeti'nin adı tuzağı.</strong> Kilikya kelimesi Rumca veya Ermenice bir kelime gibi tınladığı için öğrenciler bunu hemen "Zararlı Azınlık Cemiyeti" kutusuna atar. Oysa Kilikya, Çukurova'nın (Adana) antik adıdır. Kilikyalılar Cemiyeti, bölgeyi Fransızlara ve Ermenilere karşı savunan son derece <strong>YARARLI (MİLLİ)</strong> bir cemiyettir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Barış", "Selamet", "İslam" kelimelerinin tuzağı.</strong> "Sulh ve Selamet-i Osmaniye" veya "Teali İslam" cemiyetlerinin isimleri kulağa çok dindar, çok vatansever, çok masum gelir. Oysa bunlar Milli Mücadele'ye düşman, kurtuluşu halifeye itaatte veya yabancı mandasında gören <strong>ZARARLI</strong> (milli varlığa düşman) cemiyetlerdir. İsimlerinin güzelliğine aldanma.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>Milli Kongre Cemiyeti'nin "silahlı direniş" yaptığı sanılır.</strong> Bütün milli cemiyetler silahlı bölgesel direnişi desteklerken, <strong>Milli Kongre Cemiyeti sadece basın-yayın yoluyla</strong> propaganda yapmış, silahlı çatışmaya girmemiştir. "Silahlı mücadele" diyen bir şıkta Milli Kongre'yi görüyorsan bil ki tuzaktır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>Tüm milli cemiyetlerin başlangıçtan itibaren "ulusal" olduğu sanılır.</strong> Hayır! Milli Kongre Cemiyeti hariç, diğer tüm milli cemiyetler (Trakya-Paşaeli, Redd-i İlhak, Doğu Anadolu vs.) kuruluş aşamasında <strong>BÖLGESELDİR</strong>. Sadece kendi memleketlerini kurtarmayı düşünmüşlerdir. Bu cemiyetlerin "ulusal" hale gelmesi, ilerideki bir konu olan Sivas Kongresi'nde gerçekleşecektir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 5</span><p><strong>Kuvâ-yı Milliye'nin düşmanı "yurttan attığı" tuzağı.</strong> Kuvâ-yı Milliye düşmanı yavaşlatmış, isyanları bastırmış ve ulusal bilinç uyandırmıştır ama askeri yapısı gereği düşmanı yurttan <strong>tamamen söküp atamamıştır</strong>. Düşmanı denize döken yapı, sonradan kurulacak olan Düzenli Ordu'dur.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "M-E-P" — Zararlı Rum Cemiyetleri</span><p><strong>M</strong>avri Mira, <strong>E</strong>tnik-i Eterya, <strong>P</strong>ontus Rum. Bu üçlüyü (MEP) gördüğünde aklına doğrudan Yunanlılar, Megali İdea ve Bizans'ı diriltme hayali gelsin. En çok bunlar yoracaktır.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "Çukurova'nın K'si" — Kilikyalılar</span><p>"Kilikya = Çukurova". Bunu kafana çivile. İkisi de C/Ç-K seslerinden oluşuyor. "Kilikyalılar = Çukurova'nın vatanseverleri."</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "H-T" (Hat) — Ermeni Cemiyetleri</span><p><strong>H</strong>ınçak ve <strong>T</strong>aşnak. Doğu Anadolu'dan Çukurova'ya kadar uzanan bir "Ermeni Hattı" (HT) kurmaya çalışmışlardır. "Hınçak-Taşnak" ikilisini birleşik bir isim gibi ezberle.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "B.U.B." — Milli Cemiyetlerin Şifresi</span><p>Milli cemiyetlerin özelliklerini şu üçlemeyle hatırla: <strong>B</strong>ölgeseldirler, <strong>U</strong>lusalcı (Milli Kongre hariç) değildirler, <strong>B</strong>irleştirilmeleri (Sivas'ta) gerekecektir.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Kuvâ-yı Milliye:</strong> Mondros sonrası ordunun terhis edilmesiyle ortaya çıkan, düşmanı yıpratmayı amaçlayan düzensiz (milis) silahlı sivil güçlerdir.<br>
+• <strong>Milli (Yararlı) Cemiyetler:</strong> İşgallere karşı kurulan, genellikle bulundukları bölgeyi savunan (bölgesel), Sivas Kongresi'ne kadar dağınık faaliyet gösteren vatansever örgütlerdir.<br>
+• <strong>Önemli Yararlı Cemiyetler:</strong> Trakya-Paşaeli (ilk kurulan), İzmir Müdafaa-i Hukuk / Redd-i İlhak (İzmir'i koruyan), Doğu Anadolu Müdafaa-i Hukuk (Ermeni devleti tehlikesine karşı), Kilikyalılar (Çukurova'yı koruyan), Milli Kongre (Basın-yayın yoluyla ulusal direnişi savunan).<br>
+• <strong>Azınlıkların Kurduğu Zararlı Cemiyetler:</strong> Rumların (Mavri Mira, Etnik-i Eterya, Pontus), Ermenilerin (Hınçak-Taşnak) ve Yahudilerin (Maccabi) kurduğu, Osmanlı'yı parçalayıp kendi devletlerini kurmayı amaçlayan örgütlerdir.<br>
+• <strong>Milli Varlığa Düşman (Zararlı) Cemiyetler:</strong> Türk/Müslüman olup da kurtuluşu manda ve himayede (İngiliz Muhipleri, Wilson Prensipleri) veya padişaha mutlak itaatte (Sulh ve Selamet-i Osmaniye, Teali İslam) arayan teslimiyetçi örgütlerdir.<br>
+• <strong>Sonuç:</strong> Bu dönem Anadolu'da kelimenin tam anlamıyla bir karmaşa ve "herkesin kendi başının çaresine baktığı" dönemdir. Milli Mücadele'nin bu dağınık enerjisi, Mustafa Kemal'in liderliğinde Kongreler sürecinde birleştirilerek tek bir hedefe yönlendirilecektir.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Kuvâ-yı Milliye:</strong> Düzensiz, bölgesel, düşmanı oyaladı, tamamen atamadı.<br>
+• <strong>Milli Kongre:</strong> Basın-yayın, Dr. Esat Işık, bölgesel değil ULUSAL.<br>
+• <strong>Kilikyalılar:</strong> YARARLI cemiyettir, bölgesi Çukurova/Adana.<br>
+• <strong>Milli Cemiyetlerin Ortak Özelliği:</strong> Sivas Kongresi'ne kadar BÖLGESELDİRLER.<br>
+• <strong>Mavri Mira / Etnik-i Eterya:</strong> Rum cemiyeti, hedef Bizans'ı diriltmek.<br>
+• <strong>Pontus Rum:</strong> Karadeniz'de Rum devleti. Karşısında Trabzon Muhafaza-i Hukuk var.<br>
+• <strong>Hınçak-Taşnak:</strong> Ermeni cemiyetleri.<br>
+• <strong>Manda ve Himaye isteyenler:</strong> İngiliz Muhipleri, Wilson Prensipleri.<br>
+• <strong>İsim tuzağı olan zararlılar:</strong> Sulh ve Selamet-i Osmaniye, Teali İslam.<br>
+• <strong>Doğu Anadolu Müdafaa-i Hukuk:</strong> Le Pays, Hadisat, Albayrak gazeteleri.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Mondros Ateşkes Antlaşması'ndan sonra Anadolu'nun işgali üzerine Türk halkının kendi bölgesini savunmak amacıyla oluşturduğu silahlı direniş kuvvetlerine ne ad verilir?</p>
+<p>A) Yeniçeri Ocağı &nbsp; B) Kuvâ-yı Milliye &nbsp; C) Nizam-ı Cedid &nbsp; D) Felah-ı Vatan</p>
+<p><strong>Çözüm:</strong> İşgaller karşısında ordusu terhis edilen halkın oluşturduğu düzensiz silahlı direniş birliklerine Kuvâ-yı Milliye (Milli Kuvvetler) denir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Aşağıdaki cemiyetlerden hangisi Çukurova (Adana) bölgesini Fransız ve Ermenilere karşı savunmak amacıyla kurulmuş yararlı (milli) bir cemiyettir?</p>
+<p>A) Kilikyalılar Cemiyeti &nbsp; B) Mavri Mira &nbsp; C) Pontus Rum &nbsp; D) İngiliz Muhipleri</p>
+<p><strong>Çözüm:</strong> Çukurova'nın antik adı Kilikya'dır. Kilikyalılar Cemiyeti bu bölgeyi savunan milli (yararlı) bir cemiyettir. İsmine aldanmamak gerekir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Bölgesel kurtuluş çareleri yerine ulusal bağımsızlığı savunan, silahlı mücadele yerine basın-yayın yolunu tercih eden ve "Kuvâ-yı Milliye" tabirini ilk kullanan milli cemiyet aşağıdakilerden hangisidir?</p>
+<p>A) Trakya-Paşaeli Cemiyeti &nbsp; B) Milli Kongre Cemiyeti &nbsp; C) Redd-i İlhak Cemiyeti &nbsp; D) Kilikyalılar Cemiyeti</p>
+<p><strong>Çözüm:</strong> Dr. Esat Işık önderliğinde kurulan Milli Kongre Cemiyeti, diğerlerinden farklı olarak ulusal mücadeleyi ve basın-yayın yoluyla propagandayı savunmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Rumlar tarafından kurulan, Megali İdea'yı gerçekleştirmek ve Bizans İmparatorluğu'nu yeniden diriltmek amacıyla faaliyet gösteren en tehlikeli zararlı cemiyet hangisidir?</p>
+<p>A) Mavri Mira &nbsp; B) Hınçak &nbsp; C) Taşnak &nbsp; D) Maccabi</p>
+<p><strong>Çözüm:</strong> Mavri Mira (Kara Gün), Rum Patrikhanesi destekli, Bizans'ı diriltmeyi hedefleyen en önemli zararlı Rum cemiyetidir. Hınçak ve Taşnak Ermeni, Maccabi Yahudi cemiyetidir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Aşağıdakilerden hangisi milli varlığa düşman (Türklerin/Müslümanların kurduğu zararlı) cemiyetlerden biri <strong>değildir</strong>?</p>
+<p>A) İngiliz Muhipleri Cemiyeti &nbsp; B) Teali İslam Cemiyeti &nbsp; C) Trabzon Muhafaza-i Hukuk Cemiyeti &nbsp; D) Sulh ve Selamet-i Osmaniye Fırkası</p>
+<p><strong>Çözüm:</strong> Trabzon Muhafaza-i Hukuk Cemiyeti, Karadeniz'de Rumlara karşı kurulan YARARLI bir cemiyettir. Diğerleri ise manda veya saltanat yanlısı zararlı cemiyetlerdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Kurtuluşun ancak Amerikan mandasına (korumasına) girmekle mümkün olabileceğini savunan aydınların kurduğu cemiyet aşağıdakilerden hangisidir?</p>
+<p>A) İngiliz Muhipleri Cemiyeti &nbsp; B) Wilson Prensipleri Cemiyeti &nbsp; C) Kürt Teali Cemiyeti &nbsp; D) Milli Kongre Cemiyeti</p>
+<p><strong>Çözüm:</strong> Amerikan mandasını savunan cemiyet Wilson Prensipleri Cemiyeti'dir (ABD Başkanı Wilson'dan adını alır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Kuvâ-yı Milliye birliklerinin ortaya çıkmasındaki <strong>en temel dış etken</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Düzenli ordunun maaşlarının ödenmemesi &nbsp; B) Mondros Ateşkesi sonrası başlayan işgaller ve Osmanlı ordusunun terhis edilmesi &nbsp; C) TBMM'nin açılması &nbsp; D) Padişahın yurt dışına kaçması</p>
+<p><strong>Çözüm:</strong> Ordunun terhis edilmesi (dağıtılması) ve işgallerin fiilen başlaması, halkın kendi güvenliğini sağlamak için Kuvâ-yı Milliye'yi kurmasına neden olan en temel faktördür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Doğu Anadolu'da bağımsız bir devlet kurmayı amaçlayan "Hınçak ve Taşnak" cemiyetleri hangi azınlığa aittir?</p>
+<p>A) Rum &nbsp; B) Yahudi &nbsp; C) Ermeni &nbsp; D) Bulgar</p>
+<p><strong>Çözüm:</strong> Hınçak ve Taşnak, Doğu Anadolu ve Çukurova'da "Büyük Ermenistan" devleti kurmayı hedefleyen Ermeni cemiyetleridir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Aşağıdaki yararlı cemiyetlerden hangisi, İzmir'in Yunanistan tarafından işgal edilmesine veya ilhak edilmesine tepki olarak faaliyet göstermiştir?</p>
+<p>A) Trakya-Paşaeli Cemiyeti &nbsp; B) Redd-i İlhak Cemiyeti &nbsp; C) Kilikyalılar Cemiyeti &nbsp; D) Trabzon Muhafaza-i Hukuk Cemiyeti</p>
+<p><strong>Çözüm:</strong> Redd-i İlhak (İlhakı Reddetme) Cemiyeti, İzmir ve Ege bölgesinin Yunanistan'a bağlanmasına karşı kurulmuş ve faaliyet göstermiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Milli cemiyetlerin (Kilikyalılar, Redd-i İlhak, Trakya Paşaeli vb.) başlangıçtaki <strong>en belirgin ortak özelliği</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Padişaha karşı isyan etmiş olmaları &nbsp; B) Manda ve himayeyi savunmaları &nbsp; C) Başlangıçta ulusal değil, bölgesel nitelik taşımaları &nbsp; D) Sadece basın-yayın yoluyla mücadele etmeleri</p>
+<p><strong>Çözüm:</strong> Milli cemiyetlerin (Milli Kongre hariç) kuruluş aşamasındaki en belirgin ortak özelliği, tüm yurdu değil sadece kendi bulundukları bölgeyi kurtarmayı amaçlayan "bölgesel" örgütler olmalarıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Aşağıdaki zararlı cemiyetlerden hangisi, isminin taşıdığı anlama (kelime manasına) bakıldığında sanki yararlı bir cemiyetmiş gibi algılanarak bir "isim tuzağı" oluşturur?</p>
+<p>A) Mavri Mira &nbsp; B) Sulh ve Selamet-i Osmaniye &nbsp; C) İngiliz Muhipleri &nbsp; D) Pontus Rum</p>
+<p><strong>Çözüm:</strong> "Sulh ve Selamet" kelimeleri barış ve kurtuluş anlamına gelir, bu yüzden ismi çok olumlu durur. Ancak kurtuluşu padişaha boyun eğmekte bulan zararlı bir cemiyettir. Diğerlerinin isimleri niyetlerini doğrudan belli eder. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Doğu Anadolu Müdafaa-i Hukuk Cemiyeti'nin, bölgesindeki Ermeni tehlikesine karşı halkı bilinçlendirmek ve haklı davasını duyurmak amacıyla çıkardığı yayın organları arasında aşağıdakilerden hangisi yer almaz?</p>
+<p>A) Le Pays (Vatan) &nbsp; B) Hadisat &nbsp; C) Albayrak &nbsp; D) İrade-i Milliye</p>
+<p><strong>Çözüm:</strong> Le Pays, Hadisat ve Albayrak Doğu Anadolu cemiyetinin gazeteleridir. İrade-i Milliye ise Sivas Kongresi'nden sonra bizzat Mustafa Kemal'in isteğiyle çıkarılan ulusal nitelikli gazetedir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Kuvâ-yı Milliye birliklerinin özellikleri arasında aşağıdakilerden hangisi gösterilemez?</p>
+<p>A) Düzenli askeri hiyerarşiden yoksun olmaları &nbsp; B) İhtiyaçlarını halktan karşılamaları &nbsp; C) Düşmanı yurttan tamamen atacak güce sahip olmaları &nbsp; D) Vur-kaç (gerilla) taktiği ile savaşmaları</p>
+<p><strong>Çözüm:</strong> Kuvâ-yı Milliye düşmanı yıpratmış ve yavaşlatmıştır, ancak düşmanı tamamen yurttan atacak güce sahip değillerdir. Bu görev düzenli orduya düşecektir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Milli Mücadele döneminde kurulan "Teali İslam Cemiyeti" ile "Hürriyet ve İtilaf Fırkası"nın <strong>ortak özelliği</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Azınlıklar tarafından kurulmuş olmaları &nbsp; B) Silahlı bölgesel direnişi desteklemeleri &nbsp; C) Milli Mücadele'ye (Anadolu hareketine) karşı olmaları &nbsp; D) Amerikan mandasını talep etmeleri</p>
+<p><strong>Çözüm:</strong> Her ikisi de Türk/Müslümanlar tarafından kurulan ancak kurtuluşu yanlış yerde arayıp Milli Mücadele'ye düşmanlık eden (zararlı) cemiyetlerdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Bir önceki konuda Mondros'un 24. maddesinin "Doğu'da karışıklık çıkarsa işgal edilecek" şeklinde olduğunu öğrenmiştik. Buna göre, bu maddenin uygulanmasını sağlamak (karışıklık çıkarmak) ve uygulanmasını engellemek için kurulan cemiyetler hangi seçenekte doğru eşleştirilmiştir?</p>
+<p>A) Karışıklık Çıkaran: Pontus / Engelleyen: Kilikyalılar &nbsp; B) Karışıklık Çıkaran: Hınçak-Taşnak / Engelleyen: Doğu Anadolu Müdafaa-i Hukuk &nbsp; C) Karışıklık Çıkaran: Mavri Mira / Engelleyen: Trakya-Paşaeli &nbsp; D) Karışıklık Çıkaran: Maccabi / Engelleyen: Milli Kongre</p>
+<p><strong>Çözüm:</strong> 24. madde Doğu Anadolu'da Ermeni devleti kurmak içindir. Hınçak-Taşnak Ermeni cemiyetleri bölgede olay çıkarıp işgale zemin hazırlamaya, Doğu Anadolu Müdafaa-i Hukuk ise bunu engellemeye çalışmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Trabzon Muhafaza-i Hukuk Cemiyeti'nin mücadele ettiği zararlı örgüt aşağıdakilerden hangisidir?</p>
+<p>A) Mavri Mira &nbsp; B) Hınçak &nbsp; C) Pontus Rum &nbsp; D) Alyans İsrailit</p>
+<p><strong>Çözüm:</strong> Trabzon ve çevresinde Karadeniz merkezli bağımsız bir devlet kurmayı amaçlayan örgüt Pontus Rum cemiyetidir ve Trabzon Muhafaza-i Hukuk Cemiyeti doğrudan buna karşı kurulmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Mustafa Kemal'in ricası üzerine bizzat Sivas Valisi'nin eşi Melek Reşit Hanım liderliğinde kurulan, Milli Mücadele'ye para, erzak ve giyecek toplayarak destek olan cemiyet aşağıdakilerden hangisidir?</p>
+<p>A) Milli Kongre Cemiyeti &nbsp; B) Anadolu Kadınları Müdafaa-i Vatan Cemiyeti &nbsp; C) Kızılay (Hilal-i Ahmer) &nbsp; D) Müdafaa-i Hukuk-ı Nisvan Cemiyeti</p>
+<p><strong>Çözüm:</strong> Sivas'ta kurulan ve Kurtuluş Savaşı boyunca orduya lojistik destek sağlayan bu önemli cemiyet Anadolu Kadınları Müdafaa-i Vatan Cemiyeti'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Aşağıdaki eşleştirmelerden hangisi <strong>yanlıştır</strong>?</p>
+<p>A) Kilikyalılar → Çukurova bölgesi &nbsp; B) Redd-i İlhak → Ege bölgesi &nbsp; C) Trakya-Paşaeli → Doğu Trakya bölgesi &nbsp; D) İngiliz Muhipleri → Doğu Anadolu bölgesi</p>
+<p><strong>Çözüm:</strong> İngiliz Muhipleri Cemiyeti bölgesel bir kurtuluş cemiyeti değil, İstanbul merkezli, tüm Osmanlı'nın İngiliz mandasına girmesini savunan ulusal ölçekte zararlı bir cemiyettir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>"Bizim silahla, savaşla bir devleti yenecek gücümüz kalmadı. Dünyanın en büyük gücü olan Amerika Birleşik Devletleri'nin yönetimine girersek hem bağımsız bir devletin temellerini atarız hem de kalkınırız."<br>Bu fikri savunan aydınların oluşturduğu cemiyet aşağıdakilerden hangisidir?</p>
+<p>A) Sulh ve Selamet-i Osmaniye &nbsp; B) Wilson Prensipleri Cemiyeti &nbsp; C) Milli Kongre Cemiyeti &nbsp; D) Hürriyet ve İtilaf</p>
+<p><strong>Çözüm:</strong> Amerikan mandasını (himayesini) savunan bu düşünce tarzı doğrudan Wilson Prensipleri Cemiyeti'ne aittir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Kuvâ-yı Milliye'nin olumlu özellikleri arasında;<br>I. Düşman ilerleyişini yavaşlatmaları<br>II. İç isyanların bastırılmasında TBMM'ye yardımcı olmaları<br>III. Milli bilincin (direniş ruhunun) canlı kalmasını sağlamaları<br>verilenlerden hangileri yer alır?</p>
+<p>A) Yalnız I &nbsp; B) I ve II &nbsp; C) II ve III &nbsp; D) I, II ve III</p>
+<p><strong>Çözüm:</strong> Kuvâ-yı Milliye düşmanı tamamen atamasa da ilerleyişini yavaşlatmış, iç isyanları bastırmış ve direniş umudunu canlı tutmuştur. Üçü de olumlu özelliğidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Milli cemiyetlerin (Yararlı Cemiyetler) genel yapıları incelendiğinde, bu cemiyetlerin başlangıçta ortak bir merkezden yönetilmemeleri ve sadece kendi bölgelerini kurtarmaya çalışmaları aşağıdakilerden hangisinin <strong>doğrudan</strong> bir göstergesidir?</p>
+<p>A) Bağımsızlık fikrinin halk tarafından hiç benimsenmediğinin &nbsp; B) Anadolu'da "ulusal" bir direniş fikrinin henüz tam anlamıyla organize edilemediğinin &nbsp; C) İstanbul Hükümeti'nin bu cemiyetleri gizlice desteklediğinin &nbsp; D) İtilaf Devletleri'nin cemiyetlere izin verdiğinin</p>
+<p><strong>Çözüm:</strong> Cemiyetlerin bölgesel kalması, henüz tüm yurdu kapsayan ulusal bir organizasyonun kurulamadığını gösterir. Bu dağınıklık ancak Mustafa Kemal'in gelişi ve Sivas Kongresi ile giderilecektir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Azınlıkların kurduğu zararlı cemiyetlerin faaliyetlerini artırması ile Wilson İlkeleri'nin "Osmanlı Devleti'nde hangi millet çoğunluktaysa o bölgede kendi devletini kurabilir" maddesi birlikte düşünüldüğünde aşağıdaki çıkarımlardan hangisi yapılabilir?</p>
+<p>A) Wilson İlkeleri, Anadolu'da azınlık isyanlarını durdurmuştur. &nbsp; B) Azınlık cemiyetleri, Wilson İlkeleri'nin bu maddesini kullanarak bağımsızlık taleplerine hukuki bir kılıf uydurmaya ve bölgelerinde suni çoğunluk sağlamaya çalışmışlardır. &nbsp; C) Azınlıklar Wilson İlkeleri'ne karşı çıkmıştır. &nbsp; D) Türkler Wilson İlkeleri'nin bu maddesini desteklemiştir.</p>
+<p><strong>Çözüm:</strong> Rum ve Ermeni cemiyetleri, Wilson İlkeleri'ndeki "çoğunluk neresiyse orası onların olsun" kuralını lehlerine çevirmek için bulundukları bölgelerde Türklere baskı yapmış, nüfus üstünlüğünü (göç ettirerek veya katlederek) sağlamaya çalışmışlardır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Aşağıdakilerden hangisi Kuvâ-yı Milliye'nin <strong>kaldırılıp</strong> yerine düzenli ordunun kurulmasının (ileri bir tarihte gerçekleşecek olan) temel nedenlerinden biri <strong>değildir</strong>?</p>
+<p>A) Düşmanı yurttan atacak güce sahip olmamaları &nbsp; B) İhtiyaçlarını karşılarken zaman zaman halka baskı yapmaları &nbsp; C) Milli mücadele fikrine tamamen düşman olmaları &nbsp; D) Askeri disiplin ve hiyerarşiden uzak, kendi başlarına hareket etmeleri</p>
+<p><strong>Çözüm:</strong> Kuvâ-yı Milliye milli mücadele fikrine düşman değildir; aksine bu fikrin öncüleridir. Ancak disiplinsizlikleri ve düşmanı tamamen atacak güçten yoksun olmaları nedeniyle yerlerini düzenli orduya bırakacaklardır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>"Milli varlığa düşman cemiyetler" kavramı, sadece işgalcilere değil, aynı zamanda Türk ve Müslüman olup da Milli Mücadele'ye karşı çıkan grupları da kapsar. Buna göre, bir aydının İngiliz Muhipleri Cemiyeti'ne üye olması, onun öncelikle hangi duygu/düşünce içinde olduğunu gösterir?</p>
+<p>A) Ulusal bağımsızlığa olan inancının tam olduğu &nbsp; B) Yabancı bir devletin güdümüne girmeden Osmanlı'nın ayakta kalamayacağına inandığı (Teslimiyetçilik) &nbsp; C) Silahlı direnişin tek çare olduğu &nbsp; D) Cumhuriyet rejimini savunduğu</p>
+<p><strong>Çözüm:</strong> Bu cemiyetlere üye olanlar vatan haini olmaktan ziyade "çaresiz/teslimiyetçi" bir psikoloji içindedir. "Biz bittik, büyük bir devlet bizi korumazsa yok oluruz" psikolojisi manda ve himaye düşüncesini doğurmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>İstanbul Hükümeti'nin işgaller karşısında halkı sükunete davet etmesi, İtilaf Devletleri'ne karşı direnmemeyi öğütlemesi, Anadolu'da aşağıdaki gelişmelerden hangisine <strong>doğrudan</strong> zemin hazırlamıştır?</p>
+<p>A) Sevr Antlaşması'nın iptal edilmesine &nbsp; B) Padişahın Anadolu'ya geçmesine &nbsp; C) Merkezi otoriteden ümidini kesen halkın kendi silahlı ve siyasi direniş örgütlerini (Kuvâ-yı Milliye ve Cemiyetler) kurmasına &nbsp; D) İtilaf Devletleri'nin işgallerden vazgeçmesine</p>
+<p><strong>Çözüm:</strong> Hükümet görevini (halkı korumayı) yapmayınca, doğa boşluk kabul etmez; halk kendi otoritesini ve direniş mekanizmasını (cemiyetler ve milisler) kendisi kurmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Aşağıdaki milli cemiyetlerden hangisinin faaliyetleri, hem bir azınlık cemiyetinin hedeflerini çürütmeye hem de Mondros'un o çok tehlikeli 24. maddesinin uygulanmasını önlemeye yöneliktir?</p>
+<p>A) Trakya-Paşaeli Cemiyeti &nbsp; B) Kilikyalılar Cemiyeti &nbsp; C) Doğu Anadolu (Vilayet-i Şarkiye) Müdafaa-i Hukuk Cemiyeti &nbsp; D) Redd-i İlhak Cemiyeti</p>
+<p><strong>Çözüm:</strong> Mondros 24. madde doğrudan "Doğu Anadolu (Vilayet-i Sitte)" ile ilgilidir ve Ermeni devleti (Taşnak/Hınçak hedefi) kurmayı amaçlar. Buna karşı kurulan cemiyet Doğu Anadolu Müdafaa-i Hukuk'tur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Milli Kongre Cemiyeti'nin diğer tüm yararlı cemiyetlerden ayrılan <strong>en temel ve ayırt edici özelliği</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Silahlı çatışmayı merkeze alması &nbsp; B) Azınlıklar tarafından desteklenmesi &nbsp; C) Bölgesel bir alanı değil, tüm yurdu kapsayan ulusal bir söylem geliştirmesi ve mücadelesini basın-yayınla yürütmesi &nbsp; D) Manda ve himayeyi savunması</p>
+<p><strong>Çözüm:</strong> Milli Kongre, adı üstünde "Kongre/Ulusal" bir vizyona sahiptir. Silahlı değil diplomatik ve basın yoluyla tüm yurdun haklılığını savunmuştur (Dr. Esat Işık raporu bunun en iyi örneğidir). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Mavri Mira Cemiyeti'nin amacı Megali İdea'yı gerçekleştirmek (Büyük Yunanistan'ı ve Bizans'ı diriltmek) olduğuna göre, bu cemiyetin faaliyet alanının <strong>öncelikli olarak</strong> nereleri kapsaması beklenir?</p>
+<p>A) Doğu Anadolu ve Kafkasya &nbsp; B) Suriye ve Filistin &nbsp; C) İstanbul, Batı Anadolu (Ege) ve Trakya &nbsp; D) Sadece Arabistan yarımadası</p>
+<p><strong>Çözüm:</strong> Bizans'ın diriltilmesi ve Büyük Yunanistan hayali coğrafi olarak Batı Anadolu (İzmir çevresi), İstanbul, Marmara ve Doğu Trakya bölgesini kapsar. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Bu konunun (Kuvâ-yı Milliye ve Cemiyetler) müfredattaki yeri düşünüldüğünde, bir sonraki konu olan "Kongreler Süreci"ne devredeceği <strong>en büyük problem (çözülmesi gereken mesele)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Direnişin olmaması &nbsp; B) Direniş cemiyetlerinin birbirinden kopuk, dağınık ve sadece kendi bölgelerini düşünüyor olması &nbsp; C) İşgallerin sona ermiş olması &nbsp; D) Mustafa Kemal'in Anadolu'ya henüz geçmemiş olması</p>
+<p><strong>Çözüm:</strong> Bu dönemin en büyük eksiği koordinasyonsuzluktur. Herkes savaşıyor ama ayrı ayrı savaşıyordur. Bir sonraki konuda Sivas Kongresi bu "dağınıklık ve kopukluk" problemini çözecektir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Aşağıdakilerden hangisi "Milli Varlığa Düşman Cemiyetler"in ortak özellikleri arasında <strong>gösterilemez</strong>?</p>
+<p>A) Türkler ve Müslümanlar tarafından kurulmuş olmaları &nbsp; B) Kuvâ-yı Milliye hareketine şiddetle karşı çıkmaları &nbsp; C) Kurtuluşu tam bağımsızlıkta değil, güçlü bir devlete veya saltanata sığınmakta bulmaları &nbsp; D) İtilaf Devletleri'ne karşı silahlı direniş başlatmaları</p>
+<p><strong>Çözüm:</strong> Bu cemiyetler teslimiyetçidir. İtilaf devletlerine karşı direnmek bir yana, direnenleri (Kuvâ-yı Milliye'yi) eşkıya ve isyancı olarak görüp İtilaf devletleriyle veya padişahla işbirliği yapmışlardır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p>Aşağıda yukarıdaki 30 sorunun her biri için doğru cevap, doğru olma gerekçesi, diğer seçeneklerin neden elendiği, sorunun ölçtüğü kazanım ve ÖSYM'nin bu tip sorularla neyi test ettiği ayrıntılı biçimde açıklanmıştır.</p>
+
+<p><strong>Soru 1 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İşgaller karşısında halkın kurduğu direniş gücüne Kuvâ-yı Milliye denir. <em>Diğer seçenekler:</em> A, C eski ordu birimleridir. <em>Kazanım:</em> Temel kavram bilgisi. <em>ÖSYM ne ölçüyor:</em> Dönemin en temel terimini tanımlayabilme. <em>Dikkat:</em> Kuvâ-yı İnzibatiye (ileride göreceğimiz halifelik ordusu) ile karıştırma.</p>
+
+<p><strong>Soru 2 — Doğru cevap: A.</strong> <em>Neden doğru:</em> Kilikya, Çukurova'dır. Kilikyalılar cemiyeti Adana'yı savunur. <em>Diğer seçenekler:</em> B ve C Rum zararlı, D manda cemiyetidir. <em>Kazanım:</em> İsim-bölge eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> İsim tuzağına düşmeme. <em>Dikkat:</em> Sınav heyecanıyla Kilikyalıları azınlık cemiyeti sanma.</p>
+
+<p><strong>Soru 3 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Ulusal kurtuluşu ve basın-yayını savunan tek cemiyet Milli Kongre'dir. <em>Diğer seçenekler:</em> A, C, D bölgesel ve silahlı direnişi destekleyen cemiyetlerdir. <em>Kazanım:</em> Cemiyetler arası istisnayı bilme. <em>ÖSYM ne ölçüyor:</em> "Hangisi diğerlerinden farklıdır" analizini yapabilme. <em>Dikkat:</em> "Basın-yayın" kelimesini görünce Milli Kongre'yi hatırla.</p>
+
+<p><strong>Soru 4 — Doğru cevap: A.</strong> <em>Neden doğru:</em> Mavri Mira, Bizans'ı diriltmeyi hedefleyen Rum cemiyetidir. <em>Diğer seçenekler:</em> B, C Ermeni; D Yahudi cemiyetidir. <em>Kazanım:</em> Azınlık-cemiyet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Temel zararlı cemiyetleri tanıma. <em>Dikkat:</em> Megali İdea kavramı daima Rumlarla (Yunanistan'la) ilgilidir.</p>
+
+<p><strong>Soru 5 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Trabzon Muhafaza-i Hukuk, Pontus Rum'a karşı direnen YARARLI bir cemiyettir. <em>Diğer seçenekler:</em> A, B, D milli varlığa düşman cemiyetlerdir. <em>Kazanım:</em> Yararlı-zararlı ayrımı. <em>ÖSYM ne ölçüyor:</em> "Hangisi farklıdır" tipi sınıflandırma becerisi. <em>Dikkat:</em> İsim ezberlemek yerine "Muhafaza-i Hukuk" (hakları koruma) tamlamasının daima yararlı cemiyetlere ait olduğunu bil.</p>
+
+<p><strong>Soru 6 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Amerikan mandasını isteyenler Wilson Prensipleri cemiyetindedir. <em>Diğer seçenekler:</em> A İngiliz mandasını ister. <em>Kazanım:</em> Manda fikri-cemiyet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Zararlı cemiyetin savunduğu dış gücü bilme. <em>Dikkat:</em> ABD başkanı Wilson'un adından doğrudan eşleştirme yapabilirsin.</p>
+
+<p><strong>Soru 7 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Ordunun yokluğu ve işgallerin başlaması halkı mecbur bırakmıştır. <em>Diğer seçenekler:</em> C olaydan çok sonradır, A ve D ikincil veya ilgisiz detaylardır. <em>Kazanım:</em> Olayın kök nedenini bilme. <em>ÖSYM ne ölçüyor:</em> Sebep-sonuç bağlantısı kurabilme. <em>Dikkat:</em> Mondros'un orduyu terhis maddesinin pratik sonucu budur.</p>
+
+<p><strong>Soru 8 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Hınçak ve Taşnak Ermeni cemiyetleridir. <em>Diğer seçenekler:</em> A, B, D yanlış milletlerdir. <em>Kazanım:</em> Cemiyet-millet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Temel azınlık gruplarını tanıma. <em>Dikkat:</em> "HT" şifresini (Ermeni Hattı) hatırla.</p>
+
+<p><strong>Soru 9 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İzmir'in Yunanistan'a bağlanmasını (ilhakını) reddeden cemiyet Redd-i İlhak'tır. <em>Diğer seçenekler:</em> A Trakya, C Adana, D Trabzon içindir. <em>Kazanım:</em> Cemiyet-olay (İzmir işgali) eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Bölgesel eşleştirme yapabilme. <em>Dikkat:</em> İzmir'de birden fazla cemiyet (Müdafaa-i Hukuk ve Redd-i İlhak) beraber çalışmıştır.</p>
+
+<p><strong>Soru 10 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Milli Kongre hariç tüm yararlı cemiyetler "bölgeseldir". <em>Diğer seçenekler:</em> A, B, D yanlış veya zıt ifadelerdir. <em>Kazanım:</em> Cemiyetlerin felsefi ortak noktasını kavrama. <em>ÖSYM ne ölçüyor:</em> Dönemin ruhunu (dağınıklığı) bilme. <em>Dikkat:</em> "Ulusal" kavramı Sivas Kongresi'ne kadar çok az kullanılmıştır.</p>
+
+<p><strong>Soru 11 — Doğru cevap: B.</strong> <em>Neden doğru:</em> "Sulh ve Selamet" kelimeleri çok olumludur ama cemiyet Milli Mücadele düşmanıdır. <em>Diğer seçenekler:</em> İsimleri zaten yabancı veya niyetini belli eden isimlerdir. <em>Kazanım:</em> İsim tuzağını fark etme. <em>ÖSYM ne ölçüyor:</em> Kelime oyunlarına düşmemeyi sınama. <em>Dikkat:</em> "İslam, Sulh, Selamet, Teali" gibi kelimeleri barındıranlar genellikle zararlıdır.</p>
+
+<p><strong>Soru 12 — Doğru cevap: D.</strong> <em>Neden doğru:</em> İrade-i Milliye Sivas Kongresi sonrası çıkarılan ulusal gazetedir. <em>Diğer seçenekler:</em> A, B, C Doğu Anadolu cemiyetinin gazeteleridir. <em>Kazanım:</em> Cemiyet-Yayın organı eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> İnce detay (yayın) bilgisi. <em>Dikkat:</em> Albayrak ve Hadisat'ı Doğu bölgesiyle mutlaka eşleştir.</p>
+
+<p><strong>Soru 13 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Kuvâ-yı Milliye düşmanı tamamen yurttan atacak güce sahip değildir. <em>Diğer seçenekler:</em> A, B, D Kuvâ-yı Milliye'nin doğru özellikleridir. <em>Kazanım:</em> Askeri yapının sınırlarını bilme. <em>ÖSYM ne ölçüyor:</em> "Hangisi söylenemez" formatında temel özellik analizi. <em>Dikkat:</em> Oyalama ve yıpratma kavramları Kuvâ-yı Milliye'nin anahtar kelimeleridir.</p>
+
+<p><strong>Soru 14 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Her ikisi de Milli Mücadele'ye (Mustafa Kemal ve ekibine) düşmandır. <em>Diğer seçenekler:</em> A yanlış, B yanlış, D ise Wilson'cıların özelliğidir. <em>Kazanım:</em> Zararlı cemiyetlerin ortak paydasını kavrama. <em>ÖSYM ne ölçüyor:</em> İki farklı grubu ortak özellikte birleştirme. <em>Dikkat:</em> Hürriyet ve İtilaf'ın temelde İttihatçı karşıtlığı üzerinden Milli Mücadele'ye düşman olduğunu bil.</p>
+
+<p><strong>Soru 15 — Doğru cevap: B.</strong> <em>Neden doğru:</em> 24. madde Ermeni devleti içindir. Hınçak-Taşnak karıştırır, Doğu Anadolu cemiyeti önler. <em>Diğer seçenekler:</em> A, C, D coğrafi ve mantıksal olarak yanlıştır. <em>Kazanım:</em> Madde-Cemiyet-Tehdit üçgenini kurabilme. <em>ÖSYM ne ölçüyor:</em> Önceki konu ile bu konuyu sentezleme. <em>Dikkat:</em> Mondros'un maddelerinin sahada nasıl vücut bulduğunun en güzel örneğidir.</p>
+
+<p><strong>Soru 16 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Trabzon bölgesindeki en büyük tehdit Pontus Rum devletinin kurulmasıdır. <em>Diğer seçenekler:</em> A, B, D farklı bölgelerin tehditleridir. <em>Kazanım:</em> Yararlı-Zararlı cemiyet karşılaştırması (bölgesel). <em>ÖSYM ne ölçüyor:</em> Hangi cemiyetin hangisiyle çarpıştığını bilme. <em>Dikkat:</em> Trabzon ile Karadeniz'i ve Pontus'u birbiriyle mühürle.</p>
+
+<p><strong>Soru 17 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Sivas'ta Melek Reşit Hanım'ın kurduğu bu cemiyet Anadolu Kadınları'dır. <em>Diğer seçenekler:</em> A, C, D farklı yapıların isimleridir. <em>Kazanım:</em> Özel cemiyet bilgisi. <em>ÖSYM ne ölçüyor:</em> Milli Mücadele'de kadının rolünü kurumsal olarak bilme. <em>Dikkat:</em> Mustafa Kemal'in "isteği üzerine" kurulmuş olması, bu cemiyete yarı-resmi bir ulusal vizyon katar.</p>
+
+<p><strong>Soru 18 — Doğru cevap: D.</strong> <em>Neden doğru:</em> İngiliz Muhipleri Doğu Anadolu'da değil, İstanbul merkezli çalışıp tüm yurdu İngiliz mandasına sokmak ister. <em>Diğer seçenekler:</em> A, B, C doğru eşleştirmelerdir. <em>Kazanım:</em> Yanlış eşleştirmeyi bulma. <em>ÖSYM ne ölçüyor:</em> Ulusal zararlı ile bölgesel yararlıyı ayırt etme. <em>Dikkat:</em> Manda isteyen cemiyetlerin "bölgesel" derdi yoktur, toptan teslimiyeti savunurlar.</p>
+
+<p><strong>Soru 19 — Doğru cevap: B.</strong> <em>Neden doğru:</em> ABD himayesini savunan aydınlar Wilson Prensipleri cemiyetini kurmuştur. <em>Diğer seçenekler:</em> A, C, D farklı hedeflere sahiptir. <em>Kazanım:</em> Felsefe-Cemiyet eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Teslimiyetçi mantığın türünü bilme. <em>Dikkat:</em> Bu aydınların çoğu hain değil, çaresizlikten (realpolitikten) dolayı bu yolu seçmiştir.</p>
+
+<p><strong>Soru 20 — Doğru cevap: D.</strong> <em>Neden doğru:</em> Düşmanı yavaşlatmak (I), isyanları bastırmak (II) ve direniş ruhunu aşılamak (III) Kuvâ-yı Milliye'nin olumlu taraflarıdır. <em>Diğer seçenekler:</em> Eksik öncüllerdir. <em>Kazanım:</em> Kuvâ-yı Milliye'nin tarihsel faydasını sentezleme. <em>ÖSYM ne ölçüyor:</em> Öncüllü analiz becerisi. <em>Dikkat:</em> İsyanları bastırma konusu ileride TBMM dönemi için çok kritik olacaktır.</p>
+
+<p><strong>Soru 21 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Bölgesellik, henüz ortak ve merkezi bir "ulusal" organizasyonun olmamasının doğal sonucudur. <em>Diğer seçenekler:</em> A, C, D mantıksızdır. <em>Kazanım:</em> Olgudan genel siyasi durum çıkarımı. <em>ÖSYM ne ölçüyor:</em> Dönemin siyasi olgunluk seviyesini analiz etme. <em>Dikkat:</em> Bu eksiklik Sivas Kongresi'nde giderilecektir.</p>
+
+<p><strong>Soru 22 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Azınlıklar Wilson'daki "çoğunluk" maddesine dayanarak, bulundukları bölgelerde terör estirip çoğunluğu ele geçirmeye çalışmışlardır. <em>Diğer seçenekler:</em> A, C, D gerçeklikle çelişir. <em>Kazanım:</em> İki farklı konuyu (Wilson ve Azınlık Cemiyetleri) birbirine bağlama. <em>ÖSYM ne ölçüyor:</em> İleri düzey analitik çıkarım. <em>Dikkat:</em> Wilson İlkeleri'nin göründüğü kadar masum sonuçlar doğurmadığını kavra.</p>
+
+<p><strong>Soru 23 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Kuvâ-yı Milliye milli mücadele fikrine düşman değildir. <em>Diğer seçenekler:</em> A, B, D kaldırılmalarının (düzenli orduya geçilmesinin) asıl sebepleridir. <em>Kazanım:</em> Düzenli orduya geçişin nedenlerini (Kuvâ-yı Milliye'nin eksiklerini) bilme. <em>ÖSYM ne ölçüyor:</em> Neden-sonuç zincirini doğru kurabilme. <em>Dikkat:</em> "Hangisi söylenemez" sorularında en kaba yanlışı bul.</p>
+
+<p><strong>Soru 24 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Manda savunucuları temelde "Biz tek başımıza kurtulamayız" diyen çaresiz ve teslimiyetçi aydınlardır. <em>Diğer seçenekler:</em> A, C, D zıt anlamlıdır. <em>Kazanım:</em> Tarihsel bir olgunun (mandacılığın) psikolojik kökenini anlama. <em>ÖSYM ne ölçüyor:</em> Empati ve olgu analizi. <em>Dikkat:</em> Bu aydınların çoğu Sivas Kongresi'nden sonra Mustafa Kemal'in safına (Milli Mücadele'ye) katılacaktır.</p>
+
+<p><strong>Soru 25 — Doğru cevap: C.</strong> <em>Neden doğru:</em> İstanbul'un boşluğu (sessizliği), halkın Kuvâ-yı Milliye'yi ve direniş cemiyetlerini kurarak bu boşluğu doldurmasına neden olmuştur. <em>Diğer seçenekler:</em> A, B, D yanlış kurgulardır. <em>Kazanım:</em> Otorite boşluğunun yarattığı sonucu tespit. <em>ÖSYM ne ölçüyor:</em> Merkezi hükümet-halk ikilemini analiz edebilme. <em>Dikkat:</em> Milli Mücadele'nin "halk hareketi" olmasının asıl sebebi hükümetin bu sessizliğidir.</p>
+
+<p><strong>Soru 26 — Doğru cevap: C.</strong> <em>Neden doğru:</em> 24. madde Doğu'daki Ermeni devleti tehlikesidir. Bunu önleyen cemiyet Doğu Anadolu Müdafaa-i Hukuk'tur. <em>Diğer seçenekler:</em> Farklı bölge cemiyetleridir. <em>Kazanım:</em> Madde-Cemiyet karşı saldırı eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Mondros'un pratiğe yansımasını bilme. <em>Dikkat:</em> Sorunun uzunluğu gözünü korkutmasın; 24 = Doğu Anadolu eşleştirmesi çözümü hemen verir.</p>
+
+<p><strong>Soru 27 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Ulusal vizyon ve basın-yayın faaliyeti Milli Kongre Cemiyeti'nin imza özelliğidir. <em>Diğer seçenekler:</em> Zıt özelliklerdir. <em>Kazanım:</em> Kavramsal istisnaları bilme. <em>ÖSYM ne ölçüyor:</em> Diğerlerinden ayrılan yapıyı tespit etme. <em>Dikkat:</em> Dr. Esat Işık = Kuvâ-yı Milliye kelimesi = Milli Kongre = Basın/Yayın. Bu dörtlüyü unutma.</p>
+
+<p><strong>Soru 28 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Bizans'ın ve Eski Yunanistan'ın coğrafyası Ege, Marmara, İstanbul ve Trakya'dır. <em>Diğer seçenekler:</em> B, D ilgisiz, A ise Ermenilerin hedefidir. <em>Kazanım:</em> İdeoloji-Coğrafya eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Harita ve hedef mantığını kurabilme. <em>Dikkat:</em> Megali İdea'nın merkezinde İstanbul'u (Konstantinopolis) almak yatar.</p>
+
+<p><strong>Soru 29 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Cemiyetlerin bölgesel (dağınık) kalması en büyük zafiyettir ve Sivas Kongresi bu yüzden toplanıp hepsini birleştirecektir. <em>Diğer seçenekler:</em> A, C, D yanlış tespitlerdir. <em>Kazanım:</em> Konunun sonu ile sonraki konunun başı arasındaki boşluğu (gerekliliği) görme. <em>ÖSYM ne ölçüyor:</em> Süreç analizini (tarihsel akışı) kavrayabilme. <em>Dikkat:</em> Bir sonraki konuya geçerken zihninde bu problemi tutarak geç.</p>
+
+<p><strong>Soru 30 — Doğru cevap: D.</strong> <em>Neden doğru:</em> Bu cemiyetler teslimiyetçidir; İtilaf Devletleri'ne silahlı direniş başlatmazlar, aksine direnen Kuvâ-yı Milliye'ye karşı çıkarlar. <em>Diğer seçenekler:</em> A, B, C onların doğru özellikleridir. <em>Kazanım:</em> Teslimiyetçi cemiyetlerin profilini bilme. <em>ÖSYM ne ölçüyor:</em> "Hangisi söylenemez" analizini. <em>Dikkat:</em> Zararlı cemiyet = Teslimiyet = İşbirlikçilik. Silahlı direniş kelimesini bunlarla yan yana getirme.</p>
+\` },`,
   },
   {
     id: 61,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Kongreler Süreci (Amasya\'dan Sivas\'a)',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Havza Genelgesi, Amasya Genelgesi, Erzurum ve Sivas Kongreleri, Temsil Heyeti)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Bir önceki konuda Mondros Ateşkesi'nden sonra Anadolu halkının işgallere karşı kendi başının çaresine bakmaya karar verdiğini, dağınık halde bölgesel cemiyetler ve Kuvâ-yı Milliye birlikleri kurduğunu öğrenmiştik. Ancak dağınık bir güç, ne kadar vatansever olursa olsun, koca bir imparatorluğu yutmaya çalışan işgal ordularını yurttan atamazdı. Bu dağınık enerjinin birleşmesi, tek bir merkeze ve tek bir lidere bağlanması gerekiyordu. İşte bu konu, Mustafa Kemal'in 19 Mayıs 1919'da Samsun'a ayak basmasıyla başlayan o muazzam "örgütlenme ve birleştirme" destanını anlatıyor.</p>
+<p>KPSS'de bu konu "yorum ve çıkarım" sorularının kalesidir. ÖSYM sana "Amasya Genelgesi'nin maddesi neydi?" diye dümdüz sormaz; "Amasya'daki şu madde, neyin kanıtıdır?" diye sorar. Erzurum'un bölgesel toplanıp ulusal kararlar alması, Sivas'ta Temsil Heyeti'nin bir hükümet gibi "yürütme yetkisi" kullanması, bu konunun can damarlarıdır.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Kongreler süreci sıradan toplantılar dizisi değildir; Osmanlı hükümetine karşı sivil bir "ihtilal" (başkaldırı) hareketidir. Egemenliğin padişahtan alınıp yavaş yavaş "millete" verilmesinin (Cumhuriyet'e gidişin) hukuki zeminidir. O yüzden her bir cümlenin alt metninde siyasi bir şifre yatar.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Tarihi bir "inşaat" gibi düşünelim. Önceki konuda temel kazıldı ve yapı malzemeleri (Kuvâ-yı Milliye ve Cemiyetler) Anadolu'nun farklı yerlerine yığıldı. Şimdi mimar (Mustafa Kemal) geldi. Havza'da işçileri (halkı) uyandırdı. Amasya'da inşaatın projesini (Gerekçe ve Yöntem) çizdi. Erzurum'da inşaatın Doğu cephesini ördü. Sivas'ta ise çatıyı kapatıp tüm binayı (tüm vatanı) tek bir bütün haline getirdi. Bu sürecin sonunda İstanbul Hükümeti havlu atacak ve Ankara'daki bu yeni yapıyı tanımak zorunda kalacaktır.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Bu Konu Hangi Sürecin Parçası?</span><p>Bu konu, Milli Mücadele'nin "Silahlı Çatışma" aşaması DEĞİLDİR. Bu aşama "Hazırlık, Örgütlenme ve İhtilal" aşamasıdır. Önce zihinler birleşecek, siyasi zemin kurulacak, ondan sonra (TBMM açıldıktan sonra) savaşılacaktır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h3>
+
+<h3>3.1. Havza Genelgesi (28 Mayıs 1919): İlk Kıvılcım</h3>
+<p>Mustafa Kemal, 9. Ordu Müfettişi sıfatıyla Samsun'a çıktıktan sonra, asıl amacı olan "milli bilinci uyandırmak" için iç kesimlere, Havza'ya geçer. Buradan tüm sivil ve askeri makamlara bir genelge gönderir.</p>
+<ul>
+<li><strong>Mitigler düzenleyin:</strong> İşgalleri (özellikle İzmir'in işgalini) kınamak için yurdun her yerinde mitingler ve protestolar yapılmasını ister. Amaç: <em>Halktaki "işgal" bilincini uyandırmak ve tepkiyi ölçmektir.</em></li>
+<li><strong>Azınlıklara zarar vermeyin:</strong> Protestolar sırasında Hristiyan azınlıklara asla zarar verilmemesini ister. Amaç: <em>Haklıyken haksız duruma düşmemek ve Mondros'un 7. maddesine (güvenlik bahanesiyle işgal) zemin hazırlamamaktır.</em></li>
+</ul>
+<p><strong>Sonucu:</strong> Yurt çapında (İstanbul Sultanahmet mitingi dahil) büyük mitingler başlar. Ancak bu durum İngilizleri rahatsız eder ve Mustafa Kemal, İstanbul Hükümeti tarafından ilk kez İstanbul'a geri çağrılır. Mustafa Kemal bu çağrıyı oyalayarak Amasya'ya geçer.</p>
+
+<h3>3.2. Amasya Genelgesi (22 Haziran 1919): İhtilalin Bildirgesi</h3>
+<p>Milli Mücadele'nin anayasası gibidir. Mustafa Kemal bu belgeyi tek başına değil; Ali Fuat Paşa, Refet Bele, Rauf Orbay ile birlikte imzalamış, Erzurum'daki Kazım Karabekir ve Konya'daki Cemal Paşa'ya da telgrafla onaylatmıştır. <strong>Neden?</strong> Çünkü bu bir isyandır ve isyanı "kişisellikten" çıkarıp "milli bir kurula (komutanlara)" mal etmek, halkın desteğini artıracaktır.</p>
+<p><strong>En Kritik Maddeleri ve Çıkarımları:</strong></p>
+<ul>
+<li><strong>"Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir."</strong> &rarr; Bu madde Milli Mücadele'nin <strong>GEREKÇESİ (Nedeni)</strong>dir.</li>
+<li><strong>"İstanbul Hükümeti üzerine aldığı sorumluluğu yerine getirememektedir."</strong> &rarr; Bu da ikinci <strong>GEREKÇE</strong>dir. İstanbul'a karşı ilk açık başkaldırıdır.</li>
+<li><strong>"Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır."</strong> &rarr; Bu madde Milli Mücadele'nin <strong>YÖNTEMİ</strong>dir (Savaşı millet yapacak). Ancak daha da önemlisi, <em>"milletin kararı"</em> ifadesi, ileride saltanatın yıkılıp <strong>Milli Egemenliğe (Cumhuriyet'e)</strong> geçileceğinin üstü kapalı ilk işaretidir!</li>
+<li><strong>"Her türlü etkiden uzak, milli bir kurul (heyet) oluşturulmalıdır."</strong> &rarr; Temsil Heyeti'nin (bir tür geçici hükümetin) kurulması fikri ilk kez burada ortaya atılmıştır.</li>
+<li><strong>"Sivas'ta milli bir kongre toplanacaktır."</strong> &rarr; Örgütlenmenin bir sonraki adımı planlanmıştır.</li>
+</ul>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 "Milli Bağımsızlık" ile "Milli Egemenlik" Farkı</span><p>KPSS bu ikisini ayırt etmeni bekler. <strong>Milli Bağımsızlık</strong>, düşmanı yurttan atmaktır (işgale karşıdır). <strong>Milli Egemenlik</strong> ise, halkın ülkeyi kendisinin yönetmesidir, yani padişaha (rejime) karşıdır. Amasya Genelgesi'ndeki "milletin kararı" ifadesi, "Milli Egemenlik" (Cumhuriyet) kavramının ilk ayak sesidir.</p></div>
+
+<h3>3.3. Sine-i Millete Dönüş (Erzurum'a Gidiş)</h3>
+<p>Amasya Genelgesi'nden sonra İstanbul Hükümeti (İngiliz baskısıyla) Mustafa Kemal'i görevden alır. Bunun üzerine Mustafa Kemal 8-9 Temmuz 1919 gecesi çok sevdiği askerlik mesleğinden istifa eder. Sivil bir vatandaş olarak direnişe devam etme kararı alır. Bu duruma <strong>"Sine-i Millete Dönüş" (Milletin sinesine/kucağına dönmek)</strong> denir. En büyük destekçisi, "Ben ve kolordum emrinizdeyiz Paşam" diyen Kazım Karabekir'dir.</p>
+
+<h3>3.4. Erzurum Kongresi (23 Temmuz - 7 Ağustos 1919)</h3>
+<p>Doğu Anadolu'da kurulması planlanan Ermeni devletine karşı alınacak önlemleri konuşmak üzere <strong>Trabzon Muhafaza-i Hukuk</strong> ve <strong>Doğu Anadolu Müdafaa-i Hukuk</strong> cemiyetleri tarafından toplanmıştır. Mustafa Kemal kongreye sivil olarak katılır ve başkan seçilir.</p>
+<p><strong>Özelliği:</strong> Sadece Doğu illerinden delege geldiği için <strong>TOPLANIŞ AMACI BAKIMINDAN BÖLGESEL</strong>dir. Ancak Mustafa Kemal'in etkisiyle <strong>ALINAN KARARLAR BAKIMINDAN ULUSAL</strong>dır.</p>
+<p><strong>Kritik Kararları ve Çıkarımları:</strong></p>
+<ul>
+<li><strong>"Milli sınırlar içinde vatan bir bütündür, parçalanamaz."</strong> &rarr; "Milli Sınırlar" (Misak-ı Milli) kavramı <strong>ilk kez</strong> burada zikredilmiştir. Toplanış bölgesel olsa da karar tüm vatanı kapsar (Ulusal karar kanıtı).</li>
+<li><strong>"Manda ve Himaye kabul olunamaz."</strong> &rarr; Tam bağımsızlığa aykırı olan bu fikir <strong>İLK KEZ</strong> burada reddedilmiştir. (Kesin ret Sivas'ta olacak).</li>
+<li><strong>"Kuvâ-yı Milliye'yi tek kuvvet tanımak ve milli iradeyi hakim kılmak esastır."</strong> &rarr; Yine Cumhuriyet'e (milli iradeye) vurgu vardır.</li>
+<li><strong>"Mebusan Meclisi derhal toplanmalıdır."</strong> &rarr; İstanbul Hükümeti'ni denetim altına almak için meclisin açılması istenmiştir.</li>
+<li><strong>Temsil Heyeti Kuruldu:</strong> Amasya'da fikri atılan Temsil Heyeti burada kuruldu (Başkanı Mustafa Kemal). Ancak şu an <em>sadece Doğu Anadolu'yu temsil eder.</em></li>
+</ul>
+
+<h3>3.5. Diğer Bölgesel Kongreler (Kısa Bakış)</h3>
+<p>Anadolu'nun batısında Yunan işgaline karşı Balıkesir, Alaşehir ve Nazilli kongreleri toplanmıştır. Bu kongreler, Batı Cephesi'ni kurmuş olmaları bakımından faydalıdır ancak padişaha bağlılık bildirmeleri ve gerektiğinde başka bir devletin mandasını kabul edebileceklerini söylemeleri bakımından Erzurum ve Sivas'tan ayrılırlar (Bağımsızlık bilinçleri eksiktir). Mustafa Kemal bu kongrelere <strong>katılmamıştır.</strong></p>
+
+<h3>3.6. Sivas Kongresi (4 - 11 Eylül 1919)</h3>
+<p>Amasya'da kararlaştırılan ve tüm yurdu temsil eden ulusal bir kongredir. İstanbul Hükümeti (Damat Ferit) kongreyi engellemek için Elazığ Valisi <strong>Ali Galip'i</strong> görevlendirmiş ama başarılı olamamıştır.</p>
+<p><strong>Özelliği:</strong> Hem toplanış amacı, hem katılımı, hem de aldığı kararlar bakımından <strong>TAMAMEN ULUSAL</strong> olan tek kongredir.</p>
+<p><strong>Kritik Kararları ve Çıkarımları:</strong></p>
+<ul>
+<li>Erzurum Kongresi kararları aynen kabul edilip tüm yurdu kapsayacak şekilde genişletildi.</li>
+<li><strong>Cemiyetler Birleşti:</strong> Önceki konuda gördüğümüz tüm bölgesel milli cemiyetler, <strong>"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti"</strong> adı altında tek çatı altında birleşti. (Amaç: Milli mücadeleyi tek merkezden yönetmek).</li>
+<li><strong>Manda ve Himaye KESİN OLARAK reddedildi.</strong> &rarr; Bir daha açılmamak üzere tarihe gömüldü. Tam bağımsızlık tescillendi.</li>
+<li><strong>Temsil Heyeti'nin yetkileri tüm yurdu kapsayacak şekilde genişletildi.</strong></li>
+<li><strong>Ali Fuat Paşa Atandı:</strong> Temsil Heyeti, Ali Fuat Paşa'yı "Batı Cephesi Kuvâ-yı Milliye Genel Komutanlığı'na" atadı. (Çok Önemli: Atama yapmak bir hükümetin (yürütme organının) görevidir. Bu durum Temsil Heyeti'nin <em>ilk kez bir hükümet gibi Yürütme yetkisini kullandığını</em> kanıtlar).</li>
+<li><strong>İrade-i Milliye Gazetesi:</strong> Milli mücadelenin haklılığını duyurmak için (kongrenin yayın organı olarak) Sivas'ta çıkarıldı.</li>
+</ul>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Mantığını Kur: Ali Fuat Paşa'nın Atanması</span><p>Bir devletin üç yetkisi vardır: Yasama (meclis), Yürütme (hükümet/bakanlar kurulu) ve Yargı (mahkemeler). Temsil Heyeti'nin Ali Fuat'ı "komutan olarak ataması", fiilen devletin "Yürütme" (iş yapma/yönetme) yetkisini devraldığı anlamına gelir. Bu KPSS'de defalarca sorulmuş bir klasiktir.</p></div>
+
+<h3>3.7. Damat Ferit Hükümeti'nin İstifası (İlk Siyasi Zafer)</h3>
+<p>Sivas Kongresi'nden sonra Mustafa Kemal, İstanbul Hükümeti'nin yurdu temsil etmediğini söyleyerek Anadolu'nun İstanbul ile olan tüm haberleşmesini keser. Telgraf telleri kesilir, Anadolu İstanbul'u tanımaz hale gelir. Bu baskıya dayanamayan Damat Ferit Paşa hükümeti <strong>istifa eder</strong>. Yerine Milli Mücadele'ye daha ılımlı yaklaşan Ali Rıza Paşa hükümeti kurulur.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Temsil Heyeti'nin İlk Siyasi Zaferi</span><p>Damat Ferit'in istifa ettirilmesi, Temsil Heyeti'nin (Mustafa Kemal ve ekibinin) İstanbul'a karşı kazandığı <strong>İLK SİYASİ ZAFER</strong>dir. Artık İstanbul, Anadolu'yu yok sayamayacaktır. Bu da bir sonraki konuda göreceğimiz "Amasya Görüşmeleri"ne kapı aralayacaktır.</p></div>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Neden genelgeler komutanlara onaylatıldı? (Sebep)</strong> &rarr; İsyanı kişisellikten çıkarıp milletin ve ordunun geneline mal etmek için. (Sonuç)[m</li>
+<li><strong>Neden Erzurum'da bölgesel bir kongre toplandı? (Sebep)</strong> &rarr; Mondros'un 24. maddesi gereği Doğu'da bir Ermeni devleti kurulması tehlikesi olduğu için. (Sonuç)[m</li>
+<li><strong>Neden tüm cemiyetler Sivas'ta ARMHC adı altında birleşti? (Sebep)</strong> &rarr; Bölgesel ve dağınık direnişle yurdun tamamının kurtarılamayacağı anlaşıldığı ve mücadelenin tek merkezden yönetilmesi gerektiği için. (Sonuç)[m</li>
+<li><strong>Neden Anadolu, İstanbul ile haberleşmeyi kesti? (Sebep)</strong> &rarr; Damat Ferit Hükümeti'nin Sivas Kongresi'ni engellemeye (Ali Galip Olayı) çalışması üzerine. (Sonuç: Damat Ferit istifa etti).</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>En Önemli Çıkarım (KPSS Notu)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28 Mayıs 1919</td>
+<td>Havza Genelgesi</td>
+<td>Milli bilincin uyanması (Mitingler).</td>
+</tr>
+<tr>
+<td>22 Haziran 1919</td>
+<td>Amasya Genelgesi</td>
+<td>Kurtuluşun Gerekçesi, Amacı ve Yöntemi. İlk milli egemenlik sinyali.</td>
+</tr>
+<tr>
+<td>8-9 Temmuz 1919</td>
+<td>Askerlikten İstifa</td>
+<td>Sine-i Millete dönüş (Sivil liderlik).</td>
+</tr>
+<tr>
+<td>23 Tem - 7 Ağu 1919</td>
+<td>Erzurum Kongresi</td>
+<td>Toplanış bölgesel, kararlar ulusal. Temsil heyeti kuruldu. Manda İLK KEZ reddedildi.</td>
+</tr>
+<tr>
+<td>4-11 Eylül 1919</td>
+<td>Sivas Kongresi</td>
+<td>Her yönüyle ulusal. Cemiyetler birleşti (ARMHC). Manda KESİN reddedildi. Yürütme yetkisi kullanıldı.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Erzurum Kongresi ile Sivas Kongresi Karşılaştırması</h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Erzurum Kongresi</th>
+<th>Sivas Kongresi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Toplanış Amacı</strong></td>
+<td>Bölgesel (Sadece Doğu illeri delegeleri)</td>
+<td>Ulusal (Tüm yurttan delegeler)</td>
+</tr>
+<tr>
+<td><strong>Alınan Kararlar</strong></td>
+<td>Ulusal (Mustafa Kemal'in etkisiyle)</td>
+<td>Ulusal</td>
+</tr>
+<tr>
+<td><strong>Temsil Heyeti'nin Kapsamı</strong></td>
+<td>Sadece Doğu Anadolu'yu temsil eder.</td>
+<td>Tüm yurdu (bütün vatanı) temsil eder.</td>
+</tr>
+<tr>
+<td><strong>Manda ve Himaye</strong></td>
+<td>İLK KEZ reddedildi.</td>
+<td>KESİN OLARAK reddedildi.</td>
+</tr>
+<tr>
+<td><strong>Cemiyetler</strong></td>
+<td>Doğu'daki cemiyetler birleştirildi.</td>
+<td>Yurttaki TÜM cemiyetler (ARMHC) birleştirildi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<p>Denemelerde karşına sürekli çıkacak hap bilgiler:</p>
+<ul>
+<li><strong>Amasya Genelgesi (Yöntem Maddesi):</strong> "Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır." (Bu madde rejim değişikliğini yani Cumhuriyet'i işaret eder).</li>
+<li><strong>Sine-i Millet:</strong> Mustafa Kemal'in Amasya'dan sonra Erzurum Kongresi'nden önce askerlikten istifa etmesidir. (Soru kökünde hangi olaydan "önce/sonra" olduğuna çok dikkat et).</li>
+<li><strong>Ali Galip Olayı:</strong> Elazığ Valisi Ali Galip'in Sivas Kongresi'ni basıp Mustafa Kemal'i tutuklamakla görevlendirilmesidir. (Başarısız olmuştur).</li>
+<li><strong>Ali Fuat Paşa'nın Atanması:</strong> Temsil Heyeti'nin YÜRÜTME yetkisini (hükümet gibi) kullandığının kesin kanıtıdır.</li>
+<li><strong>İrade-i Milliye:</strong> Sivas Kongresi'nin haklılığını duyurmak için çıkarılan gazetedir. (Temsil Heyeti'nin ilk yayın organı).</li>
+<li><strong>İlk Siyasi Zafer:</strong> Damat Ferit'in istifa edip Ali Rıza Paşa hükümetinin kurulması, Temsil Heyeti'nin İstanbul'a karşı kazandığı ilk siyasi başarıdır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 ÖSYM Klasik Taktiği</span><p>ÖSYM kronolojiyi çok sever. Amasya $\rightarrow$ İstifa $\rightarrow$ Erzurum $\rightarrow$ Sivas $\rightarrow$ Damat Ferit'in İstifası zincirini mutlaka sırasıyla bilmelisin. "Mustafa Kemal hangisine sivil katıldı?" der; cevap Erzurum'dur çünkü Amasya'dan hemen sonra istifa etmiştir.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>Erzurum Kongresi'ni tamamen "ulusal" sanma tuzağı.</strong> Erzurum Kongresi'nin aldığı kararlar ulusaldır ancak kongreyi toplayan delegeler sadece Doğu illerinden gelmiştir. Bu yüzden <strong>TOPLANIŞ AMACI YÖNÜYLE BÖLGESELDİR</strong>. Sorularda "Her yönüyle ulusal olan" diye sorulursa cevap Erzurum değil, Sivas Kongresi'dir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Milli Bağımsızlık" ile "Milli Egemenlik" kelime oyunu.</strong> Manda ve himayenin reddedilmesi veya kapitülasyonlara karşı çıkılması "Milli Bağımsızlık" (dış düşmana karşı) ile ilgilidir. Ama "Milletin kararı", "Milli İrade", "Mebusan Meclisi" gibi kavramlar yönetme hakkıyla, yani "Milli Egemenlik" (padişaha karşı / Cumhuriyet'e gidiş) ile ilgilidir. Soru kökünde hangisinin sorulduğuna çok dikkat et!</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>Manda ve Himayenin reddi tuzağı.</strong> ÖSYM "Manda ve Himaye ilk kez nerede reddedildi?" diye sorarsa cevap <strong>Erzurum</strong>'dur. "Kesin olarak nerede reddedildi / bir daha gündeme gelmemek üzere nerede kapatıldı?" diye sorarsa cevap <strong>Sivas</strong>'tır. "İlk mi, kesin mi?" ayrımına dikkat.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>Temsil Heyeti'nin "Tüm Yurdu" temsil ettiği yanılgısı.</strong> Temsil Heyeti Erzurum Kongresi'nde kurulduğunda sadece <strong>Doğu illerini</strong> temsil ediyordu. Bu heyetin yetkilerinin tüm yurdu kapsayacak şekilde genişletilmesi <strong>Sivas Kongresi'nde</strong> olmuştur.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 5</span><p><strong>Mustafa Kemal'in askerlikten istifa tarihi tuzağı.</strong> Mustafa Kemal, Amasya Genelgesi'ni asker (9. Ordu Müfettişi) sıfatıyla yayınlamıştır. İstifası (Sine-i Millet) Amasya Genelgesi'nden SONRA, Erzurum Kongresi'nden ÖNCEDİR. Yani Erzurum ve Sivas'a <strong>sivil</strong> olarak katılmıştır.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "AG = GAY" (Amasya Genelgesi = Gerekçe, Amaç, Yöntem)</span><p>Amasya Genelgesi deyince aklına hemen G-A-Y gelsin. Milli Mücadelenin <strong>G</strong>erekçesi (Vatanın bütünlüğü tehlikede), <strong>A</strong>macı (Milletin bağımsızlığını kurtarmak) ve <strong>Y</strong>öntemi (Milletin azim ve kararıyla) burada belirlenmiştir.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "Ali'ler Karışmasın"</span><p>Sivas Kongresi etrafında iki önemli "Ali" vardır:<br>- <strong>Ali Galip:</strong> Kötü Ali (Sivas Kongresi'ni basmaya gelen Elazığ valisi).<br>- <strong>Ali Fuat Paşa:</strong> İyi Ali (Temsil heyetinin Batı cephesine komutan atadığı paşa = Yürütme yetkisi).</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "Eİ - SK" Şifresi (Manda ve Himaye)</span><p><strong>E</strong>rzurum'da <strong>İ</strong>lk ret (Eİ) / <strong>S</strong>ivas'ta <strong>K</strong>esin ret (SK). "EİSK" diye şifreleyebilirsin. İlk neresiydi diye tereddüt edersen E harfi alfabede S'den öncedir, dolayısıyla ilk ret Erzurum'dur.</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "İrade-i Sivas"</span><p>İrade-i Milliye gazetesi nerede çıktı? İrade-i <strong>SİVAS</strong>. Kelime benzerliğinden (İ-S) aklında tutabilirsin. İleride Ankara'da Hakimiyet-i Milliye çıkacak, karıştırma. Sivas = İrade-i Milliye.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Havza Genelgesi:</strong> Milli bilinci uyandırmak için protesto ve mitingler istendi. İlk kıvılcımdır.<br>
+• <strong>Amasya Genelgesi:</strong> Kurtuluş Savaşı'nın amacı, gerekçesi ve yöntemi belirlendi. "Milletin kararı" ifadesiyle ilk kez üstü kapalı Cumhuriyet (Milli Egemenlik) mesajı verildi. İhtilal bildirgesidir.<br>
+• <strong>Sine-i Millet:</strong> Mustafa Kemal'in Amasya'dan sonra Erzurum'dan önce askerlikten istifa edip halkın arasına (sivil) dönmesidir.<br>
+• <strong>Erzurum Kongresi:</strong> Trabzon ve Doğu Anadolu cemiyetleri topladı (Bölgesel toplanış). Ancak Mustafa Kemal'in gelişiyle tüm yurdu ilgilendiren Misak-ı Milli kararları alındı (Ulusal karar). Temsil Heyeti burada kuruldu (Başkanı M. Kemal, ama sadece Doğu'yu temsil ediyor). Manda ve himaye ilk kez reddedildi.<br>
+• <strong>Sivas Kongresi:</strong> Her yönüyle ulusaldır. Anadolu'daki tüm dağınık cemiyetler ARMHC adı altında tek çatı altında birleşti. Manda ve himaye kesin reddedildi. Temsil Heyeti, Ali Fuat Paşa'yı atayarak "Yürütme" yetkisini kullandı. İrade-i Milliye gazetesi çıkarıldı.<br>
+• <strong>İlk Siyasi Zafer:</strong> Sivas Kongresi sonrası Anadolu'nun haberleşmeyi kesmesi üzerine İstanbul'daki Damat Ferit hükümeti istifa etti. Bu, Temsil Heyeti'nin İstanbul'a karşı ilk siyasi üstünlüğüdür.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Miting ve Protesto çağrısı:</strong> Havza.<br>
+• <strong>Amaç, Gerekçe, Yöntem:</strong> Amasya.<br>
+• <strong>Rejim değişecek (Cumhuriyet) sinyali:</strong> Amasya ("milletin azim ve kararı").<br>
+• <strong>Askerlikten İstifa (Sine-i Millet):</strong> Amasya ile Erzurum arasında.<br>
+• <strong>Toplanış Bölgesel, Karar Ulusal:</strong> Erzurum.<br>
+• <strong>Temsil Heyeti'nin Kurulması:</strong> Erzurum (Sadece Doğu'yu temsil).<br>
+• <strong>Manda ve Himaye:</strong> İlk ret Erzurum, Kesin ret Sivas.<br>
+• <strong>Her Yönüyle Ulusal:</strong> Sivas.<br>
+• <strong>Tüm Cemiyetlerin Birleşmesi:</strong> Sivas (ARMHC).<br>
+• <strong>Yürütme Yetkisinin Kullanılması:</strong> Sivas'ta Ali Fuat Paşa'nın atanması.<br>
+• <strong>Temsil Heyeti'nin İlk Siyasi Zaferi:</strong> Damat Ferit'in istifası.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Mustafa Kemal'in "milli bilinci uyandırmak" ve işgallere karşı halkın tepkisini ölçmek amacıyla mitingler ve protestolar düzenlenmesini istediği ilk genelge aşağıdakilerden hangisidir?</p>
+<p>A) Amasya Genelgesi &nbsp; B) Havza Genelgesi &nbsp; C) Erzurum Kongresi &nbsp; D) Sivas Kongresi</p>
+<p><strong>Çözüm:</strong> Miting ve protesto çağrılarıyla halktaki işgal karşıtı bilinci uyandıran ilk belge Havza Genelgesi'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Kurtuluş Savaşı'nın "amacı, gerekçesi ve yöntemi"nin açıkça belirtildiği tarihi belge aşağıdakilerden hangisidir?</p>
+<p>A) Havza Genelgesi &nbsp; B) Misak-ı Milli &nbsp; C) Amasya Genelgesi &nbsp; D) Sivas Kongresi Kararları</p>
+<p><strong>Çözüm:</strong> Milli Mücadele'nin gerekçesi, amacı ve yönteminin belirlendiği (G-A-Y) ihtilal bildirgesi Amasya Genelgesi'dir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Aşağıdaki kongrelerden hangisi "toplanış amacı bakımından bölgesel" olmasına rağmen aldığı kararlar bakımından "ulusal" nitelik taşır?</p>
+<p>A) Erzurum Kongresi &nbsp; B) Sivas Kongresi &nbsp; C) Alaşehir Kongresi &nbsp; D) Balıkesir Kongresi</p>
+<p><strong>Çözüm:</strong> Sadece Doğu illerinden delege geldiği için toplanışı bölgesel, ancak Mustafa Kemal'in etkisiyle Misak-ı Milli kararları alındığı için kararları ulusal olan kongre Erzurum Kongresi'dir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Manda ve Himaye fikrinin <strong>kesin olarak</strong> reddedilerek tam bağımsızlık kararının tüm yurda ilan edildiği kongre hangisidir?</p>
+<p>A) Erzurum Kongresi &nbsp; B) Havza Genelgesi &nbsp; C) Amasya Görüşmeleri &nbsp; D) Sivas Kongresi</p>
+<p><strong>Çözüm:</strong> Manda ve Himaye ilk kez Erzurum'da reddedilmiş, KESİN OLARAK ise Sivas Kongresi'nde reddedilmiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Anadolu'daki tüm dağınık ve bölgesel milli cemiyetler, Sivas Kongresi'nde hangi isim altında tek bir çatı altında birleştirilmiştir?</p>
+<p>A) Kuvâ-yı İnzibatiye &nbsp; B) Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti &nbsp; C) Trakya Paşaeli Cemiyeti &nbsp; D) Milli Kongre Cemiyeti</p>
+<p><strong>Çözüm:</strong> Sivas Kongresi'nde tüm cemiyetler "Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti" (ARMHC) çatısı altında birleşerek ulusal bir kimlik kazanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Mustafa Kemal'in askerlik mesleğinden istifa ederek "Sine-i Millete" dönmesi hangi iki olay arasında gerçekleşmiştir?</p>
+<p>A) Havza Genelgesi - Amasya Genelgesi &nbsp; B) Amasya Genelgesi - Erzurum Kongresi &nbsp; C) Erzurum Kongresi - Sivas Kongresi &nbsp; D) Sivas Kongresi - Amasya Görüşmeleri</p>
+<p><strong>Çözüm:</strong> Mustafa Kemal, Amasya Genelgesi'ni yayınladıktan sonra İstanbul'a çağrılmış, gitmeyip istifa etmiş ve hemen ardından Erzurum Kongresi'ne sivil olarak katılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Sivas Kongresi'ni basmak ve Mustafa Kemal'i tutuklamakla görevlendirilen Elazığ Valisi aşağıdakilerden hangisidir?</p>
+<p>A) Damat Ferit &nbsp; B) Ali Rıza Paşa &nbsp; C) Ali Galip &nbsp; D) Ali Fuat Paşa</p>
+<p><strong>Çözüm:</strong> İstanbul Hükümeti'nin Sivas Kongresi'ni engellemek için görevlendirdiği kişi "Ali Galip"tir. (Kötü Ali). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Sivas Kongresi'nde Temsil Heyeti'nin haklı davasını ve kongre kararlarını halka duyurmak amacıyla çıkarılmasına karar verilen gazete hangisidir?</p>
+<p>A) Minber &nbsp; B) İrade-i Milliye &nbsp; C) Hakimiyet-i Milliye &nbsp; D) Ceride-i Resmiye</p>
+<p><strong>Çözüm:</strong> Sivas Kongresi'nin yayın organı "İrade-i Milliye" (İrade-i Sivas) gazetesidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Sivas Kongresi'nden sonra Anadolu'nun İstanbul Hükümeti ile tüm haberleşmeyi kesmesi üzerine, baskılara dayanamayarak istifa eden Osmanlı Sadrazamı kimdir?</p>
+<p>A) Ahmet İzzet Paşa &nbsp; B) Ali Rıza Paşa &nbsp; C) Salih Paşa &nbsp; D) Damat Ferit Paşa</p>
+<p><strong>Çözüm:</strong> İletişimin kesilmesi ve Anadolu'nun direnişi üzerine istifa eden İtilaf yanlısı sadrazam Damat Ferit Paşa'dır. Bu durum Temsil Heyeti'nin ilk siyasi zaferidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Aşağıdaki kongrelerden hangisinde Temsil Heyeti'nin (Heyet-i Temsiliye) kurulması fikri <strong>ilk kez</strong> ortaya atılmıştır?</p>
+<p>A) Havza Genelgesi &nbsp; B) Amasya Genelgesi &nbsp; C) Erzurum Kongresi &nbsp; D) Sivas Kongresi</p>
+<p><strong>Çözüm:</strong> "Her türlü etkiden uzak, milli bir kurul (heyet) oluşturulmalıdır" maddesiyle Temsil Heyeti fikri ilk kez Amasya Genelgesi'nde ortaya atılmıştır. Kurulması ise Erzurum'da olacaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Amasya Genelgesi'nde yer alan "Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir" maddesi Milli Mücadele'nin hangi unsurunu ifade eder?</p>
+<p>A) Yöntemini &nbsp; B) Gerekçesini &nbsp; C) Sonucunu &nbsp; D) Liderini</p>
+<p><strong>Çözüm:</strong> Bu madde "Biz bu savaşı neden yapıyoruz?" sorusunun cevabıdır, dolayısıyla Milli Mücadele'nin GEREKÇESİDİR. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Amasya Genelgesi'nde yer alan "Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır" maddesi, ileride aşağıdaki gelişmelerden hangisinin yaşanacağına hukuki bir işaret (sinyal) olarak yorumlanabilir?</p>
+<p>A) Saltanatın devam edeceğine &nbsp; B) Manda ve himayenin kabul edileceğine &nbsp; C) Milli egemenliğe (Cumhuriyet'e) dayalı yeni bir devletin kurulacağına &nbsp; D) İşgallerin onaylanacağına</p>
+<p><strong>Çözüm:</strong> "Milletin kararı" ifadesi, yönetim hakkının (egemenliğin) padişahtan alınıp millete verileceğinin, yani Cumhuriyet rejimine geçileceğinin ilk işaretidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Mustafa Kemal'in askerlik mesleğinden istifa ederek "Sine-i Millete" dönmesi, onun hareketinin aşağıdaki özelliklerinden hangisini kazanmasını zorunlu kılmıştır?</p>
+<p>A) Sadece askerlere dayalı bir hareket olma &nbsp; B) Yalnızca Osmanlı hükümeti tarafından desteklenme &nbsp; C) Resmi gücünü kaybedip tamamen halkın desteğine ve sivil otoriteye dayanma &nbsp; D) İtilaf devletleriyle uzlaşma</p>
+<p><strong>Çözüm:</strong> Askerlik (9. Ordu Müfettişliği) sıfatı resmi bir güçtür. İstifa etmesi, artık elinde resmi bir yetki kalmadığını, tamamen sivil bir lider olarak doğrudan halkın (sine-i milletin) desteğine muhtaç olduğunu gösterir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Erzurum Kongresi'nin "Manda ve himaye kabul olunamaz" kararı, Milli Mücadele'nin temel ilkelerinden hangisinin <strong>ödün vermeden</strong> uygulanacağını gösterir?</p>
+<p>A) Sınıf eşitliği &nbsp; B) Tam bağımsızlık &nbsp; C) Hilafete bağlılık &nbsp; D) Laiklik</p>
+<p><strong>Çözüm:</strong> Manda ve himaye (başka bir devletin koruması altına girmek), tam bağımsızlık fikrine tamamen zıttır. Bunun reddedilmesi tam bağımsızlığın tavizsiz uygulanacağını gösterir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Temsil Heyeti'nin yapısı hakkında aşağıdakilerden hangisi doğrudur?</p>
+<p>A) Amasya Genelgesi'nde tüm yurdu temsil edecek şekilde kurulmuştur. &nbsp; B) Erzurum Kongresi'nde kurulmuş, sadece Doğu illerini temsil etmiş; Sivas Kongresi'nde tüm yurdu kapsayacak şekilde genişletilmiştir. &nbsp; C) Sivas Kongresi'nde kurulmuş ve sadece Sivas'ı temsil etmiştir. &nbsp; D) İlk kez TBMM'de kurulmuştur.</p>
+<p><strong>Çözüm:</strong> Fikir Amasya'da ortaya atıldı, Erzurum'da (9 kişiyle) sadece Doğu'yu temsil edecek şekilde kuruldu, Sivas'ta (16 kişiyle) tüm yurdu temsil edecek hale getirildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Aşağıdakilerden hangisi Sivas Kongresi'nde alınan "Cemiyetlerin birleştirilmesi (ARMHC)" kararının temel <strong>amacıdır</strong>?</p>
+<p>A) Cemiyetleri padişaha bağlamak &nbsp; B) Bölgesel olan mücadeleyi ulusallaştırıp tek merkezden ve tek elden yönetmek &nbsp; C) İtilaf devletleriyle daha kolay barış yapmak &nbsp; D) Cemiyetlerin maddi gücüne el koymak</p>
+<p><strong>Çözüm:</strong> Dağınık ve bölgesel güçlerle savaş kazanılamaz. Tüm cemiyetlerin birleştirilmesinin ana amacı direnişi ulusallaştırmak ve tek merkezden koordine etmektir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Sivas Kongresi'nde Temsil Heyeti'nin Ali Fuat Paşa'yı Batı Cephesi Kuvâ-yı Milliye Genel Komutanlığı'na ataması, Temsil Heyeti ile ilgili aşağıdakilerden hangisini <strong>kesin olarak</strong> kanıtlar?</p>
+<p>A) Yasama yetkisini kullandığını &nbsp; B) Sadece Doğu'yu temsil ettiğini &nbsp; C) Bir "hükümet" (yürütme organı) gibi hareket ettiğini &nbsp; D) Yargı yetkisini kullandığını</p>
+<p><strong>Çözüm:</strong> Devlette "atama yapmak", yürütme organının (hükümetin) görevidir. Temsil Heyeti'nin komutan ataması, onun fiilen bir hükümet gibi "yürütme yetkisini" kullandığını kanıtlar. Bu bir KPSS klasiğidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Damat Ferit Paşa hükümetinin istifa edip yerine Ali Rıza Paşa hükümetinin kurulması (Eylül 1919), Temsil Heyeti açısından nasıl bir anlama sahiptir?</p>
+<p>A) Askeri bir yenilgidir &nbsp; B) Temsil Heyeti'nin İstanbul Hükümeti'ne karşı kazandığı <strong>ilk siyasi zaferdir</strong> &nbsp; C) Milli Mücadele'nin sona erdiğini gösterir &nbsp; D) İtilaf devletlerinin Anadolu'dan çekildiğini gösterir</p>
+<p><strong>Çözüm:</strong> Sivas Kongresi sonrası Anadolu'nun İstanbul ile haberleşmeyi kesip baskı kurması, Damat Ferit'i istifaya mecbur bırakmıştır. Bu, sivil direnişin (Temsil Heyeti'nin) ilk siyasi zaferidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Erzurum Kongresi'nin toplanma kararını alan cemiyetler aşağıdakilerden hangisinde doğru verilmiştir?</p>
+<p>A) Kilikyalılar - Redd-i İlhak &nbsp; B) Doğu Anadolu Müdafaa-i Hukuk - Trabzon Muhafaza-i Hukuk &nbsp; C) Trakya Paşaeli - Milli Kongre &nbsp; D) İngiliz Muhipleri - Wilson Prensipleri</p>
+<p><strong>Çözüm:</strong> Erzurum Kongresi'ni toplayanlar, Ermeni tehlikesine karşı Doğu Anadolu ve Rum tehlikesine karşı Trabzon Muhafaza-i Hukuk cemiyetleridir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Balıkesir ve Alaşehir kongrelerinin toplanış amacı dikkate alındığında, bu kongreler hangi yönden Erzurum ve Sivas kongrelerinden ayrılır?</p>
+<p>A) Kurtuluş savaşına tamamen karşı olmaları &nbsp; B) Bölgesel kurtuluşu sağlayıp Batı Cephesi'ni kurmaları, ancak padişaha bağlılıklarını sürdürüp gerekirse manda kabul edebileceklerini açıklamaları &nbsp; C) Ulusal kararlar almaları &nbsp; D) Mustafa Kemal tarafından düzenlenmeleri</p>
+<p><strong>Çözüm:</strong> Batı'daki bu kongreler Yunan'a karşı savaşma (cephe kurma) konusunda faydalıdır, ancak bağımsızlık bilinçleri Erzurum/Sivas kadar olgunlaşmamıştır (padişaha bağlılık ve manda ihtimalini dışlamamaları). Mustafa Kemal bu kongrelere katılmamıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Amasya Genelgesi'nin Mustafa Kemal tarafından tek başına değil de Ali Fuat, Rauf Orbay ve Refet Bele gibi dönemin en önemli komutanlarıyla birlikte imzalanması, Kazım Karabekir'e telgrafla onaylatılması, <strong>öncelikle</strong> hangi amaca yöneliktir?</p>
+<p>A) Çok sayıda imza ile belgenin uzunluğunu artırmak &nbsp; B) Hareketi "kişisel" bir isyan olmaktan çıkarıp, ordunun ve milletin geneline mal ederek halkın katılımını ve güvenini artırmak &nbsp; C) İtilaf devletlerinden maddi yardım sağlamak &nbsp; D) Padişahın güvenini kazanmak</p>
+<p><strong>Çözüm:</strong> Bir isyan bildirgesi tek kişinin imzasıyla çıkarsa, halk bunu "kişisel bir heves veya ihtiras" olarak görebilir. Oysa en saygın paşaların ortak imzası, bu hareketin kişisel değil "milli" olduğunu gösterir ve katılımı artırır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Havza Genelgesi'nde, işgalleri kınayan mitingler yapılırken Hristiyan azınlıklara karşı taşkınlık yapılmaması ve onlara zarar verilmemesinin <strong>özellikle</strong> istenmesinin temel nedeni aşağıdakilerden hangisidir?</p>
+<p>A) Azınlıkların mitinglere katılmasını sağlamak &nbsp; B) Osmanlı ekonomisinin bozulmasını engellemek &nbsp; C) Mondros Ateşkesi'nin 7. maddesinin (güvenlik tehdidi halinde işgal) İtilaf devletleri tarafından işletilmesine bahane vermemek &nbsp; D) Azınlıklara siyasi haklar tanımak</p>
+<p><strong>Çözüm:</strong> Eğer Türk halkı azınlıklara saldırırsa, İtilaf Devletleri "Burada Hristiyanların güvenliği tehlikede" bahanesiyle (Mondros 7. madde) yeni yerleri işgal ederdi. Mustafa Kemal bu tuzağa düşülmesini engellemek istemiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Erzurum Kongresi'nin toplanış bakımından bölgesel, kararlar bakımından ulusal olmasında aşağıdakilerden hangisinin etkisi <strong>en fazladır</strong>?</p>
+<p>A) Kongreye sadece Doğu illerinden delege gelmesine rağmen, Mustafa Kemal'in kongreye katılıp başkan seçilmesi ve kendi ulusal vizyonunu kararlara yansıtması &nbsp; B) İstanbul Hükümeti'nin kongreye emir vermesi &nbsp; C) Kazım Karabekir'in sivil olması &nbsp; D) Ermenilerin kongreyi desteklemesi</p>
+<p><strong>Çözüm:</strong> Kongreyi Doğu'daki cemiyetler sadece Doğu'yu kurtarmak için topladı (bölgesel). Ancak Mustafa Kemal (ve Rauf Bey) kongreye katılıp ipleri eline alınca, misak-ı milli ve tam bağımsızlık gibi tüm yurdu ilgilendiren kararlar çıkarttı (ulusal). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Amasya Genelgesi'nde yer alan "İstanbul Hükümeti, üzerine aldığı sorumluluğun gereğini yerine getirememektedir. Bu durum milletimizi yok olmuş gibi göstermektedir." maddesi dikkate alındığında, bu genelge için aşağıdaki nitelendirmelerden hangisi <strong>en doğru</strong> olur?</p>
+<p>A) Padişaha bağlılık bildirgesidir. &nbsp; B) İtilaf devletlerine bir barış çağrısıdır. &nbsp; C) Mevcut otoriteye (İstanbul Hükümeti'ne) karşı açık bir başkaldırı ve ihtilal (devrim) bildirgesidir. &nbsp; D) Sadece askeri bir plandır.</p>
+<p><strong>Çözüm:</strong> Bir devlet memurunun (9. Ordu Müfettişinin) kendi hükümetini "görevini yapmamakla ve milleti yok saymakla" suçlaması açık bir isyan (ihtilal) hareketidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Sivas Kongresi'nin her yönüyle ulusal olmasının getirdiği <strong>en önemli stratejik sonuç</strong> aşağıdakilerden hangisidir?</p>
+<p>A) İstanbul Hükümeti'nin gücünün artması &nbsp; B) İşgallerin o gün sona ermesi &nbsp; C) Dağınık haldeki direniş örgütlerinin birleşerek Milli Mücadele'nin "tek merkezden yönetilebilir" hale gelmesi &nbsp; D) Mustafa Kemal'in askerliğe geri dönmesi</p>
+<p><strong>Çözüm:</strong> Tüm yurdu kapsayan kararların alınması ve ARMHC'nin kurulmasıyla direnişin "koordinasyonsuzluk" problemi çözülmüş, savaşın tek elden yönetilmesi sağlanmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Amasya Genelgesi'nde "Milletin bağımsızlığını milletin azim ve kararı kurtaracaktır" denirken, Erzurum Kongresi'nde "Milli kuvvetleri etkin, milli iradeyi hakim kılmak esastır" denmiştir. Bu iki karar birlikte değerlendirildiğinde, Milli Mücadele'nin hedefleri hakkında hangi <strong>çıkarım</strong> yapılabilir?</p>
+<p>A) Sadece düşmanı yurttan atmak hedeflenmiştir. &nbsp; B) Saltanat yönetiminin güçlendirilmesi amaçlanmıştır. &nbsp; C) Bir yandan düşmana karşı bağımsızlık savaşı verilirken, diğer yandan egemenliğin halka geçeceği yeni bir siyasi düzenin (Cumhuriyet) altyapısı hazırlanmaktadır. &nbsp; D) Halkın yönetime katılması engellenmek istenmiştir.</p>
+<p><strong>Çözüm:</strong> "Milletin kararı" ve "Milli iradenin hakimiyeti" kavramları, savaştan sonra söz hakkının padişahta değil halkta (mecliste/cumhuriyette) olacağının tutarlı ve sürekli bir mesajıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Temsil Heyeti'nin kurulma fikri (Amasya), kurulması (Erzurum) ve yetkilerinin tüm yurdu kapsayacak şekilde genişletilmesi (Sivas) süreci, Mustafa Kemal'in liderlik tarzı hakkında neyi gösterir?</p>
+<p>A) Aceleci ve plansız hareket ettiğini &nbsp; B) Hedeflerine ulaşmada aşamalı (safha safha), halkı ve şartları hazırlayarak ilerlediğini &nbsp; C) Sadece askeri güce güvendiğini &nbsp; D) İtilaf devletlerinden korktuğunu</p>
+<p><strong>Çözüm:</strong> Birdenbire "Ben hükümet kurdum" demek yerine, önce fikrini ortaya atıp (Amasya), sonra küçük çaplı kurup (Erzurum), halkın desteğini aldıktan sonra tüm yurda yayması (Sivas), onun stratejik ve aşamalı yöntemidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Sivas Kongresi'nde bazı delegelerin inatla "ABD Mandası"nı tartışmaya açmaları ve uzun süre savunmaları, o dönemin koşulları düşünüldüğünde <strong>temelde</strong> neyin göstergesidir?</p>
+<p>A) ABD'nin Osmanlı'yı çok sevdiğinin &nbsp; B) Delegelerin hepsinin vatan haini olduğunun &nbsp; C) Osmanlı'nın içinde bulunduğu çaresizlik psikolojisiyle bazı aydınların "Türklerin tek başına bağımsızlığı sağlayamayacağına" inanmasının (Teslimiyetçilik) &nbsp; D) Sivas'ın ABD işgali altında olduğunun</p>
+<p><strong>Çözüm:</strong> Sivas Kongresi'nde manda tartışmaları günlerce sürmüştür. Bu delegeler vatan haini değildi; sadece savaşla kurtuluşun imkansız olduğunu düşünecek kadar büyük bir çaresizlik (özgüven eksikliği) içindeydiler. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Bu konunun (Kongreler Süreci) sonunda Damat Ferit'in istifa edip Ali Rıza Paşa'nın sadrazam olması, bir sonraki konu olan "Amasya Görüşmeleri"ne nasıl bir zemin hazırlamıştır?</p>
+<p>A) Milli Mücadele'nin bitmesine neden olmuştur &nbsp; B) Ali Rıza Paşa'nın Temsil Heyeti'ne daha ılımlı yaklaşması, iki tarafın (İstanbul ile Ankara'nın) ilk kez resmi bir masaya oturmasını sağlamıştır &nbsp; C) Padişahın tahttan inmesine yol açmıştır &nbsp; D) İtilaf donanmasının İstanbul'dan ayrılmasını sağlamıştır</p>
+<p><strong>Çözüm:</strong> Temsil Heyeti düşmanı olan Damat Ferit'i devirmiş, yerine nispeten daha ılımlı olan Ali Rıza Paşa gelmiştir. Bu ılımlı atmosfer, iki tarafın Amasya'da görüşerek birbirini resmen tanımasına kapı aralayacaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Aşağıdakilerden hangisi Sivas Kongresi'nin kararları arasında <strong>yer almaz</strong>?</p>
+<p>A) Tüm cemiyetlerin ARMHC adı altında birleştirilmesi &nbsp; B) Manda ve himayenin kesin olarak reddedilmesi &nbsp; C) Temsil Heyeti'nin yetkilerinin tüm yurdu kapsayacak şekilde genişletilmesi &nbsp; D) Temsil Heyeti'nin görevine son verilip TBMM'nin açılması</p>
+<p><strong>Çözüm:</strong> Sivas Kongresi'nde Temsil Heyeti kaldırılmamış, aksine yetkileri genişletilmiştir. Temsil Heyeti'nin görevi ileride (23 Nisan 1920'de) TBMM açılıncaya kadar devam edecektir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p>Aşağıda yukarıdaki 30 sorunun her biri için doğru cevap, doğru olma gerekçesi, diğer seçeneklerin neden elendiği, sorunun ölçtüğü kazanım ve ÖSYM'nin bu tip sorularla neyi test ettiği ayrıntılı biçimde açıklanmıştır.</p>
+
+<p><strong>Soru 1 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Miting ve protesto çağrısı Havza Genelgesi'nin alametifarikasıdır. <em>Diğer seçenekler:</em> A ihtilal, C ve D örgütlenme aşamasıdır. <em>Kazanım:</em> İlk belgeyi bilme. <em>ÖSYM ne ölçüyor:</em> Sürecin başlangıç noktasını tespit etme. <em>Dikkat:</em> Havza'yı daima "halkı uyandırma (miting)" ile kodla.</p>
+
+<p><strong>Soru 2 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Amacın, gerekçenin ve yöntemin belirtildiği belge Amasya Genelgesi'dir. <em>Diğer seçenekler:</em> A uyanış, B sınır, D örgütlenmedir. <em>Kazanım:</em> Belge-İçerik eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Amasya'nın Milli Mücadele'deki işlevini bilme. <em>Dikkat:</em> G-A-Y şifresi (Gerekçe-Amaç-Yöntem) hayat kurtarır.</p>
+
+<p><strong>Soru 3 — Doğru cevap: A.</strong> <em>Neden doğru:</em> Erzurum'a sadece Doğu'dan delege gelmiş (bölgesel) ama M. Kemal sayesinde ulusal kararlar alınmıştır. <em>Diğer seçenekler:</em> B tamamen ulusal, C ve D tamamen bölgeseldir. <em>Kazanım:</em> Erzurum'un ikili yapısını kavrama. <em>ÖSYM ne ölçüyor:</em> "Bölgesel/Ulusal" tuzağına düşmemeyi sınama. <em>Dikkat:</em> Bu, konunun en popüler tuzağıdır (Bkz. Tuzak 1).</p>
+
+<p><strong>Soru 4 — Doğru cevap: D.</strong> <em>Neden doğru:</em> Manda ve himaye KESİN olarak Sivas'ta reddedilmiştir. <em>Diğer seçenekler:</em> A ilk rettir. <em>Kazanım:</em> İlk-Kesin ayrımını bilme. <em>ÖSYM ne ölçüyor:</em> Dikkatli okuma becerisi. <em>Dikkat:</em> Soru kökündeki "kesin" kelimesini kaçırırsan A şıkkına atlarsın.</p>
+
+<p><strong>Soru 5 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Tüm cemiyetler Sivas'ta Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti (ARMHC) çatısında birleşti. <em>Diğer seçenekler:</em> A isyancı ordudur, C ve D bölgesel cemiyetlerdir. <em>Kazanım:</em> Örgütlenmenin çatı yapısını bilme. <em>ÖSYM ne ölçüyor:</em> Dağınıklıktan birliğe geçişin ismini bilme. <em>Dikkat:</em> ARMHC, ileride Halk Fırkası'nın (CHP) temelini oluşturacaktır.</p>
+
+<p><strong>Soru 6 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Amasya'yı yayınladı, çağrıldı, gitmedi istifa etti, sivil olarak Erzurum'a katıldı. <em>Diğer seçenekler:</em> Kronolojik olarak hatalıdır. <em>Kazanım:</em> Olayların kronolojik sırasını bilme. <em>ÖSYM ne ölçüyor:</em> Sine-i Millet kavramının zamanlamasını. <em>Dikkat:</em> Erzurum ve Sivas'a sivil katıldığını unutma.</p>
+
+<p><strong>Soru 7 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Sivas'ı basmakla görevli kişi Ali Galip'tir. <em>Diğer seçenekler:</em> A sadrazam, D iyi paşadır. <em>Kazanım:</em> Kişi-olay eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> İsimleri karıştırmama. <em>Dikkat:</em> Ali Fuat (atandığı kişi) ile Ali Galip'i (baskına gelen) birbirine karıştırma (Bkz. Hafıza Teknikleri).</p>
+
+<p><strong>Soru 8 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Sivas'ta çıkarılan gazete İrade-i Milliye'dir. <em>Diğer seçenekler:</em> C Ankara'da, A İstanbul'da çıkar. <em>Kazanım:</em> Kongre-Yayın eşleştirmesi. <em>ÖSYM ne ölçüyor:</em> Milli Mücadele basınını tanıma. <em>Dikkat:</em> "İrade-i Sivas" şifresini hatırla.</p>
+
+<p><strong>Soru 9 — Doğru cevap: D.</strong> <em>Neden doğru:</em> Haberleşme kesilince istifa eden sadrazam Damat Ferit'tir. <em>Diğer seçenekler:</em> B yerine gelendir, A ve C farklı dönemlerdedir. <em>Kazanım:</em> İlk siyasi zaferin muhatabını bilme. <em>ÖSYM ne ölçüyor:</em> İstanbul'daki siyasi değişimi takip edebilme. <em>Dikkat:</em> Damat Ferit'in istifası Temsil Heyeti'nin gücünü İstanbul'a kabul ettirmesidir.</p>
+
+<p><strong>Soru 10 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Kurulma fikri ilk kez Amasya'da "milli bir kurul oluşturulmalıdır" şeklinde geçer. <em>Diğer seçenekler:</em> A ilgisiz, C kurulduğu yer, D genişletildiği yerdir. <em>Kazanım:</em> Fikir-eylem ayrımını bilme. <em>ÖSYM ne ölçüyor:</em> Bir kurumun ortaya çıkış sürecini aşamalarıyla bilme. <em>Dikkat:</em> Soru "nerede kuruldu" demiyor, "fikri ilk nerede atıldı" diyor.</p>
+
+<p><strong>Soru 11 — Doğru cevap: B.</strong> <em>Neden doğru:</em> "Tehlikededir" demek "İşte bu yüzden savaşıyoruz" yani gerekçedir. <em>Diğer seçenekler:</em> Yöntem "milletin kararı" kısmıdır. <em>Kazanım:</em> Belge içi analiz (G-A-Y). <em>ÖSYM ne ölçüyor:</em> Cümleden anlam çıkarma. <em>Dikkat:</em> Gerekçe = Nedir bu işin sebebi?</p>
+
+<p><strong>Soru 12 — Doğru cevap: C.</strong> <em>Neden doğru:</em> "Milletin kararı" demek yönetimin millette olması (Cumhuriyet) demektir. <em>Diğer seçenekler:</em> A, B, D tam zıddıdır. <em>Kazanım:</em> Üstü kapalı rejim sinyalini okuyabilme. <em>ÖSYM ne ölçüyor:</em> Milli Egemenlik kavramını cümlede tanıyabilme. <em>Dikkat:</em> Bu, Amasya Genelgesi'nin en çok sorulan yorum sorusudur.</p>
+
+<p><strong>Soru 13 — Doğru cevap: C.</strong> <em>Neden doğru:</em> İstifa demek, rütbeyi bırakıp sivil olarak halka dayanmak demektir. <em>Diğer seçenekler:</em> A, B, D yanlış yorumlardır. <em>Kazanım:</em> "Sine-i Millet" kavramının sosyolojik anlamını kavrama. <em>ÖSYM ne ölçüyor:</em> Kavramın neyi değiştirdiğini bilme. <em>Dikkat:</em> Sine = Kucak. Milletin kucağına (sivilliğe) dönmek.</p>
+
+<p><strong>Soru 14 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Başka bir devletin korumasına (mandasına) girmek bağımsızlığa aykırıdır, reddi bağımsızlığı gösterir. <em>Diğer seçenekler:</em> İlgisizdir. <em>Kazanım:</em> Manda = Bağımsızlıktan taviz denklemini bilme. <em>ÖSYM ne ölçüyor:</em> Terimlerin zıtlığını kurabilme. <em>Dikkat:</em> "Manda" kelimesini daima "Tam Bağımsızlık"ın düşmanı olarak düşün.</p>
+
+<p><strong>Soru 15 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Fikir Amasya'da, bölgesel kurulum Erzurum'da, ulusal genişleme Sivas'tadır. <em>Diğer seçenekler:</em> Eksik veya yanlıştır. <em>Kazanım:</em> Temsil Heyeti'nin gelişim aşamalarını bilme. <em>ÖSYM ne ölçüyor:</em> Süreç analizini kavrama. <em>Dikkat:</em> Erzurum'da kurulan heyetin sadece Doğu'yu temsil ettiğini unutma.</p>
+
+<p><strong>Soru 16 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Birleştirmenin amacı dağınıklığı bitirip tek elden (merkezden) yönetmektir. <em>Diğer seçenekler:</em> Yanlış ve mantıksızdır. <em>Kazanım:</em> Örgütsel stratejiyi kavrama. <em>ÖSYM ne ölçüyor:</em> Yapısal değişikliğin amacını sorulama. <em>Dikkat:</em> "Birlik = Güç" mantığı.</p>
+
+<p><strong>Soru 17 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Atama yapmak hükümetin (yürütme organının) işidir. <em>Diğer seçenekler:</em> A yasa yapmak, D mahkeme kurmaktır. <em>Kazanım:</em> Devlet yetkilerini (Yasama-Yürütme-Yargı) fiillerle eşleştirme. <em>ÖSYM ne ölçüyor:</em> Kuvvetler ayrılığı kavramlarını pratik olayda tanıma. <em>Dikkat:</em> Bu soru tarzı KPSS'nin bankosudur. Atama = Yürütme.</p>
+
+<p><strong>Soru 18 — Doğru cevap: B.</strong> <em>Neden doğru:</em> İstanbul hükümetini devirmek sivil bir heyet için siyasi bir üstünlüktür. <em>Diğer seçenekler:</em> A askeri diyor (yanlış), C ve D mantıksızdır. <em>Kazanım:</em> Olayın siyasi değerini ölçme. <em>ÖSYM ne ölçüyor:</em> Başarının türünü (askeri mi siyasi mi) ayırt etme. <em>Dikkat:</em> Silah patlamadan kazanılan başarılar siyasidir/diplomatiktir.</p>
+
+<p><strong>Soru 19 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Erzurum Doğu'dadır. Doğu Anadolu ve Trabzon (Karadeniz) cemiyetleri toplamıştır. <em>Diğer seçenekler:</em> Coğrafi olarak farklı cemiyetlerdir. <em>Kazanım:</em> Bölgesel kongreyi bölgesel cemiyetlerle eşleştirme. <em>ÖSYM ne ölçüyor:</em> Coğrafya-Cemiyet mantığını kurabilme. <em>Dikkat:</em> Erzurum nerede? Doğu'da. O halde Doğu cemiyetleri toplar.</p>
+
+<p><strong>Soru 20 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Balıkesir-Alaşehir kongreleri savaşma (cephe kurma) konusunda iyi, ancak bağımsızlık felsefesinde (padişaha/mandaya bağlılık) yetersizdir. <em>Diğer seçenekler:</em> Gerçeklerle çelişir. <em>Kazanım:</em> Kongrelerin felsefi olgunluğunu karşılaştırma. <em>ÖSYM ne ölçüyor:</em> İnce detay farkını görebilme. <em>Dikkat:</em> M. Kemal'in katılmadığı bu kongrelerde "Misak-ı Milli" vizyonu eksiktir.</p>
+
+<p><strong>Soru 21 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Çok imza = Kişisellikten çıkarma = Milli harekete dönüştürme. <em>Diğer seçenekler:</em> A, C, D saçma çeldiricilerdir. <em>Kazanım:</em> Ortak imzanın sosyolojik etkisini bilme. <em>ÖSYM ne ölçüyor:</em> Liderin halk/ordu üzerindeki algı yönetimini kavrama. <em>Dikkat:</em> "Kişisellikten çıkarma" kalıbı bu konunun altın anahtarıdır.</p>
+
+<p><strong>Soru 22 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Azınlıklara saldırı olursa İtilaf Devletleri Mondros 7. maddeyi işletip işgal alanını genişletirdi. <em>Diğer seçenekler:</em> Olayın asıl stratejik tehlikesini yansıtmaz. <em>Kazanım:</em> Mondros 7. madde ile Havza uyarısını birbirine bağlama. <em>ÖSYM ne ölçüyor:</em> İleri düzey sebep-sonuç analizi. <em>Dikkat:</em> M. Kemal'in uyarısı insanlıktan ziyade müthiş bir stratejik zekanın ürünüdür.</p>
+
+<p><strong>Soru 23 — Doğru cevap: A.</strong> <em>Neden doğru:</em> Kongreyi Doğu topladı (bölgesel), ama M. Kemal başkan olup tüm yurdu kapsayan kararlar aldırdı (ulusal). <em>Diğer seçenekler:</em> Olayın akışına terstir. <em>Kazanım:</em> Liderin olaya etkisini analiz etme. <em>ÖSYM ne ölçüyor:</em> Bölgeselden ulusala geçişin dinamosunu bilme. <em>Dikkat:</em> M. Kemal olmasaydı Erzurum Kongresi sıradan yerel bir toplantı olarak kalacaktı.</p>
+
+<p><strong>Soru 24 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Bir generalin kendi devletini "görevini yapmamakla" suçlaması devlete (hükümete) karşı ihtilal (isyan) bayrağı açmasıdır. <em>Diğer seçenekler:</em> A, B, D yanlış tanımlamalardır. <em>Kazanım:</em> Amasya Genelgesi'nin hukuki/siyasi karakterini anlama. <em>ÖSYM ne ölçüyor:</em> İhtilal kavramını doğru metne oturtabilme. <em>Dikkat:</em> Amasya bir isyan bildirgesidir.</p>
+
+<p><strong>Soru 25 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Ulusallık (tüm cemiyetlerin birleşmesi), direnişin "tek merkezden yönetilebilir" hale gelmesini, yani orduya/devlete dönüşmesini sağlamıştır. <em>Diğer seçenekler:</em> İlgisiz veya yanlıştır. <em>Kazanım:</em> Sivas'ın en büyük stratejik faydasını sentezleme. <em>ÖSYM ne ölçüyor:</em> Örgütlenme sürecinin nihai hedefini bilme. <em>Dikkat:</em> Sivas = Dağınıklığın bitişi.</p>
+
+<p><strong>Soru 26 — Doğru cevap: C.</strong> <em>Neden doğru:</em> İki kararda da "Milletin kararı/iradesi" vurgusu var. Bu, egemenliğin (yönetimin) saltanattan alınıp millete verileceği (Cumhuriyet) anlamına gelir. <em>Diğer seçenekler:</em> Sadece askeri veya yanlış yorumlardır. <em>Kazanım:</em> İki farklı belgedeki ortak rejim mesajını okuma. <em>ÖSYM ne ölçüyor:</em> Metinler arası (Amasya-Erzurum) sentez yapabilme. <em>Dikkat:</em> "Egemenlik kayıtsız şartsız milletindir" fikrinin ayak sesleridir bunlar.</p>
+
+<p><strong>Soru 27 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Fikir (Amasya) -> Bölgesel kurulum (Erzurum) -> Ulusal kurulum (Sivas). Bu aşamalı bir yöntemdir. <em>Diğer seçenekler:</em> A, C, D M. Kemal'in karakterine ve tarihe zıttır. <em>Kazanım:</em> Liderin yöntem stratejisini kavrama. <em>ÖSYM ne ölçüyor:</em> Olayların akışından karakter/yöntem analizi. <em>Dikkat:</em> Her şeyin zamanı ve zemini beklendiği için "aşamalı"dır.</p>
+
+<p><strong>Soru 28 — Doğru cevap: C.</strong> <em>Neden doğru:</em> Manda savunucuları hain değil, savaşarak yedi düveli yeneceklerine inanmayan (özgüvensiz) aydınlardı. <em>Diğer seçenekler:</em> Yanlış ve sığ yorumlardır. <em>Kazanım:</em> Mandacılığın dönemsel psikolojisini empatiyle anlama. <em>ÖSYM ne ölçüyor:</em> Tarihsel olguyu kendi döneminin şartlarında değerlendirme. <em>Dikkat:</em> O dönemde ABD mandası, yok olmaktan daha iyi bir "kurtuluş reçetesi" olarak görülüyordu.</p>
+
+<p><strong>Soru 29 — Doğru cevap: B.</strong> <em>Neden doğru:</em> Sert Damat Ferit gidip ılımlı Ali Rıza Paşa gelince, İstanbul ile Temsil Heyeti Amasya Görüşmeleri'nde bir araya gelme fırsatı bulmuştur. <em>Diğer seçenekler:</em> A, C, D yanlış zincirlerdir. <em>Kazanım:</em> Bu konu ile sonraki konu (Amasya Görüşmeleri) arasındaki köprüyü kurma. <em>ÖSYM ne ölçüyor:</em> Hükümet değişikliğinin diplomasiye etkisini. <em>Dikkat:</em> Temsil heyeti bu sayede "resmen" tanınacaktır.</p>
+
+<p><strong>Soru 30 — Doğru cevap: D.</strong> <em>Neden doğru:</em> Temsil Heyeti Sivas'ta kaldırılmadı, aksine tüm yurdu kapsayacak şekilde güçlendirildi. Görevi TBMM açılana kadar sürecektir. <em>Diğer seçenekler:</em> Sivas'ın gerçek kararlarıdır. <em>Kazanım:</em> Temsil Heyeti'nin ömrünü bilme. <em>ÖSYM ne ölçüyor:</em> "Hangisi yer almaz" formatında bilgi hatasını bulma. <em>Dikkat:</em> Temsil Heyeti'nin görevi 23 Nisan 1920'de (TBMM açılınca) sona erer.</p>
+`,
   },
   {
     id: 62,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'TBMM\'nin Açılışı ve İç İsyanlar',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Amasya Görüşmeleri, Misak-ı Milli, I. TBMM'nin Özellikleri, İsyanlar, Sevr)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Bir önceki konuda tüm dağınık cemiyetlerin Sivas Kongresi'nde nasıl birleştiğini ve İstanbul'daki Damat Ferit hükümetinin pes edip istifa ettiğini görmüştük. Şimdi filmin en kritik koptuğu yerdeyiz. İpler tamamen Anadolu'nun (Temsil Heyeti'nin) eline geçmiş durumda. İstanbul, Anadolu'yu muhatap almak zorunda kaldı. Bu konumuzda önce Temsil Heyeti ile İstanbul'un aynı masaya oturmasına, ardından Mebusan Meclisi'nin son kez toplanıp o meşhur "Misak-ı Milli" yeminini edişine şahit olacağız.</p>
+<p>Bu yemin, İtilaf Devletleri'ni çıldırtacak ve İstanbul resmen işgal edilecektir. Ancak her şerde bir hayır vardır; İstanbul'un işgali ve meclisin dağıtılması, Mustafa Kemal'e yepyeni, tertemiz ve bağımsız bir meclisi, <strong>TBMM'yi</strong> Ankara'da açma fırsatını verecektir. KPSS, devletin kurulduğu bu kritik evrede TBMM'nin özelliklerini, aldığı yetkileri ve meşruiyetini korumak için isyanlara karşı verdiği mücadeleyi defalarca sormuştur.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu, Milli Mücadele'nin "Devletleşme" evresidir. Artık karşınızda dernekler, cemiyetler veya Temsil Heyeti yoktur; yasasıyla, mahkemesiyle, ordusuyla bağımsız yepyeni bir "Türk Devleti" vardır. ÖSYM, bu yeni devletin "olağanüstü" şartlarda (güçler birliğiyle) nasıl hayatta kaldığını sorgular.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Kısaca özetleyelim: İstanbul'da Damat Ferit gidip ılımlı Ali Rıza Paşa geldi $\rightarrow$ Amasya Görüşmeleri ile Temsil Heyeti'ni resmen tanıdılar $\rightarrow$ Seçimler yapıldı, son Osmanlı Meclisi İstanbul'da toplandı $\rightarrow$ Meclis, Temsil Heyeti'nin isteğiyle "Misak-ı Milli"yi (Milli Sınırları) onayladı $\rightarrow$ İtilaf Devletleri buna kızıp İstanbul'u işgal etti ve meclisi dağıttı $\rightarrow$ Ve Mustafa Kemal "Haklı çıktım, artık meclisi güvenli bir yerde, Ankara'da açıyoruz!" dedi ve 23 Nisan 1920'de TBMM açıldı. Bu muazzam zinciri anladığında, bu konu çocuk oyuncağı olacaktır.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Bu Konu Hangi Sürecin Parçası?</span><p>Bu süreç, ihtilalin tamamlanıp <strong>Otorite Kurma</strong> sürecine geçilmesidir. TBMM açılır açılmaz hem İstanbul Hükümeti'nin hem İtilaf Devletleri'nin hem de eski Kuvâ-yı Milliyecilerin çıkardığı isyanlarla boğuşacak ve otoritesini İstiklal Mahkemeleri ile sağlayacaktır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. TBMM'ye Giden Yol (Köprü Olaylar)</h3>
+<p><strong>Amasya Görüşmeleri (Protokolleri - Ekim 1919):</strong> Temsil Heyeti (Mustafa Kemal) ile İstanbul Hükümeti (Bahriye Nazırı Salih Paşa) Amasya'da masaya oturdu. İstanbul, Temsil Heyeti'nin gücünü kabul etti. <em>En önemli sonucu:</em> İstanbul Hükümeti, Temsil Heyeti'ni ve Milli Mücadele'yi hukuken ve resmen <strong>İLK KEZ</strong> tanımış oldu. Görüşmelerde Mebusan Meclisi'nin yeniden toplanması kararlaştırıldı.</p>
+<p>Mustafa Kemal meclisin Anadolu'da, güvenli bir yerde toplanmasını istese de, Osmanlı anayasası gereği meclis İstanbul'da toplandı. (Mustafa Kemal, tutuklanma riskine karşı İstanbul'a gitmemiştir).</p>
+
+<h3>3.2. Son Osmanlı Mebusan Meclisi ve Misak-ı Milli</h3>
+<p>Meclis toplandığında, Temsil Heyeti yanlısı milletvekilleri <strong>"Felah-ı Vatan" (Vatanın Kurtuluşu)</strong> grubunu kurdular. Bu grup, Erzurum ve Sivas kararlarını meclise taşıyarak 28 Ocak 1920'de <strong>Misak-ı Milli</strong> (Milli Yemin) belgesini onaylattı.</p>
+<p><strong>Misak-ı Milli Nedir?</strong> Milli Mücadele'nin sınırlarının (Kars, Ardahan, Batum, Batı Trakya ve Arap vilayetlerindeki referandum şartlarıyla) çizildiği, siyasi, adli ve mali kapitülasyonların KESİN OLARAK reddedildiği yemin belgesidir. <em>Siyasi bağımsızlık ve toprak bütünlüğü</em> tescillenmiştir.</p>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Neden Rejimden Bahsedilmedi?</span><p>Misak-ı Milli belgesinde "Milli Egemenlik" (Cumhuriyet / Padişahı devirme) ile ilgili hiçbir madde YOKTUR. Sadece "Milli Bağımsızlık" (düşmanı atma) vardır. Çünkü belge padişahın meclisinde onaylanıyordu; rejim tartışması yapmak o an için vatanın kurtuluşunu tehlikeye atardı.</p></div>
+
+<h3>3.3. İstanbul'un Resmen İşgali (16 Mart 1920)</h3>
+<p>Misak-ı Milli'nin kabul edilmesi İtilaf Devletleri'ni adeta çıldırttı. Meclisin böyle bağımsızlıkçı bir karar almasını beklemiyorlardı. Bunun üzerine 16 Mart 1920'de İstanbul'u <strong>resmen</strong> işgal ettiler. Şehitler verdik, Mebusan Meclisi basıldı, milletvekilleri tutuklanıp Malta'ya sürüldü.</p>
+<p>Bu olay, Mustafa Kemal'in "Meclis İstanbul'da toplanmasın, orası güvenli değil" uyarısında ne kadar <strong>ileri görüşlü</strong> olduğunu kanıtlamıştır. Mebusan Meclisi'nin kapatılması, Ankara'da TBMM'nin açılmasının hukuki zeminini hazırlamıştır.</p>
+
+<h3>3.4. I. TBMM'nin Açılışı (23 Nisan 1920)</h3>
+<p>Dağıtılan meclisten kaçabilenler ve Anadolu'da yeni seçilen milletvekillerinin katılımıyla 23 Nisan 1920'de Ankara'da TBMM açıldı. Artık <strong>Temsil Heyeti'nin görevi sona ermiş</strong>, egemenlik kayıtsız şartsız millete geçmiştir.</p>
+<p><strong>24 Nisan Önergesi (Mustafa Kemal'in teklifi):</strong></p>
+<ul>
+<li>Hükümet kurmak zorunludur.</li>
+<li>Geçici bir hükümet başkanı veya padişah vekili atamak doğru değildir. <em>(Yani meclis süreklidir ve kimseden emir almaz).</em></li>
+<li>TBMM'nin üstünde hiçbir güç yoktur. <em>(Padişah yok sayılmıştır).</em></li>
+<li>Meclis, yasama ve yürütme yetkilerini kendinde toplar <em>(Güçler Birliği).</em></li>
+</ul>
+
+<h3>3.5. I. TBMM'nin Temel Özellikleri</h3>
+<ul>
+<li><strong>Kurucu Meclistir:</strong> Yeni bir devlet, yeni bir anayasa (1921 Teşkilat-ı Esasiye), yeni bir ordu kurmuştur.</li>
+<li><strong>İhtilalci Meclistir:</strong> Padişahı, saltanatı ve İstanbul Hükümeti'ni yok saymıştır.</li>
+<li><strong>Güçler Birliği İlkesine Dayanır:</strong> Yasama (kanun yapma), yürütme (uygulama) ve hatta İstiklal Mahkemeleri aracılığıyla Yargı (cezalandırma) yetkisini bizzat meclis kullanır. Amaç: <em>Savaş döneminde hızlı karar alıp uygulayabilmektir.</em></li>
+<li><strong>Meclis Hükümeti Sistemi Vardır:</strong> Meclis başkanı aynı zamanda hükümetin de başkanıdır. Bakanlar (vekiller) meclis içinden tek tek oylanarak seçilir. (Başbakanlık/Cumhurbaşkanlığı kavramı henüz yoktur).</li>
+<li><strong>İnkılapçı DEĞİLDİR:</strong> I. TBMM'nin tek amacı vatanı kurtarmaktır. Yaptığı tek inkılap (yenilik/devrim) "Saltanatı Kaldırmak"tır. Diğer tüm inkılaplar (Harf, Kılık Kıyafet vs.) II. TBMM döneminde yapılacaktır.</li>
+</ul>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Demokrasi vs. Olağanüstü Hal</span><p>Güçler Birliği ilkesi demokrasiye tamamen aykırıdır. Ama savaşın ortasında "demokrasi" değil, "hız" önemlidir. ÖSYM "Neden Güçler Birliği?" diye sorarsa cevap daima "Hızlı karar alıp uygulamak için" olacaktır.</p></div>
+
+<h3>3.6. TBMM'ye Karşı Çıkarılan İç İsyanlar</h3>
+<p>Yeni kurulan devleti boğmak için yurdun dört bir yanında isyanlar patlak verdi. Bu isyanları 4 grupta inceleriz:</p>
+<ul>
+<li><strong>1. Doğrudan İstanbul Hükümeti'nin Çıkardığı İsyanlar:</strong> Amacı TBMM'yi yok edip boğazları korumaktır. <strong>Kuvâ-yı İnzibatiye (Halifelik Ordusu)</strong> ve <strong>Ahmet Anzavur</strong> isyanlarıdır.</li>
+<li><strong>2. İstanbul Hükümeti + İtilaf Devletleri'nin Ortak Çıkardıkları:</strong> En çok uğraştıran isyanlardır. Bolu, Düzce, Hendek, Adapazarı, Yozgat (Çapanoğulları), Konya (Delibaş Mehmet), Afyon (Çopur Musa) gibi Anadolu'nun dört bir yanına yayılan isyanlardır. İngiliz ajanlarının dağıttığı fetvalarla kışkırtılmışlardır.</li>
+<li><strong>3. Eski Kuvâ-yı Milliyecilerin İsyanları:</strong> Başlangıçta kahraman olup düşmanla savaşan, ancak TBMM "Düzenli Ordu"yu kurunca emir altına girmek istemeyip isyan edenlerdir. En önemlileri <strong>Çerkez Ethem</strong> ve <strong>Demirci Mehmet Efe</strong>'dir.</li>
+<li><strong>4. Azınlık İsyanları:</strong> Rum ve Ermenilerin çıkardığı, devlet kurmayı amaçlayan bölücü isyanlardır.</li>
+</ul>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Kuvâ-yı İnzibatiye Tuzağı</span><p>"Kuvâ-yı Milliye" ne kadar vatansever bir kavramsa, "Kuvâ-yı İnzibatiye" o kadar hain bir ordunun (Halifelik Ordusu'nun) ismidir. İsim benzerliği tuzağına düşme! İnzibatiye, İstanbul Hükümeti'nin Kuvâ-yı Milliye'yi yok etmek için İngiliz desteğiyle kurduğu ordudur.</p></div>
+
+<h3>3.7. TBMM'nin İsyanlara Karşı Aldığı Önlemler</h3>
+<p>TBMM bu isyanları bastırmak için otoritesini çok sert bir şekilde tesis etmiştir:</p>
+<ul>
+<li><strong>Hıyanet-i Vataniye Kanunu:</strong> TBMM'ye karşı ayaklananların vatan haini sayılacağını belirten yasa çıkarıldı. (Yasama yetkisinin kullanılması).</li>
+<li><strong>İstiklal Mahkemeleri:</strong> İsyan edenleri yargılamak için üyeleri doğrudan milletvekilleri arasından seçilen seyyar mahkemeler kuruldu. (Yargı yetkisinin bizzat meclis tarafından kullanılması).</li>
+<li><strong>Karşı Fetva:</strong> İstanbul'daki Şeyhülislamın "Milli mücadeleciler haindir" fetvasına karşılık, Ankara Müftüsü Rıfat Börekçi'den "Milli mücadele kutsaldır" fetvası alındı.</li>
+<li><strong>Anadolu Ajansı (AA):</strong> Halka doğru haber vermek ve İngiliz yalanlarını çürütmek için (Halide Edip ve Yunus Nadi'nin çabalarıyla) kuruldu.</li>
+</ul>
+
+<h3>3.8. Sevr Barış Antlaşması (10 Ağustos 1920)</h3>
+<p>Anadolu iç isyanlarla boğuşurken, İtilaf Devletleri Osmanlı'ya Sevr Antlaşması'nı imzalattı (Saltanat Şurası onayladı, sadece Topçu Feriki Rıza Paşa imzalamadı). Sevr, Türk milletine yaşama hakkı tanımayan bir ölüm fermanıdır. Ancak Mebusan Meclisi kapalı olduğu için meclis onayından geçmemiştir, bu yüzden <strong>"hukuken geçersiz" (ölü doğmuş)</strong> bir antlaşmadır. TBMM bu antlaşmayı imzalayanları vatan haini ilan etmiştir.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Misak-ı Milli neden İstanbul'un işgaline yol açtı?</strong> Çünkü İtilaf Devletleri kukla bir meclis beklerken, karşılarında tam bağımsızlık yemini eden vatansever bir meclis (Felah-ı Vatan grubu) buldular.</li>
+<li><strong>Mustafa Kemal neden İstiklal Mahkemeleri'ni kurdu?</strong> Hıyanet-i Vataniye kanununu uygulamak, asker kaçaklarını önlemek ve otorite boşluğu yaratmamak için. Yargının meclise bağlı olması, "Güçler Birliği"nin en sert uygulamasıdır.</li>
+<li><strong>Çerkez Ethem neden isyan etti?</strong> Kendi başına buyruk, gerilla taktiğiyle savaşmaya alışmış bir efeydi. Düzenli ordunun emir-komuta zincirine ve disiplinine girmeyi reddettiği için (I. İnönü Savaşı öncesinde) isyan etti.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Açıklama (Önem)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ekim 1919</td>
+<td>Amasya Görüşmeleri</td>
+<td>Temsil Heyeti'nin İstanbul tarafından resmen ve hukuken tanınması.</td>
+</tr>
+<tr>
+<td>Ocak 1920</td>
+<td>Misak-ı Milli'nin İlanı</td>
+<td>Son Mebusan Meclisi'nin bağımsızlık ve sınır yeminini etmesi.</td>
+</tr>
+<tr>
+<td>16 Mart 1920</td>
+<td>İstanbul'un İşgali</td>
+<td>Misak-ı Milli'ye tepki, meclisin dağıtılması.</td>
+</tr>
+<tr>
+<td>23 Nisan 1920</td>
+<td>I. TBMM'nin Açılışı</td>
+<td>Yeni Türk Devleti'nin resmen kurulması. Temsil Heyeti'nin görevinin bitmesi.</td>
+</tr>
+<tr>
+<td>Ağustos 1920</td>
+<td>Sevr Antlaşması</td>
+<td>Hukuken geçersiz (ölü doğmuş) antlaşma.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Temsil Heyeti ile I. TBMM Karşılaştırması</h3>
+<table>
+<thead>
+<tr>
+<th>Özellik</th>
+<th>Temsil Heyeti</th>
+<th>I. TBMM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Niteliği</strong></td>
+<td>Geçici bir yürütme organıdır (Sivil/Cemiyet tabanlı).</td>
+<td>Sürekli ve meşru bir devlet/hükümet aygıtıdır.</td>
+</tr>
+<tr>
+<td><strong>Kuruluş / Bitiş</strong></td>
+<td>Erzurum'da kuruldu, TBMM açılınca görevi bitti.</td>
+<td>23 Nisan 1920'de kuruldu.</td>
+</tr>
+<tr>
+<td><strong>Uluslararası Durumu</strong></td>
+<td>Tanınmak için çabaladı (Amasya'da başardı).</td>
+<td>Uluslararası antlaşmalar imzalayan (Gümrü, Moskova) muhatap devlettir.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Amasya Görüşmeleri'nde Temsil Heyeti'nin Hukuken Tanınması:</strong> Salih Paşa ile Mustafa Kemal'in görüşmesi, İstanbul'un Anadolu'yu "eşiti" olarak masada kabul etmesidir.</li>
+<li><strong>Felah-ı Vatan Grubu:</strong> Mebusan meclisinde kurulan ve Misak-ı Milli'yi kabul ettiren gruptur. (Rauf Orbay öncülüğündedir).</li>
+<li><strong>Misak-ı Milli'de Referandum İstenen Yerler:</strong> Kars, Ardahan, Batum (Elviye-i Selase), Batı Trakya ve Arap vilayetleri. (Buralardaki halkın Türk/Müslüman olduğuna güvenildiği için referandum istenmiştir).</li>
+<li><strong>Güçler Birliği'nin Amacı:</strong> Savaş şartlarında "hızlı karar almak ve hızla uygulamak".</li>
+<li><strong>Meclis Hükümeti Sistemi:</strong> Başbakan yoktur. Bakanlar kurulu meclis içinden oylamayla seçilir ve meclis başkanı hükümetin de başkanıdır. Devlet başkanlığı sorunu henüz (Cumhuriyet ilan edilene kadar) çözülmemiştir.</li>
+<li><strong>Rıfat Börekçi:</strong> Milli mücadeleye destek veren, Ankara müftüsü olan ve ileride ilk Diyanet İşleri Başkanı olacak olan kıymetli şahsiyettir.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Haklı Çıkma" Vurgusu</span><p>Mustafa Kemal'in ileri görüşlülüğünü (tahminlerinin tutmasını) soran sorularda en meşhur cevap: "Meclis İstanbul'da toplanırsa İtilaf devletleri rahat bırakmaz" demesi ve 16 Mart'ta İstanbul'un işgal edilerek meclisin gerçekten dağıtılmasıdır.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>Misak-ı Milli'de "Milli Egemenlik" (Cumhuriyet) var sanma tuzağı.</strong> Misak-ı Milli sadece vatanın sınırları, kapitülasyonlar ve tam bağımsızlık (dış düşmana karşı) ile ilgilidir. İşin içinde Padişahı devirmek, yeni bir rejim kurmak, cumhuriyeti ilan etmek gibi "egemenlik" vurguları KESİNLİKLE yoktur (Çünkü padişahın meclisinde onaylanmıştır).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>Kuvâ-yı İnzibatiye (İnzibat Güçleri) ismi tuzağı.</strong> Kuvâ-yı Milliye ile isim benzerliğine aldanma. Kuvâ-yı İnzibatiye, İngiliz destekli İstanbul Hükümeti'nin Kuvâ-yı Milliye'yi (milli mücadeleyi) yok etmek, TBMM'yi boğmak için kurduğu "Halifelik Ordusu"dur ve isyancıdır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>I. TBMM'yi "İnkılapçı" sanma tuzağı.</strong> I. TBMM bir "Savaş Meclisi"dir. Vatanı kurtarmaktan başka bir şeye vakti (ve ortak görüşü) yoktur. Harf İnkılabı, Kılık Kıyafet, Halifeliğin Kaldırılması gibi yeniliklerin HİÇBİRİ I. TBMM döneminde yapılmamıştır. I. TBMM'nin yaptığı TEK İNKILAP "Saltanatı Kaldırmak"tır (1 Kasım 1922).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>Güçler Birliğini "Antidemokratik" olduğu için eleştirme tuzağı.</strong> Evet, yasama, yürütme ve yargının tek elde (mecliste) toplanması normal şartlarda demokrasiye aykırıdır. Ancak ÖSYM sana "bu durum neyin göstergesidir?" diye sorduğunda cevap "antidemokratik olması" değil, "savaş şartlarında <strong>hızlı karar alıp uygulama zorunluluğu</strong>"dur.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 5</span><p><strong>Sevr'in hukuken geçerli sanılması.</strong> Sevr Barış Antlaşması ölü doğmuş bir projedir. Çünkü Osmanlı Anayasası'na (Kanun-i Esasi) göre bir antlaşmanın geçerli olabilmesi için Mebusan Meclisi tarafından onaylanması şarttır. Mebusan Meclisi (İstanbul işgal edildiği için) kapalı olduğundan Sevr onaylanamamış, <strong>hukuken geçersiz</strong> kalmıştır.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "K-A-B-A-R" Şifresi (Misak-ı Milli Referandumları)</span><p>Misak-ı Milli'de nerelerde referandum (halk oylaması) istendi? Şifremiz: KABAR (Kendine güvenip referandum isteyen yerler göğsünü KABAR'tır).<br>
+<strong>K</strong>ars, <strong>A</strong>rdahan, <strong>B</strong>atum, <strong>A</strong>rap Vilayetleri, <strong>R</strong>umeli (Batı Trakya).</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 İsyanlardaki "Ç-D" (Kahramanken isyan edenler)</span><p>Önce Yunanla savaşıp, sonra düzenli orduya (emir altına) girmemek için TBMM'ye isyan eden efe'ler:<br>
+<strong>Ç</strong>erkez Ethem ve <strong>D</strong>emirci Mehmet Efe (ÇD). İkisi de Kuvâ-yı Milliyeci liderlerdir.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Amasya Görüşmeleri:</strong> İstanbul (Salih Paşa) ile Temsil Heyeti masaya oturdu. İstanbul, Anadolu'yu (Temsil Heyeti'ni) hukuken ve resmen ilk kez tanıdı.<br>
+• <strong>Misak-ı Milli:</strong> Son Osmanlı Mebusan Meclisi'nde "Felah-ı Vatan" grubu aracılığıyla kabul edilen bağımsızlık ve sınır yeminidir.<br>
+• <strong>İstanbul'un İşgali (16 Mart 1920):</strong> İtilaf Devletleri Misak-ı Milli'ye kızarak İstanbul'u resmen işgal edip Mebusan Meclisi'ni dağıttı.<br>
+• <strong>TBMM'nin Açılışı (23 Nisan 1920):</strong> Meclisin kapanmasıyla Temsil Heyeti'nin görevi bitti ve Ankara'da TBMM açılarak Yeni Türk Devleti kuruldu.<br>
+• <strong>I. TBMM Özellikleri:</strong> Kurucu, ihtilalci, saltanatı kaldıran, savaş meclisidir. Hızlı karar almak için "Güçler Birliği" ve "Meclis Hükümeti" sistemini benimsemiştir.<br>
+• <strong>İsyanlar ve Önlemler:</strong> İstanbul Hükümeti, İtilaf Devletleri ve bazı eski efeler (Çerkez Ethem) TBMM'yi yok etmek için isyan etti. TBMM bunlara karşı Hıyanet-i Vataniye Kanunu'nu çıkardı, İstiklal Mahkemelerini kurdu ve Rıfat Börekçi'den karşı fetva aldı.<br>
+• <strong>Sevr Antlaşması:</strong> İsyanlar sürerken İtilaf Devletleri'nin dayattığı paçavradır. Meclis onayı olmadığı için hukuken geçersizdir (Ölü doğmuştur).
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Temsil Heyeti'nin resmen tanınması:</strong> Amasya Görüşmeleri.<br>
+• <strong>Misak-ı Milli'yi kabul eden meclis:</strong> Son Osmanlı Mebusan Meclisi.<br>
+• <strong>Misak-ı Milli'nin içeriği:</strong> Sınırlar, bağımsızlık, kapitülasyonların reddi (Egemenlik YOK).<br>
+• <strong>İstanbul'un işgal bahanesi:</strong> Misak-ı Milli'nin ilanı.<br>
+• <strong>TBMM'nin sistemleri:</strong> Güçler Birliği (hız için) ve Meclis Hükümeti sistemi.<br>
+• <strong>TBMM'nin Yargı yetkisini kullanması:</strong> İstiklal Mahkemeleri.<br>
+• <strong>Kuvâ-yı İnzibatiye:</strong> İstanbul Hükümetinin çıkardığı Halifelik ordusu isyanı.<br>
+• <strong>Düzenli orduya katılmak istemeyen isyancılar:</strong> Çerkez Ethem, Demirci Mehmet Efe.<br>
+• <strong>Sevr'in geçersiz olma nedeni:</strong> Mebusan meclisinden onay almaması (Kanuni Esasi'ye aykırılık).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Temsil Heyeti'nin İstanbul Hükümeti tarafından hukuken ve resmen tanındığı <strong>ilk gelişme</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Havza Genelgesi &nbsp; B) Sivas Kongresi &nbsp; C) Amasya Görüşmeleri (Protokolleri) &nbsp; D) TBMM'nin Açılışı</p>
+<p><strong>Çözüm:</strong> Temsil Heyeti'nin (Mustafa Kemal'in) İstanbul Hükümeti temsilcisi Salih Paşa ile resmi olarak aynı masaya oturup anlaşması Amasya Görüşmeleri'nde gerçekleşmiş ve Temsil Heyeti resmen tanınmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Son Osmanlı Mebusan Meclisi'nde, Erzurum ve Sivas Kongresi kararlarının ruhuna uygun olarak vatanın bütünlüğünü ve bağımsızlığını savunan "Felah-ı Vatan" grubu önderliğinde kabul edilen tarihi belge aşağıdakilerden hangisidir?</p>
+<p>A) Teşkilat-ı Esasiye &nbsp; B) Misak-ı Milli &nbsp; C) Amasya Genelgesi &nbsp; D) Hıyanet-i Vataniye Kanunu</p>
+<p><strong>Çözüm:</strong> Mebusan Meclisi'nde onaylanan "Milli Yemin" belgesinin adı Misak-ı Milli'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>İtilaf Devletleri'nin 16 Mart 1920'de İstanbul'u <strong>resmen</strong> işgal etmesinin ve Mebusan Meclisi'ni dağıtmasının en önemli nedeni (tetikleyicisi) aşağıdakilerden hangisidir?</p>
+<p>A) TBMM'nin Ankara'da açılmış olması &nbsp; B) Mebusan Meclisi'nde "Misak-ı Milli" kararlarının kabul edilmesi &nbsp; C) Sevr Antlaşması'nın imzalanması &nbsp; D) Çerkez Ethem İsyanı</p>
+<p><strong>Çözüm:</strong> İtilaf devletleri, meclisten kendi lehlerine barış kararları çıkmasını beklerken meclisin Misak-ı Milli'yi (tam bağımsızlık ve sınırları) kabul etmesi üzerine öfkeyle İstanbul'u işgal edip meclisi dağıtmışlardır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>I. TBMM döneminde "Yasama" (kanun yapma) ve "Yürütme" (kanunu uygulama) yetkilerinin doğrudan mecliste toplanması (Güçler Birliği) ilkesinin benimsenmesinin <strong>temel amacı</strong> nedir?</p>
+<p>A) Saltanatı hemen kaldırmak &nbsp; B) İtilaf devletleriyle uzlaşmak &nbsp; C) Savaş koşullarında olağanüstü durumlara karşı çok daha <strong>hızlı karar alıp uygulayabilmek</strong> &nbsp; D) Çok partili hayata geçmek</p>
+<p><strong>Çözüm:</strong> Güçler ayrılığı demokrasilerde iyidir ama yavaştır. Ölüm-kalım savaşında yasamanın da yürütmenin de aynı çatı altında olması hızı getirir. Amaç hızlı karar almak ve uygulamaktır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Temsil Heyeti'nin <strong>görevinin tamamen sona erdiği</strong> ve egemenliğin kayıtsız şartsız yeni devlet aygıtına geçtiği tarihi olay hangisidir?</p>
+<p>A) Sivas Kongresi &nbsp; B) Cumhuriyet'in İlanı &nbsp; C) TBMM'nin Açılışı (23 Nisan 1920) &nbsp; D) Mudanya Ateşkesi</p>
+<p><strong>Çözüm:</strong> Temsil heyeti (bir cemiyet mantığıyla kurulan geçici organ), yerini kalıcı, resmi ve meşru devlet otoritesi olan TBMM'ye (23 Nisan 1920) bırakarak tarih sahnesinden çekilmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Başlangıçta Yunan kuvvetlerine karşı başarıyla mücadele eden (Kuvâ-yı Milliye lideri olan), ancak daha sonra TBMM'nin kurduğu düzenli ordunun emrine girmeyi reddederek I. İnönü Savaşı sırasında TBMM'ye karşı <strong>isyan eden</strong> lider aşağıdakilerden hangisidir?</p>
+<p>A) Yörük Ali Efe &nbsp; B) Ahmet Anzavur &nbsp; C) Çerkez Ethem &nbsp; D) Ali Fuat Paşa</p>
+<p><strong>Çözüm:</strong> Kahramanken, düzenli ordunun disiplinine girmek istemediği için isyan edip hain durumuna düşen en meşhur lider Çerkez Ethem'dir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>TBMM'ye karşı çıkarılan isyanları bastırmak, asker kaçaklarını engellemek ve olağanüstü durumları yargılamak amacıyla TBMM üyeleri (milletvekilleri) arasından seçilen hakimlerin görev yaptığı mahkemelere ne ad verilir?</p>
+<p>A) Divan-ı Harp &nbsp; B) Nizamiye Mahkemeleri &nbsp; C) İstiklal Mahkemeleri &nbsp; D) Yargıtay</p>
+<p><strong>Çözüm:</strong> Olağanüstü şartlarda kurulan ve üyeleri milletvekili olduğu için kararları kesin olan seyyar mahkemeler İstiklal Mahkemeleridir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Aşağıdakilerden hangisi doğrudan İstanbul Hükümeti tarafından TBMM'yi yok etmek ve boğazların çevresini korumak amacıyla kurulan (desteklenen) isyan hareketlerinden biridir?</p>
+<p>A) Çerkez Ethem İsyanı &nbsp; B) Kuvâ-yı İnzibatiye (Halifelik Ordusu) &nbsp; C) Demirci Mehmet Efe İsyanı &nbsp; D) Pontus Rum İsyanı</p>
+<p><strong>Çözüm:</strong> Kuvâ-yı İnzibatiye, doğrudan İstanbul Hükümeti'nin İngiliz silahlarıyla donatıp Anadolu'nun üstüne sürdüğü isyancı Halifelik ordusudur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Sevr Barış Antlaşması'nın (10 Ağustos 1920) <strong>hukuken geçersiz (ölü doğmuş)</strong> sayılmasının temel nedeni aşağıdakilerden hangisidir?</p>
+<p>A) İtilaf devletlerinin antlaşmayı imzalamaması &nbsp; B) Padişahın antlaşmaya şiddetle karşı çıkması &nbsp; C) Osmanlı Anayasasına göre barış antlaşmalarının onaylanması gereken Osmanlı Mebusan Meclisi'nin o tarihte kapalı olması &nbsp; D) ABD'nin antlaşmayı veto etmesi</p>
+<p><strong>Çözüm:</strong> Kanun-i Esasi'ye (anayasa) göre uluslararası antlaşmalar Mebusan Meclisi onayından geçmek zorundadır. Meclis 16 Mart'ta kapatıldığı için onay makamı kalmamış, antlaşma hukuken boşlukta (ölü) kalmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Milli Mücadele döneminde İstanbul'daki Şeyhülislam'ın fetvasına karşılık, Milli Mücadelenin haklılığını ve kutsallığını savunan "Karşı Fetva"yı hazırlayan Ankara Müftüsü (ve ileride ilk Diyanet İşleri Başkanı) kimdir?</p>
+<p>A) Mehmet Akif Ersoy &nbsp; B) Rıfat Börekçi &nbsp; C) Halide Edip Adıvar &nbsp; D) Kazım Karabekir</p>
+<p><strong>Çözüm:</strong> Anadolu hareketinin (Kuvâ-yı Milliye'nin) dini meşruiyetini sağlayan ve Ankara fetvasını yayınlayan kişi Rıfat Börekçi'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Mustafa Kemal, Son Osmanlı Mebusan Meclisi'nin İstanbul'da değil, Anadolu'nun güvenli bir yerinde toplanmasını ısrarla savunmuş ancak bunu padişaha ve sadrazama kabul ettirememiştir. <br>Buna göre, Mustafa Kemal'in bu ısrarında <strong>haklı çıktığını</strong> kanıtlayan tarihi olay aşağıdakilerden hangisidir?</p>
+<p>A) Mecliste "Felah-ı Vatan" grubunun kurulması &nbsp; B) Misak-ı Milli'nin kabulü sonrası İtilaf Devletleri'nin İstanbul'u işgal edip meclisi basması &nbsp; C) TBMM'nin açılması &nbsp; D) Amasya Görüşmelerinin yapılması</p>
+<p><strong>Çözüm:</strong> Mustafa Kemal "Orada rahat çalışamazsınız, düşman donanmasının namluları altında meclis olmaz" demiştir. Nitekim Misak-ı Milli yayınlanınca meclis basılmış ve dağıtılmıştır. Bu olay onun haklılığını (ileri görüşlülüğünü) kanıtlar. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Aşağıdakilerden hangisi Misak-ı Milli belgesinin içerdiği kararlardan biri <strong>değildir</strong>?</p>
+<p>A) Milli ve bölünmez sınırların (Misak-ı Milli sınırlarının) belirlenmesi &nbsp; B) Siyasi, adli ve mali gelişmemizi engelleyen her türlü kapitülasyonun reddedilmesi &nbsp; C) Arap vilayetleri, Batı Trakya ve Elviye-i Selase'de halk oylaması (referandum) yapılması &nbsp; D) Saltanatın derhal kaldırılarak Cumhuriyet rejiminin ilan edilmesi</p>
+<p><strong>Çözüm:</strong> Misak-ı Milli sadece vatanın sınırları ve dış bağımsızlıkla ilgilidir (Milli Bağımsızlık). Rejim değişikliği, padişahı devirme veya cumhuriyet ilanı (Milli Egemenlik) gibi konular Misak-ı Milli'de yer almaz. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>I. TBMM'de uygulanan "Meclis Hükümeti Sistemi"nin <strong>en belirgin özelliği</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Bakanların, meclis içinden ve tek tek meclis oylamasıyla seçilmesi, meclis başkanının aynı zamanda hükümetin de başkanı olması &nbsp; B) Çok partili siyasi hayata tam anlamıyla geçilmiş olması &nbsp; C) Cumhurbaşkanının meclisi dilediğinde feshedebilmesi &nbsp; D) Kuvvetler ayrılığı ilkesinin kusursuz uygulanması</p>
+<p><strong>Çözüm:</strong> Meclis hükümeti sisteminde "başbakan" yoktur. Meclis ne derse o olur. Bakanlar tek tek oylanır ve hükümet başkanı meclis başkanıdır. Bu sistem Cumhuriyet'in ilanına (1923) kadar sürecektir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>23 Nisan 1920'de açılan I. TBMM'nin özellikleri arasında aşağıdakilerden hangisi <strong>yer almaz</strong>?</p>
+<p>A) Teşkilat-ı Esasiye anayasasını hazırladığı için "Kurucu Meclis"tir. &nbsp; B) Saltanatı ve padişahlık makamını yok saydığı için "İhtilalci Meclis"tir. &nbsp; C) Bağımsızlığı sağlamak için tüm gücü kendinde topladığından "Olağanüstü Yetkili Meclis"tir. &nbsp; D) Harf Devrimi, Kılık Kıyafet Kanunu gibi pek çok batılılaşma yeniliği yaptığı için son derece "İnkılapçı bir Meclis"tir.</p>
+<p><strong>Çözüm:</strong> I. TBMM "İnkılapçı" (yenilikçi) bir meclis değildir. Ölüm-kalım savaşı verdiği için inkılap yapmaya vakti de, meclisteki muhafazakar yapısı gereği ortak bir görüşü de yoktur. Yaptığı TEK inkılap saltanatı kaldırmaktır. Diğer tüm inkılaplar savaş bittikten sonra II. TBMM'ye aittir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>TBMM'ye karşı çıkarılan isyanların sonuçları arasında aşağıdakilerden hangisi <strong>bulunmaz</strong>?</p>
+<p>A) Milli Mücadele'nin kazanılmasının gecikmesi ve uzaması &nbsp; B) Yunan ordusunun Anadolu'da daha rahat ilerleme fırsatı bulması &nbsp; C) Kardeş kanı dökülmesi ve silah/cephane israfı &nbsp; D) İstiklal Mahkemeleri'nin kaldırılarak sivil mahkemelere dönülmesi</p>
+<p><strong>Çözüm:</strong> İsyanlar İstiklal Mahkemelerini kaldırmamış, aksine İstiklal Mahkemelerinin KURULMASINA neden olmuştur. İsyanlar direnişi yavaşlatmış ve kaynak israfına neden olmuştur. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>İstiklal Mahkemeleri üyelerinin dışarıdan bağımsız hakimlerden değil de, bizzat <strong>TBMM içindeki milletvekilleri arasından seçilmesi</strong> kavramsal olarak neyin kanıtıdır?</p>
+<p>A) Meclisin sadece yasama yetkisine sahip olduğunun &nbsp; B) Meclisin aynı zamanda YARGI yetkisini de kullandığının (Güçler birliği) &nbsp; C) Milletvekillerinin tamamının hukuk mezunu olduğunun &nbsp; D) Demokrasinin kusursuz işlediğinin</p>
+<p><strong>Çözüm:</strong> Milletvekilinin mahkeme kürsüsüne çıkıp hakimlik yapması (ve adam asması), Yargı (cezalandırma) gücünün bağımsız mahkemelerde değil, doğrudan meclisin elinde olduğunun kanıtıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Mustafa Kemal'in I. TBMM'ye sunduğu 24 Nisan Önergesi'nde "Geçici olarak bir hükümet başkanı tanımak ya da padişah vekili atamak doğru değildir." maddesi yer almıştır. <br>Bu maddenin amacı aşağıdakilerden hangisidir?</p>
+<p>A) TBMM'nin geçici değil, "sürekli (kalıcı)" bir kurum olduğunu ve hiçbir güce (padişaha) boyun eğmeyeceğini vurgulamak &nbsp; B) İtilaf devletleriyle uzlaşma yolları aramak &nbsp; C) Halifeliği hemen kaldırmak &nbsp; D) Mustafa Kemal'i ömür boyu cumhurbaşkanı seçmek</p>
+<p><strong>Çözüm:</strong> Eğer "geçici" bir vekil atansaydı, meclis bağımsızlığını yitirir ve padişahın gölgesinde kalırdı. "Geçici değiliz ve padişah vekili istemiyoruz" demek, meclisin bağımsızlığını ve sürekliliğini kanıtlar. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Aşağıdaki isyanlardan hangisinin çıkış nedeni diğerlerinden <strong>farklıdır</strong>?</p>
+<p>A) Çerkez Ethem İsyanı &nbsp; B) Ahmet Anzavur İsyanı &nbsp; C) Demirci Mehmet Efe İsyanı &nbsp; D) Yörük Ali Efe İsyanı (Sorudaki Çeldirici, Yörük Ali hiç isyan etmemiştir, ama Çerkez Ethem ve Demirci Mehmet Efe bağlamında değerlendiriniz. Doğrusu: A ve C eski efelerdir. B ise İstanbul Hükümeti'nindir.)</p>
+<p>Yeniden düzenlenmiş seçenekler:<br>A) Çerkez Ethem &nbsp; B) Demirci Mehmet Efe &nbsp; C) Yozgat Çapanoğulları &nbsp; D) Kuvâ-yı İnzibatiye (Bu soru formatını düzeltelim: A ve B düzenli orduya katılmamak için çıkan isyanlardır, D ise İstanbul hükümetinin çıkardığıdır. Klasik ÖSYM formatı şudur: "Hangisi düzenli orduya katılmamak için çıkmıştır? Cevap Çerkez Ethem.)</p>
+<p><strong>Düzeltilmiş Soru 18:</strong> TBMM kurulduktan sonra çıkan isyanlardan hangisi, başlangıçta milli mücadeleye hizmet ettiği halde sırf "düzenli ordunun emir-komuta zincirine girmeyi reddettiği için" çıkmıştır?</p>
+<p>A) Ahmet Anzavur &nbsp; B) Pontus Rum &nbsp; C) Çerkez Ethem &nbsp; D) Kuvâ-yı İnzibatiye</p>
+<p><strong>Çözüm:</strong> Çerkez Ethem, başlangıçta Yozgat isyanı dahil birçok isyanı bastıran Kuvâ-yı Milliye (Kuvâ-yı Seyyare) lideriydi. Ancak düzenli orduya (İsmet Paşa'nın emrine) girmeyi reddettiği için hain konumuna düşerek isyan etmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Aşağıdakilerden hangisi TBMM'nin iç isyanlara karşı aldığı <strong>askeri/idari önlemlerden biri olmayıp</strong>, doğrudan <strong>iletişim ve propaganda (halkla ilişkiler)</strong> alanında aldığı bir önlemdir?</p>
+<p>A) Hıyanet-i Vataniye Kanunu'nun çıkarılması &nbsp; B) İstiklal Mahkemeleri'nin kurulması &nbsp; C) Anadolu Ajansı'nın (AA) kurulması &nbsp; D) Düzenli ordunun teşkil edilmesi</p>
+<p><strong>Çözüm:</strong> Halkın İstanbul Hükümeti'nin ve İngilizlerin yalan haberleriyle zehirlenmesini engellemek ve milli mücadelenin haklılığını doğru bir iletişimle duyurmak için Anadolu Ajansı kurulmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Amasya Görüşmeleri'nde (Protokolleri) alınan kararların çok büyük bir kısmı İstanbul Hükümeti tarafından reddedilmiş (uygulanmamıştır). İstanbul Hükümeti'nin bu protokollerden uyguladığı (kabul ettiği) <strong>tek somut karar</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Sivas Kongresi kararlarının kabul edilmesi &nbsp; B) Mebusan Meclisi'nin yeniden toplanması (seçimlerin yapılması) &nbsp; C) İtilaf devletleriyle Temsil Heyeti'nin onayladığı bir barış yapılması &nbsp; D) Anadolu'ya silah gönderilmesi</p>
+<p><strong>Çözüm:</strong> Salih Paşa, Amasya kararlarını İstanbul'a kabul ettiremezse istifa edeceğine söz vermişti. Çoğu kararı kabul ettiremedi ama "Mebusan Meclisi'nin toplanması ve seçimlerin yapılması" kararını padişaha kabul ettirdi. Uygulanan tek somut madde budur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>I. TBMM'de alınan "Meclisin üstünde hiçbir güç yoktur" kararı, hukuki ve siyasi olarak aşağıdakilerden hangisinin <strong>doğrudan</strong> yok sayıldığının (reddedildiğinin) göstergesidir?</p>
+<p>A) Kuvâ-yı Milliye birliklerinin &nbsp; B) Azınlık haklarının &nbsp; C) Osmanlı Padişahı (Saltanat makamı) ve İstanbul Hükümeti'nin &nbsp; D) İtilaf devletlerinin teknik gücünün</p>
+<p><strong>Çözüm:</strong> O güne kadar yüzyıllarca en üstün güç Padişah (Saltanat) idi. Meclis "Benim üstümde güç yoktur" diyerek Padişahın otoritesini sıfırlamış, ihtilalci (devrimci) bir adım atmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Misak-ı Milli'de "Milli ve ekonomik gelişmemizi engelleyen her türlü siyasi, adli ve mali sınırlamalar (kapitülasyonlar) kaldırılmalıdır." maddesi yer almıştır. <br>Bu madde Milli Mücadele'nin sadece askeri değil, aynı zamanda hangi alanda da <strong>"tam bağımsızlığı"</strong> hedeflediğinin en açık kanıtıdır?</p>
+<p>A) Yönetim şekli (Rejim) &nbsp; B) Eğitim sistemi &nbsp; C) Ekonomik bağımsızlık &nbsp; D) Dini örgütlenme</p>
+<p><strong>Çözüm:</strong> Mali (ekonomik) sınırlamaların, yani kapitülasyonların reddedilmesi, Türkiye'nin sadece toprak olarak değil, "ekonomik" olarak da tam bağımsız olacağının açık manifestosudur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>TBMM'ye karşı isyan edenlerden Yozgatlı Çapanoğulları veya Konya'daki Delibaş Mehmet gibi isyancılar yargılanıp cezalandırılırken, TBMM neden İngilizlerin veya Fransızların desteklediği (işgalci) güçleri İstiklal Mahkemelerinde <strong>yargılamamıştır</strong>?</p>
+<p>A) İtilaf güçlerinin mahkemeyi tanımamasından dolayı &nbsp; B) Yargı yetkisinin sadece ülke içindeki vatandaşlara (hıyanet-i vataniye kapsamında) uygulanabilir olmasından, savaşılan düzenli düşman ordularına ise ancak cephede karşılık verilmesinden dolayı &nbsp; C) Mahkemelerin kapasitesinin yetersizliğinden dolayı &nbsp; D) İtilaf ordularının hiç isyan etmemesinden dolayı</p>
+<p><strong>Çözüm:</strong> Hukuk (mahkeme ve kanun), bir devletin kendi tebaasına (vatandaşlarına) veya kendi otoritesi altındaki topraklarda uygulanır. Düşman askeri mahkemede yargılanmaz, cephede vurulur. Hıyanet-i Vataniye kanunu "iç isyanlara" (vatana ihanet edenlere) yönelik bir otorite inşasıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Mustafa Kemal'in Amasya Görüşmeleri'nde alınan "Meclis İstanbul'da toplanmasın" kararına rağmen, Mebusan Meclisi'nin İstanbul'da toplanmasını (Osmanlı Anayasası gereği zorunlu olduğu için) nihayetinde sineye çekmesi, ancak meclis dağıtıldıktan hemen sonra "Olağanüstü yetkilere sahip yeni bir meclisi Ankara'da açması", onun liderlik tarzıyla ilgili neyi gösterir?</p>
+<p>A) Kararsız ve günübirlik kararlar aldığını &nbsp; B) İstanbul Hükümeti'ne tam boyun eğdiğini &nbsp; C) Milli iradenin tecellisini (meclisi) her şeyin üstünde tuttuğunu ancak mevcut yasalara (Kanun-i Esasi'ye) şeklen de olsa uyarak haklılık zeminini (meşruiyetini) korumayı başardığını &nbsp; D) Ankara'yı başkent yapmakta acele ettiğini</p>
+<p><strong>Çözüm:</strong> Eğer Mustafa Kemal zorla "İstanbul'da toplanmayacak" diye isyan etseydi, padişahın kanununa karşı çıktığı için haksız duruma düşecekti. O, olayların kendi haklılığını (İstanbul'un işgalini) kanıtlamasını sabırla beklemiş ve 23 Nisan'da tüm meşruiyeti (ve haklılık psikolojisini) arkasına alarak TBMM'yi açmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Aşağıdakilerden hangisi Sevr Antlaşması'nın Misak-ı Milli kararlarıyla <strong>çelişen (ters düşen)</strong> maddelerinden biri <strong>değildir</strong>?</p>
+<p>A) Boğazların tamamen uluslararası bir komisyon tarafından yönetilmesi &nbsp; B) Kapitülasyonların tüm devletleri kapsayacak şekilde genişletilmesi &nbsp; C) Osmanlı ordusunun 50 bin kişiyle sınırlandırılması &nbsp; D) Mustafa Kemal'in İstiklal Madalyası ile ödüllendirilmesi</p>
+<p><strong>Çözüm:</strong> Sevr, Türk milletini boğma planıdır. Mustafa Kemal İstiklal Madalyası almamış, aksine idama mahkum edilmiştir. A, B ve C şıkları Sevr'in acımasız ve Misak-ı Milli'ye taban tabana zıt olan gerçek maddeleridir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Temsil Heyeti'nin, Mebusan Meclisi'ne giden milletvekillerinden (Felah-ı Vatan grubu) beklentilerinden biri de Mustafa Kemal'i gıyabında (o orada olmadan) "Meclis Başkanı" seçtirmeleriydi. (Bunu başaramadılar). Mustafa Kemal'in meclis başkanı seçilmek istemesinin <strong>en temel (hukuki) nedeni</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Meclis başkanı maaşının yüksek olması &nbsp; B) Meclis dağıtılırsa (ki dağıtılacağını biliyordu), Meclis Başkanı sıfatıyla "meclisi başka bir yerde toplanmaya çağırma (yeniden açma)" yasal yetkisine sahip olmak istemesi &nbsp; C) Padişah olmak istemesi &nbsp; D) İtilaf devletleriyle şahsen görüşmek istemesi</p>
+<p><strong>Çözüm:</strong> Anayasaya göre meclis başkanı, meclisin güvenliği tehlikeye girerse meclisi güvenli bir ilde tekrar toplanmaya çağırabilir. Mustafa Kemal meclisin basılacağını bildiği için bu yasal (hukuki) yetkiyi elinde bulundurmak istemiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>I. TBMM döneminde siyasi partiler (fırkalar) yoktur, bunun yerine "gruplar" (Müdafaa-i Hukuk, İstiklal, Tesanüt, Yeşilordu vb.) vardır. Savaşın en sıcak günlerinde mecliste siyasi partilerin kurulmasının <strong>istenmemesinin</strong> asıl sebebi nedir?</p>
+<p>A) Partilerin devlete masraf olması &nbsp; B) "Vatanı kurtarmak" gibi tek bir ölüm-kalım hedefi varken, partizanlık ve siyasi bölünmelerin ordunun ve meclisin birliğini zayıflatacağından endişe edilmesi &nbsp; C) Mustafa Kemal'in tek adam olmak istemesi &nbsp; D) Anayasanın parti kurmayı yasaklaması</p>
+<p><strong>Çözüm:</strong> Savaş zamanı birlik ve beraberlik şarttır. Siyasi partiler doğası gereği bölünme ve kutuplaşma yaratır. Bu yüzden mecliste sadece farklı fikir akımlarını temsil eden esnek "gruplar" yer almış, partileşmeye gidilmemiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Kuvâ-yı İnzibatiye (Halifelik Ordusu), TBMM'ye karşı doğrudan İstanbul Hükümeti tarafından İngilizlerin de finansal desteğiyle İzmit/Adapazarı çevresinde çıkarılmış bir isyandır. <br>İngilizlerin İstanbul Hükümeti'nin bu isyanını <strong>özellikle</strong> desteklemesinin (ve kendi silahlarını vermesinin) temel stratejik nedeni nedir?</p>
+<p>A) Padişahı çok sevmeleri &nbsp; B) Kuvâ-yı Milliye birliklerinin Boğazlar bölgesine (İngilizlerin elindeki İstanbul'a) yaklaşmasını engellemek ve TBMM'yi boğazlardan uzak tutmak (Tampon bölge oluşturmak) &nbsp; C) Halifeliği İngiltere'ye taşımak &nbsp; D) Yunanistan'ın işini zorlaştırmak</p>
+<p><strong>Çözüm:</strong> İzmit/Adapazarı tam İstanbul'un giriş kapısıdır. İngilizler, Ankara'daki ateşin (Kuvâ-yı Milliye'nin) İstanbul'a (boğazlara) sıçramasını engellemek için kendi askerlerini riske atmamış, tampon bölgede padişahın askerlerini (Halifelik ordusunu) Türklerin üzerine sürmüştür (Kardeşi kardeşe kırdırma politikası). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>İstiklal Mahkemeleri kararlarının <strong>"temyiz edilemez (itiraz edilemez/kesin)"</strong> olmasının yarattığı en büyük fayda aşağıdakilerden hangisidir?</p>
+<p>A) Çok adil yargılamalar yapılması &nbsp; B) İsyanların, asker kaçaklarının ve bozgunculuğun savaşın hızına uygun olarak "derhal (anında)" cezalandırılmasıyla cephe gerisinde otoritenin hızla tesis edilmesi &nbsp; C) Mahkeme masraflarının azalması &nbsp; D) İtilaf devletlerinin Türk adalet sistemine hayran kalması</p>
+<p><strong>Çözüm:</strong> Savaş zamanı bir cephede asker kaçarsa, onu aylarca yargılayıp üst mahkemeye taşıyacak vakit yoktur. Kararın anında verilip anında infaz edilmesi, caydırıcılığı artırmış ve devlete olan korkuyu (otoriteyi) hızla tesis etmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Aşağıdaki gelişmelerden hangisi Milli Mücadele döneminde <strong>diğerlerinin tümüne zemin hazırlamış (neden olmuş)</strong> ilk olaydır?</p>
+<p>A) İstanbul'un resmen işgali &nbsp; B) I. TBMM'nin Ankara'da açılması &nbsp; C) Son Osmanlı Mebusan Meclisi'nin Misak-ı Milli'yi kabul etmesi &nbsp; D) Temsil Heyeti'nin görevinin sona ermesi</p>
+<p><strong>Çözüm:</strong> Kronolojik ve mantıksal zinciri kuralım: Misak-ı Milli kabul edildi (C) $\rightarrow$ Buna kızan İtilaf güçleri İstanbul'u işgal edip meclisi kapattı (A) $\rightarrow$ Meclis kapanınca yerine Ankara'da TBMM açıldı (B) $\rightarrow$ TBMM açılınca da Temsil Heyeti'nin görevi bitti (D). Yani hepsinin tetiğini çeken olay Misak-ı Milli'nin kabulüdür. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Tüm detaylı analizler 1-30 soruların hemen altındaki <strong>Çözüm</strong> bölümlerinde verilmiştir. Bu konudaki kronoloji (Amasya $\rightarrow$ Misak-ı Milli $\rightarrow$ İstanbul İşgali $\rightarrow$ TBMM $\rightarrow$ İsyanlar) KPSS tarih testlerinin kurgusunu çözmeniz için en değerli şifredir.</em></p>
+`,
   },
   {
     id: 63,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Kurtuluş Savaşı Muharebeleri (Doğu, Güney, Batı Cepheleri)',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Doğu, Güney, Batı Cepheleri, İnönü Savaşları, Sakarya, Büyük Taarruz)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Önceki konularda Milli Mücadele'nin örgütlenme aşamasını ve TBMM'nin meşruiyetini nasıl sağladığını (isyanları nasıl bastırdığını) gördük. Şimdi sıra "Diplomasi ve Siyaset" masasından kalkıp "Meydan"a, yani sıcak savaşa inmeye geldi. Yeni kurulan Türk devleti, varoluşunu tüm dünyaya savaş meydanlarında kanıtlayacaktır.</p>
+<p>Kurtuluş Savaşı'nı üç ana cephede inceleriz: Doğu (Ermeniler), Güney (Fransız ve Ermeniler) ve Batı (Yunanlılar). KPSS bu konuda sana sadece "Kim kimi yendi?" diye sormaz. ÖSYM'nin asıl derdi <strong>askeri başarıların siyasi sonuçlarını</strong> bilmendir. Örneğin, "I. İnönü zaferinin uluslararası arenadaki yansıması nedir?" veya "Sakarya Savaşı'ndan sonra diplomasi masasında kimleri dize getirdik?" gibi sorular, bu konunun belkemiğidir. Ayrıca savaşların şiddetli günlerinde toplanan Maarif Kongresi veya çıkarılan Tekalif-i Milliye emirleri (sosyal/ekonomik seferberlik) bu dönemin en can alıcı noktalarıdır.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu, Türkiye'nin bugünkü sınırlarının (Misak-ı Milli'nin) kanla ve mürekkeple çizildiği dönemdir. Antlaşmalar (Gümrü, Moskova, Ankara, Kars) ve savaşlar arası neden-sonuç zinciri her KPSS sınavının değişmez (banko) sorusudur.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Bu destanı anlamak için ordularımızın durumuna bakalım: Doğuda Osmanlı'dan kalan ve dağıtılmamış son düzenli birlik olan <strong>15. Kolordu</strong> savaştı. Güneyde ise hiçbir devlet desteği olmayan sivil halk, yani <strong>Kuvâ-yı Milliye</strong> tek başına direndi. Batıda (asıl savaşın koptuğu yerde) önce dağınık Kuvâ-yı Milliye vardı, ancak yetersiz kalınca TBMM kendi <strong>Düzenli Ordusunu</strong> kurdu. İşte bu üç cephenin sonunda emperyalist devletler dize gelecek ve silahlar susup yerini "Lozan"a (bir sonraki konumuza) bırakacaktır.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Diplomatik Mantığı Kur</span><p>Milli Mücadele'de değişmez bir yasa vardır: <strong>"Askeri zaferler, beraberinde diplomatik/siyasi zaferleri (antlaşmaları) getirir."</strong> Sahada kazanmadan, masada bir şey kazanamazsın. Okurken "Bu savaşı kazandık da masada kimden ne kopardık?" sorusunu zihninde hep canlı tut.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Doğu Cephesi (İlk Başarı, İlk Antlaşma)</h3>
+<p>Doğu Anadolu'da, Sevr'in kendilerine vadettiği toprakları (Büyük Ermenistan'ı) almak için saldırıya geçen Ermenilerle savaşıldı. Burada TBMM ordusu değil, Mondros'a uymayıp ordusunu dağıtmayan <strong>Kazım Karabekir Paşa</strong> komutasındaki Osmanlı'dan kalma "15. Kolordu" görev yaptı.</p>
+<p>Karabekir Paşa, Ermenileri bozguna uğratıp Sarıkamış ve Kars'ı geri aldı. Barış isteyen Ermenistan ile <strong>Gümrü Antlaşması (2-3 Aralık 1920)</strong> imzalandı.</p>
+<p><strong>Gümrü Antlaşması'nın Önemi:</strong></p>
+<ul>
+<li>TBMM'nin imzaladığı <strong>ilk uluslararası antlaşmadır</strong> (İlk askeri ve siyasi zafer).</li>
+<li>Ermenistan, Sevr'i geçersiz sayan, Misak-ı Milli'yi ve TBMM'yi tanıyan <strong>İLK DEVLET</strong> olmuştur.</li>
+<li>Doğu cephesi kapanmış, buradaki silah ve askerler Batı cephesine kaydırılmıştır.</li>
+</ul>
+
+<h3>3.2. Güney Cephesi (Destan Yazan Şehirler)</h3>
+<p>Güneyde (Çukurova bölgesi), İngilizlerin yerini alan Fransızlara ve onların silahlandırdığı Ermeni İntikam Tugayları'na karşı savaşıldı. Burada düzenli ordu YOKTUR; tamamen <strong>Kuvâ-yı Milliye</strong> (sivil direniş) destanı vardır.</p>
+<ul>
+<li><strong>Maraş:</strong> Sütçü İmam'ın attığı ilk kurşun ve Rıdvan Hoca'nın ("Kalesinde bayrağı dalgalanmayan ülkede cuma namazı kılınmaz") sözüyle halk ayaklanmış, Fransızlar kovulmuştur. (Daha sonra "Kahraman" unvanını alacaktır).</li>
+<li><strong>Urfa:</strong> Yüzbaşı Ali Saip (Ursavaş) Bey önderliğinde halk ayaklanmış, bölge kurtarılmıştır. ("Şanlı" unvanını alacaktır).</li>
+<li><strong>Antep:</strong> Şahin Bey komutasında efsanevi bir direniş gösterilmiş, şehir aylar süren kuşatmaya dayanmış ama sonunda düşmüştür. Ancak bu şanlı direnişi nedeniyle "Gazi" unvanını almıştır.</li>
+</ul>
+<p>Güney Cephesi askeri olarak yerel güçlerle dirense de, cephenin <strong>resmen kapanması</strong> Batı'daki büyük bir başarıya bağlıydı. Nitekim Batı'da <strong>Sakarya Meydan Muharebesi</strong> kazanıldıktan sonra, Fransa barış istemiş ve <strong>1921 Ankara Antlaşması</strong> ile Güney cephesi tamamen kapanmıştır.</p>
+
+<h3>3.3. Batı Cephesi'ne Hazırlık ve Düzenli Orduya Geçiş</h3>
+<p>Yunanlılara karşı savaştığımız ana cephedir. Başlangıçta bu cephede Kuvâ-yı Milliye ve başında Ali Fuat Paşa vardı. Ancak Ali Fuat Paşa'nın Yunanlılara karşı giriştiği <strong>Gediz Taarruzu</strong> başarısız olunca (çünkü milis güçler taarruz edemezdi), TBMM bir karar aldı: "Kuvâ-yı Milliye kaldırılacak, yerine emir komuta zincirine bağlı Düzenli Ordu kurulacaktır."</p>
+<p>Ali Fuat Paşa Moskova'ya elçi gönderildi (böylece meclisten uzaklaştırıldı), Batı cephesi ikiye bölündü (Kuzey'e İsmet Paşa, Güney'e Refet Bele atandı). Bu sırada bazı eski efeler (Çerkez Ethem) düzenli orduya katılmak istemeyip isyan ettiler.</p>
+
+<h3>3.4. I. İnönü Muharebesi (Ocak 1921) ve Sonuçları</h3>
+<p>Yunanlılar, hem düzenli ordunun kurulmasını engellemek hem de Çerkez Ethem isyanından faydalanıp Ankara'ya ulaşmak için saldırdı. İsmet Paşa komutasındaki düzenli ordu Yunanlıları durdurdu (Aynı sırada Ethem İsyanı da bastırıldı).</p>
+<p>Bu <strong>savunma</strong> zaferi, düzenli ordunun ve TBMM'nin halk gözündeki prestijini zirveye taşıdı. Asıl fırtına <strong>SİYASİ (Diplomatik) Sonuçlarında</strong> koptu. Bunu <strong>"M-İ-L-A-T"</strong> olarak şifreliyoruz:</p>
+<ul>
+<li><strong>M - Moskova Antlaşması (16 Mart 1921):</strong> Sovyet Rusya (SSCB) ile imzalandı. TBMM'yi tanıyan <strong>ilk büyük Avrupalı devlet</strong> Rusya oldu. İki taraf da birbirinin rejimine saygı duydu (Ortak düşman: İtilaf Devletleri). Ancak Misak-ı Milli'den <strong>İLK TAVİZ</strong> verildi: Batum, Gürcistan'a (dolayısıyla Rusya'ya) bırakıldı.</li>
+<li><strong>İ - İstiklal Marşı'nın Kabulü (12 Mart 1921):</strong> Ordunun motivasyonunu artırmak için Mehmet Akif'in yazdığı şiir milli marşımız oldu. (Anayasa maddesi değildir, bağımsızlık sembolüdür).</li>
+<li><strong>L - Londra Konferansı:</strong> İtilaf Devletleri Türklerin askeri gücünü görünce, Sevr'i biraz yumuşatıp barış yoluyla kabul ettirmek için Londra'da bir konferans topladı. TBMM (Bekir Sami Bey) ve İstanbul Hükümeti (Tevfik Paşa) birlikte çağrıldı (Amaç: İkilik çıkarmak). Ancak Tevfik Paşa sözü TBMM'ye bırakarak bu oyunu bozdu. Sonuç çıkmasa da TBMM, <strong>İtilaf Devletleri tarafından hukuken (resmen) İLK KEZ tanınmış</strong> oldu.</li>
+<li><strong>A - Afganistan Dostluk Antlaşması:</strong> TBMM'yi tanıyan <strong>İLK Müslüman devlet</strong> Afganistan oldu.</li>
+<li><strong>T - Teşkilat-ı Esasiye (1921 Anayasası):</strong> Yeni devletin yeni (ve ilk) anayasası kabul edildi (Olağanüstü savaş anayasasıdır).</li>
+</ul>
+
+<h3>3.5. II. İnönü Muharebesi (Mart - Nisan 1921)</h3>
+<p>Londra Konferansı'ndan sonuç alamayan Yunanlılar, isteklerini zorla kabul ettirmek için tekrar saldırdı, tekrar yenildiler.</p>
+<p><strong>Önemi ve Sonuçları:</strong></p>
+<ul>
+<li>Mustafa Kemal, İsmet Paşa'ya o meşhur telgrafını çekti: <em>"Siz orada yalnız düşmanı değil, milletin makus (kötü giden) talihini de yendiniz."</em></li>
+<li>İtalya ve Fransa (İngiltere'nin maşası olan Yunan'ın kazanamayacağını görünce) Anadolu'dan çekilme hazırlıklarına başladılar. (İtilaf bloğu çatırdamaya başladı).</li>
+</ul>
+
+<h3>3.6. Kütahya-Eskişehir Savaşları (Temmuz 1921) ve Kara Günler</h3>
+<p>Yunan ordusu çok büyük bir kuvvetle, üç koldan genel taarruza geçti. Düzenli ordumuz maalesef bu saldırıya dayanamadı ve Kütahya, Eskişehir, Afyon kaybedildi.</p>
+<p><strong>Kritik Karar (Stratejik Ricat):</strong> Ordunun tamamen yok olmasını engellemek için Mustafa Kemal'in emriyle Türk ordusu <strong>Sakarya nehrinin doğusuna</strong> çekildi (Araya doğal bir engel konuldu).</p>
+<p><strong>Sonuçları ve Yaşananlar:</strong></p>
+<ul>
+<li><strong>Mecliste Panik:</strong> Düşmanın Ankara'ya yaklaşması (top seslerinin duyulması) üzerine meclisin Kayseri'ye taşınması tartışıldı, ancak reddedildi.</li>
+<li><strong>Maarif (Eğitim) Kongresi:</strong> Savaşın en kanlı, en felaket günlerinde Mustafa Kemal, Ankara'da öğretmenleri toplayıp eğitim kongresi düzenledi. ("Cehaletle savaş, düşmanla savaştan daha az önemli değildir" demiştir. Muazzam bir liderlik ve vizyon örneğidir).</li>
+<li><strong>Başkomutanlık Kanunu:</strong> Meclis, hızlı kararlar alabilmesi için tüm yetkilerini (Yasama, Yürütme) 3 aylığına Mustafa Kemal'e devretti. Mustafa Kemal (Erzurum Kongresi öncesi istifa ettiği) <strong>askerlik mesleğine geri döndü.</strong></li>
+<li><strong>Tekalif-i Milliye (Milli Yükümlülükler) Emirleri:</strong> Mustafa Kemal Başkomutan sıfatıyla ilk iş olarak bu emirleri yayınladı. (Kanun değil, başkomutan emridir!). Ordunun silah, cephane, yiyecek, giyecek, ulaşım ihtiyaçlarını karşılamak için halktan toplanan devasa bir lojistik seferberliğidir. (Uygulamak için İstiklal Mahkemeleri kullanıldı).</li>
+</ul>
+<div class="kutu kutu-dikkat"><span class="kutu-baslik">🤔 Neden Başkomutanlık?</span><p>Meclisin yetkilerinin tek adama devredilmesi demokratik değildir ama Kütahya-Eskişehir hezimeti devleti yok olma noktasına getirmiştir. Olağanüstü durumlarda "hız ve kararlılık", demokrasiden (tartışmaktan) daha hayati bir ihtiyaçtır.</p></div>
+
+<h3>3.7. Sakarya Meydan Muharebesi (22 Ağu - 13 Eyl 1921) — Subaylar Savaşı</h3>
+<p>Yunanlıların amacı Ankara'yı alıp TBMM'yi dağıtmaktı. 22 gün 22 gece süren, çok sayıda subayımızın şehit olduğu kanlı bir savaştır (O yüzden Subaylar Savaşı da denir).</p>
+<p>Mustafa Kemal'in askeri dehasını gösteren o tarihi emir burada verilmiştir: <em>"Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh, bütün vatandır."</em> (Yani: Bir çizgi değil, tüm alanı savunacağız. Birlik nerede tutunursa orada savaşacak). Türk ordusu bu ölüm kalım savaşını KAZANDI.</p>
+<p><strong>Sonuçları (Askeri ve Siyasi):</strong></p>
+<ul>
+<li>Türklerin 1683 II. Viyana Kuşatması'ndan beri süregelen <strong>"savunma (geri çekilme) süreci" sona erdi</strong>, taarruz sırası bize geçti. Yunanlılar savunmaya geçti.</li>
+<li>Mustafa Kemal'e TBMM tarafından <strong>"Gazi"</strong> unvanı ve <strong>"Mareşal"</strong> rütbesi verildi.</li>
+<li><strong>Kars Antlaşması:</strong> SSCB'ye bağlı Kafkas Cumhuriyetleri (Azerbaycan, Gürcistan, Ermenistan) ile imzalandı. <em>Doğu sınırımız KESİN olarak çizildi.</em></li>
+<li><strong>1921 Ankara Antlaşması:</strong> Fransa ile imzalandı. Fransa işgal ettiği güney illerimizden çekildi. (Güney Cephesi kapandı). TBMM'yi tanıyan <strong>İLK İTİLAF DEVLETİ Fransa</strong> oldu. (Sadece Hatay hariç tutuldu - Misak-ı Milli'den <strong>İKİNCİ TAVİZ</strong>).</li>
+<li>İtalya da işgal ettiği yerlerden tamamen çekildi. (İtilaf bloğu parçalandı).</li>
+</ul>
+
+<h3>3.8. Büyük Taarruz ve Başkomutanlık Meydan Muharebesi (Ağustos 1922)</h3>
+<p>Sakarya'dan sonra Türk ordusu hemen taarruza geçmedi. <strong>Yaklaşık 1 yıl beklendi.</strong> Neden? Çünkü ordunun silah ve cephaneye, askerlerin ise taarruz eğitimine ihtiyacı vardı.</p>
+<p>26 Ağustos 1922'de Afyon-Kocatepe'den taarruz başladı. 30 Ağustos'ta Dumlupınar'da Mustafa Kemal'in bizzat yönettiği <strong>Başkomutanlık Meydan Muharebesi (Rum Sındığı)</strong> ile Yunan ordusu imha edildi.</p>
+<p>Mustafa Kemal'in "Ordular, ilk hedefiniz Akdeniz'dir. İleri!" emriyle Yunan askerleri 9 Eylül'de İzmir'de denize döküldü. 18 Eylül'de Anadolu tamamen düşmandan temizlendi.</p>
+<p><strong>Sonucu:</strong> Milli Mücadele'nin "sıcak savaş" (silahlı) dönemi sona ermiş, askeri zafere ulaşılmış ve "diplomasi" (Ateşkes ve Barış antlaşmaları) süreci başlamıştır.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>I. İnönü (Sebep) $\rightarrow$ Londra Konferansı (Sonuç):</strong> İtilaf Devletleri Türkleri silahla yenemeyeceğini anlayınca Sevr'i makyajlayıp masada yutturmaya çalıştı.</li>
+<li><strong>Eskişehir-Kütahya Yenilgisi (Sebep) $\rightarrow$ Başkomutanlık Kanunu (Sonuç):</strong> Kriz anında meclisin ağır işleyen mekanizması yerine "Tek adamın" (Mustafa Kemal'in) hızlı ve kararlı yönetimine ihtiyaç duyuldu.</li>
+<li><strong>Sakarya Zaferi (Sebep) $\rightarrow$ Fransa'nın Ankara Antlaşmasını imzalaması (Sonuç):</strong> Fransa, Yunan ordusunun Türklere yenildiğini ve İngiltere'nin planının çöktüğünü görünce masaya oturup işgalden vazgeçti. (Askeri başarı = Siyasi başarı).</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>En Önemli Çıkarım (KPSS Notu)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ekim 1920</td>
+<td>Gediz Taarruzu Yenilgisi</td>
+<td>Kuvâ-yı Milliye'nin yetersiz olduğu anlaşıldı, düzenli ordu kuruldu.</td>
+</tr>
+<tr>
+<td>Aralık 1920</td>
+<td>Gümrü Antlaşması</td>
+<td>TBMM'nin (15. Kolordunun) ilk askeri/siyasi zaferi. Doğu cephesi kapandı.</td>
+</tr>
+<tr>
+<td>Ocak 1921</td>
+<td>I. İnönü Muharebesi</td>
+<td>Düzenli ordunun ilk zaferi. Uluslararası sonuçlar (M-İ-L-A-T) doğurdu.</td>
+</tr>
+<tr>
+<td>Temmuz 1921</td>
+<td>Kütahya-Eskişehir Savaşları</td>
+<td>Tek yenilgi. Sakarya'nın doğusuna çekiliş, Başkomutanlık ve Tekalif-i Milliye.</td>
+</tr>
+<tr>
+<td>Ağu-Eyl 1921</td>
+<td>Sakarya Muharebesi</td>
+<td>Son savunma. Viyana'dan beri süren geri çekilme bitti. Fransa ve İtalya ile barış.</td>
+</tr>
+<tr>
+<td>Ağustos 1922</td>
+<td>Büyük Taarruz</td>
+<td>Yunan ordusu denize döküldü, silahlı mücadele bitti.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Doğu Sınırımızı Belirleyen Antlaşmalar</h3>
+<table>
+<thead>
+<tr>
+<th>Antlaşma</th>
+<th>Kimle İmzalandı?</th>
+<th>Özelliği (Doğu Sınırına Etkisi)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gümrü (1920)</strong></td>
+<td>Ermenistan</td>
+<td>Doğu sınırı <strong>şekillenmeye başladı</strong> (İlk aşama). Kars, Sarıkamış alındı.</td>
+</tr>
+<tr>
+<td><strong>Moskova (1921)</strong></td>
+<td>SSCB (Sovyet Rusya)</td>
+<td>Doğu sınırımızda <strong>Batum (ilk taviz)</strong> hariç mutabakat sağlandı. (İkinci aşama).</td>
+</tr>
+<tr>
+<td><strong>Kars (1921)</strong></td>
+<td>Kafkas Cumhuriyetleri</td>
+<td>Sakarya sonrası imzalandı. Doğu sınırımız <strong>KESİN ŞEKLİNİ</strong> aldı (Son aşama).</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Ermenistan:</strong> TBMM'yi tanıyan İLK DEVLET (Gümrü).</li>
+<li><strong>Afganistan:</strong> TBMM'yi tanıyan İLK MÜSLÜMAN DEVLET (Dostluk Antlaşması - I. İnönü sonrası).</li>
+<li><strong>Sovyet Rusya:</strong> TBMM'yi tanıyan İLK BÜYÜK AVRUPALI DEVLET (Moskova - I. İnönü sonrası).</li>
+<li><strong>Fransa:</strong> TBMM'yi tanıyan İLK İTİLAF DEVLETİ (1921 Ankara - Sakarya sonrası).</li>
+<li><strong>Misak-ı Milli Tavizleri:</strong> 1. Taviz Batum (Moskova ile Gürcistan'a), 2. Taviz Hatay (Ankara ile Fransız güdümündeki Suriye'ye - gerçi 1939'da geri alınacak).</li>
+<li><strong>Maarif Kongresi:</strong> Kütahya-Eskişehir savaşları sırasında toplanan eğitim kongresidir (Eğitime verilen önem).</li>
+<li><strong>Subaylar Savaşı:</strong> Çok subay şehit olduğu için Sakarya'nın diğer adıdır. Melhame-i Kübra da denir.</li>
+<li><strong>Rum Sındığı:</strong> Dumlupınar'da Yunan'ın kırıldığı Başkomutanlık Meydan Muharebesinin diğer adıdır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Makus Talih" ve "Hattı Müdafaa"</span><p>Söz - Savaş eşleştirmelerine çok dikkat et.<br>
+- "Siz orada yalnız düşmanı değil, milletin <strong>makus talihini</strong> de yendiniz." $\rightarrow$ <strong>II. İnönü</strong><br>
+- "<strong>Hattı müdafaa yoktur</strong>, sathı müdafaa vardır." $\rightarrow$ <strong>Sakarya</strong><br>
+- "Ordular, ilk <strong>hedefiniz Akdeniz</strong>dir, ileri!" $\rightarrow$ <strong>Büyük Taarruz</strong></p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>Tekalif-i Milliye'nin "Kanun" sanılması tuzağı.</strong> Tekalif-i Milliye meclis tarafından çıkarılan bir KANUN DEĞİLDİR. Meclisin yetkilerini alan Mustafa Kemal'in doğrudan "Başkomutan" sıfatıyla yayınladığı "Emirler"dir. Sorularda "Hangisi I. TBMM'nin çıkardığı yasalardandır?" derse Tekalif-i Milliye'yi ELEYECEKSİN. O yasa değil, komutanlık emridir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>Doğu Cephesinde "Düzenli Ordu"nun TBMM'ye ait sanılması tuzağı.</strong> Doğu Cephesinde Ermenilerle savaşan ve kazanan 15. Kolordu (Kazım Karabekir), TBMM'nin sıfırdan kurduğu düzenli ordu <strong>değildir</strong>. Osmanlı'dan kalan ve terhis edilmemiş bir ordudur. TBMM'nin kendi kurduğu düzenli ordu BATI cephesinde savaşmıştır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"İlk Taviz" ile "Kesin Sınır" kelime oyunları.</strong> Misak-ı Milli'den ilk taviz BATUM'dur (Moskova Antlaşması). Ancak Doğu sınırını "kesin olarak" çizen antlaşma Moskova değil, KARS Antlaşması'dır. Kelimeleri dikkatli oku.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>Güney Cephesinde düzenli ordu var sanılması.</strong> Maraş, Antep, Urfa'da Fransız ve Ermenilere karşı hiçbir düzenli ordu veya komutanlık savaşmamıştır. Oradaki zafer tamamen "halkın (Kuvâ-yı Milliye'nin) sivil direnişi"dir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 5</span><p><strong>Büyük Taarruz'da "Antlaşma" arama tuzağı.</strong> Büyük Taarruz kazanıldıktan sonra herhangi bir barış (veya sınır) antlaşması imzalanmamıştır. O savaşın hemen ardından <strong>Mudanya Ateşkesi</strong> (Ateşkes!), sonra da Lozan yapılacaktır.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "M-İ-L-A-T" (I. İnönü Sonuçları)</span><p>I. İnönü savaşının askeri başarısı, siyasette Milat (yeni bir başlangıç) olmuştur:<br>
+<strong>M</strong>oskova Antlaşması<br>
+<strong>İ</strong>stiklal Marşı<br>
+<strong>L</strong>ondra Konferansı<br>
+<strong>A</strong>fgan Dostluk Antlaşması<br>
+<strong>T</strong>eşkilat-ı Esasiye (1921 Anayasası)</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "G-M-K" (Doğu Sınırı Formülü)</span><p>Gazi Mustafa Kemal'in baş harflerinden (GMK) Doğu sınırımızın gelişimini kronolojik olarak hatırla:<br>
+<strong>G</strong>ümrü (Şekillendi)<br>
+<strong>M</strong>oskova (Batum verildi)<br>
+<strong>K</strong>ars (Kesinleşti)</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Kütahya-Eskişehir'in K'si: "Kaçış ve Kriz"</span><p>Tek yenilgimizdir. <strong>K</strong>ütahya $\rightarrow$ <strong>K</strong>açış (Sakarya'nın doğusuna), <strong>K</strong>ayseri'ye taşınma tartışması, <strong>K</strong>riz ve ardından Başkomutanlık <strong>K</strong>anunu.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Doğu Cephesi:</strong> Kazım Karabekir'in 15. Kolordusu (Osmanlı'dan kalan) Ermenileri yendi. Gümrü Antlaşması ile Ermenistan TBMM'yi tanıyan ilk devlet oldu.<br>
+• <strong>Güney Cephesi:</strong> Tamamen halk (Kuvâ-yı Milliye) savaştı. Maraş, Antep, Urfa destan yazdı. Sakarya Zaferi'nden sonra Fransızlarla imzalanan Ankara Antlaşması ile kapandı.<br>
+• <strong>Batı Cephesi (Düzenli Ordu):</strong> I. ve II. İnönü savunma zaferleridir. I. İnönü sonrası MİLAT gelişmeleri (Londra Konferansı, Moskova vb.) yaşandı.<br>
+• <strong>Kütahya-Eskişehir:</strong> Tek mağlubiyetimizdir. Ordu Sakarya'nın doğusuna çekilir, Mustafa Kemal Başkomutan yetkisini alıp Tekalif-i Milliye Emirleri'ni yayınlar. Eğitime verilen önemin simgesi Maarif Kongresi de bu krizde toplanır.<br>
+• <strong>Sakarya Muharebesi:</strong> Son savunmamızdır. Viyana'dan beri süren geri çekilme bitti. Mustafa Kemal'e Gazi ve Mareşal unvanı verildi. Kars Ant. ile Doğu, Ankara Ant. ile Güney sınırlarımız belirlendi (Fransa ve İtalya çekildi).<br>
+• <strong>Büyük Taarruz:</strong> Bir yıllık hazırlıktan sonra Dumlupınar'da düşman imha edildi, 9 Eylül'de İzmir'de denize döküldü ve silahlı mücadele bitti.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>TBMM'yi tanıyan İLK devlet:</strong> Ermenistan (Gümrü)<br>
+• <strong>Düzenli ordunun İLK zaferi:</strong> I. İnönü<br>
+• <strong>Misak-ı Milli'den ilk taviz:</strong> Batum (Moskova Ant.)<br>
+• <strong>İtilaf devletlerinin TBMM'yi hukuken tanıması:</strong> Londra Konferansı<br>
+• <strong>Ordunun Sakarya'nın doğusuna çekilmesi:</strong> Kütahya-Eskişehir sonrası<br>
+• <strong>Maarif Kongresi:</strong> Kütahya-Eskişehir devam ederken (eğitime verilen önem)<br>
+• <strong>Tekalif-i Milliye'yi kim yayınladı:</strong> Başkomutan M. Kemal (Meclis değil!)<br>
+• <strong>Doğu sınırını KESİNLEŞTİREN:</strong> Kars Antlaşması (Sakarya sonrası)<br>
+• <strong>TBMM'yi tanıyan ilk İtilaf devleti:</strong> Fransa (Ankara Ant. - Sakarya sonrası)<br>
+• <strong>Sıcak savaşı bitiren:</strong> Büyük Taarruz (Başkomutanlık Meydan M.)
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>TBMM'yi ve Misak-ı Milli'yi tanıyan, Sevr Antlaşması'nın geçersizliğini kabul eden <strong>ilk devlet</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Sovyet Rusya &nbsp; B) Ermenistan &nbsp; C) Afganistan &nbsp; D) Fransa</p>
+<p><strong>Çözüm:</strong> Doğu cephesindeki askeri başarıdan sonra imzalanan Gümrü Antlaşması ile TBMM'yi tanıyan ilk devlet Ermenistan olmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>TBMM'nin kurduğu düzenli ordunun Batı cephesinde Yunan ordusuna karşı kazandığı <strong>ilk askeri başarı</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Sakarya Meydan Muharebesi &nbsp; B) Gediz Taarruzu &nbsp; C) Büyük Taarruz &nbsp; D) I. İnönü Muharebesi</p>
+<p><strong>Çözüm:</strong> İsmet Paşa komutasında kurulan düzenli ordunun düşmanı durdurduğu ve rüştünü ispatladığı ilk zafer I. İnönü Muharebesidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Mustafa Kemal'in "Siz orada yalnız düşmanı değil, milletin makus (kötü giden) talihini de yendiniz" telgrafını İsmet Paşa'ya hangi savaştan sonra çekmiştir?</p>
+<p>A) I. İnönü &nbsp; B) II. İnönü &nbsp; C) Sakarya &nbsp; D) Büyük Taarruz</p>
+<p><strong>Çözüm:</strong> "Makus talih" sözü, Yunanlıların ikinci kez durdurulması üzerine II. İnönü Savaşı'ndan sonra söylenmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Milli Mücadele'de askeri başarısızlık (yenilgi) yaşadığımız, ordunun ağır kayıplar vermemesi için Sakarya nehrinin doğusuna çekilmek zorunda kaldığı savaş hangisidir?</p>
+<p>A) Kütahya-Eskişehir Savaşları &nbsp; B) II. İnönü Muharebesi &nbsp; C) Sakarya Meydan Muharebesi &nbsp; D) Başkomutanlık Meydan Muharebesi</p>
+<p><strong>Çözüm:</strong> Düzenli ordunun tek yenilgisi Kütahya-Eskişehir Savaşlarıdır. Ordu Sakarya'nın doğusuna çekilerek toparlanma fırsatı bulmuştur. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Aşağıdaki antlaşmalardan hangisi, I. İnönü Muharebesi'nin <strong>siyasi (uluslararası) sonuçlarından</strong> biri <strong>değildir</strong>?</p>
+<p>A) Moskova Antlaşması &nbsp; B) Afgan Dostluk Antlaşması &nbsp; C) Ankara Antlaşması &nbsp; D) Londra Konferansı</p>
+<p><strong>Çözüm:</strong> MİLAT şifresine göre (Moskova, İstiklal, Londra, Afgan, Teşkilatı Esasiye) I. İnönü sonuçlarıdır. Ankara Antlaşması (Fransa ile) ise Sakarya Savaşı'nın sonucudur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Kütahya-Eskişehir yenilgisinden sonra TBMM'nin tüm yasama ve yürütme yetkilerini 3 aylığına Mustafa Kemal'e devrettiği kanun aşağıdakilerden hangisidir?</p>
+<p>A) Tekalif-i Milliye &nbsp; B) Başkomutanlık Kanunu &nbsp; C) Hıyanet-i Vataniye &nbsp; D) Teşkilat-ı Esasiye</p>
+<p><strong>Çözüm:</strong> Mustafa Kemal'in kriz ortamında hızlı karar almak için meclisin yetkilerini devralıp askerliğe döndüğü yasa Başkomutanlık Kanunu'dur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Türk ordusunun silah, cephane, giyecek, yiyecek ve taşıt ihtiyacını karşılamak için topyekûn seferberlik ilan edildiği "Tekalif-i Milliye Emirleri"ni (Milli Yükümlülükleri) kim yayınlamıştır?</p>
+<p>A) TBMM (Meclis) &nbsp; B) İstiklal Mahkemeleri &nbsp; C) İsmet Paşa &nbsp; D) Başkomutan sıfatıyla Mustafa Kemal</p>
+<p><strong>Çözüm:</strong> Tekalif-i Milliye bir meclis yasası değil, Başkomutanlık yetkisiyle doğrudan Mustafa Kemal'in yayınladığı <strong>emirlerdir</strong>. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>TBMM'yi ve Misak-ı Milli'yi tanıyan, işgal ettiği Güney Anadolu illerinden çekilerek silahlarını Türk ordusuna bırakan <strong>ilk İtilaf devleti</strong> aşağıdakilerden hangisidir?</p>
+<p>A) İtalya &nbsp; B) Fransa &nbsp; C) İngiltere &nbsp; D) Rusya</p>
+<p><strong>Çözüm:</strong> Sakarya zaferinden sonra imzalanan 1921 Ankara Antlaşması ile barış yapıp çekilen ve TBMM'yi tanıyan ilk İtilaf devleti Fransa'dır. (Rusya İtilaf bloğundan çoktan çıkmıştı). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>"Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh, bütün vatandır." emriyle topyekûn savunma taktiğinin uygulandığı, subay kayıplarının çokluğu nedeniyle "Subaylar Savaşı" olarak da bilinen savaş hangisidir?</p>
+<p>A) I. İnönü &nbsp; B) Sakarya Meydan Muharebesi &nbsp; C) Büyük Taarruz &nbsp; D) Çanakkale Savaşları</p>
+<p><strong>Çözüm:</strong> Vatanın her karış toprağının savunulduğu ve Türk ordusunun son savunma savaşı olan meydan muharebesi Sakarya'dır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Misak-ı Milli'den verilen <strong>ilk taviz</strong> olan "Batum'un Gürcistan'a bırakılması" kararı, hangi antlaşmada yer almıştır?</p>
+<p>A) Gümrü &nbsp; B) Kars &nbsp; C) Ankara &nbsp; D) Moskova</p>
+<p><strong>Çözüm:</strong> I. İnönü'den sonra SSCB ile imzalanan Moskova Antlaşması'nda Rus desteğini almak adına Batum'dan vazgeçilmiştir (İlk taviz). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Doğu cephesinde Ermenistan ile yapılan savaşta, ordunun TBMM tarafından yeni kurulan düzenli ordu olmamasının (Osmanlı'dan kalan 15. Kolordu olmasının) temel sebebi nedir?</p>
+<p>A) TBMM'nin ordu kurmaya gücünün yetmemesi &nbsp; B) Kazım Karabekir Paşa'nın Mondros Ateşkesi'nin "ordular terhis edilecek" maddesine uymayarak ordusunu dağıtmamış olması &nbsp; C) Ermenilerin zayıf olması &nbsp; D) Rusların 15. Kolorduyu kurması</p>
+<p><strong>Çözüm:</strong> Karabekir Paşa Mondros emrine itaat etmeyip ordusunu, silahını terhis etmediği için Doğu'da hazır bir askeri güç (15. Kolordu) bulunuyordu. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Kuvâ-yı Milliye birliklerinin Batı cephesinde kaldırılarak yerine disiplinli ve merkezi emir-komuta zincirine bağlı "Düzenli Ordu"nun kurulmasının (İsmet Paşa'nın atanmasının) <strong>bardağı taşıran son damlası (hızlandırıcısı)</strong> hangi olaydır?</p>
+<p>A) I. İnönü Savaşı'nın kazanılması &nbsp; B) Ali Fuat Paşa'nın Yunanlılara karşı yaptığı Gediz Taarruzu'nun başarısız olması &nbsp; C) İstanbul'un işgal edilmesi &nbsp; D) Çerkez Ethem İsyanı</p>
+<p><strong>Çözüm:</strong> Kuvâ-yı Milliye milis güçtü; vur-kaç yapabilirdi ama taarruz (saldırı) yapamazdı. Gediz Taarruzu'ndaki fiyasko, meclise "Bu iş milislerle olmaz, düzenli ordu şart" dedirtti. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>İtilaf Devletleri, I. İnönü Savaşı'ndan sonra topladıkları Londra Konferansı'na hem İstanbul Hükümeti'ni hem de TBMM'yi birlikte davet etmişlerdir. <br>İtilaf Devletleri'nin bu tutumuyla ulaşmak istedikleri <strong>temel hedef</strong> nedir?</p>
+<p>A) Türkler arasında demokratik tartışma ortamı yaratmak &nbsp; B) Türk tarafında ikilik (görüş ayrılığı) çıkarıp birbirine düşürerek Sevr Antlaşması'nı her iki tarafa da kabul ettirmek &nbsp; C) İstanbul Hükümeti'ni tamamen tasfiye etmek &nbsp; D) TBMM'nin üstünlüğünü dünyaya ilan etmek</p>
+<p><strong>Çözüm:</strong> İki farklı (ve birbirine düşman) otoriteyi aynı masaya oturtmanın tek amacı, aralarındaki kavgadan faydalanıp kendi çıkarlarını (Sevr'i) dayatmaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Londra Konferansı'nda İstanbul Hükümeti temsilcisi Tevfik Paşa, "Sözü, milletin asıl (gerçek) temsilcisi olan TBMM delegesine (Bekir Sami Bey'e) bırakıyorum" diyerek İtilaf Devletleri'nin hangi planını bozmuştur?</p>
+<p>A) Padişahı tahttan indirme planını &nbsp; B) Yunan ordusunu geri çekme planını &nbsp; C) Türkler arasında ikilik (çatışma) çıkarma planını &nbsp; D) Sovyet Rusya ile savaşma planını</p>
+<p><strong>Çözüm:</strong> Tevfik Paşa aradan çekilerek muhatap olarak sadece TBMM'yi işaret etmiş, böylece İtilaf devletlerinin "ikilik çıkarma" tuzağını yerle bir etmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Kütahya-Eskişehir Savaşları'nın en ateşli ve zor günlerinde, Yunan top sesleri Ankara'dan duyulurken Mustafa Kemal'in öğretmenleri toplayarak <strong>"Maarif (Eğitim) Kongresi"ni</strong> düzenlemesi aşağıdakilerden hangisinin göstergesidir?</p>
+<p>A) Savaşı kaybettiğini kabullenip eğitime yöneldiğinin &nbsp; B) Eğitimcileri askere almak istediğinin &nbsp; C) Cehaletle (eğitimsizlikle) savaşmayı, düşmanla savaşmak kadar önemli ve hayati gördüğünün &nbsp; D) Meclisin yetkilerini öğretmenlere devrettiğinin</p>
+<p><strong>Çözüm:</strong> Devletin ölüm kalım anında bile "Yeni nesli nasıl eğiteceğiz?" diye kongre toplamak, liderin zafere olan kesin inancını ve cehalete açtığı savaşı gösterir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Sakarya Meydan Muharebesi'nin sonuçları arasında yer alan "1683 II. Viyana Kuşatması'ndan beri süregelen geri çekilişin (savunmanın) sona ermesi" askeri strateji açısından ne anlama gelmektedir?</p>
+<p>A) İtilaf devletlerinin Türkiye'ye tazminat ödediği &nbsp; B) Türk ordusunun artık savunma (defans) psikolojisinden çıkıp, taarruz (saldırı) inisiyatifini ele geçirdiği &nbsp; C) Savaşın tamamen bittiği ve antlaşma imzalandığı &nbsp; D) Yunan ordusunun silah bıraktığı</p>
+<p><strong>Çözüm:</strong> Yüzyıllardır sürekli toprak kaybedip geri çekilen Türk milleti, Sakarya'da bu gidişata dur demiş, düşmanı durdurmuş ve artık "kovalayan (taarruz eden)" taraf konumuna geçmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Doğu sınırlarımızın belirlenmesi sürecinde, Gümrü ve Moskova antlaşmalarının ardından sınırlarımıza <strong>"kesin şeklini"</strong> veren Kars Antlaşması (Kafkas Cumhuriyetleri ile) hangi büyük askeri zaferin sonucunda imzalanmıştır?</p>
+<p>A) I. İnönü &nbsp; B) Büyük Taarruz &nbsp; C) Sakarya Meydan Muharebesi &nbsp; D) II. İnönü</p>
+<p><strong>Çözüm:</strong> Kars (Doğu sınırının kesinleşmesi) ve Ankara (Güneyin kapanması) antlaşmalarının ikisi de Sakarya zaferinin (İtilaf ve Rus bloğuna TBMM'nin gücünü kanıtlamasının) sonucudur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Sakarya Zaferi'nden sonra Büyük Taarruz'un (Başkomutanlık Meydan Muharebesi'nin) başlaması için yaklaşık <strong>1 yıl (Ağustos 1921'den Ağustos 1922'ye) beklenmesinin</strong> temel nedeni nedir?</p>
+<p>A) İtilaf devletleriyle masa başında barış yapıldığına inanılması &nbsp; B) Ordunun savunma yapmayı bilip, taarruz eğitimi almamış olması ve ordunun teçhizat (silah, yiyecek) eksiğinin tamamlanması gerekliliği &nbsp; C) Mustafa Kemal'in başkomutanlık yetkisinin meclis tarafından uzatılmaması &nbsp; D) Sovyet Rusya'nın saldırı yapmamızı yasaklaması</p>
+<p><strong>Çözüm:</strong> Taarruz (saldırı) çok zor bir askeri faaliyettir, savunmaya benzemez. Orduyu aylarca taarruza eğitmek, Tekalif-i Milliye silahlarını cepheye yığmak ve diplomasiyle zaman kazanmak için 1 yıl beklenmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Güney Cephesi'nde Fransız ve Ermeni işgaline karşı askeri bir destek olmadan sivil direniş sergileyen Maraş, Antep ve Urfa'nın bu kahramanlıkları, ileride (TBMM tarafından) unvanlarla taçlandırılmıştır. <br>Buna göre hangi şehrin unvanı <strong>yanlış</strong> eşleştirilmiştir?</p>
+<p>A) Gazi - Antep &nbsp; B) Kahraman - Maraş &nbsp; C) Şanlı - Urfa &nbsp; D) Yiğit - Adana</p>
+<p><strong>Çözüm:</strong> Adana'ya "Yiğit" gibi resmi bir unvan verilmemiştir. Gaziantep (1921), Kahramanmaraş (1973) ve Şanlıurfa (1984) resmi TBMM unvanlarıdır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Büyük Taarruz'un (Başkomutanlık Meydan Muharebesi) sonucunda "Ordular ilk hedefiniz Akdeniz'dir, ileri!" emri verilmiş ve Yunan ordusu İzmir'de denize dökülmüştür. <br>Bu askeri zaferin <strong>siyasi alandaki</strong> doğrudan sonucu aşağıdakilerden hangisidir?</p>
+<p>A) Mudanya Ateşkes Antlaşması'nın imzalanması ve sıcak savaş (askeri mücadele) döneminin sona ermesi &nbsp; B) Mondros Ateşkesi'nin yeniden yürürlüğe girmesi &nbsp; C) İstanbul Hükümeti'nin Sevr'i onaylaması &nbsp; D) Teşkilat-ı Esasiye'nin kabul edilmesi</p>
+<p><strong>Çözüm:</strong> Askeri safhanın bitmesiyle, savaş meydanındaki silahlar susmuş ve masaya oturulmuştur. Bu masa "Mudanya Ateşkesi" masasıdır. (Sonraki konumuz). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>I. İnönü Muharebesi, TBMM açısından askeri bir savunma başarısı olmasının ötesinde, iç siyasette (anayasal düzeyde) hangi büyük yapısal dönüşümü beraberinde getirmiştir?</p>
+<p>A) Kuvâ-yı Milliye'ye tamamen geri dönülmesini &nbsp; B) Teşkilat-ı Esasiye'nin (1921 Anayasası'nın) kabul edilerek yeni bir devletin temel yasasının oluşturulmasını &nbsp; C) Saltanatın resmen kaldırılmasını &nbsp; D) Başkomutanlık makamının kurulmasını</p>
+<p><strong>Çözüm:</strong> Askeri zafer (I. İnönü), meclisin kendine güvenini ve otoritesini artırmış; böylece eski Osmanlı kanunları yerine, yeni devletin ilk anayasası olan Teşkilat-ı Esasiye ilan edilmiştir. (MİLAT şifresinin T'si). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Moskova Antlaşması'nda yer alan "İki taraftan birinin tanımadığı devletlerarası senedi (antlaşmayı) diğeri de tanımayacaktır" maddesi, TBMM ile Sovyet Rusya arasında aşağıdakilerden hangisini <strong>kanıtlamaz</strong>?</p>
+<p>A) Dış politikada birlikte (ortak) hareket etme kararı aldıklarını &nbsp; B) Sovyet Rusya'nın, TBMM'nin reddettiği Sevr Antlaşması'nı reddettiğini (geçersiz saydığını) &nbsp; C) Uluslararası alanda dayanışma içinde olduklarını &nbsp; D) TBMM'nin Sovyet Rusya'nın sömürgesi olmayı (mandasını) kabul ettiğini</p>
+<p><strong>Çözüm:</strong> Bu madde "eşitlik" prensibine dayanan bir diplomasi zaferidir. Rusya Sevr'i, TBMM ise Rusya aleyhindeki antlaşmaları reddetmiştir. Bu tam bağımsız bir devlet (eşit muhatap) duruşudur, manda değildir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Mustafa Kemal'in, Kütahya-Eskişehir Savaşlarındaki ağır mağlubiyet sonrası Türk ordusuna "Sakarya nehrinin doğusuna çekilme" emrini vermesinin <strong>stratejik amacı</strong> nedir?</p>
+<p>A) Ankara'yı savaşmadan Yunanlılara teslim etmek &nbsp; B) Orduyu sivil halka karışıp Kuvâ-yı Milliye'ye dönüştürmek &nbsp; C) Araya Sakarya nehrini (doğal bir bariyer) koyarak düşman taarruzunu yavaşlatmak, zaman kazanmak ve orduyu yok olmaktan kurtarıp toparlamak (stratejik ricat) &nbsp; D) İstanbul'a doğru kaçmak</p>
+<p><strong>Çözüm:</strong> Askerlikte "stratejik ricat" (geri çekilme) bir yenilgi kabullenişi değil, orduyu imha olmaktan kurtarıp daha avantajlı bir doğal sınırda (nehir arkasında) yeniden toparlama sanatıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Sakarya Meydan Muharebesi'nden sonra İtalya'nın Anadolu'yu tamamen boşaltması ve Fransa'nın Ankara Antlaşması'nı imzalayıp çekilmesi, İtilaf Devletleri (özellikle İngiltere) açısından nasıl bir <strong>diplomatik çöküşü</strong> ifade eder?</p>
+<p>A) İngiltere'nin Anadolu'ya tek başına hakim olacağı için sevindiğini &nbsp; B) İtilaf devletleri bloğunun (müttefikliğinin) resmen parçalandığını ve İngiltere ile Yunanistan'ın Anadolu'da yapayalnız kaldığını &nbsp; C) Rusya'nın İngiltere ile ittifak kurduğunu &nbsp; D) Sevr Antlaşması'nın tüm dünyada kabul gördüğünü</p>
+<p><strong>Çözüm:</strong> İtilaf (Anlaşma) Devletleri bloğu üç büyükten (İngiltere, Fransa, İtalya) oluşuyordu. Sakarya zaferi Fransa ve İtalya'yı "Bu iş savaşla olmaz" noktasına getirip çektirince, bloğun birliği çökmüş ve İngiliz politikası iflas etmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>1921 Ankara Antlaşması ile Fransızların işgal ettiği Güney illerinden çekilmesi sağlanmış, ancak <strong>Hatay</strong> (İskenderun) Fransa güdümündeki Suriye sınırları içinde kalmıştır. <br>Bu durum aşağıdakilerden hangisinin <strong>doğrudan</strong> göstergesidir?</p>
+<p>A) Hatay halkının Fransızları desteklediğinin &nbsp; B) Güney sınırımızın Misak-ı Milli'den <strong>ikinci taviz</strong> verilerek çizildiğinin &nbsp; C) Suriye'nin TBMM'ye bağlandığının &nbsp; D) İstiklal Marşı'nın iptal edildiğinin</p>
+<p><strong>Çözüm:</strong> Misak-ı Milli sınırları içinde olan Batum ilk taviz (Moskova ile), Hatay ise ikinci tavizdir (Ankara ile). Ancak Mustafa Kemal ileride (1939'da) müthiş bir diplomasiyle Hatay'ı tekrar anavatana katacaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Başkomutanlık Kanunu ile TBMM'nin tüm yasama ve yürütme yetkilerini 3 aylığına devralan Mustafa Kemal'in, bu yetkiyi kullanarak yayınladığı <strong>ilk emir</strong> Tekalif-i Milliye'dir. <br>Buna göre Tekalif-i Milliye'nin hukuki statüsü nedir ve neden mecliste oylanmamıştır?</p>
+<p>A) O bir kanundur, meclis oylamayı unutmuştur. &nbsp; B) O bir kanun değildir, Başkomutanın "olağanüstü hal" emridir; çünkü meclis yasama (kanun yapma) yetkisini bizzat Başkomutana devrettiği için oylamaya gerek yoktur (Hız esastır). &nbsp; C) İtilaf devletleri oylamaya izin vermemiştir. &nbsp; D) Sadece tavsiye niteliğinde bir mektuptur.</p>
+<p><strong>Çözüm:</strong> Yasama yetkisi Başkomutanda olduğu için, onun ağzından çıkan (veya yazdığı) her söz o an için "kanun/emir" hükmündedir. Amaç haftalarca sürecek yasa tasarılarını ve meclis tartışmalarını atlayıp derhal orduyu donatmaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Büyük Taarruz'da Mustafa Kemal'in "Ordular, ilk hedefiniz Akdeniz'dir. İleri!" emri, coğrafi olarak orduyu nereye yönlendirmiştir?</p>
+<p>A) Suriye (Güney cephesi) &nbsp; B) Antalya (İtalyan bölgesi) &nbsp; C) İzmir ve Ege denizi (O dönem Ege denizi de Akdeniz olarak adlandırılıyordu) &nbsp; D) İstanbul (Marmara denizi)</p>
+<p><strong>Çözüm:</strong> Osmanlı coğrafyasında Ege Denizi'ne de "Bahr-i Sefid" (Akdeniz - Adalar Denizi) denirdi. Hedef doğrudan İzmir'dir ve nitekim ordu 9 Eylül'de İzmir'e ulaşmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Kurtuluş Savaşı muharebeleri incelendiğinde, TBMM'nin askeri başarısızlığının (Kütahya-Eskişehir) diplomatik masada da TBMM'yi yalnızlaştırdığı, ancak Sakarya Zaferi'nin İtilaf Devletleri'ni masaya oturmaya (Ankara Antlaşması) zorladığı görülür. <br>Bu durum uluslararası ilişkilerde hangi kuralı doğrular?</p>
+<p>A) Devletler her zaman verdikleri sözü tutarlar. &nbsp; B) Uluslararası diplomaside masadaki gücünüz (siyasi prestijiniz), sahadaki askeri gücünüzle doğru orantılıdır (Askeri başarı siyasi başarıyı getirir). &nbsp; C) Sadece zengin ülkeler antlaşma yapabilir. &nbsp; D) Diplomaside askeri gücün hiçbir önemi yoktur.</p>
+<p><strong>Çözüm:</strong> Kazananın masada sesi gür çıkar, kaybeden masada taviz verir. Milli Mücadele'nin temel yasası budur. Saha (askeriye) ve Masa (diplomasi) birbiriyle doğrudan bağlantılıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Ermenistan'ın Gümrü Antlaşması ile Sevr'den vazgeçmesi ve Misak-ı Milli'yi tanıması, Kafkaslarda (Doğu cephesinde) aşağıdaki durumlardan hangisini kanıtlar?</p>
+<p>A) Ermenilerin "Büyük Ermenistan" hayalinden (Megali Ermenistan / Sevr vaatleri) o an için hukuken vazgeçmek (pes etmek) zorunda kaldığını &nbsp; B) İtilaf devletlerinin Ermenileri desteklemeye devam ettiğini &nbsp; C) TBMM'nin Ermeni mandasına girdiğini &nbsp; D) Sovyet Rusya'nın Ermenistan'ı işgal ettiğini (O tarihte değil, daha sonra)</p>
+<p><strong>Çözüm:</strong> Sevr, Doğu'da onlara koca bir devlet vadetmişti. Gümrü'yü imzalamak, "Sevr yırtılmıştır, bu topraklardaki hak iddiamızdan (hayalimizden) askeri yenilgi sebebiyle vazgeçtik" demektir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Sakarya Meydan Muharebesi'nde Mustafa Kemal'in uyguladığı "Sathı Müdafaa" (Yüzey Savunması) taktiği harp tarihine geçmiştir. Bu taktiğin <strong>temel felsefesi</strong> nedir?</p>
+<p>A) Siperler yıkılırsa (hat yarılırsa), orduyu tamamen geri çekmek (Klasik hat savunması). &nbsp; B) Bir birliğin bulunduğu siper (hat) çökse bile, birliğin kaçmaması ve tutunabildiği ilk noktada yeniden cephe (satıh) oluşturarak savaşmaya devam etmesi (Alan/Derinlik savunması). &nbsp; C) Sadece süvarilerle taarruz etmek. &nbsp; D) Düşmanın arkasına uçaklarla sarkmak.</p>
+<p><strong>Çözüm:</strong> Eski savaşlarda çizgi (hat) kırılınca savaş biter, ordu geriye veya şehre kaçardı. M. Kemal "Hat (çizgi) yok, satıh (tüm alan) var. Geri adım attığın her yer senin siperindir" diyerek modern alan (derinlik) savunmasını icat etmiş ve Yunan'ın hızını kırarak orduyu imha olmaktan kurtarmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Tüm detaylı analizler ve sınav stratejileri, 1-30 soruların hemen altındaki <strong>Çözüm</strong> bölümlerinde verilmiştir. "MİLAT" ve "GMK" şifrelerini asla unutmayın.</em></p>
+`,
   },
   {
     id: 64,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Mudanya Ateşkesi ve Lozan Barış Antlaşması',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Mudanya, Saltanatın Kaldırılması, Lozan'da Çözülen ve Çözülemeyen Konular)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Büyük Taarruz ile Yunan ordusunu İzmir'de denize döktük ve vatan topraklarını fiilen (askeri olarak) düşmandan temizledik. Ancak askeri zafer tek başına bir devleti var etmez; o zaferin uluslararası bir masada "imzalarla" tescil edilmesi gerekir. İşte bu konumuzda "Saha"dan "Masa"ya, yani diplomasinin keskin kılıçlarının çekildiği arenalara (önce Mudanya'ya, sonra Lozan'a) gidiyoruz.</p>
+<p>İsmet Paşa'nın "Ben buraya Mondros'tan değil, Mudanya'dan (galip olarak) geldim!" sözüyle damga vurduğu Lozan süreci, Yeni Türk Devleti'nin tapu senedidir. ÖSYM, bu "Diplomasi" evresini çok sever. Özellikle Lozan'da neleri başardığımızı, nelerde taviz vermek zorunda kaldığımızı ve hangi konunun hiç çözülemediğini (Musul) sana mutlaka soracaktır. Ayrıca Lozan'a giden süreçte ortaya çıkan ikiliği yok etmek için I. TBMM'nin yaptığı tek inkılap olan "Saltanatın Kaldırılması" da bu konunun en can alıcı siyasi düğümüdür.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu Milli Mücadele'nin kapanış perdesidir. Sevr'in (ölüm fermanının) yırtılıp çöpe atıldığı, bağımsız ve eşit bir devlet olarak dünyanın bizi tanımak ZORUNDA kaldığı süreçtir. KPSS, Lozan'ın maddelerinin Misak-ı Milli'ye uygun olup olmadığını sıkça analiz ettirir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Süreci zincirleme görelim: Büyük Taarruz ile sıcak savaş bitti $\rightarrow$ İngilizlerle savaşa ramak kala <strong>Mudanya Ateşkes Antlaşması</strong> imzalandı (Silahlar sustu) $\rightarrow$ İtilaf devletleri Lozan'da yapılacak Barış Konferansına hem TBMM'yi hem İstanbul Hükümeti'ni çağırdı (İkilik çıkarma oyunu) $\rightarrow$ TBMM bu oyunu bozmak için <strong>Saltanatı Kaldırdı</strong> (Osmanlı resmen bitti) $\rightarrow$ Yalnızca TBMM'nin temsil ettiği heyet Lozan'a gitti ve aylarca süren çetin pazarlıklar sonucunda <strong>Lozan Barış Antlaşması</strong> imzalandı (Bağımsızlık tescillendi).</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Fiilen, Hukuken ve Resmen Bitiş</span><p>Osmanlı'nın yok oluş aşamaları en büyük KPSS tuzağıdır:<br>
+1) <strong>Fiilen bitiş:</strong> Mondros Ateşkesi (Başkent işgal edildi, ordu dağıtıldı).<br>
+2) <strong>Hukuken bitiş:</strong> Mudanya Ateşkesi (İstanbul ve Boğazlar, padişah varken TBMM'ye bırakıldı).<br>
+3) <strong>Resmen bitiş:</strong> Saltanatın Kaldırılması (Padişahlık kurumu yok edildi).</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Mudanya Ateşkes Antlaşması (3-11 Ekim 1922)</h3>
+<p>Büyük Taarruz'dan sonra Türk ordusu, Boğazlar ve İstanbul'u kurtarmak için Çanakkale'ye doğru yöneldi. Burada İngiliz ordusuyla karşı karşıya gelindi (Çanakkale Krizi). İngiltere, müttefiklerinden (Fransa ve İtalya) destek bulamayınca savaşmayı göze alamadı ve ateşkes istemek zorunda kaldı.</p>
+<p>Bursa'nın Mudanya ilçesinde toplanan masaya <strong>TBMM adına İsmet Paşa</strong> katıldı. Masada İngiltere, Fransa ve İtalya vardı. <em>(Dikkat: Yunanistan masada YOKTUR, bir gemide bekleyip İngiltere'nin kararlarına uymuştur. Çünkü ordusu imha edilmişti).</em></p>
+<p><strong>Mudanya'nın En Kritik Maddesi ve Sonucu:</strong><br>
+"İstanbul, Boğazlar ve Doğu Trakya (Edirne, Kırklareli, Tekirdağ) TBMM Hükümeti'ne bırakılacaktır."<br>
+<strong>Sonucu:</strong> Düşman, savaşılmadan (tek kurşun atılmadan) diploması masasında topraklarımızdan çıkarılmıştır (Doğu Trakya'yı teslim alması için <strong>Refet Bele</strong> Trakya Yüksek Komiseri olarak atanmıştır). Ayrıca başkent İstanbul'un Osmanlı Hükümeti'ne değil de TBMM'ye bırakılmasıyla, Osmanlı Devleti <strong>HUKUKEN (hukuk önünde yok sayılarak)</strong> sona ermiştir.</p>
+
+<h3>3.2. Lozan Öncesi Kriz: Saltanatın Kaldırılması (1 Kasım 1922)</h3>
+<p>Mudanya ile silahlar susunca sıra kalıcı Barış Antlaşmasına (Lozan'a) geldi. İtilaf Devletleri, eski oyunlarını tekrarlayıp İsviçre'nin Lozan kentine hem TBMM'yi hem de Osmanlı (İstanbul) Hükümeti'ni birlikte davet ettiler. (Amaç: Türkler birbiriyle kavga ederken isteklerini dayatmak).</p>
+<p>Mustafa Kemal ve I. TBMM, bu oyunu kökünden bozmak için tarihi bir hamle yaptı: 1 Kasım 1922'de çıkardığı bir kanunla <strong>Saltanat ile Halifeliği birbirinden ayırdı ve Saltanatı kaldırdı.</strong></p>
+<p><strong>Önemi ve Sonuçları:</strong></p>
+<ul>
+<li><strong>I. TBMM'nin yaptığı TEK inkılaptır.</strong></li>
+<li>Lozan'daki ikilik çıkarma planı çökmüş, TBMM Türk milletinin tek temsilcisi olmuştur.</li>
+<li>Osmanlı Devleti <strong>RESMEN (resmi olarak)</strong> sona ermiştir. (600 yıllık çınar yıkıldı).</li>
+<li>Son Padişah VI. Mehmet Vahdettin, İngiliz gemisiyle ülkeyi terk etmiştir.</li>
+<li>TBMM, Halifelik kurumunu ise (halkın tepkisini çekmemek ve hazır olmadıkları için) hemen kaldırmamış, Osmanlı soyundan gelen <strong>Abdülmecit Efendi'yi</strong> "siyasi yetkisi olmayan, sadece dini bir lider" olarak Halife seçmiştir.</li>
+</ul>
+
+<h3>3.3. Lozan Barış Konferansı Başlıyor (Kasım 1922)</h3>
+<p>Konferansın İsviçre'nin Lozan kentinde toplanma sebebi, İsviçre'nin <strong>tarafsız</strong> bir devlet olmasıdır. Türk heyetinin başkanı (Baş Delege) olarak <strong>İsmet Paşa (İnönü)</strong> seçilmiştir. (Seçilme nedeni Mudanya Ateşkesi'ndeki diplomatik başarısıdır. Yardımcıları Hasan Saka ve Rıza Nur'dur).</p>
+<p><strong>Mustafa Kemal'in Asla Taviz Verilmeyecek 2 Kırmızı Çizgisi (K-E):</strong><br>
+İsmet Paşa'ya kesin talimat verilmiştir: "Her konuda pazarlık yapabilirsin ama <strong>KAPİTÜLASYONLAR</strong> ve Doğu'da bir <strong>ERMENİ YURDU (Devleti)</strong> konularında asla taviz vermeyeceksin, gerekirse masadan kalkıp geri geleceksin!"</p>
+
+<h3>3.4. Lozan'da Kriz ve Kesinti (İzmir İktisat Kongresi)</h3>
+<p>Görüşmeler çok çetin geçiyordu. İngiltere (Lord Curzon) Musul'u vermek istemiyor, Fransa kapitülasyonlarda diretiyordu. 4 Şubat 1923'te görüşmeler koptu ve Türk heyeti yurda döndü. Savaş tamtamları yeniden çalmaya başladı (Hatta ordumuz Musul ve Boğazlar üzerine yürüme planları yaptı).</p>
+<p>Bu kesinti (tatil) döneminde boş durmadık:<br>
+- Ekonomik bağımsızlık planı için <strong>İzmir İktisat Kongresi</strong> toplandı.<br>
+- Yıpranan ve muhalefetin arttığı meclis seçimleri yenilendi (Görüşmelere I. TBMM başladı, onaylamayı II. TBMM yaptı).<br>
+Nihayetinde yeni bir savaş göze alınamadı ve masaya tekrar dönülerek 24 Temmuz 1923'te antlaşma imzalandı.</p>
+
+<h3>3.5. Lozan Barış Antlaşması'nın Kararları</h3>
+<p>Lozan'ı "Kazandıklarımız (Misak-ı Milli'ye uygun)", "Taviz Verdiklerimiz (Aykırı)" ve "Çözülemeyen (Ertelenen)" olarak 3'e ayırarak çalışmalısın.</p>
+<p><strong>A) Lehimize Çözülenler (Kazandıklarımız - Kırmızı Çizgilerimiz):</strong></p>
+<ul>
+<li><strong>Kapitülasyonlar:</strong> KESİN OLARAK ve tamamen kaldırıldı. (Ekonomik bağımsızlığın en büyük zaferi).</li>
+<li><strong>Ermeni Yurdu:</strong> Doğu Anadolu'da bir Ermeni devleti kurulması fikri tamamen reddedildi.</li>
+<li><strong>Azınlıklar:</strong> Türkiye'deki tüm azınlıklar (Rum, Ermeni, Yahudi) <strong>Türk vatandaşı</strong> sayıldı. (Böylece Avrupalıların "azınlık haklarını koruma" bahanesiyle iç işlerimize karışması tamamen engellendi).</li>
+<li><strong>Dış Borçlar (Düyun-u Umumiye):</strong> Osmanlı'dan kalan borçlar, Osmanlı'dan ayrılan yeni devletler (Suriye, Irak, Yunanistan vb.) arasında yüzölçümü oranında paylaştırıldı. (Borcumuz taksitlendirildi, Düyun-u Umumiye fiilen bitti). Fransa ile en çok bu konuda tartıştık.</li>
+<li><strong>Savaş Tazminatı:</strong> Yunanistan savaş suçlusu kabul edildi ve savaş tazminatı olarak <strong>Karaağaç ve Bosnaköy</strong>'ü Türkiye'ye verdi.</li>
+</ul>
+
+<p><strong>B) Aleyhimize Çözülenler (Taviz Verdiklerimiz):</strong></p>
+<ul>
+<li><strong>Boğazlar:</strong> Boğazların yönetimi <strong>başkanı Türk olan uluslararası bir komisyona</strong> bırakıldı. Ayrıca boğazların iki yakası silahsızlandırıldı. (Bu durum Misak-ı Milli'ye ve <strong>Tam Egemenlik</strong> ilkesine terstir. Yıllar sonra Montrö ile düzeltilecektir).</li>
+<li><strong>Hatay (Suriye Sınırı):</strong> 1921 Ankara Antlaşması esas alındı. Yani Hatay (İskenderun) sınırlarımız dışında kaldı. (Tavizdir. 1939'da düzeltilecek).</li>
+<li><strong>Patrikhanenin Durumu:</strong> Fener Rum Patrikhanesi'ni yurt dışına çıkarmak istedik ama başaramadık, İstanbul'da kaldı. Sadece "siyasi yetkileri" (mahkeme vb.) elinden alındı.</li>
+<li><strong>Batı Trakya ve Adalar:</strong> Batı Trakya Yunanistan'a, On İki Ada İtalya'ya, Ege Adaları (Midilli, Sakız vb.) silahsız olmak şartıyla Yunanistan'a bırakıldı. Gökçeada, Bozcaada ve Tavşan adaları Türkiye'de kaldı.</li>
+</ul>
+
+<p><strong>C) Çözülemeyen (Ertelenen) TEK Konu:</strong></p>
+<ul>
+<li><strong>Musul (Irak Sınırı):</strong> İngiltere petrol zengini Musul'u bırakmak istemedi. Konferansın dağılmaması için bu konu Lozan metninden çıkarıldı. Karar: <em>"Türkiye ile İngiltere 9 ay içinde kendi aralarında ikili görüşmelerle (Haliç Konferansı) çözecektir."</em> (Yani Musul konusu Lozan'da ne lehimize ne aleyhimize çözülmüştür, sadece ertelenmiştir).</li>
+</ul>
+
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Lozan'ın Katılımcıları</span><p>
+- <strong>Tüm konulara katılanlar:</strong> Türkiye, İngiltere, Fransa, İtalya, Japonya, Yunanistan, Romanya, Yugoslavya.<br>
+- <strong>Sadece BOĞAZLAR konusu için katılanlar:</strong> Sovyet Rusya (SSCB) ve Bulgaristan. (Karadeniz'e kıyıları olduğu için).<br>
+- <strong>Gözlemci Devlet:</strong> ABD (Görüşmelere aktif katılmadı, sadece izledi).</p></div>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Neden Lozan'a gitmeden hemen önce Saltanatı kaldırdık?</strong> İtilaf Devletlerinin İstanbul Hükümeti'ni de masaya çağırarak çıkartmayı planladığı (Sevr'i dayatma) ikiliğini kökünden yok etmek için.</li>
+<li><strong>Neden Azınlıkları "Türk vatandaşı" saydık?</strong> Avrupalıların eskiden beri süregelen "Hristiyanlara kötü davranıyorsunuz, azınlık hakları eziliyor" bahanesiyle iç işlerimize müdahale etmesinin (bahanelerinin) yasal yolunu kapatmak için.</li>
+<li><strong>Neden Düyun-u Umumiye (Dış Borçlar idaresi) kaldırıldı?</strong> Tam bağımsız (ekonomik olarak) bir devlet, kendi topraklarında vergi toplayan uluslararası bir kuruluşa izin veremez. Bu, kapitülasyonların mali versiyonuydu.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Önemi / Sonucu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ekim 1922</td>
+<td>Mudanya Ateşkesi</td>
+<td>Sıcak savaş bitti. Doğu Trakya savaşsız alındı. Osmanlı <strong>hukuken</strong> bitti.</td>
+</tr>
+<tr>
+<td>1 Kasım 1922</td>
+<td>Saltanatın Kaldırılması</td>
+<td>Lozan'daki ikilik önlendi. Osmanlı <strong>resmen</strong> bitti. (I. TBMM'nin tek inkılabı).</td>
+</tr>
+<tr>
+<td>Şubat 1923</td>
+<td>Lozan Görüşmelerinin Kesilmesi</td>
+<td>Kapitülasyonlar ve Musul kriz yarattı. İzmir İktisat Kongresi toplandı.</td>
+</tr>
+<tr>
+<td>24 Temmuz 1923</td>
+<td>Lozan Barış Antlaşması</td>
+<td>Yeni Türk Devleti'nin bağımsızlığının tüm dünyaca resmen tanınması.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Sevr Barış Antlaşması ile Lozan Barış Antlaşması Karşılaştırması</h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Sevr (1920) - Ölüm Fermanı</th>
+<th>Lozan (1923) - Tapu Senedi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kapitülasyonlar</strong></td>
+<td>Daha da genişletilerek tüm devletlere verilecek.</td>
+<td><strong>Kesinlikle kaldırıldı.</strong></td>
+</tr>
+<tr>
+<td><strong>Ermeni Yurdu</strong></td>
+<td>Doğu'da büyük bir Ermenistan kurulacak.</td>
+<td><strong>Reddedildi, topraklarımızda devlet kurulamaz.</strong></td>
+</tr>
+<tr>
+<td><strong>Boğazlar Yönetimi</strong></td>
+<td>İçinde TÜRK OLMAYAN uluslararası komisyon.</td>
+<td><strong>BAŞKANI TÜRK OLAN</strong> uluslararası komisyon (Kısmi başarı/taviz).</td>
+</tr>
+<tr>
+<td><strong>Ordu</strong></td>
+<td>Ağır silahı olmayan, 50 bin kişilik ordu.</td>
+<td><strong>Hiçbir kısıtlama (sınırlandırma) yoktur.</strong></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Mudanya'da Kim Yok?</strong> Yunanistan masaya oturmadı. İngiltere onu temsil etti.</li>
+<li><strong>Mudanya'da Savaşılmadan Kurtarılan Yerler:</strong> İstanbul, Boğazlar ve Doğu Trakya.</li>
+<li><strong>Trakya Yüksek Komiseri:</strong> Mudanya'dan sonra Doğu Trakya'yı teslim almakla görevlendirilen komutan <strong>Refet Bele</strong>'dir.</li>
+<li><strong>Lozan'da Türkiye'yi Kim Temsil Etti?</strong> Dışişleri Bakanı sıfatıyla <strong>İsmet İnönü</strong>.</li>
+<li><strong>Nüfus Mübadelesi (Değişimi):</strong> Lozan'da, İstanbul'daki Rumlar ile Batı Trakya'daki Türkler "yerleşik (etabli)" sayıldı. Bunun dışındaki Türkiye Rumları ile Yunanistan Türklerinin karşılıklı olarak değiştirilmesine karar verildi.</li>
+<li><strong>Savaş Tazminatımız:</strong> Yunanistan suçlu bulunarak bize Karaağaç ve Bosnaköy'ü vermiştir.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Lozan Hangi Meclis?</span><p>Lozan Konferansına delege gönderen ve görüşmeleri başlatan <strong>I. TBMM</strong>'dir. Görüşmeler kesilince meclis seçimleri yenilendi. Antlaşma imzalanıp onaylanması için meclise geldiğinde artık <strong>II. TBMM</strong> görevdeydi. (Onaylayan II. TBMM'dir).</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Boğazlar Komisyonunun Kaldırılması" tuzağı.</strong> Lozan'da Boğazlar üzerindeki uluslararası komisyon KALDIRILMAMIŞTIR. Sadece başkanı Türk yapılmıştır. "Lozan'da Boğazlar tam egemenliğimize geçti" şıkkı KESİNLİKLE YANLIŞTIR. Tam egemenlik 1936 Montrö Sözleşmesi ile sağlanacaktır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>Musul'un "Aleyhimize" çözüldüğü yanılgısı.</strong> Lozan'da Musul (Irak sınırı) ne lehimize ne de aleyhimize çözülmemiştir. Sadece "Ertelenmiştir" (Çözülemeyen tek konudur). Musul'u İngilizlere bırakmamız Lozan'da değil, 1926 Ankara Antlaşması'ndadır (İleriki konu).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>Halifeliğin Lozan'dan önce kaldırıldığı tuzağı.</strong> Lozan'a gitmeden önce ikiliği önlemek için "Saltanat" kaldırılmıştır. Halifelik o gün KORUNMUŞ, Abdülmecit Efendi halife seçilmiştir. Halifeliğin kaldırılması Cumhuriyet ilan edildikten çok sonra (3 Mart 1924) olacaktır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>Patrikhanenin kovulduğu tuzağı.</strong> Lozan'da Fener Rum Patrikhanesi'ni yurt dışına çıkarmak istedik ama BAŞARAMADIK. Patrikhane Türkiye'de (İstanbul'da) kaldı, sadece siyasi (mahkeme kurma vb.) yetkileri elinden alındı, sırf dini bir kuruma dönüştürüldü.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "K-E" (Kırmızı Çizgiler)</span><p>Lozan'da Mustafa Kemal'in asla taviz verdirtmediği 2 kırmızı çizgi:<br>
+<strong>K</strong>apitülasyonlar (Ekonomik bağımsızlık)<br>
+<strong>E</strong>rmeni Yurdu (Toprak bütünlüğü)</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "S.B.B" (Savaşılmadan Kurtarılanlar)</span><p>Mudanya Ateşkesi ile Savaşılmadan Bırakılan Bölgeler:<br>
+<strong>S</strong>traight (İngilizce Boğazlar / Boğazlar Bölgesi)<br>
+<strong>B</strong>aşkent (İstanbul)<br>
+<strong>B</strong>atı değil, Doğu Trakya (Edirne, Kırklareli, Tekirdağ). (Trakya Yüksek Komiseri Refet Bele).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Mudanya Ateşkesi:</strong> Büyük Taarruz sonrası İngiltere ile yapıldı. Savaşsız kazanımlar elde ettik. Osmanlı'nın başkentinin TBMM'ye bırakılmasıyla Osmanlı <strong>hukuken</strong> sona erdi.<br>
+• <strong>Saltanatın Kaldırılması:</strong> İtilaf devletleri Lozan'a hem TBMM'yi hem İstanbul'u çağırınca, TBMM saltanatı kaldırarak (1 Kasım 1922) Osmanlı'yı <strong>resmen</strong> bitirdi ve Lozan'a tek temsilci olarak gitti.<br>
+• <strong>Lozan'ın Kırmızı Çizgileri:</strong> Kapitülasyonlar (kaldırıldı) ve Ermeni yurdu (reddedildi).<br>
+• <strong>Lozan'da Ertelenen Tek Konu:</strong> Musul (Irak sınırı) İngiltere ile sonradan çözülmek üzere bırakıldı.<br>
+• <strong>Lozan'da Taviz Verilenler:</strong> Boğazların yönetimi (Komisyon), Hatay (Suriye'ye kaldı).<br>
+• <strong>Önemi:</strong> Yeni Türk Devleti'nin dünya devletleriyle eşit, tam bağımsız bir devlet olarak uluslararası arenada tescillenmesidir.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Mudanya'da masada olmayan:</strong> Yunanistan.<br>
+• <strong>Mudanya'da hukuken biten devlet:</strong> Osmanlı.<br>
+• <strong>Doğu Trakya'yı teslim alan komutan:</strong> Refet Bele.<br>
+• <strong>Lozan'daki ikiliği önlemek için yapılan:</strong> Saltanatın kaldırılması (Resmen bitiş).<br>
+• <strong>Son Halife:</strong> Abdülmecit Efendi.<br>
+• <strong>Lozan'da Baş Delege:</strong> İsmet Paşa (Mudanya başarısından dolayı).<br>
+• <strong>Kesinlikle taviz verilmeyenler:</strong> Kapitülasyonlar ve Ermeni yurdu.<br>
+• <strong>Çözülemeyen (ertelenen) TEK konu:</strong> Musul (Irak sınırı).<br>
+• <strong>Boğazlara sadece Lozan'da katılanlar:</strong> Rusya ve Bulgaristan.<br>
+• <strong>Savaş tazminatı olarak alınan yer:</strong> Karaağaç (Yunanistan'dan).<br>
+• <strong>Azınlıkların Türk vatandaşı sayılma nedeni:</strong> İç işlerimize karışılmasını engellemek.<br>
+• <strong>Lozan'ı onaylayan meclis:</strong> II. TBMM.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Büyük Taarruz başarıyla sonuçlandıktan sonra İngiltere ile yaşanabilecek muhtemel bir savaşı engelleyen ve Kurtuluş Savaşı'nın "askeri (sıcak) çatışma" dönemini bitiren belge aşağıdakilerden hangisidir?</p>
+<p>A) Mondros Ateşkesi &nbsp; B) Mudanya Ateşkesi &nbsp; C) Ankara Antlaşması &nbsp; D) Gümrü Antlaşması</p>
+<p><strong>Çözüm:</strong> Askeri çatışmaları (silahları) susturan ilk metin Ateşkes'tir. Büyük Taarruz sonrası yapılan ateşkes Mudanya'dır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Mudanya Ateşkes Antlaşması'nda "İstanbul ve Boğazların yönetimi TBMM'ye bırakılacaktır" maddesi yer almıştır. <br>Bu madde Osmanlı Devleti'nin hangi durumu yaşadığını gösterir?</p>
+<p>A) Devletin yıkılmaktan kurtulduğunu &nbsp; B) <strong>Hukuken</strong> sona erdiğini &nbsp; C) <strong>Fiilen</strong> sona erdiğini &nbsp; D) Halifeliğin kaldırıldığını</p>
+<p><strong>Çözüm:</strong> Bir devletin başkenti (hükümet merkezi), uluslararası bir antlaşmayla o ülkedeki başka bir otoriteye (TBMM'ye) bırakılıyorsa, o devlet hukuk önünde (masada) yok sayılmış (hukuken bitmiş) demektir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Aşağıdaki bölgelerden hangisi Kurtuluş Savaşı sırasında silahlı bir çatışma yapılmadan (askeri bir taarruz düzenlenmeden), <strong>Mudanya Ateşkesi'nin diplomasisiyle</strong> kurtarılmıştır?</p>
+<p>A) İzmir &nbsp; B) Kars &nbsp; C) Doğu Trakya &nbsp; D) Antep</p>
+<p><strong>Çözüm:</strong> İzmir savaşla (Büyük Taarruz), Kars savaşla (Doğu Cephesi), Antep savaşla (Güney Cephesi) kurtarıldı. Doğu Trakya, İstanbul ve Boğazlar ise savaşılmadan diplomatik yolla (Mudanya) alınmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>İtilaf Devletlerinin Lozan Barış Konferansına hem TBMM Hükümetini hem de İstanbul Hükümetini birlikte davet etmesi üzerine TBMM, bu ikiliği ortadan kaldırmak için hangi tarihi adımı atmıştır?</p>
+<p>A) Cumhuriyet'i ilan etmiştir &nbsp; B) Saltanatı kaldırmıştır &nbsp; C) İstiklal Mahkemelerini kurmuştur &nbsp; D) Halifeliği kaldırmıştır</p>
+<p><strong>Çözüm:</strong> İkilik çıkarma oyununu bozmak için İstanbul Hükümetinin dayandığı makam olan Padişahlık (Saltanat) makamı, 1 Kasım 1922'de kaldırılarak Osmanlı resmen bitirilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Mudanya Ateşkes Antlaşması'ndaki diplomatik başarısından dolayı Lozan Barış Konferansı'na Türkiye adına <strong>"Baş Delege"</strong> (Heyet Başkanı) olarak gönderilen devlet adamı kimdir?</p>
+<p>A) Rauf Orbay &nbsp; B) Refet Bele &nbsp; C) Kazım Karabekir &nbsp; D) İsmet İnönü (İsmet Paşa)</p>
+<p><strong>Çözüm:</strong> Mudanya'daki dik ve başarılı duruşu sebebiyle M. Kemal, Lozan'a Baş Delege (Dışişleri Bakanı sıfatıyla) İsmet Paşa'yı göndermiştir. Rauf Orbay gitmek istemiş ama tercih edilmemiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Lozan Barış Konferansında Mustafa Kemal'in Türk heyetinden, ne pahasına olursa olsun (gerekirse masadan kalkmak uğruna) <strong>asla taviz vermemelerini</strong> istediği iki konu aşağıdakilerden hangisidir?</p>
+<p>A) Boğazlar ve Musul &nbsp; B) Kapitülasyonlar ve Ermeni Yurdu &nbsp; C) Dış Borçlar ve Savaş Tazminatı &nbsp; D) Azınlıklar ve Patrikhane</p>
+<p><strong>Çözüm:</strong> Tam bağımsızlık için ekonomik pranga olan Kapitülasyonlar ve toprak bütünlüğünü bölen Ermeni yurdu (devleti) kırmızı çizgimizdir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Lozan Barış Konferansı'nda tarafların anlaşamaması nedeniyle Lozan metnine dahil edilmeyen ve İngiltere ile Türkiye arasında daha sonra çözülmek üzere <strong>ertelenen (çözülemeyen tek konu)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Irak Sınırı (Musul) &nbsp; B) Suriye Sınırı (Hatay) &nbsp; C) Boğazlar &nbsp; D) Nüfus Mübadelesi</p>
+<p><strong>Çözüm:</strong> Musul meselesi Lozan'da çözülemeyen yegane (tek) sorundur. İki ülke (Türkiye-İngiltere) arasında 9 ay içinde çözülmek üzere sonraya bırakılmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Lozan Barış Antlaşması'nda Boğazların durumu nasıl çözülmüştür?</p>
+<p>A) Tamamen Türkiye'nin yönetimine bırakılarak &nbsp; B) Başkanı Türk olan uluslararası bir komisyona bırakılarak (ve her iki yaka silahsızlandırılarak) &nbsp; C) Sadece Rusya'nın kontrolüne bırakılarak &nbsp; D) Tamamen İngiltere'ye bırakılarak</p>
+<p><strong>Çözüm:</strong> Lozan'da Boğazlar tam bağımsızlığımıza (egemenliğimize) aykırı çözüldü. Komisyon kuruldu (gerçi Sevr'den farklı olarak başkanı Türk oldu) ve askersizleştirildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Lozan Antlaşması'nda Türkiye'deki (İstanbul hariç) Rumlar ile Yunanistan'daki (Batı Trakya hariç) Türklerin karşılıklı olarak yer değiştirmesi kararlaştırılmıştır. <br>Diplomaside bu işleme ne ad verilir?</p>
+<p>A) İskan &nbsp; B) Mübadele (Nüfus Değişimi) &nbsp; C) Asimilasyon &nbsp; D) Sürgün</p>
+<p><strong>Çözüm:</strong> Karşılıklı nüfus değişimine "mübadele" denir. Sadece İstanbul'daki Rumlar ve Batı Trakya'daki Türkler "yerleşik (etabli)" sayılarak yerlerinde kalmış, diğerleri göç ettirilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Yunanistan'ın Anadolu'da yaptığı tahribat ve yıkımlar nedeniyle savaş suçlusu kabul edilerek, Türkiye'ye <strong>savaş tazminatı</strong> olarak verdiği bölge neresidir?</p>
+<p>A) On İki Ada &nbsp; B) Batı Trakya &nbsp; C) Karaağaç ve Bosnaköy &nbsp; D) Selanik</p>
+<p><strong>Çözüm:</strong> Yunanistan, savaş tazminatı olarak Edirne yakınlarındaki Karaağaç ve Bosnaköy'ü Türkiye'ye vermiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Aşağıdakilerden hangisi Mudanya Ateşkes Antlaşması'nın özelliklerinden biri <strong>değildir</strong>?</p>
+<p>A) Yunanistan'ın masada temsil edilmemesi &nbsp; B) Osmanlı'nın hukuken sona ermesi &nbsp; C) Milli Mücadele'nin silahlı safhasını bitirmesi &nbsp; D) Kapitülasyonların kesin olarak kaldırılması</p>
+<p><strong>Çözüm:</strong> Mudanya bir "Ateşkes" (silah bırakma) antlaşmasıdır, ekonomik/siyasi detaylar (kapitülasyonlar) içermez. Kapitülasyonlar Lozan "Barış" Antlaşması'nda kaldırılmıştır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Mudanya Ateşkesi'nden sonra Doğu Trakya bölgesini İtilaf devletlerinden (Yunanlılardan) savaşsız şekilde teslim almakla görevlendirilen "Trakya Yüksek Komiseri" kimdir?</p>
+<p>A) Fevzi Çakmak &nbsp; B) Refet Bele &nbsp; C) Rauf Orbay &nbsp; D) Ali Fuat Cebesoy</p>
+<p><strong>Çözüm:</strong> Doğu Trakya'ya geçip oradaki Türk yönetimini kurmak ve bölgeyi teslim almak görevi Refet Bele'ye verilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>I. TBMM döneminde yapılan saltanatın kaldırılması kararıyla ilgili olarak; "I. Halifelik de aynı gün kaldırılmıştır, II. Osmanlı resmen sona ermiştir, III. I. TBMM'nin yaptığı tek inkılaptır." yargılarından hangileri <strong>doğrudur</strong>?</p>
+<p>A) Yalnız I &nbsp; B) Yalnız II &nbsp; C) II ve III &nbsp; D) I, II ve III</p>
+<p><strong>Çözüm:</strong> Halifelik aynı gün KALDIRILMAMIŞTIR (Korunmuş ve Osmanlı soyundan Abdülmecit halife seçilmiştir). Osmanlı resmen sona ermiş ve bu olay I. TBMM'nin tek inkılabı olmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Lozan Barış Konferansında "Boğazlar" konusu görüşülürken masaya Karadeniz'e kıyısı olan iki devlet daha katılmıştır. <br>Bu devletler aşağıdakilerden hangileridir?</p>
+<p>A) Sovyet Rusya ve Bulgaristan &nbsp; B) ABD ve Japonya &nbsp; C) İtalya ve Romanya &nbsp; D) Yunanistan ve Yugoslavya</p>
+<p><strong>Çözüm:</strong> Lozan'da sadece Boğazlar mevzusunda masaya davet edilen kıyıdaş (Karadeniz komşusu) devletler Sovyet Rusya (SSCB) ve Bulgaristan'dır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Lozan Barış Antlaşması'nda alınan "Osmanlı'dan kalan Dış Borçların (Düyun-u Umumiye'nin) Osmanlı toprakları üzerinde kurulan yeni devletler arasında paylaştırılması" kararı en çok hangi devletle aramızda tartışma konusu olmuştur?</p>
+<p>A) İngiltere &nbsp; B) İtalya &nbsp; C) Rusya &nbsp; D) Fransa</p>
+<p><strong>Çözüm:</strong> Osmanlı'nın en fazla borçlandığı (en çok alacağı olan) devlet Fransa idi. Dolayısıyla borçların taksitlendirilmesi, paylaştırılması ve kağıt parayla ödenmesi konusunda en çok Fransa ile çatıştık. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Lozan Antlaşması'nda "Türkiye Cumhuriyeti sınırları içinde yaşayan tüm azınlıklar (Ermeni, Rum, Yahudi vb.) istisnasız Türk vatandaşı kabul edilecektir." maddesinin uluslararası politikadaki <strong>en önemli sonucu (faydası)</strong> nedir?</p>
+<p>A) Seçmen sayısını artırmak &nbsp; B) Yabancı devletlerin (özellikle Avrupalıların) "Azınlık haklarını koruma" bahanesiyle Türkiye'nin <strong>iç işlerine karışmasını (müdahale etmesini)</strong> hukuken engellemek &nbsp; C) Azınlıkların askere gitmesini engellemek &nbsp; D) Patrikhane'yi yurtdışına çıkarmak</p>
+<p><strong>Çözüm:</strong> Avrupalılar yüzyıllardır "Buradaki Hristiyan'a kötü davranıyorsun" diyerek Osmanlı'nın iç işlerine karışıyordu. Hepsini Türk vatandaşı yapınca, "Onlar benim vatandaşım, kendi yasalarımla ben korurum, sen karışamazsın" denilmiş oldu. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Lozan Barış Antlaşması'nda alınan kararlardan hangisi <strong>"Misak-ı Milli'ye (milli sınırlara)" ve "tam bağımsızlığa" tamamen UYGUN (Tavizsiz) çözülmüştür?</strong></p>
+<p>A) Hatay (Suriye sınırı) &nbsp; B) Boğazların yönetimi &nbsp; C) Kapitülasyonlar &nbsp; D) Batı Trakya'nın durumu</p>
+<p><strong>Çözüm:</strong> Hatay dışarıda kaldı (Taviz). Boğazlar komisyona kaldı (Taviz). Batı Trakya Yunan'a kaldı (Taviz). Ancak Kapitülasyonlar kökünden kaldırıldı (Tam bağımsızlık için tam başarı). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Şubat 1923'te Lozan görüşmeleri kopup Türk heyeti yurda döndüğünde, yeni devletin "ekonomik bağımsızlık" modelini ve ilkelerini belirlemek üzere toplanan tarihi kongre aşağıdakilerden hangisidir?</p>
+<p>A) Maarif Kongresi &nbsp; B) İzmir İktisat Kongresi &nbsp; C) Sivas Kongresi &nbsp; D) Erzurum Kongresi</p>
+<p><strong>Çözüm:</strong> Savaş tehlikesinin yeniden belirdiği bu kesinti döneminde, "Siyasi bağımsızlık ancak ekonomik bağımsızlıkla taçlanır" denilerek İzmir'de Ekonomi (İktisat) Kongresi toplanmış ve "Misak-ı İktisadi" (Ekonomi Andı) kabul edilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Mustafa Kemal'in Lozan görüşmelerindeki Türk heyetinden, <strong>"Hangi şartta olursa olsun masadan kalkın"</strong> diyerek kesinlikle taviz vermemesini istediği "Ermeni Yurdu" meselesi, Sevr Antlaşması'nda hangi bölge için planlanmıştı?</p>
+<p>A) Ege Bölgesi (Batı Anadolu) &nbsp; B) Trakya &nbsp; C) Doğu Anadolu (Vilayet-i Sitte vb.) &nbsp; D) Boğazlar Bölgesi</p>
+<p><strong>Çözüm:</strong> Sevr, Doğu Anadolu'da büyük bir Ermeni devleti kurulmasını vadediyordu (Megali Ermenistan). Lozan'da bu talep kökünden reddedilmiş, Doğu Anadolu toprakları güvenceye alınmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>I. TBMM (Birinci Meclis), Kurtuluş Savaşını yönetmiş, Saltanatı kaldırmış ve Lozan görüşmelerini başlatmıştır. Ancak Lozan Barış Antlaşması'nı imzalayıp mecliste <strong>ONAYLAYAN</strong> kurum aşağıdakilerden hangisidir?</p>
+<p>A) Son Osmanlı Mebusan Meclisi &nbsp; B) I. TBMM &nbsp; C) II. TBMM &nbsp; D) İstiklal Mahkemeleri</p>
+<p><strong>Çözüm:</strong> Lozan görüşmeleri kesintiye uğradığında I. TBMM (çok yıprandığı için) seçim kararı alarak feshedildi. Lozan Antlaşması'nın imzalanması ve onaylanması (Ağustos 1923) yeni seçilen II. TBMM'ye nasip olmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Mudanya Ateşkes Antlaşması, Milli Mücadele'de askeri başarının sağlandığı ve silahların sustuğu metindir. <br>Aşağıdaki devletlerden hangisi Mudanya Ateşkesi'nin imzalanmasıyla, "Türklere karşı askeri bir zafer kazanamayacağını" kabullenerek İngiltere Başbakanı Lloyd George'un istifa etmesine neden olacak kadar büyük bir diplomatik hezimet yaşamıştır?</p>
+<p>A) Fransa &nbsp; B) İtalya &nbsp; C) Rusya &nbsp; D) İngiltere (Lloyd George Hükümeti)</p>
+<p><strong>Çözüm:</strong> Mudanya'da Türk ordusunun Boğazlar'a dayanması ve savaşın eşiğine gelinmesi (Çanakkale Krizi), İngiltere'de savaş karşıtı muhalefeti patlatmış, Türklerin başarısı Başbakan Lloyd George'u istifaya sürüklemiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Saltanatın kaldırılmasıyla "Halifelik" makamının hemen kaldırılmayıp Osmanlı soyundan Abdülmecit Efendi'nin "TBMM tarafından Halife seçilmesi", <strong>siyasi güç dengeleri</strong> açısından neyin göstergesidir?</p>
+<p>A) TBMM'nin Osmanlı'nın varlığını aynen devam ettirmek istediğinin &nbsp; B) Yeni rejimin bir teokrasi (din devleti) olduğunun &nbsp; C) Henüz ortamın halifeliği kaldırmaya hazır olmaması nedeniyle halktan gelebilecek tepkileri azaltmak ve geçiş dönemini yumuşatmak için izlenen pragmatik (faydacı) politikanın &nbsp; D) Abdülmecit'in aslında orduyu yönettiğinin</p>
+<p><strong>Çözüm:</strong> 600 yıllık saltanat ve dini bir liderlik olan halifeliği aynı gün kaldırmak, Anadolu'daki muhafazakar halkta infial yaratabilirdi. Sadece padişahlık bitirildi, Halife ise "siyasi gücü (devlet başkanı vasfı) olmayan sembolik bir dini lider" olarak sistem içinde bir süre tutuldu (Suni bir geçiş). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Lozan'da Boğazlar konusu aleyhimize (komisyon kurularak) çözülmüştür. Boğazların komisyonla yönetilmesi, yeni Türk Devletinin "Devlet egemenliği (iç işlerinde tek otorite olma)" ilkesine neden <strong>ters (aykırı)</strong> düşer?</p>
+<p>A) Komisyonun çok vergi toplamasından dolayı &nbsp; B) Kendi ülkenizin tam ortasındaki (İstanbul'daki) stratejik bir suyolunun karar alma yetkisinin ve asker bulundurma hakkının sizden alınıp yabancı devletlere (komisyona) devredilmesi devletin bağımsızlığını sakatladığı için &nbsp; C) Gemilerin geçişinin yasaklanmasından dolayı &nbsp; D) Sadece balıkçılığa izin verilmesinden dolayı</p>
+<p><strong>Çözüm:</strong> Bir devletin bağımsız olabilmesi için, kendi sınırları içindeki tüm topraklara kayıtsız şartsız asker sokabilmesi ve orayı yönetebilmesi gerekir. Oysa Lozan'da Boğazlar askersizleştirildi ve kararları bizim almamız engellendi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Lozan Antlaşması'nda "Fener Rum Patrikhanesi"nin siyasi ve hukuki yetkileri (mahkeme kurma, boşanma, miras kararları verme) elinden alınmış ve sadece "dini bir kurum" haline getirilmiştir. <br>Patrikhanenin siyasi yetkilerinin elinden alınması, Türkiye'de ileride gerçekleştirilecek hangi devrimin (inkılabın) <strong>altyapısını (ön hazırlığını)</strong> oluşturur?</p>
+<p>A) Harf İnkılabı &nbsp; B) Tevhid-i Tedrisat (Eğitim Birliği) &nbsp; C) Laiklik ve Tek Hukuk Sistemi (Medeni Kanun) &nbsp; D) Şapka Kanunu</p>
+<p><strong>Çözüm:</strong> Din kurumlarının hukuk (mahkeme) alanından dışlanıp devlet işlerinden ayrılması, "Laik" devlet anlayışının gereğidir. Patrikhane mahkemelerinin kapatılması, ileride herkese aynı medeni kanunun (Laik Hukuk) uygulanmasına zemin hazırlamıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Lozan Barış Konferansı'na gönderilen Türk heyetinin elindeki "Hukuki (meşruiyet)" dayanak aşağıdakilerden hangisiydi?</p>
+<p>A) Sevr Antlaşması &nbsp; B) Wilson İlkeleri &nbsp; C) Misak-ı Milli &nbsp; D) Birleşmiş Milletler Beyannamesi</p>
+<p><strong>Çözüm:</strong> Türk heyetinin masadaki referans belgesi, Mebusan Meclisi'nin onayladığı ve uğruna savaş verilen "Milli Sınırlar / Tam Bağımsızlık" belgesi olan Misak-ı Milli'dir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Lozan'da yabancı okulların (Amerikan, Fransız vb.) statüsü tartışılırken Türk heyeti; "Yabancı okullar Türkiye Cumhuriyeti Milli Eğitim Bakanlığı (MEB) müfredatına uyacaklar ve Türk müfettişlerce denetleneceklerdir. Bunu kabul etmeyen kapanır" restini çekmiş ve konuyu uluslararası masadan çıkararak <strong>"İç meselemizdir, tartıştırmayız"</strong> demiştir.<br>Bu tutum, Türkiye'nin hangi hassasiyetinden kaynaklanır?</p>
+<p>A) Eğitimde Fransızca'yı yasaklamak &nbsp; B) Bağımsız devlet anlayışına (egemenliğe) uygun olarak, ülkesindeki kurumları denetleme hakkını yabancılara bırakmamak &nbsp; C) Okullardan daha çok vergi almak &nbsp; D) Okulların tamamını Türklere devretmek</p>
+<p><strong>Çözüm:</strong> "Benim ülkemdeki okul benim kanunuma uyar" yaklaşımı, tam bağımsızlığın eğitim (kültür) alanındaki en net yansımasıdır. Konu masadan çekilmiş ve bizim dediğimiz olmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Lozan Barış Antlaşması'nın Sevr Antlaşması'na göre en büyük farklarından biri de, Türkiye'nin <strong>askeri yapısı (ordusu)</strong> ile ilgilidir. <br>Buna göre Lozan'da Türk ordusuyla ilgili alınan karar nedir?</p>
+<p>A) Ordumuzun silahları İtilaf devletlerince denetlenecektir. &nbsp; B) Zorunlu askerlik kaldırılacaktır. &nbsp; C) Askeri gücümüze ve ordumuzun mevcuduna (Boğazlar bölgesi hariç) <strong>hiçbir kısıtlama (sınırlandırma)</strong> getirilmemiştir. &nbsp; D) Ordu 50 bin kişiyle sınırlanmıştır.</p>
+<p><strong>Çözüm:</strong> Sevr'de "Ordunuz olmayacak, 50 bin kişi olacak, ağır silahı olmayacak" deniyordu. Lozan'da bu kısıtlamaların hepsi çöpe atılmış, ordu kurma hakkımız bağımsız devlet statüsüyle tescillenmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Musul meselesinin Lozan'da çözülemeyerek sonraya (Türkiye-İngiltere ikili görüşmelerine) ertelenmesinin Türkiye açısından en olumsuz siyasi sonucu ne olmuştur?</p>
+<p>A) İngiltere'nin Misak-ı Milli'yi hemen tanıması &nbsp; B) Şeyh Sait isyanı gibi iç karışıklıkların İngiliz kışkırtmasıyla patlak vermesi ve Türkiye'nin Musul davasında elinin zayıflayarak Musul'u İngiliz mandasındaki Irak'a bırakmak (1926 Ankara Antlaşması ile) zorunda kalması &nbsp; C) Musul'un Yunanistan'a verilmesi &nbsp; D) Fransa'nın Musul'u işgal etmesi</p>
+<p><strong>Çözüm:</strong> Sorun çözülemeyip masada kalınca, İngilizler içeride Şeyh Sait isyanını kışkırtarak ordumuzu meşgul etti. İç isyanla boğuşan Türkiye, Musul'a askeri müdahalede bulunamayarak masada Musul'u (ikili görüşmelerde) kaybetti. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Saltanatın kaldırılmasıyla (1 Kasım 1922) birlikte Osmanlı Devleti'nin yönetim biçimi (monarşi) sona ermiştir. Ancak yeni Türk Devleti'nin <strong>"rejiminin adının konması" ve "devlet başkanı" sorununun çözülmesi</strong> ne zaman gerçekleşecektir?</p>
+<p>A) Mudanya Ateşkesi'nde &nbsp; B) Lozan Antlaşması'nın imzalanmasıyla &nbsp; C) Cumhuriyet'in ilan edilmesiyle (29 Ekim 1923) &nbsp; D) Ankara'nın başkent olmasıyla</p>
+<p><strong>Çözüm:</strong> Padişahlık bitti (Saltanat kaldırıldı) ama "Peki biz neyiz? Devletin başkanı kim?" sorusu yaklaşık 1 yıl boyunca havada kaldı. Bu kriz (Ekim Krizi), Cumhuriyet'in ilan edilmesi ve Cumhurbaşkanı'nın seçilmesiyle çözülecektir (Sıradaki konular). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Aşağıdakilerden hangisi Lozan Barış Antlaşması'nın bir özelliği <strong>olamaz</strong>?</p>
+<p>A) I. Dünya Savaşı'nı bitiren antlaşmalar içinde <strong>geçerliliğini (varlığını) günümüze kadar koruyan tek antlaşma</strong> olması &nbsp; B) Bağımsız ve eşit bir devletin kuruluşu olarak diplomatik bir zafer olması &nbsp; C) Sömürge altındaki diğer ezilen milletlere (örneğin Hindistan, Cezayir) bağımsızlık yolunda örnek olması &nbsp; D) Sevr Antlaşması'nı onaylayıp yürürlüğe sokması</p>
+<p><strong>Çözüm:</strong> Tam tersine! Lozan, Sevr denilen paçavrayı tarihin çöplüğüne atan, yırttıran ve yok eden antlaşmadır. I. Dünya savaşından kalıp da hala yaşayan yegane antlaşmadır (Çünkü Versay, Trianon vs. II. Dünya Savaşında yıkılmıştır). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Tüm analizler soruların altında verilmiştir. Fiilen-Hukuken-Resmen bitiş (Mondros-Mudanya-Saltanat) üçlemesini asla aklınızdan çıkarmayın! Kapitülasyonlar (kırmızı çizgimiz) ve Musul (çözülemeyen sorun) Lozan'ın kalbidir.</em></p>
+`,
   },
   {
     id: 65,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Siyasi Alanda Yapılan İnkılaplar',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Cumhuriyet'in İlanı, Halifeliğin Kaldırılması, Çok Partili Hayat ve İsyanlar)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Düşmanı yurttan attık (Mudanya), bağımsızlığımızı dünyaya kabul ettirdik (Lozan). Peki şimdi ne olacak? Elde bağımsız, yepyeni bir devlet var ama bu devletin adı ne? Başkanı kim? Rejimi ne? Toplumu bir ümmet olarak mı kalacak, yoksa modern bir ulus (millet) mu olacak? İşte bu konu, bu devasa soruların siyasi (kanuni) olarak çözüldüğü konudur.</p>
+<p>ÖSYM inkılaplar tarihinde "ezber" sevmez, "mantık" arar. 3 Mart 1924 günü çıkarılan 5 kanunun her birinin devletin hangi "köhnemiş (eski)" damarını kesip attığını ve Atatürk'ün hangi ilkesine (Laiklik mi, Cumhuriyetçilik mi?) hizmet ettiğini iyi bilmen gerekir. Ayrıca demokrasinin taçlandırılması için denenen "Çok Partili Hayat" girişimlerinin neden hüsranla sonuçlandığı (Şeyh Sait ve Menemen olayları) KPSS'nin favori senaryolarıdır.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu, Türkiye'nin çağdaş medeniyetler seviyesine ulaşması için atılan temellerdir (inşaattır). Rejim (Cumhuriyet) ve Laiklik (Halifeliğin kaldırılması) tartışmaları burada son bulur. Siyasi inkılaplar tam anlaşıldığında, Hukuk, Eğitim ve Toplumsal alandaki inkılaplar çorap söküğü gibi gelecektir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>İşler sırasıyla şöyle gelişti: Önce ikiliği önlemek için <strong>Saltanat kaldırıldı</strong> $\rightarrow$ Devletin merkezi <strong>Ankara başkent yapılarak</strong> tescillendi $\rightarrow$ Meclisteki hükümet kurma krizi (Ekim bunalımı) fırsat bilinerek <strong>Cumhuriyet ilan edildi</strong> (devletin adı ve başkanı belli oldu) $\rightarrow$ Eski rejimin son kalıntısı (ve tehlikesi) olan <strong>Halifelik kaldırıldı</strong> ve laik devlet mekanizması (Diyanet vb.) kuruldu $\rightarrow$ Rejim oturduktan sonra demokrasi için <strong>Çok partili hayata</strong> geçilmek istendi $\rightarrow$ Ancak halk buna hazır olmadığı için kurulan partiler irticacıların (eski rejim sevdalılarının) isyan (Şeyh Sait) merkezine dönüştü ve çok partili hayata uzun süre ara verildi.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Hükümet Krizi'nden Cumhuriyete</span><p>Cumhuriyet sadece "halkın kendi kendini yönetmesi" diye romantik bir fikirle değil, aynı zamanda ciddi bir bürokratik tıkanıklığın (Ekim Bunalımı'nın) acil çözümü (Kabine Sistemine geçiş) olarak da ilan edilmiştir.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Saltanatın Kaldırılması (1 Kasım 1922) - Özet</h3>
+<p>Daha önce Lozan konusunda da işlediğimiz gibi, Lozan Barış Konferansında çıkabilecek "ikiliği" engellemek için, I. TBMM'nin yaptığı tek inkılap olarak Saltanat kaldırıldı. Bu olay, "Milli Egemenlik (Cumhuriyetçilik)" ve "Laiklik (Din ile devletin ayrılması)" yolunda atılan ilk ve en büyük adımdır. Osmanlı resmen bitti.</p>
+
+<h3>3.2. Ankara'nın Başkent Olması (13 Ekim 1923)</h3>
+<p>Lozan'dan sonra işgal güçleri İstanbul'u boşaltıp gitti. Fakat yeni devletin başkenti neresi olacaktı? İstanbul, Osmanlı'nın başkentiydi ve jeopolitik olarak çok tehlikeli bir konumdaydı. Ankara ise hem Milli Mücadele'nin merkeziydi (Temsil Heyeti oradaydı, TBMM orada açıldı, savaş oradan yönetildi), hem ulaşım/haberleşme ağı kuvvetliydi, hem de Anadolu'nun tam ortasında <strong>işgalden ve donanma toplarından uzak, güvenli</strong> bir askeri konumdaydı. İsmet Paşa'nın teklifiyle Ankara başkent ilan edildi. (Bu aynı zamanda İstanbul'daki eski bürokrasiye de bir veda mesajıdır).</p>
+
+<h3>3.3. Cumhuriyet'in İlanı (29 Ekim 1923)</h3>
+<p>TBMM'de uygulanan <strong>"Meclis Hükümeti Sistemi"</strong> tıkanmıştı. Bu sistemde her bakan meclis oylamasıyla tek tek seçildiği için, ortak bir hükümet kurmak imkansız hale gelmiş, kurulanlar da hemen devrilmişti (Bu tıkanıklığa <strong>Ekim Bunalımı</strong> denir). Mustafa Kemal, bu krizi çözmek ve devletin rejimini (adını) kesin olarak belirlemek için 29 Ekim 1923'te Cumhuriyet'i ilan etti.</p>
+<p><strong>Cumhuriyet'in İlanının Siyasi Sonuçları:</strong></p>
+<ul>
+<li><strong>Devletin Rejimi ve Adı:</strong> "Türkiye Devleti'nin hükümet şekli Cumhuriyettir" maddesi anayasaya eklendi ve devletin adı "Türkiye Cumhuriyeti" oldu. (Rejim tartışmaları bitti).</li>
+<li><strong>Devlet Başkanlığı Sorunu:</strong> Mustafa Kemal ilk <strong>Cumhurbaşkanı</strong> seçilerek devletin başkanı oldu. (Böylece devlet başkanlığı sorunu çözüldü).</li>
+<li><strong>Kabine Sistemine Geçiş:</strong> En önemli teknik sonuçtur. Artık meclis bakanları tek tek seçmeyecek; Cumhurbaşkanı bir Başbakan atayacak (İlk Başbakan <strong>İsmet Paşa</strong>), Başbakan da kendi uyumlu ekibini (Kabinesini) seçip meclisten güvenoyu alacaktır. (Bu sistem hükümet kurmayı inanılmaz hızlandırmıştır).</li>
+<li>İlk Meclis Başkanı ise <strong>Ali Fethi (Okyar)</strong> seçilmiştir.</li>
+</ul>
+
+<h3>3.4. Halifeliğin Kaldırılması (3 Mart 1924)</h3>
+<p>Saltanat kaldırılmış ama Osmanlı soyundan Abdülmecit Efendi "Halife" sıfatıyla sarayda oturmaya devam ediyordu. Zamanla eski düzeni (padişahlığı) isteyenler Halifenin etrafında toplanmaya başladı. Halife, bütçeden ayrı ödenek istiyor, yabancı elçileri kabul ediyor, adeta <strong>ikinci bir Devlet Başkanı</strong> gibi davranıyordu. Bu durum Cumhuriyet rejimiyle asla bağdaşmazdı. Üstelik yapılacak olan laik inkılapların (eğitim, hukuk) önündeki en büyük otorite engeli Halifelik makamıydı. 3 Mart 1924'te Halifelik kaldırıldı.</p>
+<p><strong>Sonucu:</strong> Laikliğe ve Ümmet (din) toplumundan Ulus (millet) toplumuna geçişin **en büyük, en hayati** adımıdır. İnkılapların önü açılmıştır.</p>
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Laiklik mi? Cumhuriyetçilik mi?</span><p>ÖSYM sana "Halifeliğin kaldırılması hangi ilkeyle ilgilidir?" diye sorarsa; din ve devlet işleri ayrıldığı için <strong>%100 Laiklik</strong>, Milli egemenliğin (halkın) üzerindeki tek adam (dini lider) otoritesi kaldırıldığı için <strong>%100 Cumhuriyetçilik ve Halkçılık</strong> diyeceksin.</p></div>
+
+<h3>3.5. 3 Mart 1924'te Çıkarılan Diğer Tarihi Kanunlar</h3>
+<p>Halifeliğin kaldırıldığı aynı gün, meclisten yepyeni ve modern devleti şekillendiren 4 büyük kanun daha geçti:</p>
+<ul>
+<li><strong>1. Şeriye ve Evkaf (Din ve Vakıf) Vekaletinin Kaldırılması:</strong> Din işleri bakanlığı kapatıldı (Çünkü laik bir devlette hükümetin/siyasetin içinde din bakanlığı olmaz). Yerine, siyasetten bağımsız <strong>Diyanet İşleri Başkanlığı</strong> ve <strong>Vakıflar Genel Müdürlüğü</strong> kuruldu. (Doğrudan Laiklik ilkesidir).</li>
+<li><strong>2. Erkan-ı Harbiye-i Umumiye (Savaş) Vekaletinin Kaldırılması:</strong> Osmanlı'da genelkurmay başkanı aynı zamanda mecliste bakandı (milletvekiliydi). Yani ordu siyasetin içindeydi. (Balkan savaşlarını bu yüzden kaybetmiştik). Bu yasa ile ordu meclisten atıldı, yerine siyaset dışı <strong>Genelkurmay Başkanlığı</strong> kuruldu. Kanun emri: "Ya üniformanı çıkar siyasete gir, ya meclisten çık ordunun başına dön." (Ordunun siyasetten ayrılması $\rightarrow$ Cumhuriyetçilik ilkesini güçlendirir).</li>
+<li><strong>3. Tevhid-i Tedrisat Kanunu (Eğitim Birliği):</strong> Ülkedeki tüm okullar, medreseler, yabancı okullar MEB'e bağlandı. Eğitimde birlik ve laikleşme sağlandı. (Eğitim inkılaplarında detayı işlenecektir).</li>
+<li><strong>4. Osmanlı Hanedanının Yurt Dışına Sürgün Edilmesi:</strong> Halifeliğin de kalkmasıyla, ileride saltanatın veya halifeliğin geri gelmesi ihtimalini (ve olası bir iç savaşı) kökünden yok etmek için, Osmanlı hanedanına mensup tüm erkek ve kadınlar Türkiye sınırları dışına (sürgüne) gönderildi.</li>
+</ul>
+
+<h3>3.6. Çok Partili Hayata Geçiş Denemeleri ve İsyanlar</h3>
+<p>Demokrasi tek partiyle olmaz. Mustafa Kemal mecliste farklı fikirlerin olmasını istiyordu. Ancak bu denemeler "zamanın henüz erken olduğunu" acı tecrübelerle gösterecektir.</p>
+
+<p><strong>A) Terakkiperver Cumhuriyet Fırkası (TCF - 1924)</strong><br>
+Cumhuriyet tarihinin <strong>ilk muhalefet</strong> partisidir. Kurucuları Kurtuluş Savaşımızın diğer kahramanları olan Kazım Karabekir, Rauf Orbay, Ali Fuat Paşa ve Refet Bele'dir. (Mustafa Kemal'in Halk Fırkasına muhalefettirler). Ekonomide "Liberalizmi (serbest piyasa)" savundular. Ancak tüzüklerine koydukları <strong>"Partimiz dini inançlara saygılıdır"</strong> maddesi, laiklik karşıtı tüm gericilerin, şeriatçıların bu partiye doluşmasına neden oldu.</p>
+
+<p><strong>B) Şeyh Sait İsyanı (1925)</strong><br>
+Diyarbakır/Elazığ çevresinde patlak veren, "Din elden gidiyor, şeriat isteriz" sloganıyla ortaya çıkan büyük bir <strong>irticai (gerici) / laiklik karşıtı</strong> isyandır. İsyanı bastıramayan Ali Fethi Okyar hükümeti istifa etmiş, yerine sertlik yanlısı İsmet Paşa hükümeti kurulmuştur.<br>
+<strong>Önlemler:</strong> İsmet Paşa <strong>Takrir-i Sükun (Susturma / Düzeni Sağlama)</strong> Kanununu çıkardı. <strong>İstiklal Mahkemeleri</strong> yeniden kurularak isyancılar idam edildi.<br>
+<strong>Sonuçları:</strong><br>
+- İngilizler bu isyanla devleti meşgul ettikleri için, Türkiye zayıf düştü ve <strong>Musul'u (Irak sınırını) İngilizlere bırakmak zorunda kaldı</strong> (1926 Ankara Antlaşması).<br>
+- Terakkiperver Cumhuriyet Fırkası, bu isyanda parmağı olduğu gerekçesiyle **kapatıldı**. Çok partili hayata **ilk ara** verildi.</p>
+
+<p><strong>C) İzmir Suikastı Girişimi (1926)</strong><br>
+Eski İttihatçıların (Ziya Hurşit vb.), M. Kemal'i İzmir'de suikastla öldürüp eski rejimi geri getirme çabasıdır. Şifreci Giritli Şevki'nin itirafıyla önlenmiştir. İttihatçılar İstiklal Mahkemelerinde yargılanıp idam edilmiş ve böylece İttihatçılık tamamen tasfiye edilmiştir.<br>
+M. Kemal'in tarihi sözü: <em>"Benim naçiz vücudum elbet bir gün toprak olacaktır, ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır."</em> (Not: Bu, İstiklal Mahkemelerinin görev yaptığı <strong>son</strong> olaydır).</p>
+
+<p><strong>D) Serbest Cumhuriyet Fırkası (SCF - 1930)</strong><br>
+Mustafa Kemal, dünyadaki 1929 Ekonomik Krizine karşı hükümeti denetleyecek bir muhalefet arayışıyla yakın arkadaşı <strong>Ali Fethi Okyar</strong>'dan bir parti kurmasını rica etti. SCF, ekonomide liberalizmi (özel sektörü) savundu. Kadınlara siyasi haklar verilmesini destekledi. Ancak tarih tekerrür etti; laiklik karşıtları yine bu partiye doluştu. Ali Fethi Bey durumu fark edip, arkadaşı Mustafa Kemal ile karşı karşıya gelmemek için partisinin <strong>kendisi feshetti (kapattı).</strong><br>
+Böylece çok partili hayata 1946'ya kadar bir daha dönülmemek üzere son verildi.</p>
+
+<p><strong>E) Menemen (Kubilay) Olayı (1930)</strong><br>
+SCF'nin kapanmasından hemen sonra, İzmir/Menemen'de Derviş Mehmet adlı bir yobazın "Din elden gidiyor" diyerek çıkardığı irticai ayaklanmadır. İsyanı bastırmaya çalışan Yedek Subay Öğretmen <strong>Mustafa Fehmi Kubilay</strong> vahşice şehit edilmiştir.<br>
+<strong>Önemi:</strong> Cumhuriyete ve laikliğe karşı çıkan ikinci büyük isyandır. (Şeyh Sait'ten sonra). İsyancılar <strong>İstiklal Mahkemelerinde DEĞİL</strong>, sıkıyönetim ilan edilerek <strong>Divan-ı Harp'te (Askeri Mahkemede)</strong> yargılanmıştır. Halkın laik rejime henüz hazır olmadığı bir kez daha görülmüştür.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Meclis Hükümeti (Sebep) $\rightarrow$ Ekim Bunalımı (Sonuç) $\rightarrow$ Kabine Sistemi (Çözüm):</strong> Bakanların tek tek seçilmesi hükümetin kurulmasını tıkadı, Cumhuriyet ilan edilip Kabine (başbakanın kendi ekibini topluca onaya sunması) sistemine geçildi. Hız kazanıldı.</li>
+<li><strong>Balkan Savaşlarındaki Facia (Sebep) $\rightarrow$ Erkan-ı Harbiye'nin Kaldırılması (Sonuç):</strong> Ordunun siyasete bulaşması devleti felakete götürdüğü için, Cumhuriyet döneminde ordu siyasetten (meclisten) tamamen ayrıldı (Demokrasi için şarttır).</li>
+<li><strong>Şeyh Sait İsyanı (Sebep) $\rightarrow$ Musul'un Kaybı (Sonuç):</strong> İngiltere'nin planı kusursuz işledi; bizi içeride irtica ile vurdurdu, biz kendi içimizde boğuşurken Musul masada gitti. (Dış politikada elin güçlü olması, iç siyasette güçlü olmaya bağlıdır kuralının kanıtıdır).</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Kritik Sonucu (Önemi)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ekim 1923</td>
+<td>Ankara'nın Başkent Olması</td>
+<td>Yeni devletin merkezi tescillendi.</td>
+</tr>
+<tr>
+<td>29 Ekim 1923</td>
+<td>Cumhuriyet'in İlanı</td>
+<td>Kabine sistemine geçildi. Rejim, devlet başkanı sorunu çözüldü.</td>
+</tr>
+<tr>
+<td>3 Mart 1924</td>
+<td>Halifeliğin Kaldırılması</td>
+<td>Laikleşmenin en büyük adımı (Aynı gün 4 büyük kanun daha çıkarıldı).</td>
+</tr>
+<tr>
+<td>1924</td>
+<td>Terakkiperver Cum. F.</td>
+<td>İlk muhalefet partisi. Ekonomide liberalist.</td>
+</tr>
+<tr>
+<td>1925</td>
+<td>Şeyh Sait İsyanı</td>
+<td>Takrir-i Sükun kanunu. Musul kaybedildi. TCF kapatıldı.</td>
+</tr>
+<tr>
+<td>1926</td>
+<td>İzmir Suikastı</td>
+<td>İstiklal Mahkemelerinin görev yaptığı son olay. İttihatçılar tasfiye edildi.</td>
+</tr>
+<tr>
+<td>1930</td>
+<td>Serbest Cum. F. ve Menemen</td>
+<td>Parti kendini kapattı. Kubilay şehit edildi (Divan-ı Harp'te yargılandılar).</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Meclis Hükümeti Sistemi ile Kabine Sistemi</h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Meclis Hükümeti Sistemi (I. TBMM)</th>
+<th>Kabine Sistemi (Cumhuriyet Sonrası)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bakanların Seçimi</strong></td>
+<td>Meclis içinden milletvekillerince <strong>tek tek</strong> oylanarak.</td>
+<td><strong>Başbakan</strong> (Cumhurbaşkanının atadığı) bakanları seçer, liste halinde onaylatır.</td>
+</tr>
+<tr>
+<td><strong>Hükümet Başkanı</strong></td>
+<td>TBMM Başkanı, aynı zamanda Hükümet Başkanıdır (Başbakan yoktur).</td>
+<td>Başbakan, Hükümet Başkanıdır. Cumhurbaşkanı ise Devlet Başkanıdır.</td>
+</tr>
+<tr>
+<td><strong>Hız ve Uyum</strong></td>
+<td>Yavaş işler, farklı fikirdeki bakanlar arası çatışma boldur.</td>
+<td>Çok hızlı işler. Bakanlar bir ekiptir (kabine), uyum yüksektir.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Takrir-i Sükun Kanunu:</strong> Şeyh Sait isyanı için çıkarılan "huzur ve sükuneti (sessizliği) sağlama" yasasıdır. Basına bile sansür uygulanmış, laik devleti korumak için sıkıyönetim ilan edilmiştir.</li>
+<li><strong>Şeriye Vekaleti $\rightarrow$ Diyanet:</strong> Şeriye bakanlığı kaldırılınca ilk Diyanet İşleri Başkanı <strong>Rıfat Börekçi</strong> olmuştur.</li>
+<li><strong>Laiklik ve Halifelik:</strong> Halifeliğin kaldırılması (1924), laiklik ilkesinin Anayasa'ya girmesinden (1937) çok öncedir. Laikliğin "adımlarıdır".</li>
+<li><strong>İstiklal Mahkemelerinin Görev Yaptığı Yerler (ÇIKAR):</strong> TBMM'ye karşı iç isyanlar, Eskişehir-Kütahya sonrası (Tekalif-i Milliye asker kaçakları), Şeyh Sait İsyanı ve İzmir Suikastı. (Başka yerde YOKTUR).</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Benim Naçiz Vücudum..."</span><p>M. Kemal'in "Benim naçiz vücudum elbet bir gün toprak olacaktır, ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır" sözü kesinlikle <strong>İzmir Suikastı</strong> girişiminden sonra söylenmiştir. Çok sorulur.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Halifelik ile Saltanat aynı gün kaldırıldı" tuzağı.</strong> Saltanat 1 Kasım 1922'de, Halifelik ise yaklaşık 1,5 yıl sonra 3 Mart 1924'te kaldırılmıştır. Aradaki süre, halkı alıştırmak (geçiş dönemi) içindir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>Menemen Olayında İstiklal Mahkemesi arama tuzağı.</strong> İstiklal Mahkemelerinin son görev yaptığı yer İzmir Suikastı'dır (1926). 1930'daki Menemen Olayı'nda yobazları yargılayan mahkeme "Divan-ı Harp" (Askeri Mahkeme)'tir. Sınavda şıklara İstiklal Mahkemesi konur, sakın düşme!</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>Ordunun siyasetten ayrılmasını "Halkçılık" sanma tuzağı.</strong> Erkan-ı Harbiye-i Umumiye vekaletinin kaldırılıp Genelkurmay'ın kurulması doğrudan "Cumhuriyetçilik" ilkesiyle ilgilidir. Çünkü demokrasilerde (cumhuriyette) silahlı kuvvetler milletin meclisine (siyasete) müdahale edemez.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Ekim Bunalımı"nı ekonomik kriz sanma tuzağı.</strong> Ekim bunalımı 1923 sonbaharında, Meclis Hükümeti sistemi tıkandığı için yaşanan "hükümet kuramama" (siyasi) krizidir. Çözümü Cumhuriyet'i ilan edip Kabine sistemine geçmek olmuştur.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "ŞE-H-O-T" Şifresi (3 Mart 1924 Kanunları)</span><p>Halifeliğin kaldırıldığı o tarihi günde (3 Mart 1924) çıkarılan diğer kanunları unutmamak için ŞEHOT:<br>
+<strong>Ş</strong>eriye ve Evkaf Vekaletinin Kaldırılması<br>
+<strong>E</strong>rkan-ı Harbiye Vekaletinin Kaldırılması<br>
+<strong>H</strong>alifeliğin Kaldırılması<br>
+<strong>O</strong>smanlı Hanedanının Sürgün Edilmesi<br>
+<strong>T</strong>evhid-i Tedrisat Kanunu (Eğitim Birliği)</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 İlkler Listesi (Cumhuriyet Sonrası)</span><p>Rejim değiştikten hemen sonra:<br>
+- <strong>İlk Cumhurbaşkanı:</strong> Mustafa Kemal Atatürk<br>
+- <strong>İlk Başbakan:</strong> İsmet İnönü<br>
+- <strong>İlk TBMM Başkanı (Cumhuriyet dönemi):</strong> Ali Fethi Okyar<br>
+- <strong>İlk Diyanet İşleri Bşk.:</strong> Rıfat Börekçi<br>
+- <strong>İlk Genelkurmay Bşk.:</strong> Fevzi Çakmak</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Cumhuriyet'in İlanı (29 Ekim 1923):</strong> Hükümet krizini (Ekim Bunalımını) çözdü. Meclis sisteminden "Kabine Sistemine" geçildi. Devletin rejimi ve başkanlık sorunu çözüldü.<br>
+• <strong>Halifeliğin Kaldırılması (3 Mart 1924):</strong> İnkılapların önündeki en büyük engel yıkıldı. Laikliğin ve Cumhuriyetçiliğin en büyük adımıdır.<br>
+• <strong>3 Mart Kanunları:</strong> Din bakanlığı (Şeriye) kapatılıp Diyanet kuruldu (Laiklik). Savaş bakanlığı (Erkan-ı Harbiye) kapatılıp Genelkurmay kuruldu (Ordu siyasetten ayrıldı - Cumhuriyetçilik). Eğitim birleştirildi (Tevhid-i Tedrisat).<br>
+• <strong>Çok Partili Hayat Denemeleri:</strong> Demokrasi için TCF ve SCF kuruldu, ancak halkın laikliğe henüz alışamaması yüzünden her iki parti de irticacıların odağı oldu (Şeyh Sait ve Menemen İsyanları). Demokrasiye uzun süre ara verildi.<br>
+• <strong>Şeyh Sait İsyanı:</strong> Musul'un İngilizlere kaybedilmesine neden oldu. Takrir-i Sükun kanunuyla İstiklal Mahkemeleri kurularak bastırıldı.<br>
+• <strong>Menemen Olayı:</strong> Rejime karşı ikinci büyük irticai ayaklanmadır. Divan-ı Harp (Askeri mahkeme) ile bastırıldı.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Cumhuriyet'i ilan ettiren kriz:</strong> Ekim Bunalımı (Hükümet Krizi).<br>
+• <strong>Cumhuriyet ilanıyla geçilen sistem:</strong> Kabine Sistemi (Hızlı hükümet kurma).<br>
+• <strong>Ordunun siyasetten ayrıldığı kanun:</strong> Erkan-ı Harbiye'nin kaldırılması.<br>
+• <strong>Şeriye Vekaleti yerine kurulan:</strong> Diyanet İşleri Başkanlığı.<br>
+• <strong>İlk muhalefet partisi:</strong> Terakkiperver Cumhuriyet Fırkası (TCF).<br>
+• <strong>Musul'u kaybettiren iç isyan:</strong> Şeyh Sait İsyanı (1925).<br>
+• <strong>Şeyh Sait isyanı için çıkarılan yasa:</strong> Takrir-i Sükun (Susturma).<br>
+• <strong>"Benim naçiz vücudum..." sözü:</strong> İzmir Suikastı sonrası.<br>
+• <strong>İstiklal Mahkemelerinin görev yaptığı SON olay:</strong> İzmir Suikastı (1926).<br>
+• <strong>Menemen Olayında (Kubilay) kurulan mahkeme:</strong> Divan-ı Harp (Sıkıyönetim mahkemesi).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Mustafa Kemal'in I. TBMM'nin son günlerinde yaşanan hükümet kurma krizini (Ekim Bunalımını) çözmek, devletin rejimini ve devlet başkanı sorununu kesin bir şekilde halletmek amacıyla attığı siyasi adım aşağıdakilerden hangisidir?</p>
+<p>A) Saltanatın kaldırılması &nbsp; B) Halifeliğin kaldırılması &nbsp; C) Cumhuriyet'in ilanı &nbsp; D) Tevhid-i Tedrisat'ın kabulü</p>
+<p><strong>Çözüm:</strong> Ekim Bunalımını (Meclis hükümeti sisteminin tıkanıklığını) çözen hamle, 29 Ekim 1923'te Cumhuriyet'i ilan ederek devletin adını koymak ve Kabine sistemine geçmektir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Cumhuriyet'in ilanıyla birlikte Türkiye Cumhuriyeti'nin "İlk Cumhurbaşkanı" Mustafa Kemal olurken, yeni sistemde (Kabine Sisteminde) hükümeti kurmakla görevlendirilen <strong>"İlk Başbakan"</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Ali Fethi Okyar &nbsp; B) Rauf Orbay &nbsp; C) Kazım Karabekir &nbsp; D) İsmet İnönü (İsmet Paşa)</p>
+<p><strong>Çözüm:</strong> Cumhuriyet'in ilanıyla Başbakanlık makamı oluşturulmuş ve Cumhurbaşkanı Mustafa Kemal, ilk hükümeti kurma (Başbakanlık) görevini İsmet Paşa'ya vermiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>3 Mart 1924 tarihinde Şeriye (Din İşleri) Vekaletinin kaldırılarak yerine Diyanet İşleri Başkanlığı'nın kurulması, Atatürk'ün <strong>doğrudan hangi ilkesiyle</strong> ilgilidir?</p>
+<p>A) Devletçilik &nbsp; B) Laiklik &nbsp; C) Halkçılık &nbsp; D) İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Siyaset ve hükümet işleri içinden (kabineden) "din bakanlığının" çıkarılması ve din işlerinin siyasete bulaşmadan Diyanet kurumuyla yürütülmesi doğrudan Laiklik (Din ve Devlet işlerinin ayrılması) ilkesidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Osmanlı'nın Balkan Savaşları'ndaki mağlubiyetinin en büyük nedeni olan "Ordunun meclise (siyasete) karışması" tehlikesini Cumhuriyet döneminde kökünden çözmek için çıkarılan kanun (ve kurulan kurum) aşağıdakilerden hangisidir?</p>
+<p>A) Şeriye Vekaleti'nin kaldırılması &nbsp; B) Tevhid-i Tedrisat Kanunu &nbsp; C) Erkan-ı Harbiye-i Umumiye Vekaleti'nin kaldırılarak "Genelkurmay Başkanlığı"nın kurulması &nbsp; D) İstiklal Mahkemeleri'nin kapatılması</p>
+<p><strong>Çözüm:</strong> Savaş Bakanlığı (Erkan-ı Harbiye) meclisin içindeydi, askerler aynı zamanda milletvekiliydi. Bu yasa ile üniforması olanlar meclisten çıkartıldı, ordu siyasete veda edip tamamen kışlasına (yurt savunmasına) döndü. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Türkiye Cumhuriyeti tarihinde kurulan <strong>ilk muhalefet partisi</strong> (Mustafa Kemal'in silah arkadaşları olan Kazım Karabekir, Rauf Orbay, Ali Fuat Paşa tarafından kurulan parti) aşağıdakilerden hangisidir?</p>
+<p>A) Cumhuriyet Halk Fırkası &nbsp; B) Demokrat Parti &nbsp; C) Terakkiperver Cumhuriyet Fırkası &nbsp; D) Serbest Cumhuriyet Fırkası</p>
+<p><strong>Çözüm:</strong> Cumhuriyet tarihinin çok partili hayata geçişteki ilk muhalefet denemesi Terakkiperver Cumhuriyet Fırkası'dır (TCF - 1924). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Çok partili hayat denemeleri sırasında Diyarbakır ve Elazığ yöresinde "Din elden gidiyor, şeriat isteriz" sloganıyla ortaya çıkan ve laik Cumhuriyete karşı yapılan <strong>ilk büyük irticai (gerici) isyan</strong> hangisidir?</p>
+<p>A) Anzavur İsyanı &nbsp; B) Menemen Olayı &nbsp; C) Şeyh Sait İsyanı &nbsp; D) Çerkez Ethem İsyanı</p>
+<p><strong>Çözüm:</strong> 1925'te patlak veren ve devleti çok zor durumda bırakarak Terakkiperver partinin kapatılmasına neden olan rejim karşıtı ilk büyük isyan Şeyh Sait İsyanıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Mustafa Kemal'in "Benim naçiz vücudum elbet bir gün toprak olacaktır, ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır" sözünü söylediği olay aşağıdakilerden hangisidir?</p>
+<p>A) İzmir Suikastı Girişimi &nbsp; B) Büyük Taarruz &nbsp; C) Menemen Olayı &nbsp; D) Cumhuriyet'in İlanı</p>
+<p><strong>Çözüm:</strong> Eski İttihatçıların Mustafa Kemal'i öldürüp eski rejimi geri getirme planı olan İzmir Suikastı ortaya çıkarılınca M. Kemal bu meşhur sözünü söylemiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Şeyh Sait İsyanı'nı bastırmak için Başbakan İsmet Paşa tarafından çıkarılan, basına sansür getiren ve olağanüstü hal (sıkıyönetim) yetkileri barındıran "Huzur ve Sükuneti Sağlama Yasası"nın adı nedir?</p>
+<p>A) Tekalif-i Milliye &nbsp; B) Takrir-i Sükun &nbsp; C) Hıyanet-i Vataniye &nbsp; D) Teşkilat-ı Esasiye</p>
+<p><strong>Çözüm:</strong> İrticai faaliyetleri susturmak ve ülkede yeniden huzuru (sükuneti) sağlamak için çıkarılan sert yasa Takrir-i Sükun kanunudur (1925). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>1930 yılında Mustafa Kemal'in isteğiyle yakın arkadaşı Ali Fethi Okyar tarafından kurulan, ekonomide liberalizmi savunan ancak laiklik karşıtlarının sızması nedeniyle kurucusu tarafından kapatılan <strong>ikinci muhalefet partisi</strong> hangisidir?</p>
+<p>A) Terakkiperver Cumhuriyet Fırkası &nbsp; B) İttihat ve Terakki &nbsp; C) Serbest Cumhuriyet Fırkası &nbsp; D) Hürriyet ve İtilaf Fırkası</p>
+<p><strong>Çözüm:</strong> 1929 dünya ekonomik krizinin ardından hükümeti denetlemesi için M. Kemal'in bizzat ricasıyla kurdurulan ama yine hüsranla (kapatılmayla) biten parti Serbest Cumhuriyet Fırkası'dır (SCF - 1930). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Aşağıdaki olaylardan hangisi, Türkiye'nin Irak sınırında (Musul meselesinde) masada elini zayıflatarak Misak-ı Milli'den taviz vermesine (Musul'un kaybına) doğrudan zemin hazırlamıştır?</p>
+<p>A) Menemen Olayı &nbsp; B) İzmir Suikastı &nbsp; C) Şeyh Sait İsyanı &nbsp; D) Mudanya Ateşkesi</p>
+<p><strong>Çözüm:</strong> İngiltere'nin kışkırtmasıyla çıkan Şeyh Sait isyanı yüzünden Türk ordusu Musul'a girememiş, içeriyle uğraşmaktan dışarıda güçsüz kalarak Musul'u İngiliz mandasındaki Irak'a bırakmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>I. TBMM döneminde hükümet, Meclis Başkanı'nın aynı zamanda Hükümet Başkanı olduğu, bakanların mecliste milletvekillerince tek tek oylanıp seçildiği "Meclis Hükümeti" sistemiyle yönetiliyordu. <br>Cumhuriyet'in ilanı ile geçilen <strong>"Kabine Sistemi"nin</strong> en büyük (işlevsel) avantajı ne olmuştur?</p>
+<p>A) Bakanların sayısının azaltılması &nbsp; B) Tüm bakanlıkların kaldırılması &nbsp; C) Başbakanın, birbiriyle uyumlu çalışacak bakanları liste (kabine) halinde seçip meclisten tek bir güvenoyu alması sayesinde hükümet kurmanın <strong>hızlanması</strong> &nbsp; D) Meclisin tamamen kapatılması</p>
+<p><strong>Çözüm:</strong> Meclis hükümeti sistemi yavaş ve uyumsuzdur. Kabine sisteminde ise Başbakan ekibini kendi seçer, meclise sadece "Güveniyor musunuz?" diye sorar. Bu sistem hızlı ve koordine bir yürütme organı yaratır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Halifeliğin kaldırılmasının (3 Mart 1924) Türk İnkılap Tarihi açısından en kapsamlı (genel) sonucu aşağıdakilerden hangisidir?</p>
+<p>A) Saltanatın resmen kaldırılması (Zaten daha önce kalkmıştı) &nbsp; B) Çok partili hayata kesin olarak geçilmesi (Daha geçilemedi) &nbsp; C) Dini bir kurum (makam) olan Halifeliğin yok edilmesiyle, <strong>"Ümmet" (din eksenli) toplum yapısından, laik "Ulus/Millet" (milli egemenlik eksenli) devlet modeline geçişin güvence altına alınması</strong> &nbsp; D) İstiklal Mahkemelerinin kurulması</p>
+<p><strong>Çözüm:</strong> Halifelik, devleti dini kurallarla ve ümmet (tüm Müslümanların biat ettiği) bilinciyle yönetmenin son kalesidir. Bu yıkılınca önümüzdeki laik ve milliyetçi inkılapların tüm yolu açılmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Cumhuriyet döneminde kurulan İlk Muhalefet Partisi olan Terakkiperver Cumhuriyet Fırkası'nın (TCF) parti tüzüğüne eklediği <strong>"Partimiz dini inançlara (ve fikirlere) saygılıdır"</strong> maddesi, sosyolojik olarak aşağıdakilerden hangisine neden olmuştur?</p>
+<p>A) Partinin İngiltere tarafından desteklenmesine &nbsp; B) Cumhurbaşkanı Mustafa Kemal'in partiye üye olmasına &nbsp; C) Yeniliklere, inkılaplara ve Laikliğe karşı olan eski düzen (irtica) yanlılarının bu maddeyi bir "şifre" kabul edip hızla bu partide toplanmasına (örgütlenmesine) &nbsp; D) Partinin kapanmamasına</p>
+<p><strong>Çözüm:</strong> TCF kurucuları vatansever kahramanlardı (Karabekir vd.). Ancak bu madde (sanki mevcut hükümet dine saygısızmış gibi bir algı yarattığı için) şeriatçıların, gericilerin yasal kılıf altında bu partiye doluşmasına sebep oldu ve sonunda isyan patladı. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Serbest Cumhuriyet Fırkası'nın (SCF) kendi kurucusu Ali Fethi Okyar tarafından (kurulduktan sadece 3 ay sonra) <strong>feshedilmesinin (kapatılmasının) asıl nedeni</strong> nedir?</p>
+<p>A) Hükümetin partiye para yardımını kesmesi &nbsp; B) Mustafa Kemal'in zorla kapattırması &nbsp; C) Seçimlerde hiç oy alamaması &nbsp; D) Partinin hızla laiklik karşıtı eylemcilerin (irticacıların) sığınağı haline geldiğini gören Fethi Bey'in, Atatürk'ün kurduğu cumhuriyetle ve bizzat Atatürk'le karşı karşıya (düşman) gelmek istememesi</p>
+<p><strong>Çözüm:</strong> Fethi Bey çok yakın arkadaşı M. Kemal'i üzmek ve inkılapları tehlikeye atmak istemedi. Mitinglerinde yaşanan irticai (gerici) coşkuyu görünce tehlikeyi sezdi ve kendi partisini kendi kapattı. (Bu parti İstiklal Mahkemesi kararıyla falan kapatılmadı, kendi kapandı!). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Mustafa Kemal Atatürk'ün "Çok Partili Hayata" geçiş konusunda ısrarcı olmasının (TCF ve SCF'nin kurulmasını desteklemesinin) <strong>demokratik (siyasi) amacı</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Saltanatı geri getirmek &nbsp; B) Farklı fikirlerin meclise yansımasını sağlayarak "Milli Egemenliği" güçlendirmek ve iktidar partisini (CHF'yi) muhalefet aracılığıyla **denetlettirmek** &nbsp; C) Ekonomiyi yabancı sermayeye devretmek &nbsp; D) Ordunun gücünü artırmak</p>
+<p><strong>Çözüm:</strong> Demokrasinin (Cumhuriyetin) doğası gereği tek partili sistem (denetimsizlik) sağlıklı değildir. Farklı partiler hükümetin hatalarını mecliste eleştirerek (denetleyerek) sistemi mükemmelleştirir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Aşağıdaki gelişmelerden hangisinde, yargılamalar olağanüstü yetkili <strong>İstiklal Mahkemeleri'nde YAPILMAMIŞTIR</strong>? (Yani İstiklal Mahkemesi YOKTUR).</p>
+<p>A) TBMM'ye karşı çıkan İç İsyanlar &nbsp; B) Şeyh Sait İsyanı &nbsp; C) Menemen (Kubilay) Olayı &nbsp; D) İzmir Suikastı Girişimi</p>
+<p><strong>Çözüm:</strong> <strong>Büyük Tuzak!</strong> İstiklal Mahkemelerinin görev yaptığı son olay 1926 İzmir Suikastıdır. 1930'daki Menemen olayında failleri yargılamak için Sıkıyönetim (Divan-ı Harp / Askeri mahkeme) kurulmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Aşağıdakilerden hangisi 3 Mart 1924 (Halifeliğin kaldırıldığı gün) TBMM'de kabul edilen yasalardan biri <strong>değildir</strong>?</p>
+<p>A) Erkan-ı Harbiye-i Umumiye Vekaletinin Kaldırılması &nbsp; B) Şeriye ve Evkaf Vekaletinin Kaldırılması &nbsp; C) Teşkilat-ı Esasiye'nin (1921 Anayasası) Kabulü &nbsp; D) Tevhid-i Tedrisat Kanununun Kabulü</p>
+<p><strong>Çözüm:</strong> ŞEHOT şifresi! Şeriye, Erkanıharbiye, Halifelik, Osmanlı sürgünü, Tevhid-i Tedrisat aynı gün çıktı. Ancak Teşkilat-ı Esasiye 1921'de (I. İnönü savaşından sonra) çıkan anayasadır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Ankara'nın jeopolitik, stratejik ve tarihi özellikleri nedeniyle 13 Ekim 1923'te Türkiye'nin "Başkenti" ilan edilmesi, aynı zamanda aşağıdakilerden hangisinin (sembolik olarak) reddedildiğini gösterir?</p>
+<p>A) Misak-ı Milli sınırlarının &nbsp; B) İzmir'in ekonomik gücünün &nbsp; C) Osmanlı'nın siyasi, idari ve bürokratik mirasının (İstanbul merkezli köhnemiş yapının) &nbsp; D) Lozan Barış Antlaşması'nın</p>
+<p><strong>Çözüm:</strong> Başkent İstanbul'da kalsaydı, eski Osmanlı memurları, yalı kültürü ve o köhne siyaset biçimi yeni devleti zehirleyebilirdi. Ankara'yı seçmek "Temiz bir sayfa, yeni bir devlet" demektir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Şeyh Sait ve Menemen isyanlarının <strong>ortak amacı</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Padişahı İngiliz işgalinden kurtarmak &nbsp; B) Yeni kurulan Laik ve Cumhuriyetçi rejimi yıkarak yerine teokratik (dini kurallara dayanan) eski sistemi geri getirmek (İrtica) &nbsp; C) Toprak reformu yapılmasını sağlamak &nbsp; D) Yabancı okulları tamamen kapatmak</p>
+<p><strong>Çözüm:</strong> Her ikisi de "Din elden gidiyor" sloganıyla halkı galeyana getiren, yenilik karşıtı (gerici/irticai) isyanlardır. Amaçları Laik Türkiye Cumhuriyeti'ni yıkıp Şeriat düzenini kurmaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Osmanlı hanedanına (padişahın soyuna) mensup kişilerin, Halifeliğin kaldırıldığı 3 Mart 1924 tarihli kanunla vatandaşlıktan çıkarılarak yurt dışına sürgün edilmelerinin <strong>temel amacı</strong> nedir?</p>
+<p>A) Hanedanın Avrupa'da eğitim almasını sağlamak &nbsp; B) Avrupa ülkeleriyle akrabalık bağları kurmak &nbsp; C) İleride (saltanat veya halifelik yanlıları tarafından) yeniden taht kavgası (iç savaş) çıkarılmasını ve rejimin tehlikeye atılmasını kökünden engellemek &nbsp; D) İtilaf devletlerinin isteğini yerine getirmek</p>
+<p><strong>Çözüm:</strong> Eğer bir şehzade yurt içinde kalsaydı, rejim karşıtları onu etrafında toplanıp "İşte gerçek hükümdarımız" diyerek iç savaş çıkarabilirdi. Tehlikeyi sıfıra indirmek için tüm soy sınır dışı edildi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Cumhuriyetin ilk yıllarında denenen ancak iki kez (1924 ve 1930) hüsranla (isyanlarla) sonuçlanıp ertelenen "Çok Partili Siyasi Hayat" girişimleri, Atatürk ilkelerinden hangisinin o dönemde henüz Türk halkı tarafından <strong>tam olarak içselleştirilemediğini (benimsenmediğini)</strong> gösterir?</p>
+<p>A) Devletçilik &nbsp; B) Laiklik &nbsp; C) Milliyetçilik &nbsp; D) İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Her iki denemede de halk "Din elden gidiyor" kışkırtmasıyla ayaklanmış, şeriatçı (din devleti isteyen) gruplar partilere sızmıştır. Bu durum halkın "Din ile devlet işlerinin ayrılması" fikrini, yani <strong>Laikliği</strong> henüz özümseyemediğini gösterir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Takrir-i Sükun Kanunu (1925), Şeyh Sait isyanı bahanesiyle çıkarılmış ancak 1929'a kadar yürürlükte kalmıştır. Bu sert kanunun yürürlükte kaldığı yıllarda Şapka İnkılabı, Medeni Kanun, Harf İnkılabı gibi devasa devrimler nispeten rahatlıkla yapılmıştır. <br>Bu bilgiye dayanarak, Takrir-i Sükun Kanunu'nun inkılap tarihi açısından (siyasi olarak) <strong>işlevi</strong> nedir?</p>
+<p>A) İnkılapları tamamen durdurması &nbsp; B) Muhalefetin susturulduğu "otoriter" bir ortam yaratarak, köklü (ve tepki çekebilecek) inkılapların yapılabilmesi için uygun ve dikensiz bir "güvenlik/otorite" alanı sağlaması &nbsp; C) Sadece vergi toplamaya yaraması &nbsp; D) Çok partili hayatı anayasal zorunluluk kılması</p>
+<p><strong>Çözüm:</strong> İstiklal mahkemelerinin ve sansürün olduğu bir ortamda hiç kimse "Şapka giymem, Medeni kanun istemem" diye devlete başkaldıramaz. Devlet bu kanunla sağladığı mutlak otoriteyi, hızlıca inkılapları hayata geçirmek için kullanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Erkan-ı Harbiye-i Umumiye Vekaleti'nin kaldırılarak ordunun siyasetten çekilmesinin (Genelkurmay'ın kurulmasının) hem Cumhuriyetçilik hem de Milli Güvenlik açısından en büyük gerekçesi (tarihten alınan acı ders) hangisidir?</p>
+<p>A) Trablusgarp Savaşı &nbsp; B) I. Dünya Savaşı &nbsp; C) Balkan Savaşları &nbsp; D) 93 Harbi (1877-78)</p>
+<p><strong>Çözüm:</strong> İttihatçılar döneminde Balkan Savaşlarında komutanlar arasında siyasi particilik kavgası çıkmış, bu yüzden koskoca ordu dağılmış ve Rumeli kaybedilmişti. Atatürk bu felaketi bir daha yaşamamak için "Ordu ile meclis (siyaset) aynı bedende olmaz" demiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Ali Fethi Okyar, Serbest Cumhuriyet Fırkasını kurarken ekonomi politikası olarak Atatürk'ün (ve İsmet İnönü hükümetinin) savunduğu <strong>"Devletçilik"</strong> ilkesine karşı çıkarak hangi ekonomik modeli parti tüzüğüne almıştır?</p>
+<p>A) Karma Ekonomi &nbsp; B) Komünizm &nbsp; C) Sosyalizm &nbsp; D) Liberalizm (Serbest Piyasa)</p>
+<p><strong>Çözüm:</strong> Terakkiperver de Serbest fırka da ekonomide serbest (özel) girişimciliği (Liberalizmi) savunmuş, devletin ekonomiye doğrudan müdahale etmesini eleştirmişlerdir. (İsimlerindeki "Serbest" kelimesi ekonomideki serbestliği kasteder). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Aşağıdaki gelişmelerden hangisi, 1923'te kurulan Cumhuriyet'in ilk 10 yıllık döneminde "Milli Egemenlik" ilkesinin tam anlamıyla işlemesini (demokrasinin tüm kurumlarıyla oturmasını) <strong>engelleyen / sekteye uğratan</strong> bir durumdur?</p>
+<p>A) Kadınlara seçme ve seçilme hakkının (ilerleyen yıllarda) verilmesi &nbsp; B) Birden fazla siyasi partinin uzun süre yaşatılamaması ve ülkenin 1946'ya kadar Tek Parti (CHF) ile yönetilmek zorunda kalması &nbsp; C) Seçim yaşının düşürülmesi &nbsp; D) Saltanatın kaldırılması</p>
+<p><strong>Çözüm:</strong> Tam ve kusursuz bir demokrasi (milli egemenlik) için "alternatif parti" şarttır. Oysa iç isyanlar yüzünden Türkiye uzun yıllar Tek Parti (CHP) ile yönetilmek zorunda kalmış, demokrasinin "Çoğulculuk" ilkesi eksik kalmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Mustafa Kemal'e yönelik İzmir Suikastı planı sonrasında, eski İttihat ve Terakki liderleri (Ziya Hurşit, Cavit Bey, Doktor Nazım) İstiklal Mahkemelerinde yargılanarak idam edilmişlerdir. <br>Bu olayın <strong>Türk siyasi tarihi (partiler) açısından</strong> sonucu nedir?</p>
+<p>A) Yeni bir anayasanın kabul edilmesi &nbsp; B) İttihat ve Terakki (İttihatçılık) zihniyetinin ve eski kadrolarının Türk siyasetinden tamamen (kesin olarak) tasfiye edilmesi (temizlenmesi) &nbsp; C) Halifeliğin kaldırılması &nbsp; D) Lozan Barış Antlaşması'nın iptali</p>
+<p><strong>Çözüm:</strong> Suikast girişimi bir fırsata çevrilmiş, Cumhuriyete gizliden gizliye muhalefet eden tüm eski İttihatçı paşalar ve maliyeciler tasfiye edilerek muhalefet odağı kökünden kazınmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Cumhuriyetin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası (TCF), hangi kanunun veya mahkemenin verdiği kararla kapatılmıştır?</p>
+<p>A) Takrir-i Sükun kanunu yetkisiyle kurulan mahkemelerin (Bakanlar Kurulu) kararıyla (Şeyh Sait İsyanı bahanesiyle) &nbsp; B) Hıyanet-i Vataniye kanunuyla &nbsp; C) Kendi kendini feshederek &nbsp; D) Anayasa Mahkemesi kararıyla</p>
+<p><strong>Çözüm:</strong> TCF, "Şeyh Sait İsyanına kışkırtıcı etki yaptığı" gerekçesiyle Takrir-i Sükun yasasının verdiği olağanüstü yetkiler (Hükümet/İstiklal Mahkemeleri tavsiyesi) sonucunda kapatılmıştır. (Serbest Cumhuriyet Fırkası ise kendi kendini feshetmişti, karıştırma!). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Aşağıdaki gelişmelerden hangisi, <strong>laik devlet düzenini korumaya</strong> yönelik olarak devletin gücünü (şiddet tekelini) kullandığı olaylardan biri <strong>değildir</strong>?</p>
+<p>A) Şeyh Sait İsyanının bastırılıp Takrir-i Sükun yasasının çıkarılması &nbsp; B) Kubilay Olayı'nda isyancıların Divan-ı Harp'te yargılanıp asılması &nbsp; C) İzmir Suikastçılarının İstiklal Mahkemesinde yargılanması &nbsp; D) Maarif Kongresi'nin (Eğitim) toplanması</p>
+<p><strong>Çözüm:</strong> A, B ve C şıkları doğrudan yeni rejimi (laik cumhuriyeti) yıkmaya çalışanlara karşı devletin kolluk/yargı gücünü kullandığı olaylardır. Maarif Kongresi ise Kütahya-Eskişehir savaşında yapılan bilimsel bir eğitim kongresidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Halifeliğin 3 Mart 1924'te kaldırılması sadece iç siyaseti değil, Dış Siyaseti de (Türkiye'nin uluslararası stratejisini) etkilemiştir. <br>Buna göre Halifeliğin kaldırılmasının dış politikadaki <strong>mantığı (hedefi)</strong> nedir?</p>
+<p>A) Tüm İslam dünyasını Türkiye'nin etrafında askeri bir paktta toplamak &nbsp; B) Ümmet (Panislamizm) ideolojisinden tamamen vazgeçilerek, Türk dış politikasını sadece "Milli (Ulus Devlet)" çıkarları çerçevesine (Misak-ı Milli sınırlarına) çekmek (Gerçekçi ve barışçı dış politika) &nbsp; C) İngiltere'den kredi almak &nbsp; D) Avrupa Birliği'ne girmek</p>
+<p><strong>Çözüm:</strong> Halifelik, tüm dünyadaki Müslümanların lideri olma iddiasıdır (Panislamizm). Ancak Trablusgarp ve I. Dünya Savaşında (Arapların İngilizlerle işbirliği yapmasıyla) ümmetçilik iflas etmişti. Türkiye gerçekçi (rasyonel) davranıp "Ben sadece kendi sınırımdaki kendi vatandaşlarımdan sorumluyum, dünyaya hayalperest maceralarla lider olamam" diyerek Milli politikalara dönmüştür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Cumhuriyet'in ilanına (Ekim 1923) kadarki dönemde devlet başkanlığı görevi fiilen kim tarafından (hangi unvanla) yürütülmüştür?</p>
+<p>A) Padişah (Vahdettin) &nbsp; B) Halife (Abdülmecit) &nbsp; C) TBMM Başkanı unvanıyla Mustafa Kemal &nbsp; D) İcra Vekilleri Heyeti Başkanı unvanıyla İsmet Paşa</p>
+<p><strong>Çözüm:</strong> Cumhuriyetten önce başbakan veya cumhurbaşkanı unvanı yoktu. TBMM Başkanı aynı zamanda Hükümet ve fiili devlet başkanıydı. (Yani Mustafa Kemal, meclis başkanı sıfatıyla bu görevi yürütüyordu). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Soruların çözümlerinde, "İstiklal Mahkemesinin nerede olup nerede olmadığına" ve "3 Mart 1924 yasalarının (ŞEHOT) hangi ilkelere denk geldiğine" çok dikkat et. Siyasi İnkılaplar ünitesi, kavram haritalarını oturttuğunda en zevkli ünitedir!</em></p>
+`,
   },
   {
     id: 66,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Hukuk Alanında Yapılan İnkılaplar',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Medeni Kanun, BMW Şifresi, Alınan Kanunlar)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Siyasi inkılaplarla devletin rejimini (Cumhuriyet) ve çatısını kurduk. Şimdi sıra bu çatının altındaki vatandaşların (özellikle de kadınların) haklarını, modern ve akılcı kurallara bağlamaya geldi. Osmanlı Devleti'nin mahkemeleri, dini kurallara (Mecelle'ye) göre karar veren, üstelik Müslümana ayrı, azınlığa ayrı, yabancıya ayrı mahkeme açan "çok hukuklu" karmaşık ve köhnemiş bir yapıydı.</p>
+<p>Bu konumuzda, Atatürk'ün bu eski yapıyı nasıl tek bir hamleyle yıkıp <strong>"Hukuk Birliğini"</strong> ve laik yargıyı kurduğunu göreceğiz. Özellikle <strong>Türk Medeni Kanunu</strong>, KPSS'de her yıl istisnasız karşımıza çıkan bir numaralı baş aktördür. ÖSYM sana Medeni Kanun'un kadına verdiği sosyal haklarla, yıllar sonra verilecek olan "Siyasi (Seçim)" hakları birbirine karıştırmanı isteyecektir. Bu konuyu bitirdiğinde ÖSYM'nin en büyük tuzağına güle oynaya düşmekten kurtulacaksın.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü Medeni Kanun sadece bir yasa değil; bir ülkenin "Laik" (dini kurallar yerine aklı koyan) ve "Halkçı" (kadınla erkeği eşit kılan) bir devlete dönüşüm belgesidir. Ayrıca Batı'dan alınan kanunların (Ceza, Ticaret vb.) menşei (hangi ülkeden alındığı) mutlaka sorulur.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Osmanlı'nın dini (İslami) kurallara dayanan <strong>Mecelle</strong> isimli bir aile/eşya hukuku vardı. Cumhuriyet ilan edildikten sonra modern Türkiye'ye bu yasa yetmedi. Yeni bir yasa yazmak çok uzun süreceği için, Avrupa'nın en yeni, en pratik kanunu olan <strong>İsviçre Medeni Kanunu</strong> alındı, Türkçe'ye çevrilip uyarlandı (17 Şubat 1926). Böylece aile içi kurallar (evlenme, boşanma, miras) dini kurallardan kurtarılıp devlet (laiklik) güvencesine alındı. Ardından diğer kanunlar da Batı'dan alındı. Medeni Kanun kadını sosyal hayatta erkekle eşit yaptıktan sonra, eksik kalan tek şey "devleti yönetme (oy verme)" hakkıydı. O da 1930'dan itibaren (BMW şifresiyle) verildi.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Hukukta Birlik Sağlandı</span><p>Mecelle'nin iptali ve Patrikhanelerin mahkeme kurma yetkisinin ellerinden alınmasıyla Türkiye'deki "çok hukuklu" (herkese ayrı mahkeme) karmaşası bitti, herkes için tek bir kanun (Hukuk Birliği) sağlandı.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Hukuk Alanında Neden İnkılaba İhtiyaç Duyuldu?</h3>
+<p>Osmanlı Devleti'nde hukuk, büyük oranda dini kurallara (Fıkıh / Şeriat) dayanıyordu. Ahmet Cevdet Paşa'nın hazırladığı <strong>Mecelle</strong> adlı medeni yasa, Müslümanlar için geçerliyken; gayrimüslimler (azınlıklar) kendi kiliselerinde kendi dini mahkemelerinde yargılanıyor, kapitülasyonları olan yabancılar ise konsolosluk mahkemelerinde yargılanıyordu. <br>
+<strong>Sonuç:</strong> Ülkede tam bir "Hukuk Karmaşası" vardı. Yeni, bağımsız ve laik bir devletin sınırları içinde herkesin kanun önünde eşit (Hukuk Birliği) olması gerekirdi.</p>
+
+<h3>3.2. Türk Medeni Kanunu'nun Kabulü (17 Şubat 1926)</h3>
+<p>Eski Mecelle atılıp yeni bir medeni (aile-miras) kanun yazılacaktı. Ancak sıfırdan bir yasa yazmak hem çok uzun zaman alacak, hem de deneyim eksikliği yaşatacaktı. Bu yüzden <strong>İsviçre Medeni Kanunu</strong> örnek alındı.</p>
+<p><strong>Neden özellikle İsviçre?</strong><br>
+1) Avrupa'daki kanunların en yenisi (en çağdaşı) olması.<br>
+2) Pratik, açık, anlaşılır ve sorunlara akılcı çözümler sunması.<br>
+3) Laik bir karaktere sahip olması.</p>
+
+<h3>3.3. Medeni Kanun Kadınlara Neler Getirdi? (BÜYÜK DEĞİŞİM)</h3>
+<p>Medeni Kanun (Aile Hukuku), Türk kadınına <strong>sosyal ve ekonomik</strong> alanda erkekle tam bir eşitlik sağlamıştır. <br>
+<strong>Neler oldu?</strong></p>
+<ul>
+<li><strong>Resmi Nikah Zorunluluğu:</strong> Sadece dini nikah (imam nikahı) yetersiz sayıldı, nikah işlemleri devlet memuru önüne alınarak "devlet (hukuk) güvencesine" kavuşturuldu. (Dini nikah ancak resmi nikahtan sonra kılınabilir şartı geldi).</li>
+<li><strong>Tek Eşlilik (Monogami):</strong> Erkeğin birden fazla kadınla evlenmesi (poligami) yasaklandı.</li>
+<li><strong>Boşanma Hakkı:</strong> Osmanlı'da boşanma (boş ol deme) hakkı sadece erkeğindi. Artık kadına da mahkemeye başvurarak boşanma hakkı verildi.</li>
+<li><strong>Mirasta Eşitlik:</strong> Eski düzende (Mecelle'de) erkeğe 2, kadına 1 pay veriliyordu. Medeni kanunla mirasta kız ve erkek çocuk arasında tam eşitlik sağlandı.</li>
+<li><strong>Şahitlikte Eşitlik:</strong> Eskiden mahkemede 1 erkeğin şahitliğine karşı 2 kadının şahitliği istenirdi. Artık mahkemede kadın ile erkeğin şahitliği (sesi) eşitlendi.</li>
+<li><strong>Çalışma Hakkı:</strong> Kadına, erkeğin izni olmadan istediği mesleği (işi) seçme ve çalışma özgürlüğü (ekonomik özgürlük) verildi.</li>
+</ul>
+<p><strong>Büyük Siyasi Sonucu:</strong> Bu yasayla Türkiye'deki Rum/Ermeni azınlıklar da Patrikhane mahkemelerine gitmekten kendi rızalarıyla vazgeçtiler. Böylece Patrikhane'nin dünyevi (mahkeme) yetkileri tamamen bitti ve <strong>Türkiye'de Hukuk Birliği kesin olarak sağlandı.</strong></p>
+
+<div class="kutu kutu-ipucu"><span class="kutu-baslik">🟦 Hangi İlkeye Girer?</span><p>Medeni Kanun; kadın ve erkeği kanun önünde eşit kıldığı, ayrıcalıkları kaldırdığı için doğrudan <strong>Halkçılık</strong> ilkesidir. Dini kanunları (Mecelleyi) atıp akla dayalı çağdaş yasa getirdiği, resmi nikahı zorunlu kıldığı için de doğrudan <strong>Laiklik</strong> ilkesidir.</p></div>
+
+<h3>3.4. Yurt Dışından Alınan Diğer Hukuk Kanunları</h3>
+<p>Hukuk inkılabı sadece medeni yasa ile bitmedi. Ticaret, Ceza ve İdare hukuku alanlarında da Batı'nın en gelişmiş yasaları örnek alınarak uyarlandı. KPSS bu eşleştirmeleri sormayı sever:</p>
+<ul>
+<li><strong>İsviçre'den Alınanlar:</strong> Medeni Kanun, İcra-İflas Kanunu, Borçlar Kanunu.</li>
+<li><strong>İtalya'dan Alınan:</strong> Ceza Kanunu. (O dönem İtalya'nın ceza yasası çok modern ve suçları önleyici nitelikteydi).</li>
+<li><strong>Almanya'dan Alınan:</strong> Ticaret Hukuku, Deniz Ticaret Kanunu.</li>
+<li><strong>Fransa'dan Alınan:</strong> İdare Hukuku.</li>
+</ul>
+<p><em>Öğrenci Taktik: Cezayı Mafya ülkesi İtalya'dan (klasik espri), Ticareti disiplinli Almanlardan, Yönetimi (İdareyi) köklü Fransızlardan aldık.</em></p>
+
+<h3>3.5. Kadınlara Siyasi (Yönetime Katılma) Hakların Verilmesi</h3>
+<p>Medeni Kanun (1926) ile kadınlara sosyal (evlilik, miras) ve ekonomik (çalışma) tüm haklar verilmişti ama "Devleti Yönetme (Oy kullanma, milletvekili olma)" hakkı verilmemişti. Atatürk bu hakkı, yıllara bölerek, halkı alıştıra alıştıra vermiştir. <br>
+Türk kadını birçok Avrupa ülkesinden (örneğin Fransa ve İsviçre'den) çok daha önce bu haklara kavuşmuştur. Sıralaması şöyledir:</p>
+<ul>
+<li><strong>1930 - Belediye Seçimleri:</strong> Kadınlara Belediye seçimlerinde seçme ve seçilme hakkı verildi. (İlk Kadın Belediye Başkanı: Sadiye Hanım - Artvin/Yusufeli).</li>
+<li><strong>1933 - Muhtarlık Seçimleri:</strong> Kadınlara muhtar olma hakkı verildi. (İlk Kadın Muhtar: Gül Esin - Aydın/Çine).</li>
+<li><strong>1934 - Milletvekilliği (Vekil) Seçimleri:</strong> Kadınlara en büyük hak olan meclise girme (milletvekili olma) hakkı verildi. (1935 seçimlerinde meclise 18 kadın milletvekili girmiştir).</li>
+</ul>
+<p>Bu sıralamayı asla unutmaman için baş harflerinden bir araba markası yarattık: <strong>B-M-W (veya V)</strong>. Belediye, Muhtar, Vekil. (Detayı aşağıda).</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Çok Hukukluluk (Sebep) $\rightarrow$ Medeni Kanun (Sonuç) $\rightarrow$ Hukuk Birliği (Çözüm):</strong> Her dinin kendi mahkemesinde yargılanması bağımsız devleti böler. Medeni Kanun ile Patrikhane yetkileri alınarak herkes Türk mahkemelerine bağlandı, devlet tek otorite (birlik) oldu.</li>
+<li><strong>Kadının İkinci Planda Kalması (Sebep) $\rightarrow$ Medeni Kanun (Sonuç) $\rightarrow$ Sosyal Eşitlik (Çözüm):</strong> Mirasta yarım pay alan, tek taraflı boşanan, şahitliği yarım sayılan kadının insan onuruna yaraşır hale gelmesi Halkçılık ilkesinin en büyük kanıtıdır.</li>
+<li><strong>Zaman Kısıtlaması (Sebep) $\rightarrow$ Yurt dışından Kanun Alınması (Çözüm):</strong> İnkılapların hızını kesmemek ve modern dünyaya entegre olmak için yasalar hazır (ama uyaralanarak) alınmıştır.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay</th>
+<th>Önemi / Sonucu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1921</td>
+<td>Teşkilat-ı Esasiye Anayasası</td>
+<td>Yeni Türk Devleti'nin ilk anayasası (Kısa, öz ve kişi hakları yoktur).</td>
+</tr>
+<tr>
+<td>1924</td>
+<td>1924 Anayasası</td>
+<td>Cumhuriyet ilan edildikten sonra hazırlanan, daha detaylı anayasa.</td>
+</tr>
+<tr>
+<td>17 Şubat 1926</td>
+<td>Türk Medeni Kanunu</td>
+<td>İsviçre'den alındı. Kadına sosyal hakları verildi. Hukuk birliği sağlandı.</td>
+</tr>
+<tr>
+<td>1926</td>
+<td>Ceza Kanunu</td>
+<td>İtalya'dan alındı.</td>
+</tr>
+<tr>
+<td>1930</td>
+<td>Kadına <strong>Belediye</strong> hakkı (B)</td>
+<td>Kadınlara verilen İLK SİYASİ hak.</td>
+</tr>
+<tr>
+<td>1933</td>
+<td>Kadına <strong>Muhtarlık</strong> hakkı (M)</td>
+<td>İkinci siyasi hak adımı.</td>
+</tr>
+<tr>
+<td>1934</td>
+<td>Kadına <strong>Vekillik</strong> hakkı (V)</td>
+<td>Milletvekilliği (Devlet yönetimi) hakkı. Tam siyasi eşitlik.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Medeni Kanun vs. Siyasi Haklar</h3>
+<table>
+<thead>
+<tr>
+<th>Kriter</th>
+<th>Medeni Kanun (1926)</th>
+<th>Siyasi Haklar (1930-1934)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hakkın Niteliği</strong></td>
+<td>Sosyal ve Ekonomik haklar</td>
+<td>Devlet Yönetimine katılma hakları</td>
+</tr>
+<tr>
+<td><strong>Neleri Kapsar?</strong></td>
+<td>Evlenme, resmi nikah, boşanma, miras, şahitlik, çalışma hakkı.</td>
+<td>Oy kullanma (seçme), Parti kurma, Belediye/Muhtar/Vekil olma (seçilme).</td>
+</tr>
+<tr>
+<td><strong>Oluşturduğu İlke</strong></td>
+<td>Halkçılık, Laiklik</td>
+<td>Doğrudan Cumhuriyetçilik (Egemenlik)</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>1924 Anayasasının Değişimleri:</strong> 1928'de anayasadan "Devletin dini İslam'dır" maddesi çıkarıldı (Anayasa Laikleşti). 1937'de ise "Atatürk İlkeleri (Laiklik dahil)" anayasaya girdi.</li>
+<li><strong>Mecelle'nin Hazırlayıcısı:</strong> Osmanlı'nın eski medeni kanunu olan Mecelle'yi hazırlayan komisyonun başkanı Ahmet Cevdet Paşa'dır. Medeni kanunla onun eseri yürürlükten kalkmıştır.</li>
+<li><strong>Hukuk Birliğinin Engeli:</strong> Osmanlı'da Hukuk Birliğini bozan en büyük engeller Kapitülasyon mahkemeleri ve Patrikhane mahkemeleriydi. Bunların ikisi de kaldırılmıştır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 En Büyük KPSS Tuzağı</span><p>Soru kökü: "Medeni Kanun kadınlara hangi hakları vermiştir?"<br>
+A) Resmi nikah<br>B) Mirasta eşitlik<br>C) İstediği meslekte çalışma<br>D) Boşanma hakkı<br>E) Milletvekili (veya muhtar) seçilme hakkı<br>
+<strong>CEVAP KESİNLİKLE E ŞIKKIDIR.</strong> Medeni kanunda SEÇİM (Siyaset) YOKTUR! Seçim BMW şifresiyle sonradan verilmiştir!</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Medeni Kanunda Siyasi Hak Vardır" Tuzağı.</strong> Bunu 7. bölümde bağıra bağıra söyledik. Sınavda Medeni kanun ile ilgili ne zaman "Siyasi, seçme, oy kullanma, milletvekili olma" kelimelerini görürsen, o şıkkın üstünü kocaman çizeceksin. Medeni kanunda sadece SOSYAL (evlilik, miras) ve EKONOMİK (çalışma) haklar vardır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Türk Medeni Kanunu Fransa'dan alındı" Tuzağı.</strong> Hayır, Medeni kanun (aile, miras vb.) ve Borçlar ile İcra/İflas İsviçre'den alınmıştır. Fransa'dan alınan sadece "İdare" hukukudur. İtalya'dan Ceza, Almanya'dan Ticaret kanunu alınmıştır. (Eşleştirmelere dikkat).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Patrikhane yurt dışına çıkarıldı" Tuzağı.</strong> Lozan'da Patrikhane İstanbul'da kalmıştı ama siyasi yetkileri alınmıştı. Medeni kanunla ise Patrikhanenin "mahkeme kurma" (hukuki) yetkileri tamamen elinden alındı. Sadece dini bir kuruma (cami statüsüne) düşürüldü ama YURT DIŞINA ÇIKARILMADI.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Kadınlara ilk haklar Medeni kanunla başladı" Tuzağı.</strong> Eğer "Siyasi" haktan bahsediyorsa, ilk hak 1930 Belediye seçimleridir (Medeni kanundan 4 yıl sonra).</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "B-M-W (veya V)" Şifresi (Siyasi Haklar Sırası)</span><p>Kadınlara siyasi hakların (yönetime katılma haklarının) verilme sırası araba markasındadır (034 kodlu araba):<br>
+<strong>B</strong> elediye Seçimleri (1930 - B)<br>
+<strong>M</strong> uhtarlık Seçimleri (1933 - M)<br>
+<strong>V</strong> ekillik (Milletvekilliği) Seçimleri (1934 - W/V)<br>
+<em>(Not: Hepsinin, 1926'daki Medeni Kanundan ÇOK SONRA olduğunu unutma!)</em></p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "İsviçre Çakısı" Şifresi</span><p>Neden İsviçre'den aldık? Çünkü İsviçre çakısı (kanunu) gibiydi: Pratik, akılcı, çok yönlü (sorun çözücü) ve yeniydi. (İsviçre'den Medeni Hukuk, Borçlar, İcra-İflas).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Medeni Kanun'un Kabulü (17 Şubat 1926):</strong> İsviçre yasası uyarlandı. Mecelle iptal edildi.<br>
+• <strong>Medeni Kanunla Verilen Haklar:</strong> Resmi nikah, tek eşlilik, kadına boşanma hakkı, mirasta ve şahitlikte kadın-erkek eşitliği, kadına istediği işte çalışma özgürlüğü (Ekonomik ve Sosyal Haklar).<br>
+• <strong>Medeni Kanunda Olmayan Hak:</strong> Seçme ve seçilme (Siyasi) hakkı KESİNLİKLE YOKTUR.<br>
+• <strong>Hukuk Birliği:</strong> Medeni kanun sayesinde Patrikhane ve Konsolosluk mahkemeleri kapanmış, ülkede herkes aynı hukuka (hukuk birliğine) tabi olmuştur. (Laiklik).<br>
+• <strong>Siyasi Hakların Sırası:</strong> B-M-W (Belediye 1930, Muhtar 1933, Vekil 1934).<br>
+• <strong>Yabancı Kanunlar:</strong> İtalya (Ceza), Almanya (Ticaret), Fransa (İdare).
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Medeni Kanun'un iptal ettiği Osmanlı yasası:</strong> Mecelle.<br>
+• <strong>Medeni Kanun'un alındığı ülke:</strong> İsviçre.<br>
+• <strong>Ticaret Kanununun alındığı ülke:</strong> Almanya.<br>
+• <strong>Ceza Kanununun alındığı ülke:</strong> İtalya.<br>
+• <strong>Medeni Kanunda OLMAYAN hak:</strong> Siyasi haklar (Oy verme, vekil olma).<br>
+• <strong>Medeni Kanunun sağladığı en büyük devlet avantajı:</strong> Hukuk Birliğinin sağlanması.<br>
+• <strong>Medeni Kanun'un ilgili olduğu ilkeler:</strong> Halkçılık (Eşitlik) ve Laiklik (Din/Akıl değişimi).<br>
+• <strong>Patrikhanenin mahkeme yetkisini bitiren olay:</strong> Medeni Kanun.<br>
+• <strong>Kadına ilk siyasi hakkın verildiği yıl ve olay:</strong> 1930 Belediye seçimleri (BMW'nin B'si).<br>
+• <strong>Anayasadan "Devletin dini İslam'dır" maddesinin çıkışı:</strong> 1928.<br>
+• <strong>Anayasaya Atatürk İlkelerinin girişi:</strong> 1937.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Osmanlı Devleti döneminde Ahmet Cevdet Paşa başkanlığındaki bir komisyon tarafından İslami kurallara (fıkıh) dayanılarak hazırlanan ve 1926 Türk Medeni Kanunu'nun kabulüyle yürürlükten kalkan medeni yasa aşağıdakilerden hangisidir?</p>
+<p>A) Kanun-i Esasi &nbsp; B) Mecelle &nbsp; C) Sened-i İttifak &nbsp; D) Tanzimat Fermanı</p>
+<p><strong>Çözüm:</strong> Osmanlı'nın dini kurallara dayalı medeni kanununun adı Mecelle'dir. Medeni kanunla birlikte bu yasa tarihe karışmış ve hukukta laikleşme sağlanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Yeni Türk Devleti'nin 17 Şubat 1926'da kabul ettiği "Türk Medeni Kanunu" aşağıdaki Avrupa ülkelerinin hangisinden çevrilerek (uyarlanarak) alınmıştır?</p>
+<p>A) İtalya &nbsp; B) Almanya &nbsp; C) Fransa &nbsp; D) İsviçre</p>
+<p><strong>Çözüm:</strong> Medeni, Borçlar ve İcra-İflas kanunları, pratikliği ve akılcılığı (İsviçre çakısı) nedeniyle İsviçre'den alınmıştır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Aşağıdakilerden hangisi 1926 yılında kabul edilen Türk Medeni Kanunu ile <strong>kadınlara verilen haklardan biri DEĞİLDİR</strong>? (KPSS'nin Klasik Tuzağı)</p>
+<p>A) Mirasta erkek ile eşit pay alma hakkı &nbsp; B) Evlilikte tek eşlilik zorunluluğu ile korunma hakkı &nbsp; C) Milletvekili (Vekil) seçilme hakkı &nbsp; D) Mahkemede boşanma davası açabilme hakkı</p>
+<p><strong>Çözüm:</strong> Milyonuncu kez: Medeni Kanun'da SİYASİ hak yoktur! Seçme, seçilme, oy verme, milletvekili olma gibi haklar yıllar sonra BMW şifresiyle verilmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Türk kadınına tanınan siyasi hakların (Devlet yönetimine katılma haklarının) verilme <strong>sıralaması</strong> (kronolojisi) aşağıdakilerin hangisinde doğru verilmiştir?</p>
+<p>A) Muhtarlık $\rightarrow$ Belediye $\rightarrow$ Milletvekilliği &nbsp; B) Belediye $\rightarrow$ Muhtarlık $\rightarrow$ Milletvekilliği &nbsp; C) Milletvekilliği $\rightarrow$ Belediye $\rightarrow$ Muhtarlık &nbsp; D) Belediye $\rightarrow$ Milletvekilliği $\rightarrow$ Muhtarlık</p>
+<p><strong>Çözüm:</strong> Şifremiz araba markası B-M-W (V) idi. Belediye (1930), Muhtarlık (1933), Vekillik/Milletvekilliği (1934). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Cumhuriyet döneminde dışarıdan alınan kanunlarla ilgili yapılan eşleştirmelerden hangisi <strong>yanlıştır</strong>?</p>
+<p>A) Ceza Kanunu $\rightarrow$ İtalya &nbsp; B) Ticaret Kanunu $\rightarrow$ Almanya &nbsp; C) İdare Kanunu $\rightarrow$ Fransa &nbsp; D) Medeni Kanun $\rightarrow$ İngiltere</p>
+<p><strong>Çözüm:</strong> Medeni kanun İngiltere'den değil, İsviçre'den alınmıştır. (İngiltere'nin yazılı bir anayasası bile yoktur, sistemleri çok farklıdır). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Türk Medeni Kanunu'nda yer alan "Evliliklerde 'resmi nikah' yapılması zorunludur" maddesinin en önemli sosyal (toplumsal) amacı nedir?</p>
+<p>A) Belediyelere gelir sağlamak &nbsp; B) Nüfus artış hızını düşürmek &nbsp; C) Aile kurumunu ve kadının haklarını, dini vicdandan çıkarıp devletin (hukukun) kesin güvencesi altına almak &nbsp; D) Yabancılarla evliliği yasaklamak</p>
+<p><strong>Çözüm:</strong> Resmi nikah, evliliği sadece dini bir tören olmaktan çıkarıp devlete kayıtlı, boşanma ve mirasta kadının hakkını devlet güvencesine alan laik/halkçı bir sözleşmeye dönüştürür. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Türkiye'de Lozan Antlaşması ile İstanbul'da bırakılan "Fener Rum Patrikhanesi", hangi kanunun kabul edilmesiyle <strong>mahkeme kurma (hukuki yargılama) yetkisini tamamen kaybetmiş</strong> ve sadece dini bir kuruma dönüşmüştür?</p>
+<p>A) Türk Medeni Kanunu (1926) &nbsp; B) Teşkilat-ı Esasiye &nbsp; C) Takrir-i Sükun &nbsp; D) Hıyanet-i Vataniye</p>
+<p><strong>Çözüm:</strong> Medeni kanunun yürürlüğe girmesiyle birlikte Hristiyan ve Yahudi azınlıklar kendi rızalarıyla Patrikhane mahkemelerine gitmekten vazgeçip modern Türk mahkemelerini seçmişlerdir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Yeni Türk Devleti'nde, Osmanlı'dan kalan çok hukukluluğa (farklı milletlerin farklı mahkemelerde yargılanmasına) son verilerek, sınırları içindeki herkesin aynı ve tek bir kanuna tabi olmasını (Hukuk Birliğini) sağlayan devrim hangisidir?</p>
+<p>A) Kabine sistemine geçilmesi &nbsp; B) Halifeliğin kaldırılması &nbsp; C) Türk Medeni Kanunu'nun kabulü &nbsp; D) Harf İnkılabı</p>
+<p><strong>Çözüm:</strong> Mecelle iptal edilip, Patrikhane mahkemeleri işlevsiz bırakılınca, ülkedeki tüm Müslümanlar ve Azınlıklar "Türk Medeni Kanunu" şemsiyesi altında birleşmiştir (Hukukta Birlik). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Türk Medeni Kanunu ile kadınlara verilen "İstediği mesleği (işi) seçme ve erkeğin izni olmadan çalışma" hakkı, kadına öncelikle <strong>hangi alanda</strong> eşitlik/özgürlük sağlamıştır?</p>
+<p>A) Siyasi alanda &nbsp; B) Askeri alanda &nbsp; C) Ekonomik alanda &nbsp; D) Dini alanda</p>
+<p><strong>Çözüm:</strong> Bir meslek seçip çalışmak, para kazanmak demektir. Bu da doğrudan ekonomik bağımsızlık ve ekonomik eşitlik anlamına gelir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Yeni Türk Devleti'nin anayasasından 1928 yılında çıkarılarak, devletin ve anayasanın tam anlamıyla <strong>"laikleşmesini"</strong> sağlayan madde aşağıdakilerden hangisidir?</p>
+<p>A) Egemenlik kayıtsız şartsız milletindir. &nbsp; B) Devletin dini İslam'dır. &nbsp; C) Başkent Ankara'dır. &nbsp; D) Yasama yetkisi TBMM'nindir.</p>
+<p><strong>Çözüm:</strong> Laik bir devletin "resmi bir dini" olmaz. 1924 anayasasında var olan "Devletin dini İslamdır" maddesi, 1928'deki anayasa değişikliği ile metinden çıkarılmış ve devlet laikleştirilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Medeni Kanun'un kabulü, doğrudan Atatürk'ün <strong>Halkçılık</strong> ve <strong>Laiklik</strong> ilkeleriyle ilgilidir. <br>Buna göre yasanın "Halkçılık" ilkesiyle ilgili olmasının (örtüşmesinin) temeli aşağıdakilerden hangisidir?</p>
+<p>A) Dini kurallar yerine aklı alması &nbsp; B) İsviçre'den çevrilmiş olması &nbsp; C) Mirasta, şahitlikte ve boşanmada kadın-erkek ayrımcılığını ortadan kaldırarak <strong>tam bir eşitlik</strong> sağlaması &nbsp; D) Hukuk birliğini sağlaması</p>
+<p><strong>Çözüm:</strong> Halkçılık = Eşitlik demektir. Toplumun yarısını oluşturan kadınların erkeklerle aynı haklara kavuşması (imtiyazların/ayrıcalıkların kalkması) doğrudan halkçılıktır. Dini kuralın atılması ise Laikliktir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Mustafa Kemal döneminde kadınlara seçme ve seçilme (BMW) haklarının verilmesi, Atatürk ilkelerinden <strong>en çok hangisinin</strong> tam anlamıyla uygulanmasını ve güçlenmesini sağlamıştır?</p>
+<p>A) Devletçilik &nbsp; B) İnkılapçılık &nbsp; C) Milliyetçilik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Seçme, seçilme, oy verme, yönetime katılma, parti kurma... Siyaset kelimesini duyduğunuz an işaretlemeniz gereken tek ilke Cumhuriyetçiliktir. Nüfusun yarısı (kadınlar) oy vermeden milli egemenlik tam işlemez. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Yeni Türk Devleti'nde "Medeni Kanun, Ceza Kanunu, Ticaret Kanunu" gibi yasaların sıfırdan oluşturulmak (yerli komisyonlarca yazılmak) yerine, doğrudan Avrupa ülkelerinden <strong>(İsviçre, İtalya, Almanya vb.) alınarak Türkçeye uyarlanmasının (iktibas edilmesinin)</strong> en temel siyasi nedeni nedir?</p>
+<p>A) Türkçenin hukuk dili olarak yetersiz olması &nbsp; B) Ülkede bu kanunları yazacak hukukçu bulunmaması &nbsp; C) İnkılapları (modern devleti) çok hızlı bir şekilde kökleştirmek için zaman kazanmak istenmesi &nbsp; D) Lozan Antlaşmasının bunu zorunlu kılması</p>
+<p><strong>Çözüm:</strong> Sıfırdan bir anayasa/yasa yazmak ve tüm detaylarını hesaplamak onlarca yıl sürer. Atatürk inkılapları hızla hayata geçirmek için zaten Batı'da tecrübe edilmiş ve başarılı olmuş kanunları alıp Türk toplumuna hızla uygulamayı seçmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Cumhuriyet döneminde hukuk alanında yapılan inkılapların sonucunda, Osmanlı Devleti'nden kalan aşağıdaki mahkemelerden hangisinin <strong>Türkiye'deki varlığı ve yargılama gücü tamamen sona ermiştir</strong>?</p>
+<p>A) Yüce Divan &nbsp; B) İstiklal Mahkemeleri &nbsp; C) Konsolosluk (Kapitülasyon) Mahkemeleri ve Azınlık (Patrikhane) Mahkemeleri &nbsp; D) Divan-ı Harp</p>
+<p><strong>Çözüm:</strong> Hukuk birliği sağlanırken ülkedeki ayrık otları (yabancıların yargılandığı konsolosluk mahkemeleri ve dini azınlık mahkemeleri) yok edilmiş, herkes Türk adliyesine bağlanmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>1937 yılında yapılan anayasa değişikliği ile <strong>"Atatürk İlkelerinin tamamı (Altı Ok)"</strong> anayasaya eklenmiştir. <br>Buna göre Türkiye Cumhuriyeti anayasal olarak "Laik bir devlet" olma sıfatını resmi olarak (anayasa maddesiyle) hangi yıl kazanmıştır?</p>
+<p>A) 1923 &nbsp; B) 1924 &nbsp; C) 1928 &nbsp; D) 1937</p>
+<p><strong>Çözüm:</strong> Halifeliğin kalkması, devletin dininin çıkarılması vs. laiklik "adımlarıdır". Ancak anayasanın 2. maddesine "Türkiye Cumhuriyeti Laik bir devlettir" ibaresinin (yani 6 ilkenin) kelime olarak girmesi 1937 yılındadır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Medeni Kanunla ilgili aşağıda verilen karşılaştırmalardan hangisi <strong>yanlıştır</strong>?</p>
+<p>A) Mecelle'de evlilikte çok eşlilik vardır $\rightarrow$ Medeni Kanunda tek eşlilik vardır. &nbsp; B) Mecelle'de boşanma hakkı sadece erkeğindir $\rightarrow$ Medeni Kanunda her iki tarafa aittir. &nbsp; C) Mecelle'de mirasta eşitsizlik vardır $\rightarrow$ Medeni Kanunda tam eşitlik vardır. &nbsp; D) Mecelle'de kadınlar oy kullanamaz $\rightarrow$ Medeni Kanunla kadınlara oy kullanma hakkı verilmiştir.</p>
+<p><strong>Çözüm:</strong> Tuzak yine sahnede! D şıkkındaki oy kullanma (seçim) meselesinin Medeni Kanunla hiçbir alakası yoktur, yıllar sonra 1930'larda BMW ile verilmiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Türk kadını, 1930 yılında yapılan Belediye Seçimlerinde Türkiye tarihindeki <strong>ilk Kadın Belediye Başkanı</strong>nı seçmiştir. <br>Artvin'in Yusufeli ilçesine (Kılıçkaya beldesine) bağlı bu ilk kadın belediye başkanımız kimdir?</p>
+<p>A) Gül Esin &nbsp; B) Sadiye Hanım &nbsp; C) Halide Edip Adıvar &nbsp; D) Afet İnan</p>
+<p><strong>Çözüm:</strong> Türkiye'nin (ve hatta dünyanın birçok ülkesinden önceki) ilk kadın belediye başkanı Artvin Yusufeli'nden Sadiye Hanım'dır. (Gül Esin ise ilk kadın Muhtardır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Atatürk'ün "Biz, Batı'nın kurumlarını (kanunlarını) körü körüne kopyalamıyoruz; onları kendi toplumumuzun yapısına, ihtiyaçlarına ve hedeflerimize uygun hale getirerek alıyoruz." sözü, İsviçre Medeni Kanunu'nun alınması sürecindeki hangi duruma işaret eder?</p>
+<p>A) Kanunun hiç değiştirilmeden (olduğu gibi) tercüme edilip basıldığına &nbsp; B) Kanunun iktibas edilirken (alınırken) Türk toplumunun aile yapısına ve kültürel gerçekliklerine göre bir <strong>uyarlama (adaptasyon)</strong> sürecinden geçirildiğine &nbsp; C) İsviçre'den borç para alındığına &nbsp; D) Dini kuralların da kanuna eklendiğine</p>
+<p><strong>Çözüm:</strong> Batı'dan alınan kanunlar sadece Google Translate gibi çevrilip basılmamıştır. Türk hukukçuları onu bizim toplumsal yapımıza göre uyarlamış, törpülemiş ve bize has hale getirmişlerdir (Uyarlama). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Medeni Kanunla (1926) ilgili olarak; <br>I. Patrikhane'nin dünyevi yetkileri elinden alınmıştır.<br>II. Türk kadınlarına milletvekili olma hakkı verilmiştir.<br>III. Ülkede Hukuk Birliği sağlanmıştır.<br>yargılarından hangileri <strong>kesinlikle doğrudur</strong>?</p>
+<p>A) Yalnız I &nbsp; B) Yalnız II &nbsp; C) I ve III &nbsp; D) I, II ve III</p>
+<p><strong>Çözüm:</strong> II. madde en bilindik tuzaktır (milletvekilliği 1934'te verildi). I. madde (Patrikhane yetkisi sıfırlandı) ve III. madde (Hukuk birliği sağlandı) kesinlikle Medeni kanunun en büyük sonuçlarıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>1924 Anayasası yürürlüğe girdiğinde içinde "Devletin dini İslam'dır" maddesi bulunuyordu. Bu madde Cumhuriyetin kurucu felsefesine (laikliğe) aykırı olmasına rağmen 1928'e kadar neden anayasada tutulmuştur?</p>
+<p>A) Lozan Barış Antlaşması'nın zorunlu kılması nedeniyle &nbsp; B) Halkın laikliğe geçişe olan muhtemel sert tepkisini (isyanları) azaltmak ve devleti daha yumuşak bir geçiş (pragmatizm) ile dönüştürmek için &nbsp; C) Osmanlı'nın borçlarını sildirmek için &nbsp; D) Halifeliği geri getirmek için</p>
+<p><strong>Çözüm:</strong> 1924 yılı, Halifeliğin kaldırıldığı yıldır. Üstüne bir de "Devletin dini" maddesini atsalardı ülkede Şeyh Sait benzeri onlarca isyan çıkar, genç cumhuriyet yıkılabilirdi. Zaman kazanmak için 4 yıl bu madde tutuldu, güçlendikten sonra (1928'de) çıkarıldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Osmanlı Devleti'nin İslam Hukuku (Fıkıh) kurallarına göre hazırlanan medeni kanunu olan "Mecelle"nin, Cumhuriyetin ilk yıllarında bile bir süre kullanılıp ancak 1926'da (Medeni Kanunun gelişiyle) yürürlükten kaldırılmasının nedeni Mecelle'nin hangi özelliğidir?</p>
+<p>A) Latin harfleriyle yazılmış olması &nbsp; B) Sadece ticaret hukuku içermesi &nbsp; C) Gelişen ve modernleşen toplumun ekonomik, sosyal ve hukuki ihtiyaçlarına (özellikle kadın hakları konusunda) çağdaş akla uygun bir çözüm üretememesi ve laik olmaması &nbsp; D) Batılılar tarafından zorla yazdırılmış olması</p>
+<p><strong>Çözüm:</strong> Mecelle çok kıymetli bir fıkıh/hukuk eseriydi ancak temeli dini (şeriat) kurallardı. Yeni kurulan laik, çağdaş ve eşitlikçi bir devletin dinamizmine ve hızına ayak uydurması mümkün değildi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Türk Medeni Kanunu hazırlanırken İsviçre Medeni Kanunu'nun tercih edilmesinin "Hukuksal-Teknik" boyuttaki en önemli nedeni aşağıdakilerden hangisidir?</p>
+<p>A) İsviçre dilinin Türkçeye çok benzemesi &nbsp; B) Avrupa'da hazırlanan "En Son (En Yeni ve Modern)" medeni yasa olması, sorunlara hakime (yargıca) geniş takdir yetkisi vererek pratik çözümler sunması &nbsp; C) İsviçre'nin İtilaf devleti olmaması &nbsp; D) İsviçre'nin Müslüman bir ülke olması</p>
+<p><strong>Çözüm:</strong> İsviçre Medeni kanunu, o dönemin Avrupa'sındaki tüm medeni kanunların (Fransız, Alman) eksiklikleri görülerek hazırlanmış en son (update edilmiş) versiyondu. Hakimlere geniş inisiyatif verip sorunları çok hızlı çözüyordu. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Yeni Türk Devleti'nin 1924 Anayasası (Teşkilat-ı Esasiye), kuvvetler ayrılığı konusunda tam bir ayrılığa gitmemiş, "Yasama ve Yürütme mecliste toplanır (Kuvvetler Birliği), Yargı ise bağımsız mahkemelerdedir" diyerek karma bir sistem benimsemiştir. <br>Anayasadaki bu "Yasama-Yürütme Birliği" anlayışının sebebi nedir?</p>
+<p>A) Hızlı karar alıp devlet otoritesini (özellikle inkılapları yaparken) meclisin gücüyle sert ve hızlı uygulamak &nbsp; B) Demokrasiyi tamamen rafa kaldırmak &nbsp; C) Yabancı ülkeleri taklit etmek &nbsp; D) Padişahlığı meclis üzerinden geri getirmek</p>
+<p><strong>Çözüm:</strong> Eğer kuvvetler (yasama meclis, yürütme hükümet) birbirini denetleyerek yavaşlatsaydı, isyanlar ve karşı devrimciler yüzünden devlet yıkılırdı. Olağanüstü dönemlerde gücü tek elde (mecliste) toplamak, devrimleri hızlı ve acımasızca yapabilmek için şarttır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Lozan Antlaşması'na göre Türkiye'deki azınlıklar (Ermeni, Rum) istedikleri takdirde aile ve miras hukuku konusunda kendi dini (Patrikhane) mahkemelerine gidebileceklerdi. Ancak 1926'da Medeni Kanun çıkınca bu azınlıklar Adalet Bakanlığına dilekçe vererek <strong>"Biz kendi mahkemelerimizden vazgeçiyor, Türk Medeni Kanunu'na bağlanmak istiyoruz"</strong> demişlerdir.<br>Bu durumun uluslararası ve hukuki anlamdaki sonucu nedir?</p>
+<p>A) Lozan Antlaşmasının ihlal edildiği gerekçesiyle savaş çıkması &nbsp; B) Azınlıkların Türkiye'den sürgün edilmesi &nbsp; C) Lozan'daki bir pürüzün ortadan kalkarak Türk hukukunun çağdaşlığının ve üstünlüğünün (Hukuk Birliğinin) tescil edilmesi &nbsp; D) Medeni kanunun iptal edilmesi</p>
+<p><strong>Çözüm:</strong> Kendi kiliselerindeki dini (çağdışı) kanunlara göre mirastan ve haklardan mahrum kalan azınlık kadınları, Türk medeni kanununun Avrupa'dan bile ileri (eşitlikçi) olduğunu görünce Türk mahkemelerini seçmiştir. Bu Türk inkılabının zaferidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Cumhuriyetin ilk yıllarında, devlet memuru olmak için aranan "Arapça ve Farsça bilmek" şartının kaldırılması, hukuki metinlerin Osmanlıcadan Türkçeye sadeleştirilmesi gibi çalışmalar, Hukuk inkılabının Atatürk ilkelerinden hangisiyle bütünleştiğini gösterir?</p>
+<p>A) Milliyetçilik &nbsp; B) Devletçilik &nbsp; C) Cumhuriyetçilik &nbsp; D) İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Dilin sadeleştirilmesi, kanunların Türkçeleştirilmesi ve Arapça/Farsça şartlarının kaldırılması, kanunları Türk ulusunun anlayacağı bir dile çevirmek olduğu için doğrudan Milliyetçilik ilkesidir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Fransa'dan alınan "İdare Hukuku", devlet ile vatandaş arasındaki ilişkileri ve devlet kurumlarının kendi iç işleyişini (kamu düzenini) düzenler. <br>Buna göre İdare Hukuku, Atatürk'ün <strong>"Devletçilik"</strong> ilkesiyle nasıl bir bağ kurar?</p>
+<p>A) Sadece özel sektörün gelişmesini sağlayarak &nbsp; B) Devletin ekonomi ve kamu alanındaki görevlerini (yatırımlarını, fabrikalarını) yöneteceği idari ve hukuki altyapıyı oluşturarak &nbsp; C) Yabancı sermayeyi ülkeden kovarak &nbsp; D) Tarımı vergilendirerek</p>
+<p><strong>Çözüm:</strong> Devletçilik, devletin fabrikalar kurması, barajlar yapması demektir. Devletin bu devasa işleri yapabilmesi için memurlarının ve kamu kurumlarının bağlı olduğu bir "İdari Hukuk" sistemine ihtiyacı vardır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>1934 yılında kadınlara "Milletvekili seçme ve seçilme (BMW'nin W/V'si)" hakkının verilmesi ile ilgili aşağıdaki durumlardan hangisi <strong>yanlıştır</strong>?</p>
+<p>A) Dünyadaki ve Avrupa'daki birçok gelişmiş ülkeden (Örn: Fransa 1944, İsviçre 1971) daha önce verilmiştir. &nbsp; B) 1935 yılındaki ilk genel seçimlerde TBMM'ye 18 kadın milletvekili girmiştir. &nbsp; C) Bu hak Türk Medeni Kanunu'nun (1926) içine yerleştirilen bir madde ile sağlanmıştır. &nbsp; D) Anayasa'daki "Her erkek Türk vatandaşı oy kullanır" maddesi, "Kadın-erkek her Türk vatandaşı" şeklinde değiştirilmiştir.</p>
+<p><strong>Çözüm:</strong> Klasik tuzak zor soruda da karşına çıktı. Milletvekilliği seçimi 1934'te yapıldı. 1926'daki Medeni Kanunda "Seçim/Siyaset" maddesi yoktur. İkisi ayrı devrimlerdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Aşağıdakilerden hangisi 1924 Anayasası'nda (Teşkilat-ı Esasiye'de) süreç içinde yapılan (1928, 1934, 1937) <strong>değişikliklerden biri DEĞİLDİR</strong>?</p>
+<p>A) "Devletin dini İslamdır" maddesinin çıkarılması (1928) &nbsp; B) Kadınlara seçme ve seçilme hakkının eklenmesi (1934) &nbsp; C) Atatürk ilkelerinin anayasaya dâhil edilmesi (1937) &nbsp; D) "Egemenlik kayıtsız şartsız milletindir" maddesinin <strong>ilk defa</strong> anayasaya girmesi</p>
+<p><strong>Çözüm:</strong> "Egemenlik kayıtsız şartsız milletindir" maddesi 1924'te veya sonrasında değil, taa Kurtuluş Savaşı devam ederken I. TBMM'nin yaptığı 1921 Anayasasında (Teşkilat-ı Esasiye'de) <strong>ilk defa</strong> yer almıştır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>İtalya'dan alınan "Türk Ceza Kanunu" (1926), o dönemin Avrupa'sındaki en modern ceza yasalarından biriydi. Bu yasanın en belirgin felsefesi (amac) neydi?</p>
+<p>A) Sadece ölüm cezasını (idamı) savunması &nbsp; B) Suçluyu topluma kazandırmaktan (ıslah etmekten) ziyade, devlete karşı işlenen suçları caydırıcı ve sert bir şekilde önleyerek kamu düzenini sarsılmaz kılmak &nbsp; C) Dini kurallara göre ceza vermek &nbsp; D) Sadece siyasi suçları affetmek</p>
+<p><strong>Çözüm:</strong> Dönemin faşist İtalyası'nda (Mussolini dönemi) ceza kanunları kamu düzenini en sert ve caydırıcı şekilde koruyan, yeni devlete karşı yapılacak isyanları engelleyen sert bir yapiydi. Genç Türkiye'nin de isyanları engellemek için bu caydırıcılığa ihtiyacı vardı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Osmanlı'nın "Çok Hukukluluk" sisteminin (her dinin kendi mahkemesinde yargılanmasının) en yıkıcı sonucu, zamanla Avrupalı devletlerin <strong>hangi durumu</strong> bahane ederek Osmanlı'nın iç işlerine müdahale etmesine yol açmasıydı?</p>
+<p>A) Hristiyan azınlıkların mahkemelerde adil yargılanmadığını (haklarının yendiğini) iddia ederek (Azınlık Hakları Bahanesi) &nbsp; B) Medreselerin kapatılmasını isteyerek &nbsp; C) Padişahın Halife olmasını bahane ederek &nbsp; D) Arap harflerinin kullanılmasını eleştirerek</p>
+<p><strong>Çözüm:</strong> Osmanlı mahkemelerinde yargılanan bir Ermeni veya Rum aleyhine karar çıktığında, İngiltere veya Rusya hemen "Sen Hristiyanları eziyorsun" diyerek iç işlerimize karışıyordu. Türk Medeni kanunuyla herkes eşit olunca bu bahane ellerinden alındı. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Siyasi Haklar (BMW) ile Sosyal Hakları (Medeni Kanun) asla birbirine karıştırma! KPSS bu tuzağı en az 10 kere sormuştur ve yine soracaktır. Medeni kanunda siyaset (milletvekilliği, oy kullanma) YOKTUR! İsviçre çakısı şifresiyle Borçlar, Medeni ve İcra yasalarını cebine koymayı unutma.</em></p>
+`,
   },
   {
     id: 67,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Eğitim ve Kültür Alanında İnkılaplar',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Tevhid-i Tedrisat, Harf İnkılabı, TTK, TDK, Üniversite Reformu)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Siyaseti ve hukuku laikleştirdik, peki ya zihinler? Bir tarafta dini eğitim veren köhne medreseler, diğer yanda Batı tarzı modern mektepler, bir yanda da kendi kafasına göre misyonerlik yapan yabancı okullar... Bu karmaşık yapı, Osmanlı'da birbirini anlamayan, zıt kutuplu nesiller (kültür çatışması) yaratmıştı. İşte eğitim inkılapları, bu parçalanmış zihinleri "Tek bir çağdaş, laik ve milli" çatı (MEB) altında toplamak için yapıldı.</p>
+<p>ÖSYM bu ünitede çok spesifik detaylar sever. Harf inkılabının hemen ardından kurulan "Millet Mektepleri" ile halkevlerini birbirine karıştırmamanı bekler. "Albert Malche" raporunu, TTK'nın çıkardığı "Belleten" dergisini ve Atatürk döneminde OLMAYAN Köy Enstitüleri tuzağını önüne defalarca getirecektir. Hazırsan, Cumhuriyetin aydınlanma meşalesini yakıyoruz!</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu konu, Cumhuriyetin "İdeolojisini" halka anlatan kurumların (Halkevleri, TTK, TDK) ve okuryazarlık devriminin (Harf İnkılabı) konusudur. Hem ilke eşleştirmelerinde (Milliyetçilik ve Laiklik) hem de doğrudan bilgi sorularında banko yeri vardır.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Her şey 3 Mart 1924'teki o büyük günde <strong>Tevhid-i Tedrisat</strong> (Eğitim Birliği) ile başladı ve tüm okullar devlete (MEB) bağlandı. Ardından eğitimin felsefesini belirleyen <strong>Maarif Kanunu</strong> (1926) çıktı. Fakat ortada büyük bir sorun vardı: Türkçenin ses yapısına uymayan Arap harfleri yüzünden okuryazarlık %10'un altındaydı. 1928'de <strong>Yeni Türk Harfleri</strong> (Latin kökenli) kabul edildi. Harf değişince bir günde herkes okuma bilmez hale geldiği için yetişkinlere harf öğreten <strong>Millet Mektepleri</strong> açıldı. Eğitim rayına oturunca, sıra "Milli Kimliği" inşa etmeye geldi ve <strong>Türk Tarih Kurumu</strong> ile <strong>Türk Dil Kurumu</strong> kurularak köklerimiz Orta Asya'ya bağlandı. En son (1933) ise Darülfünun kapatılıp modern <strong>İstanbul Üniversitesi</strong> kurularak bilimsel devrim tamamlandı.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Kültür Çatışmasını Önlemek</span><p>Tevhid-i Tedrisat'ın en büyük sosyolojik sonucu: Biri medreseli (doğulu), diğeri mektepli (batılı) iki farklı neslin çatışmasını önleyip, aynı milli ve çağdaş tornadan çıkmış "Tek Türk Nesli" yaratmasıdır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Tevhid-i Tedrisat Kanunu (Öğretim Birliği - 3 Mart 1924)</h3>
+<p>Siyasi inkılaplarda "ŞEHOT" şifresiyle gördüğümüz bu kanun, eğitim sisteminin anayasasıdır. <br>
+<strong>Neler oldu?</strong></p>
+<ul>
+<li>Ülkedeki <strong>tüm okullar</strong> (medreseler, askeri idadiler, azınlık okulları, yabancı okullar) Maarif Vekaletine (Milli Eğitim Bakanlığı - MEB) bağlandı. (Eğitimde birlik sağlandı).</li>
+<li>Şeriye ve Evkaf vekaletine ayrılan bütçe MEB'e aktarıldı. Kapatılan medreselerin yerine İlahiyat fakültesi ve İmam Hatip okulları açılması planlandı. (Medreseler bir hafta sonra tamamen kapatıldı).</li>
+<li><strong>Yabancı ve Azınlık Okullarına Müdahale:</strong> Bu okullardaki dini (misyoner) semboller söküldü. En önemlisi; bu okullarda Türkçe, Tarih ve Coğrafya derslerinin <strong>Türk öğretmenler tarafından, Türkçe okutulması ve Türk müfettişlerce denetlenmesi</strong> zorunlu kılındı. (Milliyetçilik ve Tam Bağımsızlık).</li>
+</ul>
+<p><strong>Sonucu:</strong> Eğitim çağdaş, laik ve milli bir karaktere büründü. Yabancı okulların zararlı faaliyetleri (içişlerimize karışmaları) engellendi.</p>
+
+<h3>3.2. Maarif Teşkilatı Hakkında Kanun (1926)</h3>
+<p>Eğitim birleştikten sonra, "Nasıl bir eğitim verilecek?" sorusunun cevabıdır (Eğitimin çerçevesidir). <br>
+<strong>Önemli Kararları:</strong></p>
+<ul>
+<li>İlköğretim herkes için <strong>parasız ve zorunlu</strong> hale getirildi. (Eğitimde fırsat eşitliği yaratıldığı için doğrudan <strong>Halkçılık</strong> ilkesidir).</li>
+<li>Okullarda <strong>Karma Eğitime</strong> (kız ve erkek öğrencilerin aynı sınıfta okumasına) geçildi. (Çağdaşlık/Laiklik).</li>
+<li>Müfredat, aklı ve bilimi merkeze alan çağdaş ve pratik bir yapıya büründürüldü. Çağdışı dersler kaldırıldı.</li>
+</ul>
+
+<h3>3.3. Yeni Türk Harflerinin Kabulü (1 Kasım 1928)</h3>
+<p>Osmanlı asırlarca Arap alfabesini kullandı. Ancak Arap harfleri, Türkçenin zengin "sesli (ünlü) harf" yapısına uymuyordu. (Örneğin Arapçada okutucu sesli harf azdır, bu da kelimelerin farklı okunmasına, okuma-yazmanın çok zor öğrenilmesine neden oluyordu). Batı'daki bilimsel gelişmeleri yakalamak için de alfabe değişimi şarttı.</p>
+<p><strong>Nedenleri:</strong> Okuma-yazmayı kolaylaştırmak, cehaleti yenmek ve çağdaş Batı (Avrupa) ile kültürel uyum sağlamak. (Doğrudan İnkılapçılık ve Milliyetçilik).<br>
+<strong>Sonucu:</strong> Latin kökenli Yeni Türk Harfleri kabul edildi. Arap harfleriyle basım yasaklandı. Ülkede okuryazarlık oranı inanılmaz bir hızla arttı. (Not: Latin alfabesinde olmayan Q, W, X harfleri alınmamış, yerine Ş, Ç, Ö, Ğ gibi Türkçeye has harfler eklenmiştir. Bu da harf inkılabının "Milli" yönüdür).</p>
+
+<h3>3.4. Millet Mektepleri (Yetişkinlere Okul - 24 Kasım 1928)</h3>
+<p>Harf inkılabı yapıldı ama koca bir ülke bir günde (kanunla) okuma-yazma bilmez hale geldi (Cahil kaldı). Okuldaki çocuğa yeni harfi öğretmen öğretir, peki 40 yaşındaki vatandaşa (çiftçiye, esnafa) kim öğretecek?</p>
+<ul>
+<li><strong>Amacı:</strong> Yeni Türk Harflerini, okul çağını geçmiş (15-45 yaş arası) vatandaşlara <strong>hızlıca</strong> öğretmek için kurulan "pratik kurslar / seyyar okullardır". (Halkçılık ilkesidir).</li>
+<li><strong>Başöğretmen:</strong> 24 Kasım 1928'de Mustafa Kemal'e, Millet Mekteplerinin "Başöğretmeni" unvanı verilmiştir. (Bugün 24 Kasım'ı Öğretmenler Günü olarak kutlamamızın sebebi budur).</li>
+<li><strong>Yayın Organı:</strong> Millet Mektepleri, halka okumayı sevdirmek için <strong>"Okuma Yazma"</strong> adlı bir dergi çıkarmıştır.</li>
+</ul>
+
+<h3>3.5. Milli Kimliğin İnşası: Türk Tarih ve Türk Dil Kurumları</h3>
+<p>Atatürk, siyasi ve askeri bağımsızlığın ancak "Kültürel Bağımsızlıkla" taçlanacağına inanırdı. (Bunların ikisi de doğrudan <strong>Milliyetçilik</strong> ilkesidir).</p>
+
+<p><strong>Türk Tarih Kurumu (TTK - 1931)</strong><br>
+Osmanlı'da tarih, peygamberler ve hanedan (padişah) tarihi olarak anlatılıyordu. (Ümmetçi tarih anlayışı).<br>
+<strong>Amacı:</strong> "Türklerin kökü sadece Osmanlı'ya veya İslamiyet'e dayanmaz. Bizim köklerimiz Orta Asya'ya, Sümerlere, Hititlere kadar giden köklü ve medeni bir ırktır" tezini (Türk Tarih Tezi) ispatlamak ve Avrupalıların "Türkler sarı ırktan gelen barbarlardır" iftiralarını çürütmek.<br>
+<strong>Önemli Bilgiler:</strong> İlk başkanı <strong>Tevfik Bıyıklıoğlu</strong>'dur. Yayın organı <strong>Belleten</strong> dergisidir. (Atatürk vefat etmeden önce yatağında en son Belleten dergisini okumuştur).</p>
+
+<p><strong>Türk Dil Kurumu (TDK - 1932)</strong><br>
+<strong>Amacı:</strong> Türkçeyi, Arapça ve Farsçanın boyunduruğundan kurtararak zengin ve bağımsız bir "Bilim ve Kültür" dili haline getirmek. (Türk Dil Tezi ve Güneş Dil Teorisi).<br>
+<strong>Önemli Bilgiler:</strong> İlk başkanı <strong>Samih Rıfat</strong>'tır. (Not: Atatürk, İş Bankası'ndaki şahsi servetinin vasiyetini (gelirini) eşit olarak TTK ve TDK'ya bırakmıştır).</p>
+
+<h3>3.6. Halkevleri (1932)</h3>
+<p>Millet Mektepleri görevini (okuma-yazma öğretmeyi) başarıyla bitirmişti. Ancak yapılan bunca devrimi (şapka, medeni kanun, laiklik vs.) halka ve köylüye anlatacak, onları aydınlatacak bir kültür merkezine ihtiyaç vardı.</p>
+<ul>
+<li>İttihatçılardan kalan "Türk Ocakları" kapatıldı, yerine <strong>Halkevleri</strong> açıldı.</li>
+<li><strong>Amacı:</strong> Aydınlar ile köylü arasındaki kültür uçurumunu kapatmak, Cumhuriyetin ideolojisini tiyatro, kütüphane, spor ve kurslar yoluyla halka benimsetmek. (Halkçılık).</li>
+<li><strong>Yayın Organı:</strong> Halkevlerinin çıkardığı derginin adı <strong>"Ülkü"</strong> dergisidir. (Çok sorulur). (Not: Halkevlerinin yurt dışındaki tek şubesi <strong>Londra</strong>'da açılmıştır).</li>
+</ul>
+
+<h3>3.7. Üniversite Reformu ve Güzel Sanatlar (1933)</h3>
+<p>Osmanlı'dan kalan "Darülfünun" (Fenler Evi) çok köhnemiş, çağdaş bilimden uzaklaşmış ve inkılaplara ayak uyduramamıştı.<br>
+Atatürk, İsviçreli pedagog <strong>Prof. Dr. Albert Malche</strong>'yi Türkiye'ye davet etti. Onun yazdığı rapor doğrultusunda 1933'te Darülfünun tamamen kapatıldı ve yerine Türkiye Cumhuriyeti'nin İLK modern üniversitesi olan <strong>İstanbul Üniversitesi</strong> açıldı. (Ayrıca Nazi Almanya'sından kaçan Yahudi bilim adamları Türkiye'ye sığınarak üniversitelerimizde hocalık yaptılar).</p>
+<p><strong>Güzel Sanatlar Alanı:</strong><br>
+Müzik öğretmeni yetiştirmek için <strong>Musiki Muallim Mektebi</strong> açıldı (1924).<br>
+Osmanlı'nın ünlü "Sanayi-i Nefise Mektebi", <strong>Güzel Sanatlar Akademisi'ne</strong> dönüştürüldü.<br>
+Ankara'da <strong>Devlet Konservatuvarı</strong> açıldı (Alman Paul Hindemith ve Carl Ebert'in katkılarıyla).</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Eğitimde İkilik (Sebep) $\rightarrow$ Tevhid-i Tedrisat (Çözüm):</strong> Kültürel bölünmüşlüğü yok edip milli ve laik nesiller yetiştirmek.</li>
+<li><strong>Harf İnkılabı (Sebep) $\rightarrow$ Millet Mektepleri (Sonuç):</strong> Değişen alfabeyi yetişkin nüfusa hızla (kurslarla) öğreterek cehalet boşluğuna düşülmesini önlemek.</li>
+<li><strong>Ümmetçi Tarih/Dil (Sebep) $\rightarrow$ TTK ve TDK (Çözüm):</strong> Türkiye'nin sadece İslam sentezi olmadığını, kendi öz kültürüne, diline ve Orta Asya köklerine sahip bağımsız bir ulus (millet) olduğunu kanıtlamak.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay / Kurum</th>
+<th>Anahtar Kelime (Amacı)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3 Mart 1924</td>
+<td>Tevhid-i Tedrisat Kanunu</td>
+<td>Eğitim Birliği (MEB çatısı), Yabancı okullara Türkçe/Tarih şartı.</td>
+</tr>
+<tr>
+<td>1926</td>
+<td>Maarif Teşkilatı Kanunu</td>
+<td>Parasız ve zorunlu ilköğretim (Karma eğitim).</td>
+</tr>
+<tr>
+<td>1 Kasım 1928</td>
+<td>Yeni Türk Harfleri</td>
+<td>Arap harflerinin terk edilmesi (Okuryazarlık artışı).</td>
+</tr>
+<tr>
+<td>24 Kasım 1928</td>
+<td>Millet Mektepleri</td>
+<td>Halka yeni harfleri öğretmek ("Başöğretmen" Atatürk).</td>
+</tr>
+<tr>
+<td>1931</td>
+<td>Türk Tarih Kurumu (TTK)</td>
+<td>Orta Asya kökeni, Milli tarih. (Belleten dergisi).</td>
+</tr>
+<tr>
+<td>1932</td>
+<td>Türk Dil Kurumu (TDK)</td>
+<td>Arapça/Farsça baskısına son, Milli dil.</td>
+</tr>
+<tr>
+<td>1932</td>
+<td>Halkevleri</td>
+<td>İnkılapları halka (köylüye) anlatmak. (Ülkü dergisi).</td>
+</tr>
+<tr>
+<td>1933</td>
+<td>Üniversite Reformu</td>
+<td>Albert Malche raporu. Darülfünun bitti, İstanbul Üni. açıldı.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Eğitim Kurumlarının Görev Dağılımı (TUZAĞA DİKKAT)</h3>
+<table>
+<thead>
+<tr>
+<th>Kurum</th>
+<th>Kuruluş Yılı</th>
+<th>Asıl Görevi / Özelliği</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Millet Mektepleri</strong></td>
+<td>1928 (Atatürk Dönemi)</td>
+<td>Sadece harf inkılabından sonra <strong>halka okuma yazma</strong> (yeni harfleri) öğretmek.</td>
+</tr>
+<tr>
+<td><strong>Halkevleri</strong></td>
+<td>1932 (Atatürk Dönemi)</td>
+<td>İnkılapları, cumhuriyetin ideolojisini kültür/sanat yoluyla halka aktarmak.</td>
+</tr>
+<tr>
+<td><strong>Köy Enstitüleri</strong></td>
+<td>1940 (İsmet İnönü Dönemi)</td>
+<td>Köylere hem öğretmen hem de pratik ziraat/tarım uzmanı yetiştirmek (Atatürk döneminde YOKTUR!).</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Yabancı Okullar Krizi:</strong> Tevhid-i Tedrisat'tan sonra "Derslerinize Türk öğretmenler girecek ve Hristiyan sembolleri sökülecek" emri, en çok <strong>Fransa</strong> ve <strong>Papalık (Vatikan)</strong> ile krize (okulların kapanmasına) neden oldu ama Türkiye asla taviz vermedi.</li>
+<li><strong>Belleten Dergisi:</strong> İsmini bizzat Atatürk'ün verdiği, TTK'nın yayın organı olan dergidir. Atatürk'ün ölümünden önce yatağında okuduğu son eserdir.</li>
+<li><strong>Vasiyetname:</strong> Atatürk, İş Bankasındaki şahsi parasının nemasını (gelirini) şartlı olarak <strong>TTK ve TDK'ya</strong> bırakmıştır. (Bu durum bu kurumların siyasetten/devlet bütçesinden bağımsız bilim yapmasını sağlamak içindir).</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Karma Eğitim" İlkesi</span><p>Okullarda kız ve erkek çocukların aynı sınıflarda eğitim görmesine "Karma Eğitim" denir. Bu uygulama Maarif Kanunu ile başlamış olup, kadın-erkek eşitliğini sağladığı için doğrudan <strong>Halkçılık</strong> ve <strong>Laiklik</strong> ilkeleriyle ilgilidir.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Köy Enstitüleri Atatürk Dönemindedir" Tuzağı.</strong> Eğitim kurumları sıralanıp hangisi Atatürk dönemindedir diye sorulduğunda şıklarda banko Köy Enstitüleri olur. Köy Enstitüleri 1940'ta Hasan Ali Yücel önderliğinde kurulmuştur (İsmet İnönü dönemidir). Atatürk dönemiyle zerre alakası yoktur!</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Millet Mektepleri ile Türk Ocakları Eşleştirmesi" Tuzağı.</strong> Dergileri karıştırma. Millet Mektepleri $\rightarrow$ "Okuma Yazma" dergisini çıkarır. TTK $\rightarrow$ "Belleten" dergisini çıkarır. Halkevleri $\rightarrow$ "Ülkü" dergisini çıkarır. Türk Ocakları $\rightarrow$ "Türk Yurdu" dergisini çıkarır (Bu eski, İttihatçıların kurduğu ve 1932'de kapanan kurumdur).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>TTK ve TDK'nın "Devletçilik" ilkesi sanılması Tuzağı.</strong> Türk Tarih ve Türk Dil kurumlarında kelimenin başındaki "Türk" sıfatına odaklan! Amaç dili ve tarihi millileştirmek (Türkçeleştirmek ve Orta Asya'ya bağlamak) olduğu için bu iki kurum banko <strong>MİLLİYETÇİLİK</strong> ilkesidir. Devletin fabrika/baraj kurmasıyla alakası yoktur.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 "MALCHE = DARÜLFÜNUN" Şifresi</span><p>Üniversite reformu denince aklına İsviçreli uzman Albert Malche gelecek. <strong>M</strong>alche geldi, <strong>D</strong>arülfünun (MD) kapandı. Yerine İstanbul Üniversitesi açıldı. (Unutma: Nazi baskısından kaçan hocalarımız bize sığındı).</p></div>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Kurum $\rightarrow$ Dergi Eşleştirmesi</span><p>• Millet Mektepleri $\rightarrow$ <strong>Okuma Yazma</strong> Dergisi (Çünkü halka okuma öğretiyor).<br>
+• Halkevleri $\rightarrow$ <strong>Ülkü</strong> Dergisi (Çünkü halka cumhuriyet ülküsünü/hedefini öğretiyor).<br>
+• TTK (Tarih Kurumu) $\rightarrow$ <strong>Belleten</strong> (Tarihi ezberleten/belleten).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Tevhid-i Tedrisat (1924):</strong> Tüm okullar (medrese, azınlık) MEB'e bağlandı. Eğitimde birlik ve laikleşme sağlandı.<br>
+• <strong>Maarif Kanunu (1926):</strong> İlköğretim parasız ve karma (kız-erkek) oldu (Halkçılık ve Laiklik).<br>
+• <strong>Harf İnkılabı (1928):</strong> Latin harflerine geçilerek okuryazarlık fırladı. Hemen ardından yetişkinlere harf öğretmek için <strong>Millet Mektepleri</strong> açıldı (Atatürk Başöğretmen oldu).<br>
+• <strong>TTK ve TDK:</strong> Ümmetçi tarih ve dilden vazgeçilip, Orta Asya kökenli "Milli" tarih ve öz Türkçeye geçildi (Milliyetçilik).<br>
+• <strong>Halkevleri (1932):</strong> İnkılapları (Cumhuriyet ideolojisini) halka anlatıp benimsetmek için kuruldu (Ülkü dergisi).<br>
+• <strong>Üniversite Reformu (1933):</strong> Albert Malche raporuyla Darülfünun kapatılıp modern İstanbul Üniversitesi açıldı.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Eğitim Birliğini sağlayan kanun:</strong> Tevhid-i Tedrisat.<br>
+• <strong>Karma eğitime (kız-erkek) geçiren yasa:</strong> Maarif Teşkilatı Kanunu.<br>
+• <strong>Atatürk'e Başöğretmen unvanının verildiği kurum:</strong> Millet Mektepleri.<br>
+• <strong>Atatürk mirasını kime bıraktı:</strong> TTK ve TDK.<br>
+• <strong>Atatürk'ün okuduğu son dergi (TTK yayını):</strong> Belleten.<br>
+• <strong>Halkevlerinin yayın organı:</strong> Ülkü.<br>
+• <strong>Darülfünun'u kapatan rapor:</strong> Albert Malche raporu.<br>
+• <strong>Türkiye'nin ilk üniversitesi:</strong> İstanbul Üniversitesi (1933).<br>
+• <strong>Yabancı okullar meselesinde kriz çıkaran ülke:</strong> Fransa ve Papalık.<br>
+• <strong>Atatürk döneminde KESİNLİKLE OLMAYAN kurum:</strong> Köy Enstitüleri (1940).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Osmanlı Devleti'nde medreseler, askeri idadiler, yabancı okullar ve azınlık okulları birbirlerinden farklı (zıt) eğitim sistemleri uyguluyordu. <br>Cumhuriyet döneminde ülkedeki tüm bu eğitim kurumlarını "Maarif Vekaletine (MEB)" bağlayarak eğitimde birliği (ve devlet denetimini) sağlayan inkılap aşağıdakilerden hangisidir?</p>
+<p>A) Teşkilat-ı Esasiye &nbsp; B) Tevhid-i Tedrisat Kanunu &nbsp; C) Takrir-i Sükun &nbsp; D) Hıyanet-i Vataniye</p>
+<p><strong>Çözüm:</strong> Tedrisat (Ders, eğitim) Tevhid (Birleştirme) demektir. 3 Mart 1924'te çıkarılan bu kanunla tüm okullar tek çatıya (MEB'e) alınmış, eğitimdeki çok başlılık ve bölünmüşlük bitirilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Cumhuriyet döneminde Latin kökenli Yeni Türk Harflerinin kabul edilmesi (1 Kasım 1928), Atatürk ilkelerinden özellikle hangisiyle doğrudan ilişkilidir? (Çünkü okuma-yazmayı kolaylaştırıp Batı ile kültürel uyumu sağlamıştır).</p>
+<p>A) İnkılapçılık &nbsp; B) Devletçilik &nbsp; C) Cumhuriyetçilik &nbsp; D) Gelenekçilik</p>
+<p><strong>Çözüm:</strong> Eski, çağdışı ve öğrenilmesi zor olan Arap alfabesinin atılıp, modern bilimin ve çağdaş dünyanın dili olan Latin kökenli harflere geçilmesi (ve Türkçe kurallara göre uyarlanması) doğrudan İnkılapçılık (çağdaşlaşma) hareketidir. (Uyarlamadan dolayı Milliyetçilik de alır). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Yeni Türk harfleri kabul edildikten hemen sonra (24 Kasım 1928), yepyeni alfabeyi "yetişkin (15-45 yaş) halka" öğretmek amacıyla yurdun dört bir yanında açılan pratik/seyyar kursların adı nedir?</p>
+<p>A) Köy Enstitüleri &nbsp; B) Darülfünun &nbsp; C) Millet Mektepleri &nbsp; D) Halkevleri</p>
+<p><strong>Çözüm:</strong> Harf devriminden hemen sonraki o acil okuryazarlık ihtiyacını karşılayan (M. Kemal'in Başöğretmen olduğu) kurum Millet Mektepleridir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Cumhuriyet döneminde, Türk tarihinin köklerinin sadece Osmanlı'dan ibaret olmadığını, Orta Asya'ya, Hititlere, Sümerlere kadar dayanan medeni ve köklü bir ulus olduğunu kanıtlamak için (Tevfik Bıyıklıoğlu başkanlığında) kurulan kurum hangisidir?</p>
+<p>A) Türk Dil Kurumu &nbsp; B) Türk Tarih Kurumu &nbsp; C) Sanayi-i Nefise Mektebi &nbsp; D) Darülbedayi</p>
+<p><strong>Çözüm:</strong> Tarih şuurunu (bilincini) ümmetçilikten çıkarıp, eski Türklere (milli bilince) bağlamak için kurulan kurum Türk Tarih Kurumu (TTK - 1931)'dur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Aşağıdakilerden hangisi Atatürk döneminde Cumhuriyet'in devrimlerini, ideolojisini ve modern yaşam tarzını halka (ve köylüye) aktarmak amacıyla kurulan ve "Ülkü" dergisini çıkaran kültür kurumudur?</p>
+<p>A) Türk Ocakları &nbsp; B) İttihat ve Terakki Cemiyeti &nbsp; C) Halkevleri &nbsp; D) Köy Enstitüleri</p>
+<p><strong>Çözüm:</strong> 1932'de açılan, tiyatrodan kütüphaneye, spordan dikiş kursuna kadar halkı aydınlatan Cumhuriyet kültür merkezleri Halkevleridir. (Dergi: Ülkü). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Aşağıdaki eğitim kurumlarından hangisi <strong>Mustafa Kemal Atatürk'ün yaşadığı dönemde KURULMAMIŞTIR</strong>? (KPSS'nin en sevdiği tuzak)</p>
+<p>A) Millet Mektepleri &nbsp; B) Halkevleri &nbsp; C) İstanbul Üniversitesi &nbsp; D) Köy Enstitüleri</p>
+<p><strong>Çözüm:</strong> Defalarca uyardık: Köy Enstitüleri 1940'ta İsmet İnönü'nün Cumhurbaşkanlığı, Hasan Ali Yücel'in Milli Eğitim Bakanlığı döneminde kurulmuştur. (Atatürk 1938'de vefat etmiştir). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Mustafa Kemal Atatürk, vefat etmeden önce yazdığı vasiyetnamesinde, İş Bankası'ndaki şahsi hisselerinin gelirini (nemasını) eşit olarak aşağıdaki hangi iki kuruma bırakmıştır?</p>
+<p>A) Darüşşafaka ve Kızılay &nbsp; B) Türk Tarih Kurumu ve Türk Dil Kurumu &nbsp; C) THK (Türk Tayyare Cemiyeti) ve Yeşilay &nbsp; D) İstanbul Üniversitesi ve Ankara Üniversitesi</p>
+<p><strong>Çözüm:</strong> Atatürk, "Milli Kültürün" inşasının devlet bütçesinden ve siyasetten bağımsız olarak devam edebilmesi için kendi parasını TTK ve TDK'ya (ve kız kardeşine) bırakmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Türk Dil Kurumu'nun (TDK) kurulmasındaki <strong>temel felsefe (amaç)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkçeyi sadece saray dili haline getirmek &nbsp; B) Yabancı okullardaki eğitimi tamamen İngilizceye çevirmek &nbsp; C) Türkçeyi Arapça ve Farsçanın (yabancı kelimelerin) boyunduruğundan kurtararak arı (saf), zengin ve bilimsel bir dil haline getirmek &nbsp; D) Türk alfabesini tamamen terk etmek</p>
+<p><strong>Çözüm:</strong> TDK'nın (1932) amacı; dildeki gereksiz Arapça/Farsça kelimeleri atıp öztürkçe kelimeler türetmek ve Türkçeyi bağımsız bir medeniyet/bilim dili yapmaktır. (Milliyetçilik). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>1933 Yılında Darülfünun kapatılarak yerine "Türkiye Cumhuriyeti'nin ilk üniversitesi" olan <strong>İstanbul Üniversitesi</strong> açılmıştır. <br>Bu "Üniversite Reformu"nun raporunu hazırlamak üzere İsviçre'den Türkiye'ye davet edilen uzman kimdir?</p>
+<p>A) John Dewey &nbsp; B) Albert Malche &nbsp; C) Alexander Parvus &nbsp; D) Milne (Milne Hattı)</p>
+<p><strong>Çözüm:</strong> Malche geldi, Darülfünun bitti. Üniversite reformunun mimarı İsviçreli pedagog Prof. Dr. Albert Malche'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Tevhid-i Tedrisat Kanunu gereğince, Türkiye'deki yabancı ve azınlık okullarına (Fransız, Amerikan, Ermeni vb.) aşağıdaki zorunluluklardan hangisi <strong>getirilmiştir</strong>?</p>
+<p>A) Sadece kendi ülkelerinin vatandaşlarını öğrenci olarak kabul etmeleri &nbsp; B) Tarih, Coğrafya ve Türkçe derslerinin Türk öğretmenler tarafından Türkçe olarak anlatılması ve Türk müfettişlerce denetlenmesi &nbsp; C) Tamamen ücretsiz eğitim vermeleri &nbsp; D) Sadece kiliselerde eğitim yapmaları</p>
+<p><strong>Çözüm:</strong> Bu okullar eskiden istedikleri gibi ders anlatıp misyonerlik yapıyordu. Devlet, "Benim ülkemde açtığın okulda Tarihi ve Türkçeyi benim memurum benim dilimde anlatacak, ben de denetleyeceğim" diyerek tam bağımsızlığını (ve milli egemenliği) dayatmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>1926 Yılında kabul edilen Maarif Teşkilatı Hakkında Kanun (Eğitimin çerçevesi) ile ilköğretimin devlet okullarında kız ve erkek ayırmaksızın <strong>"parasız (ücretsiz) ve zorunlu"</strong> hale getirilmesi, doğrudan hangi Atatürk ilkesinin bir sonucudur?</p>
+<p>A) Devletçilik &nbsp; B) Halkçılık &nbsp; C) İnkılapçılık &nbsp; D) Laiklik</p>
+<p><strong>Çözüm:</strong> Eğitimde "Fırsat eşitliği" yaratmak (zengin de fakir de aynı parayla/parasız okuyacak), halkın refahını artırmak tamamen Halkçılık (Eşitlik/Sosyal Devlet) ilkesidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Aşağıdaki ikililerden hangisinde I. olay, II. olayın doğrudan "sebebi (zorunlu kılan amili)" olmuştur?</p>
+<p>A) Tevhid-i Tedrisat $\rightarrow$ İzmir İktisat Kongresi &nbsp; B) Harf İnkılabının Yapılması $\rightarrow$ Millet Mekteplerinin Açılması &nbsp; C) Üniversite Reformu $\rightarrow$ Saltanatın Kaldırılması &nbsp; D) Halkevleri $\rightarrow$ İstiklal Mahkemeleri</p>
+<p><strong>Çözüm:</strong> Alfabe 1928'de kanunla değiştiği sabah tüm ülke okuma-yazma bilmez duruma geldi (cahillik krizi). Yetişkin nüfusa hızla yeni harfleri öğretmek zorunlu oldu, bu yüzden Millet Mektepleri açıldı. Sebep-Sonuç kusursuzdur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Türk Tarih Kurumu'nun kurulmasıyla birlikte oluşturulan "Türk Tarih Tezi", hangi ideolojik yaklaşıma <strong>karşı (tepki olarak)</strong> geliştirilmiştir?</p>
+<p>A) Türklerin kökeninin sadece İslamiyet'e ve Osmanlı'ya dayandığını savunan "Ümmetçi" tarih anlayışına ve Avrupalıların "Türkler medeniyetsiz sarı ırktır" iftiralarına karşı &nbsp; B) Orta Asya tarihine karşı &nbsp; C) Milli bağımsızlık fikrine karşı &nbsp; D) Sadece Anadolu'nun tarihini araştırmaya karşı</p>
+<p><strong>Çözüm:</strong> Osmanlı aydını için tarih, peygamberlerle başlar, Osmanlı padişahlarıyla biterdi (Ümmet). Oysa Türk tarihi İslam'dan binlerce yıl önce Asya'da başlamıştı. TTK bu ümmetçi ve dar kalıplı anlayışı yıkıp "Milli/Irki" tarihi (Orta Asya) öne çıkardı. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Cumhuriyet döneminde kurulan kültür kurumları ve bu kurumların çıkardığı "yayın organı (dergi)" eşleştirmelerinden hangisi <strong>doğrudur</strong>?</p>
+<p>A) Halkevleri $\rightarrow$ Belleten &nbsp; B) Millet Mektepleri $\rightarrow$ Ülkü &nbsp; C) Türk Tarih Kurumu $\rightarrow$ Belleten &nbsp; D) Türk Dil Kurumu $\rightarrow$ Okuma Yazma</p>
+<p><strong>Çözüm:</strong> Şifrelerimiz: TTK = Tarihi "Belleten". Halkevleri = "Ülkü". Millet Mektepleri = "Okuma Yazma". Eşleştirmelerde doğru olan C şıkkıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Mustafa Kemal'e 24 Kasım 1928'de verilen "Başöğretmen" unvanı, aslında <strong>hangi kurumun</strong> Başöğretmenliği sıfatıdır?</p>
+<p>A) Millet Mektepleri &nbsp; B) İstanbul Üniversitesi &nbsp; C) Halkevleri &nbsp; D) Darülfünun</p>
+<p><strong>Çözüm:</strong> Atatürk, yeni harfleri yurdun her yerinde kara tahta başında halka öğreten en büyük öğretmen olduğu için, bu seyyar teşkilat olan Millet Mektepleri'nin "Milli Başöğretmeni" ilan edilmiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Eğitim Birliği (Tevhid-i Tedrisat) Yasası kabul edildikten sonra (1924), bu yasaya dayanarak bir süre sonra "Dini hurafelere dayalı (çağdışı) eğitim verdiği ve modern okullarla (çift başlılık) kültür çatışması yarattığı" gerekçesiyle tamamen <strong>kapatılan (iptal edilen)</strong> kurum aşağıdakilerden hangisidir?</p>
+<p>A) Mülkiye Mektebi &nbsp; B) Medreseler &nbsp; C) İmam Hatip Liseleri &nbsp; D) Galatasaray Sultanisi</p>
+<p><strong>Çözüm:</strong> Tevhid-i Tedrisat çıktığında medreseler hemen kapatılmadı, bütçeleri MEB'e bağlandı. Ancak 1-2 hafta sonra, laik eğitimle bağdaşmadığı ve kültür ikiliği yarattığı için (Şeriye vekaleti de kapanınca) medreseler tamamen kapatıldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Üniversite reformuyla (1933) kapatılan Osmanlı kurumu olan "Darülfünun" kelime anlamı olarak ne demektir?</p>
+<p>A) Sanatlar Evi &nbsp; B) Fenler Evi (Üniversite) &nbsp; C) Adalet Sarayı &nbsp; D) Askeri Okul</p>
+<p><strong>Çözüm:</strong> Fünun, fen (bilim) kelimesinin çoğuludur. Darül-Fünun "Fenler Evi" yani bugünkü anlamıyla üniversite demektir. (Darülbedayi Tiyatro, Darülelhan Konservatuvardır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Atatürk döneminde kurulan Halkevlerinin <strong>temel misyonu (amacı)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Sadece milletvekillerine lojman hizmeti vermek &nbsp; B) İttihatçıların ideolojisini sürdürmek &nbsp; C) Yapılan devrimleri (kılık kıyafet, laiklik vb.) halka (özellikle taşraya ve köylüye) konferans, tiyatro ve kurslar yoluyla anlatarak, aydın ile halk arasındaki kültür uçurumunu (yabancılaşmayı) kapatmak &nbsp; D) Sadece yurtdışına öğrenci göndermek</p>
+<p><strong>Çözüm:</strong> Ankara'da bir devrim yapılıyor (şapka tak, laik ol deniyor) ama Hakkari'deki, Konya'daki köylünün bundan haberi yok (Aydın-Halk kopukluğu). Halkevleri bu kopukluğu yok edip devrimi tabana (halka) yayan kültür merkezleridir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Tevhid-i Tedrisat yasasıyla azınlık ve yabancı okullarına konulan "Türkçe, Tarih, Coğrafya dersleri Türk hoca tarafından anlatılacak" kuralına en çok itiraz eden ve hatta okullarını kapatarak Türkiye'yle diplomatik kriz (Yabancı Okullar Sorunu) çıkaran ülke hangisidir?</p>
+<p>A) Rusya &nbsp; B) Fransa (ve Papalık) &nbsp; C) Almanya &nbsp; D) Japonya</p>
+<p><strong>Çözüm:</strong> Türkiye'de en çok yabancı (misyoner) okulu olan ülke Fransa idi. Fransa konuyu uluslararası masaya (Milletler Cemiyetine) taşımak istedi. Türkiye, "Bu benim <strong>iç meselemdir</strong>, taviz vermem, uymayan defolur gider" diyerek bağımsızlığını kanıtladı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Yeni Türk Harflerinin kabul edilmesinin bir zorunluluk olduğunu gösteren <strong>en temel teknik sebep</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Avrupa'nın Latin alfabesine geçmeyi dayatması &nbsp; B) Arap harflerinin Türkçenin zengin sesli harf sistemine uygun olmaması (Türkçenin ünlü harflerini karşılayamaması) nedeniyle kelimelerin yanlış veya eksik okunup anlaşılması &nbsp; C) Kağıt israfını önlemek &nbsp; D) Arap dünyasıyla tüm siyasi ilişkileri kesmek</p>
+<p><strong>Çözüm:</strong> Türkçede 8 tane sesli (ünlü) harf varken (A,E,I,İ,O,Ö,U,Ü), Arapçada okutucu sesli harf sistemi (hareke sistemi dışında) çok zayıftır. Aynı kelime hem "Gül", hem "Kel", hem "Gel", hem "Göl" okunabiliyordu. Bu teknik uyumsuzluk değişimi zorunlu kıldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>1933 Üniversite Reformu öncesinde Darülfünun hakkında rapor hazırlayan Albert Malche, raporunda "Öğretim üyelerinin kendi kabuklarına çekildiğini, dünyadaki bilimsel gelişmelerin ve çevirilerin takip edilmediğini, ezberci bir eğitimin olduğunu" belirtmiştir.<br>Aşağıdaki gelişmelerden hangisi, 1933'te kurulan İstanbul Üniversitesinin kalitesini (bilimsel seviyesini) ve kadrosunu <strong>dış kaynaklı (uluslararası)</strong> olarak bir anda yükseltmiştir?</p>
+<p>A) Amerika'dan yüksek oranda kredi alınması &nbsp; B) Almanya'da Nazilerin (Hitler'in) baskısından ve zulmünden kaçan dünyaca ünlü (çoğunluğu Yahudi) profesör ve bilim adamlarının Türkiye'ye sığınarak İstanbul Üniversitesinde hocalık yapması (Kadro devrimi) &nbsp; C) Rus bilim adamlarının zorla getirilmesi &nbsp; D) Osmanlı padişahlarının üniversiteye dönmesi</p>
+<p><strong>Çözüm:</strong> Avrupa'da Hitler'in zulmü başlarken Atatürk Türkiye'si bilime kucak açmış; Einstein'ın arkadaşlarını, tıp ve hukuk alanının dev isimlerini Türkiye'ye davet etmiş ve Üniversite reformunun hoca (akademisyen) açığı bu beyin göçüyle efsanevi bir kalitede çözülmüştür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>İsmini bizzat Mustafa Kemal Atatürk'ün koyduğu, Türk Tarih Kurumu'nun (TTK) çıkardığı ve <strong>Atatürk'ün vefat etmeden önce (hasta yatağında) okuduğu son eserin de olduğu</strong> bu tarihi/bilimsel derginin adı nedir?</p>
+<p>A) Ülkü &nbsp; B) Belleten &nbsp; C) Kadro &nbsp; D) Varlık</p>
+<p><strong>Çözüm:</strong> KPSS'nin çok sevdiği ekstrem bilgilerden biridir. TTK'nın (Tarih anlatan/belleten) dergisi Belleten, Atatürk'ün gözbebeğidir ve okuduğu son metindir. (Ülkü, Halkevlerinindir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Cumhuriyet döneminde müzik öğretmeni yetiştirmek amacıyla (1924) Ankara'da kurulan, ilerleyen yıllarda <strong>Devlet Konservatuvarı'nın</strong> çekirdeğini (altyapısını) oluşturacak olan sanat okulunun adı nedir?</p>
+<p>A) Sanayi-i Nefise Mektebi &nbsp; B) Darülbedayi &nbsp; C) Musiki Muallim Mektebi &nbsp; D) Mızıka-i Hümayun</p>
+<p><strong>Çözüm:</strong> Musiki (Müzik), Muallim (Öğretmen). Yeni devletin ilk sanat atılımlarından biri olan Müzik Öğretmen Okulu, modern müzik eğitiminin merkezidir. (Sanayi-i Nefise Osmanlı'dan kalan Güzel Sanatlar Akademisidir). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Tevhid-i Tedrisat (Eğitim Birliği) kanunuyla eğitimin tamamen laikleştirilmesi ve medreselerin kapatılması gibi olaylar, ilerleyen yıllarda <strong>hangi ideolojiyi (tehlikeyi)</strong> besleyen bir tepkiye/isyana zemin hazırlamıştır?</p>
+<p>A) Turancılık &nbsp; B) İrtica (Eski dini kurallara/şeriata dönüşü savunan irticai ayaklanmalara - Örn: Şeyh Sait isyanı) &nbsp; C) Komünizm &nbsp; D) Liberalizm</p>
+<p><strong>Çözüm:</strong> Medresesi kapanan, şeyhliği elinden alınan yobaz ve çıkar grupları (din tüccarları), laik eğitime karşı "Din elden gidiyor" kışkırtmasıyla isyanlar (Şeyh Sait, Menemen) çıkartmışlardır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Osmanlı'nın ünlü ressamı Osman Hamdi Bey tarafından kurulan "Sanayi-i Nefise Mektebi", Cumhuriyetin ilanından sonra 1928'de hangi modern sanat kurumuna dönüştürülmüştür?</p>
+<p>A) Devlet Tiyatroları &nbsp; B) Güzel Sanatlar Akademisi &nbsp; C) Mimar Sinan Üniversitesi &nbsp; D) Türk Ocakları</p>
+<p><strong>Çözüm:</strong> Sanayi-i Nefise (Nefis Sanatlar), Cumhuriyet döneminde isim değiştirerek "Güzel Sanatlar Akademisi" (Günümüzde Mimar Sinan Güzel Sanatlar) adını almıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Yeni Türk Harflerinin (Latin kökenli) alınmasında "Latin Alfabesinde yer alan ancak Türk dilinde (ses yapısında) kullanılmayan W, Q, X gibi harflerin atılması; buna karşılık Ş, Ç, Ğ gibi Türkçeye has seslerin (karakterlerin) alfabeye eklenmesi", Atatürk ilkelerinden <strong>hangisinin</strong> bu süreçte gözetildiğini (es geçilmediğini) kanıtlar?</p>
+<p>A) Milliyetçilik (Ulusalcılık) &nbsp; B) Halkçılık &nbsp; C) Devletçilik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Eğer Latin alfabesi bir "kopyala-yapıştır" (taklit) şeklinde alınıp (W, X) kullanılsaydı sadece inkılapçılık olurdu. Ancak bizim dilimize uyarlanması, bizim seslerimizin (Ç, Ş) üretilmesi (Milli bir karakter kazandırılması) doğrudan "Milliyetçilik"tir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Atatürk döneminde açılan Halkevlerinin <strong>yurt dışındaki (Avrupa'daki) ilk ve tek şubesi</strong> 1932 yılında hangi başkentte (şehirde) açılmıştır?</p>
+<p>A) Paris (Fransa) &nbsp; B) Londra (İngiltere) &nbsp; C) Berlin (Almanya) &nbsp; D) Moskova (Rusya)</p>
+<p><strong>Çözüm:</strong> Zor ve çok ayırıcı bir genel kültür (KPSS) bilgisidir. Türk inkılabını ve Cumhuriyet ideolojisini Avrupa'daki (İngiltere'deki) Türklere anlatmak için Londra'da Halkevi şubesi açılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Aşağıdakilerden hangisi 1932 yılında kurulan Türk Dil Kurumu'nun (TDK) çalışmalarından (hedeflerinden) biri <strong>değildir</strong>?</p>
+<p>A) Türkçeyi bilim ve sanat dili haline getirmek &nbsp; B) Türkçe sözlük ve dil bilgisi kitapları hazırlamak &nbsp; C) Tüm dünyadaki insanlara zorla Türkçe konuşturmak (Emperyalist bir dil politikası gütmek) &nbsp; D) Halka inerek (köy köy gezerek) öz Türkçe kelimeleri derlemek ve Arapça-Farsça sözcüklerin yerine koymak</p>
+<p><strong>Çözüm:</strong> Türk milliyetçiliği (ve TDK) saldırgan (faşist/emperyalist) değildir, sadece kendi kültürünü korur ve zenginleştirir (Savunmacı ve çağdaştır). Dünyaya Türkçe dayatmak gibi bir hayalperestlik (ütopya) söz konusu olamaz. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Maarif Teşkilatı Kanunu (1926) ile birlikte eğitimde <strong>"Karma Eğitime"</strong> (Kız ve erkek çocukların aynı okulda/sınıfta okumasına) geçilmesi, toplum yapısında hangi ikiliğin (ayrımın) ortadan kalkmasına yardımcı olmuştur?</p>
+<p>A) Din ve Devlet ayrımının &nbsp; B) Hukuk ve Siyaset ayrımının &nbsp; C) Sosyal hayatta ve eğitimde Kadın-Erkek (Cinsiyet) eşitsizliğinin (haremlik-selamlık yapısının) ortadan kalkmasına ve çağdaş-eşit bir toplum (Halkçılık) kurulmasına &nbsp; D) Şehirli-Köylü ayrımının</p>
+<p><strong>Çözüm:</strong> Osmanlı'nın son dönemlerinde kız okulları ayrı, erkek okulları ayrıydı. Modern ve eşit bir devlet yaratmanın temeli olan kadın-erkek sosyalleşmesi (hayatı birlikte paylaşma) ancak karma eğitimle (Halkçılıkla) başarılabilirdi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Cumhuriyetin aydınlanma sürecinde yayımlanan dergiler ve temsil ettikleri kurumlar düşünüldüğünde, aşağıdaki eşleştirmelerden hangisi <strong>yanlıştır</strong>?</p>
+<p>A) TTK $\rightarrow$ Belleten &nbsp; B) Halkevleri $\rightarrow$ Ülkü &nbsp; C) Millet Mektepleri $\rightarrow$ Okuma Yazma &nbsp; D) Darülfünun $\rightarrow$ Türk Yurdu</p>
+<p><strong>Çözüm:</strong> "Türk Yurdu" dergisi, Ziya Gökalp'lerin ve İttihatçıların kurduğu "Türk Ocakları" (Osmanlı'nın son dönemi) kurumunun dergisidir. Darülfünun'un yayın organı değildir. (Tuzakları iyi yakala). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Tevhid-i Tedrisat = Eğitim Birliği = Laiklik (1924). Albert Malche = Üniversite Reformu = Darülfünun Kapanması (1933). Millet Mektepleri $\rightarrow$ Harf öğretir (1928), Halkevleri $\rightarrow$ Devrimi öğretir (1932), Köy Enstitüleri $\rightarrow$ Atatürk Döneminde YOKTUR! Bu şablonu zihninden çıkarma.</em></p>
+`,
   },
   {
     id: 68,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Toplumsal ve Ekonomik Alanda İnkılaplar',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Takvim, Saat, Soyadı, Şapka, Tekke-Zaviye, İzmir İktisat, Devletçilik)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Cumhuriyetin iskeleti kuruldu, sıra geldi bu yeni devletin vitrinini (Toplumsal yaşam) ve midesini (Ekonomi) doyurmaya! Bir yanda Osmanlı'nın cuma tatili yapan, arşınla ölçen, şeyhinin peşinden giden geleneksel yapısını Batı ile uyumlu hale getirme (Toplumsal İnkılaplar) savaşı var; diğer yanda sermayesi sıfır olan bir halkı "Devletçilik" hamlesiyle sanayi ile tanıştırma (Ekonomi İnkılapları) çabası var.</p>
+<p>ÖSYM bu karma ünitede iki zıt kutbu birleştirir: Takvim, saat, ölçü ve hafta tatilinin değişmesini (Avrupa ile ticari uyum / İnkılapçılık) sorarken, bir alt soruda özel sektörün batmasıyla "Mecburen" geçilen Devletçiliği (Sümerbank, Sanayi Planları) yapıştırır. "Soyadı Kanununun" Halkçılıkla olan bağını ve Aşar vergisinin kalkmasını bir nefeste çözeceğiz!</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü Avrupa ile uyumu sağlayan "Takvim, Saat, Ölçü, Hafta Tatili" değişimleri ile, ekonomide özel sektörün çöküşü (1929 krizi) yüzünden geçilen "Devletçilik" ilkesi KPSS'nin vazgeçilmez iki büyük olgusudur.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p><strong>Toplumsal Alanda:</strong> Şapka ve kılık kıyafet kanunu ile dış görünüş çağdaşlaştı. Tekke, zaviye ve türbeler kapatılarak (1925) şeyhlik/müritlik (irtica) engellendi. Hicri takvim yerine Miladi, alaturka saat yerine uluslararası saat, okka yerine Kilo, Cuma tatili yerine Pazar tatili getirilerek Avrupa ile (özellikle ticari) kopukluk giderildi. Soyadı kanunuyla (1934) toplumsal eşitlik (Halkçılık) sağlandı.<br>
+<strong>Ekonomik Alanda:</strong> 1923 İzmir İktisat Kongresiyle "Özel sektörü destekleyelim (Liberalizm)" denildi. Halka "Teşvik-i Sanayi" ile fabrika kurması söylendi ama 1929 Dünya Ekonomik Krizi patlayınca halk iflas etti. Çaresiz kalan devlet, 1930'lardan itibaren yatırımı kendi sırtlanarak <strong>Devletçilik</strong> ilkesine (Sümerbank, Sanayi Planları) geçti.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Ortak Nokta: Çağdaşlaşma ve Uyum</span><p>Hem toplumsal alandaki ölçü/tartı değişimleri, hem de ekonomideki atılımların ortak noktası, genç Türkiye'nin yüzünü medeni dünyaya dönmesi ve Avrupa ile ikili ilişkilerde (ticarette) ortak dili yakalamasıdır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Toplumsal İnkılaplar: Şapka, Tekke-Zaviye ve Kıyafet</h3>
+<ul>
+<li><strong>Şapka Kanunu (1925):</strong> Mustafa Kemal şapkayı ilk kez <strong>Kastamonu</strong> gezisinde tanıttı. Fes atılıp şapka giyilerek, dış görünüşte çağdaşlık (İnkılapçılık) hedeflendi.</li>
+<li><strong>Tekke, Zaviye ve Türbelerin Kapatılması (1925):</strong> "Türkiye Cumhuriyeti şeyhler, dervişler, müritler ve meczuplar memleketi olamaz" denildi. Dini sömürünün ve irticai ayaklanmaların (Şeyh Sait vb.) merkezi olan bu tarikat yuvaları kapatıldı. (Doğrudan <strong>Laiklik</strong>).</li>
+<li><strong>Kılık Kıyafet Kanunu (1934):</strong> Hangi dinden olursa olsun din adamlarının (imam, haham, papaz) mabetler (cami, kilise) dışında cübbe/dini kıyafetle sokakta dolaşması yasaklandı. (Sadece Diyanet İşleri Bşk. ve Patrik hariç tutuldu). (Laiklik).</li>
+</ul>
+
+<h3>3.2. Avrupa ile Uyum: Takvim, Saat, Rakam, Ölçü, Hafta Tatili</h3>
+<p>Osmanlı'da ölçü/zaman karmaşası vardı (Hicri/Rumi takvim, ezani saat vb.). Avrupalı bir tüccarla ticaret yapmak kabusa dönüyordu. Bu sorunu çözmek ve çağdaşlaşmak (İnkılapçılık) için peş peşe devrimler yapıldı:</p>
+<ul>
+<li><strong>Takvim (1926):</strong> Hicri takvim atıldı, Güneş yılı esaslı <strong>Miladi Takvim</strong> (1 Ocak 1926'da) uygulanmaya başlandı. (Birlikte Uluslararası Saat sistemine geçildi).</li>
+<li><strong>Rakam (1928):</strong> Arap rakamları atıldı, Uluslararası (Latin kökenli) rakamlar kabul edildi.</li>
+<li><strong>Ölçü ve Tartı (1931):</strong> Arşın, endaze, okka, dirhem atıldı; yerine uluslararası standart olan <strong>Metre, Kilo ve Litre</strong> getirildi.</li>
+<li><strong>Hafta Sonu Tatili (1935):</strong> Avrupa ile ticari uyumu tam sağlamak için hafta tatili <strong>Cuma gününden Pazar gününe</strong> alındı.</li>
+</ul>
+<p><strong>Sonuç:</strong> Tüm bu değişimlerin en büyük nedeni "Avrupa ülkeleri ile olan ticari ve ekonomik ilişkileri kolaylaştırmak (uyumsuzluğu bitirmektir)".</p>
+
+<h3>3.3. Soyadı Kanunu (1934)</h3>
+<p>Osmanlı'da insanların soyadı yoktu. "Kel Ali'nin oğlu Ahmet, Hacıların Mehmet" gibi lakaplar kullanılıyordu. Bu durum askerlikte, tapuda, mirasta büyük karışıklıklar yaratıyordu.</p>
+<ul>
+<li>Her aileye Türkçe ve ahlaka uygun bir soyadı alma zorunluluğu getirildi.</li>
+<li>"Ağa, Hacı, Hafız, Molla, Bey, Paşa, Hazretleri" gibi ayrıcalık ve üstünlük bildiren tüm unvanlar yasaklandı.</li>
+<li>Meclis, Mustafa Kemal'e <strong>"Atatürk"</strong> soyadını verdi. (Kardeşi Makbule Hanım'a Boysan soyadı verilmiştir).</li>
+<li><strong>İlke Bağlantısı:</strong> Sınıf ayrımını, ayrıcalıkları kaldırdığı ve eşitlik getirdiği için <strong>doğrudan Halkçılık</strong> ilkesidir.</li>
+</ul>
+
+<h3>3.4. Ekonomi: İzmir İktisat ve Liberalizm Dönemi (1923-1930)</h3>
+<p><strong>İzmir İktisat Kongresi (Şubat 1923):</strong> Lozan barış görüşmelerinin kesildiği o "tatil" boşluğunda toplandı. Başkan: Kazım Karabekir. <br>
+<strong>Kararlar (Misak-ı İktisadi - Ekonomi Andı):</strong> Yerli malı teşvik edilecek, ham maddesi yurt içinde olan sanayi kurulacak, kapitülasyonlar asla kabul edilmeyecek, <strong>"Özel sektör desteklenecektir."</strong> (Liberal sistem).</p>
+<p><strong>Bu Dönemde Ne Yapıldı?</strong><br>
+- İlk özel/milli banka olan <strong>İş Bankası</strong> (1924) Celal Bayar önderliğinde kuruldu.<br>
+- <strong>Aşar (Öşür) Vergisi kaldırıldı (1925):</strong> Devlet, bütçesinin en büyük geliri olmasına rağmen köylünün belini büken bu vergiyi kaldırdı (Halkçılık).<br>
+- <strong>Kabotaj Kanunu (1926):</strong> Kendi deniz ve limanlarımızda yolcu/yük taşıma hakkı yabancılardan alınıp Türk denizcilerine verildi (Milliyetçilik).<br>
+- <strong>Teşvik-i Sanayi Kanunu (1927):</strong> Devlerin, arazi/vergi indirimi vererek özel sektöre "Fabrika kur" dediği yasadır.</p>
+
+<h3>3.5. 1929 Krizi ve Devletçiliğe Mecburi Geçiş (1930'lar)</h3>
+<p>Teşvik-i Sanayi kanunu çöktü. Çünkü; a) Halkta sermaye yoktu, b) Mühendis (teknik bilgi) yoktu, c) <strong>1929 Dünya Ekonomik Krizi (Kara Perşembe)</strong> patlak verdi.<br>
+Krizle birlikte özel sektör batınca, ülkeyi sanayileştirmek mecburen <strong>DEVLETE</strong> kaldı. <br>
+<strong>Devletçilik İlkesi:</strong> Halkın (özel sektörün) gücünün yetmediği devasa yatırımları (demir çelik, şeker, dokuma vb.) bizzat devletin (hükümetin) kendi parasıyla yapmasıdır.<br>
+<em>(Not: Devletçilik özel sektörü yasaklamaz, komünizm gibi değildir; destekler. Buna Karma Ekonomi denir).</em></p>
+
+<h3>3.6. Sümerbank ve Sanayi Planları</h3>
+<p>Devlet fabrikaları kuracak finansı sağlamak için <strong>Sümerbank'ı</strong> (1933) kurdu. (Tekstil/dokuma fabrikaları).<br>
+<strong>I. Beş Yıllık Sanayi Planı (1934):</strong> SSCB'nin (Rusya'nın) kredi ve teknik desteğiyle başarıyla uygulandı. (Karabük Demir Çelik, İzmit Seka, Nazilli Basma vb. kuruldu).<br>
+<strong>II. Beş Yıllık Sanayi Planı (1939):</strong> Hazırlandı ama <strong>II. Dünya Savaşı</strong> (Hitler) patlak verince, tüm para (bütçe) orduya (askere) aktarıldığı için UYGULANAMADI (İptal edildi).</p>
+<p><strong>Madencilik:</strong> 1935'te MTA (Maden Tetkik Arama) ve madeni finanse edecek olan <strong>Etibank</strong> kuruldu.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Uyumsuzluk (Sebep) $\rightarrow$ Takvim/Saat/Ölçü Değişimi (Sonuç):</strong> Avrupa Pazar gün tatil yaparken biz Cuma yapıyorduk. Bizde okka, onlarda kilo vardı. Ticari ilişkiler kilitleniyordu, uyum sağlamak için değiştirildi.</li>
+<li><strong>Kapitülasyonlar (Sebep) $\rightarrow$ Kabotaj Kanunu (Sonuç):</strong> Türk sularında yabancı gemilerin serbestçe cirit atması bağımsızlığa aykırı olduğu için, deniz işletmeciliği millileştirildi.</li>
+<li><strong>1929 Krizi ve Sermayesizlik (Sebep) $\rightarrow$ Devletçilik İlkesi (Sonuç):</strong> Teşvik-i Sanayi ile liberalizm (özel sektör) çöktü, devlet kalkınmayı mecburen kendi sırtladı.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay / Kanun</th>
+<th>Anahtar Kelime (Amacı / Sonucu)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Şubat 1923</td>
+<td>İzmir İktisat Kongresi</td>
+<td>Misak-ı İktisadi. Ekonomik bağımsızlık ve liberal (özel) başlangıç.</td>
+</tr>
+<tr>
+<td>1925</td>
+<td>Şapka Kanunu / Tekke ve Zaviyelerin Kapanması</td>
+<td>Kılık kıyafette çağdaşlık, dini kurumların (irtica) engellenmesi (Laiklik).</td>
+</tr>
+<tr>
+<td>1925</td>
+<td>Aşar (Öşür) Vergisinin Kaldırılması</td>
+<td>Köylünün sırtındaki vergi yükü kalktı (Halkçılık).</td>
+</tr>
+<tr>
+<td>1 Temmuz 1926</td>
+<td>Kabotaj Kanunu</td>
+<td>Deniz işletme hakkı Türklere geçti (Milliyetçilik).</td>
+</tr>
+<tr>
+<td>1927</td>
+<td>Teşvik-i Sanayi Kanunu</td>
+<td>Özel sektörü sanayiye teşvik etti ama çöktü (başarısız oldu).</td>
+</tr>
+<tr>
+<td>1929</td>
+<td>Dünya Ekonomik Krizi (Kara Perşembe)</td>
+<td>Türkiye (Teşvik-i sanayi bitince) mecburen DEVLETÇİLİK ilkesine geçti.</td>
+</tr>
+<tr>
+<td>1931</td>
+<td>Ölçü ve Tartı Birimlerinin Değişimi</td>
+<td>Kilo, Metre geldi. (Avrupa ile ticari uyum).</td>
+</tr>
+<tr>
+<td>1933 / 1935</td>
+<td>Sümerbank / Etibank</td>
+<td>Sümerbank: Sanayi/Tekstil. Etibank: MTA (Maden) finansörü.</td>
+</tr>
+<tr>
+<td>1934</td>
+<td>Soyadı Kanunu / I. Sanayi Planı</td>
+<td>Soyadı (Halkçılık). Sanayi Planı (Rus desteğiyle başarılı).</td>
+</tr>
+<tr>
+<td>1935</td>
+<td>Hafta Tatilinin Pazar'a Alınması</td>
+<td>Avrupa ile ticari senkronizasyon (uyum) sağlandı.</td>
+</tr>
+<tr>
+<td>1939</td>
+<td>II. Beş Yıllık Sanayi Planı</td>
+<td>II. Dünya Savaşı (Hitler tehdidi) nedeniyle uygulanamadı.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Bankalar - Atatürk Dönemi Tuzağı</h3>
+<table>
+<thead>
+<tr>
+<th>Banka Adı</th>
+<th>Kuruluş / Tarih</th>
+<th>Özelliği ve Desteklediği Alan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ziraat Bankası</strong></td>
+<td>Osmanlı'dan Miras</td>
+<td>Çiftçiyi destekler. <strong>Cumhuriyet döneminde KURULMAMIŞTIR!</strong></td>
+</tr>
+<tr>
+<td><strong>İş Bankası</strong></td>
+<td>1924 (Cumhuriyet Dönemi)</td>
+<td>Ticaret/Sanayiyi destekleyen <strong>İLK ÖZEL</strong> milli bankadır. (Celal Bayar).</td>
+</tr>
+<tr>
+<td><strong>Sümerbank</strong></td>
+<td>1933 (Cumhuriyet Dönemi)</td>
+<td>Devletçi politikanın <strong>sanayi ve tekstil (dokuma)</strong> yatırımcı bankasıdır.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Takvim Değişimi Detayı:</strong> Hicri takvim sadece günlük hayattan kaldırılmıştır; dini günlerin (Ramazan, Kurban Bayramı) hesaplanmasında Diyanet tarafından hala kullanılmaktadır.</li>
+<li><strong>Merkez Bankası (1930):</strong> Osmanlı Bankasının (yabancıların) para basma yetkisini alarak <strong>Türk parasını basmak</strong> ve değerini korumak (Milliyetçilik) için 1930'da kurulmuştur.</li>
+<li><strong>Atatürk'ün Soyadı ve Nüfusu:</strong> Atatürk'e soyadını TBMM vermiştir. Atatürk'ün nüfusa kayıtlı olduğu il (o dönem doğduğu yer Selanik sınırımız dışında kaldığı için) <strong>Gaziantep</strong> ilidir (Gaziantep Şahinbey ilçesi).</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Devletçilik" ve "Sümerbank"</span><p>Bir soruda 1930'lu yıllardaki fabrika atılımlarını (Karabük demir çelik, Nazilli basma vb.) ve bu fabrikaları kuran sermayeyi (Sümerbank) görüyorsan, düşünmeden <strong>Devletçilik</strong> ilkesini işaretleyebilirsin. Devletçilik = Devletin bizzat müteahhitlik yapmasıdır.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Ziraat Bankası Cumhuriyet döneminde kuruldu" Tuzağı.</strong> Ziraat Bankasının temeli Osmanlı'da (Mithat Paşa'nın Memleket Sandıkları) atılmıştır. Cumhuriyet'te KURULMAMIŞTIR, sadece sermayesi artırılıp geliştirilmiştir. İlk kurulan milli banka 1924 (İş Bankası)'tir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Devletçilik en başından beri uygulandı" Tuzağı.</strong> Atatürk "Hadi devlet kuralım da her fabrikayı biz açalım" demedi. 1923'ten 1930'a kadar "Özel sektör (halk) yapsın" denildi (Teşvik-i Sanayi). Ancak halk batıp 1929 krizi patlayınca <strong>mecburen</strong> Devletçiliğe geçildi. (Zorunluluk vurgusuna dikkat et).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Tekke ve Zaviyeler Şeyh Sait isyanından sonra Tevhid-i Tedrisatla kapandı" Tuzağı.</strong> Tevhid-i Tedrisat (Eğitim Birliği) ile MEDRESELER kapanmıştır. Tekke ve zaviyeler ondan bir yıl sonra (1925'te) Şeyh Sait isyanının yarattığı irticai tehditten dolayı ayrı bir kanunla kapanmıştır. Medrese = Okul, Tekke = Tarikat yuvası. Karıştırma!</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Devletçilik özel sektöre karşıdır" Tuzağı.</strong> Türkiye'nin devletçiliği Sovyet Komünizmi gibi özel mülkiyeti yasaklayan katı bir sistem DEĞİLDİR. Aksine özel sektörü teşvik eder, özel sektörün gücünün yetmediği yerde (ağır sanayi) devreye girer (Karma ekonomi).</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Sümer-Dokuma / Eti-Maden Şifresi</span><p>• <strong>Sümer</strong>bank = Tekstil, Dokuma (Sümerler ilk çağın medeni toplumuydu, kıyafet dikerlerdi gibi kodla).<br>
+• <strong>Eti</strong>bank = Maden, Yeraltı (Etiler / Hititler Anadolu'nun sert yerlileri, taştan maden çıkarırlardı gibi kodla - MTA ile kardeştir).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Toplumsal Uyum:</strong> Şapka (Dış görünüş), Tekke/Zaviye Kapanması (Laiklik), Takvim/Saat/Ölçü/Tatil Değişimi (Avrupa ile ticari uyum), Soyadı Kanunu (Halkçılık).<br>
+• <strong>İzmir İktisat Kongresi (1923):</strong> Misak-ı İktisadi kabul edildi. Özel sektörü (Liberalizmi) destekleyen kararlar alındı.<br>
+• <strong>Aşar (1925) ve Kabotaj (1926):</strong> Aşar köylüyü rahatlattı (Halkçılık). Kabotaj denizleri millileştirdi (Milliyetçilik).<br>
+• <strong>Teşvik-i Sanayi ve Devletçilik:</strong> Teşvik-i Sanayi 1929 krizi ve sermayesizlik yüzünden başarısız olunca, yatırımı devlet mecburen kendi sırtladı (Devletçilik). Sümerbank açıldı.<br>
+• <strong>Sanayi Planları:</strong> I. Sanayi Planı Rus desteğiyle başarıldı. II. Sanayi Planı II. Dünya Savaşı tehdidi yüzünden iptal oldu.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Avrupa ile ticari ilişkileri kolaylaştıran inkılaplar:</strong> Takvim, Saat, Ölçü, Hafta tatili değişimi.<br>
+• <strong>Ayrıcalık bildiren unvanları kaldıran inkılap:</strong> Soyadı Kanunu (Halkçılık).<br>
+• <strong>Ekonomi andı:</strong> Misak-ı İktisadi (İzmir İktisat Kongresi).<br>
+• <strong>İlk özel ve milli banka:</strong> İş Bankası (Celal Bayar).<br>
+• <strong>Denizcilikteki millileşme:</strong> Kabotaj Kanunu (1 Temmuz).<br>
+• <strong>Köylüyü rahatlatan vergi iptali:</strong> Aşar (Öşür) vergisinin kaldırılması (Halkçılık).<br>
+• <strong>Teşvik-i sanayiyi yıkan dış olay:</strong> 1929 Dünya Ekonomik Krizi (Kara Perşembe).<br>
+• <strong>Sümerbank'ın kurulma amacı:</strong> Sanayi (dokuma) yatırımlarını finanse etmek.<br>
+• <strong>Madenleri finanse eden banka:</strong> Etibank.<br>
+• <strong>1. Sanayi planına destek veren devlet:</strong> SSCB (Sovyet Rusya).<br>
+• <strong>2. Sanayi planını engelleyen olay:</strong> İkinci Dünya Savaşı tehlikesi.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Cumhuriyet döneminde yapılan; Hicri Takvim yerine Miladi Takvim'in kullanılması, Alaturka saatten Uluslararası saat sistemine geçilmesi ve hafta sonu tatilinin Cuma'dan Pazar'a alınmasının <strong>ortak amacı</strong> nedir?</p>
+<p>A) Dini bayramları iptal etmek &nbsp; B) Avrupa ülkeleriyle olan (özellikle iktisadi/ticari) ilişkilerde uyumu sağlamak ve ikiliği ortadan kaldırmak &nbsp; C) Toplumdaki sınıf ayrımlarını kaldırmak &nbsp; D) Siyasi partileri kapatmak</p>
+<p><strong>Çözüm:</strong> Avrupalı tüccar pazar günü tatil yaparken biz cuma yapıyorduk, onların saatleriyle bizimkiler farklıydı. Ticari yazışmalar ve randevular çöküyordu. Tüm bu zaman/ölçü değişiklikleri "Avrupa ile Uyum" sağlamak içindir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Mustafa Kemal Atatürk'ün "Türkiye Cumhuriyeti şeyhler, dervişler, müritler ve meczuplar memleketi olamaz. En doğru tarikat, medeniyet tarikatıdır" sözü, aşağıdaki kurumlardan hangisinin kapatılmasıyla (1925) doğrudan ilgilidir?</p>
+<p>A) Medreselerin &nbsp; B) Darülfünun'un &nbsp; C) Tekke, Zaviye ve Türbelerin &nbsp; D) Millet Mekteplerinin</p>
+<p><strong>Çözüm:</strong> Şeyh, derviş, mürit kelimeleri tarikatların hiyerarşisini temsil eder. Tarikatların toplanma ve örgütlenme (ve Şeyh Sait gibi isyan etme) alanları olan Tekke ve Zaviyeler laiklik ilkesi gereği kapatılmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Toplum içinde "Hacı, Hafız, Molla, Ağa, Paşa, Efendi" gibi ayrıcalık ve üstünlük bildiren unvanların kullanılmasını yasaklayarak insanlar arasında kanun önünde eşitliği (Halkçılığı) sağlayan inkılap hangisidir?</p>
+<p>A) Soyadı Kanunu &nbsp; B) Kabotaj Kanunu &nbsp; C) Kılık Kıyafet Kanunu &nbsp; D) Tevhid-i Tedrisat Kanunu</p>
+<p><strong>Çözüm:</strong> 1934 tarihli Soyadı Kanunu ile sadece herkese Türkçe bir soyadı verilmekle kalınmamış, "Ağa, Bey, Paşa" gibi (zenginliği/ayrıcalığı belirten) sınıfsal unvanlar da eşitliği sağlamak için yasaklanmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Lozan Barış Görüşmelerinin kesintiye uğradığı dönemde (Şubat 1923'te) toplanan ve <strong>Misak-ı İktisadi'yi (Ekonomi Andını)</strong> kabul ederek ülkenin yeni ekonomik hedeflerini belirleyen kongre hangisidir?</p>
+<p>A) İzmir İktisat Kongresi &nbsp; B) Sivas Kongresi &nbsp; C) Milli İktisat Kongresi &nbsp; D) Maarif Kongresi</p>
+<p><strong>Çözüm:</strong> Yeni devletin ekonomi politikasını (Özel teşebbüsü ve yerli malını destekleme vb.) belirleyen ilk ve en büyük kongre Kazım Karabekir başkanlığındaki İzmir İktisat Kongresidir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Cumhuriyetin ilk yıllarında (1925) tarımı desteklemek, köylüyü rahatlatmak ve üretimi artırmak amacıyla köylünün üzerinden kaldırılan <strong>"ürünün onda biri"</strong> oranındaki vergi aşağıdakilerden hangisidir?</p>
+<p>A) Cizye &nbsp; B) Ağıl Vergisi &nbsp; C) Aşar (Öşür) Vergisi &nbsp; D) Çiftbozan</p>
+<p><strong>Çözüm:</strong> Tarım kesiminin belini büken ve devlet bütçesinin en büyük gelir kalemi olmasına rağmen (Halkçılık ilkesi gereği) halk için fedakarlık edilerek kaldırılan vergi Aşar (Öşür) vergisidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>1 Temmuz 1926 tarihinde çıkarılan ve <strong>"Türk denizlerinde, karasularında ve limanlarında yolcu ve yük taşıma (gemi işletme) hakkının sadece Türk vatandaşlarına ve Türk gemilerine ait olduğunu"</strong> belirterek denizlerdeki kapitülasyonları yırtıp atan (Milliyetçi) yasa hangisidir?</p>
+<p>A) Teşvik-i Sanayi Kanunu &nbsp; B) Montrö Sözleşmesi &nbsp; C) Kabotaj Kanunu &nbsp; D) Deniz Ticaret Kanunu</p>
+<p><strong>Çözüm:</strong> Limanlarımız arası işletme hakkını (denizciliğimizi) yabancılardan alıp millileştiren yasa Kabotaj Kanunudur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Cumhuriyetin ilk yıllarında (1927) sanayileşmeyi hızlandırmak için özel sektöre (halka) arazi, ucuz taşıma ve vergi muafiyeti gibi avantajlar sunan, ancak halkta sermaye (para) olmadığı için <strong>çöken (başarısız olan)</strong> kanun hangisidir?</p>
+<p>A) Teşvik-i Sanayi Kanunu &nbsp; B) Takrir-i Sükun Kanunu &nbsp; C) Aşar Kanunu &nbsp; D) Hıyanet-i Vataniye</p>
+<p><strong>Çözüm:</strong> Sanayiyi Teşvik etme (özendirme) yasasıdır. Ancak parasızlık ve kriz yüzünden başarılı olamamış, devleti mecburen Devletçilik ilkesine (yatırımı kendi yapmaya) itmiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Amerika Birleşik Devletleri'nde borsanın çökmesiyle başlayan, Türkiye'nin liberal ekonomi çabalarını bitiren ve ekonomide mecburen <strong>"Devletçilik"</strong> politikasına geçmemize neden olan küresel kriz hangisidir?</p>
+<p>A) 1973 Petrol Krizi &nbsp; B) 1929 Dünya Ekonomik Krizi (Kara Perşembe) &nbsp; C) 1881 Muharrem Kararnamesi &nbsp; D) Marshall Krizi</p>
+<p><strong>Çözüm:</strong> 1929 Krizi, tarım ürünlerimizin fiyatını çakmış, paramızı pul etmiş ve dünyada özel sektörü bitirmiştir. Türkiye bu fırtınadan kurtulmak için yatırımları devlete devretmiş ve planlı ekonomiye geçmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>1930'lu yıllarda Türkiye'de devletçilik ilkesi doğrultusunda fabrikalar (özellikle tekstil/dokuma fabrikaları) kurmak ve sanayi planlarını finanse etmek amacıyla kurulan devasa devlet bankası hangisidir?</p>
+<p>A) Halkbank &nbsp; B) Vakıfbank &nbsp; C) Sümerbank &nbsp; D) Ziraat Bankası</p>
+<p><strong>Çözüm:</strong> Devletçilik döneminin (fabrikaları kuran) dinamosu ve en büyük finansörü Sümerbanktır. (Nazilli Basma, Kayseri Dokuma vb. fabrikaları kurmuştur). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>1934 yılında uygulamaya konulan "I. Beş Yıllık Sanayi Planı" dahilinde Türkiye'ye en büyük krediyi (8 milyon altın) ve fabrika kuracak mühendislik (teknik) desteğini sağlayan ülke hangisidir?</p>
+<p>A) ABD &nbsp; B) İngiltere &nbsp; C) SSCB (Sovyet Rusya) &nbsp; D) Fransa</p>
+<p><strong>Çözüm:</strong> I. Sanayi Planı'nın efsanevi başarısının arkasında, Kurtuluş Savaşından beri yakın ilişkiler kurduğumuz SSCB'nin açtığı kredi ve gönderdiği mühendisler yatar. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Kılık Kıyafet Kanunu (1934) ile "Hangi dinden olursa olsun, din adamlarının ibadet yerleri (cami, kilise vb.) dışında dini kıyafetle/cübbeyle sokakta dolaşması" yasaklanmıştır.<br>Bu yasaktan (kuraldan) <strong>muaf tutulan (istisna olan)</strong> kişiler aşağıdakilerden hangisidir?</p>
+<p>A) Tüm cami imamları ve müezzinler &nbsp; B) Diyanet İşleri Başkanı ile Fener Rum Patriği ve Hahambaşı (En üst düzey dini liderler) &nbsp; C) Tekke ve zaviye şeyhleri &nbsp; D) Milletvekilleri</p>
+<p><strong>Çözüm:</strong> Kanun herkese yasak getirmiş ancak en üst düzey dini liderlere (Diyanet İşleri Başkanı, Ermeni-Rum Patrikleri ve Yahudi Hahambaşı'na) dışarıda da cübbe giyme izni (ayrıcalığı) tanımıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Atatürk'ün Halkçılık ilkesi "toplumdaki sınıflar arası eşitsizliği kaldırmayı, halkın refahını artırmayı ve devletin vatandaş için fedakarlık yapmasını" öngörür.<br>Buna göre aşağıdakilerden hangisi ekonomide <strong>Halkçılık</strong> ilkesinin en büyük temsilcisidir?</p>
+<p>A) Kabotaj Kanunu &nbsp; B) Aşar (Öşür) vergisinin kaldırılması &nbsp; C) İş Bankasının kurulması &nbsp; D) Teşvik-i Sanayi kanunu</p>
+<p><strong>Çözüm:</strong> Devlet, bütçesinin yaklaşık %40'ını çöpe atmayı göze alarak çiftçinin nefes almasını sağlamıştır. Vatandaşın refahı için yapılan bu fedakarlık "Halkçılıktır". <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Maden Tetkik ve Arama Enstitüsü'nün (MTA) bulduğu yeraltı zenginliklerini (madenleri) işlemek ve bu sektörü finanse etmek amacıyla 1935 yılında kurulan banka hangisidir?</p>
+<p>A) Etibank &nbsp; B) Sümerbank &nbsp; C) Sanayi ve Maadin Bankası &nbsp; D) İş Bankası</p>
+<p><strong>Çözüm:</strong> MTA madeni arar, Etibank o madeni (Krom, Bakır vb.) çıkarıp işleyecek krediyi (finansmanı) sağlar. Hititler (Etiler) ve Sümerler isimlerinden şifrelemiştik (Eti=Maden, Sümer=Tekstil). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>İzmir İktisat Kongresinde alınan kararlardan (Misak-ı İktisadi) hangisi, <strong>doğrudan "Milliyetçilik ve Tam Bağımsızlık"</strong> ilkesine yöneliktir?</p>
+<p>A) Demiryolu yapımına hız verilmesi &nbsp; B) Aşar vergisinin kaldırılması &nbsp; C) Yabancıların elindeki işletmelerin, limanların ve şirketlerin <strong>millileştirilmesi (satın alınması)</strong> ve yerli malı kullanımının teşvik edilmesi &nbsp; D) İşçilere sendika hakkı verilmesi</p>
+<p><strong>Çözüm:</strong> Yabancının yönettiği (Fransız'ın demiryolu, İngiliz'in limanı) kurumları satın alıp Türk işletmelerine (milli kurumlara) dönüştürmek, ekonomide "Milliyetçilik" ilkesinin temelidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>1939 Yılında uygulamaya konulması planlanan ancak tamamen rafa kaldırılan (iptal edilen) <strong>"II. Beş Yıllık Sanayi Planı"nın uygulanamamasının temel nedeni</strong> nedir?</p>
+<p>A) Atatürk'ün vefat etmesi &nbsp; B) II. Dünya Savaşı tehlikesinin (Hitler tehdidi) ortaya çıkması nedeniyle devlet bütçesinin fabrika yerine "ordunun silahlanması ve savunmasına" ayrılmak zorunda kalınması &nbsp; C) Rusya'nın krediyi kesmesi &nbsp; D) Sümerbank'ın batması</p>
+<p><strong>Çözüm:</strong> Alman orduları sınırlarımıza yaklaşırken Türkiye 1 milyondan fazla erkeği askere (sınıra) yığmış, yatırım (sanayi) bütçesi tamamen orduya/savunmaya gitmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Atatürk Türkiye'sinin "Devletçilik" ilkesi (ekonomi modeli) ile Sovyet Komünizminin ekonomi modeli arasındaki <strong>EN BELİRGİN FARK</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkiye'de sadece tarım yapılması &nbsp; B) Sovyet modelinde özel mülkiyetin (halkın şirketi) yasaklanıp her şeye devletin el koyması; Türkiye'de ise <strong>özel mülkiyetin serbest olması, reddedilmemesi (Karma Ekonomi)</strong> &nbsp; C) Türkiye'de bankaların olmaması &nbsp; D) Türkiye'de devletin yatırım yapmasının yasak olması</p>
+<p><strong>Çözüm:</strong> Türkiye, özel sektör başaramadığı için devletçiliğe geçmiştir, özel sektörü yasakladığı için değil. Bizdeki yapı Karma'dır; devlet demir-çelik kurar, sen istersen bakkalını açarsın. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Aşağıdaki bankalardan hangisi, Cumhuriyet döneminde (1923 sonrası) <strong>KURULMAMIŞTIR</strong>?</p>
+<p>A) İş Bankası &nbsp; B) Merkez Bankası &nbsp; C) Ziraat Bankası &nbsp; D) Etibank</p>
+<p><strong>Çözüm:</strong> Ziraat Bankası 1888'de Osmanlı'da kurulmuştur (Memleket Sandıklarının devamıdır). Cumhuriyet döneminde sadece geliştirilmiştir ama kuruluşu Cumhuriyette değildir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>1929 Dünya Ekonomik Krizi (Büyük Buhran) Türkiye'yi dış ticarette döviz (nakit para) sıkıntısına sokunca, Türkiye "Malımı (ihracatımı) alan ülkenin, malını (ithalatını) alırım" diyerek nakit çıkışını azaltan <strong>takas (maldan mala) yöntemine</strong> geçti. <br>Bu ekonomi (ticaret) yönteminin adı nedir?</p>
+<p>A) Marshall Planı &nbsp; B) Kliring Sistemi &nbsp; C) Liberalizm &nbsp; D) Truman Doktrini</p>
+<p><strong>Çözüm:</strong> Kliring (Takas), cebinde dövizi olmayan devletlerin "Sen benden incir al, ben de senden traktör alayım" dediği nakitsiz (maldan mala) ödeme sistemidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>İzmir İktisat Kongresi, Kurtuluş Savaşı askeri olarak kazanıldıktan hemen sonra toplanmış, ancak Lozan Barış Antlaşması henüz İMZALANMAMIŞKEN (kesinti dönemindeyken) yapılmıştır.<br>Buna göre İzmir İktisat Kongresi'nde <strong>Lozan masasına verilen en büyük siyasi mesaj</strong> neydi?</p>
+<p>A) Türkiye'nin komünizme geçeceği &nbsp; B) Kapitülasyonların <strong>hiçbir şartta kabul edilmeyeceği</strong> ve tam bağımsız bir ekonominin kurulacağı &nbsp; C) Musul'un işgal edileceği &nbsp; D) İngiliz mandasına girileceği</p>
+<p><strong>Çözüm:</strong> Lozan zaten kapitülasyonlar (ekonomik baskılar) yüzünden tatil edilmişti. M. Kemal İzmir'de kongre toplayıp "Biz kapitülasyonları söküp atacağız, ekonomik bağımsızlığımızı kimseye vermeyiz" mesajını dünyaya (ve Lozan'a) ilan etmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Cumhuriyetin ilk yıllarında Osmanlı Bankası'nın ayrıcalıklarına son vererek, <strong>Türk parasını basmak (emisyon)</strong> ve Türk Lirasının değerini korumak (istikrarı sağlamak) amacıyla 1930 yılında kurulan kurum aşağıdakilerden hangisidir?</p>
+<p>A) Darphane &nbsp; B) Türkiye Cumhuriyet Merkez Bankası (TCMB) &nbsp; C) Maliye Bakanlığı &nbsp; D) Hazine Müsteşarlığı</p>
+<p><strong>Çözüm:</strong> Bir devletin bağımsızlığının en büyük simgelerinden biri kendi parasını basan (yabancıların para basma yetkisini elinden alan) milli bir Merkez Bankası'na (1930) sahip olmasıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Teşvik-i Sanayi Kanunu'nun (1927) başarısızlığından çıkarılan <strong>en büyük siyasi/ideolojik sonuç (ders)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkiye'nin sadece tarım ülkesi olarak kalması gerektiği &nbsp; B) Sermayesi ve eğitimli (teknik) insan gücü zayıf olan bir toplumda ağır sanayinin "sadece özel sektöre (halka) bırakılarak" kurulamayacağı; bu yüzden hızlı kalkınma için <strong>Devletin ekonomiye bizzat yatırımcı (fabrikatör) olarak müdahale etmesinin (Devletçiliğin) ZORUNLU olduğu</strong> &nbsp; C) Medreselerin geri açılması gerektiği &nbsp; D) Demokrasiden vazgeçilmesi gerektiği</p>
+<p><strong>Çözüm:</strong> Devlet "Hadi kurun" dediğinde halk parasızlıktan kuramadı. Buradan alınan siyasi ders: Az gelişmiş ve savaştan çıkmış toplumlarda ağır sanayiyi liberalizmle (halkla) kuramazsın. Mecburen devlet (otorite) kurmak zorundadır (Devletçiliğin doğuş felsefesi). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Atatürk Orman Çiftliği'nin (AOÇ) kurulmasındaki <strong>asıl amaç (misyon)</strong> sadece tarım yapmak veya ürün yetiştirmek değildir. <br>Buna göre AOÇ'nin köylüye/çiftçiye yönelik temel işlevi nedir?</p>
+<p>A) Sadece saraya yiyecek temin etmek &nbsp; B) Yabancılara arazi satmak &nbsp; C) Modern tarım tekniklerinin, traktör kullanımının ve tohum ıslahının nasıl yapıldığını köylüye uygulamalı olarak <strong>(örnek/model olarak)</strong> gösteren bir laboratuvar (eğitim merkezi) olmak &nbsp; D) Ormanları kesip kömür çıkarmak</p>
+<p><strong>Çözüm:</strong> Atatürk, bataklık bir arazi olan Orman Çiftliğini alıp yeşillendirerek Türk köylüsüne "Bakın, bilimi ve teknolojiyi (traktörü) kullanırsanız bataklık bile bereket fışkırır. Gelin buradan modern tarımı öğrenin" mesajı vermiştir (Uygulamalı model/eğitim). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Aşağıdaki fabrikalardan hangisi "Devlet (Hükümet/Sümerbank)" tarafından DEĞİL, Uşak'ta tamamen yöre halkının (Nuri Şeker önderliğinde) yumurta, tavuk, halı satarak topladığı paralarla (Özel Teşebbüsle) kurulan Türkiye'nin <strong>ilk özel sanayi tesislerinden</strong> biridir?</p>
+<p>A) Karabük Demir Çelik Fabrikası &nbsp; B) İzmit Seka Kağıt Fabrikası &nbsp; C) Uşak Şeker Fabrikası &nbsp; D) Nazilli Sümerbank Basma Fabrikası</p>
+<p><strong>Çözüm:</strong> A, B ve D şıkları 1. Sanayi planıyla devletin (Sümerbank'ın) devletçilik ilkesiyle kurduğu fabrikalardır. Ancak Uşak (ve Alpullu) Şeker Fabrikaları Teşvik-i Sanayi döneminde tamamen halkın sivil dayanışmasıyla kurulan "özel teşebbüs" fabrikalarıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Cumhuriyet döneminde devlet gelirlerinin çok büyük bir kısmı gümrük vergilerinden (dış ticaretten) geliyordu. Ancak Lozan Antlaşması'nın (kapitülasyon kalıntısı olan) bir maddesi yüzünden Türkiye 1929 yılına kadar gümrük vergilerini <strong>istediği gibi yükseltememiş (yerli malını tam koruyamamıştır)</strong>. <br>Türkiye'nin gümrük vergilerinde (bağımsız ekonomi politikasında) tam egemen ve korumacı olduğu yıl hangisidir?</p>
+<p>A) 1923 &nbsp; B) 1929 (Gümrük Tarife Kanunu) &nbsp; C) 1939 &nbsp; D) 1950</p>
+<p><strong>Çözüm:</strong> Lozan'da "Gümrük vergileri 1914 seviyesinde kalacak, Türkiye 1929'a kadar gümrükleri artırmayacaktır" kısıtlaması vardı. 1929'da bu süre dolunca Türkiye anında Gümrük Tarife Kanununu çıkarıp vergileri yükseltti ve yabancı mala karşı yerli malını korumaya (Devletçiliğe) aldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Cumhuriyet döneminde toprak ağalığını bitirmek ve toprağı olmayan köylüyü (ırgatı) toprak sahibi yapmak amacıyla hazırlanan "Toprak Reformu (Çiftçiyi Topraklandırma Kanunu)", hedefine <strong>NEDEN ulaşamamıştır</strong>?</p>
+<p>A) Köylülerin toprağı reddetmesi &nbsp; B) Meclisteki (TBMM'deki) toprak sahibi büyük ağaların (milletvekillerinin) ve nüfuzlu ailelerin, kendi arazilerinin ellerinden alınmasına karşı çıkarak kanunun uygulanmasını <strong>engellemesi/sabote etmesi</strong> &nbsp; C) Ziraat Bankasının kapatılması &nbsp; D) Arazilerin verimsiz olması</p>
+<p><strong>Çözüm:</strong> Atatürk "Topraksız köylü kalmayacak" dedi ancak TBMM'nin içindeki toprak ağası milletvekilleri (Adnan Menderes, Emin Sazak vd.) yıllar boyunca bu yasanın içini boşaltmış, köylünün toprak sahibi olması engellenmiştir. (Daha sonra Demokrat Parti'yi kuracak gruptur). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Atatürk'ün "Milletin efendisi" olarak nitelendirdiği köylü kesiminin sosyal ve ekonomik hayatını iyileştirmek için yapılan inkılaplar arasında aşağıdakilerden hangisi <strong>yer almaz</strong>?</p>
+<p>A) Aşar vergisinin kaldırılması &nbsp; B) Tarım Kredi Kooperatiflerinin kurulması &nbsp; C) Ziraat Bankası kredilerinin artırılması &nbsp; D) <strong>Teşvik-i Sanayi Kanununun çıkarılması</strong></p>
+<p><strong>Çözüm:</strong> Teşvik-i Sanayi adı üstünde "Sanayiyi" (fabrikayı / burjuvaziyi) ilgilendiren bir kanundur. Köylüyü veya tarımı ilgilendirmez. A, B ve C seçenekleri doğrudan çiftçi/köylü içindir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>1929 Dünya Ekonomik Krizi'nin (Kara Perşembe) ardından Türkiye'de "Yerli Malı Haftası" düzenlenmesi, halkın tasarrufa yönlendirilmesi ve ithalatın kısıtlanması amacıyla TBMM Başkanı Kazım Özalp liderliğinde kurulan cemiyet (örgüt) hangisidir?</p>
+<p>A) Türk Ocakları &nbsp; B) Milli İktisat ve Tasarruf Cemiyeti &nbsp; C) İttihat ve Terakki &nbsp; D) Halkevleri</p>
+<p><strong>Çözüm:</strong> Krizden sonra dövizin dışarı çıkmasını (lüks yabancı eşya alımını) durdurmak, halkı tasarrufa ve yerli kumaş/mal kullanmaya (yerli malı haftasına) itmek için Milli İktisat ve Tasarruf Cemiyeti kurulmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Cumhuriyet döneminde demiryolları inşasına çok büyük önem verilmiş (Demirağlar), yabancıların elindeki hatlar millileştirilmiştir. "Yol vergisi" çıkarılarak karayolu/demiryolu yapımı desteklenmiştir. <br>Ulaşım (bayındırlık) ağının bu kadar önemsenmesinin ekonominin dışındaki <strong>SİYASİ (GÜVENLİK)</strong> amacı nedir?</p>
+<p>A) Sadece madenleri limanlara taşımak &nbsp; B) Yurdun dört bir yanını merkeze (Ankara'ya) bağlayarak <strong>devlet otoritesini ülkenin en uç noktalarına kadar ulaştırmak</strong> ve çıkacak isyanlara hızlı (askeri) müdahale edebilmek &nbsp; C) Turizmi geliştirmek &nbsp; D) Yabancıların seyahat etmesini sağlamak</p>
+<p><strong>Çözüm:</strong> O dönemde Şeyh Sait isyanı, Ağrı isyanı vs. çıkıyordu. Yolun ve trenin gitmediği yere devletin askeri de gidemezdi. Ulaşım, ekonomiyi canlandırdığı kadar devletin otoritesini ve güvenliğini (isyan bastırma hızını) de sağlar. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>İzmir İktisat Kongresi'nde okuma-yazma oranını artırmak, işçilere sendika/grev hakkı vermek, kadınların çalışma hayatına katılmasını desteklemek gibi salt ekonomi (para) dışı kararlar da alınmıştır. <br>Buna göre kongrenin <strong>sosyolojik (toplumsal)</strong> vizyonu hakkında ne söylenebilir?</p>
+<p>A) Sadece zengin tüccarları (burjuvaziyi) koruduğu &nbsp; B) Ekonomik kalkınmanın (zenginleşmenin) ancak eğitilmiş, kadın-erkek eşitliğinin sağlandığı ve işçi haklarının korunduğu (sosyal) bir toplum yapısıyla mümkün olabileceğini (Bütüncül Kalkınmayı) benimsediği &nbsp; C) Komünizmi getirmek istediği &nbsp; D) Osmanlı hukukunu devam ettirmek istediği</p>
+<p><strong>Çözüm:</strong> Atatürk ekonomiyi sadece "banknottan" ibaret görmez. Kadının çalışmadığı, işçinin sömürüldüğü, köylünün okuma yazma bilmediği bir ülkede fabrika kursan da batar. Kongre, kalkınmayı tüm topluma (sosyal hayata ve eğitime) yaymıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Cumhuriyetin ekonomi politikalarını "Dönemlere" ayıran (kırılma noktası yaratan) en kesin tarihi olay (çizgi) hangisidir?</p>
+<p>A) Lozan Antlaşması &nbsp; B) 1929 Dünya Ekonomik Krizinin (Kara Perşembe) patlak vermesi &nbsp; C) Harf İnkılabının yapılması &nbsp; D) II. Dünya Savaşı'nın bitmesi</p>
+<p><strong>Çözüm:</strong> Konunun özeti bu sorudadır. 1923'ten 1929'a kadar Liberalizm (Özel sektör-Teşvik-i Sanayi) denendi. 1929'da kriz çıkınca (kırılma noktası budur) 1930'dan itibaren mecburen Devletçilik (Sümerbank, Sanayi planları) dönemine geçildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Toplumsal uyum yasalarının (takvim, saat, ölçü) tamamının amacı "Batı ile ticaretin ve iletişimin senkronize edilmesi (çatışmanın bitmesi)"dir. Ekonomideki en büyük şifre ise "Mecburiyet"tir. Teşvik-i Sanayi battığı (ve 1929 krizi çıktığı) için DEVLETÇİLİK İLKESİNE mecbur kalınmıştır. (İsmet İnönü-Sümerbank-Karma Ekonomi üçgenini unutma).</em></p>
+`,
   },
   {
     id: 69,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Atatürk İlkeleri (Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık)',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Şimdiye kadar ordular kurduk, padişahı gönderdik, meclisi açtık, yasaları değiştirdik, fabrikalar kurduk... Peki tüm bunları "hangi ruhla, hangi felsefeyle" yaptık? İşte bu ünitede, Türkiye Cumhuriyeti'ni ayakta tutan o 6 temel çelik kolonu (Altı Ok'u) göreceğiz. <br>
+ÖSYM bu konuda sana uzun uzun tarih veya ezber sormaz; sana bir "anahtar kelime" veya bir "olay" verir ve bunu doğru çekmeceye (ilkeye) koymanı ister. Örneğin "Aşar vergisi kalktı" dediğinde onu hemen "Halkçılık" çekmecesine atmalısın. "Kabotaj kanunu" dediğinde "Milliyetçilik" çekmecesine koymalısın. Bu ders bittiğinde, her ilkenin anahtarını cebine koymuş olacaksın.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü KPSS Tarih testinde (ve hatta vatandaşlıkta) <strong>banko (en az 1, genelde 2)</strong> soru bu üniteden gelir. Bir inkılabın birden fazla ilkeye girebileceği gerçeği ile "Öncelikle / Doğrudan" kavramlarını ayırt edebilmek bu sınavın en büyük altın anahtarlarından biridir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Atatürk ilkeleri 1931 yılında CHP'nin programına girmiş (Altı Ok olarak), <strong>1937 yılında ise 1924 Anayasasına eklenerek</strong> resmen devletin temel ilkeleri olmuştur. <br>
+Altı okun felsefesi şudur:<br>
+<strong>Cumhuriyetçilik</strong> devleti halkın yönetmesini (demokrasiyi) sağlar. <strong>Milliyetçilik</strong> o halkın bağımsız ve bir arada yaşamasını sağlar. <strong>Halkçılık</strong> o halkın kendi içinde eşit/ayrıcalıksız yaşamasını sağlar. <strong>Laiklik</strong> o halkın aklını özgür (bilimsel) bırakır. <strong>Devletçilik</strong> o halkın karnını (ekonomisini) doyurur. Ve <strong>İnkılapçılık</strong> tüm bu sistemin paslanmasını (durağanlaşmasını) engelleyerek sürekli çağdaşlığa (motora) güç verir.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Doğal Sonuç İlkesi</span><p>Atatürk'e göre; bir yerde Cumhuriyetçilik (herkesin eşit oyu) ve Milliyetçilik (ortak vatan-kardeşlik) varsa, orada zorunlu (doğal) olarak <strong>Halkçılık (Eşitlik)</strong> doğar. Yani Halkçılık, Cumhuriyetçilik ve Milliyetçiliğin doğal/zorunlu sonucudur.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Cumhuriyetçilik</h3>
+<p>Devletin yönetim şeklidir. Egemenliğin (yönetme gücünün) bir kişiye (padişaha) veya bir zümreye değil, kayıtsız şartsız "millete" ait olmasıdır.<br>
+<strong>Anahtar Kelimeleri:</strong> Ulusal Egemenlik, Seçme ve Seçilme, İrade, Millet Meclisi, Siyasi Partiler, Seçim, Çoğulculuk, Anayasa.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li>TBMM'nin açılması (Milli irade tecelli etti).</li>
+<li>Saltanatın kaldırılması (Kişi egemenliği bitti).</li>
+<li>Cumhuriyetin İlanı ve Halifeliğin kaldırılması (Siyasi gücü bittiği için).</li>
+<li>Kadınlara <strong>BMW</strong> (Belediye, Muhtar, Vekil) haklarının verilmesi (Halkın tümü yönetime katıldı).</li>
+<li>Çok partili hayata geçiş denemeleri (Farklı fikirler meclise yansıdı).</li>
+<li>1921 ve 1924 Anayasalarının kabulü.</li>
+</ul>
+
+<h3>3.2. Milliyetçilik (Ulusalcılık)</h3>
+<p>Atatürk milliyetçiliği ırkçı (kafatasçı) değildir! Dini veya ırkı ne olursa olsun, kendini Türk hisseden (Ne mutlu Türküm diyene), aynı kaderi ve vatanı paylaşan herkesi Türk kabul eden <strong>"Sentezci / Birleştirici"</strong> bir milliyetçiliktir.<br>
+<strong>Anahtar Kelimeleri:</strong> Tam Bağımsızlık, Türk, Milli, Birlik ve Beraberlik, Ortak Kader, Tarih Bilinci, Dil Bilinci, Kapitülasyonlara Karşı Çıkma.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li>Türk Tarih Kurumu (TTK) ve Türk Dil Kurumu'nun (TDK) açılması.</li>
+<li><strong>Kabotaj Kanunu</strong> (Denizleri millileştirdi).</li>
+<li>İzmir İktisat Kongresi (Ekonomik bağımsızlık, yerli malı).</li>
+<li>Kapitülasyonların kaldırılması.</li>
+<li>Yabancı okullara Türkçe/Tarih dersi ve Türk hoca zorunluluğu getirilmesi.</li>
+<li>Merkez Bankası'nın kurulması (Türk parasını korumak).</li>
+</ul>
+
+<h3>3.3. Halkçılık</h3>
+<p>Hiçbir kişiye, aileye, zümreye veya sınıfa <strong>ayrıcalık (imtiyaz)</strong> tanınmamasıdır. Herkesin kanun önünde eşit olması, devletin halkın refahı (mutluluğu) için çalışması (Sosyal Devlet) ilkesidir.<br>
+<strong>Anahtar Kelimeleri:</strong> Eşitlik, Adalet, Ayrıcalıksız Toplum, Sınıfsız Toplum, Sosyal Devlet, Dayanışma.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li><strong>Aşar (Öşür) Vergisinin Kaldırılması:</strong> (Köylünün sırtındaki vergi yükü bitti $\rightarrow$ Sosyal devlet).</li>
+<li><strong>Soyadı Kanunu:</strong> "Ağa, Bey, Hacı, Paşa" gibi üstünlük bildiren ayrıcalıklı unvanlar kalktı (Eşitlik).</li>
+<li><strong>Türk Medeni Kanunu:</strong> Kadın-erkek "sosyal ve ekonomik" hayatta eşitlendi.</li>
+<li>Kılık Kıyafet Kanunu (Dış görünüşteki ayrımcılık bitti).</li>
+<li>Eğitimin (ilköğretimin) <strong>parasız</strong> olması ve Millet Mekteplerinin açılması (Fırsat eşitliği).</li>
+</ul>
+
+<h3>3.4. Devletçilik</h3>
+<p>Tamamen "Ekonomi" ile ilgili ilkedir. Teşvik-i Sanayi kanunu (özel sektör/liberalizm) batınca ve 1929 krizi çıkınca <strong>ZORUNLULUKTAN (Mecburen)</strong> doğmuştur. Halkın gücünün yetmediği ağır yatırımları (demir, çelik, dokuma) devletin kendi parasıyla bizzat yapmasıdır.<br>
+<strong>Anahtar Kelimeleri:</strong> Ekonomi, Yatırım, Fabrika, Planlı Ekonomi, Kamu İktisadi Teşebbüsü (KİT), Karma Ekonomi.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li>Sümerbank ve Etibank'ın kurulması.</li>
+<li>I. ve II. Beş Yıllık Sanayi Planlarının hazırlanması.</li>
+<li>Demir-çelik, Şeker, Kağıt, Dokuma gibi büyük devlet fabrikalarının açılması.</li>
+</ul>
+<p><em>Not: İş Bankası devletçilik DEĞİLDİR (İlk özel bankadır). Aşar vergisinin kalkması para (ekonomi) ile ilgili görünse de asıl amacı köylüyü rahatlatmak olduğu için Devletçilik değil HALKÇILIKTIR.</em></p>
+
+<h3>3.5. Laiklik</h3>
+<p>Sadece "Din ve devlet işlerinin ayrılması" demek çok eksiktir. Laiklik; devletin akla ve bilime dayanması, hurafelerden (çağdışı kurallardan) arınması ve herkese <strong>din-vicdan özgürlüğü</strong> sağlamasıdır.<br>
+<strong>Anahtar Kelimeleri:</strong> Akıl, Bilim, Din ve Devlet, Vicdan/İnanç Özgürlüğü, Hurafe, Dogma (değişmez kurallar) Karşıtlığı.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li>Halifeliğin ve Saltanatın kaldırılması.</li>
+<li><strong>Tevhid-i Tedrisat:</strong> Eğitimin çağdaşlaşması ve medreselerin kapatılması.</li>
+<li><strong>Tekke, Zaviye ve Türbelerin kapatılması</strong> (Hurafelerin ve tarikatların bitirilmesi).</li>
+<li>Şeriye ve Evkaf Vekaletinin kapatılması (Yerine Diyanetin kurulması).</li>
+<li>Anayasadan "Devletin dini İslamdır" (1928) maddesinin çıkarılması ve yemin şeklinin "Vallahi" yerine "Namusum üzerine söz veririm" şeklinde değişmesi.</li>
+</ul>
+
+<h3>3.6. İnkılapçılık</h3>
+<p>Atatürk'ün "Bizim en büyük inkılabımız, inkılapçılık ilkesinin ta kendisidir" dediği, devleti durağanlıktan (paslanmaktan) kurtarıp <strong>sürekli değişime ve çağdaşlaşmaya</strong> açık tutan "motor" ilkedir. Tüm ilkeleri korur.<br>
+<strong>Anahtar Kelimeleri:</strong> Çağdaşlaşma, Batılılaşma, Modernleşme, Dinamizm (Durağan Olmama), Yenilik, Sürekli Değişim.<br>
+<strong>Doğrudan İlgili İnkılaplar:</strong></p>
+<ul>
+<li>Aslında "Tüm İnkılaplar" inkılapçılığa girer. Ancak spesifik olarak Batı'ya uyum yasaları banko inkılapçılıktır:</li>
+<li>Şapka Kanunu, Harf İnkılabı (Latin harfleri).</li>
+<li><strong>Takvim, Saat, Rakam, Ölçü ve Hafta Sonu Tatilinin (Avrupa'ya uydurulmak için) değişmesi.</strong></li>
+</ul>
+
+<h3>3.7. Bütünleyici (Tamamlayıcı) İlkeler</h3>
+<p>Altı ok'un alt dalları (destekçileri) olan ilkelerdir. Soru kökünde gelirse neyle eşleştireceğini bilmelisin:</p>
+<ul>
+<li><strong>Milli Egemenlik:</strong> Doğrudan <strong>Cumhuriyetçilik</strong> ilkesini bütünler. (Yönetimle ilgilidir).</li>
+<li><strong>Milli Bağımsızlık:</strong> Doğrudan <strong>Milliyetçilik</strong> ilkesini bütünler. (Ekonomik, siyasi, askeri bağımsızlık).</li>
+<li><strong>Akılcılık ve Bilimsellik:</strong> Doğrudan <strong>Laiklik</strong> ilkesini bütünler.</li>
+<li><strong>Çağdaşlık ve Uygarlaşma:</strong> Doğrudan <strong>İnkılapçılık</strong> ilkesini bütünler.</li>
+<li><strong>Milli Birlik ve Beraberlik:</strong> Doğrudan <strong>Milliyetçilik</strong> ve <strong>Halkçılık</strong> ilkelerini bütünler.</li>
+<li><strong>Yurtta Sulh, Cihanda Sulh (Barış):</strong> Türkiye'nin barışçıl dış politikasını bütünler (Örn: Milletler Cemiyetine girmemiz, Balkan Antantı, Sadabat Paktı).</li>
+</ul>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>1929 Ekonomik Krizi (Sebep) $\rightarrow$ Devletçiliğe Geçiş (Sonuç):</strong> Devletçilik en baştan planlanmış bir ideal değil, dış faktörlerin dayattığı bir ekonomik mecburiyettir.</li>
+<li><strong>Ayrıcalıkların ve Sınıfların Çatışması (Sebep) $\rightarrow$ Halkçılık İlkesi (Çözüm):</strong> Soyadı Kanunu ile sınıf farkları (Ağa, Paşa), Medeni kanun ile cinsiyet farkları (Kadın-Erkek) kaldırılarak Halkçılık (Eşitlik) sağlanmıştır.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış ve İlkeler</h2>
+<p><em>(Not: İlkelerin kendisi tarihsel bir kronolojiye sahip değildir, olayların ilkelerle bağı önemlidir. 1937 yılında Altı Ok anayasaya girmiştir).</em></p>
+<table>
+<thead>
+<tr>
+<th>Olay / İnkılap</th>
+<th>Doğrudan İlgili Olduğu İLKE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saltanatın Kaldırılması (1922)</td>
+<td>Cumhuriyetçilik (ve Laiklik)</td>
+</tr>
+<tr>
+<td>İzmir İktisat Kongresi (1923)</td>
+<td>Milliyetçilik (Bağımsız ekonomi)</td>
+</tr>
+<tr>
+<td>Tevhid-i Tedrisat (1924)</td>
+<td>Laiklik (Medrese kapandı), Milliyetçilik (Türkçe/Tarih şartı)</td>
+</tr>
+<tr>
+<td>Aşar Vergisinin Kaldırılması (1925)</td>
+<td>Halkçılık (Köylü korundu)</td>
+</tr>
+<tr>
+<td>Kabotaj Kanunu (1926)</td>
+<td>Milliyetçilik (Denizler Türkleşti)</td>
+</tr>
+<tr>
+<td>Türk Medeni Kanunu (1926)</td>
+<td>Halkçılık (Kadın-Erkek eşitlendi), Laiklik (Mecelle atıldı)</td>
+</tr>
+<tr>
+<td>Harf / Şapka / Takvim / Ölçü Değişimi</td>
+<td>İnkılapçılık (Batı'ya uyum ve çağdaşlaşma)</td>
+</tr>
+<tr>
+<td>Sümerbank / I. Sanayi Planı (1930'lar)</td>
+<td>Devletçilik (Ekonomi-Yatırım)</td>
+</tr>
+<tr>
+<td>Kadınlara Seçme/Seçilme (BMW)</td>
+<td>Cumhuriyetçilik (Siyaset/Meclis)</td>
+</tr>
+<tr>
+<td>Soyadı Kanunu (1934)</td>
+<td>Halkçılık (Ayrıcalıklar / Ağa-Paşa kalktı)</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Aynı Kelime - Farklı İlke (En Büyük Tuzak!)</h3>
+<table>
+<thead>
+<tr>
+<th>Karıştırılan İnkılap</th>
+<th>CUMHURİYETÇİLİK</th>
+<th>HALKÇILIK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kadın Hakları</strong></td>
+<td>Eğer kadına "Oy verme, muhtar/vekil olma (siyasi)" hak veriliyorsa bu <strong>Cumhuriyetçilik'tir</strong>.</td>
+<td>Eğer kadına "Boşanma, mirastan eşit pay alma, çalışma (sosyal)" hakkı veriliyorsa bu <strong>Halkçılık'tır</strong> (Medeni Kanun).</td>
+</tr>
+<tr>
+<td><strong>Eşitlik Kavramı</strong></td>
+<td>"Herkesin EŞİT OY hakkı vardır (tek oy)" diyorsa Cumhuriyetçiliktir.</td>
+<td>"Herkes kanun (mahkeme/vergi) önünde EŞİTTİR" diyorsa Halkçılıktır.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>"Halkçılık" İki İlkenin Doğal Sonucudur:</strong> Atatürk'e göre bir ülkede "Cumhuriyetçilik (milli irade)" ve "Milliyetçilik (ortak vatan)" varsa, o ülkede mecburen "Halkçılık (eşitlik)" doğar.</li>
+<li><strong>Faşizm (Irkçılık) Yoktur:</strong> Atatürk Milliyetçiliği kafatasçı (genetik/ırkçı) değildir. "Ne mutlu Türk olana (doğana)" demez; "Ne mutlu Türküm DİYENE" der. Yani kendini bu millete ait hisseden herkes Türk'tür. Birleştiricidir.</li>
+<li><strong>Laiklik ve İnkılapçılık Özelliği:</strong> Bu iki ilke asla "Taviz Verilemez (Tartışılamaz)" ilkelerdir. Atatürk siyasi partiler (Terakkiperver vb.) kurulurken "Her ekonomik görüşü savunabilirsiniz ama Laikliğe dokunamazsınız" demiştir.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Devletçilik" İstisnası</span><p>Devletçilik sadece ekonomi ve yatırımla ilgilidir. Soru kökünde para, sermaye, plan, fabrika veya KİT (Kamu İktisadi Teşebbüsü) geçmiyorsa o şıkkı Devletçilik olarak düşünme. (Aşar vergisinin ekonomiyle ilgili gibi görünüp aslında çiftçiyi eşit/rahat kıldığı için Halkçılık olduğunu sakın unutma).</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Medeni Kanun Cumhuriyetçiliktir" Tuzağı.</strong> Defalarca söyledik, yine söyleyelim. Medeni kanunda siyaset/seçim/meclis YOKTUR. O yüzden Cumhuriyetçilik O-LA-MAZ! Medeni kanun, eşitlik getirdiği için <strong>Halkçılık</strong>, dini kuralları (Mecelle) çöpe attığı için <strong>Laikliktir</strong>.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Devletçilik özel mülkiyeti yasaklar" Tuzağı.</strong> Atatürk Devletçiliği, Sovyet Rusya (Komünizm) gibi özel bakkalı, özel tarlayı yasaklayıp her şeye el koyan bir sistem değildir. "Halk kendi fabrikasını, atölyesini, tarlasını işletsin; halkın gücünün yetmediği ağır sanayiyi ben (Devlet) yapayım" der. (Karma Ekonomi).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Tevhid-i Tedrisat sadece Laikliktir" Tuzağı.</strong> Tevhid-i Tedrisat (Eğitim Birliği) banko 3 ilkeye girer: Medreseleri kapattığı için <strong>Laiklik</strong>; eğitimde herkesi eşitlediği/parasız yaptığı için <strong>Halkçılık</strong>; yabancı okullara Türkçe/Tarih dersi zorunluluğu getirdiği için <strong>Milliyetçilik</strong>. Soru kökündeki vurguya dikkat et!</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Aşar vergisinin kaldırılması Devletçiliktir" Tuzağı.</strong> Vergi = Para = Devletçilik diye düşünme! Aşar vergisi bir yatırım veya fabrika hamlesi değildir. Köylünün sırtındaki adaletsiz yükü kaldırıp köylüyü nefes aldıran Sosyal Devlet hamlesidir. Yani banko <strong>HALKÇILIKTIR</strong>.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 İlke - Şifre (Anahtar) Kelime Eşleştirmeleri</span><p>• <strong>Cumhuriyetçilik:</strong> Seçim, Parti, İrade, Meclis, Siyaset.<br>
+• <strong>Milliyetçilik:</strong> Bağımsızlık, Türk, Tarih, Dil, Kabotaj.<br>
+• <strong>Halkçılık:</strong> Eşitlik, Adalet, Unvan yasakları (Ağa, Paşa), Aşar vergisi.<br>
+• <strong>Laiklik:</strong> Akıl, Bilim, Din-Vicdan Özgürlüğü, Hurafe.<br>
+• <strong>Devletçilik:</strong> Fabrika, Ekonomi, Yatırım, Sümerbank, Sanayi Planı.<br>
+• <strong>İnkılapçılık:</strong> Yenilik, Çağdaşlaşma, Batılılaşma (Takvim, Şapka vb.).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Cumhuriyetçilik:</strong> Milli egemenliği, demokrasiyi ve siyasi hakları (Seçme-Seçilme) temsil eder.<br>
+• <strong>Milliyetçilik:</strong> Birleştirici (ırkçı olmayan), tam bağımsızlığı, Türk dilini ve tarihini (TTK/TDK) savunan ilkedir.<br>
+• <strong>Halkçılık:</strong> Toplumda ayrıcalıkları (Soyadı kanunuyla) bitiren, herkesi eşitleyen ve köylüyü koruyan (Aşar vergisinin iptali) ilkedir.<br>
+• <strong>Devletçilik:</strong> 1929 krizinden sonra mecburen geçilen, sanayi ve ekonomiyi planlayan (Sümerbank) ilkedir.<br>
+• <strong>Laiklik:</strong> Dini sömürüyü (Tekke/Zaviye/Medrese) bitiren, devleti akıl ve bilime dayandıran ilkedir.<br>
+• <strong>İnkılapçılık:</strong> Durağanlığa karşı olan, sürekli yenilik ve çağdaşlık (Şapka, Takvim vb.) öngören ilkedir.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Saltanatın kaldırılması (Siyasi):</strong> Cumhuriyetçilik.<br>
+• <strong>Kapitülasyonların kaldırılması (Bağımsızlık):</strong> Milliyetçilik.<br>
+• <strong>Kabotaj Kanunu (Denizlerin Türkleşmesi):</strong> Milliyetçilik.<br>
+• <strong>Aşar (Öşür) vergisinin kaldırılması:</strong> Halkçılık.<br>
+• <strong>Soyadı Kanunu (Unvan yasakları):</strong> Halkçılık.<br>
+• <strong>Türk Medeni Kanunu:</strong> Halkçılık (Eşitlik) ve Laiklik.<br>
+• <strong>I. Beş Yıllık Sanayi Planı:</strong> Devletçilik.<br>
+• <strong>Tevhid-i Tedrisat:</strong> Laiklik, Milliyetçilik, Halkçılık.<br>
+• <strong>Kılık Kıyafet Kanunu (Dini cübbe yasağı):</strong> Laiklik.<br>
+• <strong>Hafta Tatili, Takvim, Saat Değişimi:</strong> İnkılapçılık.<br>
+• <strong>"Akılcılık ve Bilimsellik" bütünleyicisi:</strong> Laiklik.<br>
+• <strong>Taviz verilemez 2 ilke:</strong> Cumhuriyetçilik ve Laiklik.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Atatürk'ün "Egemenlik, kayıtsız şartsız milletindir. İdare usulü, halkın mukadderatını bizzat ve bilfiil idare etmesi esasına dayanır." sözü, <strong>doğrudan</strong> aşağıdaki ilkelerden hangisiyle ilgilidir?</p>
+<p>A) Laiklik &nbsp; B) Devletçilik &nbsp; C) Cumhuriyetçilik &nbsp; D) Milliyetçilik</p>
+<p><strong>Çözüm:</strong> Egemenlik, irade, seçim, meclis ve halkın kendini yönetmesi gibi kavramlar doğrudan Cumhuriyet (demokrasi) kavramını tanımlar. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Atatürk milliyetçiliği, kendini Türk hisseden ve Türkiye Cumhuriyeti'ne vatandaşlık bağıyla bağlı olan herkesi Türk sayar. <br>Buna göre Atatürk milliyetçiliği için aşağıdakilerden hangisi <strong>söylenemez</strong>?</p>
+<p>A) Birleştirici ve bütünleştiricidir &nbsp; B) Irkçılığa (Kafatasçılığa) dayanır &nbsp; C) Tam bağımsızlığı savunur &nbsp; D) Ortak dil ve tarih bilincini önemser</p>
+<p><strong>Çözüm:</strong> Faşist (ırkçı) milliyetçilik genetiğe, kana bakar. Atatürk milliyetçiliği ise duyguya (Ne mutlu Türküm diyene) ve vatandaşlığa (Anayasaya) bakar. Kesinlikle ırkçı değildir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Aşağıdaki inkılaplardan hangisi, toplumdaki sınıf ayrımlarını, "Ağa, Hacı, Hafız, Paşa" gibi üstünlük bildiren unvanları ortadan kaldırarak <strong>"Halkçılık"</strong> ilkesini doğrudan pekiştirmiştir?</p>
+<p>A) Kabotaj Kanunu &nbsp; B) Soyadı Kanunu &nbsp; C) Teşvik-i Sanayi Kanunu &nbsp; D) Halifeliğin Kaldırılması</p>
+<p><strong>Çözüm:</strong> Soyadı kanunuyla herkese eşit (ayrıcalıksız) soyadı verilmiş, eski sınıfsal (zengin/dini) unvanlar yasaklanarak kanun önünde eşitlik (Halkçılık) sağlanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>1930'lu yıllarda özel sektörün sermaye yetersizliği ve 1929 Dünya Ekonomik Krizi (Büyük Buhran) sebebiyle Türkiye'nin mecburen uyguladığı, büyük sanayi yatırımlarını (Sümerbank, fabrikalar vb.) <strong>bizzat devletin üstlendiği</strong> Atatürk ilkesi hangisidir?</p>
+<p>A) Laiklik &nbsp; B) İnkılapçılık &nbsp; C) Milliyetçilik &nbsp; D) Devletçilik</p>
+<p><strong>Çözüm:</strong> Ekonomik kriz sonrası yatırımların (fabrika kurmanın) hükümet/devlet tarafından planlı şekilde yapılması "Devletçilik" ilkesidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Türkiye Cumhuriyeti'nin eğitim, hukuk ve devlet yönetiminde dini kuralların (şeriatın) yerine <strong>aklı, bilimi ve çağdaş hukuku</strong> merkeze alması, aşağıdaki ilkelerden hangisinin doğrudan bir sonucudur?</p>
+<p>A) Laiklik &nbsp; B) Devletçilik &nbsp; C) Milliyetçilik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Akıl, bilim, vicdan hürriyeti ve hurafelerin (Tekke, medrese, Mecelle vb.) reddedilmesi, devletin Laiklik ilkesine dayandığını gösterir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>1 Temmuz 1926'da çıkarılan <strong>Kabotaj Kanunu</strong> ile, Türk karasularında (denizlerimizde) yolcu ve yük taşıma hakkı yabancılardan alınarak tamamen Türk denizcilerine verilmiştir. <br>Bu kanun <strong>doğrudan</strong> hangi ilkeyle ilgilidir?</p>
+<p>A) Cumhuriyetçilik &nbsp; B) Laiklik &nbsp; C) Milliyetçilik &nbsp; D) Devletçilik</p>
+<p><strong>Çözüm:</strong> Deniz işletmelerinin yabancı boyunduruğundan (kapitülasyonlardan) kurtarılıp Türkleştirilmesi, "Tam Bağımsızlık ve Milli ekonomi" yani Milliyetçilik ilkesidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Atatürk'ün "Yaptığımız ve yapmakta olduğumuz inkılapların gayesi, Türkiye Cumhuriyeti halkını tamamen çağdaş ve bütün anlam ve görüşleriyle uygar bir toplum haline ulaştırmaktır." sözü, <strong>durağanlığa karşı olan</strong> hangi ilkeyi ifade eder?</p>
+<p>A) Halkçılık &nbsp; B) İnkılapçılık &nbsp; C) Milliyetçilik &nbsp; D) Devletçilik</p>
+<p><strong>Çözüm:</strong> Çağdaşlaşma, Batılılaşma, uygarlaşma ve sürekli yenilik (değişim/dinamizm) İnkılapçılık ilkesinin şifre kelimeleridir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Köylünün sırtındaki en büyük vergi yükü olan ve devlet gelirlerinin çok büyük bir kısmını oluşturmasına rağmen 1925'te köylüyü rahatlatmak için kaldırılan <strong>Aşar (Öşür) vergisinin iptali</strong>, hangi ilkeyle doğrudan eşleşir?</p>
+<p>A) Laiklik &nbsp; B) Cumhuriyetçilik &nbsp; C) Devletçilik &nbsp; D) Halkçılık</p>
+<p><strong>Çözüm:</strong> En büyük tuzaklardan biridir. Ekonomiyle ilgili olduğu için Devletçiliğe gitmeyin. Devletin kendi gelirini çöpe atarak fakir çiftçiyi/köylüyü koruması, sosyal devlet (Halkçılık) gereğidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Aşağıdaki inkılaplardan hangisi <strong>doğrudan Laiklik</strong> ilkesi doğrultusunda yapılmış bir devrimdir?</p>
+<p>A) Yeni Türk Harflerinin kabulü &nbsp; B) Tekke, Zaviye ve Türbelerin kapatılması &nbsp; C) I. Sanayi Planının uygulanması &nbsp; D) Kadınlara Muhtarlık hakkının verilmesi</p>
+<p><strong>Çözüm:</strong> Tarikatların, dervişlerin ve dini sömürünün (irticanın) merkezi olan Tekkelerin kapatılması, akıl ve bilim devleti olan Laik Türkiye'nin gereğidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Bütünleyici ilkelerden olan <strong>"Akılcılık ve Bilimsellik"</strong>, Atatürk'ün Altı Ok'undan hangisinin temel felsefesini (bütünleyicisini) oluşturur?</p>
+<p>A) Laiklik &nbsp; B) Cumhuriyetçilik &nbsp; C) Milliyetçilik &nbsp; D) Halkçılık</p>
+<p><strong>Çözüm:</strong> Aklın ve bilimin rehberliği, dinin devlet/hukuk işlerine karıştırılmaması anlamına gelen Laiklik ilkesinin ruhudur. (Milli Egemenlik = Cumhuriyetçiliktir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>1934 yılında kadınlara <strong>Milletvekili seçme ve seçilme (BMW'nin W/V'si)</strong> hakkının verilmesi, devlet yönetimine katılımı sağladığı için öncelikle hangi Atatürk ilkesinin bir gereğidir?</p>
+<p>A) Milliyetçilik &nbsp; B) Laiklik &nbsp; C) Cumhuriyetçilik &nbsp; D) Devletçilik</p>
+<p><strong>Çözüm:</strong> Nüfusun yarısını oluşturan kadınlar oy vermeden/vekil olmadan milli irade (meclis) tam oluşamaz. Siyasi (seçim) hakların tamamı doğrudan Cumhuriyetçiliktir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>1926 yılında kabul edilen <strong>Türk Medeni Kanunu</strong>, kadınlara boşanma hakkı, mirasta eşitlik ve istediği meslekte çalışma hakkı getirerek <strong>Halkçılık</strong> ilkesini pekiştirmiştir. <br>Medeni Kanun, bu özelliğinin <strong>yanı sıra</strong> Mecelle'yi (dini kurallara dayalı hukuku) çöpe attığı için aşağıdaki ilkelerden hangisine de girer?</p>
+<p>A) Devletçilik &nbsp; B) Laiklik &nbsp; C) Milliyetçilik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Mecelle İslami/Dini (Fıkıh) kurallara dayanıyordu. Akla ve çağdaş hukuka dayanan İsviçre Medeni Kanunu'nun alınması, hukukun dinden arındırılması yani Laikliktir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Atatürk'ün "Halkçılık" ilkesi, toplumda hiçbir zümreye ayrıcalık tanınmamasını ve herkesin eşit olmasını savunur. <br>Atatürk'e göre bu Halkçılık (Eşitlik) ilkesi, aslında <strong>hangi iki temel ilkenin doğal (ve zorunlu) sonucudur</strong>?</p>
+<p>A) Laiklik ve Devletçilik &nbsp; B) Cumhuriyetçilik ve Milliyetçilik &nbsp; C) İnkılapçılık ve Devletçilik &nbsp; D) Laiklik ve İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Cumhuriyette (demokraside) herkesin oyu eşittir (Ağanın da çobanın da oyu 1'dir). Milliyetçilikte herkes aynı vatanı, aynı tarihi paylaşır (Biz biriz, kardeşiz der). Eşit oy (Cumhuriyet) ve Kardeşlik/Ortak vatan (Milliyetçilik) olan yerde mecburen "Halkçılık / Eşitlik" doğar. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Aşağıdaki gelişmelerden hangisi, <strong>İnkılapçılık</strong> ilkesi doğrultusunda Türkiye'nin "Batı (Avrupa) ile olan ticari ve ekonomik uyumunu (senkronizasyonunu) sağlamak" amacıyla yapılan devrimlerden biri <strong>değildir</strong>?</p>
+<p>A) Hafta sonu tatilinin Cuma'dan Pazar'a alınması &nbsp; B) Hicri takvimin bırakılıp Miladi takvime geçilmesi &nbsp; C) Arşın, okka yerine Metre ve Kilogramın (Uluslararası ölçülerin) kabul edilmesi &nbsp; D) Türk Tarih Kurumu'nun (TTK) kurulması</p>
+<p><strong>Çözüm:</strong> Takvim, saat, ölçü ve hafta tatilinin değişmesi tamamen Batılı tüccarla uyum (İnkılapçılık) içindir. TTK ise milli köklerimizi arayan Milliyetçilik adımıdır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Türkiye'nin Sovyet Rusya gibi katı komünist (özel mülkiyeti yasaklayan) bir ekonomi modelini değil, <strong>"Özel sektörün serbest olduğu ancak özel sektörün yapamadığı ağır sanayi yatırımlarını Devletin üstlendiği (Karma Ekonomi)"</strong> modelini benimsemesi, hangi ilkeyi açıklar?</p>
+<p>A) Devletçilik &nbsp; B) Milliyetçilik &nbsp; C) Laiklik &nbsp; D) İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Bizdeki Devletçilik anlayışı, halka düşman değildir; halkın sermayesi (Teşvik-i Sanayide) yetmediği için mecburen ortaya çıkan yatırımların devletçe (Sümerbank vd.) yapılmasıdır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Tevhid-i Tedrisat (Eğitim Birliği) Kanunu, üç farklı Atatürk ilkesiyle doğrudan ilişkilidir. <br>Buna göre Tevhid-i Tedrisat Kanunu'nun içindeki <strong>"Eğitimin ilköğretimde parasız ve fırsat eşitliğine dayalı olması ile karma eğitime (kız-erkek) geçilmesi"</strong> maddesi hangi ilkeye vurgu yapar?</p>
+<p>A) Milliyetçilik &nbsp; B) Halkçılık &nbsp; C) Laiklik &nbsp; D) Devletçilik</p>
+<p><strong>Çözüm:</strong> Tevhid-i Tedrisatta "Medrese kapandı" deseydi Laiklik olurdu. "Yabancı okula Türk hoca" deseydi Milliyetçilik olurdu. "Parasız/Karma Eğitim" diyerek eşitliğe ve sosyal devlete vurgu yaptığı için Halkçılıktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>1932 Yılında kurulan Türk Dil Kurumu'nun (TDK), Türkçeyi Arapça ve Farsça kelimelerin boyunduruğundan kurtararak zengin ve bağımsız bir dil yapma çabası, <strong>doğrudan</strong> hangi ilkeyle ilgilidir?</p>
+<p>A) Devletçilik &nbsp; B) Cumhuriyetçilik &nbsp; C) Milliyetçilik &nbsp; D) Laiklik</p>
+<p><strong>Çözüm:</strong> Dil, tarih ve kültürün milli (öz) benliğine döndürülmesi ve yabancı etkisinden kurtarılması (tam bağımsızlık) Milliyetçiliktir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Yeni kurulan Cumhuriyet rejimini yıpratmak ve eski dini (şeriat) düzeni geri getirmek amacıyla (din elden gidiyor kışkırtmasıyla) çıkarılan <strong>Şeyh Sait İsyanı</strong>, doğası gereği <strong>en çok (öncelikle)</strong> hangi Atatürk ilkelerini tehdit etmiştir?</p>
+<p>A) Cumhuriyetçilik ve Laiklik &nbsp; B) Devletçilik ve Halkçılık &nbsp; C) Milliyetçilik ve İnkılapçılık &nbsp; D) Sadece Devletçilik</p>
+<p><strong>Çözüm:</strong> İrtica (gericilik) isyanları, doğrudan rejimi (Cumhuriyeti) yıkmak ve aklı/bilimi (Laikliği) yok edip dini kuralları getirmek amacıyla yapıldığı için bu iki temel taviz verilemez ilkeyi hedef alır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Atatürk'ün "Yurtta Sulh, Cihanda Sulh (Barış)" sözü, Türkiye'nin dış politikasının (Balkan Antantı, Sadabat Paktı vb.) temelini oluşturur. Bu söz, Atatürk ilkelerinden hangisinin <strong>"bütünleyicisi"</strong> kabul edilir?</p>
+<p>A) Türk Dış Politikasını (ve dolaylı olarak İnsaniyetçilik/Milliyetçiliği) &nbsp; B) Devletçiliği &nbsp; C) Laikliği &nbsp; D) İnkılapçılığı</p>
+<p><strong>Çözüm:</strong> "Yurtta Barış, Dünyada Barış" ilkesi, Türkiye'nin emperyalist/saldırgan olmadığını, komşularıyla iyi geçinmeyi hedefleyen barışçıl dış politikasını bütünler. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Lozan Barış Antlaşması'nda "Kapitülasyonların kesin olarak kaldırılması" (tüm ısrarlara rağmen taviz verilmemesi), Türkiye'nin <strong>ekonomik anlamda tam bağımsızlığını</strong> sağlamıştır. <br>Bu durum doğrudan hangi ilkeyle ilgilidir?</p>
+<p>A) Halkçılık &nbsp; B) Cumhuriyetçilik &nbsp; C) Milliyetçilik &nbsp; D) Laiklik</p>
+<p><strong>Çözüm:</strong> Kapitülasyonlar (yabancıların ülkemizde vergisiz ticaret yapması) ekonomik bağımsızlığımızı (Milli ekonomimizi) yok ediyordu. Bunların kaldırılması ekonomik Milliyetçiliktir (Devletçilik değil). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Olay $\rightarrow$ İlke eşleştirmelerinden hangisi <strong>yanlıştır</strong>?</p>
+<p>A) Kadınlara Milletvekilliği (Seçim) Hakkı verilmesi $\rightarrow$ Cumhuriyetçilik &nbsp; B) I. Beş Yıllık Sanayi Planının (Sümerbank) Uygulanması $\rightarrow$ Devletçilik &nbsp; C) Aşar (Öşür) Vergisinin Kaldırılması $\rightarrow$ Devletçilik &nbsp; D) Tekke, Zaviye ve Türbelerin Kapatılması $\rightarrow$ Laiklik</p>
+<p><strong>Çözüm:</strong> 100 kere gelse 100 kere uyarıcağız: Aşar vergisinin kalkması ekonomi (yatırım) amaçlı değil, köylüyü ezen adaletsizliği bitirip sosyal devlet olmak (Eşitlik) içindir. Yani Devletçilik değil, <strong>HALKÇILIKTIR</strong>. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Mustafa Kemal'in; "Biz kimsenin düşmanı değiliz. Yalnız insanlığın düşmanı olanların düşmanıyız." sözü, onun <strong>Milliyetçilik</strong> anlayışının hangi temel özelliğini yansıtır?</p>
+<p>A) Yayılmacı (Emperyalist) olduğunu &nbsp; B) İnsaniyetçi, barışçıl (Yurtta Sulh Cihanda Sulh) ve diğer milletlerin bağımsızlığına saygılı olduğunu &nbsp; C) Sadece Türk ırkının üstünlüğünü savunduğunu &nbsp; D) Yabancı ülkeleri sömürmek istediğini</p>
+<p><strong>Çözüm:</strong> Atatürk milliyetçiliği Hitler (Almanya) veya Mussolini (İtalya) milliyetçiliği gibi saldırgan, üstün ırkçı ve faşist değildir. Savunmacıdır, barışçıldır ve diğer milletlerin bağımsızlığına (insaniyetçiliğe) saygı duyar. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Çok partili hayata geçiş denemeleri kapsamında Terakkiperver Cumhuriyet Fırkası ve Serbest Cumhuriyet Fırkası gibi muhalefet partilerinin kurulması (farklı siyasi fikirlerin meclise girmesinin istenmesi), <strong>hangi iki</strong> Atatürk ilkesini güçlendirmeyi (pekiştirmeyi) amaçlar?</p>
+<p>A) Cumhuriyetçilik ve Laiklik &nbsp; B) Milliyetçilik ve Devletçilik &nbsp; C) Cumhuriyetçilik ve Halkçılık (Milli iradenin tüm kesimleriyle meclise yansıması) &nbsp; D) Laiklik ve İnkılapçılık</p>
+<p><strong>Çözüm:</strong> Seçim ve parti = Cumhuriyetçilik. Ancak bir mecliste sadece tek bir parti (tek görüş) varsa, diğer kesimlerin (halkın geri kalanının) hakkı yeniyor demektir. Farklı partiler kurdurarak "herkesin fikrini eşit şekilde meclise taşımak" aynı zamanda Demokrasinin ve Eşitliğin (Halkçılığın) gereğidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>1937 yılında yapılan anayasa değişikliğiyle "Atatürk İlkelerinin (Altı Ok'un)" tamamı 1924 Anayasası'nın metnine (2. maddeye) girmiştir. <br>Atatürk ilkelerinin <strong>anayasaya girmesinin (hukukileşmesinin)</strong> devlet yapısına kattığı en büyük anlam nedir?</p>
+<p>A) Türkiye'nin tamamen komünist bir devlet olması &nbsp; B) Anayasanın tamamen Laikleşmesi ve ilkelerin (devletin felsefesinin) devletin sarsılmaz (resmi) temel kanunu haline gelmesi &nbsp; C) Halifeliğin geri gelmesine zemin hazırlanması &nbsp; D) Siyasi partilerin yasaklanması</p>
+<p><strong>Çözüm:</strong> 1928'de anayasadan "Devletin dini İslamdır" maddesi çıkmıştı. 1937'de Altı Ok (Laiklik dahil) anayasaya girince, devlet resmen, yasal ve sarsılmaz şekilde Laik ve İnkılapçı bir karaktere bürünmüştür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Atatürk'ün "Benim manevi mirasım ilim ve akıldır. Benden sonra benim siyasi ve ilmi dogmalar (değişmez/kesin kurallar) bırakmadığımı kabul edenler, benim mirasçım olurlar." sözü, doğrudan <strong>hangi ilkeyi</strong> işaret etmektedir?</p>
+<p>A) Milliyetçilik &nbsp; B) Devletçilik &nbsp; C) İnkılapçılık (Dinamizm ve değişime açıklık) &nbsp; D) Halkçılık</p>
+<p><strong>Çözüm:</strong> Dogma; tartışılması, sorgulanması ve değiştirilmesi yasak olan katı (dini/ideolojik) kuraldır. Atatürk "Ben kural bırakmıyorum, zaman neyi gerektiriyorsa (bilim ne diyorsa) sürekli değişin/yenilenin" diyerek İnkılapçılığın dinamik (akılcı) ruhunu vasiyet etmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>İzmir İktisat Kongresi'nde "Yabancı tekellerinden kaçınılmalı, hammaddesi yurt içinden sağlanan sanayi dalları kurulmalı, milli bankalar açılmalıdır." kararları alınmıştır. <br>Kongrenin bu kararları hangi Atatürk ilkesinin <strong>ekonomi alanındaki</strong> yansımasıdır?</p>
+<p>A) Milliyetçilik (Tam bağımsız ekonomi) &nbsp; B) Devletçilik &nbsp; C) Laiklik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> "Milli" banka, "Yerli" malı, "Yabancı" (kapitülasyon) reddi... Kendi yağımızla kavrulup yabancıya (dışa) bağımlı olmamak "Tam Bağımsızlık" yani Ekonomik Milliyetçiliktir. (O dönem daha Devletçilik yok, liberalizm var). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Cumhuriyet döneminde yapılan aşağıdaki devrimlerden hangisi <strong>yalnızca İnkılapçılık</strong> ilkesiyle izah edilebilir? (Yani içinde ekonomi, milliyetçilik veya siyaset yoktur, sadece Batıya uyum vardır)</p>
+<p>A) Kabotaj Kanunu &nbsp; B) Tevhid-i Tedrisat &nbsp; C) Hicri Takvimin yerine Miladi Takvimin kabul edilmesi (ve Hafta Tatilinin pazara alınması) &nbsp; D) Sümerbank'ın kurulması</p>
+<p><strong>Çözüm:</strong> Takvim ve hafta tatilinin değişmesi; devleti laikleştiren (dinle alakası yok) veya millileştiren bir şey değildir. Tamamen Batılı (Avrupalı) tüccarla iş yapabilmek, çağa ve onlara ayak uydurmak (İnkılapçılık/Çağdaşlaşma) içindir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Osmanlı'nın hukuk kurallarının temelini oluşturan Mecelle, şeriat (din) temelli olduğu için kaldırılmış ve yerine Türk Medeni Kanunu getirilmiştir. <br>Buna göre Medeni Kanun, hukuku <strong>dinden arındırarak akla dayandırdığı</strong> için hangi ilkeyle de ilgilidir?</p>
+<p>A) Milliyetçilik &nbsp; B) Laiklik &nbsp; C) Devletçilik &nbsp; D) Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Medeni kanunun kadın-erkek eşitliği (Halkçılık) dışında en büyük felsefesi, hukuku dini kurallardan alıp (İsviçre'den alarak) akılcı ve bilimsel bir temele (Laik hukuk) oturtmasıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p><strong>"Milli Egemenlik"</strong> ve <strong>"Milli Bağımsızlık"</strong> kavramları sırasıyla hangi Atatürk ilkelerinin bütünleyicisidir?</p>
+<p>A) Laiklik - Halkçılık &nbsp; B) Cumhuriyetçilik - Milliyetçilik &nbsp; C) Devletçilik - İnkılapçılık &nbsp; D) Milliyetçilik - Cumhuriyetçilik</p>
+<p><strong>Çözüm:</strong> Egemenlik, irade, seçim, meclis, yönetim = Cumhuriyetçilik. Bağımsızlık, yerli malı, kapitülasyonların reddi, Türk = Milliyetçilik. Sıralama B şıkkıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Atatürk'ün Halkçılık ilkesi; sınıf, zümre, aile ayrımcılığını reddeder ve Sosyal Devlet anlayışını benimser. <br>Aşağıdakilerden hangisi bu anlayışla (Halkçılıkla) <strong>çelişen (ters düşen)</strong> bir durumdur?</p>
+<p>A) Devlet hastanelerinde ücretsiz sağlık hizmeti verilmesi &nbsp; B) Yoksul başarılı öğrencilere devlet bursu verilmesi (Parasız yatılı okullar) &nbsp; C) Toplumun sadece belli bir grubuna (zenginlere veya din adamlarına) vergi muafiyeti ve yargısal <strong>imtiyaz (ayrıcalık)</strong> sağlanması &nbsp; D) Soyadı Kanunu ile herkesin kanun önünde eşit sayılması</p>
+<p><strong>Çözüm:</strong> İmtiyaz (Ayrıcalık), Halkçılığın bir numaralı düşmanıdır. Halkçılıkta herkes kanun ve devlet önünde "bir tarak dişleri gibi" eşittir. Hiç kimseye zenginliğinden, soyundan veya cübbesinden dolayı imtiyaz verilemez. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: KPSS'de İlkeler sorusu çözerken cümlenin bütününe değil, "Anahtar Kelimesine" odaklan! "Seçim/Meclis/İrade" gördün mü yapıştır Cumhuriyetçiliği. "Tam Bağımsızlık/Kabotaj/Türk" gördün mü yapıştır Milliyetçiliği. "Eşitlik/Aşar/Soyadı" gördün mü yapıştır Halkçılığı. "Fabrika/Kriz/Sümerbank" gördün mü yapıştır Devletçiliği. "Akıl/Hurafeler/Tekke" gördün mü yapıştır Laikliği. Bu şifrelerle soru kaçırman imkansızdır.</em></p>
+`,
   },
   {
     id: 70,
     category: 'Tarih',
     categoryId: 'tarih',
     title: '1923-1930 Dış Politika',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Musul, Etabli, Yabancı Okullar, Dış Borçlar, Bozkurt-Lotus)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Cumhuriyeti kurduk, içerideki devrimleri yaptık ama dışarıda, Lozan masasından kalan bazı "yarım kalmış hesaplar" bizi bekliyordu. 1923 ile 1930 yılları arasındaki dış politikamızın tek bir özeti vardır: <strong>"Lozan'dan kalan sorunları temizlemek ve devleti dış dünyaya kabul ettirmek."</strong> <br>
+ÖSYM bu dönemde sana ülkelerle sorunları eşleştirmeni ister: Musul kavgası kiminleydi? (İngiltere). Etabli (Mübadele) krizi kiminleydi? (Yunanistan). Yabancı okullar ve Dış borçlar kavgası en çok kiminleydi? (Fransa). İçerideki bir isyanın (Şeyh Sait), dışarıda koca bir toprağı (Musul'u) nasıl kaybettirdiğini anladığında bu konunun şifresini çözmüş olacaksın.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü dış politika, Atatürk'ün "Yurtta Sulh Cihanda Sulh" ve "Tam Bağımsızlık" ilkelerinin savaş meydanında değil, diplomaside (masa başında) nasıl uygulandığının kanıtıdır. Yabancı okulları "İç Meselemizdir" deyip Avrupa'yı susturduğumuz an, tam bağımsızlığın zirvesidir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Atatürk dönemi dış politikası hayalperest (Turan'ı kurmak, Osmanlı'yı diriltmek) değildir; <strong>akılcı, gerçekçi ve hukuka (barışa) dayalıdır.</strong><br>
+Bu dönemde; <strong>Yabancı Okullar</strong> sorununu Fransa ile "Bu benim iç meselem" diyerek restleşip lehimize çözdük. <strong>Dış Borçlar</strong> krizini 1929 dünya krizi (Hoover Moratoryumu) yardımıyla taksitlendirdik. Yunanistan'la yaşanan <strong>Nüfus Mübadelesi (Etabli/Yerleşik)</strong> sorununu 1930 Ankara Antlaşmasıyla (dostça) kapattık. Ancak <strong>Musul (Irak Sınırı)</strong> meselesinde, Şeyh Sait isyanının ordumuzu yıpratması ve Milletler Cemiyeti'nin İngiliz yanlısı kararı yüzünden 1926 Ankara Antlaşmasıyla Musul'u İngiltere'ye (Irak'a) bırakmak <strong>zorunda kaldık</strong> (Misak-ı Milli'den taviz).</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Temel Felsefe: İç Meseleye Karıştırmamak</span><p>Genç Türkiye'nin bu dönemdeki en büyük kabusu, Avrupalıların eskiden (Osmanlı döneminde) olduğu gibi "Azınlık hakları, Patrikhane veya Yabancı okullar" bahanesiyle gelip iç işlerimize karışmasıydı. Tüm diplomatik savaş bu kapıları kapalı tutmak için verilmiştir.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Yabancı Okullar Sorunu (Fransa ve Papalık ile)</h3>
+<p>Lozan'da "Tüm yabancı okullar Türk kanunlarına uyacak" denilmişti. 1924 Tevhid-i Tedrisat Kanunu ile bu okullara <strong>"Türkçe ve Tarih derslerine Türk hocalar girecek, okullar MEB tarafından denetlenecek"</strong> zorunluluğu getirildi.<br>
+Bu karara en çok uymak istemeyen (okulları en çok olan) ülke <strong>Fransa</strong> (ve Papalık) oldu. Fransa konuyu uluslararası masaya (Milletler Cemiyetine) taşımak ve elçilerle görüşmek istedi.<br>
+<strong>Türkiye'nin Tavrı:</strong> "Bu konu benim kendi eğitim sistemimle, kanunlarımla ilgilidir. Bağımsız bir devlet olarak bu benim <strong>İÇ MESELEMDİR</strong>. Sizinle masaya falan oturmam, uymayan okulu kapatırım!" diyerek rest çekti.<br>
+<strong>Sonuç:</strong> Türkiye'nin dediği oldu, uymayan okullar kapatıldı, uyanlar devam etti. <br>
+<em>(KPSS Notu: Cumhuriyetin dış politikadaki İLK siyasi başarısıdır. Milletler Cemiyetine <strong>GİTMEDEN</strong> (taşınmasına izin verilmeden) çözülen tek sorundur).</em></p>
+
+<h3>3.2. Musul ve Irak Sınırı Sorunu (İngiltere ile)</h3>
+<p>Lozan'da anlaşmaya varılamayıp "9 ay sonraya, iki ülkenin ikili görüşmesine" bırakılan (Ertelenen) <strong>TEK</strong> konuydu. (İngiltere zengin petrol yataklarını bırakmak istemiyordu).<br>
+- <strong>1924 Haliç Konferansı:</strong> Sorunu çözmek için İstanbul'da toplandı. Bizi Ali Fethi Okyar temsil etti ancak sonuç alınamadı.<br>
+- <strong>Milletler Cemiyeti (Cemiyet-i Akvam) Evresi:</strong> Konu uluslararası mahkemeye gitti. Ancak MC, İngilizlerin güdümünde olduğu için (Türkiye de henüz üye olmadığı için) "Musul Irak'a aittir" diye taraflı bir karar verdi.<br>
+- <strong>İsyan ve Kaybediş:</strong> Türkiye askeri bir harekat (savaş) hazırlığı yaparken, içeride gerici <strong>Şeyh Sait İsyanı (1925)</strong> patlak verdi. Ordu isyanı bastırırken çok yıprandı ve savaşı göze alamadı.<br>
+- <strong>1926 Ankara Antlaşması:</strong> Türkiye mecburen boyun eğdi. Musul, İngiliz mandasındaki Irak'a bırakıldı. Sadece Musul petrollerinin gelirinin %10'u 25 yıllığına Türkiye'ye bırakıldı. (Türkiye bu hakkını daha sonra 500 bin sterlin peşin para alarak tamamen devretmiştir). <br>
+<em>(Sonuç: Misak-ı Milli'den verilen büyük bir tavizdir).</em></p>
+
+<h3>3.3. Nüfus Mübadelesi - "Etabli" Sorunu (Yunanistan ile)</h3>
+<p>Lozan'a göre: İstanbul'daki Rumlar ile Batı Trakya'daki Türkler yerlerinde kalacak, Anadolu'daki diğer Rumlar ile Yunanistan'daki diğer Türkler yer değiştirecekti (Mübadele).<br>
+<strong>Krizin Sebebi:</strong> Yunanistan, İstanbul'da daha fazla Rum bırakmak (Megali İdea hayali için nüfus tutmak) istediğinden <strong>"Etabli (Yerleşik)"</strong> kelimesinin anlamını bozmaya kalktı. "Dün İstanbul'a gelen de yerleşiktir, gitmesin" dedi.<br>
+Kriz büyüdü, Milletler Cemiyetine ve Lahey'e gitti ama çözülemedi. İki ülke sınırda silahlanıp savaşın eşiğine geldi.<br>
+<strong>Çözüm (1930 Ahali Mübadelesi / Ankara Antlaşması):</strong> Sonunda iki taraf da yelkenleri suya indirdi. Doğum tarihine ve geliş tarihine bakılmaksızın İstanbul'daki tüm Rumlar ve Batı Trakya'daki tüm Türkler <strong>ETABLİ (Yerleşik)</strong> kabul edildi, geri kalanlar değiştirildi.<br>
+<strong>Sonucu:</strong> Sorun bitince Türk-Yunan dostluğu başladı (1930'da Yunan Başbakanı Venizelos Ankara'yı ziyaret etti. Hatta daha sonra Atatürk'ü Nobel Barış Ödülüne aday gösterdi).</p>
+
+<h3>3.4. Dış Borçlar Sorunu (Fransa ile)</h3>
+<p>Lozan'da Osmanlı'dan kalan borçlar imparatorluktan ayrılan devletlere paylaştırılmıştı. En büyük pay bize düşmüştü ve <strong>en çok borcumuz Fransa'ya idi.</strong><br>
+Türkiye borçlarını düzenli ödüyordu ancak <strong>1929 Dünya Ekonomik Krizi (Kara Perşembe)</strong> patlak verince paramız (TL) değer kaybetti ve ödeyemez hale geldik.<br>
+<strong>Çözüm:</strong> Dönemin ABD Başkanı Hoover, tüm dünyadaki borçlu devletler için <strong>Hoover Moratoryumu</strong> (borç erteleme / yapılandırma beyannamesi) yayınladı. Türkiye bu moratoryumdan yararlanarak Fransa ile yeniden masaya oturdu. Borçlar taksitlendirildi ve kağıt Frank üzerinden ödenmesi kararlaştırıldı. (Bağımsızlıktan taviz verilmeden çözülmüştür, son borç 1954'te bitmiştir).</p>
+
+<h3>3.5. Bozkurt - Lotus Olayı (1926 - Fransa ile)</h3>
+<p>Ege Denizi açıklarında Türk gemisi (Bozkurt) ile Fransız gemisi (Lotus) çarpıştı. Batan gemimizde Türk gemiciler şehit oldu. Gemiler limana çekilince Türkiye, Fransız kaptanı (hata yaptığı için) tutukladı.<br>
+Fransa: "Siz benim kaptanımı yargılayamazsınız" diye itiraz etti (eski kapitülasyon alışkanlığı). Konu <strong>Lahey Adalet Divanı'na (Uluslararası Mahkemeye)</strong> gitti.<br>
+<strong>Savunma:</strong> Türkiye'yi Adalet Bakanı <strong>Mahmut Esat (Bozkurt)</strong> savundu. Türkiye haklı bulundu (Dava Kazanıldı).<br>
+<strong>Önemi:</strong> Bu olay (aynı yıl çıkarılan Kabotaj kanunu ile birlikte) Türk Adaletinin (ve denizlerdeki egemenliğinin) uluslararası alanda bağımsız, güçlü ve eşit olduğunu dünyaya kanıtlamıştır.</p>
+
+<h3>3.6. Patrikhane Sorunu (Yunanistan ile)</h3>
+<p>Lozan'da Patrikhanenin İstanbul'da kalmasına (sadece dini bir kurum olması şartıyla) izin verilmişti. Ancak Yunanistan, Patrikhaneyi siyasi bir maşa gibi kullanmak istiyordu. <br>
+Türkiye buna karşılık, Kurtuluş Savaşında Türk tarafını destekleyen Papa Eftim liderliğindeki <strong>"Türk Ortodoks Kilisesini"</strong> kurdurarak / destekleyerek Patrikhanenin (Fener Rum) otoritesini kırdı. (Ayrıca Medeni Kanun ile Patrikhanenin mahkeme/nikah kıyma vb. dünyevi yetkileri elinden alındı).</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Şeyh Sait İsyanı (İç Sorun/Sebep) $\rightarrow$ Musul'un Kaybı (Dış Sonuç):</strong> İçeride güçlü olmayan bir devlet, dışarıda masaya (veya cepheye) gücünü yansıtamaz. İsyan ordunun belini bükmüş, Musul'u İngilizlere hediye etmiştir.</li>
+<li><strong>1929 Dünya Ekonomik Krizi (Sebep) $\rightarrow$ Dış Borçların Yeniden Yapılandırılması (Sonuç):</strong> Borç sorununu (Hoover Moratoryumuyla) yeniden masaya yatırmamızın temel nedeni, küresel krizin Türkiye'de yarattığı döviz dar boğazıdır.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış (Özet)[m</h2>
+<table>
+<thead>
+<tr>
+<th>Olay</th>
+<th>Muhatap Ülke</th>
+<th>Özeti / Sonucu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yabancı Okullar</td>
+<td>Özellikle Fransa ve Papalık</td>
+<td>"İç Meselemizdir" dedik, MC'ye gitmeden lehimize çözdük.</td>
+</tr>
+<tr>
+<td>Haliç Konferansı (1924)</td>
+<td>İngiltere</td>
+<td>Musul içindi, sonuç alınamadı. (Bizi Ali Fethi Okyar temsil etti).</td>
+</tr>
+<tr>
+<td>Musul Sorunu (1926)</td>
+<td>İngiltere</td>
+<td>Milletler Cemiyeti ve Şeyh Sait yüzünden koca Musul kaybedildi.</td>
+</tr>
+<tr>
+<td>Bozkurt-Lotus (1926)</td>
+<td>Fransa</td>
+<td>Gemiler çarpıştı, Lahey'e gittik, Mahmut Esat savundu, KAZANDIK.</td>
+</tr>
+<tr>
+<td>Dış Borçlar (1929)</td>
+<td>Fransa</td>
+<td>Kriz çıktı ödeyemedik, Hoover Moratoryumuyla taksitlendirdik.</td>
+</tr>
+<tr>
+<td>Etabli (Mübadele) Krizi (1930)</td>
+<td>Yunanistan</td>
+<td>Ankara Ant. (Ahali mübadelesi) ile çözüldü, Venizelos Türkiye'ye geldi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>1921 Ankara Antlaşması vs. 1926 Ankara Antlaşması</h3>
+<table>
+<thead>
+<tr>
+<th>Antlaşma</th>
+<th>Kiminle Yapıldı?</th>
+<th>Hangi Sınırı Çizdi / Hangi Sorunu Çözdü?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1921 Ankara Antlaşması</strong></td>
+<td><strong>Fransa</strong> ile</td>
+<td>Sakarya Savaşı sonrasıdır. Güney Cephesi kapandı. Hatay hariç <strong>SURİYE Sınırı</strong> çizildi.</td>
+</tr>
+<tr>
+<td><strong>1926 Ankara Antlaşması</strong></td>
+<td><strong>İngiltere</strong> ile</td>
+<td>Şeyh Sait İsyanı sonrasıdır. Musul elden gitti. <strong>IRAK Sınırı</strong> çizildi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>"İç Mesele" Vurgusu:</strong> Yabancı okullarla ilgili sorularda Türkiye'nin en çok korumaya çalıştığı şey <strong>"Bağımsız Devlet (Egemenlik) Anlayışı"dır</strong>. Kendi topraklarındaki okulu başkasıyla (Cemiyetlerle vs.) tartışmamıştır.</li>
+<li><strong>Milletler Cemiyetine GİDEN Sorunlar:</strong> Musul (Irak sınırı), Etabli (Mübadele), Bozkurt-Lotus (Lahey'e gitti).</li>
+<li><strong>Milletler Cemiyetine GİTMEYEN (Götürülmeyen) Sorun:</strong> Yabancı Okullar.</li>
+<li><strong>Lozan'da Çözülemeyip (Ertelenip) Sonraya Kalan Tek Sorun:</strong> Irak Sınırı (Musul) Sorunu.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Etabli" Kelimesi</span><p>Sorularda "Etabli" kelimesini gördüğünüz an aklınıza Yunanistan ve Nüfus Mübadelesi kavgası (İstanbul'daki Rumlar) gelmelidir. Bu, kelime dağarcığınızın test edildiği spesifik bir KPSS taktiğidir.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Yabancı Okullar sorunu Milletler Cemiyetinde çözüldü" Tuzağı.</strong> Asla! Fransa ve Papalık konuyu oraya taşımak istedi ama Türkiye "Benim ülkemdeki mektep benim iç meselemdir" diyerek reddetti ve MC'ye (Cemiyet-i Akvam'a) GİDİLMEDEN çözüldü.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Musul 1921 Ankara Antlaşmasıyla kaybedildi" Tuzağı.</strong> Ankara Antlaşmaları iki tanedir. 1921 Fransa'yla yapıldı (Suriye sınırı çizildi). Musul ise <strong>1926 Ankara Antlaşmasıyla</strong> (İngiltere ile) kaybedildi. (1926'yı unutma).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Türk-Yunan Savaşı (Etabli krizi) çıktı" Tuzağı.</strong> Mübadele krizi yüzünden Türk ve Yunan orduları sınırda bekledi, savaşın eşiğine gelindi AMA savaş çıkmadı. 1930 Ankara (Ahali Mübadelesi) Antlaşmasıyla masada çözüldü. Ardından Venizelos Türkiye'ye geldi.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Haliç Konferansında Boğazlar görüşüldü" Tuzağı.</strong> İsmi Haliç (İstanbul) olduğu için boğazlar sanılır. Hayır! Haliç Konferansı, <strong>Musul (Irak Sınırı)</strong> krizini İngilizlerle çözmek için Ali Fethi Okyar'ın katıldığı başarısız konferanstır.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Dış Politika Sorun - Ülke Eşleştirmesi</span><p>• <strong>Fransa ile:</strong> Yabancı Okullar, Dış Borçlar, Bozkurt-Lotus olayı (Hatay sonraya kalacak).<br>
+• <strong>İngiltere ile:</strong> Musul (Irak Sınırı).<br>
+• <strong>Yunanistan ile:</strong> Nüfus Mübadelesi (Etabli), Patrikhane.</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Dış Politika Temeli:</strong> Barışçıl, gerçekçi ve Lozan'ın pürüzlerini (bağımsızlıktan taviz vermeden) temizlemeye dayalıdır.<br>
+• <strong>Yabancı Okullar (Fransa):</strong> "İç meselem" dedik, MC'ye götürmedik, kazandık.<br>
+• <strong>Musul (İngiltere):</strong> Lozan'da ertelenen tek konuydu. Haliç Konferansı sonuç vermedi. Şeyh Sait isyanı yüzünden (1926 Ankara Antlaşmasıyla) Irak'a (İngiltere'ye) verdik. Petrollerden pay aldık.<br>
+• <strong>Mübadele / Etabli (Yunanistan):</strong> Kimin yerleşik (İstanbul'da kalıcı) sayılacağı kavgasıdır. 1930'da çözüldü, dostluk başladı.<br>
+• <strong>Bozkurt-Lotus (Fransa):</strong> Gemi çarpışması Lahey'e gitti, Mahmut Esat savundu, kazandık. Adaletimiz ve Kabotaj hakkımız tescillendi.<br>
+• <strong>Dış Borçlar (Fransa):</strong> 1929 krizinde ödeyemedik, Hoover Moratoryumuyla taksitlendirdik.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Milletler Cemiyetine (MC) gitmeyen (İç mesele sayılan) sorun:</strong> Yabancı Okullar (Fransa ile).<br>
+• <strong>Lozan'da karara bağlanamayıp ertelenen tek sorun:</strong> Musul (Irak Sınırı).<br>
+• <strong>Musul için toplanan sonuçsuz konferans:</strong> Haliç Konferansı (Ali Fethi Okyar).<br>
+• <strong>Musul'un kaybedilmesine neden olan iç isyan:</strong> Şeyh Sait İsyanı.<br>
+• <strong>Musul'u Irak'a bıraktığımız antlaşma:</strong> 1926 Ankara Antlaşması.<br>
+• <strong>Mübadele krizindeki kilit kelime:</strong> Etabli (Yerleşik).<br>
+• <strong>Dış borçları taksitlendirmemizi sağlayan ABD hamlesi:</strong> Hoover Moratoryumu.<br>
+• <strong>Bozkurt-Lotus olayında Lahey'de bizi savunan bakan:</strong> Mahmut Esat (Bozkurt).<br>
+• <strong>Patrikhaneye karşı kurdurduğumuz kilise:</strong> Türk Ortodoks Kilisesi (Papa Eftim).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Lozan Barış Konferansı'nda tarafların anlaşamaması üzerine "İngiltere ile Türkiye'nin kendi arasında yapacağı ikili görüşmelere" <strong>ertelenen (çözülemeyen) TEK sorun</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Kapitülasyonlar &nbsp; B) Yabancı Okullar &nbsp; C) Musul (Irak Sınırı) Sorunu &nbsp; D) Dış Borçlar</p>
+<p><strong>Çözüm:</strong> Lozan'da petrol zengini Musul'u İngilizler bırakmak istemedi, biz de (Misak-ı Milli sınırımız olduğu için) vermedik. Kilitlenen bu tek konu "9 ay sonraya, ikili görüşmeye" ertelendi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Türkiye ile Yunanistan arasında uzun süren "Nüfus Mübadelesi" krizinin temel sebebi, <strong>"İstanbul'da kimlerin kalacağı, kimlerin Yunanistan'a gönderileceği"</strong> tartışmasıydı. <br>Bu tartışmada (diplomatik dilde) kullanılan ve <strong>"Yerleşik"</strong> anlamına gelen kelime aşağıdakilerden hangisidir?</p>
+<p>A) Etabli &nbsp; B) Moratoryum &nbsp; C) Kabotaj &nbsp; D) Manda</p>
+<p><strong>Çözüm:</strong> Etabli (Fransızca Établi), "Bir yere yerleşmiş olan" anlamına gelir. Yunanistan İstanbul'da daha çok Rum tutmak için Etabli kelimesinin anlamını (tarihini) genişletmek isteyince kriz çıkmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Türkiye'nin Lozan'dan sonra dış politikada elde ettiği <strong>İLK siyasi başarı</strong> olan; Fransa ve Papalığın Milletler Cemiyetine götürmek istemesine rağmen Türkiye'nin <strong>"Bu benim iç meselemdir"</strong> diyerek tek başına çözdüğü sorun hangisidir?</p>
+<p>A) Musul Sorunu &nbsp; B) Etabli Sorunu &nbsp; C) Yabancı Okullar Sorunu &nbsp; D) Boğazlar Sorunu</p>
+<p><strong>Çözüm:</strong> Tevhid-i Tedrisat gereği "Türkçe ve Tarih dersine Türk hoca girecek" kuralına uymayan Fransız/Papalık okulları kapatılmıştır. Türkiye dış müdahaleyi reddederek bağımsızlığını ispatlamıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Lozan Antlaşması'nın ardından Türkiye ile İngiltere arasında ertelenen Musul (Irak Sınırı) sorununu görüşmek üzere 1924 yılında İstanbul'da toplanan ve Türkiye'yi <strong>Ali Fethi Okyar'ın</strong> temsil ettiği (ancak sonuç alınamayan) konferansın adı nedir?</p>
+<p>A) Londra Konferansı &nbsp; B) Haliç Konferansı &nbsp; C) Paris Barış Konferansı &nbsp; D) Tersane Konferansı</p>
+<p><strong>Çözüm:</strong> Musul sorununu (İkili görüşmelerle) çözmek için toplanan Haliç Konferansı sonuçsuz kalmış, konu Milletler Cemiyetine gitmiş, oradan da Türkiye'nin aleyhine (Irak/İngiltere lehine) karar çıkmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Türkiye'nin, Milletler Cemiyeti kararına rağmen Musul'u İngilizlere bırakmamak için <strong>askeri harekat (savaş)</strong> hazırlığı yaptığı günlerde Doğu Anadolu'da patlak veren ve ordumuzu zayıflatarak <strong>Musul'u kaybetmemize neden olan iç isyan</strong> hangisidir?</p>
+<p>A) Menemen Olayı &nbsp; B) Koçgiri İsyanı &nbsp; C) Şeyh Sait İsyanı &nbsp; D) Çerkez Ethem İsyanı</p>
+<p><strong>Çözüm:</strong> 1925 Şeyh Sait İsyanı, Cumhuriyet rejimini yıkmak isteyen gerici bir isyandı. Ordu bu isyanı bastırırken yıpranmış, gücünü tüketmiş ve Musul için İngiltere ile savaşmayı göze alamamıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>1926 yılında Ege Denizi'nde çarpışan <strong>Türk ve Fransız gemilerinin</strong> davasında, Türkiye'yi Lahey Uluslararası Adalet Divanında savunan ve davayı kazanarak Türk adaletinin bağımsızlığını kanıtlayan dönemin Adalet Bakanı kimdir?</p>
+<p>A) İsmet İnönü &nbsp; B) Mahmut Esat (Bozkurt) &nbsp; C) Ali Fethi Okyar &nbsp; D) Bekir Sami Bey</p>
+<p><strong>Çözüm:</strong> Bozkurt-Lotus (gemi) olayında Lahey'de bizi savunan ve davayı kazanan Mahmut Esat Bey'dir. Atatürk bu başarısından dolayı daha sonra kendisine geminin adı olan "Bozkurt" soyadını vermiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Osmanlı Devleti'nden Türkiye Cumhuriyeti'ne kalan <strong>Dış Borçların</strong> düzenli taksitleri ödenirken, hangi dış (küresel) gelişme nedeniyle Türk Lirası değer kaybetmiş ve borçları ödemekte zorlanmışızdır?</p>
+<p>A) II. Dünya Savaşı &nbsp; B) 1929 Dünya Ekonomik Krizi (Büyük Buhran) &nbsp; C) I. Balkan Savaşı &nbsp; D) Şeyh Sait İsyanı</p>
+<p><strong>Çözüm:</strong> 1929'da ABD'de (Kara Perşembe) patlayan kriz tüm dünyayı, özellikle dış borcu olan devletleri vurmuştur. Türkiye de kriz yüzünden borcunu ödeyememiş, taksitleri dondurmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>1929 Ekonomik Krizinde borcunu ödeyemeyen ülkeler için ABD Başkanı tarafından yayımlanan ve <strong>"Borçların ertelenmesini/yapılandırılmasını"</strong> sağlayan (Türkiye'nin de yararlanıp Fransa ile borçlarını yeniden taksitlendirdiği) bildiri (karar) aşağıdakilerden hangisidir?</p>
+<p>A) Hoover Moratoryumu &nbsp; B) Truman Doktrini &nbsp; C) Marshall Planı &nbsp; D) Balfour Deklarasyonu</p>
+<p><strong>Çözüm:</strong> ABD Başkanı Herbert Hoover'ın yayımladığı "Hoover Moratoryumu" borçlu ülkelerin (özellikle Almanya ve Türkiye gibi) borçlarını dondurup ertelemiş, bize de rahat bir nefes (taksitlendirme fırsatı) aldırmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Türkiye'nin, Şeyh Sait İsyanı yüzünden <strong>Musul'u İngiliz mandasındaki Irak'a bırakmak ZORUNDA KALDIĞI</strong> antlaşma aşağıdakilerden hangisidir?</p>
+<p>A) 1921 Ankara Antlaşması &nbsp; B) 1926 Ankara Antlaşması &nbsp; C) Mudanya Ateşkesi &nbsp; D) 1930 Ahali Mübadelesi Antlaşması</p>
+<p><strong>Çözüm:</strong> 1926 Ankara Antlaşması (İngiltere ile). Musul, Kerkük, Süleymaniye Irak'a (İngiliz mandasına) bırakılmış, Türkiye'ye sadece Musul petrollerinin gelirinden %10 pay 25 yıllığına verilmiştir. (Misak-ı Milli'den taviz). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Türk-Yunan ilişkilerini yıllarca geren "Etabli (Mübadele)" sorunu, savaşa dönüşmeden 1930 Ankara (Ahali Mübadelesi) Antlaşması ile çözülmüş ve sonrasında <strong>barış dönemi (dostluk)</strong> başlamıştır. <br>Sorunun çözülmesinin ardından Türkiye'yi ziyaret eden (ve sonrasında Atatürk'ü Nobel'e aday gösteren) <strong>Yunan Başbakanı</strong> kimdir?</p>
+<p>A) Venizelos &nbsp; B) Metaksas &nbsp; C) Trikupis &nbsp; D) Konstantin</p>
+<p><strong>Çözüm:</strong> Etabli krizi bitince iki ülke arasında 1954 Kıbrıs krizine kadar sürecek olan barış dönemi (İnönü-Venizelos dostluğu) başlamıştır. Yunan Başbakanı Elefterios Venizelos 1930'da Ankara'ya gelmiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Mustafa Kemal Atatürk dönemindeki dış politika olaylarında (1923-1930 arası) Türkiye, <strong>en çok hangi devletle</strong> sorun yaşamış ve masaya oturmuştur? (Yabancı Okullar, Dış Borçlar, Bozkurt-Lotus olayı vb.)</p>
+<p>A) İngiltere &nbsp; B) İtalya &nbsp; C) Fransa &nbsp; D) Yunanistan</p>
+<p><strong>Çözüm:</strong> Lozan'dan kalan sorunlara bakıldığında; Osmanlı borçlarının en büyük kısmının onlara ait olması, okullarının çokluğu ve Bozkurt-Lotus (ve daha sonra Hatay) sorunları nedeniyle en çok diplomasi yürüttüğümüz ülke <strong>Fransa'dır</strong>. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Lozan Antlaşması'na göre İstanbul'da kalmasına izin verilen (ancak siyasi ve adli yetkileri Medeni Kanunla alınan) Fener Rum Patrikhanesi'nin, Yunanistan tarafından siyasi bir maşa olarak kullanılmasını engellemek için, <strong>Türkiye'nin kurdurup desteklediği (Patrikhaneye rakip) kilise</strong> hangisidir?</p>
+<p>A) Süryani Kadim Kilisesi &nbsp; B) Türk Ortodoks Kilisesi &nbsp; C) Ermeni Patrikhanesi &nbsp; D) Katolik Kilisesi</p>
+<p><strong>Çözüm:</strong> Kurtuluş Savaşı'nda Milli Mücadeleyi destekleyen, İstiklal Madalyalı Papa Eftim (Zeki Erenerol) öncülüğünde kurulan "Türk Ortodoks Kilisesi", Fener Rum Patrikhanesi'nin otoritesini (siyasi gücünü) kırmak için Türkiye tarafından desteklenmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Yabancı okullar sorununun Fransa'nın ve Papalığın baskılarına, Milletler Cemiyetine gitme tehditlerine rağmen <strong>"İç Mesele"</strong> sayılarak tavizsiz (kapatılarak) çözülmesi, Atatürk'ün <strong>en çok hangi ilkesinin</strong> dış politikadaki yansımasıdır?</p>
+<p>A) Laiklik &nbsp; B) Devletçilik &nbsp; C) Milliyetçilik (Tam Bağımsızlık) &nbsp; D) Halkçılık</p>
+<p><strong>Çözüm:</strong> Egemenliğimize (kanunlarımıza) karışılmasını reddetmek, "Benim toprağımda benim kanunum geçer, kimseye hesap vermem" demek tam bağımsızlığın (Milliyetçiliğin) dış politikadaki dik duruşudur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Aşağıdaki dış politika sorunlarından hangisi, çözüm aşamasında Milletler Cemiyetine (Cemiyet-i Akvam'a) veya Uluslararası Lahey Adalet Divanına <strong>GÖTÜRÜLMEMİŞTİR (Taşınmamıştır)</strong>?</p>
+<p>A) Musul (Irak Sınırı) &nbsp; B) Nüfus Mübadelesi (Etabli) &nbsp; C) Bozkurt-Lotus (Gemi) Olayı &nbsp; D) Yabancı Okullar Sorunu</p>
+<p><strong>Çözüm:</strong> Efsane bir KPSS sorusudur. Musul (MC'ye gitti), Etabli (MC ve Lahey'e gitti), Bozkurt-Lotus (Lahey'e gitti). Ancak Yabancı Okullar sorununda Türkiye MC'ye gitmeyi reddetmiş, olayı iç hukukla tek başına çözmüştür. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Milletler Cemiyeti, Musul konusunda Türkiye'yi haklı bulmayıp Musul'un (ve hakkari bölgesinin bir kısmının) Irak'a (İngiltere'ye) ait olduğuna karar vermiştir. <br>Türkiye'nin o dönem bu haksız (taraflı) karar karşısında <strong>Milletler Cemiyetine hukuken itiraz edememesinin veya kurumu etkileyememesinin (veto edememesinin) temel sebebi</strong> nedir?</p>
+<p>A) Türkiye'nin henüz Milletler Cemiyetine üye olmaması &nbsp; B) Türkiye'nin Musul'dan vazgeçmesi &nbsp; C) Milletler Cemiyetinin kapanmış olması &nbsp; D) İngiltere'nin cemiyetten atılması</p>
+<p><strong>Çözüm:</strong> Türkiye, Milletler Cemiyetine (Cemiyet-i Akvam) 1932 yılında üye olmuştur. 1924-1926 yıllarındaki Musul krizinde üye değildi, mecliste söz hakkı yoktu; kurumu kuran ve yöneten de zaten İngiltere idi. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Bozkurt-Lotus olayında (1926) Lahey Uluslararası Adalet Divanında davanın <strong>Türkiye lehine sonuçlanmasında (kazanılmasında)</strong> etkili olan, Türkiye'nin kendi limanlarında ve karasularında yargılama/işletme yetkisine sahip olduğunu vurgulayan yasa hangisidir?</p>
+<p>A) Medeni Kanun &nbsp; B) Kabotaj Kanunu &nbsp; C) Teşvik-i Sanayi Kanunu &nbsp; D) Takrir-i Sükun Kanunu</p>
+<p><strong>Çözüm:</strong> 1 Temmuz 1926'da çıkan Kabotaj kanunu "Türk sularında egemenlik/işletme bizimdir" diyordu. Aynı yıl ağustos ayında batan gemi davasında Mahmut Esat Bozkurt, Türk adaletinin ve Kabotaj egemenliğinin gücüyle (Uluslararası hukuka uyarak) davayı kazanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Atatürk dönemi dış politikasının 1923-1930 yılları arasındaki (Birinci dönem) temel hedefi, <strong>"Lozan Barış Antlaşması'ndan kalan pürüzleri çözmek"</strong> olarak özetlenir. <br>Buna göre aşağıdakilerden hangisi bu dönemin (1923-1930) sorunlarından biri <strong>DEĞİLDİR</strong>? (Yani daha sonraki 1930-1939 dönemi meselesidir)</p>
+<p>A) Dış Borçların taksitlendirilmesi (1929) &nbsp; B) Yabancı Okullar sorunu &nbsp; C) Hatay (Sancak) Sorunu &nbsp; D) Musul (Irak) sınırı</p>
+<p><strong>Çözüm:</strong> Dış politikada kronoloji çok önemlidir. 1923-1930 arası Lozan tortularıdır (Musul, Mübadele, Borçlar, Okullar). Hatay, Montrö (Boğazlar), Balkan Antantı, Sadabat Paktı ise II. Dünya Savaşı tehdidiyle oluşan <strong>1930 Sonrası</strong> gelişmelerdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Ankara Antlaşmaları tarihte iki kez yapılmıştır. Biri Kurtuluş Savaşı sırasında (1921), diğeri Şeyh Sait isyanı sonrasında (1926). <br>Buna göre <strong>1921 ve 1926 Ankara Antlaşmalarının ilgili olduğu sınırlar (cepheler)</strong> sırasıyla hangisinde doğru verilmiştir?</p>
+<p>A) Suriye Sınırı - Irak Sınırı &nbsp; B) Irak Sınırı - İran Sınırı &nbsp; C) Batı Sınırı - Doğu Sınırı &nbsp; D) Suriye Sınırı - Batı Sınırı</p>
+<p><strong>Çözüm:</strong> 1921 Ankara Ant. $\rightarrow$ Fransa ile yapıldı, Güney Cephesi kapandı, Hatay hariç <strong>Suriye Sınırı</strong> çizildi. 1926 Ankara Ant. $\rightarrow$ İngiltere ile yapıldı, Musul kaybedildi, <strong>Irak Sınırı</strong> çizildi. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Türkiye ile Yunanistan arasındaki Etabli (Mübadele) sorunu çözülürken, Milletler Cemiyeti ve Lahey'in çözemediği kilitlenme, iki ülkenin karşılıklı taviziyle aşılmıştır. 1930 Antlaşmasına göre İstanbul'daki Rumların ve Batı Trakya'daki Türklerin <strong>hangi durumu DİKKATE ALINMAKSIZIN (şartsız olarak) Etabli/Yerleşik sayılmaları</strong> kabul edilmiştir?</p>
+<p>A) Cinsiyetleri &nbsp; B) Doğum tarihleri ve yerleşme (geliş) tarihleri &nbsp; C) Meslekleri &nbsp; D) Eğitim durumları</p>
+<p><strong>Çözüm:</strong> Yunanistan "30 Ekim 1918'den önce İstanbul'a gelenler yerleşik (Etabli) sayılsın" diyordu. 1930 Antlaşmasında iki taraf da pes etti; "Tarihe/Doğuma bakmıyoruz, İstanbul'da bulunan tüm Rumlar ve Batı Trakya'daki (İskeçe/Gümülcine vb.) tüm Türkler yerleşiktir, gitmeyecek" denildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Aşağıdaki olayların hangisinde Türkiye'nin dış politikada <strong>"kendi iç meselesini uluslararası masaya (Milletler Cemiyetine veya Yabancı Mahkemelere) taşıtmama"</strong> konusundaki kararlılığı ve tavizsiz tutumu (dik duruşu) EN NET şekilde görülmüştür?</p>
+<p>A) Etabli Sorununda &nbsp; B) Musul Sorununda &nbsp; C) Yabancı Okullar Sorununda &nbsp; D) Bozkurt-Lotus Olayında</p>
+<p><strong>Çözüm:</strong> Diğerlerinin tamamı bir şekilde (MC veya Lahey'e) uluslararası mahkemeye taşınmıştır. Ancak Yabancı Okullar sorununda Türkiye, Avrupa'nın tüm ısrarına rağmen masaya dahi oturmamış, "Benim ülkem, benim okulum, benim kanunum" diyerek olayı içeride kesip atmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>1926 Ankara Antlaşması ile Musul ve Kerkük'ün Irak'a (İngiltere'ye) bırakılması, Türkiye Cumhuriyeti tarihi açısından ne anlama gelmektedir?</p>
+<p>A) Türkiye'nin petrol ihraç eden bir ülke olması &nbsp; B) Misak-ı Milli sınırlarından verilen büyük bir taviz olması (ve Lozan'daki iddiamızın kaybedilmesi) &nbsp; C) İngiltere ile Türkiye'nin müttefik olması &nbsp; D) Şeyh Sait isyanının tamamen başarılı olması</p>
+<p><strong>Çözüm:</strong> Misak-ı Milli'den 3 büyük taviz verdik: 1) Batum (Moskova Ant.), 2) Hatay (1921 Ankara Ant. - gerçi 1939'da geri aldık), 3) Musul (1926 Ankara Ant.). Musul'un gidişi, Türk dış politikasındaki en büyük (ve acı) toprak/hedef kaybıdır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Osmanlı Devleti döneminde alınan dış borçların, Lozan'da Osmanlı'dan ayrılan devletler arasında <strong>paylaştırılması (bölünmesi)</strong> kararlaştırılmıştı. Türkiye'nin, borcun tamamını değil de sadece "kendi payına düşen kısmını" ödemeyi kabul etmesi, Lozan'da <strong>hangi prensibin (hukuki kuralın)</strong> uygulandığını gösterir?</p>
+<p>A) Borçların silinmesi &nbsp; B) "Toprak bölüşümüne göre borç bölüşümü (Halefiyet / Mirasçılık)" prensibinin uygulanması &nbsp; C) Kapitülasyonların devam etmesi &nbsp; D) Tüm borcun Yunanistan'a yıkılması</p>
+<p><strong>Çözüm:</strong> Türkiye "Osmanlı'nın topraklarını ben, Yunanistan, Sırbistan, Suriye hep beraber bölüştük. Kim ne kadar toprak aldıysa, Osmanlı'nın o borcunu da aynı oranda ödeyecek" demiş ve bunu kabul ettirmiştir (Devletlerin Halefiyeti/Mirasçılığı kuralı). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>1925 Şeyh Sait isyanı içeride <strong>Takrir-i Sükun</strong> kanunuyla (sertlikle) bastırılırken, dışarıda Türkiye'nin diplomatik ve askeri gücünü zayıflatarak <strong>Musul'un</strong> kaybedilmesine neden olmuştur. <br>Bu durum tarihsel olarak neyi kanıtlar niteliktedir?</p>
+<p>A) İç politikadaki sorunların ve istikrarsızlıkların, dış politikada taviz verilmesine (toprak kaybına) yol açtığını (İç politika = Dış politika bağlantısı) &nbsp; B) Türkiye'nin sadece tarımla ilgilendiğini &nbsp; C) İngiltere'nin isyanı bastırdığını &nbsp; D) Musul'un zaten değersiz bir toprak olduğunu</p>
+<p><strong>Çözüm:</strong> "Güçlü bir iç cephen yoksa, dış cephede (masada) yenilirsin." Şeyh Sait isyanı Türkiye'nin enerjisini (askerini) sömürmüş, İngilizler de bu zayıflıktan yararlanarak Musul'u koparmıştır. İç sorunlar daima dış gücü etkiler. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Bozkurt-Lotus olayı (1926), Türk gemisi Bozkurt'un Midilli adası açıklarında (Uluslararası sularda/Açık denizde) Fransız Lotus gemisi tarafından batırılması olayıdır. <br>Türkiye'nin Fransız kaptanı (Desmons) tutuklaması ve yargılaması, Lahey'de <strong>hangi hukuki ilkeye</strong> dayanılarak haklı (yasal) bulunmuştur?</p>
+<p>A) "Açık denizde batan geminin (Bozkurt'un) Türk toprağı (bayrağı) sayılması ve suçun Türk toprağında işlenmiş kabul edilmesi" ilkesi &nbsp; B) Türkiye'nin Lahey'i tehdit etmesi &nbsp; C) Fransa'nın davadan çekilmesi &nbsp; D) Kaptanın kendi isteğiyle teslim olması</p>
+<p><strong>Çözüm:</strong> Uluslararası hukuka göre, açık denizdeki bir gemi, dalgalandırdığı bayrağın toprağı (parçası) sayılır. Mahmut Esat Bozkurt, "Bizim gemimiz Türk toprağıdır, adam bizim toprağımızda vatandaşlarımızı öldürmüştür, dolayısıyla Türk adaleti yargılar" diyerek davayı kazanmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Yunanistan ile yaşanan Etabli (Nüfus Mübadelesi) sorununun 1930'da çözülmesinin ardından, iki ülke arasında başlayan dostluk rüzgarı (İnönü-Venizelos dostluğu) ve Türkiye'nin komşularıyla iyi geçinme politikası, ileride (1934'te) <strong>hangi uluslararası paktın (bölgesel barış örgütünün)</strong> kurulmasına doğrudan zemin hazırlamıştır?</p>
+<p>A) Sadabat Paktı &nbsp; B) Balkan Antantı &nbsp; C) NATO &nbsp; D) Varşova Paktı</p>
+<p><strong>Çözüm:</strong> Türk-Yunan kavgası bitip dostluk başlayınca (ve İtalya/Hitler tehdidi ortaya çıkınca), Türkiye, Yunanistan, Yugoslavya ve Romanya bir araya gelerek Batı sınırlarını güvenceye almak için <strong>Balkan Antantı'nı (1934)</strong> kurmuşlardır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Aşağıdaki diplomatik krizlerden hangisinin yaşandığı dönemde Türkiye henüz <strong>Milletler Cemiyeti'ne (Cemiyet-i Akvam) ÜYE DEĞİLDİR</strong>? (Türkiye kuruma 1932'de üye olmuştur)</p>
+<p>A) Etabli Krizi (1930) &nbsp; B) Musul Krizi (1925-1926) &nbsp; C) Boğazlar (Montrö) Sözleşmesi (1936) &nbsp; D) Hatay'ın Anavatana Katılması (1939)</p>
+<p><strong>Çözüm:</strong> Türkiye Milletler Cemiyetine (İspanya'nın davetiyle) 1932 yılında üye olmuştur. Dolayısıyla Musul ve Etabli krizlerinde masada vardık ama Cemiyet'in resmi (oy veren) bir üyesi değildik. Bu yüzden kararlar hep aleyhimize (İngiliz/Yunan lehine) çıkmaya meyilliydi. (A ve B'de üye değiliz. Doğru seçenek sorunun "hangilerinde" köküne göre A ve B'dir. Ancak sınav sorusu mantığında, 1923-1930 arası sorunların tümünde ÜYE DEĞİLİZ gerçeğini unutmamanız için tasarlandı. Montrö ve Hatay'da (30 sonrası) üyeyiz). <span class="cevap-dogru">KPSS Uyarı Notu: Musul krizinde Türkiye Cemiyet üyesi olmadığı için savunmasız kalmıştır.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Osmanlı'nın borçlarını tahsil etmek için kurulan Düyun-u Umumiye idaresi Lozan'la fiilen bitirilmişti. Ancak Türkiye'nin borç ödemeleri (Taksitler) 1954 yılına kadar devam etmiştir. <br>Türkiye, ödediği bu borç taksitlerini <strong>hangi para birimi (döviz)</strong> üzerinden ödemek için diretmiş ve bunu kabul ettirmiştir?</p>
+<p>A) Amerikan Doları &nbsp; B) İngiliz Sterlini &nbsp; C) Kağıt Fransız Frangı ve Türk Lirası &nbsp; D) Altın</p>
+<p><strong>Çözüm:</strong> Fransa "Borcu Altın olarak ödeyeceksin" diye diretti. Türkiye "Ben Altınla değil, kağıt Fransız Frangı (veya TL) ile öderim" diyerek (Hoover moratoryumu sonrası) kağıt Frank üzerinden ödemeyi kabul ettirmiş ve büyük bir döviz krizinden (karlılıkla) kurtulmuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Atatürk'ün "Yurtta Sulh, Cihanda Sulh" ilkesi dış politikanın temelini oluşturur. <br>Buna göre aşağıdaki durumlardan hangisi Türkiye'nin <strong>"barışçıl" dış politikasından taviz verdiği (Saldırganlaştığı) anlamına GELMEZ</strong>?</p>
+<p>A) Musul için askeri harekat (savaş) planları yapması &nbsp; B) Hatay'ı diplomatik yollarla (Milletler cemiyeti kararıyla) anavatana katması &nbsp; C) Etabli sorununda Yunanistan'la savaşın eşiğine gelinmesi &nbsp; D) Başka bir devletin toprağını sömürmek (işgal etmek) için ordu hazırlaması</p>
+<p><strong>Çözüm:</strong> Hatay'ın alınması, tamamen diplomatik (barışçıl) yollarla, oylamalarla ve Milletler Cemiyeti kararlarıyla (hukuk içinde) yapılmıştır. Bu saldırganlık değil, diplomasinin ve barışçıl politikanın zaferidir. (D şıkkı ise emperyalizmdir, Türkiye asla yapmamıştır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Türkiye'nin dış politikada <strong>"Mütekabiliyet (Karşılıklılık ve Eşitlik)"</strong> ilkesini uyguladığına en güzel kanıt aşağıdakilerden hangisidir?</p>
+<p>A) Yunanistan Batı Trakya'daki Türklerin mallarına el koyunca, Türkiye'nin de İstanbul'daki Rumların mallarına el koyması &nbsp; B) Tüm yabancı okulların koşulsuz şartsız yıkılması &nbsp; C) Bütün borçların reddedilmesi &nbsp; D) Musul'dan gönüllü olarak çekilmesi</p>
+<p><strong>Çözüm:</strong> Mütekabiliyet (Kısasa Kısas / Eşitlik) demektir. Sen benim vatandaşıma Batı Trakya'da eziyet edersen, ben de İstanbul'da senin vatandaşına (kapatma/el koyma) aynı muameleyi yaparım demektir. (Etabli krizi sırasında yaşanmıştır). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Musul petrollerinin gelirinden Türkiye'ye bırakılan <strong>"%10'luk payın 25 yıl süreyle ödenmesi"</strong> kuralı (1926 Ankara Antlaşması), Türkiye'nin daha sonraki yıllarda <strong>hangi ekonomik kararı almasıyla (nasıl) sonuçlanmıştır</strong>?</p>
+<p>A) Türkiye 25 yıl boyunca her ay petrol varili teslim almıştır. &nbsp; B) Türkiye İngiltere'den 500.000 Sterlin peşin para (nakit) alarak bu hakkından (25 yıllık haktan) tamamen vazgeçmiştir (kapatmıştır). &nbsp; C) İngiltere hiç para ödememiştir. &nbsp; D) Türkiye petrol kuyularını satın almıştır.</p>
+<p><strong>Çözüm:</strong> Türkiye'nin yeni kurulduğu yıllarda (özellikle Teşvik-i Sanayi ve altyapı için) acil "Nakit (Sıcak)" paraya ihtiyacı vardı. 25 yılı beklemek yerine İngiltere'ye "Bana 500 bin Sterlin'i peşin ver, hakkımı sileyim" demiş ve anlaşma bu şekilde nakit alınarak kapatılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: 1923-1930 dönemi "Lozan'dan kalan sorunlar" dönemidir. Bu dönemde savaş/saldırı yoktur. 1926'yı (İngiltere/Irak sınırı/Musul kaybı) asla 1921'le (Fransa/Suriye sınırı) karıştırma. Yabancı okullar olayında MC'ye gidilmediği "Bağımsızlık Şovu" yapıldığını asla unutma. Etabli = Yunanistan ile yaşanan mübadele (İstanbul'da kalacak Rumlar) sorunudur.</em></p>
+`,
   },
   {
     id: 71,
     category: 'Tarih',
     categoryId: 'tarih',
     title: '1930-1938 Dış Politika (Balkan Antantı, Sadabat Paktı, Hatay)',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Montrö, Balkan Antantı, Sadabat Paktı, Hatay/Sancak Sorunu)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Lozan'dan kalan sorunları çözdükten sonra Türkiye rahat bir nefes almayı umuyordu ki, dünyada savaş tamtamları çalmaya başladı! Avrupa'da Hitler (Almanya) ve Mussolini (İtalya) ülkeleri işgal etmeye başlayınca, Türkiye mecburen kendi sınırlarını "çelik bir çember" içine almak (Batıda Balkan Antantı, Doğuda Sadabat Paktı) ve komisyonla yönetilen Boğazları (Montrö ile) güvenceye almak zorunda kaldı.<br>
+ÖSYM bu dönemde sana şu iki şeyi banko sorar: Birincisi "Balkan ve Sadabat paktlarına kimler neden katıldı / katılmadı?". İkincisi "Atatürk'ün 'Benim şahsi meselemdir' dediği, ancak anavatana katıldığını göremediği toprak neresidir? (Hatay)". Bu şifreleri kaptığında son dış politika sorularını da firesiz geçeceksin!</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü bu dönem, Türkiye'nin uluslararası diplomaside (savaşmadan masada) "Montrö" ve "Hatay" gibi iki devasa zafer kazandığı dönemdir. Dış politikanın akılcılık, barışçılık (Yurtta Sulh Cihanda Sulh) ve fırsatları lehe çevirme sanatının zirvesidir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>1930 Sonrası dünyadaki temel tehlike <strong>"Revizyonist (Yayılmacı / Sınırları Değiştirmek İsteyen)"</strong> devletler olan Almanya ve İtalya'dır.<br>
+Almanya "Hayat Alanı", İtalya "Bizim Deniz (Mare Nostrum)" politikasıyla sağa sola saldırınca Türkiye 4 büyük adım attı:<br>
+1) Barışçıl olduğunu göstermek için 1932'de <strong>Milletler Cemiyeti'ne</strong> üye oldu.<br>
+2) Batı sınırını korumak için komşularıyla 1934'te <strong>Balkan Antantı'nı</strong> kurdu.<br>
+3) Doğu sınırını korumak için diğer komşularıyla 1937'de <strong>Sadabat Paktı'nı</strong> kurdu.<br>
+4) Savaş yaklaşırken, silahsız/komisyonlu boğazların büyük tehdit olduğunu Avrupa'ya kabul ettirip 1936'da <strong>Montrö Boğazlar Sözleşmesi'ni</strong> imzaladı. Ve o savaş hengamesinde Fransa'nın çekilmesini fırsat bilip diplomatik dehayla <strong>Hatay'ı</strong> Türkiye'ye kattı.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Savaş Tehlikesi Fırsata Dönüştü</span><p>II. Dünya Savaşı tehlikesi dünyayı korkuturken, Türkiye bu "korku" ikliminden yararlanarak Lozan'da çözemediği "Boğazlar" ve "Hatay" meselelerini hukuki (diplomatik) yollarla tamamen kendi lehine çözmeyi başarmıştır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Milletler Cemiyeti'ne (Cemiyet-i Akvam'a) Giriş (1932)</h3>
+<p>Birleşmiş Milletler'in atası olan bu kurum (dünya barışını sağlamak için) kurulmuştu ancak İngiltere'nin oyuncağıydı. Türkiye (Musul meselesindeki taraflılığı yüzünden) bu kuruma yıllarca soğuk bakmıştı.<br>
+Ancak 1930'larda İspanya'nın resmi daveti ve (dostluk kurduğumuz) Yunanistan'ın desteğiyle, Türkiye barışçı politikasını (Yurtta Sulh, Cihanda Sulh) göstermek adına <strong>1932'de Milletler Cemiyetine (Davet edilerek giren İLK devlet olarak) resmi üye olmuştur.</strong></p>
+
+<h3>3.2. Balkan Antantı (1934) - Batı Sınırını Koruma Paktı</h3>
+<p><strong>Tehdit:</strong> İtalya'nın ve Almanya'nın Balkanlar (Avrupa) üzerinde gözü olması.<br>
+<strong>Amacı:</strong> Türkiye'nin <strong>BATI</strong> sınırlarını güvence altına alması ve devletlerin birbirine saldırmama sözü vermesi.<br>
+<strong>Katılanlar (TaYYaR şifresi):</strong> <strong>T</strong>ürkiye, <strong>Y</strong>unanistan, <strong>Y</strong>ugoslavya, <strong>R</strong>omanya.<br>
+<strong>Katılmayanlar (Banko KPSS Sorusu):</strong><br>
+- <strong>Bulgaristan:</strong> Katılmadı. Çünkü Lozan'dan beri sınırlarını büyütmek (Romanya ve Yunanistan'dan toprak almak) istiyordu. Revizyonist (yayılmacı) olduğu için barış paktına girmedi.<br>
+- <strong>Arnavutluk:</strong> Katılmadı. Çünkü İtalya'nın (Mussolini'nin) dibindeydi, İtalya'nın baskısından (işgalinden) korktuğu için giremedi.</p>
+
+<h3>3.3. Montrö (Montreux) Boğazlar Sözleşmesi (20 Temmuz 1936)</h3>
+<p>Lozan'da Boğazlar başkanı Türk olan Uluslararası bir Komisyona bırakılmış ve iki yakası silahsızlandırılmıştı. Bu durum Türkiye'nin bağımsızlığına (egemenliğine) aykırıydı.<br>
+<strong>Gerekçe (Montrö'nün Neden İmzalandığı):</strong> İtalya'nın Habeşistan'a (Etiyopya) saldırması, Almanya'nın hızla silahlanması ve Japonya'nın paktlardan çekilmesi üzerine Türkiye Milletler Cemiyetine nota verdi: "Dünyada savaş çıkıyor, bu komisyon benim Boğazlarımı (İstanbul'u) nasıl koruyacak? Bu maddeyi değiştirelim!" dedi.<br>
+<strong>Kararlar:</strong><br>
+- Uluslararası Boğazlar Komisyonu <strong>kaldırıldı.</strong> Tüm yetki (tam egemenlik) Türkiye'ye geçti.<br>
+- Boğazların iki yakasına Türk askerinin yerleşmesine (silahlanmasına) izin verildi.<br>
+- Ticaret gemilerinin geçişi serbest bırakıldı ancak Savaş gemilerinin geçişi (ağırlık, gün sayısı vb.) Türkiye'nin sıkı denetimine ve iznine bağlandı. (Savaş çıkarsa Türkiye boğazları kapatma yetkisi aldı).<br>
+<strong>Sonucu:</strong> Boğazlarda TAM EGEMENLİK sağlandı, Misak-ı Milli yolunda dev bir adım atıldı.</p>
+
+<h3>3.4. Sadabat Paktı (1937) - Doğu Sınırını Koruma Paktı</h3>
+<p><strong>Tehdit:</strong> İtalya'nın (Mussolini'nin) Kuzey Afrika ve Orta Doğu'ya yayılma (İslam ülkelerini ele geçirme) politikası.<br>
+<strong>Amacı:</strong> Türkiye'nin <strong>DOĞU</strong> sınırlarını güvence altına alması.<br>
+<strong>Katılanlar:</strong> <strong>T</strong>ürkiye, <strong>İ</strong>ran, <strong>I</strong>rak, <strong>A</strong>fganistan. (Antlaşma İran'ın başkenti Tahran'daki Sadabat Sarayında imzalanmıştır).<br>
+<strong>Katılmayan Ülke (Banko Soru):</strong> <strong>Suriye</strong> katılmamıştır! Çünkü o dönem Fransa idaresindeydi, Türkiye ile "Hatay Sorunu" yaşıyordu ve Irak'la sınır anlaşmazlığı vardı.</p>
+
+<h3>3.5. Hatay (Sancak) Sorunu - "Kırk Asırlık Türk Yurdu"</h3>
+<p>Hatay (İskenderun Sancağı), 1921 Ankara Antlaşmasıyla (Fransız mandasındaki) Suriye sınırları içinde kalmış, ancak dili Türkçe olan özel/özerk bir bölge yapılmıştı.<br>
+<strong>Krizin Doğuşu:</strong> 1936'da Avrupa'da savaş tehlikesi artınca, Fransa askerlerini Suriye'den çekti. Giderken de Hatay'ı Suriye'ye bıraktı.<br>
+Türkiye "Hatay Suriye'ye bırakılamaz" diyerek Milletler Cemiyetine (MC) başvurdu.<br>
+<strong>Sandler Raporu (1937):</strong> MC temsilcisi Sandler bir rapor hazırladı: "Hatay'da Türkler çoğunluktadır, Hatay Suriye'ye verilemez, özerk olmalıdır" diyerek Türkiye'yi haklı buldu.<br>
+<strong>Atatürk'ün Hamlesi (Kurun Gazetesi):</strong> Hükümetin süreci yavaş yürütmesine sinirlenen Atatürk, Kurun gazetesinde <strong>"Asım Us"</strong> takma adıyla başyazılar yazarak Başbakan İsmet İnönü hükümetini pasiflikle (gevşeklikle) eleştirdi. "Bu benim şahsi meselemdir, gerekirse devlet başkanlığından istifa eder, Hatay'a çeteci olarak girerim" diyerek kararlılığını dünyaya gösterdi. Orduları güneye (sınıra) kaydırdı.</p>
+
+<h3>3.6. Hatay Bağımsız Cumhuriyeti (1938) ve Anavatana Katılışı (1939)</h3>
+<p>Atatürk'ün kararlılığı ve Fransa'nın savaş öncesi Türkiye'yi karşısına almak istememesi sonucu, Hatay meclisi kuruldu.<br>
+<strong>Hatay Bağımsız Devleti (Cumhuriyeti) Kuruldu (2 Eylül 1938):</strong><br>
+- <strong>İlk ve Tek Cumhurbaşkanı:</strong> Tayfur Sökmen<br>
+- <strong>Başbakanı:</strong> Abdurrahman Melek<br>
+- <strong>Meclis Başkanı:</strong> Abdülgani Türkmen<br>
+<em>(Atatürk, Hatay'ın bağımsız bir devlet olduğunu görmüştür. Ancak sağlığı hızla bozulmuş ve 10 Kasım 1938'de vefat etmiştir).</em><br>
+<strong>Anavatana Katılış (1939):</strong> Hatay Meclisi toplanarak (kendi oylamasıyla) "Türkiye Cumhuriyeti'ne katılma" kararı aldı (1939). Böylece Hatay Türkiye'nin bir ili oldu. (Misak-ı Milli yolunda son büyük başarıdır).</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>İtalya'nın Habeşistan'ı İşgali (Sebep) $\rightarrow$ Boğazlarda Montrö'ye Gidilmesi (Sonuç):</strong> Savaş kapıya dayanınca, komisyonun acizliği ortaya çıktı ve dünya mecburen Türkiye'nin tezini (silahlanmasını) kabul etti.</li>
+<li><strong>Fransa'nın Suriye'den Çekilmesi (Sebep) $\rightarrow$ Hatay Sorununun Patlak Vermesi (Sonuç):</strong> Fransa (Alman tehlikesi yüzünden) Orta Doğu'daki askerlerini Avrupa'ya çağırıp Suriye'ye bağımsızlık verince, Hatay ortada kaldı ve Türkiye devreye girdi.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Gelişme</th>
+<th>Özeti / Amacı</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1932</td>
+<td>Milletler Cemiyetine Giriş</td>
+<td>İspanya davet etti, Yunanistan destekledi (Barışçıl dış politika).</td>
+</tr>
+<tr>
+<td>1934</td>
+<td>Balkan Antantı</td>
+<td>İtalya/Almanya tehdidine karşı BATI sınırını koruma (TaYYaR).</td>
+</tr>
+<tr>
+<td>1936</td>
+<td>Montrö Boğazlar Sözleşmesi</td>
+<td>Boğazlarda Komisyon kalktı, tam egemenlik (silahlanma) sağlandı.</td>
+</tr>
+<tr>
+<td>1937</td>
+<td>Sadabat Paktı</td>
+<td>İtalya'nın yayılmasına karşı DOĞU sınırını koruma (T, İ, I, A).</td>
+</tr>
+<tr>
+<td>1937</td>
+<td>Sandler Raporu</td>
+<td>Hatay'da Türklerin çoğunlukta olduğunu belirten uluslararası belge.</td>
+</tr>
+<tr>
+<td>Eylül 1938</td>
+<td>Hatay Bağımsız Cumhuriyeti</td>
+<td>Bağımsız devlet kuruldu (Cumhurbaşkanı: Tayfur Sökmen).</td>
+</tr>
+<tr>
+<td>Haziran 1939</td>
+<td>Hatay'ın Türkiye'ye Katılması</td>
+<td>Atatürk'ün VEFATINDAN SONRA, meclis kararıyla Türkiye'ye katıldı.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Balkan Antantı vs. Sadabat Paktı Katılmayanlar (ÖSYM'nin En Sevdiği)</h3>
+<table>
+<thead>
+<tr>
+<th>Pakt / Antant</th>
+<th>KİMLER KATILMADI?</th>
+<th>NEDEN KATILMADI?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balkan Antantı (Batı)</strong></td>
+<td><strong>Bulgaristan ve Arnavutluk</strong></td>
+<td>Bulgaristan yayılmacı (toprak istiyor) olduğu için. Arnavutluk İtalya'dan korktuğu için.</td>
+</tr>
+<tr>
+<td><strong>Sadabat Paktı (Doğu)</strong></td>
+<td><strong>Suriye</strong></td>
+<td>Türkiye ile Hatay kavgası, Irak'la sınır kavgası olduğu için.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>Asım Us (Kurun Gazetesi):</strong> Atatürk'ün Hatay meselesinde İsmet Paşa hükümetini (Fransa'ya karşı pasif kalmakla) eleştirdiği yazıların yazar ve gazete adıdır.</li>
+<li><strong>Milletler Cemiyetine Davetle Katılan İLK Devlet:</strong> Türkiye'dir. Normalde devletler başvuru yapar, ancak Türkiye'nin barışçıl duruşu (ve Musul'daki kırgınlığı) nedeniyle, MC bizzat (İspanya aracılığıyla) davet etmiştir.</li>
+<li><strong>Japonya ve İtalya'nın Durumu:</strong> İtalya Montrö'yü ilk başta imzalamamıştır (Çünkü kendi Akdeniz planlarına terstir), daha sonra (1938'de) imzalamak zorunda kalmıştır. Japonya (Uzakdoğu'da saldırganlaştığı için) Milletler Cemiyetinden çekilmiştir.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Benim Şahsi Meselemdir"</span><p>Atatürk'ün <strong>"Benim şahsi meselemdir, Kırk asırlık Türk yurdu düşman elinde esir kalamaz"</strong> dediği toprak parçası kesinlikle <strong>Hatay (Sancak)</strong> bölgesidir. (Gerekirse devlet başkanlığından istifa eder sivil giderim diyecek kadar kararlıdır).</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Hatay, Atatürk döneminde Anavatana katıldı" Tuzağı.</strong> Efsane tuzaktır! Atatürk, Hatay'ın sadece (Eylül 1938'de) <strong>Bağımsız bir Devlet</strong> olduğunu görebilmiştir. Ancak Hatay'ın Meclis kararıyla Türkiye'ye katılması 1939 yılındadır (Atatürk'ün 10 Kasım 1938'deki vefatından sonradır).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Suriye Balkan Antantına katılmadı" Tuzağı.</strong> Suriye Balkanlarda (Avrupa'da) değildir ki Balkan antantına katılsın! Suriye Doğudadır ve katılmadığı pakt <strong>Sadabat Paktı'dır</strong>. Cümleleri okurken coğrafyayı (haritayı) unutma.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Montrö ile Hatay alındı" Tuzağı.</strong> İkisi tamamen farklı konulardır. Montrö Boğazlar (İstanbul/Çanakkale) komisyonunu kaldırmıştır (1936). Hatay ise Güneydeki Sancak sorunudur (1939). Bunları birbirine karıştırma.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Balkan Antantına katılan TaYYaR ile I. Balkan Savaşına katılanlar aynıdır" Tuzağı.</strong> I. Balkan Savaşı'na katılanlar "BüyüKSeK" (Bulgaristan, Yunanistan, Sırbistan, Karadağ) idi. Balkan Antantına katılanlar ise TaYYaR (Türkiye, Yunanistan, Yugoslavya, Romanya) dır. (Bulgaristan Antant'ta yoktur).</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Pakt Şifreleri</span><p>• <strong>Balkan Antantı (Batı):</strong> <strong>TaYYaR</strong> (Türkiye, Yunanistan, Yugoslavya, Romanya). <br>
+<em>(Bulgaristan yaramaz çocuk, katılmadı. Arnavutluk İtalya'dan korktu, katılmadı).</em><br>
+• <strong>Sadabat Paktı (Doğu):</strong> <strong>T</strong>ürkiye, <strong>İ</strong>ran, <strong>I</strong>rak, <strong>A</strong>fganistan. (Ortadoğu/Asya komşuları). <br>
+<em>(Suriye sorunlu çocuk, Hatay yüzünden katılmadı).</em><br>
+• <strong>Hatay Cumhurbaşkanı:</strong> Tayfur Sökmen (Tayfur=Hatayfur gibi uydur, aklında kalsın).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>1930 Sonrası Temel Politika:</strong> İtalya (Faşizm) ve Almanya'nın (Nazizm) dünyayı savaşa sürüklemesine karşı sınırları güvence altına almaktır.<br>
+• <strong>MC Üyeliği (1932):</strong> Barışçıl politikamız sayesinde (İspanya'nın davetiyle) cemiyete üye olduk.<br>
+• <strong>Balkan Antantı (1934):</strong> Batı sınırını korumak için TaYYaR katıldı. Bulgaristan ve Arnavutluk katılmadı.<br>
+• <strong>Montrö (1936):</strong> Savaş tehdidi sayesinde komisyon kalktı, Boğazlarda tam egemen (silahlı) olduk.<br>
+• <strong>Sadabat Paktı (1937):</strong> Doğu sınırını korumak için komşularla imzaladık. Suriye katılmadı.<br>
+• <strong>Hatay (1936-39):</strong> Sandler raporu lehimize çıktı. 1938'de bağımsız devlet oldu, 1939'da (Atatürk'ün vefatından sonra) anavatana katıldı.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Balkan Antantına Katılmayanlar:</strong> Bulgaristan (yayılmacı), Arnavutluk (İtalyan baskısı).<br>
+• <strong>Sadabat Paktına Katılmayan:</strong> Suriye (Hatay sorunu).<br>
+• <strong>Boğazlarda tam egemenlik (Komisyonun kalkması):</strong> Montrö Boğazlar Sözleşmesi (1936).<br>
+• <strong>Montrö'yü imzalamayan ancak 1938'de sonradan imzalayan devlet:</strong> İtalya.<br>
+• <strong>Atatürk'ün "Asım Us" takma adıyla yazı yazdığı gazete:</strong> Kurun Gazetesi (Hatay meselesi).<br>
+• <strong>Hatay'ın Türk yurdu olduğunu tescilleyen MC belgesi:</strong> Sandler Raporu.<br>
+• <strong>Hatay Bağımsız Cumhuriyetinin ilk ve tek Cumhurbaşkanı:</strong> Tayfur Sökmen.<br>
+• <strong>Hatay Bağımsız Cumhuriyetinin ilk Başbakanı:</strong> Abdurrahman Melek.<br>
+• <strong>Misak-ı Milli'ye katılan SON toprak parçası:</strong> Hatay (1939).<br>
+• <strong>Atatürk'ün sağlığında anavatana katılmasını GÖREMEDİĞİ toprak:</strong> Hatay.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Almanya'da Nazizm, İtalya'da Faşizm'in yükselerek dünya barışını tehdit etmesi üzerine, Türkiye'nin <strong>BATI</strong> sınırlarını güvence altına almak için 1934 yılında kurduğu antlaşma (örgüt) hangisidir?</p>
+<p>A) Sadabat Paktı &nbsp; B) Balkan Antantı &nbsp; C) Milletler Cemiyeti &nbsp; D) NATO</p>
+<p><strong>Çözüm:</strong> Avrupa'dan (Balkanlardan) gelecek olan tehditlere karşı Batı sınırını korumak için 1934'te Balkan Antantı kurulmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Aşağıdaki devletlerden hangisi 1934 yılında kurulan <strong>Balkan Antantı'na</strong> (TaYYaR) katılan devletlerden biri <strong>DEĞİLDİR</strong>?</p>
+<p>A) Türkiye &nbsp; B) Yunanistan &nbsp; C) Romanya &nbsp; D) Bulgaristan</p>
+<p><strong>Çözüm:</strong> Balkan Antantı üyeleri; Türkiye, Yunanistan, Yugoslavya ve Romanya'dır. Bulgaristan I. Dünya Savaşından beri komşularından (Yunanistan ve Romanya'dan) toprak istediği (revizyonist olduğu) için katılmamıştır. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>İtalya'nın 1935'te Habeşistan'a (Etiyopya) saldırması ve Kuzey Afrika-Ortadoğu'da yayılma tehlikesi yaratması üzerine, Türkiye'nin <strong>DOĞU ve GÜNEYDOĞU</strong> sınırlarını güvenceye almak için 1937'de imzaladığı pakt hangisidir?</p>
+<p>A) Balkan Antantı &nbsp; B) Sadabat Paktı &nbsp; C) Varşova Paktı &nbsp; D) Küçük Antant</p>
+<p><strong>Çözüm:</strong> İtalya'nın Ortadoğu'ya inme ihtimaline karşı doğudaki İslam ülkeleriyle (İran, Irak, Afganistan) imzalanan savunma kalkanı Sadabat Paktı'dır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>1937 yılında İran'da (Sadabat Sarayı'nda) kurulan Sadabat Paktı'na, Orta Doğu (sınır) ülkelerinden biri olmasına rağmen <strong>Hatay sorunu (Türkiye ile gerginlik)</strong> nedeniyle KATILMAYAN devlet aşağıdakilerden hangisidir?</p>
+<p>A) İran &nbsp; B) Irak &nbsp; C) Suriye &nbsp; D) Afganistan</p>
+<p><strong>Çözüm:</strong> Suriye, o dönem hem Türkiye ile (Hatay) sorun yaşıyordu, hem de Irak ile sınır anlaşmazlığı içindeydi. Bu yüzden pakta davet edilmesine rağmen katılmamıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Lozan'da kurulan <strong>Uluslararası Boğazlar Komisyonu'nun kaldırılarak</strong>, boğazların tüm egemenliğinin (silahlandırma ve asker bulundurma hakkının) tamamen Türkiye'ye verilmesini sağlayan 1936 tarihli sözleşme hangisidir?</p>
+<p>A) Montrö Boğazlar Sözleşmesi &nbsp; B) Hünkar İskelesi Antlaşması &nbsp; C) Sevr Antlaşması &nbsp; D) Mudanya Ateşkesi</p>
+<p><strong>Çözüm:</strong> İkinci Dünya Savaşı tehlikesi belirince Türkiye "Bu komisyon bizi koruyamaz" diyerek notalar vermiş ve 1936 Montrö sözleşmesiyle Boğazlarda tam egemenliği eline almıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Atatürk'ün <strong>"Benim şahsi meselemdir. Kırk asırlık Türk yurdu düşman elinde esir kalamaz."</strong> diyerek anavatana katılması için ölümüne dek mücadele ettiği toprak (bölge) neresidir?</p>
+<p>A) Musul &nbsp; B) Hatay (İskenderun Sancağı) &nbsp; C) Batum &nbsp; D) Kıbrıs</p>
+<p><strong>Çözüm:</strong> Atatürk hastalığının en ağır döneminde bile Mersin ve Adana'ya giderek sınırdaki askeri birlikleri denetlemiş, Fransa'ya "Hatay için savaşı bile göze alırım (Şahsi meselemdir)" mesajı vermiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Mustafa Kemal Atatürk'ün Hatay meselesinde, İsmet İnönü başkanlığındaki kendi hükümetini "pasif kalmakla ve süreci uzatmakla" eleştirmek için, <strong>"Asım Us"</strong> takma adıyla başyazılar yazdığı gazete aşağıdakilerden hangisidir?</p>
+<p>A) İrade-i Milliye &nbsp; B) Hakimiyet-i Milliye &nbsp; C) Kurun Gazetesi &nbsp; D) Minber Gazetesi</p>
+<p><strong>Çözüm:</strong> Atatürk devlet başkanı olduğu için Fransa'ya doğrudan diplomatik savaş açmak yerine, sivil bir gazeteci (Asım Us) kimliğiyle Kurun gazetesinde Fransa'yı ve kendi hükümetini sert dille eleştirerek kamuoyu yaratmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Milletler Cemiyeti (MC) adına bölgede (Sancak'ta) incelemeler yapan ve <strong>"Hatay'da nüfusun çoğunluğunun Türk olduğunu, buranın Suriye'ye bağlanamayacağını (özerk olması gerektiğini)"</strong> rapor ederek Türkiye'nin diplomatik elini güçlendiren kişi kimdir?</p>
+<p>A) General Harbord &nbsp; B) Amiral Bristol &nbsp; C) Sandler (Sandler Raporu) &nbsp; D) Milne (Milne Hattı)</p>
+<p><strong>Çözüm:</strong> MC temsilcisi İsveçli diplomat Sandler'in hazırladığı "Sandler Raporu", Hatay'ın uluslararası arenada haklı davamızı tescilleyen belgesidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Eylül 1938'de kurulan <strong>Hatay Bağımsız Cumhuriyeti'nin</strong> ilk ve tek Cumhurbaşkanı olarak görev yapan devlet adamı aşağıdakilerden hangisidir?</p>
+<p>A) Rauf Orbay &nbsp; B) Abdurrahman Melek &nbsp; C) Tayfur Sökmen &nbsp; D) Ali Fethi Okyar</p>
+<p><strong>Çözüm:</strong> Bağımsız Hatay Devletinin tek Cumhurbaşkanı Tayfur Sökmen, Başbakanı Abdurrahman Melek, Meclis Başkanı ise Abdülgani Türkmen'dir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Türkiye'nin uluslararası barışa katkı sağlamak (Yurtta Sulh Cihanda Sulh) amacıyla 1932 yılında (İspanya'nın daveti üzerine) üye olduğu evrensel kuruluş hangisidir?</p>
+<p>A) Birleşmiş Milletler (BM) &nbsp; B) NATO &nbsp; C) Milletler Cemiyeti (Cemiyet-i Akvam) &nbsp; D) Avrupa Konseyi</p>
+<p><strong>Çözüm:</strong> I. Dünya Savaşından sonra kurulan barış örgütü Milletler Cemiyeti'dir (Cemiyet-i Akvam). Türkiye 1932'de "Davet edilen ilk ülke" olarak resmi üye olmuştur. (BM, 2. Dünya savaşından sonra kurulacaktır). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Türkiye'nin 1930'lu yıllarda Montrö Boğazlar Sözleşmesi'ni talep etmesinde ve Balkan Antantı'nı kurmasında; <strong>İtalya'nın "Bizim Deniz (Mare Nostrum)" politikası</strong> ile <strong>Almanya'nın (Hitler'in) "Hayat Alanı (Lebensraum)" politikası</strong> doğrudan etkili olmuştur. <br>Buna göre İtalya ve Almanya'nın bu dönemdeki (tehditkar) dış politikasının adı nedir?</p>
+<p>A) Statükocu &nbsp; B) Revizyonist (Yayılmacı / Sınırları Değiştirmek İsteyen) &nbsp; C) İzolasyonist (İçe Kapanık) &nbsp; D) Pasifist</p>
+<p><strong>Çözüm:</strong> I. Dünya Savaşından yenik/mutsuz çıkan Almanya ve İtalya'nın, haritaları yırtıp atarak sınırları silah zoruyla değiştirmek istemesine "Revizyonist (Yayılmacı/Saldırgan)" politika denir. Türkiye bunlara karşı (Paktlarla) önlem almıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Aşağıdaki devletlerden hangisi, Mussolini (İtalya) baskısından korktuğu (ve İtalya'nın uydusu/etki alanında olduğu) için 1934 yılında <strong>Balkan Antantına KATILMAMIŞTIR</strong>?</p>
+<p>A) Yugoslavya &nbsp; B) Arnavutluk &nbsp; C) Romanya &nbsp; D) Yunanistan</p>
+<p><strong>Çözüm:</strong> Balkan devletlerinden Bulgaristan "Toprak/Ege'ye inmek istediği (yayılmacı) için" katılmamıştır. Arnavutluk ise tam İtalya'nın dibinde olduğu ve Mussolini'den çekindiği (korktuğu) için antanta girememiştir. (Nitekim İtalya 1939'da Arnavutluk'u işgal etmiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Aşağıdaki dış politika başarılarından hangisi, <strong>Atatürk'ün sağlığında (10 Kasım 1938'den ÖNCE) GERÇEKLEŞMEMİŞTİR</strong>?</p>
+<p>A) Montrö Boğazlar Sözleşmesinin imzalanması &nbsp; B) Milletler Cemiyetine girilmesi &nbsp; C) Hatay'ın <strong>Anavatana (Türkiye'ye) katılması</strong> &nbsp; D) Sadabat Paktının kurulması</p>
+<p><strong>Çözüm:</strong> Efsane tuzak! Atatürk Eylül 1938'de kurulan "Hatay Bağımsız Cumhuriyetini" (devletini) görebilmiştir. Ancak Hatay meclisinin karar alıp Haziran 1939'da Türkiye'ye (Anavatana) katılması Atatürk'ün vefatından (10 Kasım 1938) sonradır. O, Hatay'ı Türk sınırları içinde görememiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Hatay sorununun patlak vermesine (1936'da krizin başlamasına) sebep olan <strong>dış gelişme (tetikleyici unsur)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Yunanistan'ın Hatay'ı işgal etmesi &nbsp; B) Fransa'nın, Avrupa'daki (Almanya) savaş tehdidi nedeniyle Orta Doğu'daki askerlerini çekip <strong>Suriye'ye bağımsızlık vererek Hatay'ı Suriye'ye bırakması</strong> &nbsp; C) İngiltere'nin Hatay'da petrol bulması &nbsp; D) Cemiyet-i Akvam'ın dağılması</p>
+<p><strong>Çözüm:</strong> Hitler'in nefesini ensesinde hisseden Fransa, "Ben Suriye'de ne uğraşacağım, askerim bana kendi ülkemde (Avrupa'da) lazım" diyerek Suriye'den (ve Hatay'dan) çekilmiş, Hatay'ı Suriye rejimine bırakmıştır. Türkiye de anında "Hop dedik, orası Suriye'nin değil Türk yurdudur" diyerek devreye girmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Türkiye'nin 1936 Montrö Boğazlar Sözleşmesi talebi üzerine toplanan İsviçre'deki (Montreux) konferansta, "Boğazları savaşta dahi serbestçe (komisyonla) geçmek isteyen ve İtalya (Akdeniz) hesapları yapan" <strong>hangi ülke sözleşmeyi başlangıçta İMZALAMAMIŞ</strong>, ancak 1938 yılında (siyasi yalnızlıktan kurtulmak için) imzalamak zorunda kalmıştır?</p>
+<p>A) Sovyet Rusya &nbsp; B) İtalya &nbsp; C) Yunanistan &nbsp; D) Yugoslavya</p>
+<p><strong>Çözüm:</strong> İtalya'nın "Bizim Deniz (Mare Nostrum - Akdeniz)" hayalleri vardı. Boğazların Türkiye'nin askeri kontrolüne geçmesi işine gelmediği için (konferansta sorun çıkarıp) imzalamadı. Ancak 1938'de Avrupa diplomasisinden dışlanınca mecburen imzalamıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>1937 yılında imzalanan <strong>Sadabat Paktı</strong>'nın kurulmasının <strong>temel dış gerekçesi (Tehdidi)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Rusya'nın sıcak denizlere inmek istemesi &nbsp; B) İtalya'nın 1935'te Habeşistan'ı (Etiyopya'yı) işgal etmesi ve Doğu Akdeniz / Ortadoğu'da İslam ülkelerini tehdit etmeye başlaması &nbsp; C) Yunanistan'ın Kıbrıs'ı işgali &nbsp; D) ABD'nin Ortadoğu'ya girmesi</p>
+<p><strong>Çözüm:</strong> Mussolini 1935'te göz göre göre Afrika'da Habeşistan'a saldırınca, Ortadoğu'daki İslam ülkeleri (Türkiye, İran, Irak, Afganistan) "Sıra bize geliyor" korkusuyla doğu sınırlarını korumak için Sadabat Paktı'nı kurmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Atatürk'ün dış politikasında <strong>"Gerçekçilik"</strong> ilkesi esastır. Türkiye hiçbir zaman kendi gücünü aşan (hayalperest) maceralara girmemiştir. <br>Aşağıdakilerden hangisi bu "Gerçekçilik" (Hayalperest olmama) ilkesine bir kanıttır?</p>
+<p>A) Türkiye'nin Turan'ı (Tüm Orta Asya'daki Türkleri birleştirme imparatorluğunu) kurmak için Rusya'ya savaş ilan <strong>etmemesi</strong> &nbsp; B) Hatay'ı almak istemesi &nbsp; C) Montrö sözleşmesini imzalaması &nbsp; D) Balkan antantına girmesi</p>
+<p><strong>Çözüm:</strong> Enver Paşa dönemindeki (Turan/İmparatorluk) hayalleri I. Dünya Savaşında felaket getirmişti. Atatürk dış politikada asla Turancılık veya Osmanlıyı diriltme (İslamcılık) gibi ulaşılamaz hayaller peşinde koşmamış, elde ne varsa (Misak-ı Milli) sadece onu koruyan "Gerçekçi" bir politika izlemiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Montrö Boğazlar Sözleşmesi (1936) ile Türkiye Cumhuriyeti, Lozan'da (1923) verdiği tavizleri geri almış ve Boğazlarda tam bağımsızlığını (egemenliğini) kazanmıştır. <br>Aşağıdakilerden hangisi Montrö'nün <strong>sonuçlarından (maddelerinden) biri DEĞİLDİR</strong>?</p>
+<p>A) Uluslararası Boğazlar Komisyonunun kaldırılarak tüm yetkinin Türkiye'ye devredilmesi &nbsp; B) Türkiye'nin Boğazların iki yakasında asker (silah) bulundurabilmesi &nbsp; C) Ticaret gemilerinin barış zamanında geçişinin yasaklanması &nbsp; D) Türkiye'nin savaşa girmesi veya savaş tehlikesi hissetmesi durumunda Boğazları dilediği gibi açıp kapatabilme yetkisi alması</p>
+<p><strong>Çözüm:</strong> Ticaret gemilerinin (silahsız, sivil) geçişi barış zamanında Montrö'ye göre de SERBESTTİR (Geçiş ücreti vs. alınarak serbesttir). Sınırlandırılan şey "Savaş gemileri, denizaltılar ve uçak gemileridir". <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Hatay'ın anavatana (Türkiye'ye) katılma süreci, hukuk ve diplomasi kurallarına uygun olarak <strong>hangi yöntemle (kararla)</strong> gerçekleşmiştir?</p>
+<p>A) Türkiye'nin askeri harekatla (işgalle) Hatay'ı almasıyla &nbsp; B) Fransa'nın Hatay'ı zorla bize satmasıyla &nbsp; C) Hatay Bağımsız Cumhuriyeti Meclisinin <strong>kendi özgür iradesiyle (oylamasıyla) Türkiye'ye katılma (ilhak)</strong> kararı almasıyla &nbsp; D) İngiltere'nin emriyle</p>
+<p><strong>Çözüm:</strong> Atatürk ve Türk diplomasisi, Hatay'ı kaba kuvvetle/işgalle almamıştır. Önce özerklik, sonra bağımsız devlet statüsü (seçimler) sağlanmış; en sonunda Hatay'daki milletvekilleri (kendi meclislerinde el kaldırarak) Türkiye'ye katılma oylaması yapmışlardır. Mükemmel bir diplomasi zaferidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>1934 Balkan Antantı, sınırları korumak adına atılmış önemli bir adımdır. Ancak II. Dünya Savaşı patlak verdiğinde Almanya ve İtalya Balkanları işgal edince, bu pakt <strong>amancına ulaşamamış (işlevini yitirmiş/dağılmıştır)</strong>. <br>Bu durum hangi atasözü / kavram ile açıklanabilir?</p>
+<p>A) Barışta ter dökmeyen, savaşta kan döker &nbsp; B) Kağıt üzerindeki (pakt) güvencelerin, gerçek bir Dünya Savaşının (askeri işgalin) devasa tankları/orduları karşısında tek başına sınırları korumaya yetmeyeceği &nbsp; C) Türkiye'nin ihanet ettiği &nbsp; D) Paktın baştan beri savaş için kurulduğu</p>
+<p><strong>Çözüm:</strong> Türkiye antantı kurdu ama 1939-1941 arasında Hitler (Almanya) öyle bir askeri güçle Balkanlara (Yunanistan ve Yugoslavya'ya) girdi ki, kağıt üzerindeki antlaşma (Balkan Antantı) çöpe gitti, devletler işgal edildi. (Neyse ki Türkiye sınırda durdurmayı başardı). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Lozan Boğazlar Komisyonunun başkanı zaten bir Türk'tü (Vasıf Temel Paşa). Madem başkan bizdendik, Türkiye neden Montrö'yü imzalamak ve komisyonu toptan kaldırmak için bu kadar diplomatik çaba (kavga) harcamıştır?</p>
+<p>A) Başkandan maaş alınamaması &nbsp; B) Komisyonun olduğu yerde (Boğazların her iki yakasında) Türkiye'nin <strong>asker (silah, top) bulundurmasının YASAK olması</strong> ve savaş çıkarsa Türkiye'nin İstanbul'u koruyacak 1 tane topunun (askerinin) bile olmaması &nbsp; C) Rusya'nın komisyonu istemesi &nbsp; D) Sadece İngilizlerin geçmesi</p>
+<p><strong>Çözüm:</strong> Başkanın Türk olması sembolikti. İşin felaket boyutu "Silahsızlandırılmış Bölge" maddesiydi. Savaş kapıdaydı ve İstanbul'un iki yakasında Türk askeri duramıyordu. Montrö ile elde ettiğimiz asıl zafer "Oraya Türk askerini ve topunu" sokup, güvenliği sağlamaktır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Montrö Boğazlar Sözleşmesi (1936), uluslararası hukukun (diplomasinin) "Rebus sic stantibus" <strong>(Şartların köklü şekilde değişmesi)</strong> ilkesinin en güzel uygulama örneklerinden biridir. <br>Türkiye'nin Montrö'de "Şartlar değişti, Lozan'ı revize edelim" demesine dayanak oluşturan gelişme nedir?</p>
+<p>A) Lozan imzalandığında dünyada kalıcı (Cemiyet-i Akvam merkezli) bir barış havası varken, 1930'larda <strong>Silahlanma yarışının başlaması, paktların bozulması (Silahsızlanma konferansının çökmesi) ve İtalya'nın saldırganlaşmasıyla GÜVENLİK şartlarının tamamen ortadan kalkması</strong> &nbsp; B) Ekonomik kriz çıkması &nbsp; C) Hatay sorununun başlaması &nbsp; D) Yunanistan'ın saldırısı</p>
+<p><strong>Çözüm:</strong> Türkiye "Ben Lozan'da komisyonu ve silahsızlanmayı kabul ettim çünkü Milletler Cemiyeti (barış) beni korur demiştiniz. Ama şimdi İtalya/Almanya silahlandı, herkes paktlardan çekiliyor, MC bizi koruyamaz, SAVAŞ geliyor (şartlar değişti)" diyerek uluslararası hukuku zekice kullanmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Hatay'ın anavatana katılma sürecinde görev alan aşağıdaki kişilerden hangisi <strong>Hatay Bağımsız Cumhuriyeti'nin Başbakanı</strong> olarak görev yapmıştır?</p>
+<p>A) Tayfur Sökmen &nbsp; B) Abdülgani Türkmen &nbsp; C) Abdurrahman Melek &nbsp; D) Asım Us</p>
+<p><strong>Çözüm:</strong> Cumhurbaşkanı: Tayfur Sökmen. Başbakan: Abdurrahman Melek. Meclis Başkanı: Abdülgani Türkmen. Asım Us ise Atatürk'ün takma (kalem) adıdır. (Bu üçlü isimleri özellikle denemeler çok sever). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Sadabat Paktı'na (Türkiye, İran, Irak, Afganistan) katılan ülkelerin tamamının İslam coğrafyasına (Doğuya) ait devletler olması, bu paktın "İslamcılık (Ümmetçilik)" ideolojisiyle kurulduğu anlamına gelir mi? Neden?</p>
+<p>A) Evet gelir, çünkü hedefleri Halifeliği diriltmektir. &nbsp; B) Hayır gelmez. Paktın temeli tamamen <strong>ortak dış tehdide (İtalya'nın emperyalizmine) karşı laik/modern devletlerin sınır ve güvenlik (bağımsızlık) refleksine</strong> dayanır. Dini bir pakt değildir. &nbsp; C) Evet gelir, çünkü sadece Araplar vardır. &nbsp; D) Hayır gelmez çünkü paktı Rusya kurdurmuştur.</p>
+<p><strong>Çözüm:</strong> Sadabat Paktı'nın ümmetçilikle alakası yoktur. Atatürk zaten Laik Türkiye'yi kurmuştur, İran Şahı (Pehlevi) de laikleşme (modernleşme) çabasındadır. Amaçları Afrika'ya inen İtalya ordularının kendi ülkelerine girmesini engellemektir. Tamamen seküler (güvenlik amaçlı) bir pakttır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Türkiye, Milletler Cemiyeti'ne üye olduğu 1932 yılından itibaren uluslararası siyasette aktif (barışçıl) rol oynamıştır. <br>Aşağıdakilerden hangisi, Türkiye'nin Milletler Cemiyeti (ve barış) adına attığı uluslararası adımlardan (katıldığı antlaşmalardan) biri <strong>DEĞİLDİR</strong>?</p>
+<p>A) Briand-Kellogg Paktı'na katılması &nbsp; B) Litvinov Protokolü'ne katılması &nbsp; C) Locarno Antlaşması &nbsp; D) Akdeniz Paktı (Nyon Konferansı)</p>
+<p><strong>Çözüm:</strong> Türkiye savaşı dışlayan Briand-Kellogg'a, Sovyetlerin Litvinov protokolüne, deniz korsanlığına karşı Nyon/Akdeniz paktına katılmıştır. Ancak Avrupa'da (1925) Almanya'nın sınırlarını garanti altına alan <strong>Locarno Antlaşması'na</strong> (bizle ilgisi olmadığı için) KESİNLİKLE katılmamıştır. (Klasik zor KPPS ezber sorusudur). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Milletler Cemiyetinin hazırladığı <strong>"Sandler Raporu"</strong> doğrultusunda, Hatay (Sancak) bölgesinin "Özerk" (Ayrı bir varlık) olması kararlaştırılmış ve bölge statüsü yeniden yazılmıştır. <br>Sandler Raporu, Hatay'ın durumunu hukuki olarak çözerken (Suriye'den ayırırken) hangi antlaşmanın (Lozan'daki bir maddenin) ihlal edilmesini (sınırın bozulmasını) önlemek (kılıfına uydurmak) zorunda kalmıştır?</p>
+<p>A) 1921 Ankara Antlaşması &nbsp; B) 1926 Ankara Antlaşması &nbsp; C) Mudanya Ateşkesi &nbsp; D) Montrö Sözleşmesi</p>
+<p><strong>Çözüm:</strong> Hatay'ın Suriye'ye bırakıldığı asıl belge 1921 Ankara Antlaşmasıydı (Fransa ile yapılan). Sandler Raporu, "Tamam sınır 1921'deki gibi kalsın ama Hatay'ın içi kendi başına buyruk (özerk) olsun" diyerek diplomatik bir manevrayla Türkiye'nin elini güçlendirmiştir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Balkan Antantı (1934) imzalandıktan sonra, Türkiye Cumhuriyeti'nin dış politikada Batı Trakya (Yunanistan) sınırına olan <strong>askeri güvenlik kaygıları</strong> azalmıştır. <br>Türkiye, Batıda (Balkanlarda) oluşan bu güvenlik şemsiyesi ve dostluk sayesinde, dikkatini ve diplomatik gücünü ağırlıklı olarak <strong>hangi meselenin çözümüne</strong> odaklayabilmiştir?</p>
+<p>A) Musul Sorunu &nbsp; B) Hatay ve Boğazlar (Montrö) Meselelerine &nbsp; C) Etabli Sorunu &nbsp; D) Dış Borçlar Sorunu</p>
+<p><strong>Çözüm:</strong> Arkanı (Batı sınırını) Balkan Antantıyla garantiye alınca, yüzünü rahatça Güney'e (Hatay'a) ve İstanbul'a (Montrö'ye) dönebilirsin. Diplomaside bir cepheyi kapatmak (barışla), diğer cephede (Hatay'da) güçlü olmanı sağlar. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Sadabat Paktı (1937), Türkiye'nin sadece Doğusunu korumakla kalmamış, aynı zamanda "Atatürk'ün Laik ve modern Cumhuriyet modelinin" Ortadoğu (İslam) coğrafyasındaki diğer devletler (İran/Şah, Afgan kralı) tarafından <strong>örnek alınmasına (itibar görmesine)</strong> da zemin hazırlamıştır. <br>Aşağıdaki gelişmelerden hangisi bu duruma (prestije) örnek olarak gösterilebilir?</p>
+<p>A) Afgan Kralı Emanullah Han'ın (daha önce) ve İran Şahı Pehlevi'nin Türkiye'yi ziyaret edip Atatürk'ün reformlarını kendi ülkelerinde uygulamak istemesi &nbsp; B) Arapların Türkiye'ye savaş açması &nbsp; C) Rusya'nın komünizmi yayması &nbsp; D) Halifeliğin geri gelmesi</p>
+<p><strong>Çözüm:</strong> Sadabat paktı üyelerinden İran (Rıza Şah Pehlevi) ve Afganistan (Kral Emanullah), Atatürk Türkiye'sini ziyaret etmiş, modernleşme/kalkınma hamlelerinden (şapka, kılık-kıyafet, ordu) o kadar etkilenmişlerdir ki, kendi ülkelerinde "Atatürk modelini" uygulamaya kalkmışlardır. (Gerçi ülkelerindeki gericiler tarafından devrilmişlerdir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Hatay Meselesi sürerken, Fransız yetkililer Hatay'ın nüfusunun yarısından fazlasının Arap ve Nusayri olduğunu iddia etmiş; Türkiye ise bölge halkının ezici çoğunluğunun Türk olduğunu (Eti Türklerinden geldiklerini vb.) savunmuştur. <br>Türkiye'nin Hatay'daki haklılığını kanıtlamak için <strong>kültürel ve bilimsel diplomasi</strong> aracı olarak kullandığı devlet kurumu hangisidir?</p>
+<p>A) Türk Tarih Kurumu (TTK) &nbsp; B) Sümerbank &nbsp; C) Diyanet İşleri Başkanlığı &nbsp; D) Ziraat Bankası</p>
+<p><strong>Çözüm:</strong> Atatürk, Hatay'ın binlerce yıllık Türk yurdu (Eti Türkleri) olduğunu kanıtlamak, arkeolojik ve dilbilimsel raporlar hazırlatıp bunları Milletler Cemiyetine (Fransızlara) sunmak için <strong>Türk Tarih Kurumunu</strong> bizzat görevlendirmiş, tarihi siyasete (diplomasiye) bilimsel kanıt olarak kullanmıştır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>1939 Yılında (Atatürk'ün ölümünden birkaç ay sonra) Hatay'ın Türkiye'ye (Anavatana) katılması kararının alınmasının ardından, Hatay'ı hukuken Türkiye'ye bırakan ve Hatay Bağımsız Cumhuriyeti'nin sonunu (Türkiye'nin bir ili olmasını) belgeleyen devlet hangisidir?</p>
+<p>A) İngiltere &nbsp; B) Fransa (Suriye üzerindeki manda yönetimi olarak) &nbsp; C) Rusya &nbsp; D) ABD</p>
+<p><strong>Çözüm:</strong> Hatay meclisi "Türkiye'ye katıldık" dediğinde, bölgenin uluslararası eski sahibi (garantörü) olan Fransa "Tamam" diyerek Türkiye ile Ankara'da bir antlaşma imzalamış ve askerlerini Hatay'dan tamamen çekerek bölgeyi resmen Türkiye'ye devretmiştir. (Avrupa'da Hitler savaşı başlatmak üzere olduğu için Fransa Türkiye ile savaşmak (itiraz etmek) istememiş, taviz vermiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: II. Dünya Savaşı öncesi barışı (ve sınırlarımızı) korumak için 3 dev adım atıldı. 1) Milletler Cemiyetine Giriş. 2) Balkan Antantı (TaYYaR katıldı, Bulgaristan/Arnavutluk yok). 3) Sadabat Paktı (T, İ, I, A katıldı, Suriye yok). Savaş tehlikesi fırsata çevrilip Montrö'de boğazlar alındı. Hatay (Sandler Raporu, Asım Us) 1938'de bağımsız oldu (Atatürk gördü), 1939'da Anavatana katıldı (Atatürk göremedi!).</em></p>
+`,
   },
   {
     id: 72,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'II. Dünya Savaşı ve Türkiye',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(İsmet İnönü, Denge Politikası, Varlık Vergisi, Köy Enstitüleri)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Atatürk vefat etmiş, cumhurbaşkanlığına İsmet İnönü seçilmişti. Ancak yeni cumhurbaşkanının (Milli Şef'in) kucağında dünyayı kan gölüne çevirecek bir ateş bombası vardı: <strong>II. Dünya Savaşı.</strong><br>
+Türkiye'nin bu dönemdeki (1939-1945) tek ve en büyük hedefi; etrafı ateş çemberiyken ülkeyi savaşa sokmamaktı. İsmet İnönü bunu başardı ancak bedeli içeride ağır oldu. Genç nüfus askere alınınca tarlalar boş kaldı, ekonomi durdu, ekmek karneye bağlandı.<br>
+ÖSYM bu ünitede sana Avrupa'daki kanlı cepheleri sormaz. ÖSYM'nin derdi Türkiye'nin masadaki kurnaz diplomasisidir (Adana/Kahire görüşmeleri ve BM'ye girmek için yapılan sembolik savaş ilanı) ve içeride çıkarılan kanunlardır (Varlık Vergisi, Köy Enstitüleri). Bu derste "Milli Şef" döneminin ekonomik ve diplomatik şifrelerini çözeceğiz.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu ünite "Çağdaş Türk ve Dünya Tarihi" kısmının girişidir. Köy Enstitülerinin kime (hangi döneme) ait olduğunu veya Türkiye'nin (Yalta kararı yüzünden) BM kurucu üyesi olmak için durduk yere kağıt üzerinde neden savaş ilan ettiğini bilmek KPSS'nin altın anahtarlarındandır.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Savaş dünyayı ikiye böldü: <strong>Mihver Devletler</strong> (Saldırganlar: Almanya, İtalya, Japonya) ile <strong>Müttefik Devletler</strong> (Savunmacılar: İngiltere, Fransa, SSCB, ABD).<br>
+Türkiye, savaş boyunca İngiltere ve müttefiklere daha yakın durdu ancak fiilen (askerle) savaşa girmedi; <strong>"Aktif Tarafsızlık (Denge Politikası)"</strong> uyguladı. Müttefikler bizi savaşa sokmak için Adana ve Kahire'de baskı yaptı. Biz ise "Prensipte evet ama silahımız yok, verin girelim" diyerek 6 yıl boyunca oyalama taktiği uyguladık.<br>
+İçeride ise durum karanlıktı: Karaborsayı engellemek için ekonomiye devlet el koydu (<strong>Milli Korunma Kanunu</strong>), zenginleşen (fırsatçı) tüccardan zorla <strong>Varlık Vergisi</strong> alındı, köylüden ürün vergisi (<strong>Toprak Mahsulleri Vergisi</strong>) kesildi. Ancak bu karanlık yılların en aydınlık projesi, kırsalı kalkındırmak için açılan <strong>Köy Enstitüleri</strong> oldu.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 "Sizi Aç Bıraktım Ama Babasız Bırakmadım"</span><p>Halkın ekonomik sıkıntılar ve ekmek karneleri yüzünden İsmet İnönü'yü eleştirmesi üzerine İnönü'nün söylediği iddia edilen bu söz, dönemin tüm politikasını (kötü ekonomiye rağmen neslin savaştan korunduğunu) özetler.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Savaşın Başlaması ve Türk Dış Politikası</h3>
+<p>1 Eylül 1939'da Almanya'nın (Hitler'in) Polonya'yı işgal etmesiyle savaş patlak verdi. <br>
+Türkiye'nin politikası <strong>Savaş Dışı Kalma (Denge)</strong> üzerine kuruluydu. Almanlar Balkanları yutarak Türkiye'nin sınırına (Bulgaristan ve Yunanistan'a) kadar gelince Türkiye'ye saldırmamak için <strong>Türk-Alman Saldırmazlık Paktı (1941)</strong> imzaladılar.<br>
+İngilizler ve Ruslar ise Türkiye'yi güneyden Avrupa'ya yeni bir cephe açması için savaşa sokmaya çalışıyordu. Türkiye ise sürekli "Silahımız, tankımız, lojistiğimiz yok" diyerek İngilizleri oyalıyordu.</p>
+
+<h3>3.2. Adana ve Kahire Görüşmeleri (Müttefiklerin Baskısı)</h3>
+<p><strong>1) Adana Görüşmeleri (Ocak 1943):</strong> İngiltere Başbakanı Winston Churchill gizlice Adana'ya (Yenice tren istasyonuna) geldi. İsmet İnönü ile görüştü. Amacı Türkiye'yi savaşa sokmaktı. İnönü, "Ordumuzun donanım eksiği var, bunları sağlarsanız gireriz" diyerek diplomatik bir kalkan oluşturdu.<br>
+<strong>2) I. ve II. Kahire Görüşmeleri (1943 Sonu):</strong> Mısır'da yapılan konferanslarda önce Dışişleri Bakanı Numan Menemencioğlu, ardından İsmet İnönü, Churchill ve Roosevelt (ABD başkanı) ile görüştü. Müttefikler üslerini istiyor ve Türkiye'nin savaşa girmesini dayatıyordu. Türkiye yine "Prensipte kabul ediyoruz ama silah yardımını tam yaparsanız" diyerek taleplerin altından kalkılmaz bir liste sundu ve savaşa girmekten sıyrıldı.</p>
+
+<h3>3.3. Yalta Kararı ve Sembolik Savaş İlanı (BM Üyeliği)</h3>
+<p>Savaşın sonlarına doğru Almanya'nın yenileceği kesinleşince, Müttefik liderleri (ABD, İngiltere, SSCB) <strong>Yalta Konferansı'nda (Şubat 1945)</strong> yeni dünya düzenini kurmak için toplandı. Bir karar aldılar: <em>"1 Mart 1945'e kadar Almanya ve Japonya'ya savaş ilan etmeyen hiçbir devlet, kurulacak olan Birleşmiş Milletler (BM) teşkilatına kurucu üye olarak katılamayacaktır."</em><br>
+<strong>Türkiye'nin Hamlesi:</strong> Türkiye, savaş bitmek üzereyken (ve cephede tek kurşun atmadan) 23 Şubat 1945'te Almanya ve Japonya'ya resmi savaş ilan etti.<br>
+<strong>Amacı:</strong> Yalta kararındaki şartı yerine getirip, yeni kurulacak düzende (San Francisco Konferansına davet edilerek) <strong>Birleşmiş Milletler'in (BM) kurucu üyesi olmaktır.</strong></p>
+
+<h3>3.4. İç Politika ve Ekonomi: Milli Korunma Kanunu (1940)</h3>
+<p>Nüfusun en verimli, genç, üreten erkekleri savaşa gireriz korkusuyla askere alınınca tarlalar boş kaldı. Üretim çakıldı, karaborsacılık patladı.<br>
+Hükümet 1940'ta <strong>Milli Korunma Kanunu'nu</strong> çıkardı. Bu kanunla devlete ekonomiye, fabrikalara ve tarıma doğrudan el koyma yetkisi verildi.<br>
+- <strong>Ekmek Karnesi:</strong> Un stoklarını korumak için halka ekmek, şeker, gaz yağı karneyle (kişi başı belirli bir gramajda) dağıtıldı.<br>
+- <strong>Karartma Uygulamaları:</strong> Gece düşman uçaklarının (olası bombardımanda) hedefleri görmemesi için tüm şehirlerde ışıkların kapatılması (karartma) ve gece sokağa çıkma yasakları uygulandı.</p>
+
+<h3>3.5. Varlık Vergisi (1942) ve Toprak Mahsulleri Vergisi (1943)</h3>
+<p><strong>Varlık Vergisi:</strong> Savaş ortamında malları stoklayıp karaborsacılık yapan ve olağanüstü zenginleşen (Haksız kazanç sağlayan) tüccarlardan alınan bir defaya mahsus çok ağır bir vergidir. Özellikle İstanbul'daki <strong>gayrimüslim (azınlık)</strong> tüccarları derinden vurmuştur. Vergisini ödeyemeyenler (veya nakde çeviremeyenler) Erzurum-Aşkale'deki çalışma kamplarına gönderilmiştir. (İç ve dış tepkiler üzerine 1944'te tamamen kaldırılmıştır).<br>
+<strong>Toprak Mahsulleri Vergisi:</strong> Ordunun yiyecek ihtiyacını karşılamak için çiftçinin/köylünün ürettiği ürünün %10'una (ayni olarak, yani ürün olarak) el konulması kanunudur. (Eski Aşar vergisini hortlattığı için büyük tepki çekmiş, DP'nin iktidara gelmesinde etkili olmuştur).</p>
+
+<h3>3.6. Eğitimde Bir Kırsal Kalkınma Modeli: Köy Enstitüleri (1940)</h3>
+<p>İsmet İnönü döneminin (Milli Şef'in) eğitimdeki en efsanevi (ve tartışmalı) projesidir.<br>
+<strong>Mimarları:</strong> Dönemin Milli Eğitim Bakanı <strong>Hasan Ali Yücel</strong> ve İlköğretim Genel Müdürü <strong>İsmail Hakkı Tonguç</strong>.<br>
+<strong>Amaç:</strong> Şehirdeki öğretmeni köye gönderince uyum sağlayamıyordu. Bunun yerine "Köylü çocuklarını (ilkokul mezunlarını) alıp tarım, zanaat, yapı, marangozluk, sağlık ve kültür (müzik/edebiyat) alanında çok yönlü eğitip; tekrar kendi köylerine <strong>öğretmen</strong> (kalkınma önderi) olarak göndermek" planlandı. "İş içinde iş ile eğitim" felsefesi uygulandı.<br>
+<strong>Sonucu:</strong> 21 bölgede açıldı, kırsalda inanılmaz bir eğitim devrimi yarattı. Fakir Baykurt, Mahmut Makal, Talip Apaydın gibi ünlü yazarlar (köy edebiyatı) buradan yetişti.<br>
+<strong>Kapatılması:</strong> Soğuk savaşın başlamasıyla "buralarda komünizm propagandası yapılıyor" ithamları (ve ağaların/toprak sahiplerinin köylünün uyanmasından rahatsız olması) nedeniyle yıpratıldı. Önce 1946'da ruhu bozuldu (Öğretmen Okullarına çevrildi), <strong>1954'te Demokrat Parti (Menderes) döneminde tamamen kapatıldı.</strong></p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Yalta Konferansı'nın BM Şartı (Sebep) $\rightarrow$ Türkiye'nin Savaşa Girmesi (Sonuç):</strong> Türkiye'nin Almanya'ya savaş ilanı askeri değil, tamamen siyasi ve diplomatik bir hamledir. Savaş sonrası (San Francisco'da) masada olmak içindir.</li>
+<li><strong>Askeri Seferberlik (Sebep) $\rightarrow$ Milli Korunma Kanunu (Sonuç):</strong> Genç erkek nüfusun (1 milyona yakın askerin) silah altına alınması, üretimi durdurmuş, devleti mecburen ekmeği karneye bağlayıp ekonomiye el koymaya itmiştir.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış ve Dönem Kavramları (Özet)</h2>
+<table>
+<thead>
+<tr>
+<th>Olay / Kavram</th>
+<th>Özeti / Amacı</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Milli Şef Dönemi</strong></td>
+<td>Atatürk'ün ölümünden (1938) Demokrat Parti'nin iktidara geldiği (1950) seçime kadar geçen <strong>İsmet İnönü</strong> dönemidir.</td>
+</tr>
+<tr>
+<td><strong>Köy Enstitüleri (1940)</strong></td>
+<td>Kırsalı kendi içinden çıkaracağı öğretmenlerle (H. Ali Yücel / İ. Hakkı Tonguç) kalkındırma projesi.</td>
+</tr>
+<tr>
+<td><strong>Milli Korunma K. (1940)</strong></td>
+<td>Ekonominin devlet tekeline alınması (Karaborsayı önleme). Karne dönemi.</td>
+</tr>
+<tr>
+<td><strong>Varlık Vergisi (1942)</strong></td>
+<td>Savaş zenginlerinden alınan ağır servet vergisi (Aşkale kampları).</td>
+</tr>
+<tr>
+<td><strong>Adana ve Kahire Görüş.</strong></td>
+<td>Müttefiklerin Türkiye'yi savaşa çekmek için uyguladığı diplomatik baskılar.</td>
+</tr>
+<tr>
+<td><strong>Savaş İlanı (Şubat 1945)</strong></td>
+<td>Yalta kararından dolayı, BM kurucu üyesi olabilmek için kağıt üstünde savaşa girilmesi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Aşar Vergisi (1925) vs. Toprak Mahsulleri Vergisi (1943)</h3>
+<table>
+<thead>
+<tr>
+<th>Karşılaştırma</th>
+<th>Aşar (Öşür) Vergisi</th>
+<th>Toprak Mahsulleri Vergisi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hangi Dönem?</strong></td>
+<td>Osmanlı'dan kalma, <strong>Atatürk (1925)</strong> döneminde KALDIRILDI.</td>
+<td><strong>İsmet İnönü (1943)</strong> savaş döneminde GELDİ.</td>
+</tr>
+<tr>
+<td><strong>Özelliği / Amacı</strong></td>
+<td>Çiftçiyi eziyordu. <strong>KALDIRILMASI Halkçılık</strong> (Eşitlik/Sosyal devlet) ilkesidir.</td>
+<td>Ordunun yiyecek ihtiyacını karşılamak için çiftçiden <strong>ZORLA (ürün olarak) ALINAN</strong> olağanüstü dönem vergisidir. (Aşar'ı hortlattı diye eleştirilmiştir).</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>"Savaşa FİİLEN (Askerle) Girilmemiştir":</strong> Türkiye'nin savaş ilanı sadece evrak (diplomasi) üzerindedir. Tek bir Türk askeri cepheye (Almanya'ya veya Japonya'ya karşı) gönderilmemiştir. Ancak savaş çıkmış gibi seferberlik ilan edildiği için iç ekonomi mahvolmuştur.</li>
+<li><strong>Varlık Vergisi vs. Aşkale:</strong> Vergisini ödemeyen veya itiraz eden gayrimüslim ve Müslim tüccarların gönderildiği çalışma (taş kırma, yol yapımı) kampı Erzurum'un Aşkale ilçesindedir. Bu durum Türkiye'nin uluslararası imajını o dönem zedelemiştir.</li>
+<li><strong>Köy Enstitüsü Mimarları:</strong> Hasan Ali Yücel ve İsmail Hakkı Tonguç ikilisini adın gibi bil. (ÖSYM bu iki ismi paragrafta verip kurumu sorar veya kurumu verip mimarlarını sorar).</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Savaş İlan Ettik? (Yalta'dan San Francisco'ya)</span><p>Türkiye'ye "Almanya'ya asker gönder" diyen kimse yoktu. Yalta'da "Savaş ilan etmeyen BM'ye giremez" dediler. Türkiye de savaş bitmek üzereyken apar topar savaş ilan edip <strong>San Francisco Konferansına davet edildi</strong> ve BM'nin kurucu üyesi oldu. Olayın tek matematiği budur.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Varlık Vergisi Atatürk dönemindedir" Tuzağı.</strong> Efsane tuzağıdır! Varlık (1942) ve Toprak Mahsulleri (1943) vergileri ile Milli Korunma Kanunu (1940); Atatürk döneminde DEĞİL, <strong>İsmet İnönü (Milli Şef)</strong> döneminin savaş ekonomisi politikalarıdır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Köy Enstitülerini Demokrat Parti (Menderes) açtı" Tuzağı.</strong> Hayır! Köy enstitülerini 1940'ta İsmet İnönü dönemi hükümeti (Hasan Ali Yücel) AÇMIŞTIR; Demokrat Parti ise 1954'te <strong>KAPATMIŞTIR</strong>.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Türkiye BM'ye girmek için fiilen asker gönderdi" Tuzağı.</strong> Asla! Savaş ilanı tamamen diplomatiktir (Kağıt üzerindedir). Türkiye'nin FİİLEN (Asker göndererek) dahil olduğu savaş 1950'deki (Kore) savaşıdır (O da NATO'ya girmek içindir, sonraki konularda göreceğiz).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Adana Görüşmesinde ABD başkanı vardı" Tuzağı.</strong> Adana Görüşmelerinde (Yenice Tren Garında) İnönü ile gizlice görüşen sadece İngiliz Başbakanı <strong>Winston Churchill'dir</strong>. ABD Başkanı Roosevelt, daha sonraki <strong>Kahire Görüşmelerinde</strong> masaya dahil olmuştur.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Milli Şef Dönemi İç Gelişmeleri Şifresi</span><p>• <strong>Üretim Düştü $\rightarrow$ Devlet El Koydu:</strong> Milli Korunma Kanunu (Karne/Karartma).<br>
+• <strong>Zengin Karaborsacılık Yaptı $\rightarrow$ Devlet El Koydu:</strong> Varlık Vergisi (Aşkale Kampları).<br>
+• <strong>Ordu Aç Kaldı $\rightarrow$ Köylüye El Koydu:</strong> Toprak Mahsulleri Vergisi.<br>
+• <strong>Köylü Cahil Kaldı $\rightarrow$ Köye Okul Koydu:</strong> Köy Enstitüleri (Yücel & Tonguç).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Dış Politika (Denge):</strong> Türkiye iki bloku (Müttefik/Mihver) birbirine karşı kullanıp oyalama taktiğiyle (Silah eksiğini bahane edip) savaştan uzak durmuştur.<br>
+• <strong>Adana/Kahire:</strong> İngiltere ve ABD'nin Türkiye'yi savaşa sokma baskılarıdır.<br>
+• <strong>Yalta/San Francisco:</strong> "Savaş ilan eden BM'ye girer" kuralı kondu, biz de kağıt üstünde ilan edip BM kurucu üyesi (masada) olduk.<br>
+• <strong>İç Politika (Ekonomi):</strong> Savaş nedeniyle tarım ve ekonomi durdu. Milli Korunma Kanunuyla ekmek karneye bağlandı. Haksız kazanç sağlayan azınlık/tüccarlardan Varlık Vergisi alındı.<br>
+• <strong>Eğitim (Köy Enstitüleri):</strong> İsmet İnönü döneminde Hasan Ali Yücel ve İsmail Hakkı Tonguç tarafından kırsalı (kendi öğretmeniyle) kalkındırmak için açıldı (DP döneminde kapandı).
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>İsmet İnönü Dönemi:</strong> Milli Şef (1938-1950).<br>
+• <strong>İnönü - Churchill gizli buluşması:</strong> Adana Görüşmeleri (1943).<br>
+• <strong>Türkiye'nin BM'ye girmesini (Savaş ilan etmesini) sağlayan karar yeri:</strong> Yalta Konferansı.<br>
+• <strong>BM'nin fiilen kurulduğu ve kurucu üye olduğumuz konferans:</strong> San Francisco Konferansı.<br>
+• <strong>Ekonomiye devletin el koyduğu (karne/karartma getiren) kanun:</strong> Milli Korunma Kanunu (1940).<br>
+• <strong>Savaş zenginlerinden (Karaborsacılardan) alınan olağanüstü vergi:</strong> Varlık Vergisi (1942).<br>
+• <strong>Varlık vergisini ödeyemeyenlerin gittiği yer:</strong> Aşkale / Erzurum çalışma kampı.<br>
+• <strong>Köy Enstitülerinin dönemi ve kurucuları:</strong> İnönü dönemi / H. Ali Yücel ve İ. Hakkı Tonguç.<br>
+• <strong>Ordunun tahıl ihtiyacı için köylüden alınan vergi:</strong> Toprak Mahsulleri Vergisi.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Türkiye'nin II. Dünya Savaşı sırasında 1945 yılında Almanya ve Japonya'ya karşı <strong>(asker göndermeden, sadece kağıt üzerinde) savaş ilan etmesinin temel (diplomatik) amacı</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Boğazların kontrolünü ele geçirmek &nbsp; B) Yeni kurulacak olan Birleşmiş Milletler (BM) teşkilatının <strong>kurucu üyesi olabilmek</strong> &nbsp; C) Kore'ye asker göndermek &nbsp; D) Hatay'ı anavatana katmak</p>
+<p><strong>Çözüm:</strong> Yalta konferansında müttefikler "1 Mart 1945'e kadar Almanya'ya savaş açmayanlar San Francisco'ya (BM'nin kuruluşuna) gelemez" dedi. Türkiye de masada olmak (dünyadan dışlanmamak) için acilen kağıt üzerinde savaş ilan etti. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Cumhuriyet döneminde eğitim alanında yapılan en özgün projelerden biri olan, "İş içinde iş eğitimi" prensibiyle çalışan ve köylü çocuklarını öğretmen olarak yetiştirip köyleri kalkındırmayı amaçlayan eğitim kurumu hangisidir?</p>
+<p>A) Millet Mektepleri &nbsp; B) Köy Enstitüleri &nbsp; C) Halkevleri &nbsp; D) Darülfünun</p>
+<p><strong>Çözüm:</strong> Kırsalı kalkındırmak için 1940'ta kurulan, içinde marangozluktan tarıma, müzikten sağlığa her şeyin öğretildiği kurumlara "Köy Enstitüleri" denir. (Millet mektepleri yeni harfleri öğretmek içindi). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Türkiye'de II. Dünya Savaşı yıllarında ekonominin tamamen devlet kontrolüne alınmasını, temel gıda maddelerinin stoklanmasını önlemeyi ve gerektiğinde fabrikalara/üretime devletin doğrudan müdahale etmesini (Ekmek karnesi uygulamasını) sağlayan yasa hangisidir?</p>
+<p>A) Takrir-i Sükun Kanunu &nbsp; B) Teşvik-i Sanayi Kanunu &nbsp; C) Milli Korunma Kanunu &nbsp; D) Varlık Vergisi Kanunu</p>
+<p><strong>Çözüm:</strong> 1940 tarihli Milli Korunma Kanunu, savaş koşullarında devletin ülkeyi (ekonomiyi) savunmak için çıkardığı, gece sokağa çıkma yasaklarını, karartmayı ve karneyi getiren olağanüstü yasadır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Aşağıdaki isimlerden hangileri <strong>Köy Enstitülerinin kurulmasına ve gelişmesine öncülük eden (mimarı sayılan)</strong> dönemin Milli Eğitim Bakanı ve İlköğretim Genel Müdürüdür?</p>
+<p>A) Mahmut Esat Bozkurt - Şükrü Saracoğlu &nbsp; B) Hasan Ali Yücel - İsmail Hakkı Tonguç &nbsp; C) Tevfik İleri - Celal Bayar &nbsp; D) Rauf Orbay - Ali Fethi Okyar</p>
+<p><strong>Çözüm:</strong> Köy Enstitüleri dendiğinde akla gelen iki efsanevi isim; dönemin Eğitim Bakanı Hasan Ali Yücel ve projeyi bizzat sahada tasarlayan İsmail Hakkı Tonguç'tur. (ÖSYM bu ikiliyi sıkça sorar). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>İngiltere Başbakanı Winston Churchill'in, Türkiye'yi kendi yanlarında (Müttefik blokta) II. Dünya Savaşı'na sokmak amacıyla gizlice Türkiye'ye gelerek İsmet İnönü ile <strong>1943 yılında görüştüğü toplantı (konferans)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Adana (Yenice) Görüşmeleri &nbsp; B) Haliç Konferansı &nbsp; C) Lozan Konferansı &nbsp; D) Yalta Konferansı</p>
+<p><strong>Çözüm:</strong> Churchill'in Adana'nın Yenice tren istasyonunda İnönü ile vagon içinde yaptığı, Türkiye'yi savaşa çekmeye çalıştığı meşhur görüşme "Adana Görüşmeleri"dir. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Türkiye'nin II. Dünya Savaşına katılmamasına rağmen (silahlı tarafsız kalmasına rağmen), ülkede ekonomik bir yıkım yaşanmasının (tarımsal üretimin çökmesinin) <strong>EN TEMEL (demografik) nedeni</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Dış borçların ödenmesi &nbsp; B) 1 Milyona yakın genç ve üreten <strong>erkek nüfusun (köylünün) savaşa girme ihtimaline karşı silah altına (askere) alınması</strong> ve tarlaların boş kalması &nbsp; C) Deprem felaketleri &nbsp; D) Sanayi inkılabının gerçekleşmemesi</p>
+<p><strong>Çözüm:</strong> Savaş kapıdaydı (Almanlar Bulgaristan'a dayanmıştı). Dev bir ordu toplandı ve yıllarca kışlada bekletildi. Tarlayı sürecek, ekin ekecek genç nüfus askerde olunca üretim çöktü, devlet mecburen karne dağıtmaya başladı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>1942 Yılında Şükrü Saracoğlu hükümeti tarafından çıkarılan; haksız kazanç sağlayan ve stokçuluk yapan zengin tüccarlardan (bir defaya mahsus) alınan, ancak uygulamada adaletsizliklere yol açtığı için 1944'te kaldırılan vergi hangisidir?</p>
+<p>A) Aşar Vergisi &nbsp; B) Varlık Vergisi &nbsp; C) Toprak Mahsulleri Vergisi &nbsp; D) Ağnam Vergisi</p>
+<p><strong>Çözüm:</strong> Savaş vurguncularından (Karaborsacılardan) parayı toplayıp bütçe açığını kapatmak için çıkarılan ağır servet vergisi "Varlık Vergisi"dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Varlık Vergisini zamanında ödeyemeyen mükelleflerin (genellikle gayrimüslimlerin) bedelini <strong>beden gücüyle (çalışarak)</strong> ödemeleri için taş kırma ve yol yapımı gibi işlerde çalıştırılmak üzere gönderildikleri <strong>çalışma kampı (ilçesi)</strong> nerededir?</p>
+<p>A) Erzurum - Aşkale &nbsp; B) Ankara - Polatlı &nbsp; C) İzmir - Menemen &nbsp; D) Yozgat - Boğazlıyan</p>
+<p><strong>Çözüm:</strong> Varlık vergisini nakit olarak bulamayan (evini/işini satsa da yetmeyen) tüccarlar zorunlu çalışma cezasına çarptırılmış ve Erzurum'un Aşkale ilçesindeki çalışma kamplarına yollanmıştır. (Bu durum uluslararası krize yol açmıştır). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>II. Dünya Savaşında Müttefik Devletler'in (İngiltere ve ABD) Türkiye'yi savaşa sokmak (ve Türk üslerini kullanmak) için <strong>art arda iki kez baskı (toplantı) yaptıkları ve İnönü'nün "Silah verin girelim" diyerek zaman kazandığı</strong> konferanslar silsilesi nerede yapılmıştır?</p>
+<p>A) Kahire (Mısır) Görüşmeleri &nbsp; B) Yalta Konferansı &nbsp; C) Tahran Konferansı &nbsp; D) Potsdam Konferansı</p>
+<p><strong>Çözüm:</strong> 1943'ün sonlarında Mısır'da yapılan I. ve II. Kahire Konferanslarında Churchill ve Roosevelt, İnönü'yü fena sıkıştırmıştır. Türkiye ilke olarak savaşı kabul etmiş ama lojistik ihtiyaçları o kadar yüksek tutmuştur ki savaşta yer alamamıştır (Akıllıca bir oyalama taktiğidir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Halkın 1939-1945 yılları arasındaki ekonomik zorluklar ve "Ekmek Karnesi" uygulaması nedeniyle hükümeti eleştirmesi üzerine, dönemin Cumhurbaşkanı İsmet İnönü'nün durumu özetlemek için kullandığı meşhur söz aşağıdakilerden hangisidir?</p>
+<p>A) Yurtta sulh, cihanda sulh &nbsp; B) Hattı müdafaa yoktur, sathı müdafaa vardır &nbsp; C) Ben size savaşmayı değil ölmeyi emrediyorum &nbsp; D) Ben sizi (çocuklarınızı) aç bıraktım ama babasız (yetim) bırakmadım</p>
+<p><strong>Çözüm:</strong> İnönü bu sözüyle; "Evet ekmek karneyle dağıtıldı, çok sıkıntı çektiniz, mideleriniz boş kaldı ama Avrupa'daki çocuklar gibi savaşta babalarınızı kaybetmediniz, sizi o savaşa sokmadım" demek istemiştir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>II. Dünya Savaşı yıllarında Türkiye'de karartma (gece ışıkların kapatılması) uygulamalarının yapılmasının <strong>temel askeri/güvenlik gerekçesi</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Elektrik tasarrufu sağlamak &nbsp; B) Olası düşman savaş uçaklarının (özellikle gece bombardımanlarının) şehirleri ve stratejik hedefleri havadan tespit etmesini engellemek &nbsp; C) Yabancı casusların çalışmasını önlemek &nbsp; D) Nüfus sayımını daha rahat yapmak</p>
+<p><strong>Çözüm:</strong> Savaş döneminin en büyük korkusu havadan (uçaklarla) gelecek bombardımandır. Şehirlerin ışıkları gece tamamen kapatılarak (veya pencereler siyah perdelerle örtülerek) uçağın hedef bulması engellenmeye çalışılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Türkiye, BM'ye kurucu üye olmak için "Birleşmiş Milletler Bildirisi'ni imzalayanların San Francisco'ya davet edileceğini" belirten <strong>Yalta Kararı</strong> sonrasında aşağıdaki devletlerden hangilerine resmi savaş ilan etmiştir?</p>
+<p>A) İtalya ve Japonya &nbsp; B) Almanya ve Japonya &nbsp; C) Almanya ve İtalya &nbsp; D) SSCB ve Japonya</p>
+<p><strong>Çözüm:</strong> İtalya 1943'te zaten Müttefiklere teslim olmuş (taraf değiştirmiş) ve savaş dışı kalmıştı. 1945'in başında hala direnen iki mihver devleti Almanya ve Japonya idi. Dolayısıyla onlara savaş ilan edilmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Köy Enstitüleri ile ilgili aşağıdaki bilgilerden hangisi <strong>yanlıştır</strong>?</p>
+<p>A) İsmet İnönü döneminde (1940'ta) kurulmuşlardır. &nbsp; B) Mimarları Hasan Ali Yücel ve İsmail Hakkı Tonguç'tur. &nbsp; C) "İş için, iş içinde eğitim" (Köyü kendi öğretmeniyle kalkındırma) ilkesine dayanır. &nbsp; D) Demokrat Parti (Menderes) hükümeti döneminde <strong>AÇILMIŞLARDIR</strong>.</p>
+<p><strong>Çözüm:</strong> DP (Demokrat Parti) Köy Enstitülerini açan değil, (soğuk savaşın etkisi ve komünizm propagandası yapıldığı iddialarıyla) 1954 yılında tamamen <strong>KAPATAN</strong> partidir. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Atatürk döneminde çiftçiyi rahatlatmak için kaldırılan Aşar vergisinin ardından, <strong>İsmet İnönü döneminde (1943'te)</strong> savaş koşulları nedeniyle devasa ordunun yiyecek (tahıl) ihtiyacını karşılamak için çiftçiden zorunlu olarak alınan (Aşar vergisini hortlattığı söylenen) vergi hangisidir?</p>
+<p>A) Varlık Vergisi &nbsp; B) Toprak Mahsulleri Vergisi &nbsp; C) Milli Korunma Kanunu &nbsp; D) Ağnam Vergisi</p>
+<p><strong>Çözüm:</strong> Ordunun iaşesi (yiyeceği) tehlikeye girince devlet, köylünün ürettiği tarım ürününün (buğday/arpa vb.) bir kısmına vergi olarak el koymuştur. Bu "Toprak Mahsulleri Vergisi", DP'nin köylüden büyük oy alıp İnönü'yü devirmesinin en büyük nedenlerinden biridir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Aşağıdakilerden hangisi II. Dünya Savaşı (Milli Şef) döneminde Türkiye'de yaşanan gelişmelerden biri <strong>DEĞİLDİR</strong>?</p>
+<p>A) Ekmek, şeker ve bezin karne ile satılması &nbsp; B) Varlık Vergisi Kanununun çıkarılması &nbsp; C) Birleşmiş Milletler'in kurucu üyesi olunması &nbsp; D) Milletler Cemiyeti'ne (Cemiyet-i Akvam) üye olunması</p>
+<p><strong>Çözüm:</strong> Dış politikada zaman karmaşasına düşme! Milletler Cemiyetine giriş 1932'de, Atatürk dönemindedir. Birleşmiş Milletler'e (BM) giriş ise 1945'te, İsmet İnönü (II. Dünya Savaşı sonu) dönemindedir. İkisi aynı kurum DEĞİLDİR. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Türkiye'nin II. Dünya Savaşındaki stratejisi olan "Aktif Tarafsızlık / Savaş Dışı Kalma" politikası gereği, 1941 yılında <strong>Balkanları işgal ederek Türkiye'nin sınırına dayanan (Yunanistan'a giren) ve bu nedenle Türkiye'nin saldırmazlık paktı (anlaşması) imzalamak zorunda kaldığı</strong> Mihver devleti hangisidir?</p>
+<p>A) Almanya &nbsp; B) İtalya &nbsp; C) Japonya &nbsp; D) SSCB</p>
+<p><strong>Çözüm:</strong> Hitler'in orduları Balkanları (Yunanistan ve Bulgaristan'ı) yutarak Edirne (Meriç) sınırına kadar geldi. Türkiye bu muazzam güçle savaşmamak için Almanlarla 1941'de Saldırmazlık Paktı imzaladı. Böylece Almanlar Türkiye'ye değil, yönünü değiştirip Rusya'ya (Barbarossa harekatıyla) saldırdı. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>1944 yılında Varlık Vergisinin toptan kaldırılmasında içerideki tepkilerin (siyasi faturanın) yanı sıra <strong>dış politikada</strong> hangi gücün (gelişmenin) etkisi olmuştur?</p>
+<p>A) SSCB'nin komünizmi yayması &nbsp; B) Türkiye'nin uluslararası (Demokratik-Batı/Müttefik) bloka ve BM'ye girme çabasında, azınlıklara yönelik bu (Aşkale vb.) faşizan uygulamanın Batı basınında çok kötü bir imaj (insan hakları ihlali) yaratması &nbsp; C) Yunanistan'ın saldırısı &nbsp; D) Hatay'ın alınması</p>
+<p><strong>Çözüm:</strong> Türkiye, savaşı demokrasilerin (ABD, İngiltere) kazanacağını anlayınca Batı blokuna (BM'ye) girmek istedi. Ancak Varlık vergisi yüzünden Batı basını "Türkiye azınlıklara zulmediyor, Nazi gibi kampları var" diye eleştirdi. Bu yüzden imaj düzeltmek için vergi tamamen iptal edilip, kamptakiler affedildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Birleşmiş Milletler'in (BM) fiili olarak kurulduğu ve Türkiye'nin (Savaş ilanından dolayı) davet edilip kurucu üye olarak imzacı olduğu <strong>uluslararası konferans</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Yalta Konferansı &nbsp; B) San Francisco Konferansı &nbsp; C) Potsdam Konferansı &nbsp; D) Moskova Konferansı</p>
+<p><strong>Çözüm:</strong> "Savaş açmayan giremez" kararının ALINDIĞI yer Yalta'dır. Ancak BM'nin kuruluş sözleşmesinin İMZALANDIĞI ve teşkilatın resmen kurulduğu yer San Francisco Konferansıdır. (Türkiye buraya katılıp BM'yi kurmuştur). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Aşağıdaki yazar (edebiyatçı) gruptan hangisi (kırsal hayatı, ağa-köylü çatışmasını, Anadolu'nun çıplak gerçeklerini anlatan "Köy Edebiyatı" akımı) genellikle <strong>Köy Enstitüleri mezunlarından (kökenlilerden)</strong> oluşur?</p>
+<p>A) Orhan Veli, Melih Cevdet &nbsp; B) Fakir Baykurt, Mahmut Makal, Talip Apaydın &nbsp; C) Namık Kemal, Ziya Paşa &nbsp; D) Halide Edip, Yakup Kadri</p>
+<p><strong>Çözüm:</strong> Köy Enstitüleri sadece tarım/yapı öğretmemiş, dünya klasiklerini okutarak aydın/yazar bir köylü sınıfı yaratmıştır. Yılanların Öcü (Fakir Baykurt) ve Bizim Köy (Mahmut Makal) gibi başyapıtlar bu sistemin (Köy Enstitülerinin) meyveleridir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>II. Dünya Savaşında Müttefik Devletlerin (özellikle İngiltere'nin) Türkiye'yi ısrarla savaşa sokmak istemesinin <strong>ASKERİ/STRATEJİK amacı</strong> neydi?</p>
+<p>A) Sadece Türkiye'ye toprak vermek &nbsp; B) Yeni bir (Balkanlar) cephesi açarak Alman ordularının gücünü bölmek ve Rusya'ya boğazlar (Türkiye) üzerinden daha hızlı yardım (silah) ulaştırmak &nbsp; C) Türk ekonomisini çökertmek &nbsp; D) Türkiye'nin komünist olmasını sağlamak</p>
+<p><strong>Çözüm:</strong> Almanlar Rusya içlerine kadar ilerlemişti. Eğer Türkiye savaşa girerse (Müttefiklere üs verirse), Almanlar mecburen askerlerinin bir kısmını Rusya'dan çekip Türkiye sınırına (Balkanlara) getirecekti (Cephe bölünecekti). Ayrıca Boğazlardan Rusya'ya rahatça silah yardımı gidecekti. İnönü bu ateş çemberini görüp oyunu bozdu. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>Aşağıdaki konferanslardan hangisi II. Dünya Savaşı sırasında <strong>"Türkiye'nin durumu ve savaşa katılıp katılmayacağı"</strong> ile ilgili DEĞİLDİR? (Diğer üçünde doğrudan Türkiye muhatap alınmıştır).</p>
+<p>A) Adana (Yenice) Görüşmeleri &nbsp; B) I. Kahire Konferansı &nbsp; C) II. Kahire Konferansı &nbsp; D) Münih Konferansı (1938)</p>
+<p><strong>Çözüm:</strong> Münih Konferansı (Savaş çıkmadan hemen önce 1938'de) Almanya'nın Südet bölgesini (Çekoslovakya'dan) almasına göz yumulan "Yatıştırma (Taviz)" konferansıdır. Türkiye ile hiçbir ilgisi yoktur. (Diğerleri Müttefiklerin İnönü'yü sıkıştırdığı konferanslardır). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Varlık Vergisi kanunu hazırlanırken, vergi oranlarının <strong>kimin tarafından, nasıl</strong> belirlendiği hukuki ve siyasi çok büyük tartışmalara (eleştirilere) neden olmuştur. <br>Varlık Vergisindeki vergi miktarlarının belirlenme ve uygulanma süreci nasıldı?</p>
+<p>A) Standart %10 olarak kanunda açıkça belirtilmişti &nbsp; B) Meclis kararıyla herkesin gelirine göre adil bir matrah (hesaplama) tablosu vardı &nbsp; C) İller bazında kurulan komisyonlar <strong>tahmini kazançlara (ve kişilerin dini/etnik kökenine: Müslim/Gayrimüslim) göre keyfi/orantısız miktarlar belirlemiş ve bu miktarlara itiraz/yargı yolu (mahkeme) kapatılmıştı</strong> &nbsp; D) Vergi sadece kendi isteğiyle ödeyenlerden alınmıştı</p>
+<p><strong>Çözüm:</strong> Varlık vergisinin en karanlık yönü buydu. Komisyon "Ali 10 bin ödesin, Agop 500 bin ödesin" diye liste astı (G grubuna daha yüksek). Ne bir fatura hesabı ne de mahkemeye itiraz hakkı (Yargı yolu) vardı. 15 gün içinde nakit ödemeyen Aşkale'ye (kampa) gidiyordu. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Köy Enstitülerinin kapatılma sürecini hızlandıran (1946'dan itibaren sistemin değiştirilip, 1954'te DP tarafından toptan kapatılmasına neden olan) <strong>iç ve dış siyasi etkenler</strong> eşleştirmelerinden hangisi en doğrudur?</p>
+<p>A) İç Etken: Büyük toprak ağalarının uyanan köylüden (vergi verip hakkını aramasından) rahatsız olması. Dış Etken: Soğuk savaş döneminde (ABD'ye yakınlaşan) Türkiye'de enstitülerin <strong>Sovyet (Komünist/Kolektif)</strong> sistemi gibi algılanıp propagandaya alet edilmesi &nbsp; B) Sadece ekonomik kriz &nbsp; C) Öğretmenlerin grev yapması &nbsp; D) Okulların depremde yıkılması</p>
+<p><strong>Çözüm:</strong> Siyaset ve Soğuk savaş rüzgarı. İçeride toprak ağaları "Bu okullar köylüyü uyandırıyor, arazimizi sorguluyorlar" diyerek DP'ye (ve CHP içindeki muhafazakarlara) baskı yaptı. Dışarıda ise ABD'ye yanaşan Türkiye, "Okullarda herkesin ortak çalıştığı bu imece/iş sistemi komünizmi (Rusya'yı) andırıyor" paranoyasına kapıldı ve sistem kurban edildi. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>İsmet İnönü döneminde dış politikada (özellikle Almanya ile Rusya arasında) yürütülen ince diplomasiye bir örnek de 1941 <strong>Türk-Alman Saldırmazlık Paktı</strong>'dır. <br>Almanya, Balkanları ezip Türkiye sınırına dayandıktan sonra <strong>neden Türkiye'ye saldırmak (Boğazları geçmek) yerine</strong> bu paktı imzalamayı tercih etmiştir?</p>
+<p>A) Türkiye'den çok korktuğu için &nbsp; B) Asıl hedefi (Barbarossa Harekatı ile) SSCB'ye (Rusya'ya) saldırmak olduğu için ve güneyinde (Türkiye üzerinden) sürpriz bir cephe/düşman bırakmak istemediği için &nbsp; C) Türkiye ile müttefik (Mihver) olduğu için &nbsp; D) Savaş bittiği için</p>
+<p><strong>Çözüm:</strong> Hitler'in büyük rüyası "Hayat alanı" (Rusya topraklarıydı). Yunanistan'ı işgal edince Türkiye'nin üzerine yürümesi sadece zaman kaybıydı. "Arkamı sağlama alayım, Türkler bana saldırmasın, ben de hemen kuzeye (Rusya'ya) dalayım" diyerek saldırmazlık paktını imzalamış ve Barbarossa'yı başlatmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>II. Dünya Savaşı sırasında Türkiye'de çıkarılan <strong>Milli Korunma Kanunu (1940)</strong> hükümetlere hangi alanlarda çok geniş ve olağanüstü yetkiler tanımıştır?</p>
+<p>A) Sadece eğitim ve sanat &nbsp; B) Sadece dış politika (büyükelçi atamaları) &nbsp; C) <strong>Fabrikalara ve üretime (gerekirse askeriyeye bağlama) el koyma, ürün fiyatlarını (narh) belirleme, stokçuluğa karşı depolara baskın yapma ve madenleri kamulaştırma (ekonomik müdahale)</strong> &nbsp; D) Din işlerinin düzenlenmesi</p>
+<p><strong>Çözüm:</strong> Milli Korunma Kanunu tamamen "Ekonomiyi Askeri Sıkıyönetim altına alma" kanunudur. Devlet, özel fabrikalara el koyabilmiş, vatandaşın fazla hayvanını/ürününü satın (veya bedelsiz) alabilmiş, halka satılan şekerin gramajını belirlemiştir. (Otoriter bir savaş ekonomisi). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Aşağıdakilerden hangisi II. Dünya Savaşının (Milli Şef döneminin) yarattığı sosyal ve ekonomik sonuçlardan biri <strong>DEĞİLDİR</strong>?</p>
+<p>A) Ekmek karnesi uygulamasının başlaması &nbsp; B) Nüfus artış hızının (erkeklerin askerde olması sebebiyle) belirgin şekilde düşmesi &nbsp; C) Köy Enstitüleri sayesinde kırsal eğitimde atılım yapılması &nbsp; D) Sanayi İnkılabının başarıyla tamamlanıp Türkiye'nin ağır sanayi (çelik, otomotiv) devine dönüşmesi</p>
+<p><strong>Çözüm:</strong> Savaş döneminde yatırım, ithalat ve ihracat durmuş; ülke bırakın ağır sanayi devrimi yapmayı, elindeki fabrikaları bile zor çevirmiştir. (Tarımsal kriz had safhadadır). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>İsmet İnönü'nün Kahire Görüşmelerinde Roosevelt ve Churchill'e "Prensipte savaşa girmeyi kabul ediyorum ancak <strong>Türk ordusunun tank, uçak ve lojistik eksiklerinin acilen ve tam olarak karşılanması (yardım edilmesi) gerekir</strong>" demesinin altındaki <strong>asıl diplomatik (gizli) amaç</strong> neydi?</p>
+<p>A) Gerçekten orduyu tam donatıp savaşa girmek ve Almanları yok etmek &nbsp; B) İstenilen (abartılı) silah listesinin Müttefikler tarafından o savaş ortamında karşılanamayacağını (veya çok gecikeceğini) bildiği için <strong>süreci (zamanı) uzatarak savaşa girmekten zarifçe kurtulmak (oyalama taktiği)</strong> &nbsp; C) Silahları alıp Rusya'ya satmak &nbsp; D) ABD'yi borçlandırmak</p>
+<p><strong>Çözüm:</strong> "Yok diyemem, çünkü tehdit ederler. Evet diyeyim, ama öyle bir şart koşayım ki yapamasınlar." Türk Genelkurmayının Müttefiklere verdiği "İhtiyaç Listesi" o kadar kalabalıktı ki (binlerce tank/kamyon vb.), İngiliz komutanlar "Bunu size taşıyacak gemi bile yok dünyada" demiştir. Muazzam bir oyalama (tarafsız kalma) taktiğidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>II. Dünya Savaşı sonunda kurulan yeni dünya düzeninde (Soğuk Savaş başlarken), Türkiye Batı Bloğunda (demokrasi cephesinde) yer almayı seçmiştir. <br>Türkiye'nin savaş sonrası (1945 ve sonrası) ABD'ye ve Batıya yanaşmasında (çok partili hayata geçmesinde) Sovyet Rusya'nın (SSCB'nin) <strong>hangi saldırgan politikası (tehdidi)</strong> doğrudan etkili olmuştur?</p>
+<p>A) Rusya'nın Türkiye'den (1945'te) <strong>Kars, Ardahan'ı (toprak) ve Boğazlarda askeri üs istemesi</strong> &nbsp; B) Rusya'nın Türkiye'ye hibe kredi teklif etmesi &nbsp; C) Rusya'nın Yunanistan'ı işgal etmesi &nbsp; D) Rusya'nın Montrö'yü tek taraflı feshetmesi</p>
+<p><strong>Çözüm:</strong> Stalin yönetimi (Rusya), savaş bitince Türkiye'ye nota verdi ve "Boğazları beraber savunalım (Bana üs ver), ayrıca Kars-Ardahan'ı da bana geri ver (Brest-Litovsk'u tanımam)" dedi. Bu devasa tehdit, Türkiye'yi can havliyle Batı (ABD/Truman/NATO) şemsiyesi altına itti. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Toprak Mahsulleri Vergisi (1943) köylüden ürün (ayni) tahsil ederken, Varlık Vergisi (1942) nakit (para) tahsil etmiştir. <br>Bu iki verginin <strong>ortak yönü (sosyolojik faturası)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) İkisinin de köylü tarafından sevinçle karşılanması &nbsp; B) İkisinin de dış devletlerin baskısıyla çıkarılması &nbsp; C) İkisinin de halkın devlete (CHP hükümetine) duyduğu <strong>tepkiyi artırması ve savaş bittikten sonra (1950 seçimlerinde) iktidarın el değiştirmesinde (DP'nin başa geçmesinde) büyük etken (bıkkınlık) yaratması</strong> &nbsp; D) İkisinin de anayasa mahkemesinden dönmesi</p>
+<p><strong>Çözüm:</strong> Zengin tüccar (şehirliler) Varlık vergisinden nefret etti, köylüler de ürünlerini (hayvanlarını) alan Toprak Mahsulleri vergisinden (ve jandarma baskısından) nefret etti. Tüm bu kızgın kitleler, 1946'da kurulan Demokrat Parti'nin (DP) etrafında birleşip 1950'de İnönü'yü oylarıyla devirdiler. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Milli Şef (İsmet İnönü) dönemi, sadece İkinci Dünya Savaşı kriziyle değil, kültür ve aydınlanma hareketleriyle de anılır. <br>Aşağıdakilerden hangisi Köy Enstitüleriyle aynı dönemde, <strong>Hasan Ali Yücel'in öncülüğünde (MEB tarafından) yapılan bir başka büyük aydınlanma (kültür) hamlesidir</strong>?</p>
+<p>A) Harf İnkılabı'nın yapılması &nbsp; B) Türk Dil Kurumu'nun (TDK) kurulması &nbsp; C) <strong>Dünya (Doğu ve Batı) klasik eserlerinin (Yunan, Rus, Fransız vb.) büyük bir tercüme bürosu kurularak Türkçe'ye çevrilmesi ve yayınlanması</strong> &nbsp; D) Şapka Kanunu'nun çıkarılması</p>
+<p><strong>Çözüm:</strong> Harf ve TDK Atatürk dönemidir. Ancak Hasan Ali Yücel'in MEB bünyesinde kurduğu Tercüme Bürosu, Sokrates'ten Dostoyevski'ye, Balzac'a kadar yüzlerce dünya klasiğini (Köy enstitüleri çocukları okusun diye) Türkçeye kazandıran muazzam bir kültür/aydınlanma operasyonudur. (Klasik KPSS çeldiricisidir). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: II. Dünya Savaşına (Fiilen/Askerle) asla girmedik. "Prensipte evet, silah verin girelim" diyerek Adana ve Kahire'de İngiliz/ABD liderlerini (Churchill/Roosevelt) oyaladık. Savaş bitmek üzereyken (1945'te Yalta kararı gereği) sadece diplomatik kağıt üstünde savaş ilan ettik ki San Francisco'da BM kurucusu olalım. İçeride gençler askere gidince, Milli Korunma Kanunu (Karne/Karartma), Varlık Vergisi (Haksız tüccar/Aşkale) ve Toprak Mahsulleri (Köylü) vergilerini çıkardık. Köy Enstitülerini (H. Ali Yücel / İ. Hakkı Tonguç) unutma!</em></p>
+`,
   },
   {
     id: 73,
     category: 'Tarih',
     categoryId: 'tarih',
     title: 'Soğuk Savaş Dönemi ve Türkiye',
-    built: false,
-    html: '',
+    built: true,
+    html: `
+<h3>(Truman, Marshall, Kore Savaşı, NATO, Beyaz Devrim)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>İkinci Dünya Savaşı bitmişti ama dünyada silahlar tam olarak susmamıştı. Sıcak savaş bitmiş, yerine dünyanın ikiye bölündüğü ve herkesin diken üstünde olduğu <strong>"Soğuk Savaş"</strong> dönemi başlamıştı. Bir tarafta Komünist Rusya (SSCB/Doğu Bloku), diğer tarafta Kapitalist Amerika (ABD/Batı Bloku) vardı.<br>
+İşte bu dönemde, Rusya (Stalin) "Boğazları bana ver, Kars ve Ardahan'ı da bana geri ver" diyerek Türkiye'yi açıkça tehdit edince; Türkiye can havliyle Batı'ya (ABD'ye) sığınmak zorunda kalmıştır.<br>
+ÖSYM bu konuda sana Türkiye'nin Batı'ya yaranmak (NATO'ya girmek) için neler yaptığını (Kore Savaşı), Truman ve Marshall paketlerinin farkını ve tabii ki içeride CHP'nin 27 yıllık iktidarını deviren <strong>"Dörtlü Takrir"</strong> ve <strong>"Demokrat Parti"</strong> sürecini sorar. Şimdi o "Beyaz Devrim"in kodlarını çözeceğiz.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Çünkü Türkiye'nin bugünkü eksenini (NATO üyeliğini, Batı ittifakındaki yerini) belirleyen tüm dış politika kararları ve çok partili hayata geçişimizdeki en önemli viraj olan 1950 seçimleri (Demokrat Parti dönemi) bu ünitenin omurgasıdır.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Soğuk savaşta dünya ikiye ayrılınca, ABD komünizmin yayılmasını durdurmak (Çevrelemek) için <strong>Truman Doktrini</strong> ile Türkiye ve Yunanistan'a askeri kalkan oldu. Ardından <strong>Marshall Planı</strong> ile ekonomik paketler (traktörler) yolladı.<br>
+Türkiye "Sizin yanınızda olayım, beni koruyan (1949'da kurduğunuz) <strong>NATO</strong> şemsiyenize alın" dediğinde ABD "Önce kendini kanıtla" dedi. Türkiye de 1950'de patlak veren <strong>Kore Savaşına</strong> asker gönderip destan yazınca 1952'de NATO'ya kabul edildi.<br>
+İçeride ise devrim niteliğinde olaylar oldu. CHP içinden ayrılan Adnan Menderes ve Celal Bayar'ın kurduğu <strong>Demokrat Parti (DP)</strong>, şaibeli 1946 seçimlerini kaybetti, ancak 1950 seçimlerinde "Yeter Söz Milletindir" diyerek CHP'yi devirdi (<strong>Beyaz Devrim</strong>). DP dönemi ilk yıllarda büyük bir bolluk ve yol yapımı getirse de, sonlarında ekonomik kriz, baskı ortamı ve <strong>27 Mayıs 1960 darbesiyle</strong> trajik şekilde son buldu.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 Ortak Kök (Çiftçiyi Topraklandırma Kanunu)</span><p>Demokrat Parti'yi kuranlar, gökten zembille inmemiştir. Celal Bayar, Menderes, Koraltan ve Köprülü zaten CHP milletvekiliydi. İnönü hükümeti köylüye zorla toprak dağıtmak için "Çiftçiyi Topraklandırma Kanununu" meclise getirince, (kendileri de büyük toprak ağası olan) bu 4 kişi isyan bayrağını çekmiş (Dörtlü Takrir'i vermiş) ve CHP'den kopup DP'yi kurmuştur.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Sovyet Tehdidi ve Batı Blokuna Geçiş</h3>
+<p>İkinci Dünya Savaşında Almanya yenilince, SSCB (Rusya/Stalin) gücünün zirvesine ulaştı. 1945'te Türkiye'ye bir nota vererek: "Lozan eskidi, Boğazların savunmasını birlikte yapacağız (bana üs verin) ve 1921'de size verdiğim Kars-Ardahan-Artvin'i bana iade edin" dedi.<br>
+Bu açık işgal tehdidi karşısında Türkiye, denge politikasını bırakıp yüzünü tamamen <strong>ABD'ye (Demokrasi / Batı Blokuna)</strong> döndü.</p>
+
+<h3>3.2. Truman Doktrini (1947) ve Marshall Planı (1948)</h3>
+<p>ABD, komünizmin yayılmasını durdurmak (Kuşatma / Çevreleme politikası) için iki dev hamle yaptı:<br>
+<strong>1) Truman Doktrini (1947):</strong> ABD Başkanı Truman, SSCB'nin yutmak üzere olduğu Türkiye ve Yunanistan'a doğrudan ASKERİ (Güvenlik / Para) yardımı yaptı. <em>(Önemi: Türkiye bu doktrinle resmen ve fiilen Batı Blokuna dahil oldu).</em><br>
+<strong>2) Marshall Planı (1948):</strong> "Aç ve işsiz insanlar komünizme çabuk kayar" mantığıyla, Avrupa ülkelerini ekonomik olarak kalkındırma (hibe) paketidir. Türkiye bu paket sayesinde devasa bir <strong>tarımda makineleşme (Traktörleşme)</strong> devrimi yaşadı.</p>
+
+<h3>3.3. Dörtlü Takrir ve Çok Partili Hayata Geçiş (1945)</h3>
+<p>CHP içinde, savaş yıllarının baskıcı (Milli Korunma vs.) politikalarına ve "Çiftçiyi Topraklandırma Kanunu"na itiraz eden 4 kişi meclise bir önerge (takrir) sundu.<br>
+<strong>Dörtlü Takrir'i İmzalayanlar (CaFeR):</strong> <strong>C</strong>elal Bayar, <strong>A</strong>dnan Menderes, <strong>F</strong>uat Köprülü, <strong>R</strong>efik Koraltan.<br>
+Bu 4 isim CHP'den ayrılarak 1946'da <strong>Demokrat Parti'yi (DP)</strong> kurdular. (Aynı yıl Nuri Demirağ da Milli Kalkınma Partisini kurdu).</p>
+
+<h3>3.4. 1946 Seçimleri ve 1950 Seçimleri (Beyaz Devrim)</h3>
+<p><strong>1946 Seçimleri (Şaibeli Seçim):</strong> Türkiye tarihindeki ilk çok partili genel seçimdir. Ancak kural <strong>"Açık Oy, Gizli Tasnif (Sayım)"</strong> şeklindeydi. Vatandaş kime oy verdiğini herkesin içinde atıyor, memurlar (devlet) ise oyları kapalı odada kendi başına sayıyordu. Antidemokratik bu seçimi CHP kazandı.<br>
+<strong>1950 Seçimleri (Beyaz Devrim):</strong> Artık kanun değişmişti, <strong>"Gizli Oy, Açık Tasnif"</strong> kuralı geldi. DP, <strong>"Yeter! Söz Milletindir"</strong> afişiyle seçime girdi ve sandıkları patlatarak ezici çoğunlukla iktidar oldu. 27 yıllık tek parti (CHP) yönetimi kansız, darbesiz, tamamen milletin oyuyla sona erdiği için buna tarihte <strong>"Beyaz Devrim"</strong> denir.<br>
+<em>(Yeni Dönem Liderleri: Cumhurbaşkanı Celal Bayar, Başbakan Adnan Menderes, Meclis Başkanı Refik Koraltan olmuştur).</em></p>
+
+<h3>3.5. Kore Savaşı (1950) ve NATO Üyeliği (1952)</h3>
+<p>ABD önderliğinde SSCB'ye karşı 1949'da kurulan askeri kalkan <strong>NATO (Kuzey Atlantik Paktı)</strong> bizi ilk başta içine almadı.<br>
+1950'de Komünist Kuzey Kore, Güney Kore'ye saldırınca BM asker istedi. Türkiye NATO'ya girmek için bu fırsatı kullandı ve <strong>Tuğgeneral Tahsin Yazıcı</strong> komutasında Şimal Yıldızı (Kutup Yıldızı) adlı tugayını Kore'ye yolladı. (Kunuri muharebelerinde efsanevi direniş gösterdiler).<br>
+<strong>Sonuç:</strong> Türk askerinin Kore'deki başarısı üzerine ABD'nin vetosu kalktı ve Türkiye (Yunanistan ile birlikte) 1952'de <strong>NATO'ya kabul edildi</strong>.</p>
+
+<h3>3.6. Demokrat Parti (Menderes) Dönemi İç Politika ve Ekonomi</h3>
+<p><strong>İlk Yıllar (Bolluk ve Refah):</strong> Marshall yardımlarıyla traktör sayısı 40 binleri geçti, tarımsal üretim patladı. Yol yapımına ağırlık verildi (Köyden kente ulaşım ve göç hızlandı). Liberal (özel sektörü destekleyen) bir ekonomi uygulandı.<br>
+<strong>Sosyal/Siyasi Adımlar:</strong> 1932'den beri Türkçe okunan Ezan, 1950'de tekrar Arapça'ya (aslına) çevrildi. 1954'te Köy Enstitüleri tamamen kapatıldı. (Atatürk'ü Koruma Kanunu bu dönemde çıkarıldı).<br>
+<strong>Son Yıllar ve Çöküş:</strong> 1954'ten sonra tarımda verim düştü, dış borçlar (kriz) başladı. Muhalefetle (CHP ile) ipler koptu. Hükümet basına sansür uyguladı, <strong>Vatan Cephesi</strong> kurarak halkı kamplaştırdı. Tahkikat Komisyonu kurularak CHP'yi kapatma girişimlerinde bulunuldu.</p>
+
+<h3>3.7. 27 Mayıs 1960 Darbesi</h3>
+<p>Ekonomik buhran, üniversite olayları ve siyasetteki kutuplaşma bahane edilerek Türk Silahlı Kuvvetleri içindeki alt rütbeli subaylardan oluşan <strong>Milli Birlik Komitesi (Cemal Gürsel liderliğinde)</strong> yönetime el koydu.<br>
+Demokrat Parti dönemi bitti, parti kapatıldı. 1924 Anayasası yürürlükten kaldırıldı.<br>
+Yassıada mahkemelerinde yargılanan Başbakan <strong>Adnan Menderes</strong>, Dışişleri Bakanı <strong>Fatin Rüştü Zorlu</strong> ve Maliye Bakanı <strong>Hasan Polatkan</strong> idam edildi. (Türkiye tarihinin en kara lekelerinden biridir).</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Tarımda Makineleşme (Traktör) (Sebep) $\rightarrow$ Gecekondu Sorunu (Sonuç):</strong> Eskiden 100 ırgatın ektiği tarlayı 1 traktör ekmeye başlayınca, 99 ırgat işsiz kaldı ve İstanbul/Ankara'ya göç etti. Şehirlerde "gecekondu" mahalleri DP döneminde patladı.</li>
+<li><strong>Stalin'in Toprak İstemesi (Sebep) $\rightarrow$ Türkiye'nin NATO'ya Girmesi (Sonuç):</strong> Türkiye'nin Batı (ABD) güvenlik ağına entegre olmasının mimarı aslında (yanlış politikasıyla bizi oraya iten) Rus lider Stalin'dir.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Gelişme</th>
+<th>Özeti / Amacı</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1945</td>
+<td>Dörtlü Takrir</td>
+<td>Celal Bayar, Menderes, Koraltan, Köprülü (DP'yi kurdular).</td>
+</tr>
+<tr>
+<td>1946</td>
+<td>İlk Çok Partili Seçim</td>
+<td>Açık Oy, Gizli Tasnif (Şaibeli seçim, CHP kazandı).</td>
+</tr>
+<tr>
+<td>1947 / 1948</td>
+<td>Truman ve Marshall P.</td>
+<td>ABD'nin Türkiye'yi askeri (Truman) ve ekonomik (Marshall) olarak kendine bağlaması.</td>
+</tr>
+<tr>
+<td>1950</td>
+<td>Beyaz Devrim Seçimi</td>
+<td>Gizli Oy, Açık Tasnif. "Yeter Söz Milletindir". DP İktidar oldu.</td>
+</tr>
+<tr>
+<td>1950</td>
+<td>Kore Savaşı</td>
+<td>BM safında savaşa asker (Şimal Yıldızı Tugayı) gönderdik.</td>
+</tr>
+<tr>
+<td>1952</td>
+<td>NATO'ya Giriş</td>
+<td>Kore başarısı sayesinde (Yunanistan ile birlikte) üye olduk.</td>
+</tr>
+<tr>
+<td>27 Mayıs 1960</td>
+<td>Askeri Darbe</td>
+<td>DP iktidarı devrildi, Menderes ve 2 bakan idam edildi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>Truman Doktrini vs. Marshall Planı (Çok Karıştırılır!)</h3>
+<table>
+<thead>
+<tr>
+<th>Özellik</th>
+<th>Truman Doktrini (1947)</th>
+<th>Marshall Planı (1948)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Asıl Amacı</strong></td>
+<td>Rus tehdidine karşı sınırları savunmak <strong>(Askeri/Güvenlik)</strong></td>
+<td>Avrupa'nın fakirliğini yenip komünizmi engellemek <strong>(Ekonomik)</strong></td>
+</tr>
+<tr>
+<td><strong>Kapsamı</strong></td>
+<td>Sadece iki ülkeye yapıldı: <strong>Türkiye ve Yunanistan</strong></td>
+<td>Savaştan yıpranmış <strong>16 Avrupa ülkesine</strong> (Türkiye dahil) yapıldı.</td>
+</tr>
+<tr>
+<td><strong>Sonucu (Türkiye)</strong></td>
+<td>Batı Blokuna <strong>Siyasi/Askeri</strong> entegrasyon sağladı.</td>
+<td>Tarımda devasa <strong>Traktörleşme (Makineleşme)</strong> sağladı.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>"Açık Oy, Gizli Tasnif":</strong> 1946 Seçimlerinin antidemokratik (şaibeli) uygulamasıdır. Bugün uyguladığımız "Gizli Oy, Açık (herkesin gözü önünde) sayım/tasnif" ise ilk kez 1950 seçimlerinde uygulanmıştır.</li>
+<li><strong>Tahsin Yazıcı ve Kunuri Muharebeleri:</strong> Kore savaşına giden "Şimal Yıldızı" Türk tugayının efsane komutanı Tahsin Yazıcı'dır. Kunuri muharebelerinde Amerikan ordusunu yok olmaktan kurtarmışlardır.</li>
+<li><strong>Balkan ve Bağdat Paktları:</strong> Soğuk savaşta Türkiye sınırlarını (Rusya'ya karşı) 1953 Balkan Paktı (Türkiye, Yunanistan, Yugoslavya) ve 1955 Bağdat Paktı (Türkiye, Irak, İran, Pakistan, İngiltere) ile korumaya çalışmıştır. (Lütfen Atatürk dönemi Balkan Antantı ve Sadabat Paktı ile karıştırmayın!).</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Atatürk'ü Koruma Kanunu" Kimin Döneminde?</span><p>Birçok öğrenci bu kanunu İsmet İnönü döneminde sanır. Hayır! Demokrat Parti döneminde Atatürk heykellerine ve anısına yönelik saldırıların artması üzerine, 1951 yılında (DP iktidarında) <strong>Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun</strong> çıkarılmıştır.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Türkiye NATO'ya Kurucu Üyedir" Tuzağı.</strong> Asla! NATO 1949'da kuruldu, Türkiye'yi içine almadı. Biz canımızı dişimize takıp Kore'de kan döktük, kendimizi (sadakatimizi) kanıtladık ve 1952'de (sonradan) üye olabildik.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Adnan Menderes Cumhurbaşkanıydı" Tuzağı.</strong> Çok karıştırılır. Demokrat Parti (1950-1960) iktidarı boyunca Cumhurbaşkanı <strong>Celal Bayar</strong>, Başbakan ise (partinin vitrini/lideri) <strong>Adnan Menderes</strong> idi. İdam edilen Menderes'tir. (Bayar yaş haddinden idam edilmemiş, hapis yatmıştır).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Dörtlü Takrir'i Verenler CHP Dışındandı" Tuzağı.</strong> DP gökten inmedi. DP'yi kuran 4 kişi (CaFeR), CHP'nin içindeki çok saygın milletvekilleriydi (Hatta Celal Bayar Atatürk'ün son Başbakanıdır). Toprak kanunu yüzünden partiden kopmuşlardır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Truman Ekonomik, Marshall Askeridir" Tuzağı.</strong> Tam tersi! Truman = Türkiye/Yunanistan'a Askeri Silah-Güvenlik. Marshall = Avrupa'ya (ve bize) Ekonomik-Traktör-Para (Kalkınma).</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Dörtlü Takrir (DP Kurucuları) Şifresi</span><p>Şifre: <strong>CaFeR</strong><br>
+• <strong>C</strong>elal Bayar<br>
+• <strong>a</strong>dnan Menderes<br>
+• <strong>F</strong>uat Köprülü<br>
+• <strong>R</strong>efik Koraltan<br>
+<em>(KPSS'de soru "Hangisi DP kurucularından değildir?" diye gelir, araya hep Fevzi Çakmak veya Hasan Saka gibi isimleri atarlar).</em></p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Dış Politika (Batı'ya Kayış):</strong> Rusya toprak isteyince ABD'nin (Truman/Marshall) kalkanına sığındık. NATO'ya girmek için Kore'ye asker gönderdik (1950) ve NATO'ya (1952) üye olduk.<br>
+• <strong>DP'nin Kuruluşu:</strong> Toprak kanununa itiraz eden CaFeR (Dörtlü Takrir) CHP'den koptu ve DP'yi kurdu.<br>
+• <strong>Beyaz Devrim:</strong> Şaibeli (Açık oy) 1946'dan sonra, adil (Gizli oy/Açık tasnif) 1950 seçimleriyle DP başa geçti (Celal Bayar CB, Menderes BB).<br>
+• <strong>DP Ekonomisi/Toplumu:</strong> Traktör patladı (köyden göç başladı), Ezan Arapçaya döndü, Atatürk'ü Koruma Kanunu çıktı, Köy Enstitüleri kapandı.<br>
+• <strong>Darbe (1960):</strong> Kutuplaşma (Vatan Cephesi/Tahkikat Komisyonları) ve kriz sonucu askeri darbe oldu, 3 kişi (Menderes, Polatkan, Zorlu) idam edildi.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Türkiye'nin SSCB tehdidine karşı sığındığı ASKERİ/Siyasi pakt:</strong> Truman Doktrini.<br>
+• <strong>Türkiye'de tarımda makineleşmeyi (traktörü) patlatan YARDIM:</strong> Marshall Planı.<br>
+• <strong>DP'yi kuran Dörtlü Takrir:</strong> Celal Bayar, Adnan Menderes, Fuat Köprülü, Refik Koraltan.<br>
+• <strong>1946 ve 1950 Seçimlerinin farkı:</strong> 46 (Açık oy/Gizli tasnif), 50 (Gizli oy/Açık tasnif).<br>
+• <strong>1950 DP iktidarına verilen lakap:</strong> Beyaz Devrim.<br>
+• <strong>DP Dönemi Cumhurbaşkanı:</strong> Celal Bayar.<br>
+• <strong>DP Dönemi Başbakanı:</strong> Adnan Menderes.<br>
+• <strong>Türkiye'nin NATO'ya giriş anahtarı:</strong> Kore Savaşı (Şimal Yıldızı Tugayı / Tahsin Yazıcı).<br>
+• <strong>DP döneminde kurulan siyasi cephe:</strong> Vatan Cephesi.<br>
+• <strong>1960 Darbesi sonrası DP'lilerin yargılandığı ada:</strong> Yassıada.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>İkinci Dünya Savaşı sonrasında SSCB'nin (Stalin'in) Türkiye'den Kars, Ardahan, Artvin'i ve Boğazlarda askeri üs talep etmesi, Türk dış politikasında <strong>hangi köklü (stratejik) değişikliğe</strong> neden olmuştur?</p>
+<p>A) Türkiye'nin SSCB ile ittifak yapmasına &nbsp; B) Türkiye'nin tamamen tarafsız (İsviçre gibi) bir devlet olmasına &nbsp; C) Türkiye'nin <strong>Batı Blokuna (ABD ve NATO'ya) tam entegre olmasına (sığınmasına)</strong> &nbsp; D) Türkiye'nin Balkan Antantını yeniden kurmasına</p>
+<p><strong>Çözüm:</strong> Rusya "Lozan bitti, Boğazları beraber koruyalım, Doğu Anadolu'dan da toprak ver" deyince Türkiye çok korktu. Yalnız kalmamak ve Rus işgalini önlemek için tamamen ABD'nin (Truman doktrini ve NATO'nun) şemsiyesi altına girdi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Demokrat Parti'nin (DP) kurucuları, aslında uzun yıllar Cumhuriyet Halk Partisi (CHP) içinde siyaset yapmış isimlerdir. <br>Aşağıdaki isimlerden hangisi 1945'te CHP'den ayrılarak <strong>Dörtlü Takrir'i (Önergeyi)</strong> imzalayan ve DP'yi kuran 4 kişiden biri <strong>DEĞİLDİR</strong>?</p>
+<p>A) Celal Bayar &nbsp; B) Adnan Menderes &nbsp; C) Fevzi Çakmak &nbsp; D) Refik Koraltan</p>
+<p><strong>Çözüm:</strong> Dörtlü Takrir şifremiz CaFeR'dir: Celal Bayar, Adnan Menderes, Fuat Köprülü, Refik Koraltan. Mareşal Fevzi Çakmak DP'nin kurucularından (Dörtlü takrircilerden) DEĞİLDİR (Sonradan Millet Partisine vs. destek vermiştir). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>1950 Genel Seçimleri, Türk siyasi tarihinde 27 yıllık Tek Parti (CHP) iktidarının son bulduğu, tamamen demokratik ve kansız bir şekilde iktidarın Demokrat Parti'ye geçtiği seçimdir. <br>Bu sebeple 1950 Seçimlerine Türk siyasi tarihinde ne ad verilir?</p>
+<p>A) Kadife Devrim &nbsp; B) Turuncu Devrim &nbsp; C) Beyaz Devrim &nbsp; D) Sessiz Devrim</p>
+<p><strong>Çözüm:</strong> İktidarın tek bir kurşun atılmadan, sadece halkın oylarıyla (Gizli oy/Açık tasnif sistemiyle) tamamen el değiştirmesi, tarihimize (demokrasinin zaferi anlamında) "Beyaz Devrim" olarak geçmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Türkiye'nin uluslararası güvenlik şemsiyesi olan <strong>NATO'ya (Kuzey Atlantik Paktı) 1952 yılında üye kabul edilmesinde</strong>, aşağıdaki askeri gelişmelerden (başarılardan) hangisi DOĞRUDAN etkili olmuştur?</p>
+<p>A) Kıbrıs Barış Harekatı &nbsp; B) Kore Savaşı'na (BM komutasında) asker göndermesi ve savaşta gösterilen büyük başarı &nbsp; C) I. Dünya Savaşı &nbsp; D) Körfez Savaşı</p>
+<p><strong>Çözüm:</strong> ABD ve Avrupa "Bu Türkler komünizme karşı ciddiler mi?" diye bizi test ediyordu. Kore'de Kuzey (Komünist) Kore'ye karşı Tahsin Yazıcı komutasındaki birliğimizin Amerikan askerlerini pusu ve imhadan kurtarması, NATO biletini bize altın tepside sunmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Türkiye'de 1946 Seçimleri ve 1950 Seçimleri arasında, seçim kanunları (oy verme ve sayma usulü) açısından devasa bir fark vardır. <br>Buna göre <strong>gerçek demokrasiye (ve şeffaflığa)</strong> geçişi simgeleyen 1950 seçimlerinin usulü (oy kuralı) aşağıdakilerden hangisidir?</p>
+<p>A) Açık Oy - Gizli Tasnif (Sayım) &nbsp; B) Gizli Oy - Açık Tasnif (Sayım) &nbsp; C) Açık Oy - Açık Tasnif &nbsp; D) Gizli Oy - Gizli Tasnif</p>
+<p><strong>Çözüm:</strong> Şaibeli olan 1946 seçimleri (Herkesin içinde oy atıp, gizli odada saymak) usulüydü. Demokratik olan 1950 (ve günümüz) sistemi ise "Gizli Oy (kimsenin baskısı olmadan perdenin arkasında), Açık Tasnif (herkesin gözü önünde tahtaya yazarak sayım)"dır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Soğuk Savaş döneminde Amerika Birleşik Devletleri'nin (ABD), komünizmin yayılmasını durdurmak amacıyla <strong>Türkiye ve Yunanistan'a doğrudan ASKERİ ve SİYASİ yardım (nakit kalkan)</strong> sağladığı 1947 tarihli belge (program) aşağıdakilerden hangisidir?</p>
+<p>A) Marshall Planı &nbsp; B) Balfour Deklarasyonu &nbsp; C) Truman Doktrini &nbsp; D) Monroe Doktrini</p>
+<p><strong>Çözüm:</strong> Truman Doktrini; tamamen "Güvenlik, Askeri savunma ve Sovyet kuşatmasını kırma" odaklıdır ve sadece Türkiye-Yunanistan ikilisine yapılmıştır (T-T). (Marshall ise Avrupa'ya genel ekonomik kalkınma yardımıdır). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Demokrat Parti'nin 10 yıllık (1950-1960) iktidarı boyunca (aralıksız olarak) Türkiye Cumhuriyeti'nin <strong>Cumhurbaşkanlığı</strong> görevini yürüten ve aynı zamanda Kurtuluş Savaşının Galip Hoca'sı olan devlet adamı kimdir?</p>
+<p>A) Adnan Menderes &nbsp; B) İsmet İnönü &nbsp; C) Celal Bayar &nbsp; D) Cemal Gürsel</p>
+<p><strong>Çözüm:</strong> En çok düşülen tuzaktır. Adnan Menderes bu dönemin Başbakanıdır (Yürütmenin başı ve vitrinidir). Ancak devletin başı (Cumhurbaşkanı) Celal Bayar'dır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>1950 yılında Demokrat Parti iktidara gelir gelmez (henüz ilk aylarında) yaptığı <strong>ilk büyük yasal (sosyal) değişikliklerden</strong> biri aşağıdakilerden hangisidir?</p>
+<p>A) Köy Enstitülerini açmak &nbsp; B) Türkçe okunan Ezan'ın tekrar (aslına uygun) Arapça okunmasını serbest bırakmak &nbsp; C) Başkenti İstanbul'a taşımak &nbsp; D) Harf İnkılabını iptal etmek</p>
+<p><strong>Çözüm:</strong> DP'nin (ve Menderes'in) halk nezdinde muazzam bir destek bulmasının ilk kıvılcımı; 1932'den beri Türkçe okunan Ezan'ı (Milletvekili oylamasıyla) tekrar Arapça aslına döndürmesi (serbest bırakması) olmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>Türkiye'nin Kore Savaşı'na asker göndermesine ve NATO'ya üye olmasına <strong>en sert tepkiyi gösteren</strong> (ve bunu bir tehdit olarak algılayan) devlet (Süper Güç) aşağıdakilerden hangisidir?</p>
+<p>A) İngiltere &nbsp; B) Amerika Birleşik Devletleri &nbsp; C) Sovyet Sosyalist Cumhuriyetler Birliği (SSCB - Rusya) &nbsp; D) Fransa</p>
+<p><strong>Çözüm:</strong> Türkiye Batı (ABD/NATO) blokuna girdikçe, burnunun dibindeki Rusya (SSCB) çıldırmış ve Soğuk Savaş gerginliği (füze krizleri vb.) tavan yapmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Adnan Menderes, Fatin Rüştü Zorlu ve Hasan Polatkan'ın <strong>Yassıada Mahkemelerinde</strong> yargılanarak idam edilmesiyle sonuçlanan askeri müdahale (Darbe) hangi tarihte gerçekleşmiştir?</p>
+<p>A) 12 Eylül 1980 &nbsp; B) 12 Mart 1971 &nbsp; C) 27 Mayıs 1960 &nbsp; D) 28 Şubat 1997</p>
+<p><strong>Çözüm:</strong> DP iktidarını deviren ve Türkiye tarihindeki ilk askeri darbe olan olay 27 Mayıs 1960'ta Milli Birlik Komitesi (Cemal Gürsel) tarafından yapılmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>1945'te Cumhuriyet Halk Partisi (CHP) içindeki büyük kırılma (Dörtlü Takrir ve DP'nin kuruluşu), hangi kanun tasarısının mecliste görüşülmesi sırasında patlak veren <strong>şiddetli tartışmalar</strong> (ve toprak ağalarının itirazları) sonucunda ortaya çıkmıştır?</p>
+<p>A) Milli Korunma Kanunu &nbsp; B) Çiftçiyi Topraklandırma Kanunu &nbsp; C) Takrir-i Sükun Kanunu &nbsp; D) Varlık Vergisi Kanunu</p>
+<p><strong>Çözüm:</strong> İnönü hükümeti köylüyü kalkındırmak için "Büyük toprak ağalarının elindeki toprağın bir kısmını zorla (kamulaştırıp) topraksız köylüye vereceğiz" dedi. Kendisi de Aydın'ın en büyük toprak ağası olan Adnan Menderes ve arkadaşları buna isyan edip CHP'den koptu (DP kuruldu). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Demokrat Parti döneminde tarımda <strong>Marshall Yardımlarının</strong> (Avrupa Kalkınma Paketi) etkisiyle makineleşme (Traktör kullanımı) muazzam bir hızla artmıştır. <br>Bu tarımsal makineleşmenin <strong>en belirgin SOSYOLOJİK (toplumsal) sonucu</strong> aşağıdakilerden hangisi olmuştur?</p>
+<p>A) Şehirlerden köylere doğru büyük bir geri dönüş (tersine göç) başlaması &nbsp; B) Köylerdeki geleneksel (ırgatlık/insan gücü) tarım bittiği için, işsiz kalan kitlelerin <strong>şehirlere göç etmesi ve İstanbul/Ankara gibi yerlerde "Gecekondu" sorununun başlaması</strong> &nbsp; C) Köy Enstitülerinin daha da büyümesi &nbsp; D) Tarımsal üretimin tamamen çökmesi</p>
+<p><strong>Çözüm:</strong> Traktör toprağı işleme süresini ve insan ihtiyacını bitirdi. Ağalar "Artık ırgata (işçiye) ihtiyacım yok" deyince milyonlarca köylü, DP döneminde yapılan yeni asfalt karayollarını da kullanarak şehirlere akın etti. Bu da gecekondu (çarpık kentleşme) sorununu doğurdu. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>1951 yılında, Atatürk heykellerine (büstlerine) ve Atatürk'ün manevi şahsiyetine yönelik muhafazakar kesimlerden (örneğin Ticaniler tarikatından) gelen saldırıların artması üzerine, <strong>"Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun" (Atatürk'ü Koruma Kanunu)</strong> hangi partinin iktidarı (dönemi) sırasında çıkarılmıştır?</p>
+<p>A) Cumhuriyet Halk Partisi (İsmet İnönü) &nbsp; B) Demokrat Parti (Adnan Menderes) &nbsp; C) Adalet Partisi (Süleyman Demirel) &nbsp; D) Milli Selamet Partisi</p>
+<p><strong>Çözüm:</strong> Çok düşülen bir tuzaktır. Bu kanun Atatürk veya İnönü döneminde değil, 1951'de yani Demokrat Parti (Adnan Menderes) iktidarının başlarında (heykel kırma olaylarını durdurmak için) bizzat DP tarafından çıkarılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>Türkiye, Soğuk Savaş döneminde SSCB tehdidine karşı etrafında bir "savunma çemberi" oluşturmak istemiştir. <br>Buna göre, Türkiye'nin 1953'te Batı (Balkan) güvenliği için Yunanistan ve Yugoslavya ile imzaladığı <strong>Balkan Paktı</strong>'nın ve 1955'te Doğu (Ortadoğu) güvenliği için imzaladığı <strong>Bağdat Paktı</strong>'nın <strong>ORTAK amacı</strong> nedir?</p>
+<p>A) İtalya'nın ve Almanya'nın faşist tehditlerini engellemek &nbsp; B) Ortadoğu petrollerini ele geçirmek &nbsp; C) Sovyetler Birliği'nin (Rusya'nın) ve Komünizmin bu bölgelere (Balkanlara ve Ortadoğu'ya) sızmasını engellemek (Kuşatma / Çevreleme) &nbsp; D) İngiltere ile savaşmak</p>
+<p><strong>Çözüm:</strong> 1930'lardaki (Atatürk dönemi) paktların amacı İtalya/Almanya tehdidiydi. Ancak Soğuk Savaş'ta (1950'lerde) kurulan paktların (Balkan/Bağdat) TEK amacı, Demir Perde'yi (Komünist Rusya'yı) kuşatmak ve yayılmasını durdurmaktır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Demokrat Parti iktidarının son yıllarına doğru (1958-1960 arası), ekonominin bozulması ve muhalefetin (CHP'nin) sertleşmesi üzerine, Başbakan Adnan Menderes'in halkı (kendi destekçilerini) muhalefete karşı bir arada tutmak için kurduğu (ve radyodan her gün isim okuttuğu) <strong>siyasi/toplumsal cepheleşme örgütünün (oluşumun)</strong> adı nedir?</p>
+<p>A) Milli Selamet Cephesi &nbsp; B) Vatan Cephesi &nbsp; C) Kuvâ-yı Milliye &nbsp; D) Serbest Cumhuriyet Fırkası</p>
+<p><strong>Çözüm:</strong> DP, iktidarını korumak için "Bize destek verenler Vatan Cephesindendir" diyerek (ve radyodan her gün bu cepheye katılan vatandaşların ismini saatlerce okutarak) büyük bir toplumsal kutuplaşma yaratmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>1954 yılında, eğitim felsefesinin komünizm (Sovyet kolektivizmi) propagandasına alet edildiği (öğrencilere sol yayınlar okutulduğu) ve köylüyü devlete (ağalara) karşı isyana kışkırttığı gerekçesiyle <strong>kapatılan eğitim kurumları</strong> aşağıdakilerden hangisidir?</p>
+<p>A) İmam Hatip Liseleri &nbsp; B) Köy Enstitüleri &nbsp; C) Millet Mektepleri &nbsp; D) Darülfünun</p>
+<p><strong>Çözüm:</strong> İnönü döneminde 1940'ta kurulan, kırsalın aydınlanma meşalesi olan Köy Enstitüleri; Soğuk Savaşın komünizm korkusu (Amerika'nın baskısı) ve toprak ağalarının şikayetleri sonucunda 1954'te DP döneminde kapatılmış ve İlköğretmen okullarına dönüştürülmüştür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>Demokrat Parti (DP) hükümeti, 1960 Darbesine (27 Mayıs) giden süreçte Cumhuriyet Halk Partisi'ni (CHP'yi) ve muhalif basını susturmak, "İhtilal hazırlığı içinde olup olmadıklarını" araştırmak (ve gerekirse partiyi kapatmak) amacıyla Meclis'te (sadece DP'li vekillerden oluşan) <strong>olağanüstü yetkilere sahip hangi komisyonu</strong> kurmuştur?</p>
+<p>A) İstiklal Mahkemeleri &nbsp; B) Tahkikat Komisyonu &nbsp; C) Şark Islahat Komisyonu &nbsp; D) Varlık Komisyonu</p>
+<p><strong>Çözüm:</strong> Demokrat Partinin siyasi sonunu hazırlayan en baskıcı antidemokratik kararıdır. İçinde yargıç olmayan, sadece DP'li siyasilerden oluşan "Tahkikat Komisyonu", gazete kapatma, siyasetçileri tutuklama ve sorgulama (yani mahkeme) yetkisiyle donatılmıştı. Bu anayasa ihlali sayılmış ve darbenin bir numaralı bahanesi olmuştur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Türkiye'nin 1950'de Kore'ye gönderdiği Şimal Yıldızı (Kuzey Yıldızı) Tugayı'nın (Özellikle Kunuri direnişinin) uluslararası diplomaside <strong>Türkiye'ye sağladığı EN BÜYÜK (Somut) kazanç</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkiye'nin sınırlarını Kore'ye kadar genişletmesi &nbsp; B) Kıbrıs'ın Türkiye'ye verilmesi &nbsp; C) ABD'nin ve Avrupalıların vetosunu kaldırarak <strong>Türkiye'nin 1952'de NATO'ya üye yapılmasını (kabul edilmesini)</strong> sağlaması &nbsp; D) SSCB'nin parçalanması</p>
+<p><strong>Çözüm:</strong> Kore savaşı NATO'nun giriş kapısıdır. Türk askerinin komünistlere (Çin ve Kuzey Kore'ye) karşı savaşabilme kapasitesini (ve sadakatini) kanıtlaması, Avrupalıların "Türkiye'yi de güvenlik şemsiyesine alalım" kararını verdirmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>DP döneminin dış politikasında 1955 yılında Ortadoğu'nun güvenliği (Komünizm kuşatması) için Türkiye, Irak, İran, Pakistan ve İngiltere arasında kurulan (Önceki adı Bağdat Paktı olan) güvenlik örgütü, Irak'ta darbe olup Irak gruptan çıkınca <strong>merkezini Ankara'ya taşıyarak HANGİ ADI (kısaltmayı)</strong> almıştır?</p>
+<p>A) CENTO &nbsp; B) SEATO &nbsp; C) NATO &nbsp; D) VARŞOVA</p>
+<p><strong>Çözüm:</strong> Bağdat Paktı'nın kalbi Irak'tı. 1958'de Irak'ta darbe olup kral devrilince (Irak pakttan çekilince), pakt çöktü. Geriye kalan üyeler (Türkiye vs.) merkezi Ankara'ya taşıyarak adını Merkezi Antlaşma Örgütü (CENTO - Central Treaty Organization) olarak değiştirdi. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Demokrat Parti iktidarının ekonomi politikası <strong>"Liberalizm (Serbest Piyasa)"</strong> odaklıydı. Dönemin sloganı "Her mahallede bir milyoner yaratmak" idi. <br>Buna göre DP döneminin ekonomik hamlelerinden hangisi <strong>Atatürk Dönemi ekonomi politikalarından (Devletçilikten)</strong> net bir sapmayı (farklılaşmayı) gösterir?</p>
+<p>A) Devletin kendi imkanlarıyla büyük KİT'ler (Devlet fabrikaları) kurmaya devam etmesi &nbsp; B) Ekonominin motor gücü olarak (devletin fabrikaları yerine) <strong>Özel Sektörü, Yabancı Sermayeyi (ABD yardımlarını) ve Serbest Girişimi (Özelleştirmeyi)</strong> öne çıkarması &nbsp; C) Aşar vergisini geri getirmesi &nbsp; D) Dışa kapalı bir ekonomi izlemesi</p>
+<p><strong>Çözüm:</strong> Atatürk ve İnönü dönemi (1929'dan sonra) krizler ve savaş nedeniyle sıkı sıkıya "Devletçidir" (Fabrikayı devlet kurar). DP (Menderes) dönemi ise Amerikan kapitalizminin etkisiyle "Liberaldir" (Özel sektör, kredi, dış borç, yabancı yatırım desteklenir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>27 Mayıs 1960 Askeri Darbesi'nden sonra Demokrat Parti liderlerinin (Cumhurbaşkanı Celal Bayar, Başbakan Adnan Menderes ve diğer bakanların) "Anayasayı ihlal, vatana ihanet" gibi suçlardan yargılandığı (ve idam kararlarının çıktığı) özel mahkemenin (Yüksek Adalet Divanı'nın) kurulduğu ada aşağıdakilerden hangisidir?</p>
+<p>A) İmralı Adası &nbsp; B) Yassıada (Demokrasi ve Özgürlükler Adası) &nbsp; C) Heybeliada &nbsp; D) Büyükada</p>
+<p><strong>Çözüm:</strong> Yargılamalar Marmara Denizindeki Yassıada'da yapılmış (Mahkeme Başkanı Salim Başol'dur), idamlar ise (Menderes, Zorlu, Polatkan) İmralı adasında infaz edilmiştir. Yargılamaların (mahkemenin) yapıldığı asıl yer Yassıada'dır (Günümüzdeki adıyla Demokrasi ve Özgürlükler adası). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>Aşağıdaki isimlerden hangisi 27 Mayıs 1960 darbesini yapan Milli Birlik Komitesi'nin (MBK) başına geçirilen, darbe sonrası Türkiye Cumhuriyeti'nin Devlet Başkanı (daha sonra da Cemal Gürsel'in hastalığı/vefatı hariç 4. Cumhurbaşkanı) olan kişidir?</p>
+<p>A) Kenan Evren &nbsp; B) Cevdet Sunay &nbsp; C) Cemal Gürsel &nbsp; D) Alparslan Türkeş</p>
+<p><strong>Çözüm:</strong> Darbeyi asıl planlayanlar alt rütbeli (Albay/Binbaşı vs.) subaylardı. Ancak ordunun hiyerarşisi bozulmasın diye darbenin (Milli Birlik Komitesinin) başına emekli (veya izindeki) Orgeneral Cemal Gürsel (Cemal Ağa lakaplı) getirilmiş ve o Devlet Başkanı olmuştur. (Alparslan Türkeş ise darbe bildirisini radyodan okuyan albaydır). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Truman Doktrini ile Türkiye'ye silah yardımı geldi. Ancak Türk Genelkurmayı bu durumun <strong>uzun vadede yaratacağı stratejik bir tehlikeye</strong> o yıllarda dikkat çekti (fakat siyasetçiler dinlemedi). <br>Silahlı Kuvvetlerin "Amerika'dan bedava silah almak" konusundaki vizyoner (ve sonradan Kıbrıs Barış Harekatında ambargo olarak patlayacak olan) haklı endişesi neydi?</p>
+<p>A) Askerlerin bu silahları kullanmayı bilmemesi &nbsp; B) Bedava Amerikan silahlarına alışmanın, Türkiye'nin kendi (milli) silah sanayisini (savunma sanayisini) tembelleştirmesi ve <strong>orduyu tamamen ABD silahlarına/yedek parçalarına "Bağımlı" (Dışa bağımlı)</strong> hale getirecek olması &nbsp; C) Silahların çok eski olması &nbsp; D) Rusya'nın bu silahları satın alması</p>
+<p><strong>Çözüm:</strong> Truman ve Marshall o an Türkiye'yi (Rusya'ya karşı) kurtarmıştır evet. Ama Amerika'nın hibe/bedava verdiği tanklar, uçaklar, gemiler yüzünden Türkiye yıllarca kendi uçağını/tankını yapmaya (milli sanayiye) gerek duymamış, tembelleşmiştir. 1974'te Kıbrıs için bu silahları kullanmak istediğimizde ABD ambargo koymuş (kullanamazsın demiş) ve Türk ordusu yedek parçasız kalmıştır. (Dışa bağımlılığın faturası). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>1954'ten sonra ekonominin bozulması, enflasyonun artması, dış borçların ödenememesi üzerine Adnan Menderes hükümeti, ekonomiyi toparlamak için (Uluslararası Para Fonu - IMF ile masaya oturarak) cumhuriyet tarihinin <strong>en büyük oranlı Devalüasyonunu (Türk lirasının değerini düşürme işlemini)</strong> yapmıştır. <br>Türkiye ekonomisini sarsan bu devalüasyon kararları (istikrar programı) hangi tarihte alınmıştır?</p>
+<p>A) 1929 Kararları &nbsp; B) 4 Ağustos 1958 Kararları &nbsp; C) 24 Ocak 1980 Kararları &nbsp; D) 5 Nisan 1994 Kararları</p>
+<p><strong>Çözüm:</strong> 1 Dolar = 2.80 TL iken, bir gecede alınan 4 Ağustos 1958 kararlarıyla 1 Dolar = 9.00 TL yapılmıştır (Devasa bir devalüasyon ve enflasyon dalgasıdır). Ekonomideki bu şok, halkın (özellikle sabit gelirli memur ve subayların) DP'ye sırtını dönmesini ve darbe sürecini hızlandırmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>27 Mayıs 1960 darbesinden önce (Nisan 1960'ta), İstanbul ve Ankara'daki üniversite öğrencileri Tahkikat Komisyonunu ve hükümeti protesto etmek için sokaklara dökülmüş (Turan Emeksiz gibi öğrenciler hayatını kaybetmiştir). <br>Siyaset tarihimizde Menderes hükümetine karşı öğrencilerin başlattığı ve polis/askerle çatıştığı <strong>bu büyük gençlik/öğrenci olaylarına (eylemlerine)</strong> verilen kod ad (kavram) aşağıdakilerden hangisidir?</p>
+<p>A) 31 Mart Vakası &nbsp; B) 555K Olayları &nbsp; C) Gezi Parkı Olayları &nbsp; D) Kubilay Olayı</p>
+<p><strong>Çözüm:</strong> 555K (5. Ayın, 5. Günü, Saat 5'te, Kızılay'da) sloganıyla organize olan üniversitelilerin Ankara (Kızılay) meydanında Adnan Menderes'in makam aracını sarmaları ve yuhalamaları, DP iktidarının son günlerinin (darbeye giden üniversite olaylarının) sembolüdür. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>Demokrat Parti'yi kuran Dörtlü Takrir ekibinden (CaFeR) biri olmasına ve Başbakan Adnan Menderes'in kabinesinde çok önemli görevlerde (Dışişleri vs.) bulunmasına rağmen, daha sonra Menderes'in "Tahkikat komisyonu/Vatan Cephesi" gibi baskıcı uygulamalarına dayanamayarak <strong>DP'den istifa eden ve hatta 1955'te Hürriyet Partisi'ni kuran (DP muhalifi olan) DP kurucusu</strong> kimdir?</p>
+<p>A) Celal Bayar &nbsp; B) Fuat Köprülü &nbsp; C) Refik Koraltan &nbsp; D) Fatin Rüştü Zorlu</p>
+<p><strong>Çözüm:</strong> Ünlü tarihçi (ve siyasetçi) Fuat Köprülü, DP'yi Menderes ve Bayar ile birlikte kurmuştur. Ancak Menderes'in partiyi tek adam (otoriter) çizgisine çekmesinden rahatsız olmuş, partiden koparak eleştirmeye başlamıştır. (Bu zor/ince bir detaydır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>1953 yılında Rus (Sovyet) tehdidine karşı Balkanlarda "Türkiye, Yunanistan ve Yugoslavya" arasında kurulan <strong>Balkan Paktı</strong>, 1954 yılından itibaren hangi siyasi/diplomatik gelişme nedeniyle zayıflamış ve sonrasında çökmüş (Türkiye ile Yunanistan birbirine düşmüştür)?</p>
+<p>A) Yugoslavya'nın paktı İngiltere'ye satması &nbsp; B) Türkiye ile Yunanistan arasında İngilizlerin tetiklediği <strong>Kıbrıs Sorunu'nun (Enosis) patlak vermesi</strong> ve iki devletin düşman olması &nbsp; C) Hatay sorunu &nbsp; D) Etabli krizi</p>
+<p><strong>Çözüm:</strong> Atatürk dönemindeki (1930) Etabli dostluğu ile kurulan 1953 Balkan Paktı, Yunanistan'ın Kıbrıs'ı İngilizlerden alıp kendine bağlama (Enosis) rüyası yüzünden paramparça oldu. 1954'ten itibaren Kıbrıs olayları patlak verince, Türkiye ve Yunanistan savaşın eşiğine geldi ve Balkan Paktı dağıldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Soğuk Savaş döneminde Dünya'nın iki bloka (SSCB/Komünizm ile ABD/Kapitalizm) ayrıldığını ifade etmek için İngiliz Başbakanı Winston Churchill'in (1946'da) <strong>Avrupa'yı ortadan ikiye bölen görünmez sınırı</strong> tanımlamak amacıyla kullandığı meşhur (siyasi) kavram nedir?</p>
+<p>A) Berlin Duvarı &nbsp; B) Yeşil Hat &nbsp; C) Demir Perde (Iron Curtain) &nbsp; D) Çin Seddi</p>
+<p><strong>Çözüm:</strong> Churchill "Baltık'tan Adriyatik'e kadar Avrupa'nın üzerine bir <strong>Demir Perde</strong> inmiştir" diyerek, doğudaki komünist ülkelerin batı (demokrasi) dünyasından tamamen koptuğunu (kapatıldığını) ilan etmiş, Soğuk Savaşın felsefi adını koymuştur. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>NATO (Kuzey Atlantik Paktı) Batı Blokunun "Askeri (Güvenlik)" şemsiyesidir. Buna karşılık, Sovyet Rusya (SSCB) komünist devletleri kendi etrafında korumak (ve NATO'ya karşı denge sağlamak) amacıyla 1955'te <strong>hangi karşı askeri ittifakı</strong> kurmuştur?</p>
+<p>A) COMECON &nbsp; B) Varşova Paktı &nbsp; C) Kominform &nbsp; D) Bağımsız Devletler Topluluğu</p>
+<p><strong>Çözüm:</strong> Batı'nın ordusu = NATO. Doğu'nun (Komünizmin) ordusu = VARŞOVA Paktı (1955). (COMECON doğunun ekonomik işbirliği, Kominform siyasi işbirliğidir. Askeri (NATO'nun kopyası/düşmanı) olan Varşova Paktıdır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>1950 (DP dönemi) seçimleriyle ilgili olarak, seçimlerin tamamen adil, şeffaf ve hukuki güvence altında yapılmasını sağlamak (iktidarın oyları çalmasını/açık oy-gizli tasnif yapmasını önlemek) amacıyla <strong>seçimlerin tamamen yargı (hakim) denetimine bırakılmasını sağlayan (ve bugün de geçerli olan) Yüksek Seçim Kurulu (YSK)</strong> hangi yıl kurulmuştur (Hangi kanunla seçime gidilmiştir)?</p>
+<p>A) 1946 Seçim Kanunu &nbsp; B) 1950 (Yeni) Seçim Kanunu (Şubat 1950) &nbsp; C) 1924 Anayasası İlk Hali &nbsp; D) 1961 Anayasası</p>
+<p><strong>Çözüm:</strong> CHP (İsmet İnönü) 1950 seçimlerine girmeden hemen önce (Şubat 1950'de) kendi elleriyle yeni ve ultra-demokratik bir seçim kanunu çıkarmıştır. "Gizli oy, Açık tasnif" kuralı getirilmiş ve sandıklar siyasilerin elinden alınıp "Yüksek Seçim Kurulu (YSK)" adı verilen bağımsız hakimlerin korumasına bırakılmıştır. (İnönü, demokrasiye geçmek için kendi partisinin yenileceğini bile bile bu dürüst/adil kanunu çıkarmıştır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Truman (Askeri) ve Marshall (Ekonomik) kalkanına sığınarak Rusya'dan kurtulduk. NATO'ya girmek için Kore'de kan döktük (Tahsin Yazıcı / Şimal Yıldızı). İçeride CaFeR (Dörtlü Takrir) CHP'den kopup DP'yi kurdu. 1946 şaibeli seçimdir. 1950 ise YSK denetiminde "Gizli Oy, Açık Tasnif" ile yapılan ve CHP'nin 27 yıllık iktidarını yıkan (Beyaz Devrim) seçimdir. Menderes'in Cumhurbaşkanı (CB) OLMADIĞINI (CB'nin Celal Bayar olduğunu) asla unutma!</em></p>
+`,
   },
   {
     id: 74,
     category: 'Tarih',
     categoryId: 'tarih',
-    title: 'Çok Partili Hayata Geçiş',
-    built: false,
-    html: '',
+    title: 'Yumuşama (Detant) Dönemi ve Türkiye',
+    built: true,
+    html: `
+<h3>(Küba Krizi, Johnson Mektubu, Kıbrıs Barış Harekatı, ASELSAN)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Soğuk Savaş yıllarında ABD ve SSCB ellerindeki nükleer silahlarla birbirini yok edebilecek bir güce ulaşmıştı. Ancak 1962'deki "Küba Füze Krizi"nde iki ülke de nükleer savaşın (ve dünyanın sonunun) eşiğinden dönünce korktular ve <strong>"Yumuşama (Detant)"</strong> dönemini başlattılar.<br>
+Küresel çapta buzlar erirken Türkiye için ise tam tersine ateşli yıllar başlıyordu. Dünyanın "yumuşadığı" bu dönemde Türkiye, Kıbrıs'taki Türkleri Rum katliamından kurtarmak için kendi müttefiki olan ABD (ve Batı dünyası) ile karşı karşıya geldi. ÖSYM bu dönemde sana Kıbrıs harekatının şifrelerini (Ayşe Tatile Çıksın, TMT), ABD'nin vurduğu diplomatik tokatları (Johnson Mektubu, Silah Ambargosu) ve Türkiye'nin buna karşı nasıl <strong>ASELSAN</strong>'ı kurarak milli savunma sanayisine yöneldiğini soracaktır.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Türkiye'nin dış politikada sadece "Amerika'nın (NATO'nun) dediklerine uyan" bir ülke olmaktan çıkıp, milli menfaatleri (Kıbrıs) uğruna ABD'ye kafa tuttuğu, Rusya ve Arap dünyasıyla da "Çok Yönlü" politika izlemeye başladığı kırılma noktası (Johnson Mektubu) bu ünitededir.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>Yumuşama dönemi, ABD'nin Küba'daki, SSCB'nin de (bize sormadan) Türkiye'deki <strong>Jüpiter</strong> füzelerini sökmesiyle başladı. İki blok arasında "Kırmızı Telefon" hattı ve "Ping-Pong diplomasisi" (ABD-Çin) kuruldu.<br>
+İçeride Türkiye, 1960 darbesinden sonra hazırlanan (özgürlükçü) 1961 Anayasası, TRT, TÜBİTAK gibi yeni kurumlarla modernleşmeye çalışırken dışarıda <strong>Kıbrıs Krizi</strong> patlak verdi. EOKA adlı Rum terör örgütü adayı Yunanistan'a bağlamak (Enosis) için Türkleri katletmeye (Kanlı Noel) başladı. Türkiye müdahale etmek isteyince ABD Başkanı Johnson zehir zemberek bir mektupla bizi durdurdu.<br>
+Ancak 1974'te Ecevit hükümeti artık kimseyi dinlemedi ve <strong>Kıbrıs Barış Harekatını</strong> gerçekleştirdi. Bunun bedeli ise ABD silah ambargosu, tüp/yağ kuyrukları, sağ-sol çatışmaları ve nihayetinde 12 Eylül 1980 askeri darbesi oldu.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 "Kötü Komşu İnsanı Mal Sahibi Yapar"</span><p>ABD'nin 1974 Kıbrıs Barış Harekatından sonra Türkiye'ye 3 yıl boyunca (parası ödenmiş uçak parçalarını bile vermeyerek) silah ambargosu uygulaması, Türkiye'nin aklını başına getirmiş ve kendi silahını (elektroniğini) üretmek için 1975'te ASELSAN'ı kurmasını sağlamıştır.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h2>
+
+<h3>3.1. Nükleer Felaketin Eşiği: Küba Füze Krizi (1962)</h3>
+<p>SSCB (Rusya), ABD'nin burnunun dibindeki Küba'ya (Fidel Castro yönetimine) nükleer füzeler yerleştirdi. ABD bunu fark edince savaş gemileriyle Küba'yı ablukaya aldı ve dünya nükleer savaşın eşiğine geldi.<br>
+Gizli bir pazarlık yapıldı: SSCB Küba'daki füzeleri sökmeyi, ABD ise SSCB'nin burnunun dibindeki <strong>Türkiye'de bulunan "Jüpiter Füzelerini"</strong> sökmeyi kabul etti. ABD bu füzeleri Türkiye'ye sormadan, tamamen kendi kararıyla sökmüştür. (Bu olay Yumuşama dönemini başlatan olaydır).</p>
+
+<h3>3.2. Küresel Yumuşama (Detant) Adımları</h3>
+<p>Nükleer savaştan dönülünce iki blok birbirine yakınlaştı:<br>
+- <strong>Kırmızı Telefon:</strong> Washington ve Moskova arasında acil durum hattı kuruldu.<br>
+- <strong>Ping-Pong Diplomasisi (1971):</strong> ABD ve Çin masa tenisi takımlarının dostluk maçıyla başlayan ve iki devleti diplomatik olarak yakınlaştıran olaydır.<br>
+- <strong>SALT-I ve SALT-II (1972-1979):</strong> Stratejik Silahları Sınırlandırma Antlaşmaları. (SALT-II, SSCB'nin Afganistan'ı işgal etmesi üzerine ABD kongresince iptal edilmiştir).<br>
+- <strong>Helsinki Nihai Senedi (1975):</strong> Avrupa ülkeleri arasında sınırların ihlal edilmemesi ve insan hakları (Avrupa Güvenlik ve İşbirliği Teşkilatı - AGİT'in temeli) belgesidir.</p>
+
+<h3>3.3. Kıbrıs Meselesinin Kökeni: EOKA ve TMT</h3>
+<p>Kıbrıs'ta Rumların amacı <strong>Enosis</strong> (Adayı Yunanistan'a bağlamak) idi. Bunun için <strong>EOKA</strong> adlı terör örgütünü kurdular. Buna karşılık Türkler, Dr. Fazıl Küçük ve Rauf Denktaş önderliğinde <strong>Türk Mukavemet Teşkilatı'nı (TMT)</strong> kurarak direnişe geçtiler.<br>
+1960 yılında Londra ve Zürih antlaşmalarıyla "Kıbrıs Cumhuriyeti" kuruldu. Türkiye, İngiltere ve Yunanistan <strong>"Garantör Devlet"</strong> oldu. Ancak Rumlar Türklere saldırarak katliamlara başladı (<strong>Kanlı Noel - 1963</strong>). 1964 Erenköy Direnişinde Hava Yüzbaşı <strong>Cengiz Topel</strong> uçağı düşürülüp Rumlar tarafından işkenceyle şehit edilen Cumhuriyet tarihinin ilk hava harp şehidi oldu.</p>
+
+<h3>3.4. Bir Kırılma Noktası: Johnson Mektubu (1964)</h3>
+<p>Türkiye 1964'te Kıbrıs'taki katliamı durdurmak için adaya müdahale kararı alınca, ABD Başkanı Lyndon Johnson, Başbakan İsmet İnönü'ye çok kaba (tehditkar) bir mektup yazdı:<br>
+<em>"ABD'nin verdiği silahları Kıbrıs'ta kullanamazsın. Eğer bu yüzden Sovyet Rusya Türkiye'ye saldırırsa, NATO sizi korumaz!"</em><br>
+<strong>Sonucu:</strong> İsmet İnönü müdahaleyi iptal etti. Ancak bu mektup Türk Dış Politikasında devrim yarattı. Türkiye <strong>"Çok Yönlü Dış Politikaya"</strong> geçti, SSCB ve Orta Doğu (Arap) devletleriyle ilişkilerini düzeltti. (Türkiye sadece ABD'ye güvenemeyeceğini anlamıştı).</p>
+
+<h3>3.5. 1974 Kıbrıs Barış Harekatı ve "Ayşe Tatile Çıksın"</h3>
+<p>1974'te Yunanistan destekli EOKA-B (Nikos Sampson) Kıbrıs'ta darbe yapıp "Kıbrıs Elen Cumhuriyetini" ilan edince işler çığrından çıktı.<br>
+Dönemin Başbakanı <strong>Bülent Ecevit</strong> ve Başbakan Yardımcısı <strong>Necmettin Erbakan</strong> (CHP-MSP koalisyonu) adaya müdahale kararı aldı. İngiltere garantörlük hakkını kullanmak istemeyince Türkiye tek başına harekatı başlattı.<br>
+Cenevre görüşmelerinde Rumlar oyalama taktiği yapınca, Dışişleri Bakanı <strong>Turan Güneş</strong>, Ankara'ya dönemin efsane parolasını (kendi kızının adını) şifreli olarak bildirdi: <strong>"Ayşe Tatile Çıksın"</strong> (Yani: 2. Harekatı başlatın). <br>
+<strong>Sonuç:</strong> Ada ikiye bölündü, Kuzey'de Türk devleti (sonradan 1983'te KKTC - İlk Cumhurbaşkanı Rauf Denktaş) kuruldu.</p>
+
+<h3>3.6. ABD Ambargosu ve ASELSAN'ın Kuruluşu (1975)</h3>
+<p>Kıbrıs Harekatına misilleme olarak ABD (ve BM), Türkiye'ye 1975-1978 yılları arasında çok ağır bir silah ambargosu uyguladı.<br>
+Bülent Ecevit hükümeti buna çok sert cevap verdi: <strong>Türkiye'deki tüm Amerikan üslerini (İncirlik dahil) kapattı!</strong> (Ambargo kalkana kadar üsler kapalı kalmıştır).<br>
+Ayrıca ambargo sayesinde Türkiye yerli savunma sanayisinin temellerini attı ve 1975'te Türk Silahlı Kuvvetlerini Güçlendirme Vakfı bünyesinde <strong>ASELSAN (Askeri Elektronik Sanayi)</strong> kuruldu.</p>
+
+<h3>3.7. Türkiye'nin İç Politikası (1960-1980) ve ASALA Terörü</h3>
+<p><strong>Kurumlar (1960 Sonrası):</strong> Özgürlükçü 1961 Anayasasıyla birlikte Anayasa Mahkemesi, TRT, TÜBİTAK, DPT (Devlet Planlama Teşkilatı) kuruldu.<br>
+<strong>Ermeni Terörü (ASALA):</strong> 1970'lerde ortaya çıkan ve özellikle yurt dışındaki (Los Angeles, Viyana vb.) Türk büyükelçilerini (diplomatlarını) şehit eden Ermeni terör örgütüdür.<br>
+<strong>İç Krizler ve 1980 Darbesi:</strong> 1971'de ordu Demirel hükümetine "Muhtıra (12 Mart)" vererek istifa ettirdi (Ara rejim). 70'ler koalisyonlarla, Arap-İsrail savaşının yarattığı petrol (tüp, benzin, yağ) kuyruklarıyla ve sağ-sol silahlı çatışmalarıyla (günde ortalama 20 gencin öldüğü terör olaylarıyla) geçti. Sonunda <strong>12 Eylül 1980'de Genelkurmay Başkanı Kenan Evren</strong> liderliğindeki ordu yönetime el koydu ve siyaset tamamen durduruldu.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Kıbrıs'ta Kanlı Noel (Sebep) $\rightarrow$ Johnson Mektubu (Sonuç):</strong> Türkiye'nin Kıbrıs'a müdahale kararı alması, ABD'nin Türkiye'ye mektup (nota) vererek durdurmasına neden olmuştur.</li>
+<li><strong>Johnson Mektubu (Sebep) $\rightarrow$ Çok Yönlü Dış Politika (Sonuç):</strong> Türkiye "ABD bir gün beni satabilir" korkusuyla SSCB (Rusya) ve 3. Dünya ülkeleriyle iyi geçinme (Çok Yönlü) diplomasisine geçmiştir.</li>
+<li><strong>ABD Silah Ambargosu (Sebep) $\rightarrow$ Üslerin Kapatılması ve ASELSAN (Sonuç):</strong> Türkiye bağımsız bir devlet gibi ABD'ye boyun eğmemiş, üsleri kapatmış ve kendi silah sanayisini kurmuştur.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış ve Dönem Kavramları (Özet)</h2>
+<table>
+<thead>
+<tr>
+<th>Olay / Kavram</th>
+<th>Özeti / Önemi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Küba Füze Krizi (1962)</strong></td>
+<td>ABD ve SSCB'nin (Jüpiter füzeleri yüzünden) nükleer savaşın eşiğine geldiği olay.</td>
+</tr>
+<tr>
+<td><strong>Johnson Mektubu (1964)</strong></td>
+<td>ABD'nin Türkiye'nin Kıbrıs'a çıkmasını engellediği (ve dış politikamızı değiştiren) belge.</td>
+</tr>
+<tr>
+<td><strong>1971 Muhtırası</strong></td>
+<td>Ordunun hükümete (Demirel'e) "İstifa et" diyerek verdiği muhtıra (Ara rejim).</td>
+</tr>
+<tr>
+<td><strong>Kıbrıs B. Harekatı (1974)</strong></td>
+<td>Ayşe Tatile Çıksın parolasıyla (Ecevit/Erbakan) adanın bölünmesi ve kurtarılması.</td>
+</tr>
+<tr>
+<td><strong>ABD Ambargosu (1975)</strong></td>
+<td>Harekat nedeniyle Türkiye'ye uygulanan (ve ASELSAN'ı kurmamıza yol açan) silah ambargosu.</td>
+</tr>
+<tr>
+<td><strong>ASALA Terörü</strong></td>
+<td>Ermenilerin Türk diplomatlarını (büyükelçileri) hedef aldığı terör eylemleri.</td>
+</tr>
+<tr>
+<td><strong>12 Eylül 1980 Darbesi</strong></td>
+<td>Sağ-sol çatışmasını gerekçe gösteren TSK'nın (Kenan Evren) siyasi partileri kapattığı darbe.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>EOKA vs. TMT</h3>
+<table>
+<thead>
+<tr>
+<th>Karşılaştırma</th>
+<th>EOKA</th>
+<th>TMT (Türk Mukavemet Teşkilatı)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kim Kurdu?</strong></td>
+<td>Kıbrıslı RUM milliyetçiler (Grivas vb.)</td>
+<td>Kıbrıslı TÜRKLER (Dr. Fazıl Küçük, Rauf Denktaş, Türk Subayları)[0m</td>
+</tr>
+<tr>
+<td><strong>Amacı (İdeolojisi)</strong></td>
+<td><strong>ENOSİS</strong> (Kıbrıs'ı Yunanistan'a bağlamak) ve adayı Türklerden temizlemek.</td>
+<td>Rum katliamlarına karşı Kıbrıs Türkünü korumak (Milli Savunma direnişi).</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>"Türkiye İşgalci Değildir":</strong> Kıbrıs Barış Harekatı'nın uluslararası hukuktaki (ve Birleşmiş Milletler'deki) yasal dayanağı, 1960 Londra-Zürih antlaşmalarındaki "Garantör Devlet" (Müdahale hakkı) statüsüdür. Türkiye oraya fetih için değil, antlaşma bozulduğu için girmiştir.</li>
+<li><strong>Ayşe Kimdir?</strong> "Ayşe Tatile Çıksın" parolasındaki Ayşe, dönemin Dışişleri Bakanı Turan Güneş'in kızıdır. Cenevre'de diplomatik görüşmeler tıkanınca, Ankara'yı arayıp bu şifreyi söylemiş ve 2. Harekat başlamıştır.</li>
+<li><strong>Jüpiter Füzeleri:</strong> Türkiye'nin haberi bile olmadan (pazarlık masasında SSCB ile anlaşılarak) ABD tarafından Türkiye'den sökülen füzelerdir. Bu durum Türkiye'nin NATO'ya/ABD'ye olan güvenini (Johnson mektubundan da önce) sarsmıştır.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Yeni Kurumlar Kime Ait?</span><p>Anayasa Mahkemesi, DPT (Devlet Planlama Teşkilatı), TRT ve TÜBİTAK gibi kurumların tamamı <strong>1960 Askeri Darbesinden SONRA (1961 Anayasası ile)[0m</strong> Türkiye'nin modern kurumlarını oturtmak amacıyla kurulmuştur. Bunları Atatürk, İnönü veya Demokrat Parti dönemi kurumlarıyla KARIŞTIRMA.</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"Küba Krizi Soğuk Savaşı BİTİRDİ" Tuzağı.</strong> Asla! Küba krizi Soğuk Savaşın EN SICAK (en tehlikeli) anıdır. Ancak bu krizden dönülmesi Soğuk Savaşı "Bitirmemiş", sadece şiddetini azaltıp <strong>YUMUŞAMA (Detant)</strong> dönemini "Başlatmıştır". (Soğuk Savaş ancak 1991'de SSCB'nin yıkılmasıyla biter).</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Türkiye Kıbrıs'a İşgal Amacıyla Girdi" Tuzağı.</strong> Hayır! Türkiye adaya 1960'ta imzaladığı Garanti antlaşmasındaki hakka (Uluslararası Hukuka) dayanarak "Garantör (Barış Gücü)" sıfatıyla girmiştir. İşgalci olan (Darbe yapan Nikos Sampson ile adayı fiilen Yunanistan'a bağlamaya çalışan) Rumlardır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"Johnson Mektubu Kıbrıs Barış Harekatından (1974) SONRA yazıldı" Tuzağı.</strong> Kronoloji hatası! Johnson Mektubu 1964'te (Harekat'tan tam 10 yıl önce) yazıldı ve o dönemki müdahaleyi DURDURDU. 1974'te Ecevit bu mektup/tehdit gibi şeyleri dinlemeyerek asıl harekatı yapmıştır.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"ASALA PKK'nın eski adıdır" Tuzağı.</strong> İkisi farklı terör örgütleridir. ASALA 1970'lerde ve 80'lerde aktif olan, sadece Türk diplomatlarını/elçilerini vuran ve amacı "Sözde Ermeni Soykırımını" kabul ettirmek olan (Lübnan/Ermeni kökenli) dış kaynaklı bir örgüttür.</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Kıbrıs 1974 Şifreleri</span><p>• <strong>Başbakan (Hükümet):</strong> Bülent Ecevit (CHP) & Necmettin Erbakan (MSP) koalisyonu.<br>
+• <strong>Parola:</strong> "Ayşe Tatile Çıksın" (Turan Güneş'in kızı).<br>
+• <strong>Gerekçe (Hukuki):</strong> 1960 Zürih-Londra Garantörlük Hakkı.<br>
+• <strong>Rumların Amacı:</strong> ENOSİS (Kıbrıs'ı Yunanistan'a bağlamak) / Terör Örgütleri: EOKA.<br>
+• <strong>Türk Savunması:</strong> TMT (Fazıl Küçük, Rauf Denktaş).<br>
+• <strong>ABD'nin Cevabı (Ambargo) $\rightarrow$ Türkiye'nin Cevabı (Üsleri kapatmak & ASELSAN'ı kurmak).</strong></p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Küba Krizi & Yumuşama:</strong> SSCB füzeleri söktü, ABD de (bize sormadan) Türkiye'deki Jüpiter füzelerini söktü. (Kırmızı Telefon ve SALT imzalandı).<br>
+• <strong>Johnson Mektubu (1964):</strong> ABD'nin Kıbrıs'a müdahalemizi tehditle engellediği belgedir. Sonucunda "Çok Yönlü" dış politikaya geçtik.<br>
+• <strong>Kıbrıs Harekatı (1974):</strong> Ecevit/Erbakan döneminde (Ayşe tatile çıksın parolasıyla) adaya girildi. ABD silah ambargosu uyguladı. Biz de İncirlik'i kapatıp ASELSAN'ı kurduk.<br>
+• <strong>İç Siyaset (Kurumlar):</strong> TRT, TÜBİTAK, DPT, Anayasa Mahkemesi 1960 (61 Anayasası) sonrası kuruldu.<br>
+• <strong>Darbeler/Muhtıra:</strong> 1960 Darbesi (Menderes idam edildi), 1971 Muhtırası (Demirel istifa etti), 1980 Darbesi (Evren yönetime el koydu).
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Dünyayı nükleer savaştan döndüren, füzelerin söküldüğü kriz:</strong> Küba Füze Krizi.<br>
+• <strong>Kıbrıs'ı Yunanistan'a bağlama hedefi:</strong> ENOSİS (Terör örgütü: EOKA).<br>
+• <strong>Kıbrıs Türkü'nün direniş örgütü:</strong> TMT (Türk Mukavemet Teşkilatı).<br>
+• <strong>Türkiye'yi Kıbrıs (1964) müdahalesinden vazgeçiren ABD belgesi:</strong> Johnson Mektubu.<br>
+• <strong>Kıbrıs Barış Harekatının parolası:</strong> Ayşe Tatile Çıksın.<br>
+• <strong>Harekatın Başbakanı ve Dışişleri Bakanı:</strong> Bülent Ecevit / Turan Güneş.<br>
+• <strong>Türkiye'nin silah ambargosuna karşı kendi silahı için kurduğu şirket:</strong> ASELSAN.<br>
+• <strong>Yurtdışındaki Türk diplomatlarını şehit eden terör örgütü:</strong> ASALA.<br>
+• <strong>1971 Askeri Muhtırasından (Nihat Erim hükümetinden) sonraki krizler dönemi:</strong> 1970'ler Koalisyonlar ve Kuyruklar Dönemi.
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>Soğuk Savaş döneminde, ABD ile SSCB'yi doğrudan karşı karşıya getiren ve dünyayı <strong>nükleer savaşın eşiğinden döndüren (ve sonrasında Yumuşama/Detant dönemini başlatan)</strong> kriz aşağıdakilerden hangisidir?</p>
+<p>A) Berlin Buhranı &nbsp; B) Kore Savaşı &nbsp; C) Küba Füze Krizi &nbsp; D) Süveyş Krizi</p>
+<p><strong>Çözüm:</strong> SSCB'nin Küba'ya (ABD'nin dibine) füze yerleştirmesi ve ABD'nin Küba'yı ablukaya almasıyla kopan kriz Küba Füze Krizidir. İki taraf füzeleri sökmek (ve kırmızı telefon kurmak) kaydıyla nükleer savaştan dönmüştür. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>Küba Füze Krizinin çözülmesi (gizli pazarlığı) sırasında ABD'nin, SSCB'ye (Rusya'ya) taviz olarak <strong>Türkiye'nin haberi dahi olmadan Türkiye'den söktüğü</strong> (Geri çektiği) nükleer başlıklı füzelerin adı nedir?</p>
+<p>A) Patriot &nbsp; B) Stinger &nbsp; C) Jüpiter Füzeleri &nbsp; D) S-400</p>
+<p><strong>Çözüm:</strong> ABD, Küba'daki füzelerin sökülmesi karşılığında "Tamam ben de burnunun dibindeki (Türkiye'deki) Jüpiter füzelerimi söküyorum" demiştir. Türkiye bunu sonradan öğrenince (ve hedef tahtasına konduğunu anlayınca) ABD'ye güveni derinden sarsılmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>Kıbrıs meselesinde, Kıbrıslı Rum milliyetçilerin (Makamarios ve Grivas önderliğinde) <strong>adayı tamamen Yunanistan'a bağlama (İlhak etme)</strong> hedefine (ideolojisine) ne ad verilir?</p>
+<p>A) Megali İdea &nbsp; B) Enosis &nbsp; C) EOKA &nbsp; D) Pontus</p>
+<p><strong>Çözüm:</strong> "Enosis", Kıbrıs'ı Yunanistan ile birleştirme ilhak idealinin (hedefinin) adıdır. EOKA ise bu hedefe ulaşmak için kurulan Rum terör örgütünün adıdır. (İdeoloji=Enosis, Örgüt=EOKA). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>EOKA'nın saldırılarına (Enosis hedefine) ve Rum katliamlarına karşı Kıbrıs Türklerini korumak amacıyla Dr. Fazıl Küçük, Rauf Denktaş ve Türk subayları tarafından (gizlice) kurulan <strong>direniş (Milli savunma) örgütünün</strong> adı nedir?</p>
+<p>A) Kuvâ-yı Milliye &nbsp; B) Teşkilat-ı Mahsusa &nbsp; C) Türk Mukavemet Teşkilatı (TMT) &nbsp; D) Karakol Cemiyeti</p>
+<p><strong>Çözüm:</strong> Rumların EOKA terörüne karşı Kıbrıs Türkünün meşru müdafaa kalkanı olan TMT (Türk Mukavemet Teşkilatı), efsanevi bir sivil-asker direniş örgütüdür. (Daha sonra Kıbrıs Türk Barış Kuvvetleri'ne dönüşmüştür). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>1964 Yılında Türkiye Kıbrıs'taki Rum katliamlarını durdurmak için adaya müdahale kararı aldığında, ABD tarafından Türkiye'ye verilen ve <strong>"Eğer bizim (NATO) silahlarımızı Kıbrıs'ta kullanırsanız ve Rusya size saldırırsa, sizi korumayız"</strong> şeklinde ağır tehditler içeren diplomatik nota (belge) aşağıdakilerden hangisidir?</p>
+<p>A) Marshall Planı &nbsp; B) Truman Doktrini &nbsp; C) Johnson Mektubu &nbsp; D) Bristol Raporu</p>
+<p><strong>Çözüm:</strong> ABD Başkanı Johnson'ın dönemin Başbakanı İsmet İnönü'ye gönderdiği bu zehir zemberek mektup (Johnson Mektubu), Türkiye'nin ABD ile balayı dönemini bitirmiş ve Türkiye'yi SSCB ile de (Çok yönlü) ilişkiler kurmaya itmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>1974 yılında, Kıbrıs'ta Türklerin katledilmesini durdurmak ve adaya barış getirmek için <strong>"Ayşe Tatile Çıksın"</strong> parolasıyla Kıbrıs Barış Harekatı'nın (ikinci aşamasının) başlatılması talimatını (Ankara'ya şifreli olarak) veren dönemin Dışişleri Bakanı kimdir?</p>
+<p>A) Bülent Ecevit &nbsp; B) Necmettin Erbakan &nbsp; C) Turan Güneş &nbsp; D) Süleyman Demirel</p>
+<p><strong>Çözüm:</strong> Başbakan Bülent Ecevit'tir. Ancak İsviçre'nin Cenevre kentinde Rumlarla barış (veya adayı bölme) görüşmelerini yapan Dışişleri Bakanı <strong>Turan Güneş</strong>'tir. Rumlar oyalama taktiği yapınca Turan Güneş masadan kalkmış ve Ankara'ya (Ecevit'e) kızı Ayşe'nin adını kullanarak şifreli harekat (Saldırı) emrini vermiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>1974 Kıbrıs Barış Harekatı'nın ardından, Türkiye'ye 3 yıl boyunca (parası ödenmiş uçak parçalarını dahi vermeyerek) <strong>çok ağır bir silah ve ekonomik AMBARGO</strong> uygulayan devlet (ittifak) hangisidir?</p>
+<p>A) SSCB (Rusya) &nbsp; B) Çin &nbsp; C) ABD (Amerika Birleşik Devletleri) &nbsp; D) Birleşmiş Milletler Güvenlik Konseyi</p>
+<p><strong>Çözüm:</strong> Türkiye'nin (kendi sözünü dinlemeyerek) NATO silahlarıyla Kıbrıs'a girmesine öfkelenen ABD Kongresi, Türkiye'ye çok ağır bir silah ambargosu uygulamıştır. (Türkiye de buna karşılık ABD üslerini kapatmıştır). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Türkiye'nin dışa (ABD'ye) olan askeri bağımlılığını kırmak ve ordunun elektronik/haberleşme ihtiyaçlarını <strong>MİLLİ (yerli) imkanlarla üretmek için ABD ambargosundan hemen sonra (1975'te) kurduğu devasa savunma sanayi şirketi</strong> aşağıdakilerden hangisidir?</p>
+<p>A) TUSAŞ &nbsp; B) ASELSAN &nbsp; C) ROKETSAN &nbsp; D) HAVELSAN</p>
+<p><strong>Çözüm:</strong> "Kötü komşu insanı mal sahibi yapar." Ambargo günlerinde askerimizin telsizi bile susturulunca, 1975'te Askeri Elektronik Sanayi (ASELSAN) kurulmuş ve Türkiye milli savunma sanayisinin temellerini atmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>1970'li yıllarda ortaya çıkan, özellikle Avrupa ve ABD'deki <strong>Türk büyükelçilerini (diplomatlarını) suikastlarla şehit eden</strong> ve "Ermeni soykırımı" iddialarını Türkiye'ye (terör yoluyla) kabul ettirmeyi amaçlayan örgütün adı nedir?</p>
+<p>A) PKK &nbsp; B) EOKA &nbsp; C) ASALA &nbsp; D) DHKP-C</p>
+<p><strong>Çözüm:</strong> Ermeni terör örgütü ASALA, özellikle 70'ler ve 80'lerde yurt dışındaki savunmasız Türk diplomatlarımıza (Eşlerine/Çocuklarına) saldırarak 30'dan fazla diplomatımızı şehit etmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Türkiye'de sağ-sol çatışmalarının zirveye çıktığı, siyasi cinayetlerin (Günde 20 kişinin ölmesi) ve ekonomik krizin (Karaborsa, tüp/yağ kuyrukları) tavan yaptığı kaos dönemini gerekçe göstererek, <strong>siyasi partileri kapatıp yönetime tamamen el koyan (Genelkurmay Başkanı Kenan Evren liderliğindeki)</strong> son derece sert askeri darbe hangi tarihte yapılmıştır?</p>
+<p>A) 27 Mayıs 1960 &nbsp; B) 12 Mart 1971 &nbsp; C) 12 Eylül 1980 &nbsp; D) 28 Şubat 1997</p>
+<p><strong>Çözüm:</strong> "Şartların olgunlaşması beklendi" sözüyle anılan, yüz binlerce insanın tutuklandığı, idam edildiği, anayasanın rafa kalktığı ve partilerin temelli kapatıldığı büyük ordu müdahalesi 12 Eylül 1980 darbesidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Soğuk Savaş yıllarında, komünist Çin (Mao yönetimi) ile kapitalist ABD'nin ilişkilerini düzeltmek ve diplomatik buzları eritmek için 1971 yılında karşılıklı <strong>masa tenisi takımlarının</strong> maç yapmasıyla literatüre giren diplomatik terim nedir?</p>
+<p>A) Shuttle (Mekik) Diplomasisi &nbsp; B) Ping-Pong Diplomasisi &nbsp; C) Yeşil Hat Diplomasisi &nbsp; D) Gunboat (Gambot) Diplomasisi</p>
+<p><strong>Çözüm:</strong> Dünya tarihinde bir spor müsabakasının iki süper gücü masaya oturtmasına "Ping-Pong (Masa Tenisi) Diplomasisi" denir. ABD masa tenisi takımı Çin'e davet edilmiş ve ardından ABD Başkanı Nixon Çin'i ziyaret etmiştir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>1974 Kıbrıs Barış Harekatı'nda Türkiye uluslararası hukukun hangi ilkesini (veya antlaşmasını) temel dayanak (meşruiyet) olarak kullanarak adaya müdahale etmiş ve işgalci suçlamalarından (kısmen) hukuken sıyrılmıştır?</p>
+<p>A) 1923 Lozan Antlaşması'ndaki (Hatay maddesini) &nbsp; B) BM (Birleşmiş Milletler) Kararlarını &nbsp; C) 1960 Zürih ve Londra Antlaşmalarıyla Türkiye, İngiltere ve Yunanistan'a verilen <strong>"Garantörlük (Bozulan düzeni yeniden kurma/müdahale etme)"</strong> hakkını &nbsp; D) NATO'nun 5. Maddesini</p>
+<p><strong>Çözüm:</strong> 1960 Antlaşmasına göre "Kıbrıs Cumhuriyetinin (Türk-Rum ortak devleti) anayasal düzeni bozulursa 3 garantör devlet (Türkiye, Yunanistan, İngiltere) tek başına (veya birlikte) müdahale hakkına sahiptir." Nikos Sampson darbe yapıp anayasayı yıkınca Türkiye İngiltere'ye "Birlikte girelim" dedi. İngiltere reddedince Türkiye bu maddeye (Garantörlüğe) dayanarak tek başına girdi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>1964 Erenköy Direnişi (Kıbrıs), Türk jetlerinin Rum çetelerini (EOKA) havadan vurarak karadaki mücahitlere (Türklere) destek verdiği bir savunmadır. <br>Bu harekat sırasında uçağı düşürülen, Rumlar tarafından esir alınarak ağır işkencelerle (hastanede) <strong>şehit edilen (ve Cumhuriyet tarihinin ilk hava harp şehidi olan)</strong> kahraman pilotumuz kimdir?</p>
+<p>A) Vecihi Hürkuş &nbsp; B) Sabiha Gökçen &nbsp; C) Cengiz Topel &nbsp; D) Fethi Bey</p>
+<p><strong>Çözüm:</strong> Yüzbaşı Cengiz Topel'in uçağı vurulunca paraşütle atlamış ancak Rum köyüne düşmüştür. Rumlar, BM askerlerinin (ve gazetecilerin) uyarılarına rağmen Topel'i günlerce akıl almaz işkencelerle (gözlerini oyarak vb.) şehit etmişlerdir. Naaşı Türkiye'ye zorla getirilmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>1964 yılındaki <strong>Johnson Mektubu'nun</strong> Türk dış politikasında yarattığı <strong>EN BÜYÜK kalıcı sonuç (paradigma kayması)</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkiye'nin NATO'dan tamamen çıkması (ve BM'den atılması) &nbsp; B) Türkiye'nin SSCB'ye (Rusya'ya) savaş ilan etmesi &nbsp; C) Türkiye'nin sadece ABD'ye güvenilemeyeceğini anlayıp, dış politikada <strong>Sovyetler Birliği (SSCB) ve Üçüncü Dünya (Arap/Afrika) ülkeleriyle de diplomatik ve ekonomik ilişkiler (Çok Yönlü Dış Politika) geliştirmeye başlaması</strong> &nbsp; D) Kıbrıs'ın tamamen Rumlara bırakılması</p>
+<p><strong>Çözüm:</strong> İnönü bu mektubu alınca meşhur "Yeni bir dünya kurulur, Türkiye de orada yerini alır" sözünü söylemiştir. Türkiye NATO üyesi olarak kalmaya devam etti evet, ama eskisi gibi körü körüne Amerikan uydusu olmaktan vazgeçip SSCB ile dev sanayi (İskenderun Demir Çelik vb.) yatırımlarına ve Araplarla iyi geçinmeye başlamıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>Yumuşama döneminde nükleer silahlanma yarışını (Balistik füzeleri) durdurmak amacıyla SSCB (Brezhnev) ve ABD (Nixon) arasında 1972 yılında imzalanan devasa <strong>Silah Sınırlandırma Antlaşmasının</strong> uluslararası kodu/adı nedir?</p>
+<p>A) SALT-I (Strategic Arms Limitation Talks) &nbsp; B) CENTO &nbsp; C) START &nbsp; D) Cenevre Sözleşmesi</p>
+<p><strong>Çözüm:</strong> Nükleer füze sayısını donduran ve sınırlandıran tarihi anlaşma SALT-I'dir. (SALT-II de imzalanmış ancak SSCB Afganistan'ı işgal edince ABD kongresi antlaşmayı onaylamayı reddetmiştir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Türkiye'de 12 Mart 1971'de Türk Silahlı Kuvvetleri, TRT radyolarından okuttuğu bir <strong>Muhtıra (Bildiri)</strong> ile Süleyman Demirel hükümetini (Adalet Partisini) istifaya zorlamış ve yerine "Partiler üstü (Teknokrat)" bir hükümet kurdurmuştur. <br>1971 Muhtırası sonrasında ordunun gölgesinde kurulan <strong>bu "Ara Rejim (Teknokratlar)" hükümetinin Başbakanı</strong> kim olmuştur?</p>
+<p>A) Bülent Ecevit &nbsp; B) Nihat Erim &nbsp; C) Turgut Özal &nbsp; D) Alparslan Türkeş</p>
+<p><strong>Çözüm:</strong> Ordu "Anarşiyi durduramazsanız yönetime doğrudan el koyarız" diyerek Demirel'i indirmiş ve CHP'den istifa ettirdikleri Prof. Dr. Nihat Erim'i "Partiler Üstü" başbakan (ve Balyoz harekatlarının icracısı) yapmıştır. (Bu durum Türk siyasetine 1971 Muhtırası/Ara Rejimi olarak geçmiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>1974 Kıbrıs Barış Harekatının ardından ABD (ve BM) tarafından uygulanan ambargolara, siyasi cinayetlere ve içerideki sağ-sol (öğrenci/işçi) çatışmalarına; <strong>1973 yılındaki HANGİ KÜRESEL EKONOMİK KRİZ</strong> eklenince Türkiye'deki o meşhur "Tüp, benzin, yağ kuyrukları ve karaborsa" dönemi patlak vermiştir?</p>
+<p>A) 1929 Büyük Buhran &nbsp; B) 1973 Dünya Petrol Krizi (Arap-İsrail Savaşı sonrası OPEC ambargosu) &nbsp; C) 2008 Mortgage Krizi &nbsp; D) 1994 Asya Krizi</p>
+<p><strong>Çözüm:</strong> Arap devletleri, İsrail'e destek veren Batı dünyasına petrolü kesince petrol fiyatları bir anda %400 arttı. Petrol (Enerji) ithal eden Türkiye ekonomisi (zaten ambargo altındayken) tamamen çöktü. Benzin, mazot ve tüp bulunamaz hale geldi (Karaborsa ve kuyruklar başladı). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>Anayasa Mahkemesi, Devlet Planlama Teşkilatı (DPT), TÜBİTAK ve TRT gibi (devletin modern kurumlarının) kurulmasına <strong>yasal zemin hazırlayan (ve ilk kez bu kurumlara yer veren)</strong> Anayasa aşağıdakilerden hangisidir?</p>
+<p>A) 1921 Teşkilat-ı Esasiye &nbsp; B) 1924 Anayasası &nbsp; C) 1961 Anayasası &nbsp; D) 1982 Anayasası</p>
+<p><strong>Çözüm:</strong> 1960 darbesi sonrası profesörlerin ve meclisin hazırladığı 1961 Anayasası, Türkiye'nin bugünkü kurumlarının (TRT, Anayasa Mahkemesi, Üniversite Özerkliği, Sendika hakkı, DPT) tamamını hayata geçiren Türkiye'nin en özgürlükçü (ve kurumcu) anayasasıdır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Kıbrıs Barış Harekatı'nın (1974) icra edildiği sırada, Türkiye'deki koalisyon hükümetinin iki lideri (Başbakan ve Başbakan Yardımcısı) kimlerdi?</p>
+<p>A) Süleyman Demirel (AP) - Alparslan Türkeş (MHP) &nbsp; B) İsmet İnönü (CHP) - Celal Bayar (DP) &nbsp; C) Bülent Ecevit (CHP) - Necmettin Erbakan (MSP) &nbsp; D) Turgut Özal (ANAP) - Erdal İnönü (SHP)</p>
+<p><strong>Çözüm:</strong> Kıbrıs (1974) dendiğinde efsanevi CHP-MSP (Milli Selamet Partisi) koalisyonu akla gelir. Soldan "Karaoğlan" Ecevit Başbakan, sağdan (İslamcı Milli Görüş lideri) Erbakan ise Başbakan yardımcısıydı. İki zıt ideoloji, Kıbrıs meselesinde mükemmel bir milli duruş sergileyip harekatı başarmıştır. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>Kıbrıs'ta 1983 yılında bağımsızlığını ilan eden <strong>Kuzey Kıbrıs Türk Cumhuriyeti'nin (KKTC) ilk kurucu Cumhurbaşkanı</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Dr. Fazıl Küçük &nbsp; B) Rauf Denktaş &nbsp; C) Derviş Eroğlu &nbsp; D) Cengiz Topel</p>
+<p><strong>Çözüm:</strong> Fazıl Küçük de TMT lideridir ancak KKTC bağımsızlığını kazandığında (1983) yeni devletin ilk Cumhurbaşkanı efsanevi lider <strong>Rauf Denktaş</strong> olmuştur (Ve uzun yıllar bu görevi yürütmüştür). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>1975 Yılında 35 Avrupa ülkesi, ABD ve Kanada'nın katılımıyla imzalanan, Avrupa'da sınırların güç kullanılarak değiştirilemeyeceğini, devletlerin egemenliklerine saygı duyulacağını ve temel insan haklarını güvence altına alarak <strong>Yumuşama Döneminin (ve AGİT'in) en büyük manifestosu/belgesi</strong> olan siyasi belge hangisidir?</p>
+<p>A) Helsinki Nihai Senedi &nbsp; B) Maastricht Antlaşması &nbsp; C) Paris Şartı &nbsp; D) Kyoto Protokolü</p>
+<p><strong>Çözüm:</strong> Batı ve Doğu bloğu (Rusya ve Avrupa) Helsinki'de buluşmuş ve "Sınırları tanıyoruz, birbirimize silah çekmeyeceğiz ve insan haklarına uyacağız" diyerek Helsinki Nihai Senedi'ni (AGİT'in temelini) imzalamışlardır. (Soğuk savaşın hukuken yumuşadığı yerdir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>1960 Askeri darbesinden (ve DP'nin kapatılmasından) sonra, 1961'de yapılan ilk seçimlerde meclise 4 parti girmiş ancak hiçbiri tek başına iktidar olamamıştır. <br>Bunun üzerine Cumhurbaşkanı Cemal Gürsel'in isteğiyle <strong>Türkiye Cumhuriyeti tarihinin İLK KOALİSYON (Ortaklık) hükümetini</strong> kuran iki siyasi parti (ve başbakanı) kimdir?</p>
+<p>A) CHP (İsmet İnönü) - AP (Adalet Partisi) / Süleyman Demirel &nbsp; B) CHP (İsmet İnönü) - AP (Adalet Partisi) / Süleyman Demirel (Başbakan İnönü'dür ancak Süleyman Demirel parti lideri değildi, Ragıp Gümüşpala'ydı) <br><em>Not: AP (DP'nin devamı olan parti) ile (Darbeyi destekleyen) CHP'nin kurduğu İnönü koalisyonu kastediliyor.</em> &nbsp; C) AP ile MHP &nbsp; D) CHP ile MSP (Ecevit)</p>
+<p><strong>Çözüm:</strong> İlk koalisyon 1961'de CHP (İsmet İnönü Başbakan) ile DP'nin kapatılmasıyla kurulan AP (Adalet Partisi) arasında kurulmuştur (CHP-AP Koalisyonu). Birbirine kanlı bıçaklı iki zıt görüş mecburen ülkeyi (askerin gölgesinde) yönetmek zorunda kalmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Kıbrıs davasında "ENOSİS" kelimesi sıklıkla kullanılırken, bu hedefe ulaşmak için adayı Türklerden temizlemeye çalışan faşist Rum liderlerin, 1963 Kanlı Noel katliamlarında uygulamaya koydukları <strong>"Kıbrıs Türklerini ani bir baskınla (bir gecede) yok etme/imha etme planının"</strong> adı nedir?</p>
+<p>A) Barbarossa Planı &nbsp; B) Akritas Planı &nbsp; C) Schlieffen Planı &nbsp; D) Megali İdea Planı</p>
+<p><strong>Çözüm:</strong> Rum İçişleri Bakanı Yorgacis'in hazırladığı "Akritas Planı", adadaki Türk direnişini bir gecede kırmak ve Türkleri topluca imha (katletme) ederek BM'yi oldubittiye getirmek üzerine kurulmuş korkunç bir faşist plandır (Kanlı Noel bu planın sonucudur). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>Ermeni terör örgütü ASALA, sadece suikast (diplomat öldürme) yapmakla kalmamış, aynı zamanda 1982 yılında Türkiye Cumhuriyeti sınırları içinde (Ankara'da) <strong>sivillere yönelik büyük bir bombalı katliam</strong> gerçekleştirmiştir. <br>ASALA'nın Türkiye içindeki en büyük (ve kanlı) saldırısı olarak bilinen bu olay aşağıdakilerden hangisidir?</p>
+<p>A) Taksim Olayları &nbsp; B) Esenboğa Havalimanı Saldırısı &nbsp; C) Sivas Olayları &nbsp; D) Çorum Olayları</p>
+<p><strong>Çözüm:</strong> 1982 yılında ASALA teröristleri Ankara Esenboğa Havalimanında bekleme salonunu bombalamış ve makineli tüfekle sivilleri tarayarak (yabancılar dahil) 9 masum insanı katletmiş, 72 kişiyi yaralamıştır. (Teröristlerden Levon Ekmekçiyan yakalanıp idam edilmiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Aşağıdakilerden hangisi <strong>1961 Anayasası</strong> ile <strong>1982 Anayasası</strong> arasındaki (Darbe anayasaları olmalarına rağmen) en temel <strong>HUKUKİ / İDEOLOJİK FARKTIR</strong>?</p>
+<p>A) 1961 anayasası temel hak ve özgürlükleri (sendika, grev, özerklik vb.) genişleten (özgürlükçü) bir anayasa iken; 1982 anayasası devleti bireye karşı koruyan, hakları (sendika, dernek kurma vb.) ciddi şekilde kısıtlayan "Otoriter" bir anayasadır. &nbsp; B) 1982 anayasası meclise çok yetki verirken 1961 anayasası askeriyeye vermiştir. &nbsp; C) İkisi de birebir aynıdır, sadece Türkçe'si güncellenmiştir. &nbsp; D) 1961 anayasası laikliği kaldırmış, 1982 getirmiştir.</p>
+<p><strong>Çözüm:</strong> 1960 darbesi Menderes'in "Meclis çoğunluğu bende, her istediğimi yaparım" diyen çoğunlukçu anlayışına tepki olarak kuvvetler ayrılığını (AYM, Danıştay) ve sınırsız özgürlüğü getirdi (1961). 1980 darbesi ise 70'lerdeki bu aşırı özgürlüğün anarşi/terör yarattığını iddia ederek tam tersine özgürlükleri kısıp devleti (otoriteyi) güçlendiren 1982 anayasasını yaptı. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>12 Eylül 1980 Darbesine giden süreçte, Türkiye'de Alevi-Sünni ve Sağ-Sol fay hatlarını kırarak iç savaş provokasyonu yapmaya çalışan (derin güçlerin) tezgahladığı, onlarca masum insanın katledildiği <strong>"Kahramanmaraş (1978) ve Çorum (1980) Olayları"</strong> dönemin hangi Başbakanının iktidarı sırasında (ve sıkıyönetim ilanına yol açarak) gerçekleşmiştir?</p>
+<p>A) Adnan Menderes &nbsp; B) Bülent Ecevit / Süleyman Demirel (Koalisyon/Milliyetçi Cephe Hükümetleri dönemi gerilimleri) &nbsp; C) Turgut Özal &nbsp; D) Necmettin Erbakan</p>
+<p><strong>Çözüm:</strong> 1978 Maraş Katliamı Ecevit iktidarında, 1980 Çorum Olayları ise Demirel iktidarında (Milliyetçi Cephe) çıkmıştır. Bu katliamlar 12 Eylül darbesine zemin hazırlamak için "Ülkede anarşi var, ordu mecburen gelsin" algısını yaratmak (şartları olgunlaştırmak) için karanlık ellerce tezgahlanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Soğuk Savaş Döneminin Ortadoğu'daki yansıması olan "Arap-İsrail (Mısır-Suriye vs. İsrail) Savaşları" 1978 yılında hangi ABD Başkanının (Jimmy Carter) arabuluculuğunda imzalanan <strong>hangi tarihi barış antlaşması</strong> ile (Mısır açısından) sona ermiş ve Mısır, İsrail'i tanıyan ilk Arap devleti olmuştur?</p>
+<p>A) Camp David Antlaşmaları &nbsp; B) Oslo Görüşmeleri &nbsp; C) Sykes-Picot Antlaşması &nbsp; D) Dayton Antlaşması</p>
+<p><strong>Çözüm:</strong> 1978'de Mısır Lideri Enver Sedat ve İsrail Başbakanı Menahem Begin, ABD'nin Camp David tesislerinde (Jimmy Carter gözetiminde) barış antlaşması imzalamıştır. Mısır İsrail'i tanımış, İsrail de Sina yarımadasını Mısır'a geri vermiştir. (Araplar Enver Sedat'ı vatan haini ilan edip suikastla öldürmüşlerdir). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Kıbrıs Barış Harekatı (1974) sırasında ve sonrasında, Türkiye uluslararası alanda dışlanıp ambargo yediğinde (ve BM Genel Kurulunda kimse bize oy vermediğinde) ABD baskısına rağmen <strong>Türkiye'nin yanında duran ve "Savaş uçaklarının parçalarını veya petrol" verebileceğini söyleyen</strong> Ortadoğu (Arap İslam) devleti (veya lideri) kimdir?</p>
+<p>A) Suudi Arabistan &nbsp; B) Libya (Muammer Kaddafi) &nbsp; C) Mısır (Cemal Abdülnasır) &nbsp; D) Suriye (Hafız Esad)</p>
+<p><strong>Çözüm:</strong> 1974'te herkes Türkiye'ye düşmanken, Libya Lideri Muammer Kaddafi (ABD'ye rağmen) Türk uçaklarının yakıt/yedek parça ihtiyacını karşılamak için Libya'nın depolarını Türkiye'ye açmıştır. Bu olay Ecevit ve Türk milleti tarafından uzun yıllar minnetle hatırlanmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>Türk siyaset tarihinde <strong>"Milliyetçi Cephe (MC) Hükümetleri"</strong> olarak bilinen (I. MC ve II. MC), 1970'li yıllarda sağ oyları Ecevit'in (CHP'nin) yükselişine karşı birleştirmek için kurulan koalisyonların <strong>ana omurgasını</strong> oluşturan partiler kimlerdir?</p>
+<p>A) CHP - MSP - MHP &nbsp; B) Sadece AP (Adalet Partisi) &nbsp; C) AP (Adalet Partisi), MSP (Milli Selamet Partisi), MHP (Milliyetçi Hareket Partisi) ve CGP &nbsp; D) DP - CHP koalisyonu</p>
+<p><strong>Çözüm:</strong> 70'lerde Karaoğlan lakaplı Ecevit rüzgarı esince (sol yükselince), sağ partiler "Sol/Komünizm tehlikesine karşı birleşelim" diyerek Milliyetçi Cephe (Süleyman Demirel (AP) + Necmettin Erbakan (MSP) + Alparslan Türkeş (MHP)) hükümetlerini kurmuş ve ülkeyi yönetmişlerdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Kıbrıs meselesinin başlangıcı olan ve İngiltere'nin (Kıbrıs sömürgesinden çekilme planları yaparken) Türkiye'ye "Kıbrıs'ta sizin de haklarınız var, gelin masaya oturalım" diyerek <strong>Türkiye'yi HUKUKEN (Uluslararası bir konferansla) ilk kez taraf olarak masaya davet ettiği (1955) konferansın</strong> adı nedir?</p>
+<p>A) Londra (Zürih) Konferansı (1960) &nbsp; B) Londra Konferansı (1955) - (Türkiye, Yunanistan, İngiltere arasında yapılan ve 6-7 Eylül Olayları sırasında süren konferans) &nbsp; C) Cenevre Konferansı &nbsp; D) Lozan Konferansı</p>
+<p><strong>Çözüm:</strong> İngiltere 1955'te Kıbrıs işini çözmek için Londra Konferansını topladı. Türkiye o döneme kadar (1950'ye kadar) "Bizim Kıbrıs diye bir meselemiz yok, ada İngilizlerindir" diyordu (Lozan'a sadık kalarak). Ancak İngiltere bizi resmen (Yunanistan'a karşı denge olsun diye) masaya çağırınca Türkiye Kıbrıs davasına (Garantörlüğe giden sürece) resmen müdahil oldu. (Konferans sürerken Menderes döneminde 6-7 Eylül olayları, yani İstanbul'daki Rumların mallarının yağmalanması olayı patlak vermiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: Nükleer krizden (Küba/Jüpiter) "Yumuşama"ya geçtik ama biz Kıbrıs için yanmaya başladık. EOKA terörü, Kanlı Noel ve Cengiz Topel'in şehit edilmesi bardağı taşırdı. ABD, "Johnson Mektubu" ile bizi tehdit edince çok yönlü dış politikaya yöneldik. 1974'te Ecevit ve Erbakan (Ayşe tatile çıksın) adaya çıkınca ABD Ambargosunu yedik. Ambargo sayesinde ASELSAN'ı kurduk. İçeride ise 1960 (61 Anayasası) özgürlüğünden, 1971 muhtırasına (Erim hükümeti) ve tüp kuyruklarıyla dolu 1980 darbesine giden yolu gördük. Kıbrıs Barış Harekatının yasal (hukuki) dayanağının garantörlük olduğunu ASLA unutma!</em></p>
+`,
   },
   {
     id: 75,
     category: 'Tarih',
     categoryId: 'tarih',
-    title: '1950 Sonrası Türk Siyasi Tarihi (darbeler, önemli dönemeçler)',
-    built: false,
-    html: '',
+    title: 'Küreselleşen Dünya ve Türkiye (1980 Sonrası Siyasi Tarih)',
+    built: true,
+    html: `
+<h3>(SSCB'nin Dağılması, TİKA, Özal Dönemi, Bosna Savaşı, 28 Şubat)</h3>
+<hr />
+
+<h2>1. Konuya Giriş</h2>
+<p>Tarih yolculuğumuzun büyük finaline, günümüz (modern) dünyasına geldik. 1990'lara girerken Berlin Duvarı yıkıldı ve o devasa "Demir Perde (SSCB)" çökerek haritadan silindi. Soğuk Savaş bitmiş, artık ABD önderliğinde "Küreselleşen" tek kutuplu bir dünya başlamıştı.<br>
+SSCB'nin dağılması bizim için tarihi bir andı; çünkü Orta Asya'da yıllardır esaret altında olan kardeşlerimiz (Azerbaycan, Kazakistan vb.) birer birer bağımsızlığını ilan etti. Türkiye onlara ağabeylik yapmak için kollarını sıvadı (TİKA, TÜRKSOY kuruldu).<br>
+ÖSYM bu final ünitesinde sana Bosna Savaşını (Aliya İzzetbegoviç'i), Avrupa Birliği'nin doğuşunu, Turgut Özal döneminin serbest piyasa (KDV/Dışa açılma) hamlelerini ve meşhur 28 Şubat post-modern darbesini sorar. Şimdi günümüz dünyasının kodlarını çözeceğiz.</p>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 Neden Önemli — Kısaca</span><p>Bu ünite, hem uluslararası güncel olayların (AB'nin, Ortadoğu'nun) temelini atar hem de TİKA/TÜRKSOY gibi yakın zamanda kurulan teşkilatları (ki ÖSYM bunları çok sever) Atatürk veya Osmanlı dönemiymiş gibi sorarak öğrencileri avlar.</p></div>
+
+<hr />
+<h2>2. Büyük Resim</h2>
+<p>1991'de SSCB dağılınca, komünizm yenildi ve "Küreselleşme (İnternet, serbest piyasa, ortak pazar)" dönemi başladı. Avrupa, ekonomik ortaklığını siyasi birliğe çevirerek (Maastricht Antlaşmasıyla) <strong>Avrupa Birliği (AB)</strong> oldu. Türkiye de tam üye olamasa da 1996'da Gümrük Birliği'ne girdi.<br>
+Fakat yeni dünya düzeni barış getirmedi. Yugoslavya dağılınca Sırplar, Bosna'da Avrupa'nın göbeğinde Müslüman (Boşnak) katliamına (Srebrenitsa) girişti. Ortadoğu'da ise Irak'ın Kuveyt'i işgaliyle (1990) <strong>1. Körfez Savaşı</strong> patlak verdi.<br>
+İçeride Türkiye, 1980 askeri darbesinin karanlığından 1983'te <strong>Turgut Özal (ANAP)</strong> iktidarıyla çıktı. Özal Türkiye'yi dünyaya bağladı (İhracat/Telekomünikasyon/Otoyol). Ancak 1990'lar tekrar koalisyonlara, ekonomik krizlere ve 1997'de ordunun siyasete müdahalesi olan <strong>28 Şubat Post-modern Darbesine</strong> sahne oldu.</p>
+<div class="kutu kutu-mutlaka"><span class="kutu-baslik">📌 İlklerin Yurdu: Azerbaycan</span><p>SSCB'den ayrılarak bağımsızlığını (Ebulfez Elçibey önderliğinde) ilan eden İLK Türk cumhuriyeti Azerbaycan'dır. Türkiye de bu yeni devletleri dünyada TANIYAN ilk ülke olmuştur.</p></div>
+
+<hr />
+<h2>3. Sıfırdan Tam Konu Anlatımı</h3>
+
+<h3>3.1. Soğuk Savaşın Bitişi: SSCB'nin Dağılması</h3>
+<p>1980'lerde SSCB ekonomisi çöktü. Lider Gorbaçov "Glasnost (Açıklık)" ve "Perestroyka (Yeniden Yapılanma)" adıyla reformlar denese de başarısız oldu.<br>
+1989'da iki Almanya'yı ayıran utanç duvarı (Berlin Duvarı) yıkıldı. 1991'de ise SSCB resmen parçalandı ve yerine 15 yeni bağımsız devlet kuruldu. (Böylece iki kutuplu dünya bitti, ABD tek süper güç kaldı).</p>
+
+<h3>3.2. Bağımsız Türk Cumhuriyetleri ve Kurumlarımız</h3>
+<p>SSCB'nin çöküşüyle Kafkaslar ve Orta Asya'da 5 Türk Cumhuriyeti (Azerbaycan, Kazakistan, Kırgızistan, Özbekistan, Türkmenistan) bağımsız oldu.<br>
+Türkiye bu devletleri anında tanıdı ve Rusya'nın bıraktığı boşluğu (kültürel/ekonomik olarak) doldurmak için 2 dev kurum açtı:<br>
+- <strong>TİKA (1992):</strong> Türk İşbirliği ve Koordinasyon Ajansı. Bu ülkelere (ve Afrika/Balkanlara) yol, hastane, tarım projesi ve ekonomik/teknik kalkınma yardımı yapan kurumdur.<br>
+- <strong>TÜRKSOY (1993):</strong> Türk Kültür ve Sanatları Ortak Yönetimi (Merkezi Ankara). Sadece dil, kültür, edebiyat ve sanat işleriyle ilgilenir (Türk dünyasının UNESCO'su gibidir).</p>
+
+<h3>3.3. Avrupa Birliği'nin Doğuşu (Maastricht) ve Türkiye</h3>
+<p>Eskiden adı Avrupa Ekonomik Topluluğu (AET / Ortak Pazar) olan yapı, 1992'de Hollanda'da imzalanan <strong>Maastricht Antlaşması</strong> ile resmen siyasi bir birliğe, yani <strong>Avrupa Birliği'ne (AB)</strong> dönüştü. (Kendi anayasası, meclisi, ortak parası (Euro) olan bir dev yapı).<br>
+Türkiye 1959'dan beri bu kapıdadır. Tam üye olamamış ancak 1996'da Tansu Çiller (Başbakan) döneminde <strong>Gümrük Birliği'ne</strong> kabul edilerek Avrupa ile gümrüksüz (serbest) ticaret yapmaya başlamıştır.</p>
+
+<h3>3.4. Bosna Savaşı, Srebrenitsa ve "Bilge Kral"</h3>
+<p>1990'larda Yugoslavya parçalanınca (Hırvatlar/Slovenler kopunca), Bosna Hersek de bağımsızlık istedi. Ancak aşırı milliyetçi Sırplar (Slobodan Miloseviç liderliğinde) bunu engellemek için Bosna'ya saldırdı.<br>
+Avrupa'nın göbeğinde, BM'nin (Güvenli Bölge) gözü önünde Sırplar 1995'te <strong>Srebrenitsa Katliamını (Soykırımını)</strong> yaparak binlerce sivil Boşnak'ı kurşuna dizdi.<br>
+Bosna'nın efsanevi lideri <strong>"Bilge Kral" Aliya İzzetbegoviç</strong> önderliğindeki halk direnişi ve NATO'nun Sırpları vurması sonucu savaş bitti. Savaşı 1995 <strong>Dayton Antlaşması</strong> resmen sonlandırmıştır.</p>
+
+<h3>3.5. 1. Körfez Savaşı (1990) ve Çekiç Güç</h3>
+<p>Irak diktatörü Saddam Hüseyin, 1990'da petrol zengini minik komşusu Kuveyt'i işgal edince, ABD öncülüğündeki BM güçleri (Çöl Fırtınası harekatıyla) Irak'ı vurdu.<br>
+Dönemin Cumhurbaşkanı <strong>Turgut Özal</strong> "Bir koyup üç alacağız" diyerek ABD'yi destekledi, İncirlik üssünü açtı. Saddam yenildi ancak Irak'ın kuzeyinden kaçan yüz binlerce mülteci (ve PKK terörü) Türkiye sınırına yığıldı. Türkiye sınırını korumak için (bölgeye) ABD liderliğindeki <strong>Çekiç Güç</strong> (Huzur operasyonu) birliklerini konuşlandırdı.</p>
+
+<h3>3.6. İç Siyaset: Turgut Özal Dönemi (1983-1989)</h3>
+<p>12 Eylül 1980 askeri darbesinden (Kenan Evren) sonra, 1983 seçimlerini <strong>Turgut Özal (ANAP - Anavatan Partisi)</strong> kazandı. Özal, Türkiye'yi içine kapalı (ithal ikameci) devletçi ekonomiden çıkarıp, dışa açık (ihracata dayalı), serbest piyasa ekonomisine (<strong>24 Ocak Kararları</strong>) geçirdi.<br>
+- KDV (Katma Değer Vergisi) hayatımıza girdi.<br>
+- Otoyollar (FSM Köprüsü), telekomünikasyon (PTT/Telefon ağı) devrimi yapıldı.<br>
+- "Sivil (bürokrasiden uzak)" yönetim anlayışı ve özelleştirmeler başladı.</p>
+
+<h3>3.7. 1990'lı Yıllar: 28 Şubat (Post-Modern Darbe) ve Krizler</h3>
+<p>Turgut Özal'ın 1993'te şüpheli ölümü sonrası, 90'lı yıllar tamamen "Koalisyonlar (Hükümet krizleri), faili meçhul cinayetler (Uğur Mumcu vb.) ve PKK terörünün zirvesi" oldu. (1994 ve 2001'de devasa ekonomik krizler yaşandı).<br>
+<strong>28 Şubat Süreci (1997):</strong> Necmettin Erbakan (RP) ve Tansu Çiller (DYP) koalisyonuna karşı ordu (ve medya), "İrtica (Laiklik karşıtlığı) tehlikesi var" diyerek tankları Sincan'da yürüttü. Milli Güvenlik Kurulunda (MGK) alınan çok sert 28 Şubat kararlarıyla Erbakan hükümeti istifaya ZORLANDI. Asker meclisi kapatmadığı (sokağa bizzat inip silah sıkmadığı), sadece bildirilerle (korkutarak) hükümeti devirdiği için buna <strong>"Post-modern (Yarı/Modern) Darbe"</strong> denir.</p>
+
+<hr />
+<h2>4. Sebep-Sonuç Analizi</h2>
+<ul>
+<li><strong>Irak'ın Kuveyt'i İşgali (Sebep) $\rightarrow$ 1. Körfez Savaşı ve Çekiç Güç (Sonuç):</strong> Saddam'ın işgali ABD müdahalesine yol açmış, ortaya çıkan kaos Türkiye'nin sınır güvenliğini tehdit edince Çekiç Güç kurulmuştur.</li>
+<li><strong>1994 ve 2001 Krizleri (Sebep) $\rightarrow$ Koalisyonların Çöküşü (Sonuç):</strong> Siyasi istikrarsızlık ve bankaların batmasıyla halk koalisyonlara güvenini yitirmiş, 2002'de AK Parti tek başına iktidar olmuştur.</li>
+</ul>
+
+<hr />
+<h2>5. Kronolojik Akış ve Kavramlar</h2>
+<table>
+<thead>
+<tr>
+<th>Tarih</th>
+<th>Olay / Kavram</th>
+<th>Özeti / Amacı</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1983-1989</strong></td>
+<td>Turgut Özal Dönemi</td>
+<td>Serbest piyasa, ihracat devrimi ve dışa açılma yılları.</td>
+</tr>
+<tr>
+<td><strong>1991</strong></td>
+<td>SSCB'nin Dağılması</td>
+<td>Soğuk Savaşın bitişi, Türk devletlerinin bağımsızlığı.</td>
+</tr>
+<tr>
+<td><strong>1992</strong></td>
+<td>Maastricht Antlaşması</td>
+<td>AET'nin (Avrupa Ortak Pazarının), siyasi "Avrupa Birliği (AB)" olması.</td>
+</tr>
+<tr>
+<td><strong>1992/1993</strong></td>
+<td>TİKA ve TÜRKSOY</td>
+<td>Türkiye'nin Orta Asya'da ağabeylik (kalkınma/kültür) kurumu açması.</td>
+</tr>
+<tr>
+<td><strong>1995</strong></td>
+<td>Dayton Antlaşması</td>
+<td>Bosna Savaşını ve Srebrenitsa soykırımını bitiren antlaşma.</td>
+</tr>
+<tr>
+<td><strong>1996</strong></td>
+<td>Gümrük Birliği</td>
+<td>Türkiye'nin AB ile (Tansu Çiller dönemi) serbest ticarete geçmesi.</td>
+</tr>
+<tr>
+<td><strong>1997</strong></td>
+<td>28 Şubat Süreci</td>
+<td>Post-modern darbe, Erbakan/Çiller (REFAHYOL) hükümetinin düşürülmesi.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>6. Karşılaştırmalar</h2>
+<h3>TİKA vs. TÜRKSOY</h3>
+<table>
+<thead>
+<tr>
+<th>Özellik</th>
+<th>TİKA (1992)</th>
+<th>TÜRKSOY (1993)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Açılımı</strong></td>
+<td>Türk İşbirliği ve Koordinasyon Ajansı</td>
+<td>Uluslararası Türk Kültür Teşkilatı</td>
+</tr>
+<tr>
+<td><strong>Amacı (Alanı)</strong></td>
+<td>Okul/Hastane yapar, tarım aleti verir, kredi sağlar <strong>(EKONOMİK / TEKNİK Kalkınma)</strong>.</td>
+<td>Sadece resim, müzik, dil, festival ve kurultay yapar <strong>(Sadece KÜLTÜR/SANAT)</strong>.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+<h2>7. Çok Sorulan Bilgiler</h2>
+<ul>
+<li><strong>24 Ocak Kararları (1980):</strong> İthal ikameci (içe kapalı) ekonomiden, İhracata (dışa) dayalı serbest piyasa ekonomisine geçiş kararlarıdır. (Özal döneminin ekonomik anayasasıdır).</li>
+<li><strong>Marmara Depremi (1999):</strong> 17 Ağustos 1999'da Gölcük merkezli yaşanan 7.4 şiddetindeki deprem, binlerce can almış ve 90'lı yılların sonunda Türk ekonomisine son bitirici darbeyi vurmuştur.</li>
+<li><strong>11 Eylül (2001) Saldırıları:</strong> El Kaide'nin ABD'deki İkiz Kulelere uçaklarla saldırması. Bu olaydan sonra ABD "Terörle Savaş" doktrinini başlatıp (Önleyici vuruş adıyla) önce <strong>Afganistan'ı (2001)</strong>, sonra <strong>Irak'ı (2003 - 2. Körfez Savaşı)</strong> işgal etmiştir.</li>
+</ul>
+<div class="kutu kutu-cok-sorulur"><span class="kutu-baslik">🟩 "Bilge Kral" Kimdir?</span><p>ÖSYM lakap sormayı sever. Bosna savaşında vatanını Sırp faşizminden kurtaran, İslam felsefesi uzmanı (yazar) ve Bosna-Hersek'in ilk cumhurbaşkanı <strong>Aliya İzzetbegoviç'tir</strong>. (Sınavda doğrudan ismini sorarlar).</p></div>
+
+<hr />
+<h2>8. ÖSYM Tuzakları</h2>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 1</span><p><strong>"TİKA Atatürk (veya Celal Bayar) döneminde kuruldu" Tuzağı.</strong> Asla! TİKA (1992) ve TÜRKSOY (1993), Türkiye'nin yeni kurulan Türk devletlerine yardım etmek için kurduğu teşkilatlardır. Yeni devletler 1991'de SSCB yıkılınca doğduğuna göre, bu kurumlar da mecburen 1992-93'te (Yani günümüze çok yakın tarihte) kurulmuştur.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 2</span><p><strong>"Türkiye Avrupa Birliği'ne (AB'ye) üyedir" Tuzağı.</strong> Kesinlikle HAYIR! Türkiye tam üye değildir, sadece Avrupa ile aramızdaki gümrük vergilerini kaldıran (Ticari) <strong>"Gümrük Birliği'ne (1996)"</strong> üyedir. Siyasi birlikte (Avrupa Parlamentosunda vs.) yokuz.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 3</span><p><strong>"28 Şubat bir Askeri Darbedir" Tuzağı.</strong> Asker fiilen meclisi feshedip siyasetçileri hapse atmadığı (Sadece MGK kararlarıyla hükümeti istifaya zorladığı) için literatürde buna Klasik Darbe denmez; <strong>"Post-Modern (Yarı) Darbe"</strong> denir.</p></div>
+<div class="kutu kutu-tuzak"><span class="kutu-baslik">⚠️ Tuzak 4</span><p><strong>"Bosna Savaşını BM bitirdi" Tuzağı.</strong> Hayır, BM sadece Güvenli Bölge (Srebrenitsa) ilan etmiş ama Hollandalı BM komutanı şehri Sırplara teslim ederek katliama (soykırıma) göz yummuştur. Savaşı bitiren olay <strong>Dayton Antlaşması'dır</strong> (ABD'nin ve NATO'nun baskısıyla).</p></div>
+
+<hr />
+<h2>9. Hafıza Teknikleri</h2>
+<div class="kutu kutu-ezber"><span class="kutu-baslik">🟨 Bosna Şifreleri (ÖSYM'nin fiks menüsü)</span><p>• <strong>Lider (Bilge Kral):</strong> Aliya İzzetbegoviç.<br>
+• <strong>Katiller (Sırplar):</strong> Slobodan Miloseviç / Ratko Mladiç (Bosna Kasabı).<br>
+• <strong>Katliamın Yeri (BM Güvenli Bölgesi):</strong> Srebrenitsa (Avrupa'nın göbeğindeki soykırım).<br>
+• <strong>Savaşı Bitiren Belge:</strong> Dayton Antlaşması (1995).</p></div>
+
+<hr />
+<h2>10. Konu Sonu Özeti</h2>
+<blockquote><p>
+• <strong>Soğuk Savaşın Bitişi:</strong> 1989'da Berlin duvarı yıkıldı, 1991'de SSCB çöktü.<br>
+• <strong>Türk Dünyası:</strong> SSCB'den kopan ilk Türk devleti Azerbaycan'dır. Onlara destek için TİKA (Kalkınma) ve TÜRKSOY (Kültür) kuruldu.<br>
+• <strong>AB (Avrupa Birliği):</strong> Maastricht ile kuruldu, biz 1996'da Gümrük Birliğine girdik.<br>
+• <strong>Bosna (Srebrenitsa):</strong> Bilge Kral (İzzetbegoviç) Sırplara direndi, Dayton ile barış geldi.<br>
+• <strong>İç Siyaset (1980-2000):</strong> Özal dönemi (KDV, Serbest Piyasa, 24 Ocak kararları) sonrası 90'larda krizler, koalisyonlar ve 28 Şubat post-modern darbesi (Erbakan'ın düşürülmesi) yaşandı.
+</p></blockquote>
+
+<hr />
+<h2>11. Ultra Hızlı Tekrar</h2>
+<div class="kutu kutu-altin"><span class="kutu-baslik">⭐ Sınav Sabahı 2-3 Dakikalık Tekrar</span><p>
+• <strong>Soğuk Savaşı resmi olarak bitiren olay:</strong> 1991 SSCB'nin dağılması.<br>
+• <strong>Bağımsız olan ilk Türk cumhuriyeti:</strong> Azerbaycan (Lideri: Ebulfez Elçibey).<br>
+• <strong>Türkiye'nin Orta Asya için kurduğu KÜLTÜR (UNESCO) kurumu:</strong> TÜRKSOY.<br>
+• <strong>Türkiye'nin Orta Asya için kurduğu KALKINMA/EKONOMİ kurumu:</strong> TİKA.<br>
+• <strong>Avrupa'yı AET'den, Avrupa Birliği'ne (AB) dönüştüren (Euro'yu getiren) belge:</strong> Maastricht Antlaşması (1992).<br>
+• <strong>Bosna direnişinin Bilge Kralı:</strong> Aliya İzzetbegoviç.<br>
+• <strong>Irak'ın Kuveyt'i işgaliyle patlak veren savaş:</strong> 1. Körfez Savaşı (1990).<br>
+• <strong>Özal döneminin ekonomiyi dışa açan liberal hamlesi:</strong> 24 Ocak Kararları.<br>
+• <strong>Sincan'da tankların yürüdüğü REFAHYOL hükümetine yapılan darbe:</strong> 28 Şubat (Post-modern darbe).<br>
+• <strong>11 Eylül 2001 sonrası ABD'nin işgal ettiği İLK ülke:</strong> Afganistan (İkincisi 2003 Irak).
+</p></div>
+
+<hr />
+<h2>12. Çözümlü Örnek Sorular (30 Soru)</h2>
+
+<h3>🟢 Kolay Düzey (1-10)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 1.</span>
+<p>20. Yüzyılın son çeyreğinde dünyadaki dengeleri (kutupları) tamamen değiştiren, ABD'nin tek süper güç olarak kalmasını sağlayan (ve Soğuk Savaşı BİTİREN) <strong>1991 yılındaki büyük siyasi/coğrafi olay</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Birleşmiş Milletler'in kurulması &nbsp; B) SSCB'nin (Sovyetler Birliği'nin) parçalanarak yıkılması &nbsp; C) NATO'nun dağılması &nbsp; D) Çin'in komünist olması</p>
+<p><strong>Çözüm:</strong> Soğuk savaş, ABD ile SSCB'nin güç kavgasıydı. 1991'de Gorbaçov'un istifası ve SSCB'nin resmi olarak parçalanması (15 yeni devlete bölünmesi) ile oyun bitti ve Amerika tek süper güç (Yeni Dünya Düzeni) olarak kaldı. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 2.</span>
+<p>SSCB'nin dağılmasıyla birlikte 1991'de bağımsızlıklarını ilan eden Türk Cumhuriyetleri (Kazakistan, Kırgızistan vb.) arasında <strong>BAĞIMSIZLIĞINI İLAN EDEN İLK TÜRK DEVLETİ</strong> aşağıdakilerden hangisidir?</p>
+<p>A) Türkmenistan &nbsp; B) Özbekistan &nbsp; C) Kuzey Kıbrıs Türk Cumhuriyeti (KKTC) &nbsp; D) Azerbaycan</p>
+<p><strong>Çözüm:</strong> (KKTC zaten 1983'te kurulmuştu, SSCB ile ilgisi yoktur). SSCB yıkılırken esaretten kurtulup (Ebulfez Elçibey ve Haydar Aliyev önderliğinde) bağımsızlığını ilan eden ilk devlet Can Azerbaycan'dır (Ve Türkiye anında tanımıştır). <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 3.</span>
+<p>1990'lı yıllarda Yugoslavya'nın dağılma sürecinde <strong>"Bilge Kral"</strong> lakabıyla tanınan ve Sırp katliamlarına karşı halkına (Bosna-Hersek'e) bağımsızlık mücadelesinde liderlik eden devlet adamı kimdir?</p>
+<p>A) Rauf Denktaş &nbsp; B) Slobodan Miloseviç &nbsp; C) Aliya İzzetbegoviç &nbsp; D) Enver Sedat</p>
+<p><strong>Çözüm:</strong> İslam felsefesi yazarı, entelektüel, komutan ve Bosna'nın ilk Cumhurbaşkanı olan Aliya İzzetbegoviç; dünyada ve Türkiye'de "Bilge Kral" unvanıyla tanınır. (Miloseviç ise onu öldürmeye çalışan Sırp diktatördür). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 4.</span>
+<p>Bosna Savaşı sırasında (1995'te) Birleşmiş Milletler (BM) tarafından "Güvenli Bölge" ilan edilmesine rağmen, Hollandalı Barış Gücü komutanlarının Sırp güçlerine (Ratko Mladiç'e) göz yumması sonucu <strong>8 binin üzerinde sivil Boşnak erkeğin kurşuna dizildiği (Avrupa'nın II. Dünya Savaşından sonra gördüğü en büyük SOYKIRIM)</strong> nerede yaşanmıştır?</p>
+<p>A) Srebrenitsa (Srebrenica) &nbsp; B) Saraybosna &nbsp; C) Mostar &nbsp; D) Kosova</p>
+<p><strong>Çözüm:</strong> Silahlarını BM'ye teslim edip kampa sığınan binlerce sivil, BM komutanının (Thom Karremans) Sırp kasabı Ratko Mladiç'e izin vermesiyle otobüslere bindirilip ormanlarda kurşuna dizilmiş ve toplu mezarlara gömülmüştür. Bu bir Srebrenitsa Katliamıdır. <span class="cevap-dogru">Doğru cevap: A.</span></p><div class="soru-blok"><span class="soru-no">Soru 5.</span>
+<p>Soğuk Savaş dönemi boyunca sadece bir "Ekonomik Ortak Pazar (AET)" olan Avrupa ülkeleri, <strong>1992 yılında HANGİ ANTLAŞMA ile</strong> ekonomik sınırları aşıp tek para birimine (Euro) ve siyasi birliğe geçerek resmen <strong>Avrupa Birliği (AB)</strong> adını almıştır?</p>
+<p>A) Lozan Antlaşması &nbsp; B) Maastricht Antlaşması &nbsp; C) Kopenhag Kriterleri &nbsp; D) Helsinki Nihai Senedi</p>
+<p><strong>Çözüm:</strong> AET'yi "Avrupa Birliği" (AB) yapan kurucu antlaşma (Hollanda'nın şehrinde imzalanan) Maastricht Antlaşmasıdır. Kopenhag Kriterleri ise AB'ye girmek isteyenlerin (Türkiye dahil) sağlaması gereken insan hakları/demokrasi "Şartlarıdır" (Antlaşma değildir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 6.</span>
+<p>Türkiye'nin 1996 yılında Avrupa Birliği ile imzaladığı, Avrupa ile Türkiye arasındaki malların gümrük vergisi ödenmeden (serbestçe) dolaşmasına izin veren ekonomik entegrasyon belgesi aşağıdakilerden hangisidir?</p>
+<p>A) Gümrük Birliği Antlaşması &nbsp; B) Serbest Bölge Antlaşması &nbsp; C) Kapütilasyonlar &nbsp; D) Marshall Planı</p>
+<p><strong>Çözüm:</strong> Tansu Çiller hükümeti döneminde atılan bu imzayla Türkiye (tam üye olmasa bile) AB pazarına "Gümrük Birliği" üzerinden entegre olmuştur. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 7.</span>
+<p>Irak lideri Saddam Hüseyin'in 1990 yılında petrol yataklarını ele geçirmek için güneyindeki komşusu olan <strong>Kuveyt'i işgal etmesi</strong>, Ortadoğu'da hangi büyük savaşın (Krizin) patlak vermesine ve ABD'nin bölgeye asker yığmasına neden olmuştur?</p>
+<p>A) İran-Irak Savaşı &nbsp; B) 1. Körfez Savaşı (Çöl Fırtınası) &nbsp; C) Arap-İsrail Savaşı &nbsp; D) Suriye İç Savaşı</p>
+<p><strong>Çözüm:</strong> Saddam Kuveyt'i "Kendi vilayetim" diyerek yutmaya kalkınca, petrolleri (ve Suudi Arabistan'ı) tehdit altında gören ABD (BM şemsiyesiyle) Irak'ı fena vurmuştur (1. Körfez Savaşı / 1990). İran-Irak savaşı ise 1980'lerde olan (başka bir) meseledir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 8.</span>
+<p>Türkiye, SSCB'nin çökmesinin ardından bağımsız olan Türki Cumhuriyetler ve diğer az gelişmiş ülkelerle (Balkanlar, Afrika) <strong>ekonomik, teknik ve sosyal (Kalkınma, okul, hastane, tarım vb.) yardımlaşmayı koordine etmek için 1992 yılında</strong> hangi kurumu (Ajansı) kurmuştur?</p>
+<p>A) TÜBİTAK &nbsp; B) TİKA (Türk İşbirliği ve Koordinasyon Ajansı) &nbsp; C) Kızılay &nbsp; D) TÜRKSOY</p>
+<p><strong>Çözüm:</strong> Eğer soru "Bina yaptı, yol yaptı, para yardımı yaptı, tarım öğretti (ekonomik/teknik yardım)" diyorsa cevap TİKA'dır. Türkiye'nin dünyadaki en büyük "Ağabeylik / Yardım (Yumuşak Güç)" kurumudur. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 9.</span>
+<p>12 Eylül 1980 askeri darbesinin ardından (Kenan Evren yönetiminden sonra), 1983 yılında yapılan seçimleri kazanarak Türkiye'yi dışa (dünya pazarlarına) açan, KDV'yi getiren, telekomünikasyon (telefon) devrimini yapan Anavatan Partisi (ANAP) lideri (Başbakan) kimdir?</p>
+<p>A) Süleyman Demirel &nbsp; B) Bülent Ecevit &nbsp; C) Turgut Özal &nbsp; D) Necmettin Erbakan</p>
+<p><strong>Çözüm:</strong> 1980'lerin efsanevi sivil siyasetçisi (Tonton lakaplı) Turgut Özal'dır. Türkiye'yi devletçi, hantal, kapalı yapıdan çıkarıp; ihracat yapan (Özelleştirme ve serbest piyasayı savunan) liberal bir devlete dönüştürmüştür. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 10.</span>
+<p>Türk siyaset tarihinde <strong>"Post-Modern Darbe"</strong> (Askerin bizzat yönetime el koymadan, Milli Güvenlik Kurulu kararları ve medyanın baskısıyla meşru hükümeti -Erbakan'ı- istifaya zorlaması) olarak adlandırılan müdahale tarihi aşağıdakilerden hangisidir?</p>
+<p>A) 27 Mayıs 1960 &nbsp; B) 12 Mart 1971 &nbsp; C) 12 Eylül 1980 &nbsp; D) 28 Şubat 1997</p>
+<p><strong>Çözüm:</strong> Tanklar (Sincan'da) sadece 1 gün "gövde gösterisi" için yürütüldü. Asker meclisi kapatmadı, onun yerine "İrtica (Laiklik karşıtlığı) tehlikesi var" diyerek 28 Şubat MGK kararlarıyla Refah-Yol (Erbakan/Çiller) hükümetine büyük baskı kurup istifa ettirdi. <span class="cevap-dogru">Doğru cevap: D.</span></p></div>
+
+<h3>🟡 Orta Düzey (11-20)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 11.</span>
+<p>Orta Asya'da bağımsızlığını kazanan Türk Cumhuriyetleri arasında "Dil, Sanat, Edebiyat ve Kültür" birliğini sağlamak (Nevruz kutlamaları, Türk dünyası kültür başkenti seçimi vb. organizasyonları yapmak) amacıyla 1993'te Ankara'da kurulan ve <strong>"Türk Dünyasının UNESCO'su"</strong> olarak bilinen teşkilat hangisidir?</p>
+<p>A) TİKA &nbsp; B) TÜRKSOY (Uluslararası Türk Kültürü Teşkilatı) &nbsp; C) İslam İşbirliği Teşkilatı &nbsp; D) NATO</p>
+<p><strong>Çözüm:</strong> TİKA ekonomi/bina/yardım yapar (Somut). TÜRKSOY ise şiir yarışması, Nevruz, festival, sergi yapar (Kültür/Sanat - Soyut). İkisini asla karıştırma! <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 12.</span>
+<p>Sovyetler Birliği (SSCB) dağılırken, (kendi de birliği oluşturan parçalardan biri olan) Rusya, Sovyetlerin o devasa nükleer ve askeri mirasını tek başına sahiplenmek ve eski Sovyet devletlerini (Kazakistan, Ukrayna vb.) etrafında bir çatı altında tutmaya devam etmek için (1991'de Almatı Zirvesinde) <strong>hangi "Gevşek" teşkilatı</strong> kurdurmuştur?</p>
+<p>A) Varşova Paktı &nbsp; B) Bağımsız Devletler Topluluğu (BDT) &nbsp; C) Avrupa Birliği &nbsp; D) NATO</p>
+<p><strong>Çözüm:</strong> "Benim altımdan koptunuz (bağımsız oldunuz) ama tamamen uzağa (ABD'ye) gitmeyin, bari bir "Topluluk" oluşturalım da abiniz olarak kalayım" mantığıyla kurulan Rus hegemonyası BDT'dir (Bağımsız Devletler Topluluğu). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 13.</span>
+<p>Turgut Özal dönemi ekonomi politikalarının (ANAP dönemi) <strong>temel dayanağı (ve başlangıç manifestosu)</strong> olan, Türkiye'de ithal ikameci (içe kapalı) politikalardan vazgeçilerek <strong>dışa açık, ihracata dayalı, serbest piyasa (liberal) ekonomisine</strong> geçilmesini sağlayan kararlar manzumesi nedir?</p>
+<p>A) 1929 Kara Perşembe Kararları &nbsp; B) 24 Ocak Kararları (1980) &nbsp; C) 4 Ağustos Kararları (1958) &nbsp; D) İzmir İktisat Kongresi (1923)</p>
+<p><strong>Çözüm:</strong> 1980 Askeri darbesinden hemen önce Süleyman Demirel hükümeti döneminde (DPT müsteşarı Turgut Özal tarafından) hazırlanan 24 Ocak Kararları, Türkiye'nin liberalizme (Kapitalizme) entegre olduğu anayasasıdır. (Darbe olunca Özal bu kararları bizzat Başbakan olarak kendisi uygulamıştır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 14.</span>
+<p>1995 Dayton Antlaşması, Bosna Savaşını (Sırp katliamlarını) bitirmiş ve barış getirmiştir. Ancak bu antlaşmanın Bosna-Hersek devletine bıraktığı <strong>çok ağır ve karmaşık (dünyada eşi benzeri olmayan) FATURA (Yönetim şekli)</strong> ne olmuştur?</p>
+<p>A) Bosna'nın tamamen Sırplara verilmesi &nbsp; B) Bosna'nın Türkiye'ye bağlanması &nbsp; C) Ülkenin Bosna-Hersek Federasyonu ve Sırp Cumhuriyeti olarak (kantonlara) bölünmesi ve <strong>Üçlü (Boşnak, Hırvat, Sırp) bir Cumhurbaşkanlığı Konseyi (8 ayda bir değişen karmaşık bir sistemle) yönetilmeye mahkum edilmesi</strong> &nbsp; D) Bosna'nın krallık olması</p>
+<p><strong>Çözüm:</strong> Dayton Antlaşması barış getirmiştir ama Bosna'yı felç etmiştir. "Siz birbiriyle savaşan 3 etnik grupsunuz. Devletin başkanı tek kişi olmayacak, 3 kişi (1 Sırp, 1 Boşnak, 1 Hırvat) olacak ve nöbetleşe devleti yöneteceksiniz" denmiştir. Bu durum ülkede siyasi kararların alınmasını imkansız hale getirmiştir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 15.</span>
+<p>1990 yılındaki 1. Körfez Savaşında, Irak (Saddam) Kuveyt'ten BM gücüyle çıkarılmış ancak Irak ordusu Kuzey Irak'taki Kürtlere saldırmıştır. Bunun üzerine 500 binin üzerinde mülteci Türkiye sınırına yığılmıştır. <br>Türkiye'nin (Turgut Özal'ın) talebiyle, <strong>mültecileri korumak ve Saddam'ın Kuzey'e uçmasını (36. paralelin kuzeyini) yasaklamak için Türkiye (İncirlik) merkezli olarak kurulan ABD/Koalisyon hava birliğine</strong> ne ad verilmiştir?</p>
+<p>A) Varşova Paktı &nbsp; B) Çekiç Güç (Huzur Operasyonu) &nbsp; C) NATO Barış Gücü &nbsp; D) ISAF</p>
+<p><strong>Çözüm:</strong> Çekiç Güç (Poised Hammer), Saddam'ın kafasına inmek üzere İncirlik'te bekleyen hava gücüydü. Bir yandan Kürt mültecileri korudu ama öte yandan (havadan atılan malzemelerle) bölgede PKK'nın palazlanmasına (boşluktan yararlanmasına) da zemin hazırladı diye Türkiye'de çok eleştirildi. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 16.</span>
+<p>Türk Siyasi Tarihinde "Bir Bölen" ve "Karaoğlan" lakaplarıyla bilinen, 1974 Kıbrıs Barış Harekatını Erbakan ile birlikte yapan, 1999'da PKK lideri Abdullah Öcalan'ın yakalanıp Türkiye'ye getirildiği dönemin (DSP) Başbakanı kimdir?</p>
+<p>A) Turgut Özal &nbsp; B) Süleyman Demirel (Baba) &nbsp; C) Bülent Ecevit (Karaoğlan) &nbsp; D) Necmettin Erbakan (Mücahit)</p>
+<p><strong>Çözüm:</strong> CHP'nin (ve sonra DSP'nin) efsane lideri, işçi haklarının savunucusu, şair ve Başbakan Bülent Ecevit'in halk arasındaki lakabı "Karaoğlan"dır. (1999'da ABD/CIA operasyonuyla Öcalan Kenya'da paketlenip Ecevit'in başbakanlığındaki Türkiye'ye teslim edilmiştir). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 17.</span>
+<p>11 Eylül 2001 (9/11) tarihinde, El Kaide terör örgütünün sivil yolcu uçaklarını kaçırarak ABD'nin (New York) simgesi olan İkiz Kulelere ve Pentagon'a intihar saldırısı düzenlemesi, <strong>ABD'nin küresel dış politikasında (Dünya tarihinde) ne tür bir değişikliğe</strong> yol açmıştır?</p>
+<p>A) ABD'nin tamamen kendi içine kapanıp dünyadan elini çekmesine &nbsp; B) ABD'nin <strong>"Terörle Küresel Savaş" ve "Önleyici Vuruş" doktrinini ilan ederek (BM kararı bile beklemeden) Afganistan'ı (2001) ve ardından Irak'ı (2003) işgal etmesine</strong> &nbsp; C) ABD'nin komünist olmasına &nbsp; D) ABD'nin BM'yi feshetmesine</p>
+<p><strong>Çözüm:</strong> 11 Eylül sadece iki binanın yıkılması değildir, bir çağın (İşgaller çağının) başlangıcıdır. ABD "Terör dünyanın neresindeyse gidip onu (bana saldırmadan önce) yuvasında vuracağım" (Önleyici vuruş) diyerek Ortadoğu'yu ateşe atmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 18.</span>
+<p>SSCB'nin çöküşünden sonra ortaya çıkan <strong>Kafkasya (Dağlık Karabağ)</strong> krizi bağlamında, 1992 yılında Hocalı Kasabasına girerek yüzlerce sivil Azerbaycan Türkü'nü vahşice katleden (Hocalı Katliamı / Soykırımını yapan) devlet hangisidir?</p>
+<p>A) Gürcistan &nbsp; B) Rusya &nbsp; C) Ermenistan &nbsp; D) İran</p>
+<p><strong>Çözüm:</strong> Ermenistan, SSCB dağılır dağılmaz Azerbaycan toprağı olan Dağlık Karabağ'ı işgal etti (1992). Bu işgal sırasında "Hocalı" kasabasında hamile kadınlar ve çocuklar dahil yüzlerce sivil Türk acımasızca katledildi (Hocalı Soykırımı). <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 19.</span>
+<p>Avrupa Birliği (AB) üyeliği sürecinde, <strong>"Aday ülkelerin demokrasiyi, hukukun üstünlüğünü, insan haklarını ve azınlık haklarını koruyan kurumlara sahip olması gerekir"</strong> şartını (Siyasi ve Hukuki şartları) belirleyen kriterlerin adı nedir?</p>
+<p>A) Maastricht Kriterleri &nbsp; B) Kopenhag Kriterleri &nbsp; C) Ankara Antlaşması &nbsp; D) Gümrük Birliği</p>
+<p><strong>Çözüm:</strong> Maastricht: AB'yi KURAN antlaşmadır (ve ekonomik kuralları içerir). Ancak Kopenhag Kriterleri: Dışarıdan birisi (Türkiye vb.) AB'ye girmek isterse "İnsan haklarına / Demokrasiye" uymalıdır diyen GİRİŞ ŞARTLARI belgesidir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 20.</span>
+<p>1990'lı yıllarda Türkiye, PKK terörüyle mücadele ederken en büyük sorunu komşu devletlerden (Suriyeden) yaşıyordu. 1998'de Türkiye, sınırına devasa bir ordu yığarak <strong>"Öcalan'ı ya topraklarından atarsın (teslim edersin) ya da doğrudan orduyla girer savaşırım"</strong> diyerek hangi devleti tehdit etmiş ve (Adana Mutabakatı ile) sonuç almıştır?</p>
+<p>A) Yunanistan &nbsp; B) Irak &nbsp; C) Suriye (Hafız Esad) &nbsp; D) İran</p>
+<p><strong>Çözüm:</strong> Yıllarca PKK liderini (Şam'da) barındıran Suriye'ye karşı Kara Kuvvetleri Komutanı Atilla Ateş sınırda "Sabrımız taştı" dedi ve orduyu yığdı. Korkuya kapılan Hafız Esad, Öcalan'ı Suriye'den kovmak zorunda kaldı ve (1998 Adana Mutabakatı ile) teröre desteği keseceğine söz verdi. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<h3>🔴 Zor Düzey (21-30)</h3>
+
+<div class="soru-blok"><span class="soru-no">Soru 21.</span>
+<p>1980 Askeri Darbesi'nden sonra hazırlanan ve 1982 yılında halk oylamasıyla (%91 evet ile) kabul edilen <strong>1982 Anayasası</strong>, yapısı gereği 1961 Anayasasından ayrılır. <br>Aşağıdakilerden hangisi 1982 Anayasasının temel felsefelerinden (özelliklerinden) biridir?</p>
+<p>A) Kişi (birey) hak ve özgürlüklerini devlet otoritesinden daha üstün tutması &nbsp; B) 1970'lerdeki terör/anarşi dönemine bir tepki olarak, <strong>Devletin (otoritenin) gücünü artırıp, temel hak ve özgürlükleri (sendika, grev vb.) kısıtlayıcı/sınırlandırıcı (Otoriter) bir yapı</strong> kurması &nbsp; C) İstiklal Mahkemelerini yeniden kurması &nbsp; D) Çift meclisli yapı (Senato) sistemini getirmesi</p>
+<p><strong>Çözüm:</strong> 1961 "Özgürlükçüdür" (ve çift meclislidir: Senato+Meclis). 1982 Anayasası (Kenan Evren dönemi) ise "Aşırı özgürlük anarşi (terör) yarattı, o zaman özgürlükleri kısıp devleti/cumhurbaşkanını çok güçlendireceğiz" felsefesiyle yazılan "Otoriter" (ve tek meclisli) anayasadır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 22.</span>
+<p>2001 Yılında Türkiye'de (Cumhurbaşkanı Ahmet Necdet Sezer ile Başbakan Bülent Ecevit arasında) Milli Güvenlik Kurulunda yaşanan "Anayasa Kitapçığı Fırlatma Kaptırması (Krizi)", ekonomide <strong>hangi sonucu</strong> (Ertesi sabah yaşanan felaketi) doğurmuştur?</p>
+<p>A) Cumhuriyet Tarihinin <strong>En Büyük Ekonomik Krizlerinden Birini (Kara Çarşamba/Şubat Krizi)</strong>; borsa çöküşü, devalüasyon ve gecelik faizlerin binlere fırlaması &nbsp; B) Enflasyonun sıfırlanmasını &nbsp; C) Avrupa Birliği'ne tam üyeliği &nbsp; D) Askeri darbe yapılmasını</p>
+<p><strong>Çözüm:</strong> 2001 Şubatı, kırılgan Türk ekonomisinin (Dış borç ve zayıf bankacılık sistemi) tek bir siyasi kavgayla (Kitapçık fırlatılması) bir gecede çöktüğü, binlerce esnafın battığı (yazar kasa fırlatma eylemleri) ve TL'nin Dolar karşısında pul olduğu krizdir. (Sonrasında Kemal Derviş ekonomiyi toparlamak için dışarıdan bakan yapılmıştır). <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 23.</span>
+<p>Avrupa Birliği (AB) üyelerinin <strong>"Sınır kapılarını (gümrük/pasaport kontrollerini) kaldırarak, AB vatandaşlarının ülkeler arasında vizesiz/pasaportsuz serbestçe seyahat edebilmesini"</strong> sağlayan (ve Türkiye'nin de girmek için yıllardır müzakere ettiği) antlaşma (bölge) adı nedir?</p>
+<p>A) NATO Bölgesi &nbsp; B) Maastricht Alanı &nbsp; C) Schengen Antlaşması (Bölgesi) &nbsp; D) Cenevre Alanı</p>
+<p><strong>Çözüm:</strong> İki Almanya arasındaki sınırları kaldırmak fikriyle başlayan Schengen (Lüksemburg kasabası) antlaşması, bugün Avrupa'da sınır kapılarını fiziken yok eden serbest dolaşım (vize) bölgesidir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 24.</span>
+<p>SSCB'nin 1991'de dağılmasının ardından "Biz bir millet, iki devletiz" felsefesiyle Türkiye'nin en yakın siyasi ve ekonomik müttefiki olan Azerbaycan Cumhuriyeti'nin, <strong>Kafkasya'da istikrarı sağlayıp petrol anlaşmalarıyla ülkeyi ayağa kaldıran (1993-2003 arası yöneten) efsanevi Ulusal Lideri</strong> kimdir?</p>
+<p>A) Ebulfez Elçibey &nbsp; B) Haydar Aliyev &nbsp; C) İlham Aliyev &nbsp; D) Nursultan Nazarbayev</p>
+<p><strong>Çözüm:</strong> Bağımsızlığı İLAN eden (1991) ilk lider Ebulfez Elçibey'dir (Ancak darbeyle devrilmiştir). Azerbaycan'ı dağılmaktan kurtaran, "Bir millet iki devlet" sözünün sahibi ve Azerbaycan'ın asıl "Ulusal (Ulu) Lideri" kabul edilen (KGB kökenli efsanevi devlet adamı) Haydar Aliyev'dir. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 25.</span>
+<p>Orta Asya (Türk) Cumhuriyetleri içinde en geniş topraklara sahip olan, başkentini Almatı'dan Astana'ya (Nursultan'a) taşıyan ve nükleer silahlarını kendi rızasıyla (Semey poligonunu kapatarak) dünya barışı için imha eden, <strong>Uzun yıllar "Nursultan Nazarbayev" tarafından yönetilen kardeş devlet</strong> hangisidir?</p>
+<p>A) Kazakistan &nbsp; B) Özbekistan &nbsp; C) Kırgızistan &nbsp; D) Türkmenistan</p>
+<p><strong>Çözüm:</strong> Dünyanın en büyük 9. ülkesi olan, doğal kaynak (uranyum/petrol) zengini ve Bilge Lider Nursultan Nazarbayev'in modern bir devlete dönüştürdüğü (Nükleeri reddeden) Türk cumhuriyeti Kazakistan'dır. <span class="cevap-dogru">Doğru cevap: A.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 26.</span>
+<p>28 Şubat (1997) sürecinde ordunun ve medyanın hedefinde olan, istifaya zorlanan <strong>REFAHYOL Hükümetinin (Koalisyonunun)</strong> ortakları hangi siyasi liderlerdi?</p>
+<p>A) Bülent Ecevit ve Devlet Bahçeli &nbsp; B) Necmettin Erbakan (Refah Partisi) ve Tansu Çiller (Doğru Yol Partisi) &nbsp; C) Turgut Özal ve Süleyman Demirel &nbsp; D) Mesut Yılmaz ve Deniz Baykal</p>
+<p><strong>Çözüm:</strong> REFAHYOL = Refah Partisi (Necmettin Erbakan - Başbakan) + Doğru Yol Partisi (Tansu Çiller - Başbakan Yardımcısı). 28 Şubat MGK kararları laiklik uyarısıyla Erbakan'ı hedef almış, hükümet istifa edince de parti Anayasa Mahkemesince kapatılmıştır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 27.</span>
+<p>Türkiye'nin uluslararası diplomaside Yunanistan ile kriz (savaş) eşiğine geldiği <strong>"Kardak Kayalıkları Krizi (1996)"</strong>, hangi Başbakanın iktidarı sırasında yaşanmış ve Türk SAT komandolarının adaya bayrak dikmesiyle (çatışmasız) sonuçlanmıştır?</p>
+<p>A) Turgut Özal &nbsp; B) Süleyman Demirel &nbsp; C) Tansu Çiller &nbsp; D) Bülent Ecevit</p>
+<p><strong>Çözüm:</strong> Bir Türk gemisinin (Figen Akat) kayalıklara oturmasıyla başlayan, Yunanistan'ın adaya bayrak dikip asker çıkarması üzerine Türkiye'nin ilk (ve tek) Kadın Başbakanı Tansu Çiller'in "O asker gidecek, o bayrak inecek!" diyerek SAT komandolarını (Ali Türkşen vb.) yan adaya gizlice sızdırıp Türk bayrağı diktirdiği krizdir. <span class="cevap-dogru">Doğru cevap: C.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 28.</span>
+<p>Türkiye Cumhuriyetinin yakın siyasi tarihinde yaşanan ve <strong>"Faili Meçhul Cinayetler" (Uğur Mumcu, Bahriye Üçok, Çetin Emeç, Eşref Bitlis) ile "Madımak Katliamı (Sivas Olayları - 1993)" ve "Başbağlar Katliamı"</strong> gibi Türkiye'yi kaosa ve mezhep çatışmasına sürüklemeye çalışan karanlık (terör/provokasyon) olayları en çok <strong>hangi 10 yıllık zaman diliminde (dönemde)</strong> yaşanmıştır?</p>
+<p>A) 1960'lı Yıllar &nbsp; B) 1990'lı Yıllar &nbsp; C) 1950'li Yıllar &nbsp; D) 2010'lu Yıllar</p>
+<p><strong>Çözüm:</strong> 1990'lar Türkiye'nin en karanlık, koalisyonlarla zayıflamış, derin devlet ve terör (PKK/Hizbullah) sarmalına girdiği, aydınların bombalı suikastlarla öldürüldüğü "Kayıp 10 yıl" olarak adlandırılır. <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 29.</span>
+<p>SSCB'nin çökmesiyle birlikte <strong>"Tarihin Sonu (The End of History)"</strong> tezini ortaya atan ve "Artık dünyada ideolojik savaşlar bitti, Amerikan (Batı) liberal demokrasisi insanlığın ulaşabileceği son noktadır ve zafer kazanmıştır" diyen ünlü siyaset bilimci kimdir?</p>
+<p>A) Samuel Huntington &nbsp; B) Francis Fukuyama &nbsp; C) Henry Kissinger &nbsp; D) Karl Marx</p>
+<p><strong>Çözüm:</strong> Fukuyama "Tarihin Sonu" tezinde komünizmin çöküşüyle liberal demokrasinin kalıcı zaferini ilan etmiştir. (Buna karşılık Huntington ise "Medeniyetler Çatışması" tezini yazıp, bundan sonra ideolojilerin değil, dinlerin/kültürlerin (İslam-Batı) savaşacağını iddia etmiştir). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<div class="soru-blok"><span class="soru-no">Soru 30.</span>
+<p>Avrupa Birliği (AB) yolunda 1999 yılında Türkiye'ye <strong>"Aday Ülke" statüsünün resmi olarak verildiği</strong> (Ecevit iktidarı dönemi) tarihi Avrupa Zirvesi hangisidir?</p>
+<p>A) Kopenhag Zirvesi &nbsp; B) Helsinki Zirvesi (1999) &nbsp; C) Lizbon Zirvesi &nbsp; D) Roma Antlaşması</p>
+<p><strong>Çözüm:</strong> 1999 Helsinki Zirvesi, Türkiye-AB ilişkilerinde kırılma noktasıdır. Türkiye diğer Doğu Avrupa ülkeleriyle aynı statüde resmen "Aday Ülke (Adaylık Statüsü)" kabul edilmiştir. (Bu statü sayesinde 2000'li yılların başında Türkiye devasa anayasa/demokrasi uyum yasaları (idamın kaldırılması vb.) çıkarmıştır). <span class="cevap-dogru">Doğru cevap: B.</span></p></div>
+
+<hr />
+<h2>13. Cevap Anahtarı ve Ayrıntılı Çözümler</h2>
+<p><em>Öğrenci Notu: İşte Tarih maratonunun sonu! SSCB yıkıldı, Azerbaycan ve diğer kardeşlerimiz bağımsız oldu (Hocalı soykırımını unutma). Onlara destek için TİKA (Kalkınma) ve TÜRKSOY (Kültür) kurduk. Avrupa Maastricht ile (AB) olurken biz Gümrük Birliğine girdik. Balkanlarda Bilge Kral (İzzetbegoviç) Srebrenitsa soykırımına direndi, Dayton ile barış geldi. Ortadoğu'da Saddam Kuveyt'e girince Körfez Savaşı patladı, ABD sınırımıza Çekiç Güç getirdi. İçeride Özal ile 24 Ocak liberalizmine açıldık, 90'larda ise koalisyonlar, ekonomik krizler, 28 Şubat post-modern darbesi (Erbakan/Çiller) ve Uğur Mumcu'lu Sivas olaylı o "Karanlık Yılları" yaşadık. Artık KPSS için tüm siyasi/küresel yapboz tamamlandı! Başarılar.</em></p>
+`,
   },
 ] as const;

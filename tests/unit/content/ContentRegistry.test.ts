@@ -78,7 +78,7 @@ describe('ContentRegistry', () => {
 
   it('should have exactly 70 built topics', () => {
     const builtCount = ALL_TOPICS.filter((t) => t.built).length;
-    expect(builtCount).toBe(70);
+    expect(builtCount).toBe(87);
   });
 
   it('category topicCount should match actual data', () => {
